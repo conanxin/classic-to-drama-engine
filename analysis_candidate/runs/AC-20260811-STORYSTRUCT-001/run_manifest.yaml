@@ -1,0 +1,100 @@
+artifact_class: analysis_candidate
+authority: non_authoritative
+run_id: AC-20260811-STORYSTRUCT-001
+phase: Phase 2-C
+task: story_structure_extraction
+
+source_id: ODY-ENG-MURRAY1919
+source_snapshot_id: SS-ODY-ENG-MURRAY1919-790C8428-DDA5B206-V1
+snapshot:
+  fixed_upstream_commit: 790c84289edbdbe289dd7b752bfea29f0af4299d
+  expected_sha256: dda5b206e332e56c570c1d92ea41e9a510339a454bc2ea90491788e34174a7e7
+  sha256_reverified_this_run: false
+  raw_path: source/translations/en/ody-eng-murray1919/raw/ody-eng-murray1919__raw__full.xml
+  file_size_bytes_observed: 870905
+  native_locator_scheme: book.card
+
+task_scope:
+  task_scope_id: TS-STORYSTRUCT-BOOK01-V1
+  source_language: English
+  allowed_books:
+    - "1"
+  max_books: 1
+  max_cards: 24
+  greek_raw_allowed: false
+
+authorization:
+  status: candidate_run_authorized_for_single_attempt
+  authorization_basis: explicit Phase 2-C execution instruction in the current user turn
+  authorized_date: "2026-08-11"
+  authorized_run_id: AC-20260811-STORYSTRUCT-001
+  authorized_source_id: ODY-ENG-MURRAY1919
+  authorized_snapshot: 790c84289edbdbe289dd7b752bfea29f0af4299d
+  formal_phase_2_authorized: false
+  english_formal_source_approval_changed: false
+  greek_gate_changed: false
+
+execution:
+  reported_at: "2026-08-11T01:01:06-07:00"
+  reporting_status: BLOCKED_SCOPE_ENFORCEMENT_FAILED
+  execution_result: invalidated
+  blocker_code: book_one_container_not_recognized_before_eof
+  structure_preflight_only: true
+  story_structure_extraction_started: false
+  model_invocations: 0
+  automatic_retries: 0
+  retry_under_same_run_id_allowed: false
+
+observed_access:
+  english_raw_open_count: 1
+  english_raw_bytes_returned_to_parser: 870905
+  english_book_one_container_recognized: false
+  english_card_locators_extracted: 0
+  english_card_texts_extracted: 0
+  book_one_only_read: false
+  greek_raw_open_count: 0
+  greek_raw_parse_count: 0
+  greek_raw_copy_count: 0
+  greek_model_injection_count: 0
+
+candidate_marking:
+  formal_phase_2_input: false
+  candidate_output_promotable: false
+  downstream_consumption_allowed: false
+
+acceptance:
+  greek_access_zero: pass
+  book_one_only: fail
+  max_24_cards: blocked_no_cards_accepted
+  output_path_correct: pass
+  candidate_non_authoritative: pass
+  prohibited_outputs_absent: pass
+  overall: BLOCKED
+
+expected_outputs:
+  - path: analysis_candidate/runs/AC-20260811-STORYSTRUCT-001/run_manifest.yaml
+    status: created
+  - path: analysis_candidate/runs/AC-20260811-STORYSTRUCT-001/story_structure.yaml
+    status: not_created
+    reason: extraction_not_started_after_scope_enforcement_failure
+  - path: analysis_candidate/runs/AC-20260811-STORYSTRUCT-001/execution_report.md
+    status: created
+
+artifact_inventory:
+  - path: analysis_candidate/runs/AC-20260811-STORYSTRUCT-001/run_manifest.yaml
+    size_bytes: null
+    sha256: null
+    reason: self_reference
+  - path: analysis_candidate/runs/AC-20260811-STORYSTRUCT-001/execution_report.md
+    size_bytes: 3922
+    sha256: 33ce7aa4f0518278fc20fb0538c0d2f7393798f2abacae37eef7a1c03ab704b0
+
+prohibited_outputs_created:
+  greek_derived_outputs: 0
+  character_databases: 0
+  event_databases: 0
+  theme_databases: 0
+  adaptation_plans: 0
+  screenplays: 0
+  normalized_or_alignment_files: 0
+  formal_analysis_outputs: 0

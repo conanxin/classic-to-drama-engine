@@ -1,0 +1,37 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T24-CAS-CRASH-AFTER-CAS-BEFORE-MINT
+requirement_group: RCPT-T24-CAS-CRASH
+attempt_id: RCPT-20260811-270
+grant_id: GRANT-RCPT-20260811-270
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: PASS_CAS_CRASH_SPENT_NO_MINT
+actual_component_result: PASS_CAS_CRASH_SPENT_NO_MINT
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 1
+  capabilities: 0
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: da99ab26b4744b6b80a82c0c1634d3dff10dc8bd7b5a6a0a194edc4d29351541
+closure_attestation_sha256: 5a23a5685dade8fcdbc16bddab9e9098fd231a1fd54114c968351f65980293cf
+blockers: []

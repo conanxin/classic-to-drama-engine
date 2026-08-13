@@ -1,0 +1,39 @@
+schema_version: "1.0.0"
+artifact_class: "synthetic_structure_fixture_recipe"
+generator_id: "ctde-synthetic-structure-fixture"
+generator_version: "1.0.0"
+seed: "RCPTS-20260811-001"
+environment: "prototype_fixture_only"
+contains_literary_content: false
+contains_odyssey_text: false
+production_source_binding_allowed: false
+offset_unit: "raw_utf8_bytes"
+interval_kind: "zero_based_half_open"
+zones:
+  - name: "prefix_deny"
+    start_byte: 0
+    end_byte_exclusive: 4076
+    marker: "PREFIX_DENY_SENTINEL"
+  - name: "book1_allowed"
+    start_byte: 4076
+    end_byte_exclusive: 36515
+    length: 32439
+    book_markers: 1
+    card_markers: 10
+    paragraph_markers: 10
+    includes_safe_utf8_multibyte_marker: true
+  - name: "book2_suffix_deny"
+    start_byte: 36515
+    length: 4096
+    marker: "BOOK_02_DENY_SENTINEL"
+greek_deny_object:
+  actually_created_in_ephemeral_fixture_store: true
+  broker_catalogued: false
+  consumer_mounted: false
+  marker: "FIXTURE_GREEK_DENY"
+persistence:
+  full_fixture_bytes: "ephemeral_only"
+  book1_slice_bytes: "sealed_memory_only"
+  greek_fixture_bytes: "ephemeral_only"
+  persistent_artifacts: "recipe, size, digests, events, attestations only"
+

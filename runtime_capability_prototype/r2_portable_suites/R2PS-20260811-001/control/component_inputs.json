@@ -1,0 +1,66 @@
+{
+  "components": [
+    {
+      "path": "contracts/authorization_schema_v2.yaml",
+      "sha256": "f1d7c2e36e0d3072624609591eb8dfc20d0e42dce6accc8e87de730ec4478e33"
+    },
+    {
+      "path": "contracts/authorization_registry_record_schema_v2.yaml",
+      "sha256": "4f5241697c987fbefb4531f61e85b010332b988062ee02c83ba2052e5c1c31be"
+    },
+    {
+      "path": "contracts/authorization_registry_event_schema_v2.yaml",
+      "sha256": "16dc8fec0ab7c1ae152781f7ec177c6679ca4a52a465254f0c98a122c8a59bea"
+    },
+    {
+      "path": "contracts/r2_portable_controller_terminal_schema_v1.yaml",
+      "sha256": "7b2a983750a903e43489854750d56d4f6fee31a8fb541615d8247e2bf90454ac"
+    },
+    {
+      "path": "contracts/capability_claims_schema_v2.yaml",
+      "sha256": "3f872d00524c683ff93a9a8c3e02b63cc1f40da4bec72bb1289887cc0bca06bf"
+    },
+    {
+      "path": "contracts/broker_envelope_schema_v2.yaml",
+      "sha256": "c7b8ff11745d607b1511b4f7a11c7944896b9f2f1383e0ccbadda89f0ef91010"
+    },
+    {
+      "path": "contracts/audit_attestation_schema_v2.yaml",
+      "sha256": "9728fa6fb64ebfbc1cb260e6986f2d1947fc340445d515e27880e419d0d16da3"
+    },
+    {
+      "path": "runtime/ctde_runtime/authorization_v2.py",
+      "sha256": "5359cf7289e130f8a3c4228dd6d4c8b0e961ef9da716c05a78169191d571ba4d"
+    },
+    {
+      "path": "runtime/ctde_runtime/authorization_registry.py",
+      "sha256": "e6ee8923c1c05c1ebdf04106fed659d40b8d394f6cbca4688d437dd58ee446af"
+    },
+    {
+      "path": "runtime/ctde_runtime/range_broker.py",
+      "sha256": "ef2be994b82f10f025411e1d074cda3d0336e352f063bb9162edbcaed105958a"
+    },
+    {
+      "path": "runtime/ctde_runtime/bounded_reader.py",
+      "sha256": "65c8f0a3af625c505fcdc05f7a754075e4829d2183931d71fa8c4dfdbf46f68c"
+    },
+    {
+      "path": "runtime/ctde_runtime/read_audit.py",
+      "sha256": "b5c8a9210c4f9f295351b32e3f2a5e310ad0531720ff886a9d84385ec1ab6b4d"
+    },
+    {
+      "path": "runtime/ctde_runtime/events.py",
+      "sha256": "808115293ec818eedd926e4ef63869a7d5f9eeb1dca26a6902c12850b4e7fd15"
+    },
+    {
+      "path": "runtime/build_r2_portable_manifest.py",
+      "sha256": "8f75e72d33d3c1cabf2bce866eac9fb44aec5775c68127576073ce510498828c"
+    },
+    {
+      "path": "runtime/run_r2_portable.py",
+      "sha256": "ec1c86ed0f89a76b497dc9d48ff4fc092c5ff1e78d84fb3dff407a9040a4ca75"
+    }
+  ],
+  "manifest_sha256": "a8f712657b05eb2ea4a55719a664585c0f0754e07709f11ee2683cb130abcd76",
+  "suite_id": "R2PS-20260811-001"
+}

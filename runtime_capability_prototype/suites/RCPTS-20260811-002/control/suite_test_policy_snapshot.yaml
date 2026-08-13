@@ -1,0 +1,11 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_suite_test_policy_snapshot
+suite_id: RCPTS-20260811-002
+frozen_before_attempts: true
+manifest_file_sha256: 42799e6f56802248a467af0f06b539a817ec7ae224dd91e974ad3157f669a7bf
+manifest_leaf_count_by_enumeration: 197
+requirement_group_count_by_enumeration: 37
+test_policy_file_sha256: e22ecb855287bf2761765190e143947dae2781e73a681be2ba5d0f3da093cc7f
+fixture_recipe_file_sha256: a4af84dce3d82604ff7e007ecd7e19ff48fda4b2257e31acaf530a953c8384e1
+candidate_runs_executed: 0
+model_invocations_allowed: 0

@@ -1,0 +1,107 @@
+schema_version: c2d.source-record.v1
+
+source_id: ODY-GRC-MURRAY1919
+title: Ὀδύσσεια
+author: Homer (traditional attribution)
+edition: A. T. Murray, editor; William Heinemann / G. P. Putnam's Sons, 1919; CTS version perseus-grc2
+language: grc
+provider: Perseus Digital Library / Scaife ATLAS; distributed by PerseusDL/canonical-greekLit
+url: https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/790c84289edbdbe289dd7b752bfea29f0af4299d/data/tlg0012/tlg002/tlg0012.tlg002.perseus-grc2.xml
+access_date: "2026-08-10"
+license: CC-BY-SA-4.0
+file_type: tei_xml
+intended_usage: canonical_anchor
+status: acquired
+checksum: sha256:184fa4fc598f0cd9d2964b17eaabe36bd9c61d44c2eae264c4b016feacf28530
+
+file_id: ODY-GRC-MURRAY1919-RAW-FULL-TEI
+file_path: original_text/grc/ody-grc-murray1919/raw/ody-grc-murray1919__raw__full.xml
+media_type: application/tei+xml
+bytes: 1560139
+role: canonical_anchor
+state: raw
+retrieved_at: "2026-08-10T07:38:15-07:00"
+canonical_url: https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-grc2/
+
+identity:
+  cts_urn: urn:cts:greekLit:tlg0012.tlg002.perseus-grc2
+  citation_scheme: book.line
+
+contributors:
+  translator: null
+  editor: Augustus Taber Murray
+  encoder: Perseus Digital Library
+
+provider_identity:
+  repository: https://github.com/PerseusDL/canonical-greekLit
+  upstream_commit: 790c84289edbdbe289dd7b752bfea29f0af4299d
+  upstream_path: data/tlg0012/tlg002/tlg0012.tlg002.perseus-grc2.xml
+  git_blob_sha: f38f5f238d665eafb9c6878b11283822ed418a07
+
+derivation:
+  inputs: []
+  transformation_log_ref: null
+
+rights_note: Repository README at the pinned commit applies CC BY-SA 4.0 unless otherwise indicated; the target TEI header contains no file-specific licence override.
+
+known_issues:
+  - issue_id: PERSEUS-1652
+    url: https://github.com/PerseusDL/canonical-greekLit/issues/1652
+    upstream_status: open
+    classification: source_edition_omission
+    affected_locators:
+      - "10.456"
+      - "23.49"
+    blocks_byte_identity: false
+  - issue_id: PERSEUS-1655
+    url: https://github.com/PerseusDL/canonical-greekLit/issues/1655
+    upstream_status: open
+    classification: source_edition_omission
+    affected_locators:
+      - "23.49"
+    blocks_byte_identity: false
+  - issue_id: LOCAL-STRUCTURE-B03-ORDER
+    classification: non_monotonic_line_locator_order
+    observed_sequence:
+      - 303
+      - 305
+      - 304
+      - 306
+    blocks_verification: true
+  - issue_id: LOCAL-STRUCTURE-B14-ORDER
+    classification: non_monotonic_line_locator_order
+    observed_sequence:
+      - 62
+      - 64
+      - 63
+      - 65
+    blocks_verification: true
+  - issue_id: LOCAL-STRUCTURE-B16-GAP
+    classification: unclassified_line_locator_gap
+    missing_locator: "16.101"
+    blocks_verification: true
+
+verification:
+  status: verification_failed
+  checked_at: "2026-08-10T07:38:15-07:00"
+  checks:
+    file_exists_nonempty: pass
+    remote_and_local_byte_count_match: pass
+    git_blob_identity_match: pass
+    html_or_error_page_absent: pass
+    xml_parse: pass
+    declared_encoding_strict_decode: pass
+    tei_root_namespace: pass
+    title_author_editor_edition_identity: pass
+    cts_urn_exact_match: pass
+    language_grc: pass
+    book_count_24: pass
+    book_sequence_1_through_24: pass
+    citation_scheme_book_line: pass
+    positive_integer_line_locators: pass
+    unique_line_locators_within_book: pass
+    monotonic_line_locator_order: fail
+    all_line_gaps_classified: fail
+    sha256_record_match: pass
+
+record_status: draft

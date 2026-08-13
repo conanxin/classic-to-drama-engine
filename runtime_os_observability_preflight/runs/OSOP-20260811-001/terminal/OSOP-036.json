@@ -1,0 +1,15 @@
+{
+  "available": false,
+  "blocker": "COMPLETE_OS_EVIDENCE_NOT_INDEPENDENT_OF_BROKER",
+  "capability_id": "OSOP-036",
+  "details": {},
+  "evidence_artifact": [
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json",
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/evidence_tamper.json"
+  ],
+  "evidence_level": "A0",
+  "probe_run_id": "OSOP-20260811-001-OSOP-036",
+  "result": "FAIL",
+  "started_at": "2026-08-11T13:02:27.569905Z",
+  "terminal_at": "2026-08-11T13:02:27.569907Z"
+}

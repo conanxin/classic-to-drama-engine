@@ -1,0 +1,38 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T05-AUTH-REPLAY-EVENT-REPLAY
+requirement_group: RCPT-T05-AUTH-REPLAY
+attempt_id: RCPT-20260811-206
+grant_id: GRANT-RCPT-20260811-206
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_TEST_AUTHORIZATION_SPENT
+actual_component_result: BLOCKED_TEST_AUTHORIZATION_SPENT
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 93034a3998b392947931eff0a5a69514ccdc262332a2c7f8656274ad64a1d786
+closure_attestation_sha256: f1d67e82f509e2495d53d7aa5bb9f1fbb41ae060a1f50293fe5cbc5fc66805a6
+blockers:
+- 'BLOCKED_TEST_AUTHORIZATION_SPENT: mint lease replay'

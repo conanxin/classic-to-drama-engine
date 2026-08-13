@@ -1,0 +1,14 @@
+{
+  "available": true,
+  "blocker": "",
+  "capability_id": "OSOP-002",
+  "details": {},
+  "evidence_artifact": [
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/environment.json"
+  ],
+  "evidence_level": "A2",
+  "probe_run_id": "OSOP-20260811-001-OSOP-002",
+  "result": "PASS",
+  "started_at": "2026-08-11T13:02:27.567842Z",
+  "terminal_at": "2026-08-11T13:02:27.567844Z"
+}

@@ -1,0 +1,59 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:ctde:schema:r3g07-public-trust-test-manifest:1"
+title: "CTDE R3G-07 Public Trust Test Manifest V1"
+type: object
+additionalProperties: false
+required: [artifact_class, schema_version, suite_id, assurance_profile_id, highest_claimed_evidence_level, synthetic_only, requirements_sha256, fixture_catalog_sha256, input_digests, leaf_count, leaves]
+$defs:
+  sha256:
+    type: string
+    pattern: "^[0-9a-f]{64}$"
+  id:
+    type: string
+    pattern: "^[A-Za-z0-9][A-Za-z0-9._:/-]{0,127}$"
+properties:
+  artifact_class: {const: "ctde_r3g07_public_trust_test_manifest"}
+  schema_version: {const: "1.0.0"}
+  suite_id: {const: "R3G07PS-20260812-001"}
+  assurance_profile_id: {const: "CTDE-PORTABLE-DEV-1"}
+  highest_claimed_evidence_level: {const: "A1"}
+  synthetic_only: {const: true}
+  requirements_sha256: {$ref: "#/$defs/sha256"}
+  fixture_catalog_sha256: {$ref: "#/$defs/sha256"}
+  input_digests:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      additionalProperties: false
+      required: [path, sha256, classification]
+      properties:
+        path: {type: string, minLength: 1}
+        sha256: {$ref: "#/$defs/sha256"}
+        classification: {enum: [runtime_contract, runtime_asset, runtime_implementation, test_contract, test_fixture, test_secret, caller]}
+  leaf_count: {type: integer, minimum: 1}
+  leaves:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      additionalProperties: false
+      required: [leaf_id, requirement_group_id, scenario, caller_id, input_identity_sha256, expected_result, expected_blocker, side_effect_ceiling]
+      properties:
+        leaf_id: {$ref: "#/$defs/id"}
+        requirement_group_id: {type: string, pattern: "^PT-[0-9]{2}$"}
+        scenario: {$ref: "#/$defs/id"}
+        caller_id: {type: [string, "null"]}
+        input_identity_sha256: {$ref: "#/$defs/sha256"}
+        expected_result: {const: "PASS"}
+        expected_blocker: {type: [string, "null"]}
+        side_effect_ceiling:
+          type: object
+          additionalProperties: false
+          required: [source_reads, path_actions, fd_actions, model_calls, business_outputs]
+          properties:
+            source_reads: {const: 0}
+            path_actions: {const: 0}
+            fd_actions: {const: 0}
+            model_calls: {const: 0}
+            business_outputs: {const: 0}

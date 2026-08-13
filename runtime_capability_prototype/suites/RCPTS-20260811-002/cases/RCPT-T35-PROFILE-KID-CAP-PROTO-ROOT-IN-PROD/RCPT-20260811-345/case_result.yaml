@@ -1,0 +1,37 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T35-PROFILE-KID-CAP-PROTO-ROOT-IN-PROD
+requirement_group: RCPT-T35-PROFILE-KID
+attempt_id: RCPT-20260811-345
+grant_id: GRANT-RCPT-20260811-345
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_SIGNED_OBJECT_PROFILE_INVALID
+actual_component_result: BLOCKED_SIGNED_OBJECT_PROFILE_INVALID
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 37111487dd1f1e8bb13bb0ae0353e0e2a4de63294073269803c363c6f39136d2
+closure_attestation_sha256: ffdc02b58de5666bde5f6133706e8c977b47df35898cd73b68a4eb35b506a70c
+blockers: []

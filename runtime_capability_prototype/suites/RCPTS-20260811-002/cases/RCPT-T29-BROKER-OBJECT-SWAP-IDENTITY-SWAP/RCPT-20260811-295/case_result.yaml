@@ -1,0 +1,38 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T29-BROKER-OBJECT-SWAP-IDENTITY-SWAP
+requirement_group: RCPT-T29-BROKER-OBJECT-SWAP
+attempt_id: RCPT-20260811-295
+grant_id: GRANT-RCPT-20260811-295
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_SOURCE_OBJECT_NOT_IMMUTABLE
+actual_component_result: BLOCKED_SOURCE_OBJECT_NOT_IMMUTABLE
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 6a85f4b61b3d6522d9894cf32b131bae67740abbf34a2f36b09162d03c8f0790
+closure_attestation_sha256: a61e1407120eb279c4f0323ce530476572011627f79aba81d9298139a0270fbc
+blockers:
+- BLOCKED_SOURCE_OBJECT_NOT_IMMUTABLE

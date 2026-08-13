@@ -1,0 +1,37 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T20-FORMAL-DISCOVERY-CANDIDATE-PREFIXED
+requirement_group: RCPT-T20-FORMAL-DISCOVERY
+attempt_id: RCPT-20260811-241
+grant_id: null
+authorization_absent: true
+authorization_absent_reason: manifest_case_requires_no_grant
+expected_component_result: PASS_FORMAL_EXCLUDED
+actual_component_result: PASS_FORMAL_EXCLUDED
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: F
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 0
+  capabilities: 0
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 8bc6eb05c13c4061ea44735aaae9aa6f526c7d5b0889ef96f957a2e6290937d2
+closure_attestation_sha256: 4782c449e739403d89d08440516b8ecb3348c9b9ba035983aa51545c65b6f6c8
+blockers: []

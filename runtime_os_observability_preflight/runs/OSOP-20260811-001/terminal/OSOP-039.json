@@ -1,0 +1,21 @@
+{
+  "available": false,
+  "blocker": "CANDIDATE_MODEL_BUSINESS_ZERO_COUNTS_A2_UNKNOWN",
+  "capability_id": "OSOP-039",
+  "details": {
+    "a2_verified_counts": null,
+    "controller_logical_counts": {
+      "business_outputs": 0,
+      "candidate_runs": 0,
+      "model_calls": 0
+    }
+  },
+  "evidence_artifact": [
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json"
+  ],
+  "evidence_level": "A0",
+  "probe_run_id": "OSOP-20260811-001-OSOP-039",
+  "result": "UNKNOWN",
+  "started_at": "2026-08-11T13:02:27.570092Z",
+  "terminal_at": "2026-08-11T13:02:27.570094Z"
+}

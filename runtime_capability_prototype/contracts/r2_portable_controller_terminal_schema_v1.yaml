@@ -1,0 +1,49 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:ctde:schema:r2-portable-controller-terminal:1"
+title: "CTDE R2 Portable Controller Terminal Record V1"
+type: object
+additionalProperties: false
+required: [controller_terminal_schema_version, controller_terminal_id, controller_id, controller_version, controller_binary_sha256, controller_key_id, controller_event_canonicalization_id, signature_domain, suite_id, manifest_sha256, test_attempt_id, consume_operation_id, registry_operation_id, registry_event_id, authorization_id, run_id, assurance_profile_id, authorization_artifact_sha256, observed_consumption_state, observed_mint_eligibility_state, observed_capability_preparation_state, observed_capability_activation_state, state_version, mint_claimed, mint_claim_event_id, pending_capability_id, pending_capability_artifact_sha256, capability_preparation_event_id, active_capability_id, capability_activation_event_id, signed_runtime_writer_status, fault_injection_id, injected_crash_point, process_exit_observation, pending_capability_disposition, result, blocker, controller_sequence, previous_controller_event_sha256, controller_recorded_at, signature_algorithm, signature]
+properties:
+  controller_terminal_schema_version: {const: "1.0.0"}
+  controller_terminal_id: {type: string}
+  controller_id: {const: "CTDE-R2P-CONTROLLER-1"}
+  controller_version: {const: "1.0.0"}
+  controller_binary_sha256: {type: string, pattern: "^[0-9a-f]{64}$"}
+  controller_key_id: {const: "CTDE-R2P-TEST-KEY-1"}
+  controller_event_canonicalization_id: {const: "CTDE-R2P-CONTROLLER-JCS-1"}
+  signature_domain: {const: "CTDE-R2P-CONTROLLER-TERMINAL-V1"}
+  suite_id: {type: string}
+  manifest_sha256: {type: string}
+  test_attempt_id: {type: string}
+  consume_operation_id: {type: [string, "null"]}
+  registry_operation_id: {type: [string, "null"]}
+  registry_event_id: {type: [string, "null"]}
+  authorization_id: {type: [string, "null"]}
+  run_id: {type: [string, "null"]}
+  assurance_profile_id: {type: [string, "null"]}
+  authorization_artifact_sha256: {type: [string, "null"]}
+  observed_consumption_state: {type: string}
+  observed_mint_eligibility_state: {type: string}
+  observed_capability_preparation_state: {type: string}
+  observed_capability_activation_state: {type: string}
+  state_version: {type: [integer, "null"]}
+  mint_claimed: {type: [boolean, "null"]}
+  mint_claim_event_id: {type: [string, "null"]}
+  pending_capability_id: {type: [string, "null"]}
+  pending_capability_artifact_sha256: {type: [string, "null"]}
+  capability_preparation_event_id: {type: [string, "null"]}
+  active_capability_id: {type: [string, "null"]}
+  capability_activation_event_id: {type: [string, "null"]}
+  signed_runtime_writer_status: {enum: [available_success, unavailable, failed, not_reached]}
+  fault_injection_id: {type: [string, "null"]}
+  injected_crash_point: {enum: [after_consume_before_lease, after_lease_before_preparation, after_preparation_before_activation, null]}
+  process_exit_observation: {enum: [not_injected, injected_exit_observed, injected_exit_not_observed]}
+  pending_capability_disposition: {enum: [not_created, candidate_destroyed_not_registered, prepared_row_aborted_token_destroyed, prepared_row_stranded_handle_lost, activated]}
+  result: {enum: [accepted, rejected, blocked]}
+  blocker: {type: [string, "null"]}
+  controller_sequence: {type: integer, minimum: 0}
+  previous_controller_event_sha256: {type: string, pattern: "^[0-9a-f]{64}$"}
+  controller_recorded_at: {type: string}
+  signature_algorithm: {const: Ed25519}
+  signature: {type: string}

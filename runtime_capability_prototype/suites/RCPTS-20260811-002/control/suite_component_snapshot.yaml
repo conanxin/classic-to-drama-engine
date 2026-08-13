@@ -1,0 +1,89 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_suite_component_snapshot
+suite_id: RCPTS-20260811-002
+frozen_before_attempts: true
+deterministic_test_clock: 1786464000
+component_digests:
+  authorization_registry: 26dc60926826db207cace0e871d15b587032d4cb3e861c111415d0819707ea82
+  range_broker: 19aaaef83c92d871467a5e463581cc574b6b419f85a9a6ac9086f27868f76b26
+  bounded_reader: c49bd965a40e52120207192fe082dc9737b565253dd4cfe62fc200a1a9cf1a99
+  formal_loader: eb866084c8dc95c52b28118a2669314559d165e6b949cb0ff7edeb111c10e11d
+  read_audit: 735d25ff6ff41c6b77538daf1d27550d76211c20098a99a4246b5c91eb662b8b
+  signed_event_log: 84d05a5c49bdf7e66f9cd68a3941e18b2577420479acf5389c69f1e6852322ac
+  signed_profiles: 5c41a1601b9824715d17ae416513646575006a9207dedd26bb2036336e66cc36
+  fixture_controller: c40aef7040c808b68a7f315ec7051cdbbe7424dbc2a62e4bce6278e08743519b
+  sandbox_supervisor: c60aca6b25e933a12e37862c55df8ae8472dca55f03b0ceb871cbcd8eaf8a9d1
+  sandbox_probe_source: f4057def41b265723538eb28aa7a9e3172536d44de5a54d276fedf3df1aad3fb
+  sandbox_probe_binary: f1f4849e078169d14ae18c91a5469b171534479dd8255de359f588ca1b475c80
+  suite_runner: caf32bdb9c49ba78ee1671d41b62bc9eb8297343624ceb7afd562443a6794749
+key_records:
+- kid: rcpts-capability-active
+  issuer: ctde-prototype-capability-issuer
+  status: active
+  trust_domain: prototype
+  not_before: 1786463940
+  expires_at: 1786550400
+  public_key_ed25519_hex: f79d95e4096aa69b84fe63d8ee24fdb77a4551e8f29e3e772242fd77f64c4bd5
+  private_key_persisted: false
+- kid: rcpts-broker-active
+  issuer: ctde-prototype-range-broker
+  status: active
+  trust_domain: prototype
+  not_before: 1786463940
+  expires_at: 1786550400
+  public_key_ed25519_hex: 02f9d8bd706b5c2b84f57a32029e2abebe2fdd721a43f4dd0bf595f38815cc2b
+  private_key_persisted: false
+- kid: rcpts-observer-active
+  issuer: ctde-prototype-audit-observer
+  status: active
+  trust_domain: prototype
+  not_before: 1786463940
+  expires_at: 1786550400
+  public_key_ed25519_hex: 1bdc439e9feaf2b35ab1b0f7f9e38fda9c9f531e2356e2a157786ef28e8d66c6
+  private_key_persisted: false
+- kid: rcpts-audit-active
+  issuer: ctde-prototype-audit-aggregator
+  status: active
+  trust_domain: prototype
+  not_before: 1786463940
+  expires_at: 1786550400
+  public_key_ed25519_hex: 2b97f5391ec5925f41858db8b72041a8e75e6177f54d7e50361c4a64f4815730
+  private_key_persisted: false
+- kid: rcpts-formal-active
+  issuer: ctde-prototype-formal-control
+  status: active
+  trust_domain: prototype
+  not_before: 1786463940
+  expires_at: 1786550400
+  public_key_ed25519_hex: dcfb240d9b437a8bb95f33596e634104bdfb49f6ac9fdd16e5c6b623336b0215
+  private_key_persisted: false
+- kid: rcpts-revoked
+  issuer: ctde-prototype-revoked
+  status: revoked
+  trust_domain: prototype
+  not_before: 1786463940
+  expires_at: 1786550400
+  public_key_ed25519_hex: 25bdc66825c77512015ca2d87e58590ac320b66862e8d0a70a7d96481fe686bb
+  private_key_persisted: false
+- kid: rcpts-expired
+  issuer: ctde-prototype-expired
+  status: active
+  trust_domain: prototype
+  not_before: 1786377600
+  expires_at: 1786463999
+  public_key_ed25519_hex: 9d82192bfe2aae4d4874e5b486ad0c8e625ea7f2b161ff9baf55a1d806294524
+  private_key_persisted: false
+- kid: synthetic-production-root
+  issuer: ctde-synthetic-production
+  status: active
+  trust_domain: synthetic_production_test_only
+  not_before: 1786463940
+  expires_at: 1786550400
+  public_key_ed25519_hex: b9da82677310849845a15ceeb7bb95cd17eb3f3da5e9fa87e50f25f7b5a4c084
+  private_key_persisted: false
+signed_profiles:
+  capability: CTDE-CAPABILITY-JWS-1
+  broker_envelope: CTDE-BROKER-ENVELOPE-JWS-1
+  audit_attestation: CTDE-AUDIT-ATTESTATION-JWS-1
+  algorithm: EdDSA
+  profile_version: 1

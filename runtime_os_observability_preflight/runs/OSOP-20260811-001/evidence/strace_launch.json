@@ -1,0 +1,43 @@
+{
+  "command": {
+    "argv": [
+      "/usr/bin/strace",
+      "-ff",
+      "-qq",
+      "-o",
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_launch.trace",
+      "-e",
+      "trace=all",
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+      "single-open",
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic"
+    ],
+    "duration_ns": 2269768,
+    "returncode": 1,
+    "started_at": "2026-08-11T13:02:26.807122Z",
+    "stderr": "/usr/bin/strace: test_ptrace_get_syscall_info: PTRACE_TRACEME: Operation not permitted\n/usr/bin/strace: ptrace(PTRACE_TRACEME, ...): Operation not permitted\n/usr/bin/strace: PTRACE_SETOPTIONS: Operation not permitted\n/usr/bin/strace: cleanup: waitpid(-1, __WALL): No child processes\n",
+    "stdout": "",
+    "terminal_at": "2026-08-11T13:02:26.809389Z",
+    "timed_out": false
+  },
+  "executable": "/usr/bin/strace",
+  "summary": {
+    "allowed_path_mentions": 0,
+    "files": [
+      {
+        "line_count": 0,
+        "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_launch.trace.22",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      }
+    ],
+    "has_allowed_open": false,
+    "has_network": false,
+    "has_process_events": false,
+    "has_read": false,
+    "has_write_path": false,
+    "reference_path_mentions": 0,
+    "trace_bytes": 0,
+    "trace_file_count": 1
+  }
+}

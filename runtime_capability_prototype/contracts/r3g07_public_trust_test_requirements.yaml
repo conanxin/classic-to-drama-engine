@@ -1,0 +1,110 @@
+schema_version: "1.0.0"
+artifact_class: "ctde_r3g07_public_trust_test_requirements"
+suite_id: "R3G07PS-20260812-001"
+assurance_profile_id: "CTDE-PORTABLE-DEV-1"
+highest_claimed_evidence_level: "A1"
+synthetic_only: true
+source_open_allowed: false
+candidate_allowed: false
+model_calls_allowed: false
+business_outputs_allowed: false
+requirement_groups:
+  - requirement_group_id: "PT-01"
+    required_behavior: "trusted active test-shadow key accepted by exact loader code and JWSCodec.verify"
+    scenarios: [active_signature_accepted]
+  - requirement_group_id: "PT-02"
+    required_behavior: "unknown kid rejected"
+    scenarios: [unknown_kid_rejected]
+  - requirement_group_id: "PT-03"
+    required_behavior: "revoked key rejected"
+    scenarios: [revoked_key_rejected]
+  - requirement_group_id: "PT-04"
+    required_behavior: "expired status and validity-window expiry rejected"
+    scenarios: [expired_status_rejected, expired_window_rejected]
+  - requirement_group_id: "PT-05"
+    required_behavior: "disabled key rejected"
+    scenarios: [disabled_key_rejected]
+  - requirement_group_id: "PT-06"
+    required_behavior: "not-yet-valid key rejected"
+    scenarios: [not_yet_valid_rejected]
+  - requirement_group_id: "PT-07"
+    required_behavior: "wrong algorithm or trust domain rejected"
+    scenarios: [wrong_algorithm_rejected, wrong_domain_rejected]
+  - requirement_group_id: "PT-08"
+    required_behavior: "public material exact bytes or raw-key digest tamper rejected"
+    scenarios: [material_noncanonical_tamper_rejected, raw_key_digest_tamper_rejected]
+  - requirement_group_id: "PT-09"
+    required_behavior: "status registry bytes or material-digest link tamper rejected"
+    scenarios: [status_noncanonical_tamper_rejected, status_material_link_tamper_rejected]
+  - requirement_group_id: "PT-10"
+    required_behavior: "wrong trust identity, duplicate kid or unequal material/status key set rejected"
+    scenarios: [wrong_trust_identity_rejected, duplicate_kid_rejected, key_set_mismatch_rejected]
+  - requirement_group_id: "PT-11"
+    required_behavior: "loader file, callable or input identity mismatch rejected"
+    scenarios: [loader_input_identity_mismatch_rejected]
+  - requirement_group_id: "PT-12"
+    required_behavior: "each actual caller wrong or shared-codec binding mismatch rejected"
+    scenarios: [caller_binding_mismatch_rejected]
+  - requirement_group_id: "PT-13"
+    required_behavior: "deterministic lookup and freeze identity reproducible across repeated loads"
+    scenarios: [deterministic_lookup_reproducible]
+  - requirement_group_id: "PT-14"
+    required_behavior: "consumer cannot provide path, bytes, dict, store, environment or network trust input"
+    scenarios: [consumer_input_prohibited]
+  - requirement_group_id: "PT-15"
+    required_behavior: "JWS artifact kid cannot embed or self-select untrusted public material"
+    scenarios: [artifact_self_selected_key_rejected]
+  - requirement_group_id: "PT-16"
+    required_behavior: "test-only private seed excluded from runtime, public assets, evidence, aggregate and report"
+    scenarios: [test_private_exclusion_proven]
+  - requirement_group_id: "PT-17"
+    required_behavior: "noncanonical JSON, duplicate key, unknown field, BOM, float and wrong profile rejected"
+    scenarios: [noncanonical_json_rejected, duplicate_json_key_rejected, unknown_field_rejected, bom_rejected, float_rejected, wrong_profile_rejected]
+  - requirement_group_id: "PT-18"
+    required_behavior: "RangeBroker, BoundedReader and FormalLoader trust failures precede source, path or FD actions"
+    scenarios: [trust_failure_precedes_side_effect]
+  - requirement_group_id: "PT-19"
+    required_behavior: "R2 canonical assets unchanged and Authorization V2 remains without signature, kid or public-key fields"
+    scenarios: [r2_assets_unchanged]
+  - requirement_group_id: "PT-20"
+    required_behavior: "schemas, assets, loader, signing and six callers reproduce closure identities"
+    scenarios: [closure_identities_reproduced]
+  - requirement_group_id: "PT-21"
+    required_behavior: "scope violation, unexpected file, unresolved dependency and other role-gap modifications are zero"
+    scenarios: [scope_accounting_zero]
+callers:
+  - caller_id: "C01"
+    path: "runtime_capability_prototype/runtime/ctde_runtime/events.py"
+    callable: "SignedEventLog.verify"
+    file_sha256: "808115293ec818eedd926e4ef63869a7d5f9eeb1dca26a6902c12850b4e7fd15"
+  - caller_id: "C02"
+    path: "runtime_capability_prototype/runtime/ctde_runtime/events.py"
+    callable: "PortableA1EventLogV2.verify"
+    file_sha256: "808115293ec818eedd926e4ef63869a7d5f9eeb1dca26a6902c12850b4e7fd15"
+  - caller_id: "C03"
+    path: "runtime_capability_prototype/runtime/ctde_runtime/range_broker.py"
+    callable: "RangeBroker.deliver"
+    file_sha256: "ef2be994b82f10f025411e1d074cda3d0336e352f063bb9162edbcaed105958a"
+  - caller_id: "C04"
+    path: "runtime_capability_prototype/runtime/ctde_runtime/bounded_reader.py"
+    callable: "BoundedReader.consume"
+    file_sha256: "65c8f0a3af625c505fcdc05f7a754075e4829d2183931d71fa8c4dfdbf46f68c"
+  - caller_id: "C05"
+    path: "runtime_capability_prototype/runtime/ctde_runtime/formal_loader.py"
+    callable: "FormalLoader.load"
+    file_sha256: "eb866084c8dc95c52b28118a2669314559d165e6b949cb0ff7edeb111c10e11d"
+  - caller_id: "C06"
+    path: "runtime_capability_prototype/runtime/ctde_runtime/read_audit.py"
+    callable: "ReadAuditAggregator._verify_logs"
+    file_sha256: "b5c8a9210c4f9f295351b32e3f2a5e310ad0531720ff886a9d84385ec1ab6b4d"
+caller_expansions:
+  caller_binding_mismatch_rejected: [C01, C02, C03, C04, C05, C06]
+  trust_failure_precedes_side_effect: [C03, C04, C05]
+artifact_contracts:
+  implementation_manifest_fields: [artifact_class, schema_version, suite_id, assurance_profile_id, phase_id, phase_kind, plan_path, plan_sha256, scope_audit_path, scope_audit_sha256, source_reconciliation_sha256, authorized_scope_sha256, mutable_existing_files, creatable_files, creatable_directories, read_only_baselines, r2_canonical_baselines, implementation_components, producer_identities, unexpected_paths, missing_paths, existing_modified_files]
+  execution_plan_fields: [artifact_class, schema_version, suite_id, assurance_profile_id, phase_id, phase_kind, implementation_authorization_ref, implementation_authorization_sha256, authorization_contract_path, authorization_contract_sha256, plan_path, plan_sha256, scope_audit_path, scope_audit_sha256, implementation_manifest_sha256, fixed_utc_epoch_seconds, trust_domain, public_trust_record, public_trust_record_sha256, authorized_scope_sha256, mutable_existing_files, creatable_files, creatable_directories, read_only_files, forbidden_paths, implementation_status, test_status]
+  fixture_catalog_fields: [artifact_class, schema_version, suite_id, assurance_profile_id, synthetic_only, source_content_allowed, candidate_allowed, model_calls_allowed, business_outputs_allowed, test_seed_path, test_seed_sha256, test_public_key_hex, test_public_key_bytes_sha256, formal_public_key_bytes_sha256, recipes]
+  attempt_row_fields: [sequence, leaf_id, requirement_group_id, scenario, caller_id, input_identity_sha256, expected_result, actual_result, started, terminal, blocker, evidence_complete, side_effect_counts, fixed_utc_epoch_seconds, test_manifest_sha256, previous_row_sha256]
+  verification_evidence_fields: [artifact_class, schema_version, suite_id, assurance_profile_id, highest_claimed_evidence_level, subject_digests, schema_checks, canonical_checks, loader_checks, requirement_group_coverage, caller_bindings, r2_baseline_check, scope_delta, private_exclusion, counts, overall_result]
+  aggregate_fields: [artifact_class, schema_version, suite_id, assurance_profile_id, highest_claimed_evidence_level, implementation_manifest_sha256, execution_plan_sha256, test_manifest_sha256, fixture_catalog_sha256, attempts_sha256, verification_evidence_sha256, manifest_leaf_count, discovered, executed, evidence_complete, passed, failed, skipped, unknown, timeout, existing_modified_files_count, created_files_count, created_directories_count, caller_bindings_passed, r2_asset_modification_count, r2_semantic_regression_count, other_r3g_modification_count, scope_violation_count, forbidden_path_access_count, private_test_exclusion, fresh_r3_replan_required, minimal_embedded_role_mapping_required, implementation_authorized, r3_execution_authorized, overall_result]
+  result_report_required_fields: [final_status, gap_id, runtime_role, phase_id, phase_kind, assurance_profile_id, highest_claimed_evidence_level, implementation_authorization_ref, implementation_authorization_sha256, actual_created_files, actual_created_directories, existing_modified_files, caller_binding_results, trust_material_identity, status_registry_identity, loader_freeze_identity, test_counts, r2_asset_modification_count, r2_semantic_regression_count, other_r3g_modification_count, scope_violation_count, forbidden_path_access_count, private_test_exclusion, english_tei_content_read_count, greek_tei_content_read_count, candidate_run_count, model_call_count, business_output_count, fresh_r3_replan_required, minimal_embedded_role_mapping_required, execution_authorized]

@@ -1,0 +1,80 @@
+schema_version: c2d.source-record.v1
+
+source_id: ODY-ENG-MURRAY1919
+title: The Odyssey, Volumes 1–2
+author: Homer (traditional attribution)
+edition: A. T. Murray, translator; William Heinemann / G. P. Putnam's Sons, 1919; CTS version perseus-eng3
+language: en
+provider: Perseus Digital Library / Scaife ATLAS; distributed by PerseusDL/canonical-greekLit
+url: https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/790c84289edbdbe289dd7b752bfea29f0af4299d/data/tlg0012/tlg002/tlg0012.tlg002.perseus-eng3.xml
+access_date: "2026-08-10"
+license: CC-BY-SA-4.0
+file_type: tei_xml
+intended_usage: primary_working_text
+status: verified
+checksum: sha256:dda5b206e332e56c570c1d92ea41e9a510339a454bc2ea90491788e34174a7e7
+
+file_id: ODY-ENG-MURRAY1919-RAW-FULL-TEI
+file_path: translations/en/ody-eng-murray1919/raw/ody-eng-murray1919__raw__full.xml
+media_type: application/tei+xml
+bytes: 870905
+role: primary_working_text
+state: raw
+retrieved_at: "2026-08-10T23:34:32-07:00"
+canonical_url: https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-eng3/
+
+identity:
+  cts_urn: urn:cts:greekLit:tlg0012.tlg002.perseus-eng3
+  citation_scheme: book.card
+  source_xml_lang: eng
+  project_language: en
+  language_mapping: ISO 639-2 eng -> BCP 47 en
+
+contributors:
+  translator: Augustus Taber Murray
+  editor: null
+  encoder: Perseus Digital Library
+
+provider_identity:
+  repository: https://github.com/PerseusDL/canonical-greekLit
+  upstream_commit: 790c84289edbdbe289dd7b752bfea29f0af4299d
+  upstream_path: data/tlg0012/tlg002/tlg0012.tlg002.perseus-eng3.xml
+  git_blob_sha: 00012e531976c182625bacc9374b07cd4411750d
+
+derivation:
+  inputs: []
+  transformation_log_ref: null
+
+rights_note: Repository README at the pinned commit applies CC BY-SA 4.0 unless otherwise indicated; the target TEI header contains no file-specific licence override.
+known_issues: []
+verification_notes:
+  - Upstream TEI uses ISO 639-2 xml:lang="eng"; the project record uses BCP 47 language code "en". Both identify English, and the raw value is preserved unchanged.
+
+verification:
+  status: verified
+  checked_at: "2026-08-10T23:34:32-07:00"
+  checks:
+    file_exists_nonempty: pass
+    git_blob_identity_match: pass
+    html_or_error_page_absent: pass
+    xml_parse: pass
+    declared_encoding_utf8_strict_decode: pass
+    replacement_character_absent: pass
+    tei_root_namespace: pass
+    title_author_translator_edition_identity: pass
+    language_identity_english: pass
+    source_xml_lang: eng
+    project_language_code_mapping: pass
+    cts_urn_exact_match: pass
+    book_count_24: pass
+    book_sequence_1_through_24: pass
+    citation_scheme_book_card: pass
+    positive_integer_card_locators: pass
+    unique_card_locators_within_book: pass
+    card_native_document_order: pass
+    book_line_rule: not_applicable_book_card_source
+    english_greek_alignment: not_started
+    sha256_record_match: pass
+    raw_bytes_match_pinned_git_blob: pass
+
+record_status: verified

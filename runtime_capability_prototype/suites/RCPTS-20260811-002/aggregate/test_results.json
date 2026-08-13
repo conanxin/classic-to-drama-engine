@@ -1,0 +1,1838 @@
+{
+  "artifact_class": "runtime_capability_prototype_final_aggregate",
+  "blockers": [
+    "MANDATORY_LEAF_TEST_FAILURE",
+    "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+    "ZERO_REAL_SOURCE_ACCESS_PROOF_FAILED",
+    "TRACE_MONITOR_UNAVAILABLE_PTRACE_DENIED"
+  ],
+  "business_outputs_created": 0,
+  "candidate_runs_executed": 0,
+  "case_results": [
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-201",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_EXACT_RANGE",
+      "leaf_case_id": "RCPT-T01-EXACT-RANGE-BASELINE"
+    },
+    {
+      "actual_component_result": "BLOCKED_TEST_AUTHORIZATION_MISSING",
+      "attempt_id": "RCPT-20260811-202",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_AUTHORIZATION_MISSING",
+      "leaf_case_id": "RCPT-T02-AUTH-MISSING-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_TEST_AUTHORIZATION_INVALID",
+      "attempt_id": "RCPT-20260811-203",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_AUTHORIZATION_INVALID",
+      "leaf_case_id": "RCPT-T03-AUTH-DIGEST-MISMATCH"
+    },
+    {
+      "actual_component_result": "BLOCKED_TEST_AUTHORIZATION_EXPIRED",
+      "attempt_id": "RCPT-20260811-204",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_AUTHORIZATION_EXPIRED",
+      "leaf_case_id": "RCPT-T04-AUTH-EXPIRED-EXPIRED"
+    },
+    {
+      "actual_component_result": "BLOCKED_TEST_AUTHORIZATION_SPENT",
+      "attempt_id": "RCPT-20260811-205",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_AUTHORIZATION_SPENT",
+      "leaf_case_id": "RCPT-T05-AUTH-REPLAY-CAS-REPLAY"
+    },
+    {
+      "actual_component_result": "BLOCKED_TEST_AUTHORIZATION_SPENT",
+      "attempt_id": "RCPT-20260811-206",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_AUTHORIZATION_SPENT",
+      "leaf_case_id": "RCPT-T05-AUTH-REPLAY-EVENT-REPLAY"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_CAPABILITY_INVALID",
+      "attempt_id": "RCPT-20260811-207",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_CAPABILITY_INVALID",
+      "leaf_case_id": "RCPT-T06-CAP-TAMPER-CLAIMS"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_CAPABILITY_INVALID",
+      "attempt_id": "RCPT-20260811-208",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_CAPABILITY_INVALID",
+      "leaf_case_id": "RCPT-T06-CAP-TAMPER-SIGNATURE"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_CAPABILITY_INVALID",
+      "attempt_id": "RCPT-20260811-209",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_CAPABILITY_INVALID",
+      "leaf_case_id": "RCPT-T07-CAP-AUDIENCE-WRONG-BROKER"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-210",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "leaf_case_id": "RCPT-T08-RANGE-OVERRIDE-RAW-PATH"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-211",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "leaf_case_id": "RCPT-T08-RANGE-OVERRIDE-SOURCE-PATH"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-212",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "leaf_case_id": "RCPT-T08-RANGE-OVERRIDE-SOURCE-ID"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-213",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "leaf_case_id": "RCPT-T08-RANGE-OVERRIDE-START"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-214",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "leaf_case_id": "RCPT-T08-RANGE-OVERRIDE-END"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-215",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "leaf_case_id": "RCPT-T08-RANGE-OVERRIDE-LENGTH"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-216",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "leaf_case_id": "RCPT-T08-RANGE-OVERRIDE-EOF"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-217",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "leaf_case_id": "RCPT-T08-RANGE-OVERRIDE-NEXT-RANGE"
+    },
+    {
+      "actual_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-218",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_RANGE_OVERRIDE_FORBIDDEN",
+      "leaf_case_id": "RCPT-T08-RANGE-OVERRIDE-RETRY"
+    },
+    {
+      "actual_component_result": "BLOCKED_TEST_SCOPE_CONTRACT_MISMATCH",
+      "attempt_id": "RCPT-20260811-219",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_SCOPE_CONTRACT_MISMATCH",
+      "leaf_case_id": "RCPT-T09-RANGE-SHORT-ONE-BYTE"
+    },
+    {
+      "actual_component_result": "BLOCKED_TEST_SCOPE_CONTRACT_MISMATCH",
+      "attempt_id": "RCPT-20260811-220",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_SCOPE_CONTRACT_MISMATCH",
+      "leaf_case_id": "RCPT-T10-RANGE-LONG-ONE-BYTE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SLICE_HASH_MISMATCH",
+      "attempt_id": "RCPT-20260811-221",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SLICE_HASH_MISMATCH",
+      "leaf_case_id": "RCPT-T11-SLICE-HASH-MISMATCH"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-222",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BOUNDED_READER_REPLAY",
+      "leaf_case_id": "RCPT-T12-DELIVERY-REPLAY-REPLAY"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_ENVELOPE_INVALID",
+      "attempt_id": "RCPT-20260811-223",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_ENVELOPE_INVALID",
+      "leaf_case_id": "RCPT-T13-ENVELOPE-TAMPER-CLAIMS"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_ENVELOPE_INVALID",
+      "attempt_id": "RCPT-20260811-224",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_ENVELOPE_INVALID",
+      "leaf_case_id": "RCPT-T13-ENVELOPE-TAMPER-SIGNATURE"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_ENVELOPE_INVALID",
+      "attempt_id": "RCPT-20260811-225",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_ENVELOPE_INVALID",
+      "leaf_case_id": "RCPT-T13-ENVELOPE-TAMPER-BROKER-ATTESTATION-DIGEST"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-226",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SANDBOX_DIRECT_SOURCE_ACCESS",
+      "leaf_case_id": "RCPT-T14-FULL-PATH-OPEN"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-227",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_INHERITED_FD_SANITIZED",
+      "leaf_case_id": "RCPT-T15-HANDLE-INVENTORY-INHERITED-FD-SANITIZED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-228",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "leaf_case_id": "RCPT-T15-HANDLE-INVENTORY-RESIDUAL-FD-DETECTED"
+    },
+    {
+      "actual_component_result": "BLOCKED_FORBIDDEN_SOURCE_ROLE",
+      "attempt_id": "RCPT-20260811-229",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_FORBIDDEN_SOURCE_ROLE",
+      "leaf_case_id": "RCPT-T16-GREEK-ID-AUTH-GREEK-ROLE"
+    },
+    {
+      "actual_component_result": "BLOCKED_FORBIDDEN_SOURCE_ROLE",
+      "attempt_id": "RCPT-20260811-230",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_FORBIDDEN_SOURCE_ROLE",
+      "leaf_case_id": "RCPT-T16-GREEK-ID-CAP-GREEK-OBJECT"
+    },
+    {
+      "actual_component_result": "BLOCKED_FORBIDDEN_SOURCE_ROLE",
+      "attempt_id": "RCPT-20260811-231",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_FORBIDDEN_SOURCE_ROLE",
+      "leaf_case_id": "RCPT-T16-GREEK-ID-AUTH-PRODUCTION-RAW"
+    },
+    {
+      "actual_component_result": "BLOCKED_FORBIDDEN_SOURCE_ROLE",
+      "attempt_id": "RCPT-20260811-232",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_FORBIDDEN_SOURCE_ROLE",
+      "leaf_case_id": "RCPT-T16-GREEK-ID-CAP-PRODUCTION-SOURCE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-233",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SANDBOX_DIRECT_SOURCE_ACCESS",
+      "leaf_case_id": "RCPT-T17-GREEK-PATH-HOST-PATH"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-234",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_PROTOTYPE_SCOPE_EXCEEDED",
+      "leaf_case_id": "RCPT-T18-BOOK2-MARKER-PARSER"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-235",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_PROTOTYPE_SCOPE_EXCEEDED",
+      "leaf_case_id": "RCPT-T18-BOOK2-MARKER-GATEWAY"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-236",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_WRITE_ISOLATION",
+      "leaf_case_id": "RCPT-T19-WRITE-ESCAPE-FIXTURE-STORE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-237",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_WRITE_ISOLATION",
+      "leaf_case_id": "RCPT-T19-WRITE-ESCAPE-WORKSPACE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-238",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_WRITE_ISOLATION",
+      "leaf_case_id": "RCPT-T19-WRITE-ESCAPE-FORMAL-PATH"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-239",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_WRITE_ISOLATION",
+      "leaf_case_id": "RCPT-T19-WRITE-ESCAPE-UNALLOWLISTED-TEST-PATH"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-240",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T20-FORMAL-DISCOVERY-CANDIDATE-BARE"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-241",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T20-FORMAL-DISCOVERY-CANDIDATE-PREFIXED"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-242",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T20-FORMAL-DISCOVERY-CANDIDATE-NESTED"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-243",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T20-FORMAL-DISCOVERY-PROTOTYPE-TREE"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-244",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T21-RENAMED-COPY-SYMLINK"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-245",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T21-RENAMED-COPY-HARDLINK"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-246",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T21-RENAMED-COPY-RELATIVE-ESCAPE"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-247",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T21-RENAMED-COPY-COPIED-OUTSIDE"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-248",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T21-RENAMED-COPY-RENAMED-OUTSIDE"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-249",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T21-RENAMED-COPY-MARKER-REMOVED"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-250",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T21-RENAMED-COPY-FORGED-MANIFEST"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_EXCLUDED",
+      "attempt_id": "RCPT-20260811-251",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_EXCLUDED",
+      "leaf_case_id": "RCPT-T21-RENAMED-COPY-DIGEST-ONLY-CLONE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-252",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-MISSING-BROKER"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-253",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-MISSING-SANDBOX"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-254",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-MISSING-PARSER"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-255",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-MISSING-GATEWAY"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-256",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-MISSING-WRITE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-257",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-MISSING-FORMAL"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-258",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-LATE-MONITOR"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-259",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-DROPPED-EVENT"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-260",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-UNMONITORED-CHILD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-261",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-UNKNOWN-FIELD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-262",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-SELF-REPORT-ONLY"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-263",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-ATTEMPT-MISMATCH"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-264",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-AUTH-DIGEST-MISMATCH"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-265",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-EVENT-MISMATCH"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-266",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-CAPABILITY-MISMATCH"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-267",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-DELIVERY-MISMATCH"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-268",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SCOPE_PROOF_UNAVAILABLE",
+      "leaf_case_id": "RCPT-T22-AUDIT-MISSING-SCOPE-CLOSURE-LINK-MISMATCH"
+    },
+    {
+      "actual_component_result": "PASS_AUTH_CONCURRENT_SINGLE_WINNER",
+      "attempt_id": "RCPT-20260811-269",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_AUTH_CONCURRENT_SINGLE_WINNER",
+      "leaf_case_id": "RCPT-T23-AUTH-CONCURRENT-DUAL-CAS-BARRIER"
+    },
+    {
+      "actual_component_result": "PASS_CAS_CRASH_SPENT_NO_MINT",
+      "attempt_id": "RCPT-20260811-270",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_CAS_CRASH_SPENT_NO_MINT",
+      "leaf_case_id": "RCPT-T24-CAS-CRASH-AFTER-CAS-BEFORE-MINT"
+    },
+    {
+      "actual_component_result": "BLOCKED_TEST_AUTHORIZATION_SPENT",
+      "attempt_id": "RCPT-20260811-271",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_AUTHORIZATION_SPENT",
+      "leaf_case_id": "RCPT-T24-CAS-CRASH-RESTART-REISSUE-DENIED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-272",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_AUDIT_TAMPERED",
+      "leaf_case_id": "RCPT-T25-AUDIT-TAMPER-REGISTRY-EVENT"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-273",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_AUDIT_TAMPERED",
+      "leaf_case_id": "RCPT-T25-AUDIT-TAMPER-BROKER-EVENT"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-274",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_AUDIT_TAMPERED",
+      "leaf_case_id": "RCPT-T25-AUDIT-TAMPER-COMPONENT-ATTESTATION"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-275",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_AUDIT_TAMPERED",
+      "leaf_case_id": "RCPT-T25-AUDIT-TAMPER-SCOPE-ATTESTATION"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-276",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_AUDIT_TAMPERED",
+      "leaf_case_id": "RCPT-T25-AUDIT-TAMPER-EVENT-REORDER"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-277",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_AUDIT_TAMPERED",
+      "leaf_case_id": "RCPT-T25-AUDIT-TAMPER-OLD-EVIDENCE-REPLAY"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-278",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_AUDIT_TAMPERED",
+      "leaf_case_id": "RCPT-T25-AUDIT-TAMPER-OLD-SCOPE-IN-CLOSURE"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_POSITIVE",
+      "attempt_id": "RCPT-20260811-279",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_POSITIVE",
+      "leaf_case_id": "RCPT-T26-FORMAL-POSITIVE-SIGNED-PROVENANCE"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_TOCTOU_REJECTED",
+      "attempt_id": "RCPT-20260811-280",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_TOCTOU_REJECTED",
+      "leaf_case_id": "RCPT-T27-FORMAL-TOCTOU-OBJECT-SWAP"
+    },
+    {
+      "actual_component_result": "PASS_FORMAL_TOCTOU_REJECTED",
+      "attempt_id": "RCPT-20260811-281",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "PASS_FORMAL_TOCTOU_REJECTED",
+      "leaf_case_id": "RCPT-T27-FORMAL-TOCTOU-DIGEST-MUTATE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-282",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BOUNDED_FRAGMENT_UNPARSABLE",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-DTD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-283",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BOUNDED_FRAGMENT_UNPARSABLE",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-INTERNAL-ENTITY"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-284",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BOUNDED_FRAGMENT_UNPARSABLE",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-EXTERNAL-FILE-ENTITY"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-285",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BOUNDED_FRAGMENT_UNPARSABLE",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-EXTERNAL-NETWORK-ENTITY"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-286",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BOUNDED_FRAGMENT_UNPARSABLE",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-RECOVERY"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-287",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_PROTOTYPE_SCOPE_EXCEEDED",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-BOOK2"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-288",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_PROTOTYPE_SCOPE_EXCEEDED",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-DUPLICATE-BOOK1"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-289",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "INVALIDATED_PROTOTYPE_SCOPE_EXCEEDED",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-WRONG-BOOK"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-290",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_CARD_MAPPING_INVALID",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-EXTRA-CARD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-291",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_CARD_MAPPING_INVALID",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-MISSING-CARD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-292",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_CARD_MAPPING_INVALID",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-EXTRA-PARAGRAPH"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-293",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_CARD_MAPPING_INVALID",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-MISSING-PARAGRAPH"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-294",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_CARD_MAPPING_INVALID",
+      "leaf_case_id": "RCPT-T28-PARSER-UNSAFE-QNAME-NAMESPACE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SOURCE_OBJECT_NOT_IMMUTABLE",
+      "attempt_id": "RCPT-20260811-295",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SOURCE_OBJECT_NOT_IMMUTABLE",
+      "leaf_case_id": "RCPT-T29-BROKER-OBJECT-SWAP-IDENTITY-SWAP"
+    },
+    {
+      "actual_component_result": "BLOCKED_SOURCE_OBJECT_NOT_IMMUTABLE",
+      "attempt_id": "RCPT-20260811-296",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SOURCE_OBJECT_NOT_IMMUTABLE",
+      "leaf_case_id": "RCPT-T29-BROKER-OBJECT-SWAP-SAME-ID-CONTENT-MUTATION"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-297",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SANDBOX_SECOND_CHANNEL",
+      "leaf_case_id": "RCPT-T30-SECOND-CHANNEL-MMAP"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-298",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SANDBOX_SECOND_CHANNEL",
+      "leaf_case_id": "RCPT-T30-SECOND-CHANNEL-SENDFILE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-299",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SANDBOX_SECOND_CHANNEL",
+      "leaf_case_id": "RCPT-T30-SECOND-CHANNEL-SPLICE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-300",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SANDBOX_SECOND_CHANNEL",
+      "leaf_case_id": "RCPT-T30-SECOND-CHANNEL-COPY-FILE-RANGE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-301",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SANDBOX_SECOND_CHANNEL",
+      "leaf_case_id": "RCPT-T30-SECOND-CHANNEL-IO-URING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-302",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SANDBOX_SECOND_CHANNEL",
+      "leaf_case_id": "RCPT-T30-SECOND-CHANNEL-CHILD-ESCAPE"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-303",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "leaf_case_id": "RCPT-T31-BROKER-FALLBACK-FULL-HASH"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-304",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "leaf_case_id": "RCPT-T31-BROKER-FALLBACK-READ-TO-EOF"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-305",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "leaf_case_id": "RCPT-T31-BROKER-FALLBACK-MMAP"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-306",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "leaf_case_id": "RCPT-T31-BROKER-FALLBACK-SENDFILE"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-307",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "leaf_case_id": "RCPT-T31-BROKER-FALLBACK-SPLICE"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-308",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "leaf_case_id": "RCPT-T31-BROKER-FALLBACK-COPY-FILE-RANGE"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-309",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "leaf_case_id": "RCPT-T31-BROKER-FALLBACK-IO-URING"
+    },
+    {
+      "actual_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "attempt_id": "RCPT-20260811-310",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_BROKER_FALLBACK_FORBIDDEN",
+      "leaf_case_id": "RCPT-T31-BROKER-FALLBACK-AUTO-RETRY"
+    },
+    {
+      "actual_component_result": "BLOCKED_TEST_SCOPE_CONTRACT_MISMATCH",
+      "attempt_id": "RCPT-20260811-311",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_TEST_SCOPE_CONTRACT_MISMATCH",
+      "leaf_case_id": "RCPT-T32-RANGE-ONLY-MISMATCH-BOOK2-DIRECT-RANGE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-312",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-CAP-ALG-NONE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-313",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-CAP-ALG-UNAPPROVED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-314",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-CAP-ALG-CONFUSION"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-315",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-ENV-ALG-NONE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-316",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-ENV-ALG-UNAPPROVED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-317",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-ENV-ALG-CONFUSION"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-318",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-AUD-SCOPE-ALG-NONE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-319",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-AUD-SCOPE-ALG-UNAPPROVED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-320",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-AUD-SCOPE-ALG-CONFUSION"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-321",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-AUD-CLOSURE-ALG-NONE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-322",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-AUD-CLOSURE-ALG-UNAPPROVED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-323",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T33-PROFILE-ALG-AUD-CLOSURE-ALG-CONFUSION"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-324",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-CAP-TYP-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-325",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-CAP-TYP-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-326",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-CAP-VERSION-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-327",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-CAP-VERSION-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-328",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-ENV-TYP-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-329",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-ENV-TYP-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-330",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-ENV-VERSION-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-331",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-ENV-VERSION-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-332",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-AUD-SCOPE-TYP-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-333",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-AUD-SCOPE-TYP-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-334",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-AUD-SCOPE-VERSION-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-335",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-AUD-SCOPE-VERSION-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-336",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-AUD-CLOSURE-TYP-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-337",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-AUD-CLOSURE-TYP-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-338",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-AUD-CLOSURE-VERSION-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-339",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T34-PROFILE-TYP-AUD-CLOSURE-VERSION-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-340",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-CAP-KID-UNKNOWN"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-341",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-CAP-KID-REVOKED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-342",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-CAP-KID-EXPIRED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-343",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-CAP-ISS-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-344",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-CAP-PROD-ROOT-IN-PROTO"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-345",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-CAP-PROTO-ROOT-IN-PROD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-346",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-ENV-KID-UNKNOWN"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-347",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-ENV-KID-REVOKED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-348",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-ENV-KID-EXPIRED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-349",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-ENV-ISS-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-350",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-ENV-PROD-ROOT-IN-PROTO"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-351",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-ENV-PROTO-ROOT-IN-PROD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-352",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-SCOPE-KID-UNKNOWN"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-353",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-SCOPE-KID-REVOKED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-354",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-SCOPE-KID-EXPIRED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-355",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-SCOPE-ISS-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-356",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-SCOPE-PROD-ROOT-IN-PROTO"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-357",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-SCOPE-PROTO-ROOT-IN-PROD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-358",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-CLOSURE-KID-UNKNOWN"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-359",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-CLOSURE-KID-REVOKED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-360",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-CLOSURE-KID-EXPIRED"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-361",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-CLOSURE-ISS-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-362",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-CLOSURE-PROD-ROOT-IN-PROTO"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-363",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T35-PROFILE-KID-AUD-CLOSURE-PROTO-ROOT-IN-PROD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-364",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T36-PROFILE-AUD-CAP-AUD-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-365",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T36-PROFILE-AUD-CAP-AUD-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-366",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T36-PROFILE-AUD-ENV-AUD-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-367",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T36-PROFILE-AUD-ENV-AUD-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-368",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T36-PROFILE-AUD-SCOPE-AUD-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-369",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T36-PROFILE-AUD-SCOPE-AUD-WRONG-SET"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-370",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T36-PROFILE-AUD-CLOSURE-AUD-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-371",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T36-PROFILE-AUD-CLOSURE-AUD-WRONG"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-372",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T36-PROFILE-AUD-SCOPE-USING-CLOSURE-AUD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-373",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T36-PROFILE-AUD-CLOSURE-USING-SCOPE-AUD"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-374",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-CAP-IAT-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-375",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-CAP-NBF-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-376",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-CAP-EXP-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-377",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-CAP-NBF-FUTURE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-378",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-CAP-EXP-PAST"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-379",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-CAP-TTL-EXCEEDS"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-380",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-ENV-IAT-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-381",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-ENV-NBF-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-382",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-ENV-EXP-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-383",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-ENV-NBF-FUTURE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-384",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-ENV-EXP-PAST"
+    },
+    {
+      "actual_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "attempt_id": "RCPT-20260811-385",
+      "case_test_result": "pass",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-ENV-TTL-EXCEEDS"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-386",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-SCOPE-IAT-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-387",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-SCOPE-NBF-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-388",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-SCOPE-EXP-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-389",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-SCOPE-NBF-FUTURE"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-390",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-SCOPE-EXP-PAST"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-391",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-SCOPE-TTL-EXCEEDS"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-392",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-CLOSURE-IAT-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-393",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-CLOSURE-NBF-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-394",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-CLOSURE-EXP-MISSING"
+    },
+    {
+      "actual_component_result": "BLOCKED_SANDBOX_ISOLATION_UNPROVEN",
+      "attempt_id": "RCPT-20260811-395",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-CLOSURE-NBF-FUTURE"
+    },
+    {
+      "actual_component_result": "UNEXPECTED_EXCEPTION",
+      "attempt_id": "RCPT-20260811-396",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-CLOSURE-EXP-PAST"
+    },
+    {
+      "actual_component_result": "UNEXPECTED_EXCEPTION",
+      "attempt_id": "RCPT-20260811-397",
+      "case_test_result": "fail",
+      "evidence_complete": true,
+      "expected_component_result": "BLOCKED_SIGNED_OBJECT_PROFILE_INVALID",
+      "leaf_case_id": "RCPT-T37-PROFILE-TIME-AUD-CLOSURE-TTL-EXCEEDS"
+    }
+  ],
+  "environment": "prototype_fixture_only",
+  "evidence_complete_count": 197,
+  "external_access_audit_sha256": "a696898014ccffd7ba775bdef7385cf74fe56488e8f21e51e6f33f10bc02721e",
+  "external_access_audit_status": "fail",
+  "failed_actual_component_result_counts": {
+    "BLOCKED_SANDBOX_ISOLATION_UNPROVEN": 96,
+    "UNEXPECTED_EXCEPTION": 2
+  },
+  "group_results": {
+    "RCPT-T01-EXACT-RANGE": {
+      "executed": 1,
+      "failed": 1,
+      "passed": 0
+    },
+    "RCPT-T02-AUTH-MISSING": {
+      "executed": 1,
+      "failed": 0,
+      "passed": 1
+    },
+    "RCPT-T03-AUTH-DIGEST": {
+      "executed": 1,
+      "failed": 0,
+      "passed": 1
+    },
+    "RCPT-T04-AUTH-EXPIRED": {
+      "executed": 1,
+      "failed": 0,
+      "passed": 1
+    },
+    "RCPT-T05-AUTH-REPLAY": {
+      "executed": 2,
+      "failed": 0,
+      "passed": 2
+    },
+    "RCPT-T06-CAP-TAMPER": {
+      "executed": 2,
+      "failed": 0,
+      "passed": 2
+    },
+    "RCPT-T07-CAP-AUDIENCE": {
+      "executed": 1,
+      "failed": 0,
+      "passed": 1
+    },
+    "RCPT-T08-RANGE-OVERRIDE": {
+      "executed": 9,
+      "failed": 0,
+      "passed": 9
+    },
+    "RCPT-T09-RANGE-SHORT": {
+      "executed": 1,
+      "failed": 0,
+      "passed": 1
+    },
+    "RCPT-T10-RANGE-LONG": {
+      "executed": 1,
+      "failed": 0,
+      "passed": 1
+    },
+    "RCPT-T11-SLICE-HASH": {
+      "executed": 1,
+      "failed": 0,
+      "passed": 1
+    },
+    "RCPT-T12-DELIVERY-REPLAY": {
+      "executed": 1,
+      "failed": 1,
+      "passed": 0
+    },
+    "RCPT-T13-ENVELOPE-TAMPER": {
+      "executed": 3,
+      "failed": 0,
+      "passed": 3
+    },
+    "RCPT-T14-FULL-PATH": {
+      "executed": 1,
+      "failed": 1,
+      "passed": 0
+    },
+    "RCPT-T15-HANDLE-INVENTORY": {
+      "executed": 2,
+      "failed": 1,
+      "passed": 1
+    },
+    "RCPT-T16-GREEK-ID": {
+      "executed": 4,
+      "failed": 0,
+      "passed": 4
+    },
+    "RCPT-T17-GREEK-PATH": {
+      "executed": 1,
+      "failed": 1,
+      "passed": 0
+    },
+    "RCPT-T18-BOOK2-MARKER": {
+      "executed": 2,
+      "failed": 2,
+      "passed": 0
+    },
+    "RCPT-T19-WRITE-ESCAPE": {
+      "executed": 4,
+      "failed": 4,
+      "passed": 0
+    },
+    "RCPT-T20-FORMAL-DISCOVERY": {
+      "executed": 4,
+      "failed": 0,
+      "passed": 4
+    },
+    "RCPT-T21-RENAMED-COPY": {
+      "executed": 8,
+      "failed": 0,
+      "passed": 8
+    },
+    "RCPT-T22-AUDIT-MISSING": {
+      "executed": 17,
+      "failed": 17,
+      "passed": 0
+    },
+    "RCPT-T23-AUTH-CONCURRENT": {
+      "executed": 1,
+      "failed": 0,
+      "passed": 1
+    },
+    "RCPT-T24-CAS-CRASH": {
+      "executed": 2,
+      "failed": 0,
+      "passed": 2
+    },
+    "RCPT-T25-AUDIT-TAMPER": {
+      "executed": 7,
+      "failed": 7,
+      "passed": 0
+    },
+    "RCPT-T26-FORMAL-POSITIVE": {
+      "executed": 1,
+      "failed": 0,
+      "passed": 1
+    },
+    "RCPT-T27-FORMAL-TOCTOU": {
+      "executed": 2,
+      "failed": 0,
+      "passed": 2
+    },
+    "RCPT-T28-PARSER-UNSAFE": {
+      "executed": 13,
+      "failed": 13,
+      "passed": 0
+    },
+    "RCPT-T29-BROKER-OBJECT-SWAP": {
+      "executed": 2,
+      "failed": 0,
+      "passed": 2
+    },
+    "RCPT-T30-SECOND-CHANNEL": {
+      "executed": 6,
+      "failed": 6,
+      "passed": 0
+    },
+    "RCPT-T31-BROKER-FALLBACK": {
+      "executed": 8,
+      "failed": 0,
+      "passed": 8
+    },
+    "RCPT-T32-RANGE-ONLY-MISMATCH": {
+      "executed": 1,
+      "failed": 0,
+      "passed": 1
+    },
+    "RCPT-T33-PROFILE-ALG": {
+      "executed": 12,
+      "failed": 6,
+      "passed": 6
+    },
+    "RCPT-T34-PROFILE-TYP": {
+      "executed": 16,
+      "failed": 8,
+      "passed": 8
+    },
+    "RCPT-T35-PROFILE-KID": {
+      "executed": 24,
+      "failed": 12,
+      "passed": 12
+    },
+    "RCPT-T36-PROFILE-AUD": {
+      "executed": 10,
+      "failed": 6,
+      "passed": 4
+    },
+    "RCPT-T37-PROFILE-TIME": {
+      "executed": 24,
+      "failed": 12,
+      "passed": 12
+    }
+  },
+  "mandatory_tests_failed": 98,
+  "mandatory_tests_passed": 99,
+  "mandatory_tests_skipped": 0,
+  "mandatory_tests_unknown": 0,
+  "manifest_file_sha256": "42799e6f56802248a467af0f06b539a817ec7ae224dd91e974ad3157f669a7bf",
+  "manifest_leaf_count": 197,
+  "model_invocations": 0,
+  "prototype_result": "BLOCKED_RUNTIME_CAPABILITY_PROTOTYPE_FAILED",
+  "requirement_groups_executed_count": 37,
+  "requirement_groups_manifest_count": 37,
+  "runner_discovered_count": 197,
+  "runner_enumeration_counts_match": true,
+  "runner_executed_count": 197,
+  "schema_version": "1.0.0",
+  "story_structure_yaml_created": false,
+  "suite_id": "RCPTS-20260811-002",
+  "suite_manifest_runner_counts_match": false,
+  "zero_real_source_access": {
+    "artifact_class": "runtime_capability_external_access_audit",
+    "audit_authority": "external_strace_process_tree_verifier",
+    "blockers": [
+      "TRACE_MONITOR_UNAVAILABLE_PTRACE_DENIED"
+    ],
+    "book_structure_map_read_count": null,
+    "business_outputs_created": 0,
+    "candidate_artifact_access_count": null,
+    "candidate_runs_executed": 0,
+    "coverage": {
+      "process_tree_followed": false,
+      "sandbox_syscalls_observed": false,
+      "second_channels_observed": false
+    },
+    "coverage_complete": false,
+    "english_real_raw_hash_count": null,
+    "english_real_raw_open_count": null,
+    "english_real_raw_read_count": null,
+    "english_real_raw_stat_count": null,
+    "greek_real_raw_copy_count": null,
+    "greek_real_raw_open_count": null,
+    "greek_real_raw_parse_count": null,
+    "greek_real_raw_read_count": null,
+    "greek_real_raw_stat_count": null,
+    "model_invocations": 0,
+    "monitor_probe_denied_by_environment": true,
+    "monitor_probe_returncode": 1,
+    "monitor_probe_stderr_sha256": "01c79a7d47475a07737aecab58d739206fd0dcf4a572f2efdab84f037f393c00",
+    "network_connect_success_count": null,
+    "overall_result": "fail",
+    "project_source_tree_scan_count": null,
+    "schema_version": "1.0.0",
+    "suite_id": "RCPTS-20260811-002",
+    "trace_raw_persisted": false,
+    "trace_scope": "runner and all child processes"
+  }
+}

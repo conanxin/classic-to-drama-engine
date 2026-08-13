@@ -1,0 +1,18 @@
+{
+  "a2_phase_wide_file_exec_network_coverage": false,
+  "a2_zero_counts": null,
+  "basis_unchanged": true,
+  "business_outputs_directed": 0,
+  "candidate_runs_directed": 0,
+  "english_tei_reads_directed": 0,
+  "evidence_level": "A1",
+  "greek_tei_reads_directed": 0,
+  "model_calls_directed": 0,
+  "r2_actions_directed": 0,
+  "r3_actions_directed": 0,
+  "r4_actions_directed": 0,
+  "runtime_tree_after_sha256": "b7f764552e6d5c3e4837544710fe18f58d5e01b6fb1ed2db07235d93764aa640",
+  "runtime_tree_before_sha256": "b7f764552e6d5c3e4837544710fe18f58d5e01b6fb1ed2db07235d93764aa640",
+  "runtime_unchanged": true,
+  "story_structure_outputs_directed": 0
+}

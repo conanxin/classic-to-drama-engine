@@ -1,0 +1,11 @@
+{
+  "child_namespace_pid": 28,
+  "child_ready": "IDLE_READY pid=28 ppid=2 nonce=OSOP-PTRACE-295cbbcc132b4cb7af6dbaa4504ef3a9",
+  "child_returncode": 0,
+  "nonce": "OSOP-PTRACE-295cbbcc132b4cb7af6dbaa4504ef3a9",
+  "ptrace_attach": {
+    "errno": 1,
+    "message": "Operation not permitted",
+    "rc": -1
+  }
+}

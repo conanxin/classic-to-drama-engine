@@ -1,0 +1,58 @@
+schema_version: 2.0.0
+artifact_class: ctde_runtime_authorization
+assurance_profile_id: CTDE-PORTABLE-DEV-1
+authorization_id: R2AUTH-2c8a49b69ab6c0c39685a270
+run_id: R2RUN-e463ae89969c9c7b2a1f9f03
+source_id: SYNTH-SOURCE-2711a2d5d53c
+source_snapshot_id: SYNTH-SNAPSHOT-e544f5789db6
+source_snapshot_sha256: 19d589873caa08ddeabb11935c9a80b48154d0156dd7fa103749f04d838a840c
+structure_map_id: SYNTH-MAP-042bf2b483a3
+structure_map_file_sha256: c9ad0473c6384a2b132b519d7e40994452c3cf6fc4967de1d994288890f920fe
+mapping_payload_canonicalization_id: CTDE-MAP-C14N-1
+mapping_payload_sha256: 4a3f5bdba47d893b3d3cb1697e7baa824b532bc3f75acbf5f81e95320b576e5a
+task_scope:
+  task_scope_id: SYNTH-SCOPE-4632ff4d6af5
+  task_type: synthetic_authorization_validation
+  task_scope_sha256: bf5317b0282984122ea28c5c77af56e389a583b5c04dcc6441af4a3cbf9cacd3
+  selected_source_units:
+  - synthetic_unit_1
+  max_invocations: 0
+  automatic_retries: 0
+allowed_ranges:
+- range_id: synthetic_range_1
+  start_byte: 10
+  end_byte_exclusive: 30
+  expected_length: 20
+  expected_slice_sha256: e0a64664d8e10a0f7b5dc068ca9aefc9b6a3791202281f54b40dbbcc0e4c1363
+allowed_consumer:
+  consumer_id: synthetic_consumer_1
+  consumer_role: bounded_analysis_consumer
+  component_id: ctde.synthetic.consumer
+  component_version: 2.0.0
+  component_identity_artifact_sha256: c8cf28cee626ac938c44c252cbfa2e981bb45ea3dd1d79ec67bf98f7e9f3c722
+allowed_outputs: []
+denied_capability_policy_version: CTDE-DENIED-CAPABILITIES-1
+denied_capabilities:
+- direct_source_open
+- raw_path_disclosure
+- caller_supplied_range_override
+- unbounded_read
+- read_to_eof
+- automatic_retry
+- second_source
+- network_source_fetch
+- unapproved_output_write
+- authorization_inheritance
+- authorization_replay
+- profile_promotion
+issuer:
+  authority_id: ctde.r2.test.authority
+  approval_evidence_ref: urn:ctde:test-approval
+  approval_evidence_sha256: 56ccae04b1a280d2bd0fcf89bc69915d4fc0a58f9204efb276b486ae3519929f
+issued_at: '2026-08-11T11:00:00Z'
+expires_at: '2026-08-11T13:00:00Z'
+nonce: be1ce82254b8cd8ea8d1e3330bea6e426bbbf2dd82fa8b0bb867ae2a155bdc37
+one_time: true
+automatic_retry_allowed: false
+authorization_inheritable: false
+authorization_state: approved

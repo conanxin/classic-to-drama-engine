@@ -1,0 +1,38 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T03-AUTH-DIGEST-MISMATCH
+requirement_group: RCPT-T03-AUTH-DIGEST
+attempt_id: RCPT-20260811-203
+grant_id: GRANT-RCPT-20260811-203
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_TEST_AUTHORIZATION_INVALID
+actual_component_result: BLOCKED_TEST_AUTHORIZATION_INVALID
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 0
+  capabilities: 0
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 15a93d6efd7654724d2ec3a4da13c4f45adbbc46c8dd85256891202b737619ef
+closure_attestation_sha256: 8a602f0aeacef8e61932a23581b8e7377e2589de8d423740f92a2b67b11e9985
+blockers:
+- BLOCKED_TEST_AUTHORIZATION_INVALID

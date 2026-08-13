@@ -1,0 +1,14 @@
+{
+  "available": true,
+  "blocker": "",
+  "capability_id": "OSOP-015",
+  "details": {},
+  "evidence_artifact": [
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_version.json"
+  ],
+  "evidence_level": "A1",
+  "probe_run_id": "OSOP-20260811-001-OSOP-015",
+  "result": "PASS",
+  "started_at": "2026-08-11T13:02:27.568499Z",
+  "terminal_at": "2026-08-11T13:02:27.568501Z"
+}

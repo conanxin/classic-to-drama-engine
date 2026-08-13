@@ -1,0 +1,136 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:ctde:schema:runtime-authorization:2"
+title: "CTDE Runtime Authorization V2"
+type: object
+additionalProperties: false
+required:
+  - schema_version
+  - artifact_class
+  - assurance_profile_id
+  - authorization_id
+  - run_id
+  - source_id
+  - source_snapshot_id
+  - source_snapshot_sha256
+  - structure_map_id
+  - structure_map_file_sha256
+  - mapping_payload_canonicalization_id
+  - mapping_payload_sha256
+  - task_scope
+  - allowed_ranges
+  - allowed_consumer
+  - allowed_outputs
+  - denied_capability_policy_version
+  - denied_capabilities
+  - issuer
+  - issued_at
+  - expires_at
+  - nonce
+  - one_time
+  - automatic_retry_allowed
+  - authorization_inheritable
+  - authorization_state
+$defs:
+  id:
+    type: string
+    pattern: "^[A-Za-z0-9][A-Za-z0-9._:/-]{0,127}$"
+  sha256:
+    type: string
+    pattern: "^[0-9a-f]{64}$"
+  rfc3339_utc:
+    type: string
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+properties:
+  schema_version: {const: "2.0.0"}
+  artifact_class: {const: "ctde_runtime_authorization"}
+  assurance_profile_id:
+    enum: ["CTDE-PORTABLE-DEV-1", "CTDE-HARDENED-CERT-1"]
+  authorization_id: {$ref: "#/$defs/id"}
+  run_id: {$ref: "#/$defs/id"}
+  source_id: {$ref: "#/$defs/id"}
+  source_snapshot_id: {$ref: "#/$defs/id"}
+  source_snapshot_sha256: {$ref: "#/$defs/sha256"}
+  structure_map_id: {$ref: "#/$defs/id"}
+  structure_map_file_sha256: {$ref: "#/$defs/sha256"}
+  mapping_payload_canonicalization_id: {const: "CTDE-MAP-C14N-1"}
+  mapping_payload_sha256: {$ref: "#/$defs/sha256"}
+  task_scope:
+    type: object
+    additionalProperties: false
+    required: [task_scope_id, task_type, task_scope_sha256, selected_source_units, max_invocations, automatic_retries]
+    properties:
+      task_scope_id: {$ref: "#/$defs/id"}
+      task_type: {$ref: "#/$defs/id"}
+      task_scope_sha256: {$ref: "#/$defs/sha256"}
+      selected_source_units:
+        type: array
+        minItems: 1
+        uniqueItems: true
+        items: {$ref: "#/$defs/id"}
+      max_invocations: {type: integer, minimum: 0}
+      automatic_retries: {const: 0}
+  allowed_ranges:
+    type: array
+    minItems: 1
+    maxItems: 1
+    items:
+      type: object
+      additionalProperties: false
+      required: [range_id, start_byte, end_byte_exclusive, expected_length, expected_slice_sha256]
+      properties:
+        range_id: {$ref: "#/$defs/id"}
+        start_byte: {type: integer, minimum: 0}
+        end_byte_exclusive: {type: integer, minimum: 1}
+        expected_length: {type: integer, minimum: 1}
+        expected_slice_sha256: {$ref: "#/$defs/sha256"}
+  allowed_consumer:
+    type: object
+    additionalProperties: false
+    required: [consumer_id, consumer_role, component_id, component_version, component_identity_artifact_sha256]
+    properties:
+      consumer_id: {$ref: "#/$defs/id"}
+      consumer_role: {$ref: "#/$defs/id"}
+      component_id: {$ref: "#/$defs/id"}
+      component_version: {$ref: "#/$defs/id"}
+      component_identity_artifact_sha256: {$ref: "#/$defs/sha256"}
+  allowed_outputs:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required: [artifact_class, relative_path, writer_component_id, max_count]
+      properties:
+        artifact_class: {$ref: "#/$defs/id"}
+        relative_path: {type: string, minLength: 1}
+        writer_component_id: {$ref: "#/$defs/id"}
+        max_count: {type: integer, minimum: 1}
+  denied_capability_policy_version: {const: "CTDE-DENIED-CAPABILITIES-1"}
+  denied_capabilities:
+    const:
+      - direct_source_open
+      - raw_path_disclosure
+      - caller_supplied_range_override
+      - unbounded_read
+      - read_to_eof
+      - automatic_retry
+      - second_source
+      - network_source_fetch
+      - unapproved_output_write
+      - authorization_inheritance
+      - authorization_replay
+      - profile_promotion
+  issuer:
+    type: object
+    additionalProperties: false
+    required: [authority_id, approval_evidence_ref, approval_evidence_sha256]
+    properties:
+      authority_id: {$ref: "#/$defs/id"}
+      approval_evidence_ref: {$ref: "#/$defs/id"}
+      approval_evidence_sha256: {$ref: "#/$defs/sha256"}
+  issued_at: {$ref: "#/$defs/rfc3339_utc"}
+  expires_at: {$ref: "#/$defs/rfc3339_utc"}
+  nonce: {$ref: "#/$defs/sha256"}
+  one_time: {const: true}
+  automatic_retry_allowed: {const: false}
+  authorization_inheritable: {const: false}
+  authorization_state: {const: approved}

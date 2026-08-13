@@ -1,0 +1,37 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T20-FORMAL-DISCOVERY-PROTOTYPE-TREE
+requirement_group: RCPT-T20-FORMAL-DISCOVERY
+attempt_id: RCPT-20260811-243
+grant_id: null
+authorization_absent: true
+authorization_absent_reason: manifest_case_requires_no_grant
+expected_component_result: PASS_FORMAL_EXCLUDED
+actual_component_result: PASS_FORMAL_EXCLUDED
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: F
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 0
+  capabilities: 0
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: f1dadd870a59e7cd06c8cdac20ae3c50e8a6fc0da4e5452559bb31b932582c0b
+closure_attestation_sha256: 5089c34eb5c0c69014a6de53d926692c99820db31da93cc09c969715c4d28370
+blockers: []

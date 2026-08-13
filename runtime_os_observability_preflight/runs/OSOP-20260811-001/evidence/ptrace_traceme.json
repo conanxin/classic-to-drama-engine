@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+    "ptrace-traceme"
+  ],
+  "duration_ns": 764154,
+  "returncode": 1,
+  "started_at": "2026-08-11T13:02:27.563382Z",
+  "stderr": "",
+  "stdout": "ptrace_traceme_rc=-1 errno=1 message=Operation not permitted\n",
+  "terminal_at": "2026-08-11T13:02:27.564146Z",
+  "timed_out": false
+}

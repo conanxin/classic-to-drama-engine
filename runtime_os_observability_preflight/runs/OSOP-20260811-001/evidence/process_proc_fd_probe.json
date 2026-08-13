@@ -1,0 +1,541 @@
+{
+  "direct_namespace_pid_proc_path": {
+    "cmdline": null,
+    "cmdline_error": "FileNotFoundError(2, 'No such file or directory')",
+    "exists": false,
+    "path": "/proc/13"
+  },
+  "inner_pid_matches_popen": true,
+  "inner_ppid_matches_controller": true,
+  "inotify_events": [
+    {
+      "cookie": 0,
+      "is_access": false,
+      "is_open": true,
+      "mask": 32,
+      "name": "",
+      "path": "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+      "wd": 1
+    },
+    {
+      "cookie": 0,
+      "is_access": true,
+      "is_open": false,
+      "mask": 1,
+      "name": "",
+      "path": "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+      "wd": 1
+    }
+  ],
+  "mapped_descendant": {
+    "cmdline": [
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+      "hold-tree",
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+      "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d"
+    ],
+    "name": "synthetic_consu",
+    "nspid": [
+      959069,
+      14
+    ],
+    "outer_pid": 959069,
+    "ppid_outer": 959068,
+    "starttime": 5661572,
+    "state": "S (sleeping)"
+  },
+  "mapped_main_post": {
+    "cmdline": [
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+      "hold-tree",
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+      "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d"
+    ],
+    "name": "synthetic_consu",
+    "nspid": [
+      959068,
+      13
+    ],
+    "outer_pid": 959068,
+    "ppid_outer": 959040,
+    "starttime": 5661571,
+    "state": "S (sleeping)"
+  },
+  "mapped_main_pre": {
+    "cmdline": [
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+      "hold-tree",
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+      "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d"
+    ],
+    "name": "synthetic_consu",
+    "nspid": [
+      959068,
+      13
+    ],
+    "outer_pid": 959068,
+    "ppid_outer": 959040,
+    "starttime": 5661571,
+    "state": "S (sleeping)"
+  },
+  "nonce": "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d",
+  "observer_ready_at": "2026-08-11T13:02:26.644135Z",
+  "outer_proc_exists_after_wait": {
+    "959068": false,
+    "959069": false
+  },
+  "pidfd_getfd": {
+    "device": 65024,
+    "errno": 0,
+    "fd": 9,
+    "inode": 2761584,
+    "message": "OK"
+  },
+  "pidfd_open": {
+    "errno": 0,
+    "fd": 4,
+    "message": "OK"
+  },
+  "pidfd_poll_after_wait": [
+    [
+      4,
+      17
+    ]
+  ],
+  "popen_namespace_pid": 13,
+  "post_handshake": {
+    "line": "POST pid=13 descendant=14 fd=3 nonce=OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d",
+    "parsed": {
+      "descendant": "14",
+      "fd": "3",
+      "nonce": "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d",
+      "pid": "13"
+    }
+  },
+  "post_mapping_matches": [
+    {
+      "cmdline": [
+        "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+        "hold-tree",
+        "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+        "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d"
+      ],
+      "name": "synthetic_consu",
+      "nspid": [
+        959068,
+        13
+      ],
+      "outer_pid": 959068,
+      "ppid_outer": 959040,
+      "starttime": 5661571,
+      "state": "S (sleeping)"
+    },
+    {
+      "cmdline": [
+        "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+        "hold-tree",
+        "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+        "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d"
+      ],
+      "name": "synthetic_consu",
+      "nspid": [
+        959069,
+        14
+      ],
+      "outer_pid": 959069,
+      "ppid_outer": 959068,
+      "starttime": 5661572,
+      "state": "S (sleeping)"
+    }
+  ],
+  "pre_handshake": {
+    "line": "PRE pid=13 ppid=2 nonce=OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d",
+    "parsed": {
+      "nonce": "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d",
+      "pid": "13",
+      "ppid": "2"
+    }
+  },
+  "pre_mapping_matches": [
+    {
+      "cmdline": [
+        "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+        "hold-tree",
+        "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+        "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d"
+      ],
+      "name": "synthetic_consu",
+      "nspid": [
+        959068,
+        13
+      ],
+      "outer_pid": 959068,
+      "ppid_outer": 959040,
+      "starttime": 5661571,
+      "state": "S (sleeping)"
+    }
+  ],
+  "proc_descendant_post": {
+    "cgroup": "0::/\n",
+    "cmdline": [
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+      "hold-tree",
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+      "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d"
+    ],
+    "exe_target": "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+    "expected_starttime": 5661572,
+    "fd": [
+      {
+        "device": 12,
+        "fd": 0,
+        "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t13\nino:\t1226533\n",
+        "inode": 1226533,
+        "mode": 384,
+        "target": "pipe:[1226533]"
+      },
+      {
+        "device": 12,
+        "fd": 1,
+        "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t13\nino:\t1226534\n",
+        "inode": 1226534,
+        "mode": 384,
+        "target": "pipe:[1226534]"
+      },
+      {
+        "device": 12,
+        "fd": 2,
+        "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t13\nino:\t1226535\n",
+        "inode": 1226535,
+        "mode": 384,
+        "target": "pipe:[1226535]"
+      },
+      {
+        "device": 65024,
+        "fd": 3,
+        "fdinfo": "pos:\t64\nflags:\t02100000\nmnt_id:\t137\nino:\t2761584\n",
+        "inode": 2761584,
+        "mode": 420,
+        "target": "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic"
+      }
+    ],
+    "fd_errors": [],
+    "gid_map": "         0          0          1\n",
+    "identity_ok": true,
+    "namespaces": {
+      "cgroup": "cgroup:[4026532216]",
+      "mnt": "mnt:[4026532286]",
+      "net": "net:[4026532288]",
+      "pid": "pid:[4026532287]",
+      "pid_for_children": "pid:[4026532287]",
+      "user": "user:[4026532218]"
+    },
+    "observed_starttime": 5661572,
+    "outer_pid": 959069,
+    "root_target": "/",
+    "status": {
+      "CapAmb": "0000000000000000",
+      "CapBnd": "00000000a00425fb",
+      "CapEff": "00000000a00425fb",
+      "CapInh": "0000000000000000",
+      "CapPrm": "00000000a00425fb",
+      "CoreDumping": "0",
+      "Cpus_allowed": "ffffffff,ffffffff",
+      "Cpus_allowed_list": "0-63",
+      "FDSize": "64",
+      "Gid": "0\t0\t0\t0",
+      "Groups": "0",
+      "HugetlbPages": "0 kB",
+      "Kthread": "0",
+      "Mems_allowed": "00000000,00000001",
+      "Mems_allowed_list": "0",
+      "NSpgid": "959068\t13",
+      "NSpid": "959069\t14",
+      "NSsid": "959068\t13",
+      "NStgid": "959069\t14",
+      "Name": "synthetic_consu",
+      "Ngid": "0",
+      "NoNewPrivs": "1",
+      "PPid": "959068",
+      "Pid": "959069",
+      "RssAnon": "56 kB",
+      "RssFile": "200 kB",
+      "RssShmem": "0 kB",
+      "Seccomp": "2",
+      "Seccomp_filters": "1",
+      "ShdPnd": "0000000000000000",
+      "SigBlk": "0000000000000000",
+      "SigCgt": "0000000000000000",
+      "SigIgn": "0000000000000000",
+      "SigPnd": "0000000000000000",
+      "SigQ": "0/7851",
+      "SpeculationIndirectBranch": "always enabled",
+      "Speculation_Store_Bypass": "vulnerable",
+      "State": "S (sleeping)",
+      "THP_enabled": "1",
+      "Tgid": "959069",
+      "Threads": "1",
+      "TracerPid": "0",
+      "Uid": "0\t0\t0\t0",
+      "Umask": "0022",
+      "VmData": "168 kB",
+      "VmExe": "512 kB",
+      "VmHWM": "256 kB",
+      "VmLck": "0 kB",
+      "VmLib": "8 kB",
+      "VmPTE": "36 kB",
+      "VmPeak": "1024 kB",
+      "VmPin": "0 kB",
+      "VmRSS": "256 kB",
+      "VmSize": "1024 kB",
+      "VmStk": "136 kB",
+      "VmSwap": "0 kB",
+      "nonvoluntary_ctxt_switches": "0",
+      "untag_mask": "0xffffffffffffffff",
+      "voluntary_ctxt_switches": "1"
+    },
+    "status_text": "Name:\tsynthetic_consu\nUmask:\t0022\nState:\tS (sleeping)\nTgid:\t959069\nNgid:\t0\nPid:\t959069\nPPid:\t959068\nTracerPid:\t0\nUid:\t0\t0\t0\t0\nGid:\t0\t0\t0\t0\nFDSize:\t64\nGroups:\t0 \nNStgid:\t959069\t14\nNSpid:\t959069\t14\nNSpgid:\t959068\t13\nNSsid:\t959068\t13\nKthread:\t0\nVmPeak:\t    1024 kB\nVmSize:\t    1024 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t     256 kB\nVmRSS:\t     256 kB\nRssAnon:\t      56 kB\nRssFile:\t     200 kB\nRssShmem:\t       0 kB\nVmData:\t     168 kB\nVmStk:\t     136 kB\nVmExe:\t     512 kB\nVmLib:\t       8 kB\nVmPTE:\t      36 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nuntag_mask:\t0xffffffffffffffff\nThreads:\t1\nSigQ:\t0/7851\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000000000000\nSigCgt:\t0000000000000000\nCapInh:\t0000000000000000\nCapPrm:\t00000000a00425fb\nCapEff:\t00000000a00425fb\nCapBnd:\t00000000a00425fb\nCapAmb:\t0000000000000000\nNoNewPrivs:\t1\nSeccomp:\t2\nSeccomp_filters:\t1\nSpeculation_Store_Bypass:\tvulnerable\nSpeculationIndirectBranch:\talways enabled\nCpus_allowed:\tffffffff,ffffffff\nCpus_allowed_list:\t0-63\nMems_allowed:\t00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t1\nnonvoluntary_ctxt_switches:\t0\n",
+    "uid_map": "         0          0          1\n"
+  },
+  "proc_main_post": {
+    "cgroup": "0::/\n",
+    "cmdline": [
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+      "hold-tree",
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+      "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d"
+    ],
+    "exe_target": "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+    "expected_starttime": 5661571,
+    "fd": [
+      {
+        "device": 12,
+        "fd": 0,
+        "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t13\nino:\t1226533\n",
+        "inode": 1226533,
+        "mode": 384,
+        "target": "pipe:[1226533]"
+      },
+      {
+        "device": 12,
+        "fd": 1,
+        "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t13\nino:\t1226534\n",
+        "inode": 1226534,
+        "mode": 384,
+        "target": "pipe:[1226534]"
+      },
+      {
+        "device": 12,
+        "fd": 2,
+        "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t13\nino:\t1226535\n",
+        "inode": 1226535,
+        "mode": 384,
+        "target": "pipe:[1226535]"
+      },
+      {
+        "device": 65024,
+        "fd": 3,
+        "fdinfo": "pos:\t64\nflags:\t02100000\nmnt_id:\t137\nino:\t2761584\n",
+        "inode": 2761584,
+        "mode": 420,
+        "target": "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic"
+      }
+    ],
+    "fd_errors": [],
+    "gid_map": "         0          0          1\n",
+    "identity_ok": true,
+    "namespaces": {
+      "cgroup": "cgroup:[4026532216]",
+      "mnt": "mnt:[4026532286]",
+      "net": "net:[4026532288]",
+      "pid": "pid:[4026532287]",
+      "pid_for_children": "pid:[4026532287]",
+      "user": "user:[4026532218]"
+    },
+    "observed_starttime": 5661571,
+    "outer_pid": 959068,
+    "root_target": "/",
+    "status": {
+      "CapAmb": "0000000000000000",
+      "CapBnd": "00000000a00425fb",
+      "CapEff": "00000000a00425fb",
+      "CapInh": "0000000000000000",
+      "CapPrm": "00000000a00425fb",
+      "CoreDumping": "0",
+      "Cpus_allowed": "ffffffff,ffffffff",
+      "Cpus_allowed_list": "0-63",
+      "FDSize": "64",
+      "Gid": "0\t0\t0\t0",
+      "Groups": "0",
+      "HugetlbPages": "0 kB",
+      "Kthread": "0",
+      "Mems_allowed": "00000000,00000001",
+      "Mems_allowed_list": "0",
+      "NSpgid": "959068\t13",
+      "NSpid": "959068\t13",
+      "NSsid": "959068\t13",
+      "NStgid": "959068\t13",
+      "Name": "synthetic_consu",
+      "Ngid": "0",
+      "NoNewPrivs": "1",
+      "PPid": "959040",
+      "Pid": "959068",
+      "RssAnon": "56 kB",
+      "RssFile": "680 kB",
+      "RssShmem": "0 kB",
+      "Seccomp": "2",
+      "Seccomp_filters": "1",
+      "ShdPnd": "0000000000000000",
+      "SigBlk": "0000000000000000",
+      "SigCgt": "0000000000000000",
+      "SigIgn": "0000000000000000",
+      "SigPnd": "0000000000000000",
+      "SigQ": "0/7851",
+      "SpeculationIndirectBranch": "always enabled",
+      "Speculation_Store_Bypass": "vulnerable",
+      "State": "S (sleeping)",
+      "THP_enabled": "1",
+      "Tgid": "959068",
+      "Threads": "1",
+      "TracerPid": "0",
+      "Uid": "0\t0\t0\t0",
+      "Umask": "0022",
+      "VmData": "168 kB",
+      "VmExe": "512 kB",
+      "VmHWM": "736 kB",
+      "VmLck": "0 kB",
+      "VmLib": "8 kB",
+      "VmPTE": "36 kB",
+      "VmPeak": "1024 kB",
+      "VmPin": "0 kB",
+      "VmRSS": "736 kB",
+      "VmSize": "1024 kB",
+      "VmStk": "136 kB",
+      "VmSwap": "0 kB",
+      "nonvoluntary_ctxt_switches": "0",
+      "untag_mask": "0xffffffffffffffff",
+      "voluntary_ctxt_switches": "2"
+    },
+    "status_text": "Name:\tsynthetic_consu\nUmask:\t0022\nState:\tS (sleeping)\nTgid:\t959068\nNgid:\t0\nPid:\t959068\nPPid:\t959040\nTracerPid:\t0\nUid:\t0\t0\t0\t0\nGid:\t0\t0\t0\t0\nFDSize:\t64\nGroups:\t0 \nNStgid:\t959068\t13\nNSpid:\t959068\t13\nNSpgid:\t959068\t13\nNSsid:\t959068\t13\nKthread:\t0\nVmPeak:\t    1024 kB\nVmSize:\t    1024 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t     736 kB\nVmRSS:\t     736 kB\nRssAnon:\t      56 kB\nRssFile:\t     680 kB\nRssShmem:\t       0 kB\nVmData:\t     168 kB\nVmStk:\t     136 kB\nVmExe:\t     512 kB\nVmLib:\t       8 kB\nVmPTE:\t      36 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nuntag_mask:\t0xffffffffffffffff\nThreads:\t1\nSigQ:\t0/7851\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000000000000\nSigCgt:\t0000000000000000\nCapInh:\t0000000000000000\nCapPrm:\t00000000a00425fb\nCapEff:\t00000000a00425fb\nCapBnd:\t00000000a00425fb\nCapAmb:\t0000000000000000\nNoNewPrivs:\t1\nSeccomp:\t2\nSeccomp_filters:\t1\nSpeculation_Store_Bypass:\tvulnerable\nSpeculationIndirectBranch:\talways enabled\nCpus_allowed:\tffffffff,ffffffff\nCpus_allowed_list:\t0-63\nMems_allowed:\t00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t2\nnonvoluntary_ctxt_switches:\t0\n",
+    "uid_map": "         0          0          1\n"
+  },
+  "proc_pre": {
+    "cgroup": "0::/\n",
+    "cmdline": [
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+      "hold-tree",
+      "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+      "OSOP-HOLD-8a0207f67b0d4cc9b875b8d606cbaf2d"
+    ],
+    "exe_target": "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+    "expected_starttime": 5661571,
+    "fd": [
+      {
+        "device": 12,
+        "fd": 0,
+        "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t13\nino:\t1226533\n",
+        "inode": 1226533,
+        "mode": 384,
+        "target": "pipe:[1226533]"
+      },
+      {
+        "device": 12,
+        "fd": 1,
+        "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t13\nino:\t1226534\n",
+        "inode": 1226534,
+        "mode": 384,
+        "target": "pipe:[1226534]"
+      },
+      {
+        "device": 12,
+        "fd": 2,
+        "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t13\nino:\t1226535\n",
+        "inode": 1226535,
+        "mode": 384,
+        "target": "pipe:[1226535]"
+      }
+    ],
+    "fd_errors": [],
+    "gid_map": "         0          0          1\n",
+    "identity_ok": true,
+    "namespaces": {
+      "cgroup": "cgroup:[4026532216]",
+      "mnt": "mnt:[4026532286]",
+      "net": "net:[4026532288]",
+      "pid": "pid:[4026532287]",
+      "pid_for_children": "pid:[4026532287]",
+      "user": "user:[4026532218]"
+    },
+    "observed_starttime": 5661571,
+    "outer_pid": 959068,
+    "root_target": "/",
+    "status": {
+      "CapAmb": "0000000000000000",
+      "CapBnd": "00000000a00425fb",
+      "CapEff": "00000000a00425fb",
+      "CapInh": "0000000000000000",
+      "CapPrm": "00000000a00425fb",
+      "CoreDumping": "0",
+      "Cpus_allowed": "ffffffff,ffffffff",
+      "Cpus_allowed_list": "0-63",
+      "FDSize": "64",
+      "Gid": "0\t0\t0\t0",
+      "Groups": "0",
+      "HugetlbPages": "0 kB",
+      "Kthread": "0",
+      "Mems_allowed": "00000000,00000001",
+      "Mems_allowed_list": "0",
+      "NSpgid": "959068\t13",
+      "NSpid": "959068\t13",
+      "NSsid": "959068\t13",
+      "NStgid": "959068\t13",
+      "Name": "synthetic_consu",
+      "Ngid": "0",
+      "NoNewPrivs": "1",
+      "PPid": "959040",
+      "Pid": "959068",
+      "RssAnon": "56 kB",
+      "RssFile": "680 kB",
+      "RssShmem": "0 kB",
+      "Seccomp": "2",
+      "Seccomp_filters": "1",
+      "ShdPnd": "0000000000000000",
+      "SigBlk": "0000000000000000",
+      "SigCgt": "0000000000000000",
+      "SigIgn": "0000000000000000",
+      "SigPnd": "0000000000000000",
+      "SigQ": "0/7851",
+      "SpeculationIndirectBranch": "always enabled",
+      "Speculation_Store_Bypass": "vulnerable",
+      "State": "S (sleeping)",
+      "THP_enabled": "1",
+      "Tgid": "959068",
+      "Threads": "1",
+      "TracerPid": "0",
+      "Uid": "0\t0\t0\t0",
+      "Umask": "0022",
+      "VmData": "168 kB",
+      "VmExe": "512 kB",
+      "VmHWM": "736 kB",
+      "VmLck": "0 kB",
+      "VmLib": "8 kB",
+      "VmPTE": "36 kB",
+      "VmPeak": "1024 kB",
+      "VmPin": "0 kB",
+      "VmRSS": "736 kB",
+      "VmSize": "1024 kB",
+      "VmStk": "136 kB",
+      "VmSwap": "0 kB",
+      "nonvoluntary_ctxt_switches": "0",
+      "untag_mask": "0xffffffffffffffff",
+      "voluntary_ctxt_switches": "1"
+    },
+    "status_text": "Name:\tsynthetic_consu\nUmask:\t0022\nState:\tS (sleeping)\nTgid:\t959068\nNgid:\t0\nPid:\t959068\nPPid:\t959040\nTracerPid:\t0\nUid:\t0\t0\t0\t0\nGid:\t0\t0\t0\t0\nFDSize:\t64\nGroups:\t0 \nNStgid:\t959068\t13\nNSpid:\t959068\t13\nNSpgid:\t959068\t13\nNSsid:\t959068\t13\nKthread:\t0\nVmPeak:\t    1024 kB\nVmSize:\t    1024 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t     736 kB\nVmRSS:\t     736 kB\nRssAnon:\t      56 kB\nRssFile:\t     680 kB\nRssShmem:\t       0 kB\nVmData:\t     168 kB\nVmStk:\t     136 kB\nVmExe:\t     512 kB\nVmLib:\t       8 kB\nVmPTE:\t      36 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nuntag_mask:\t0xffffffffffffffff\nThreads:\t1\nSigQ:\t0/7851\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000000000000\nSigCgt:\t0000000000000000\nCapInh:\t0000000000000000\nCapPrm:\t00000000a00425fb\nCapEff:\t00000000a00425fb\nCapBnd:\t00000000a00425fb\nCapAmb:\t0000000000000000\nNoNewPrivs:\t1\nSeccomp:\t2\nSeccomp_filters:\t1\nSpeculation_Store_Bypass:\tvulnerable\nSpeculationIndirectBranch:\talways enabled\nCpus_allowed:\tffffffff,ffffffff\nCpus_allowed_list:\t0-63\nMems_allowed:\t00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t1\nnonvoluntary_ctxt_switches:\t0\n",
+    "uid_map": "         0          0          1\n"
+  },
+  "release_open_at": "2026-08-11T13:02:26.644142Z",
+  "returncode": 0,
+  "started_at": "2026-08-11T13:02:26.642172Z",
+  "stderr": "",
+  "terminal_at": "2026-08-11T13:02:26.797405Z"
+}

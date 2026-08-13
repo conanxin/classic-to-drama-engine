@@ -1,0 +1,363 @@
+{
+  "created_or_modified_files": [
+    {
+      "path": "OS_OBSERVABILITY_CAPABILITY_MATRIX.json",
+      "sha256": "5fdf7dd8088fcb817b484a8dc699f97338dd8e2955e8ead739420bd62f814162",
+      "size": 30740
+    },
+    {
+      "path": "RUNTIME_OS_OBSERVABILITY_PREFLIGHT_RESULT.md",
+      "sha256": "0ca51394315199683cd790e01d160addb80f1cb0e32bb23df212045b49c433c0",
+      "size": 14639
+    },
+    {
+      "path": "phase_2g_r1_os_observability_preflight_BLOCKED.tar.gz",
+      "sha256": "32ff69e6a8f118e3bf304416af54a87a5c65455de8f2bff76fc39762c6946dc3",
+      "size": 723833
+    },
+    {
+      "path": "runtime_os_observability_preflight/probe_manifest.json",
+      "sha256": "0c81f6ce9c3b482876b7116190d0f67896a3a50f11aba63ba180ea2d92c987fe",
+      "size": 8657
+    },
+    {
+      "path": "runtime_os_observability_preflight/probes/synthetic_consumer.c",
+      "sha256": "22cb85ed7c130d1b9667f2f13f4bfbd57fd5acc0cddf7435f718831b6d24463b",
+      "size": 3681
+    },
+    {
+      "path": "runtime_os_observability_preflight/run_preflight.py",
+      "sha256": "09b8fd42b3d7cdfbdf9831997b16ed060fe4efc2e21f7c3e48a39bba479fc699",
+      "size": 61919
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/aggregate/evidence_index.json",
+      "sha256": "de4d87b452a856d0c88079424067a12930d20ae80d47cd3744f43b1bd45e8ce1",
+      "size": 4487
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/aggregate/probe_results.json",
+      "sha256": "5fdf7dd8088fcb817b484a8dc699f97338dd8e2955e8ead739420bd62f814162",
+      "size": 30740
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+      "sha256": "4f2453cf8bef34c76aae1c689e29e7fa8b29c48c9190c4b749d8ce026c40fcfd",
+      "size": 794984
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/basis_after.json",
+      "sha256": "64314ece38fadd72cf50c0968c1c85fe8ada7b9047fbfbf31292aec298946202",
+      "size": 431
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/basis_before.json",
+      "sha256": "64314ece38fadd72cf50c0968c1c85fe8ada7b9047fbfbf31292aec298946202",
+      "size": 431
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/boundary_controller_ledger.json",
+      "sha256": "74363f9284c7c4ab517c7bfb355282c83411abaa147892c3b28278baf6246e1f",
+      "size": 651
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/consumer_build.json",
+      "sha256": "8f52f12e1c0bee7756860d1f08be93a6565d1c0d892aafb06dae2de219a281c4",
+      "size": 1215
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/environment.json",
+      "sha256": "2ac15fc228199de85572672cd84b78fbff8f3bba1f6dde6cc0d227949ab1f5af",
+      "size": 4982
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/evidence_tamper.json",
+      "sha256": "fa0c54ac6612977acb18ab6e698f2a3e65330c17950f2d5d2d99b2387226ef20",
+      "size": 1018
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/fanotify.json",
+      "sha256": "272b58621820c0c6c178af2fcfb528952cc17449f32326204fae87fa82e92633",
+      "size": 83
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/fixture_identity.json",
+      "sha256": "8f19aae726f80e15579d21b6d1ffa5f4ebcc9188c2b3d81a540d29848a30d2be",
+      "size": 594
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json",
+      "sha256": "d28b15fb827fae216c8ee2f618d06e6a2acc10fcf970919e5e42c6dcc807ec6d",
+      "size": 20433
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/ptrace_attach.json",
+      "sha256": "f9bfcf98b2e193fdac173f1c3129cdbe056b51407b6986a4eabee4ca876befba",
+      "size": 309
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/ptrace_traceme.json",
+      "sha256": "a5755e0929c371de0184738d1ed9e9c763c5821ec176087305482de0e390fd14",
+      "size": 416
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/repeated_pid_mapping.json",
+      "sha256": "d0c3a851e12bb8b6927239a176cce41f99ff075ebdb719bcf98c977fdc97f5eb",
+      "size": 4092
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/runtime_tree_after.json",
+      "sha256": "0149dee657d65b16a3314a66b431c2b4dac8f7d55eaf25812fb63098393ce73b",
+      "size": 1158774
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/runtime_tree_before.json",
+      "sha256": "0149dee657d65b16a3314a66b431c2b4dac8f7d55eaf25812fb63098393ce73b",
+      "size": 1158774
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/sacrificial_observer_evidence.txt",
+      "sha256": "1d48aa22fa65498ea6052f19ec7082fe6ec2aa4d9c71dbb6bd60b2f2a78104c3",
+      "size": 31
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_attach.json",
+      "sha256": "b47762c546574c37e4510c2ff0dd55252aa5c7be0e3d60a8d7388970f5683551",
+      "size": 2473
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_launch.json",
+      "sha256": "c88f0b2217610506e2a48468ea11d2dd3cc0d63f57d23775900e9a6dba47ab01",
+      "size": 1615
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_launch.trace.22",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_version.json",
+      "sha256": "6ef8962a3ec90f5604fff5a8af67914f091bb7e713df227cc372e6f4989a9d5a",
+      "size": 585
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json",
+      "sha256": "a99137b545f3f905749096bc358dc5eff88234dfa79504a4128b391eba4ed28f",
+      "size": 545
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+      "sha256": "2cd9957106e320d9ee24b03a3af725fcc48d3ae83e905a15263d90e353129afc",
+      "size": 248
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/reference_not_opened.synthetic",
+      "sha256": "2a8fc51c9b2b69e56f2372235fa5613b2a51e33b2d089be9fbf858e0d3612cb4",
+      "size": 264
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-001.json",
+      "sha256": "60d9cf9fc696627626a648068c0135e6e36b28cb0df8dd9964c891e89b9a96ae",
+      "size": 398
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-002.json",
+      "sha256": "c512d56b9f387cfb5461af7fdb5512e9cd737d9261136b769741c1be98e5be72",
+      "size": 398
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-003.json",
+      "sha256": "c95b20ab6af15e7481ca40d968e6c24a7e6dec46651066086f8601e407a255dc",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-004.json",
+      "sha256": "ac47e01b8005a27b97adbdeac1b17e98e85e5c218278c8f86bc730da1bac8078",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-005.json",
+      "sha256": "b438c7f05fb34efb8f78068a3f7dae01a777b7ccbcdc314c85c8aaa4c5b7ad55",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-006.json",
+      "sha256": "b1de745e3875b3592e48260abfca7699f5c555e5fd35f5b481f16fb3c1137e5b",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-007.json",
+      "sha256": "ff6950ae8a9a6dca5b3794364caac418f4addb09f3b3646305eb676e15a1837a",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-008.json",
+      "sha256": "756d9bcab778c9fe2e02beedf6081b96ec7c3d4ddc258b2cb6686e45a0065a93",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-009.json",
+      "sha256": "a8bb5013980ad3b1787e9b113bed76f48457a23919a241b6817e4bc1a2b4cf52",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-010.json",
+      "sha256": "281b92121762816748362ea679904a5dc93e606551f0ef620d2f0b3d2016ee5f",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-011.json",
+      "sha256": "08ee37eb7cfa5b1a6e7d25fddfe370592cdd6c43b418729504ae746066b5b080",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-012.json",
+      "sha256": "6d5559de25d8d5e7abd2b145b41ee7b9dae531c06270b4122ac14c56e8b5efc3",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-013.json",
+      "sha256": "999badd25e7462c9889f60e9b88bd76f2eebbf453b8c953d1632690b4fb71988",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-014.json",
+      "sha256": "d2850296009e169988a5b41cf38c30efce4a9e7735597660bf084769f061e52d",
+      "size": 407
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-015.json",
+      "sha256": "1d9e203052b8ab56fe6b47abbd1d510e8b0d8eb13761685db0846f1e8224f22d",
+      "size": 401
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-016.json",
+      "sha256": "e545feca447b7b6a2ae18e005dd003bade471d9311f0822ae4b45a3f9b37c2f2",
+      "size": 447
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-017.json",
+      "sha256": "f6818e94c38a5ce8ba3965fcd4a3207495ecc0ec6ba77ee34a43ed0fae34fa82",
+      "size": 447
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-018.json",
+      "sha256": "7bd97762b5972a5dd9192359b5041de1a327f604d2a82586d1e13f8e319320e3",
+      "size": 449
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-019.json",
+      "sha256": "e1e7771764303879b455cb0e0707970cdb9b4fc341bd49b7af722e3f897af62f",
+      "size": 447
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-020.json",
+      "sha256": "9a58782092bc71b0be6618bdcdbee126ac70017030062f428c032897997d8cd8",
+      "size": 398
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-021.json",
+      "sha256": "3583b09c23b86310af134aeaaeff7b7ebb78f68631c25261a13ac6674b01e908",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-022.json",
+      "sha256": "0b4ef2632bba94ad9bd6e132644001e75184e1dcf6f0284f818fa327f50fb402",
+      "size": 454
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-023.json",
+      "sha256": "787fb8e53c42ebba1ef1991c4b529e627a0e1dc18cb6b8d7c36af02f9304d914",
+      "size": 475
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-024.json",
+      "sha256": "f8c1321b44acccb1a9f1a6da4ca2bd53157b4fb6725b4ac0654dd27f491e741c",
+      "size": 475
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-025.json",
+      "sha256": "ca3f91856054d28ef5daec7aa5deb109eb3439d7246757c04654130f8fab2870",
+      "size": 427
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-026.json",
+      "sha256": "ce8ceab414ce80f615cdc0638ad812d65aef4d93e09e85296fedd1e056db401f",
+      "size": 536
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-027.json",
+      "sha256": "2b7509a898dda27a8c01b18f9a1dc2c549c25feb4c0d0a688b03cd39eec576e0",
+      "size": 542
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-028.json",
+      "sha256": "ffdf939bc995b95a9594014593b57039276e0d2f45cd8d009f132e98d257402a",
+      "size": 408
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-029.json",
+      "sha256": "61f3d75a89acb1696630ca8508372cfa101d3e6eebe6a237fb989fee0e871a84",
+      "size": 541
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-030.json",
+      "sha256": "cb842003a81596380954f89d736fd282f1319aa2f7220f1a887bb8b262442786",
+      "size": 454
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-031.json",
+      "sha256": "714221fa36d1666703bec4b3b6eeb73f7f769cb61243d2b646cad542eb36d5f8",
+      "size": 453
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-032.json",
+      "sha256": "c306497e47ca4227a4af56065088d356c8f1351315f1cbdb54776760cdda2072",
+      "size": 444
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-033.json",
+      "sha256": "74636384e5943ed5fba124c30feda5662be62f95a1e051fe387457e1519d3bbf",
+      "size": 459
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-034.json",
+      "sha256": "37befd611758056bafc89993d79ae80bf7c79c558c626593f265fcde69e191a1",
+      "size": 440
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-035.json",
+      "sha256": "a5ca4f26af64b76d129c5ad6abd5d358636d1598db5b552bc3c1afbbd9796179",
+      "size": 555
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-036.json",
+      "sha256": "03cb9435088a2f7fd44f3773cd6135d94faae8a76d98a4db457210172560238c",
+      "size": 553
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-037.json",
+      "sha256": "90a0dbe629ed597b886fc1c381fcd9e373c45c28c770b86c9c7445c51d95b561",
+      "size": 561
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-038.json",
+      "sha256": "9b9dfa9f5de2dcd226a0c709d2b93b1ff216039bd978052cff3a0e98b30d581b",
+      "size": 517
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-039.json",
+      "sha256": "b2d8e9bf1e4140db503109fd2f6036018712589fd90b7da743d74edf5af1a23a",
+      "size": 617
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/terminal/OSOP-040.json",
+      "sha256": "f1f0f0ed549f2fb7e912a9f23e5efa51ee2a47c86f3ad54af922742385255fb1",
+      "size": 687
+    }
+  ],
+  "phase": "2-G-R1",
+  "schema_version": "1.0",
+  "self_digest_excluded": true,
+  "suite_id": "OSOP-20260811-001"
+}

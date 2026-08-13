@@ -1,0 +1,137 @@
+{
+  "all_unique": true,
+  "attempts": [
+    {
+      "handshake": "IDLE_READY pid=15 ppid=2 nonce=OSOP-REPEAT-0-7c8ef60228ae40aab30ab248a08323d2",
+      "index": 0,
+      "mapped": {
+        "cmdline": [
+          "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+          "idle",
+          "OSOP-REPEAT-0-7c8ef60228ae40aab30ab248a08323d2"
+        ],
+        "name": "synthetic_consu",
+        "nspid": [
+          959070,
+          15
+        ],
+        "outer_pid": 959070,
+        "ppid_outer": 959040,
+        "starttime": 5661587,
+        "state": "S (sleeping)"
+      },
+      "matches": [
+        {
+          "cmdline": [
+            "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+            "idle",
+            "OSOP-REPEAT-0-7c8ef60228ae40aab30ab248a08323d2"
+          ],
+          "name": "synthetic_consu",
+          "nspid": [
+            959070,
+            15
+          ],
+          "outer_pid": 959070,
+          "ppid_outer": 959040,
+          "starttime": 5661587,
+          "state": "S (sleeping)"
+        }
+      ],
+      "nonce": "OSOP-REPEAT-0-7c8ef60228ae40aab30ab248a08323d2",
+      "outer_proc_absent_after_wait": true,
+      "parent_ok": true,
+      "popen_namespace_pid": 15,
+      "returncode": 0,
+      "unique": true
+    },
+    {
+      "handshake": "IDLE_READY pid=16 ppid=2 nonce=OSOP-REPEAT-1-b99134fa57724571afa547ea581c57fd",
+      "index": 1,
+      "mapped": {
+        "cmdline": [
+          "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+          "idle",
+          "OSOP-REPEAT-1-b99134fa57724571afa547ea581c57fd"
+        ],
+        "name": "synthetic_consu",
+        "nspid": [
+          959071,
+          16
+        ],
+        "outer_pid": 959071,
+        "ppid_outer": 959040,
+        "starttime": 5661587,
+        "state": "S (sleeping)"
+      },
+      "matches": [
+        {
+          "cmdline": [
+            "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+            "idle",
+            "OSOP-REPEAT-1-b99134fa57724571afa547ea581c57fd"
+          ],
+          "name": "synthetic_consu",
+          "nspid": [
+            959071,
+            16
+          ],
+          "outer_pid": 959071,
+          "ppid_outer": 959040,
+          "starttime": 5661587,
+          "state": "S (sleeping)"
+        }
+      ],
+      "nonce": "OSOP-REPEAT-1-b99134fa57724571afa547ea581c57fd",
+      "outer_proc_absent_after_wait": true,
+      "parent_ok": true,
+      "popen_namespace_pid": 16,
+      "returncode": 0,
+      "unique": true
+    },
+    {
+      "handshake": "IDLE_READY pid=17 ppid=2 nonce=OSOP-REPEAT-2-acd3a693b3f64072bc107f84998a52f2",
+      "index": 2,
+      "mapped": {
+        "cmdline": [
+          "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+          "idle",
+          "OSOP-REPEAT-2-acd3a693b3f64072bc107f84998a52f2"
+        ],
+        "name": "synthetic_consu",
+        "nspid": [
+          959072,
+          17
+        ],
+        "outer_pid": 959072,
+        "ppid_outer": 959040,
+        "starttime": 5661588,
+        "state": "S (sleeping)"
+      },
+      "matches": [
+        {
+          "cmdline": [
+            "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+            "idle",
+            "OSOP-REPEAT-2-acd3a693b3f64072bc107f84998a52f2"
+          ],
+          "name": "synthetic_consu",
+          "nspid": [
+            959072,
+            17
+          ],
+          "outer_pid": 959072,
+          "ppid_outer": 959040,
+          "starttime": 5661588,
+          "state": "S (sleeping)"
+        }
+      ],
+      "nonce": "OSOP-REPEAT-2-acd3a693b3f64072bc107f84998a52f2",
+      "outer_proc_absent_after_wait": true,
+      "parent_ok": true,
+      "popen_namespace_pid": 17,
+      "returncode": 0,
+      "unique": true
+    }
+  ]
+}

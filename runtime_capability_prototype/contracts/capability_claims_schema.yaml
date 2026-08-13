@@ -1,0 +1,33 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:ctde:schema:prototype-range-capability:1"
+type: "object"
+additionalProperties: false
+required:
+  - "object_id"
+  - "jti"
+  - "environment"
+  - "attempt_id"
+  - "authorization_file_sha256"
+  - "iss"
+  - "aud"
+  - "iat"
+  - "nbf"
+  - "exp"
+  - "capability_id"
+  - "nonce"
+  - "one_shot"
+  - "consumption_event_id"
+  - "fixture_object_id"
+  - "fixture_structure_contract_id"
+  - "fixture_structure_contract_sha256"
+  - "start_byte"
+  - "end_byte_exclusive"
+  - "expected_length"
+  - "expected_slice_sha256"
+properties:
+  environment: {const: "prototype_fixture_only"}
+  start_byte: {const: 4076}
+  end_byte_exclusive: {const: 36515}
+  expected_length: {const: 32439}
+  one_shot: {const: true}
+

@@ -1,0 +1,42 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T37-PROFILE-TIME-ENV-EXP-PAST
+requirement_group: RCPT-T37-PROFILE-TIME
+attempt_id: RCPT-20260811-384
+grant_id: GRANT-RCPT-20260811-384
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_SIGNED_OBJECT_PROFILE_INVALID
+actual_component_result: BLOCKED_SIGNED_OBJECT_PROFILE_INVALID
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls:
+- offset: 4076
+  requested_bytes: 32439
+  returned_bytes: 32439
+actual_union_of_read_ranges:
+- end_byte_exclusive: 36515
+  start_byte: 4076
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 1
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 71eb41223adf8813e157284354aad4d732e8f0c95c11f56633954192f918bfb4
+closure_attestation_sha256: c486f5104fe7a3137b6f0ca752e8680dc35c85a384557af7b7f3feab4754b603
+blockers: []

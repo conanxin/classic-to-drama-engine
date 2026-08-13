@@ -1,0 +1,38 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T16-GREEK-ID-AUTH-PRODUCTION-RAW
+requirement_group: RCPT-T16-GREEK-ID
+attempt_id: RCPT-20260811-231
+grant_id: GRANT-RCPT-20260811-231
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_FORBIDDEN_SOURCE_ROLE
+actual_component_result: BLOCKED_FORBIDDEN_SOURCE_ROLE
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 0
+  capabilities: 0
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: def418453dce0dc778d34e3a23f9a967678a819d8922fc1b79c973112c054803
+closure_attestation_sha256: 3de58e81f2f36502c8cb76dfcce73353babe49fb1848556254b361b00e978bed
+blockers:
+- BLOCKED_FORBIDDEN_SOURCE_ROLE

@@ -1,0 +1,26 @@
+{
+  "attempts": [
+    {
+      "argv": [
+        "/usr/bin/cc",
+        "-static",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-o",
+        "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+        "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/probes/synthetic_consumer.c"
+      ],
+      "duration_ns": 81769780,
+      "returncode": 0,
+      "started_at": "2026-08-11T13:02:26.559285Z",
+      "stderr": "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/probes/synthetic_consumer.c: In function ‘mode_tamper’:\n/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/probes/synthetic_consumer.c:98:15: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]\n   98 |         (void)write(fd, marker, sizeof(marker) - 1);\n      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n",
+      "stdout": "",
+      "terminal_at": "2026-08-11T13:02:26.641043Z",
+      "timed_out": false
+    }
+  ],
+  "binary_sha256": "4f2453cf8bef34c76aae1c689e29e7fa8b29c48c9190c4b749d8ce026c40fcfd",
+  "linkage": "static",
+  "success": true
+}

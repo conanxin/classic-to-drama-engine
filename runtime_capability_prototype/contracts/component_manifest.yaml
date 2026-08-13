@@ -1,0 +1,79 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_component_manifest
+suite_id: RCPTS-20260811-002
+environment: prototype_fixture_only
+candidate_run_authorized: false
+formal_phase_2_input: false
+components:
+- component_id: ctde-prototype-authorization_registry
+  version: 0.1.0
+  path: runtime/ctde_runtime/authorization_registry.py
+  sha256: 26dc60926826db207cace0e871d15b587032d4cb3e861c111415d0819707ea82
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-range_broker
+  version: 0.1.0
+  path: runtime/ctde_runtime/range_broker.py
+  sha256: 19aaaef83c92d871467a5e463581cc574b6b419f85a9a6ac9086f27868f76b26
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-bounded_reader
+  version: 0.1.0
+  path: runtime/ctde_runtime/bounded_reader.py
+  sha256: c49bd965a40e52120207192fe082dc9737b565253dd4cfe62fc200a1a9cf1a99
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-formal_loader
+  version: 0.1.0
+  path: runtime/ctde_runtime/formal_loader.py
+  sha256: eb866084c8dc95c52b28118a2669314559d165e6b949cb0ff7edeb111c10e11d
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-read_audit
+  version: 0.1.0
+  path: runtime/ctde_runtime/read_audit.py
+  sha256: 735d25ff6ff41c6b77538daf1d27550d76211c20098a99a4246b5c91eb662b8b
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-signed_event_log
+  version: 0.1.0
+  path: runtime/ctde_runtime/events.py
+  sha256: 84d05a5c49bdf7e66f9cd68a3941e18b2577420479acf5389c69f1e6852322ac
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-signed_profiles
+  version: 0.1.0
+  path: runtime/ctde_runtime/signing.py
+  sha256: 5c41a1601b9824715d17ae416513646575006a9207dedd26bb2036336e66cc36
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-fixture_controller
+  version: 0.1.0
+  path: runtime/ctde_runtime/fixture_factory.py
+  sha256: c40aef7040c808b68a7f315ec7051cdbbe7424dbc2a62e4bce6278e08743519b
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-sandbox_supervisor
+  version: 0.1.0
+  path: runtime/ctde_runtime/sandbox.py
+  sha256: c60aca6b25e933a12e37862c55df8ae8472dca55f03b0ceb871cbcd8eaf8a9d1
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-sandbox_probe_source
+  version: 0.1.0
+  path: native/consumer_probe.c
+  sha256: f4057def41b265723538eb28aa7a9e3172536d44de5a54d276fedf3df1aad3fb
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-sandbox_probe_binary
+  version: 0.1.0
+  path: bin/consumer_probe
+  sha256: f1f4849e078169d14ae18c91a5469b171534479dd8255de359f588ca1b475c80
+  environment: prototype_fixture_only
+  production_approved: false
+- component_id: ctde-prototype-suite_runner
+  version: 0.1.0
+  path: runtime/run_suite.py
+  sha256: caf32bdb9c49ba78ee1671d41b62bc9eb8297343624ceb7afd562443a6794749
+  environment: prototype_fixture_only
+  production_approved: false

@@ -1,0 +1,17 @@
+{
+  "available": true,
+  "blocker": "",
+  "capability_id": "OSOP-024",
+  "details": {
+    "pid_attributed": false,
+    "qualifies_complete_a2": false
+  },
+  "evidence_artifact": [
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+  ],
+  "evidence_level": "A0",
+  "probe_run_id": "OSOP-20260811-001-OSOP-024",
+  "result": "PASS",
+  "started_at": "2026-08-11T13:02:27.569066Z",
+  "terminal_at": "2026-08-11T13:02:27.569069Z"
+}

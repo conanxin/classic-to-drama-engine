@@ -1,0 +1,44 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T22-AUDIT-MISSING-DELIVERY-MISMATCH
+requirement_group: RCPT-T22-AUDIT-MISSING
+attempt_id: RCPT-20260811-267
+grant_id: GRANT-RCPT-20260811-267
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_SCOPE_PROOF_UNAVAILABLE
+actual_component_result: BLOCKED_SANDBOX_ISOLATION_UNPROVEN
+exact_result_match: false
+case_test_result: fail
+evidence_complete: true
+side_effect_bundle: D
+actual_read_calls:
+- offset: 4076
+  requested_bytes: 32439
+  returned_bytes: 32439
+actual_union_of_read_ranges:
+- end_byte_exclusive: 36515
+  start_byte: 4076
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 1
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 71126c3c1504d40f2359704018088ee948da28449e131970a1a36e3b0527696a
+closure_attestation_sha256: 088788ef7dc1000014beffd88dcadff8451a17af9033d172f0870c8ec141df72
+blockers:
+- 'BLOCKED_SANDBOX_ISOLATION_UNPROVEN: supervisor cannot resolve child PID in the
+  mounted /proc namespace'

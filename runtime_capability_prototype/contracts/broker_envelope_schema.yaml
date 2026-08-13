@@ -1,0 +1,33 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:ctde:schema:prototype-broker-envelope:1"
+type: "object"
+additionalProperties: false
+required:
+  - "object_id"
+  - "environment"
+  - "attempt_id"
+  - "authorization_file_sha256"
+  - "iss"
+  - "aud"
+  - "iat"
+  - "nbf"
+  - "exp"
+  - "consumption_event_id"
+  - "capability_id"
+  - "delivery_id"
+  - "broker_component_id"
+  - "fixture_structure_contract_sha256"
+  - "start_byte"
+  - "end_byte_exclusive"
+  - "returned_bytes"
+  - "slice_sha256"
+  - "broker_read_attestation_id"
+  - "broker_read_attestation_sha256"
+  - "payload_transport"
+properties:
+  environment: {const: "prototype_fixture_only"}
+  start_byte: {const: 4076}
+  end_byte_exclusive: {const: 36515}
+  returned_bytes: {const: 32439}
+  payload_transport: {const: "sealed_memory_only"}
+

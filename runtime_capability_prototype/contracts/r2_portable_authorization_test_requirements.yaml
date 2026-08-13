@@ -1,0 +1,75 @@
+schema_version: "1.0.0"
+artifact_class: "ctde_r2_portable_authorization_test_requirements"
+assurance_profile_id: "CTDE-PORTABLE-DEV-1"
+synthetic_only: true
+source_open_allowed: false
+candidate_allowed: false
+model_calls_allowed: false
+business_outputs_allowed: false
+requirements:
+  - requirement_id: R2P-REQ-VALID
+    cases: [valid_authorization_accepted, first_consume_accepted]
+  - requirement_id: R2P-REQ-WRONG-RUN
+    cases: [wrong_run_rejected]
+  - requirement_id: R2P-REQ-WRONG-SOURCE
+    cases: [wrong_source_rejected, wrong_source_snapshot_rejected]
+  - requirement_id: R2P-REQ-STRUCTURE
+    cases: [wrong_structure_map_rejected]
+  - requirement_id: R2P-REQ-TASK-SCOPE
+    cases: [wrong_task_scope_rejected]
+  - requirement_id: R2P-REQ-OUT-OF-RANGE
+    cases: [out_of_range_rejected]
+  - requirement_id: R2P-REQ-CONSUMER
+    cases: [unauthorized_consumer_rejected]
+  - requirement_id: R2P-REQ-OUTPUT
+    cases: [unauthorized_output_rejected]
+  - requirement_id: R2P-REQ-DENY-POLICY
+    cases: [denied_capability_rejected, denied_policy_mutation_rejected]
+  - requirement_id: R2P-REQ-EXPIRED
+    cases: [expired_rejected, expiry_boundary_rejected]
+  - requirement_id: R2P-REQ-REVOKED
+    cases: [revoked_rejected]
+  - requirement_id: R2P-REQ-REPLAY
+    cases: [authorization_replay_rejected]
+  - requirement_id: R2P-REQ-MALFORMED
+    cases: [malformed_yaml_rejected, duplicate_key_rejected, self_digest_rejected]
+  - requirement_id: R2P-REQ-MISSING-REQUIRED
+    cases: [missing_required_field_rejected]
+  - requirement_id: R2P-REQ-UNKNOWN-VERSION
+    cases: [missing_version_rejected, legacy_version_rejected, unknown_version_rejected]
+  - requirement_id: R2P-REQ-REGISTRY-DIGEST
+    cases: [registry_digest_mismatch_rejected]
+  - requirement_id: R2P-REQ-PROFILE
+    cases: [profile_missing_rejected, wrong_profile_rejected]
+  - requirement_id: R2P-REQ-NONCE
+    cases: [duplicate_nonce_rejected, wrong_nonce_rejected]
+  - requirement_id: R2P-REQ-CONTEXT-CONSUMERS
+    cases: [wrong_stage_context_rejected, stale_context_rejected]
+  - requirement_id: R2P-REQ-ONE-TIME-FLAGS
+    cases: [one_time_false_rejected, retry_true_rejected, inheritance_true_rejected]
+  - requirement_id: R2P-REQ-TIME
+    cases: [time_ordering_rejected, invalid_timezone_rejected]
+  - requirement_id: R2P-REQ-CLAIMS-BYTES
+    cases: [caller_claims_mutation_rejected]
+  - requirement_id: R2P-REQ-REGISTRY-BLOB-TAMPER
+    cases: [registry_blob_tamper_rejected]
+  - requirement_id: R2P-REQ-AUDIT-COPY-MUTATION
+    cases: [audit_copy_mutation_detected]
+  - requirement_id: R2P-REQ-CONCURRENT-CAS
+    cases: [concurrent_consume_single_winner]
+  - requirement_id: R2P-REQ-CRASH-AFTER-CAS
+    cases: [crash_after_consume_blocks_recovery]
+  - requirement_id: R2P-REQ-POST-CONSUME-RETRY
+    cases: [post_consume_abort_blocks_retry]
+  - requirement_id: R2P-REQ-MINT-LEASE-REPLAY
+    cases: [mint_lease_replay_rejected]
+  - requirement_id: R2P-REQ-CAPABILITY-PREPARATION-FAILURE
+    cases: [preparation_failure_before_object, preparation_failure_after_object]
+  - requirement_id: R2P-REQ-CAPABILITY-PREPARATION-REPLAY
+    cases: [capability_preparation_replay_rejected]
+  - requirement_id: R2P-REQ-POST-LEASE-CRASH
+    cases: [crash_after_lease_blocks_preparation, crash_after_preparation_blocks_activation]
+  - requirement_id: R2P-REQ-CAPABILITY-ACTIVATION-REPLAY
+    cases: [capability_activation_replay_rejected]
+  - requirement_id: R2P-REQ-AUDIT-FAILURE
+    cases: [audit_writer_unavailable_pre_consume, audit_writer_failure_post_consume, audit_writer_failure_post_preparation]

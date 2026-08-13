@@ -1,0 +1,38 @@
+schema_version: c2d.sources-registry.v1
+
+sources:
+  ODY-GRC-MURRAY1919:
+    source_id: ODY-GRC-MURRAY1919
+    role: canonical_anchor
+    acquisition_status: acquired
+    verification_status: verification_failed
+    approval_status: pending
+    files:
+      - file_id: ODY-GRC-MURRAY1919-RAW-FULL-TEI
+        record: metadata/records/ody-grc-murray1919-raw-full-tei.source.yaml
+        checksum: sha256:184fa4fc598f0cd9d2964b17eaabe36bd9c61d44c2eae264c4b016feacf28530
+
+  ODY-ENG-MURRAY1919:
+    source_id: ODY-ENG-MURRAY1919
+    role: primary_working_text
+    acquisition_status: acquired
+    verification_status: verified
+    approval_status: pending
+    files:
+      - file_id: ODY-ENG-MURRAY1919-RAW-FULL-TEI
+        record: metadata/records/ody-eng-murray1919-raw-full-tei.source.yaml
+        checksum: sha256:dda5b206e332e56c570c1d92ea41e9a510339a454bc2ea90491788e34174a7e7
+
+  ODY-META-PERSEUS-CTS:
+    source_id: ODY-META-PERSEUS-CTS
+    role: identity_metadata
+    acquisition_status: pending
+    verification_status: pending
+    approval_status: pending
+    files:
+      - file_id: ODY-META-PERSEUS-CTS-RAW-TEXTGROUP-XML
+        record: null
+        checksum: null
+      - file_id: ODY-META-PERSEUS-CTS-RAW-WORK-XML
+        record: null
+        checksum: null

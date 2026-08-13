@@ -1,0 +1,773 @@
+{
+  "allow_r2": false,
+  "blockers": [
+    "CANDIDATE_MODEL_BUSINESS_ZERO_COUNTS_A2_UNKNOWN",
+    "COMPLETE_FILE_OPEN_SET_UNPROVEN",
+    "COMPLETE_OS_EVIDENCE_NOT_INDEPENDENT_OF_BOUNDED_READER",
+    "COMPLETE_OS_EVIDENCE_NOT_INDEPENDENT_OF_BROKER",
+    "COMPLETE_OS_EVIDENCE_NOT_INDEPENDENT_OF_CONSUMER",
+    "CONSUMER_CAN_MODIFY_OBSERVER_EVIDENCE",
+    "DESCENDANT_SYSCALL_TRACE_UNAVAILABLE",
+    "FANOTIFY_INIT_PERMISSION_DENIED",
+    "NETWORK_WRITE_CLOSED_COVERAGE_UNAVAILABLE",
+    "OBSERVER_CRASH_FAIL_CLOSED_BEHAVIOR_UNQUALIFIED",
+    "OBSERVER_LOSS_ACCOUNTING_UNKNOWN",
+    "REAL_SOURCE_ZERO_COUNTS_A2_UNKNOWN",
+    "REFERENCE_ZERO_NOT_PROCESS_ATTRIBUTED",
+    "SECOND_CHANNEL_CLOSED_COVERAGE_UNAVAILABLE",
+    "TRACE_MONITOR_UNAVAILABLE_PTRACE_ATTACH_DENIED",
+    "TRACE_MONITOR_UNAVAILABLE_PTRACE_TRACEME_DENIED",
+    "TRACE_MONITOR_UNAVAILABLE_STRACE_ATTACH_DENIED",
+    "TRACE_MONITOR_UNAVAILABLE_STRACE_LAUNCH_DENIED"
+  ],
+  "capabilities": [
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "current process PID is observable",
+      "capability_id": "OSOP-001",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/environment.json"
+      ],
+      "evidence_level": "A1",
+      "probe_method": "compare os.getpid with /proc/self status and stat",
+      "probe_run_id": "OSOP-20260811-001-OSOP-001",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.567779Z",
+      "terminal_at": "2026-08-11T13:02:27.567784Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "host PID and namespace PID are distinguished without guessing",
+      "capability_id": "OSOP-002",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/environment.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "parse NSpid and PID namespace inode",
+      "probe_run_id": "OSOP-20260811-001-OSOP-002",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.567842Z",
+      "terminal_at": "2026-08-11T13:02:27.567844Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "synthetic child PID maps uniquely across namespace layers",
+      "capability_id": "OSOP-003",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "scan outer /proc by exact nonce, NSpid tail, PPid and starttime",
+      "probe_run_id": "OSOP-20260811-001-OSOP-003",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.567890Z",
+      "terminal_at": "2026-08-11T13:02:27.567892Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "parent-child relation is independently observable",
+      "capability_id": "OSOP-004",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "verify outer PPid and namespace PPid against controller identity",
+      "probe_run_id": "OSOP-20260811-001-OSOP-004",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.567931Z",
+      "terminal_at": "2026-08-11T13:02:27.567934Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "complete synthetic child process tree is observable",
+      "capability_id": "OSOP-005",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "scan nonce-tagged outer /proc entries and verify descendant PPid edges",
+      "probe_run_id": "OSOP-20260811-001-OSOP-005",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.567970Z",
+      "terminal_at": "2026-08-11T13:02:27.567972Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "synthetic child lifecycle is stably observable",
+      "capability_id": "OSOP-006",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "bind starttime and pidfd, observe alive then exit and /proc disappearance",
+      "probe_run_id": "OSOP-20260811-001-OSOP-006",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568010Z",
+      "terminal_at": "2026-08-11T13:02:27.568012Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "/proc/<pid>/status is readable and bound to the child",
+      "capability_id": "OSOP-007",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "read mapped outer PID status and revalidate identity tuple",
+      "probe_run_id": "OSOP-20260811-001-OSOP-007",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568049Z",
+      "terminal_at": "2026-08-11T13:02:27.568051Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "/proc/<pid>/cmdline is readable and bound to the child",
+      "capability_id": "OSOP-008",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "read mapped outer PID cmdline and match exact nonce",
+      "probe_run_id": "OSOP-20260811-001-OSOP-008",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568087Z",
+      "terminal_at": "2026-08-11T13:02:27.568090Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "/proc/<pid>/fd is readable and stably bound",
+      "capability_id": "OSOP-009",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "enumerate mapped child FD directory before and after allowed open",
+      "probe_run_id": "OSOP-20260811-001-OSOP-009",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568130Z",
+      "terminal_at": "2026-08-11T13:02:27.568132Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "/proc/<pid>/fdinfo is readable and stably bound",
+      "capability_id": "OSOP-010",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "read fdinfo for every observed child FD",
+      "probe_run_id": "OSOP-20260811-001-OSOP-010",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568169Z",
+      "terminal_at": "2026-08-11T13:02:27.568171Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "FD symlink targets resolve to stable file identities",
+      "capability_id": "OSOP-011",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "readlink FD targets and compare allowed file device/inode",
+      "probe_run_id": "OSOP-20260811-001-OSOP-011",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568205Z",
+      "terminal_at": "2026-08-11T13:02:27.568208Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "root, namespaces, UID/GID map, capabilities, NoNewPrivs and seccomp are independently observable",
+      "capability_id": "OSOP-012",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "read mapped child proc status, root, namespace links, uid/gid maps and cgroup",
+      "probe_run_id": "OSOP-20260811-001-OSOP-012",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568243Z",
+      "terminal_at": "2026-08-11T13:02:27.568245Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "pidfd can bind lifecycle to the direct synthetic child",
+      "capability_id": "OSOP-013",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "actual pidfd_open and poll after child exit",
+      "probe_run_id": "OSOP-20260811-001-OSOP-013",
+      "required_for_r1": false,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568280Z",
+      "terminal_at": "2026-08-11T13:02:27.568283Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "PID binding remains unique across repeated child lifecycles",
+      "capability_id": "OSOP-014",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/repeated_pid_mapping.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "three nonce-separated child launches with independent outer PID mapping",
+      "probe_run_id": "OSOP-20260811-001-OSOP-014",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568392Z",
+      "terminal_at": "2026-08-11T13:02:27.568395Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "strace executable is present",
+      "capability_id": "OSOP-015",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_version.json"
+      ],
+      "evidence_level": "A1",
+      "probe_method": "resolve executable and execute --version",
+      "probe_run_id": "OSOP-20260811-001-OSOP-015",
+      "required_for_r1": false,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568499Z",
+      "terminal_at": "2026-08-11T13:02:27.568501Z"
+    },
+    {
+      "available": false,
+      "blocker": "TRACE_MONITOR_UNAVAILABLE_STRACE_LAUNCH_DENIED",
+      "capability": "strace can trace a consumer from process launch",
+      "capability_id": "OSOP-016",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_launch.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "actual strace -ff trace=all launch around static synthetic consumer",
+      "probe_run_id": "OSOP-20260811-001-OSOP-016",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.568540Z",
+      "terminal_at": "2026-08-11T13:02:27.568542Z"
+    },
+    {
+      "available": false,
+      "blocker": "TRACE_MONITOR_UNAVAILABLE_STRACE_ATTACH_DENIED",
+      "capability": "strace can attach to an owned live synthetic child",
+      "capability_id": "OSOP-017",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_attach.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "actual strace -ff -p attach then controlled allowed-file open",
+      "probe_run_id": "OSOP-20260811-001-OSOP-017",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.568585Z",
+      "terminal_at": "2026-08-11T13:02:27.568587Z"
+    },
+    {
+      "available": false,
+      "blocker": "TRACE_MONITOR_UNAVAILABLE_PTRACE_TRACEME_DENIED",
+      "capability": "PTRACE_TRACEME is permitted in a synthetic child",
+      "capability_id": "OSOP-018",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/ptrace_traceme.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "actual libc ptrace PTRACE_TRACEME call",
+      "probe_run_id": "OSOP-20260811-001-OSOP-018",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.568687Z",
+      "terminal_at": "2026-08-11T13:02:27.568689Z"
+    },
+    {
+      "available": false,
+      "blocker": "TRACE_MONITOR_UNAVAILABLE_PTRACE_ATTACH_DENIED",
+      "capability": "PTRACE_ATTACH is permitted for the direct parent",
+      "capability_id": "OSOP-019",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/ptrace_attach.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "actual libc ptrace PTRACE_ATTACH against owned synthetic child",
+      "probe_run_id": "OSOP-20260811-001-OSOP-019",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.568795Z",
+      "terminal_at": "2026-08-11T13:02:27.568798Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "kernel and container tracing restrictions are observable",
+      "capability_id": "OSOP-020",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/environment.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "record seccomp, NoNewPrivs, effective capabilities, Yama, LSM and tracefs state",
+      "probe_run_id": "OSOP-20260811-001-OSOP-020",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568902Z",
+      "terminal_at": "2026-08-11T13:02:27.568905Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "allowed synthetic file open is visible in independent /proc FD evidence",
+      "capability_id": "OSOP-021",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "match held child FD target to allowed file device/inode",
+      "probe_run_id": "OSOP-20260811-001-OSOP-021",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568946Z",
+      "terminal_at": "2026-08-11T13:02:27.568948Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "reference file absence is visible in an instantaneous /proc FD snapshot",
+      "capability_id": "OSOP-022",
+      "details": {
+        "scope": "instantaneous_snapshot_only"
+      },
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "verify no held child or descendant FD resolves to reference file",
+      "probe_run_id": "OSOP-20260811-001-OSOP-022",
+      "required_for_r1": false,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.568985Z",
+      "terminal_at": "2026-08-11T13:02:27.568987Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "kernel inotify reports the allowed synthetic file open",
+      "capability_id": "OSOP-023",
+      "details": {
+        "pid_attributed": false,
+        "qualifies_complete_a2": false
+      },
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "arm IN_OPEN/IN_ACCESS watches before releasing child",
+      "probe_run_id": "OSOP-20260811-001-OSOP-023",
+      "required_for_r1": false,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.569026Z",
+      "terminal_at": "2026-08-11T13:02:27.569028Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "kernel inotify reports zero reference-file events in the isolated window",
+      "capability_id": "OSOP-024",
+      "details": {
+        "pid_attributed": false,
+        "qualifies_complete_a2": false
+      },
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "compare watched-path event counts with allowed positive control",
+      "probe_run_id": "OSOP-20260811-001-OSOP-024",
+      "required_for_r1": false,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.569066Z",
+      "terminal_at": "2026-08-11T13:02:27.569069Z"
+    },
+    {
+      "available": false,
+      "blocker": "FANOTIFY_INIT_PERMISSION_DENIED",
+      "capability": "fanotify or equivalent supplies PID-attributed file-open events",
+      "capability_id": "OSOP-025",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/fanotify.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "actual fanotify_init capability probe",
+      "probe_run_id": "OSOP-20260811-001-OSOP-025",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569177Z",
+      "terminal_at": "2026-08-11T13:02:27.569180Z"
+    },
+    {
+      "available": false,
+      "blocker": "COMPLETE_FILE_OPEN_SET_UNPROVEN",
+      "capability": "the complete successful file-open set is independently provable",
+      "capability_id": "OSOP-026",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json",
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_launch.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "parse complete launch trace with positive control and zero loss",
+      "probe_run_id": "OSOP-20260811-001-OSOP-026",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569219Z",
+      "terminal_at": "2026-08-11T13:02:27.569221Z"
+    },
+    {
+      "available": false,
+      "blocker": "REFERENCE_ZERO_NOT_PROCESS_ATTRIBUTED",
+      "capability": "zero reference-file opens are independently attributable to the consumer tree",
+      "capability_id": "OSOP-027",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json",
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_launch.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "require complete PID-attributed trace plus allowed-file positive event",
+      "probe_run_id": "OSOP-20260811-001-OSOP-027",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569260Z",
+      "terminal_at": "2026-08-11T13:02:27.569262Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "observer is ready before the first synthetic object open",
+      "capability_id": "OSOP-028",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+      ],
+      "evidence_level": "A2",
+      "probe_method": "ready handshake and pre-open FD/inotify snapshot before controller release",
+      "probe_run_id": "OSOP-20260811-001-OSOP-028",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.569371Z",
+      "terminal_at": "2026-08-11T13:02:27.569375Z"
+    },
+    {
+      "available": false,
+      "blocker": "DESCENDANT_SYSCALL_TRACE_UNAVAILABLE",
+      "capability": "syscall observer covers all descendants from create through exit",
+      "capability_id": "OSOP-029",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json",
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_launch.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "require successful -ff launch trace and descendant create/exit records",
+      "probe_run_id": "OSOP-20260811-001-OSOP-029",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569427Z",
+      "terminal_at": "2026-08-11T13:02:27.569429Z"
+    },
+    {
+      "available": false,
+      "blocker": "SECOND_CHANNEL_CLOSED_COVERAGE_UNAVAILABLE",
+      "capability": "second file-read channels are covered or independently denied",
+      "capability_id": "OSOP-030",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "closed coverage check for mmap/sendfile/splice/vmsplice/tee/copy_file_range/io_uring",
+      "probe_run_id": "OSOP-20260811-001-OSOP-030",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569468Z",
+      "terminal_at": "2026-08-11T13:02:27.569470Z"
+    },
+    {
+      "available": false,
+      "blocker": "NETWORK_WRITE_CLOSED_COVERAGE_UNAVAILABLE",
+      "capability": "network and write paths are covered by the independent observer",
+      "capability_id": "OSOP-031",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "closed trace coverage profile check for socket/connect and write/create/rename/link/unlink",
+      "probe_run_id": "OSOP-20260811-001-OSOP-031",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569507Z",
+      "terminal_at": "2026-08-11T13:02:27.569509Z"
+    },
+    {
+      "available": false,
+      "blocker": "OBSERVER_LOSS_ACCOUNTING_UNKNOWN",
+      "capability": "observer event loss and decode failure are measurable as exact integers",
+      "capability_id": "OSOP-032",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "inspect backend completion and loss accounting contract",
+      "probe_run_id": "OSOP-20260811-001-OSOP-032",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569544Z",
+      "terminal_at": "2026-08-11T13:02:27.569546Z"
+    },
+    {
+      "available": false,
+      "blocker": "OBSERVER_CRASH_FAIL_CLOSED_BEHAVIOR_UNQUALIFIED",
+      "capability": "observer failure or crash is detectable and fails closed",
+      "capability_id": "OSOP-033",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "require child release to depend on successful observer-ready state",
+      "probe_run_id": "OSOP-20260811-001-OSOP-033",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569584Z",
+      "terminal_at": "2026-08-11T13:02:27.569586Z"
+    },
+    {
+      "available": false,
+      "blocker": "CONSUMER_CAN_MODIFY_OBSERVER_EVIDENCE",
+      "capability": "consumer cannot modify, truncate or delete observer evidence",
+      "capability_id": "OSOP-034",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/evidence_tamper.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "actual sacrificial evidence-file tamper attempt by same execution identity",
+      "probe_run_id": "OSOP-20260811-001-OSOP-034",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569693Z",
+      "terminal_at": "2026-08-11T13:02:27.569696Z"
+    },
+    {
+      "available": false,
+      "blocker": "COMPLETE_OS_EVIDENCE_NOT_INDEPENDENT_OF_CONSUMER",
+      "capability": "required OS evidence is independent of consumer self-report",
+      "capability_id": "OSOP-035",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json",
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/evidence_tamper.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "require kernel/supervisor complete trace stored outside consumer control",
+      "probe_run_id": "OSOP-20260811-001-OSOP-035",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569800Z",
+      "terminal_at": "2026-08-11T13:02:27.569802Z"
+    },
+    {
+      "available": false,
+      "blocker": "COMPLETE_OS_EVIDENCE_NOT_INDEPENDENT_OF_BROKER",
+      "capability": "required OS evidence is independent of broker self-report",
+      "capability_id": "OSOP-036",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json",
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/evidence_tamper.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "require kernel/supervisor complete trace with no broker evidence dependency",
+      "probe_run_id": "OSOP-20260811-001-OSOP-036",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.569905Z",
+      "terminal_at": "2026-08-11T13:02:27.569907Z"
+    },
+    {
+      "available": false,
+      "blocker": "COMPLETE_OS_EVIDENCE_NOT_INDEPENDENT_OF_BOUNDED_READER",
+      "capability": "required OS evidence is independent of bounded-reader self-report",
+      "capability_id": "OSOP-037",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json",
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/evidence_tamper.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "require kernel/supervisor complete trace with no reader evidence dependency",
+      "probe_run_id": "OSOP-20260811-001-OSOP-037",
+      "required_for_r1": true,
+      "result": "FAIL",
+      "started_at": "2026-08-11T13:02:27.570006Z",
+      "terminal_at": "2026-08-11T13:02:27.570008Z"
+    },
+    {
+      "available": false,
+      "blocker": "REAL_SOURCE_ZERO_COUNTS_A2_UNKNOWN",
+      "capability": "English and Greek TEI read counts are independently provable as zero",
+      "capability_id": "OSOP-038",
+      "details": {
+        "a2_verified_count": null,
+        "controller_logical_count": 0
+      },
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "require complete phase process/file trace or independent source unreachability proof",
+      "probe_run_id": "OSOP-20260811-001-OSOP-038",
+      "required_for_r1": true,
+      "result": "UNKNOWN",
+      "started_at": "2026-08-11T13:02:27.570048Z",
+      "terminal_at": "2026-08-11T13:02:27.570050Z"
+    },
+    {
+      "available": false,
+      "blocker": "CANDIDATE_MODEL_BUSINESS_ZERO_COUNTS_A2_UNKNOWN",
+      "capability": "Candidate Run, model call and business-output counts are independently provable as zero",
+      "capability_id": "OSOP-039",
+      "details": {
+        "a2_verified_counts": null,
+        "controller_logical_counts": {
+          "business_outputs": 0,
+          "candidate_runs": 0,
+          "model_calls": 0
+        }
+      },
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json"
+      ],
+      "evidence_level": "A0",
+      "probe_method": "require complete process/exec/network/write trace plus controller ledger",
+      "probe_run_id": "OSOP-20260811-001-OSOP-039",
+      "required_for_r1": true,
+      "result": "UNKNOWN",
+      "started_at": "2026-08-11T13:02:27.570092Z",
+      "terminal_at": "2026-08-11T13:02:27.570094Z"
+    },
+    {
+      "available": true,
+      "blocker": "",
+      "capability": "existing Runtime Prototype remains byte-for-byte unchanged",
+      "capability_id": "OSOP-040",
+      "details": {},
+      "evidence_artifact": [
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/runtime_tree_before.json",
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/runtime_tree_after.json",
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/basis_before.json",
+        "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/basis_after.json"
+      ],
+      "evidence_level": "A1",
+      "probe_method": "compare complete preflight start/end path, metadata and SHA-256 manifests",
+      "probe_run_id": "OSOP-20260811-001-OSOP-040",
+      "required_for_r1": true,
+      "result": "PASS",
+      "started_at": "2026-08-11T13:02:27.911134Z",
+      "terminal_at": "2026-08-11T13:02:27.911150Z"
+    }
+  ],
+  "final_status": "BLOCKED_OS_OBSERVABILITY_INSUFFICIENT",
+  "fixture_class": "synthetic_non_literary_only",
+  "highest_end_to_end_evidence_level": "A1",
+  "highest_individual_capability_evidence_level": "A2",
+  "phase": "2-G-R1",
+  "phase_started_at": "2026-08-11T13:02:26.216134Z",
+  "phase_terminal_at": "2026-08-11T13:02:27.911325Z",
+  "probe_summary": {
+    "all_terminal_equation_holds": true,
+    "discovered": 40,
+    "executed": 40,
+    "fail": 16,
+    "manifest": 40,
+    "pass": 22,
+    "terminal": 40,
+    "unknown": 2
+  },
+  "r1": "BLOCKED_OS_OBSERVABILITY_INSUFFICIENT",
+  "r1_satisfied": false,
+  "required_failure_capability_ids": [
+    "OSOP-016",
+    "OSOP-017",
+    "OSOP-018",
+    "OSOP-019",
+    "OSOP-025",
+    "OSOP-026",
+    "OSOP-027",
+    "OSOP-029",
+    "OSOP-030",
+    "OSOP-031",
+    "OSOP-032",
+    "OSOP-033",
+    "OSOP-034",
+    "OSOP-035",
+    "OSOP-036",
+    "OSOP-037",
+    "OSOP-038",
+    "OSOP-039"
+  ],
+  "schema_version": "1.0",
+  "suite_id": "OSOP-20260811-001"
+}

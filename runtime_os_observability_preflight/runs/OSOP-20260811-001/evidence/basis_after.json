@@ -1,0 +1,16 @@
+[
+  {
+    "mode": 420,
+    "mtime_ns": 1786447838309422723,
+    "path": "RUNTIME_CAPABILITY_PROTOTYPE_RESULT.md",
+    "sha256": "6811bcc4ef0efcaee89013648dd0bb06bbaca154625f3dc47bdfa0f295851753",
+    "size": 7734
+  },
+  {
+    "mode": 420,
+    "mtime_ns": 1786451253613337273,
+    "path": "RUNTIME_CAPABILITY_REPAIR_PLAN.md",
+    "sha256": "a2c52dbaecf3956cf4a2189abe5401f269d255e8099d3345985619be25be4213",
+    "size": 45397
+  }
+]

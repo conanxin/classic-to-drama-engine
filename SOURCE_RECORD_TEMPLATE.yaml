@@ -1,0 +1,29 @@
+# Classic-to-Drama Engine — unified source-file registration template
+# Phase 1-E / P0-1. This is a template only; it does not represent an acquired file.
+# Complete every null field before approval. Keep checksum null until bytes exist.
+
+source_id: null
+title: null
+author: null
+edition: null
+language: null
+provider: null
+url: null
+access_date: null
+license: null
+file_type: null
+intended_usage: null
+status: pending
+checksum: null
+
+# Field rules:
+# - source_id: stable uppercase project ID defined in the approved source plan.
+# - language: BCP 47 or ISO 639 compatible code, such as grc or en.
+# - url: immutable retrieval URL for an acquired file; a discovery URL is not sufficient.
+# - access_date: YYYY-MM-DD, recorded only when acquisition is executed.
+# - license: SPDX identifier, NOASSERTION, or an approved LicenseRef-* value.
+# - file_type: controlled lowercase value, such as tei_xml, cts_xml, txt, pdf, epub, or zip.
+# - intended_usage: controlled role, such as canonical_anchor, primary_working_text,
+#   or identity_metadata.
+# - status: pending | acquired | verified | approved | blocked.
+# - checksum: null while pending; after acquisition use sha256:<64 lowercase hex digits>.

@@ -1,0 +1,105 @@
+{
+  "artifact_count": 20,
+  "artifacts": [
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/basis_after.json",
+      "sha256": "64314ece38fadd72cf50c0968c1c85fe8ada7b9047fbfbf31292aec298946202",
+      "size": 431
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/basis_before.json",
+      "sha256": "64314ece38fadd72cf50c0968c1c85fe8ada7b9047fbfbf31292aec298946202",
+      "size": 431
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/boundary_controller_ledger.json",
+      "sha256": "74363f9284c7c4ab517c7bfb355282c83411abaa147892c3b28278baf6246e1f",
+      "size": 651
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/consumer_build.json",
+      "sha256": "8f52f12e1c0bee7756860d1f08be93a6565d1c0d892aafb06dae2de219a281c4",
+      "size": 1215
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/environment.json",
+      "sha256": "2ac15fc228199de85572672cd84b78fbff8f3bba1f6dde6cc0d227949ab1f5af",
+      "size": 4982
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/evidence_tamper.json",
+      "sha256": "fa0c54ac6612977acb18ab6e698f2a3e65330c17950f2d5d2d99b2387226ef20",
+      "size": 1018
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/fanotify.json",
+      "sha256": "272b58621820c0c6c178af2fcfb528952cc17449f32326204fae87fa82e92633",
+      "size": 83
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/fixture_identity.json",
+      "sha256": "8f19aae726f80e15579d21b6d1ffa5f4ebcc9188c2b3d81a540d29848a30d2be",
+      "size": 594
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json",
+      "sha256": "d28b15fb827fae216c8ee2f618d06e6a2acc10fcf970919e5e42c6dcc807ec6d",
+      "size": 20433
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/ptrace_attach.json",
+      "sha256": "f9bfcf98b2e193fdac173f1c3129cdbe056b51407b6986a4eabee4ca876befba",
+      "size": 309
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/ptrace_traceme.json",
+      "sha256": "a5755e0929c371de0184738d1ed9e9c763c5821ec176087305482de0e390fd14",
+      "size": 416
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/repeated_pid_mapping.json",
+      "sha256": "d0c3a851e12bb8b6927239a176cce41f99ff075ebdb719bcf98c977fdc97f5eb",
+      "size": 4092
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/runtime_tree_after.json",
+      "sha256": "0149dee657d65b16a3314a66b431c2b4dac8f7d55eaf25812fb63098393ce73b",
+      "size": 1158774
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/runtime_tree_before.json",
+      "sha256": "0149dee657d65b16a3314a66b431c2b4dac8f7d55eaf25812fb63098393ce73b",
+      "size": 1158774
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/sacrificial_observer_evidence.txt",
+      "sha256": "1d48aa22fa65498ea6052f19ec7082fe6ec2aa4d9c71dbb6bd60b2f2a78104c3",
+      "size": 31
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_attach.json",
+      "sha256": "b47762c546574c37e4510c2ff0dd55252aa5c7be0e3d60a8d7388970f5683551",
+      "size": 2473
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_launch.json",
+      "sha256": "c88f0b2217610506e2a48468ea11d2dd3cc0d63f57d23775900e9a6dba47ab01",
+      "size": 1615
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_launch.trace.22",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_version.json",
+      "sha256": "6ef8962a3ec90f5604fff5a8af67914f091bb7e713df227cc372e6f4989a9d5a",
+      "size": 585
+    },
+    {
+      "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json",
+      "sha256": "a99137b545f3f905749096bc358dc5eff88234dfa79504a4128b391eba4ed28f",
+      "size": 545
+    }
+  ]
+}

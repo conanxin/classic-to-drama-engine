@@ -1,0 +1,75 @@
+{
+  "argv": [
+    "/usr/bin/strace",
+    "-ff",
+    "-qq",
+    "-o",
+    "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/strace_attach.trace",
+    "-e",
+    "trace=all",
+    "-p",
+    "23"
+  ],
+  "child_done": "ATTACH_DONE nonce=OSOP-ATTACH-173b6d8a28b34881b4101fd19976a7f3",
+  "child_mapping": {
+    "mapped": {
+      "cmdline": [
+        "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+        "attach-wait",
+        "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+        "OSOP-ATTACH-173b6d8a28b34881b4101fd19976a7f3"
+      ],
+      "name": "synthetic_consu",
+      "nspid": [
+        959078,
+        23
+      ],
+      "outer_pid": 959078,
+      "ppid_outer": 959040,
+      "starttime": 5661588,
+      "state": "S (sleeping)"
+    },
+    "matches": [
+      {
+        "cmdline": [
+          "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/bin/synthetic_consumer",
+          "attach-wait",
+          "/workspace/scratch/788cfca7cc75/runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+          "OSOP-ATTACH-173b6d8a28b34881b4101fd19976a7f3"
+        ],
+        "name": "synthetic_consu",
+        "nspid": [
+          959078,
+          23
+        ],
+        "outer_pid": 959078,
+        "ppid_outer": 959040,
+        "starttime": 5661588,
+        "state": "S (sleeping)"
+      }
+    ]
+  },
+  "child_namespace_pid": 23,
+  "child_ready": "ATTACH_READY pid=23 ppid=2 nonce=OSOP-ATTACH-173b6d8a28b34881b4101fd19976a7f3",
+  "child_returncode": 0,
+  "executable": "/usr/bin/strace",
+  "nonce": "OSOP-ATTACH-173b6d8a28b34881b4101fd19976a7f3",
+  "started_at": "2026-08-11T13:02:26.811080Z",
+  "summary": {
+    "allowed_path_mentions": 0,
+    "files": [],
+    "has_allowed_open": false,
+    "has_network": false,
+    "has_process_events": false,
+    "has_read": false,
+    "has_write_path": false,
+    "reference_path_mentions": 0,
+    "trace_bytes": 0,
+    "trace_file_count": 0
+  },
+  "terminal_at": "2026-08-11T13:02:27.562865Z",
+  "tracer_returncode": 1,
+  "tracer_returncode_before_release": 1,
+  "tracer_stderr": "/usr/bin/strace: test_ptrace_get_syscall_info: PTRACE_TRACEME: Operation not permitted\n/usr/bin/strace: attach: ptrace(PTRACE_ATTACH, 23): Operation not permitted\n",
+  "tracer_stdout": ""
+}

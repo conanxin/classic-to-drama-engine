@@ -1,0 +1,53 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:ctde:schema:authorization-registry-record:2"
+title: "CTDE Authorization Registry Identity and State V2"
+type: object
+additionalProperties: false
+required: [identity, state]
+properties:
+  identity:
+    type: object
+    additionalProperties: false
+    required: [registry_record_id, authorization_id, schema_id, schema_version, assurance_profile_id, run_id, source_id, source_snapshot_id, structure_map_id, nonce, authorization_artifact_bytes, authorization_artifact_sha256, authorization_artifact_size_bytes, registered_at]
+    properties:
+      registry_record_id: {type: string}
+      authorization_id: {type: string}
+      schema_id: {const: "urn:ctde:schema:runtime-authorization:2"}
+      schema_version: {const: "2.0.0"}
+      assurance_profile_id: {type: string}
+      run_id: {type: string}
+      source_id: {type: string}
+      source_snapshot_id: {type: string}
+      structure_map_id: {type: string}
+      nonce: {type: string, pattern: "^[0-9a-f]{64}$"}
+      authorization_artifact_bytes: {type: string, contentEncoding: base64}
+      authorization_artifact_sha256: {type: string, pattern: "^[0-9a-f]{64}$"}
+      authorization_artifact_size_bytes: {type: integer, minimum: 1}
+      registered_at: {type: string}
+  state:
+    type: object
+    additionalProperties: false
+    required: [registry_record_id, consumption_state, state_version, consumption_event_id, last_state_event_id, state_changed_at, terminal_reason, mint_eligibility_state, mint_eligibility_handle_sha256, mint_eligibility_event_id, mint_claimed, mint_claim_event_id, capability_preparation_state, preparation_handle_sha256, pending_capability_id, pending_capability_artifact_sha256, capability_preparation_event_id, capability_activation_state, activation_handle_sha256, active_capability_id, capability_activation_event_id, activation_commit_a1_event_sha256]
+    properties:
+      registry_record_id: {type: string}
+      consumption_state: {enum: [unconsumed, spent, revoked, expired]}
+      state_version: {type: integer, minimum: 0}
+      consumption_event_id: {type: [string, "null"]}
+      last_state_event_id: {type: [string, "null"]}
+      state_changed_at: {type: string}
+      terminal_reason: {type: [string, "null"]}
+      mint_eligibility_state: {enum: [unavailable, available, claimed, aborted]}
+      mint_eligibility_handle_sha256: {type: [string, "null"]}
+      mint_eligibility_event_id: {type: [string, "null"]}
+      mint_claimed: {type: boolean}
+      mint_claim_event_id: {type: [string, "null"]}
+      capability_preparation_state: {enum: [not_claimed, unprepared, prepared, aborted]}
+      preparation_handle_sha256: {type: [string, "null"]}
+      pending_capability_id: {type: [string, "null"]}
+      pending_capability_artifact_sha256: {type: [string, "null"]}
+      capability_preparation_event_id: {type: [string, "null"]}
+      capability_activation_state: {enum: [not_ready, eligible, activated, aborted]}
+      activation_handle_sha256: {type: [string, "null"]}
+      active_capability_id: {type: [string, "null"]}
+      capability_activation_event_id: {type: [string, "null"]}
+      activation_commit_a1_event_sha256: {type: [string, "null"]}

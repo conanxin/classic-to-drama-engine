@@ -1,0 +1,10 @@
+environment: prototype_fixture_only
+attempt_id: RCPT-20260811-263
+sandbox_status: not_reached
+project_workspace_mounted: false
+project_source_tree_visible: false
+broker_fixture_store_mounted: false
+greek_fixture_or_raw_mounted: false
+network_source_fetch_allowed: false
+consumer_visible_full_object_handles: 0
+reason: BLOCKED_SANDBOX_ISOLATION_UNPROVEN

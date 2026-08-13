@@ -1,0 +1,14 @@
+{
+  "available": false,
+  "blocker": "OBSERVER_CRASH_FAIL_CLOSED_BEHAVIOR_UNQUALIFIED",
+  "capability_id": "OSOP-033",
+  "details": {},
+  "evidence_artifact": [
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/trace_backend_assessment.json"
+  ],
+  "evidence_level": "A0",
+  "probe_run_id": "OSOP-20260811-001-OSOP-033",
+  "result": "FAIL",
+  "started_at": "2026-08-11T13:02:27.569584Z",
+  "terminal_at": "2026-08-11T13:02:27.569586Z"
+}

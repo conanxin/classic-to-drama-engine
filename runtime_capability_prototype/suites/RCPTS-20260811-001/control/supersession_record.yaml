@@ -1,0 +1,12 @@
+schema_version: "1.0.0"
+artifact_class: runtime_capability_suite_supersession_record
+suite_id: RCPTS-20260811-001
+status: SUPERSEDED_PRE_FORMAL_EXECUTION
+replacement_suite_id: RCPTS-20260811-002
+reason:
+  - sandbox backend and test policy changed after development smoke diagnostics
+  - development smoke attempt identifiers must not be reused by the formal suite
+persistent_leaf_attempts_executed: 0
+candidate_runs_executed: 0
+formal_phase_2_input: false
+production_pass_claimed: false

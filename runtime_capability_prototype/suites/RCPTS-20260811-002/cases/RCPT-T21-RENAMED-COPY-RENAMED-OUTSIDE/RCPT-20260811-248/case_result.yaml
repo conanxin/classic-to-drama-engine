@@ -1,0 +1,37 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T21-RENAMED-COPY-RENAMED-OUTSIDE
+requirement_group: RCPT-T21-RENAMED-COPY
+attempt_id: RCPT-20260811-248
+grant_id: null
+authorization_absent: true
+authorization_absent_reason: manifest_case_requires_no_grant
+expected_component_result: PASS_FORMAL_EXCLUDED
+actual_component_result: PASS_FORMAL_EXCLUDED
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: F
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 0
+  capabilities: 0
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 17bbd4257110b85c890fabf63d6f0e9e953440a353104e26a4b4f522f3eaa009
+closure_attestation_sha256: c25f415a8af4861d527ee8b64e5bbd1bc6517ba701b1f09f5a3130ff1fe8bc32
+blockers: []

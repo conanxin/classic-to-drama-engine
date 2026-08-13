@@ -1,0 +1,38 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T31-BROKER-FALLBACK-MMAP
+requirement_group: RCPT-T31-BROKER-FALLBACK
+attempt_id: RCPT-20260811-305
+grant_id: GRANT-RCPT-20260811-305
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_BROKER_FALLBACK_FORBIDDEN
+actual_component_result: BLOCKED_BROKER_FALLBACK_FORBIDDEN
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: ebffafa6f25257f3dddad42c854cabc9c2a85aecd80a82ac0d380f3c9374240d
+closure_attestation_sha256: 1e8c808b92dca3e4bb7b627f56c31973ce8446fcf0e1f825164d2254e064bde4
+blockers:
+- BLOCKED_BROKER_FALLBACK_FORBIDDEN

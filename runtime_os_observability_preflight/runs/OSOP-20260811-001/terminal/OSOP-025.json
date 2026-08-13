@@ -1,0 +1,14 @@
+{
+  "available": false,
+  "blocker": "FANOTIFY_INIT_PERMISSION_DENIED",
+  "capability_id": "OSOP-025",
+  "details": {},
+  "evidence_artifact": [
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/fanotify.json"
+  ],
+  "evidence_level": "A0",
+  "probe_run_id": "OSOP-20260811-001-OSOP-025",
+  "result": "FAIL",
+  "started_at": "2026-08-11T13:02:27.569177Z",
+  "terminal_at": "2026-08-11T13:02:27.569180Z"
+}

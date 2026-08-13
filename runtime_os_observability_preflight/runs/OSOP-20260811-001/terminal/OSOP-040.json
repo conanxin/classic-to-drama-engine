@@ -1,0 +1,17 @@
+{
+  "available": true,
+  "blocker": "",
+  "capability_id": "OSOP-040",
+  "details": {},
+  "evidence_artifact": [
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/runtime_tree_before.json",
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/runtime_tree_after.json",
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/basis_before.json",
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/basis_after.json"
+  ],
+  "evidence_level": "A1",
+  "probe_run_id": "OSOP-20260811-001-OSOP-040",
+  "result": "PASS",
+  "started_at": "2026-08-11T13:02:27.911134Z",
+  "terminal_at": "2026-08-11T13:02:27.911150Z"
+}

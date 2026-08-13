@@ -1,0 +1,40 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:ctde:schema:authorization-registry-event:2"
+title: "CTDE Authorization Registry Event V2"
+type: object
+additionalProperties: false
+required: [registry_event_id, event_type, registry_record_id, authorization_id, run_id, assurance_profile_id, nonce, authorization_artifact_sha256, registry_operation_id, consume_operation_id, from_consumption_state, to_consumption_state, from_mint_eligibility_state, to_mint_eligibility_state, from_capability_preparation_state, to_capability_preparation_state, from_capability_activation_state, to_capability_activation_state, mint_eligibility_handle_sha256, preparation_handle_sha256, activation_handle_sha256, mint_claim_event_id, pending_capability_id, active_capability_id, pending_capability_artifact_sha256, capability_preparation_event_id, activation_commit_a1_event_sha256, expected_state_version, result_state_version, cas_outcome, blocker, authoritative_at]
+properties:
+  registry_event_id: {type: string}
+  event_type:
+    enum: [authorization_registered, authorization_spent, authorization_mint_eligibility_aborted, authorization_mint_lease_claimed, authorization_mint_lease_claim_rejected, authorization_capability_prepared, authorization_capability_preparation_rejected, authorization_capability_preparation_aborted, authorization_capability_activated, authorization_capability_activation_rejected, authorization_capability_activation_aborted, authorization_revoked, authorization_expired, authorization_request_rejected]
+  registry_record_id: {type: [string, "null"]}
+  authorization_id: {type: [string, "null"]}
+  run_id: {type: [string, "null"]}
+  assurance_profile_id: {type: [string, "null"]}
+  nonce: {type: [string, "null"]}
+  authorization_artifact_sha256: {type: [string, "null"]}
+  registry_operation_id: {type: string}
+  consume_operation_id: {type: [string, "null"]}
+  from_consumption_state: {type: [string, "null"]}
+  to_consumption_state: {type: [string, "null"]}
+  from_mint_eligibility_state: {type: [string, "null"]}
+  to_mint_eligibility_state: {type: [string, "null"]}
+  from_capability_preparation_state: {type: [string, "null"]}
+  to_capability_preparation_state: {type: [string, "null"]}
+  from_capability_activation_state: {type: [string, "null"]}
+  to_capability_activation_state: {type: [string, "null"]}
+  mint_eligibility_handle_sha256: {type: [string, "null"]}
+  preparation_handle_sha256: {type: [string, "null"]}
+  activation_handle_sha256: {type: [string, "null"]}
+  mint_claim_event_id: {type: [string, "null"]}
+  pending_capability_id: {type: [string, "null"]}
+  active_capability_id: {type: [string, "null"]}
+  pending_capability_artifact_sha256: {type: [string, "null"]}
+  capability_preparation_event_id: {type: [string, "null"]}
+  activation_commit_a1_event_sha256: {type: [string, "null"]}
+  expected_state_version: {type: [integer, "null"]}
+  result_state_version: {type: [integer, "null"]}
+  cas_outcome: {enum: [accepted, rejected, not_applicable]}
+  blocker: {type: [string, "null"]}
+  authoritative_at: {type: string}

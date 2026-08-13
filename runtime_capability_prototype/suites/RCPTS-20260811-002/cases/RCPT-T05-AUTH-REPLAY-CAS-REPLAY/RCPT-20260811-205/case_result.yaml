@@ -1,0 +1,38 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T05-AUTH-REPLAY-CAS-REPLAY
+requirement_group: RCPT-T05-AUTH-REPLAY
+attempt_id: RCPT-20260811-205
+grant_id: GRANT-RCPT-20260811-205
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_TEST_AUTHORIZATION_SPENT
+actual_component_result: BLOCKED_TEST_AUTHORIZATION_SPENT
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 1
+  capabilities: 0
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 5acdc1623a2313e1fa735c89f91a507ae0c4f9ed163020ef69fd2ad63323eab5
+closure_attestation_sha256: 098ed08ec5266f005369be4722fa3f905b90adb0e903a61788db1f8e9cf2b961
+blockers:
+- BLOCKED_TEST_AUTHORIZATION_SPENT

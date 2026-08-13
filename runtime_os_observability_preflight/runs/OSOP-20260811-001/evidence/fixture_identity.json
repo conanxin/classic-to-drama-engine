@@ -1,0 +1,18 @@
+{
+  "allowed": {
+    "device": 65024,
+    "inode": 2761584,
+    "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/allowed.synthetic",
+    "sha256": "2cd9957106e320d9ee24b03a3af725fcc48d3ae83e905a15263d90e353129afc",
+    "size": 248
+  },
+  "both_nonempty": true,
+  "literary_content": false,
+  "reference": {
+    "device": 65024,
+    "inode": 2761585,
+    "path": "runtime_os_observability_preflight/runs/OSOP-20260811-001/fixtures/reference_not_opened.synthetic",
+    "sha256": "2a8fc51c9b2b69e56f2372235fa5613b2a51e33b2d089be9fbf858e0d3612cb4",
+    "size": 264
+  }
+}

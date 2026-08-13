@@ -1,0 +1,16 @@
+{
+  "available": true,
+  "blocker": "",
+  "capability_id": "OSOP-022",
+  "details": {
+    "scope": "instantaneous_snapshot_only"
+  },
+  "evidence_artifact": [
+    "runtime_os_observability_preflight/runs/OSOP-20260811-001/evidence/process_proc_fd_probe.json"
+  ],
+  "evidence_level": "A2",
+  "probe_run_id": "OSOP-20260811-001-OSOP-022",
+  "result": "PASS",
+  "started_at": "2026-08-11T13:02:27.568985Z",
+  "terminal_at": "2026-08-11T13:02:27.568987Z"
+}

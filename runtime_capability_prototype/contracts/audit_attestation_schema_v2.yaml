@@ -1,0 +1,35 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:ctde:schema:runtime-audit-attestation:2"
+title: "CTDE Portable Runtime A1 Audit Event V2"
+type: object
+additionalProperties: false
+required: [event_schema_id, event_schema_version, event_type, authorization_schema_version, assurance_profile_id, test_attempt_id, consume_operation_id, registry_operation_id, run_id, authorization_id, authorization_artifact_sha256, registry_record_id, observed_consumption_state, observed_mint_eligibility_state, observed_capability_preparation_state, observed_capability_activation_state, state_version, consumption_event_id, mint_claim_event_id, pending_capability_id, pending_capability_artifact_sha256, capability_preparation_event_id, capability_activation_event_id, capability_id, result, blocker, event_sequence, previous_event_sha256]
+properties:
+  event_schema_id: {const: "urn:ctde:schema:runtime-audit-attestation:2"}
+  event_schema_version: {const: "2.0.0"}
+  event_type: {enum: [authorization_transition, capability_activation_commit, terminal_accept, terminal_reject]}
+  authorization_schema_version: {const: "2.0.0"}
+  assurance_profile_id: {const: "CTDE-PORTABLE-DEV-1"}
+  test_attempt_id: {type: string}
+  consume_operation_id: {type: [string, "null"]}
+  registry_operation_id: {type: [string, "null"]}
+  run_id: {type: [string, "null"]}
+  authorization_id: {type: [string, "null"]}
+  authorization_artifact_sha256: {type: [string, "null"]}
+  registry_record_id: {type: [string, "null"]}
+  observed_consumption_state: {type: string}
+  observed_mint_eligibility_state: {type: string}
+  observed_capability_preparation_state: {type: string}
+  observed_capability_activation_state: {type: string}
+  state_version: {type: [integer, "null"]}
+  consumption_event_id: {type: [string, "null"]}
+  mint_claim_event_id: {type: [string, "null"]}
+  pending_capability_id: {type: [string, "null"]}
+  pending_capability_artifact_sha256: {type: [string, "null"]}
+  capability_preparation_event_id: {type: [string, "null"]}
+  capability_activation_event_id: {type: [string, "null"]}
+  capability_id: {type: [string, "null"]}
+  result: {enum: [accepted, rejected, blocked]}
+  blocker: {type: [string, "null"]}
+  event_sequence: {type: integer, minimum: 0}
+  previous_event_sha256: {type: string}

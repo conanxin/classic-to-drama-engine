@@ -1,0 +1,16 @@
+{
+  "complete_network_write_coverage": false,
+  "complete_pid_attributed_file_trace": false,
+  "complete_process_tree_trace": false,
+  "complete_second_channel_coverage": false,
+  "decode_error_count": null,
+  "event_loss_count": null,
+  "fanotify_ok": false,
+  "late_start_count": null,
+  "observer_evidence_write_protected": false,
+  "ptrace_attach_ok": false,
+  "ptrace_traceme_ok": false,
+  "qualification_note": "No complete process-attributed file/syscall observer is available",
+  "strace_attach_ok": false,
+  "strace_launch_ok": false
+}

@@ -1,0 +1,15 @@
+artifact_class: synthetic_fixture_identity_attestation
+environment: prototype_fixture_only
+fixture_object_id: urn:ctde:fixture:0365038412cfe56141ea5afffe148740225a5738b67b693330dcca54dbe5e6ef
+fixture_structure_contract_id: urn:ctde:fixture-structure:89730ca8d449abbd9063cb44c63c8a5e39734fa2284bce8010d558f2a9145cb1
+fixture_structure_contract_sha256: 89730ca8d449abbd9063cb44c63c8a5e39734fa2284bce8010d558f2a9145cb1
+variant: baseline
+size_bytes: 40611
+full_sha256: 0365038412cfe56141ea5afffe148740225a5738b67b693330dcca54dbe5e6ef
+book1_range:
+  start_byte: 4076
+  end_byte_exclusive: 36515
+book1_slice_sha256: 087b2d641243c548d8512a76a51263c1ef248d2b5e936adee5fca696d00b71e4
+contains_literary_content: false
+path_persisted: false
+payload_persisted: false

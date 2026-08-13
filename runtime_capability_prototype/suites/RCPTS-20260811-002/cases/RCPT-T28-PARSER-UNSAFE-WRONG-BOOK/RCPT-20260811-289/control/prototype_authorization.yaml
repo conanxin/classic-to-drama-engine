@@ -1,0 +1,23 @@
+artifact_class: runtime_capability_test_authorization
+environment: prototype_fixture_only
+authorization_id: GRANT-RCPT-20260811-289
+attempt_id: RCPT-20260811-289
+prototype_fixture_authorized: true
+candidate_run_authorized: false
+formal_phase_2_input: false
+one_time: true
+automatic_retry_allowed: false
+authorization_inheritable: false
+fixture_object_id: urn:ctde:fixture:27befae4648f2b9d00b8c7409e1a3385b3366f5cb4cd8438dce759812ffa18b7
+fixture_structure_contract_id: urn:ctde:fixture-structure:89730ca8d449abbd9063cb44c63c8a5e39734fa2284bce8010d558f2a9145cb1
+fixture_structure_contract_sha256: 89730ca8d449abbd9063cb44c63c8a5e39734fa2284bce8010d558f2a9145cb1
+allowed_range:
+  start_byte: 4076
+  end_byte_exclusive: 36515
+expected_length: 32439
+expected_slice_sha256: 0fb275b3e5c54930530f2b17e5816a6298771bbb5b90309497440f7094342068
+forbidden_source_roles:
+- greek
+- production_raw
+expires_at: 1786464600
+initial_state: unconsumed

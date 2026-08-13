@@ -1,0 +1,44 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T33-PROFILE-ALG-AUD-SCOPE-ALG-CONFUSION
+requirement_group: RCPT-T33-PROFILE-ALG
+attempt_id: RCPT-20260811-320
+grant_id: GRANT-RCPT-20260811-320
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_SIGNED_OBJECT_PROFILE_INVALID
+actual_component_result: BLOCKED_SANDBOX_ISOLATION_UNPROVEN
+exact_result_match: false
+case_test_result: fail
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls:
+- offset: 4076
+  requested_bytes: 32439
+  returned_bytes: 32439
+actual_union_of_read_ranges:
+- end_byte_exclusive: 36515
+  start_byte: 4076
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 1
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 21e7eb861b4d455d877719c740d40b85a4110e6b7c19138029032356f42d9891
+closure_attestation_sha256: 269d9a222348d40d9c6ecfa20114a51080af52572386061fce88ad5ec3801fc9
+blockers:
+- 'BLOCKED_SANDBOX_ISOLATION_UNPROVEN: supervisor cannot resolve child PID in the
+  mounted /proc namespace'

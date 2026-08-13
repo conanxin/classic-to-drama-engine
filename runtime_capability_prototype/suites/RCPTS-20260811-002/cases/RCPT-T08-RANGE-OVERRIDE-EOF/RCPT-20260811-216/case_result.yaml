@@ -1,0 +1,38 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T08-RANGE-OVERRIDE-EOF
+requirement_group: RCPT-T08-RANGE-OVERRIDE
+attempt_id: RCPT-20260811-216
+grant_id: GRANT-RCPT-20260811-216
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_RANGE_OVERRIDE_FORBIDDEN
+actual_component_result: BLOCKED_RANGE_OVERRIDE_FORBIDDEN
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 2bd6820348f6d17788fbf403905b9b26a0ae2e786872672353c3c89b14e77d38
+closure_attestation_sha256: 552499149b3dc6e28d8cfcf3940ee7f6f72872ad572415cfdab6686963467dc6
+blockers:
+- BLOCKED_RANGE_OVERRIDE_FORBIDDEN

@@ -1,0 +1,37 @@
+{
+  "artifact_class": "runtime_capability_external_access_audit",
+  "audit_authority": "external_strace_process_tree_verifier",
+  "blockers": [
+    "TRACE_MONITOR_UNAVAILABLE_PTRACE_DENIED"
+  ],
+  "book_structure_map_read_count": null,
+  "business_outputs_created": 0,
+  "candidate_artifact_access_count": null,
+  "candidate_runs_executed": 0,
+  "coverage": {
+    "process_tree_followed": false,
+    "sandbox_syscalls_observed": false,
+    "second_channels_observed": false
+  },
+  "coverage_complete": false,
+  "english_real_raw_hash_count": null,
+  "english_real_raw_open_count": null,
+  "english_real_raw_read_count": null,
+  "english_real_raw_stat_count": null,
+  "greek_real_raw_copy_count": null,
+  "greek_real_raw_open_count": null,
+  "greek_real_raw_parse_count": null,
+  "greek_real_raw_read_count": null,
+  "greek_real_raw_stat_count": null,
+  "model_invocations": 0,
+  "monitor_probe_denied_by_environment": true,
+  "monitor_probe_returncode": 1,
+  "monitor_probe_stderr_sha256": "01c79a7d47475a07737aecab58d739206fd0dcf4a572f2efdab84f037f393c00",
+  "network_connect_success_count": null,
+  "overall_result": "fail",
+  "project_source_tree_scan_count": null,
+  "schema_version": "1.0.0",
+  "suite_id": "RCPTS-20260811-002",
+  "trace_raw_persisted": false,
+  "trace_scope": "runner and all child processes"
+}

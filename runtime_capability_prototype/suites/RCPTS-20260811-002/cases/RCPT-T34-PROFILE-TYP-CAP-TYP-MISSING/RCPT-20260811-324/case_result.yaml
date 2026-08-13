@@ -1,0 +1,37 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T34-PROFILE-TYP-CAP-TYP-MISSING
+requirement_group: RCPT-T34-PROFILE-TYP
+attempt_id: RCPT-20260811-324
+grant_id: GRANT-RCPT-20260811-324
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_SIGNED_OBJECT_PROFILE_INVALID
+actual_component_result: BLOCKED_SIGNED_OBJECT_PROFILE_INVALID
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: d7b463c525f762789a481dc30a034dbbc142b12b74a522524e56e72a9c4a4e91
+closure_attestation_sha256: 6ad0efabb5963b0fdc17555c8bc34634b7d6c72027f7e5d39695ae2cbab301f4
+blockers: []

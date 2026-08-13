@@ -1,0 +1,10 @@
+artifact_class: synthetic_greek_fixture_existence_attestation
+environment: prototype_fixture_only
+object_id: urn:ctde:fixture-greek-deny:fecd1ed8a71bea4a0a49e3bc8298210dcb7633d7caa7453963f5e5346a0c0579
+size_bytes: 1043
+sha256: fecd1ed8a71bea4a0a49e3bc8298210dcb7633d7caa7453963f5e5346a0c0579
+exists_at_fixture_controller: true
+broker_catalogued: false
+consumer_mounted: false
+path_persisted: false
+payload_persisted: false

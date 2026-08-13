@@ -1,0 +1,43 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T13-ENVELOPE-TAMPER-SIGNATURE
+requirement_group: RCPT-T13-ENVELOPE-TAMPER
+attempt_id: RCPT-20260811-224
+grant_id: GRANT-RCPT-20260811-224
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_BROKER_ENVELOPE_INVALID
+actual_component_result: BLOCKED_BROKER_ENVELOPE_INVALID
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: B
+actual_read_calls:
+- offset: 4076
+  requested_bytes: 32439
+  returned_bytes: 32439
+actual_union_of_read_ranges:
+- end_byte_exclusive: 36515
+  start_byte: 4076
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 1
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: af37da7f520076f7b5d9538569ccbfd7fafea23c89862b3189ef3c12e29801c9
+closure_attestation_sha256: dad666255c12411697650459bce31bb821a81bd35c88015d4d4c0df31467658c
+blockers:
+- 'BLOCKED_BROKER_ENVELOPE_INVALID: signature'

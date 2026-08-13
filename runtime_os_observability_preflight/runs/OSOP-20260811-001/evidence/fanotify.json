@@ -1,0 +1,5 @@
+{
+  "errno": 1,
+  "fanotify_init_rc": -1,
+  "message": "Operation not permitted"
+}

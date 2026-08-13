@@ -1,0 +1,31 @@
+{
+  "assurance": {
+    "a2_os_file_access_proof": "NOT_PROVIDED",
+    "certified": false,
+    "highest_claimed_evidence_level": "A1",
+    "profile": "CTDE-PORTABLE-DEV-1"
+  },
+  "consume_operation_count": 0,
+  "controller_terminal_count": 1,
+  "evidence_complete": true,
+  "expected_rejection_blocker": "BLOCKED_AUTHORIZATION_PROFILE_MISMATCH",
+  "failure": null,
+  "leaf_id": "R2P-026-WRONG-PROFILE-REJECTED",
+  "registry_operation_count": 0,
+  "requirement_id": "R2P-REQ-PROFILE",
+  "result": "PASS",
+  "scenario": "wrong_profile_rejected",
+  "scope_counters": {
+    "bounded_deliveries": 0,
+    "broker_open_calls": 0,
+    "broker_read_calls": 0,
+    "business_output_count": 0,
+    "candidate_run_count": 0,
+    "consumer_invocations": 0,
+    "english_tei_access_count": 0,
+    "greek_tei_access_count": 0,
+    "model_call_count": 0
+  },
+  "signed_runtime_event_count": 1,
+  "test_attempt_id": "R2ATT-34bea2ecd7feed1eea8d0f41"
+}

@@ -1,0 +1,54 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:ctde:schema:runtime-capability-test-authorization:1"
+type: "object"
+additionalProperties: false
+required:
+  - "artifact_class"
+  - "environment"
+  - "authorization_id"
+  - "attempt_id"
+  - "prototype_fixture_authorized"
+  - "candidate_run_authorized"
+  - "formal_phase_2_input"
+  - "one_time"
+  - "automatic_retry_allowed"
+  - "authorization_inheritable"
+  - "fixture_object_id"
+  - "fixture_structure_contract_id"
+  - "fixture_structure_contract_sha256"
+  - "allowed_range"
+  - "expected_length"
+  - "expected_slice_sha256"
+  - "forbidden_source_roles"
+  - "expires_at"
+  - "authorization_file_sha256"
+properties:
+  artifact_class: {const: "runtime_capability_test_authorization"}
+  environment: {const: "prototype_fixture_only"}
+  authorization_id: {type: "string", pattern: "^GRANT-RCPT-"}
+  attempt_id: {type: "string", pattern: "^RCPT-"}
+  prototype_fixture_authorized: {const: true}
+  candidate_run_authorized: {const: false}
+  formal_phase_2_input: {const: false}
+  one_time: {const: true}
+  automatic_retry_allowed: {const: false}
+  authorization_inheritable: {const: false}
+  fixture_object_id: {type: "string", pattern: "^urn:ctde:fixture:"}
+  fixture_structure_contract_id: {type: "string", pattern: "^urn:ctde:fixture-structure:"}
+  fixture_structure_contract_sha256: {type: "string", pattern: "^[0-9a-f]{64}$"}
+  allowed_range:
+    type: "object"
+    additionalProperties: false
+    required: ["start_byte", "end_byte_exclusive"]
+    properties:
+      start_byte: {const: 4076}
+      end_byte_exclusive: {const: 36515}
+  expected_length: {const: 32439}
+  expected_slice_sha256: {type: "string", pattern: "^[0-9a-f]{64}$"}
+  forbidden_source_roles:
+    type: "array"
+    const: ["greek", "production_raw"]
+  expires_at: {type: "integer"}
+  initial_state: {type: "string", enum: ["unconsumed", "expired"]}
+  authorization_file_sha256: {type: "string", pattern: "^[0-9a-f]{64}$"}
+

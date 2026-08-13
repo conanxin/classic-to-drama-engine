@@ -1,0 +1,44 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T25-AUDIT-TAMPER-OLD-EVIDENCE-REPLAY
+requirement_group: RCPT-T25-AUDIT-TAMPER
+attempt_id: RCPT-20260811-277
+grant_id: GRANT-RCPT-20260811-277
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: INVALIDATED_AUDIT_TAMPERED
+actual_component_result: BLOCKED_SANDBOX_ISOLATION_UNPROVEN
+exact_result_match: false
+case_test_result: fail
+evidence_complete: true
+side_effect_bundle: D
+actual_read_calls:
+- offset: 4076
+  requested_bytes: 32439
+  returned_bytes: 32439
+actual_union_of_read_ranges:
+- end_byte_exclusive: 36515
+  start_byte: 4076
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 1
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 388318427ed21ef5e53a1081c9309978f7a83ed58d8955de1e61d1a698903d16
+closure_attestation_sha256: 259b6bf009ba25401a1bd8f8dc2a41fffccc3b22c0c3e15d3d33be396fdc7d8b
+blockers:
+- 'BLOCKED_SANDBOX_ISOLATION_UNPROVEN: supervisor cannot resolve child PID in the
+  mounted /proc namespace'

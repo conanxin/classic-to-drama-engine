@@ -1,0 +1,38 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T32-RANGE-ONLY-MISMATCH-BOOK2-DIRECT-RANGE
+requirement_group: RCPT-T32-RANGE-ONLY-MISMATCH
+attempt_id: RCPT-20260811-311
+grant_id: GRANT-RCPT-20260811-311
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_TEST_SCOPE_CONTRACT_MISMATCH
+actual_component_result: BLOCKED_TEST_SCOPE_CONTRACT_MISMATCH
+exact_result_match: true
+case_test_result: pass
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls: []
+actual_union_of_read_ranges: []
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 0
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 77965b25a6601f6b9c6d76ff854e6667b8534da87395b2d5e37c207a768e283d
+closure_attestation_sha256: b81f4778905f64a8efcc0214a2127740199b10ecff785b973cba0c36d59b86c1
+blockers:
+- BLOCKED_TEST_SCOPE_CONTRACT_MISMATCH

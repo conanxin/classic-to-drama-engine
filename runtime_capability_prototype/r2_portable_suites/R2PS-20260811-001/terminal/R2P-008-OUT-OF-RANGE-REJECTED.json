@@ -1,0 +1,31 @@
+{
+  "assurance": {
+    "a2_os_file_access_proof": "NOT_PROVIDED",
+    "certified": false,
+    "highest_claimed_evidence_level": "A1",
+    "profile": "CTDE-PORTABLE-DEV-1"
+  },
+  "consume_operation_count": 1,
+  "controller_terminal_count": 1,
+  "evidence_complete": true,
+  "expected_rejection_blocker": "BLOCKED_AUTHORIZATION_RANGE_EXCEEDED",
+  "failure": null,
+  "leaf_id": "R2P-008-OUT-OF-RANGE-REJECTED",
+  "registry_operation_count": 2,
+  "requirement_id": "R2P-REQ-OUT-OF-RANGE",
+  "result": "PASS",
+  "scenario": "out_of_range_rejected",
+  "scope_counters": {
+    "bounded_deliveries": 0,
+    "broker_open_calls": 0,
+    "broker_read_calls": 0,
+    "business_output_count": 0,
+    "candidate_run_count": 0,
+    "consumer_invocations": 0,
+    "english_tei_access_count": 0,
+    "greek_tei_access_count": 0,
+    "model_call_count": 0
+  },
+  "signed_runtime_event_count": 1,
+  "test_attempt_id": "R2ATT-c870af23c8d59784794e9753"
+}

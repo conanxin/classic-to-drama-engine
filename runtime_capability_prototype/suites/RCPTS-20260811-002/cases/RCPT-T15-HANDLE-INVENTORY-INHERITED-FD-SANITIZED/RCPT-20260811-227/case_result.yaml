@@ -1,0 +1,44 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T15-HANDLE-INVENTORY-INHERITED-FD-SANITIZED
+requirement_group: RCPT-T15-HANDLE-INVENTORY
+attempt_id: RCPT-20260811-227
+grant_id: GRANT-RCPT-20260811-227
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: PASS_INHERITED_FD_SANITIZED
+actual_component_result: BLOCKED_SANDBOX_ISOLATION_UNPROVEN
+exact_result_match: false
+case_test_result: fail
+evidence_complete: true
+side_effect_bundle: N
+actual_read_calls:
+- offset: 4076
+  requested_bytes: 32439
+  returned_bytes: 32439
+actual_union_of_read_ranges:
+- end_byte_exclusive: 36515
+  start_byte: 4076
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 1
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: 070d843e7e9f6d87681180e4eb6330549c5e27e6a8e7ab2f75afbb70f1729f0c
+closure_attestation_sha256: e91911bf6c2232f1b6ddd9f9b149240d672dea83fe27cbcecdfe66bdb5ed5728
+blockers:
+- 'BLOCKED_SANDBOX_ISOLATION_UNPROVEN: supervisor cannot resolve child PID in the
+  mounted /proc namespace'

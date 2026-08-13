@@ -1,0 +1,773 @@
+schema_version: 1.0.0
+artifact_class: ctde_r2_portable_manifest
+suite_id: R2PS-20260811-001
+assurance_profile_id: CTDE-PORTABLE-DEV-1
+highest_claimed_evidence_level: A1
+a2_os_file_access_proof: NOT_PROVIDED
+certified: false
+synthetic_only: true
+source_open_allowed: false
+broker_open_allowed: false
+bounded_delivery_allowed: false
+candidate_allowed: false
+model_calls_allowed: false
+business_outputs_allowed: false
+requirements_sha256: 0c206312075dc34123fcaef0ec81475f72197618fb7003c1764d9898dee84965
+leaves:
+- leaf_id: R2P-001-VALID-AUTHORIZATION-ACCEPTED
+  requirement_id: R2P-REQ-VALID
+  scenario: valid_authorization_accepted
+  test_attempt_id: R2ATT-0502dacad7ac2d30c7121b00
+  run_id: R2RUN-77de5381d2bf70331022da5c
+  authorization_id: R2AUTH-8757f2ec1f3424ed00689a35
+  authorization_nonce: 881f2ac63cd2b3d507b13bd45b04fe4034e8b1242cfdfb2b1b7039b6410d6e53
+  consume_operation_ids:
+  - R2CON-0b304db23a1bcec7964ed7f7
+  registry_operation_ids:
+  - R2OP-3b4add3a7debbf952f72dc31
+  - R2OP-81934db534998e54598f9e6e
+  - R2OP-e4b12939dceaaa088dea7b39
+  - R2OP-ce221d817d922f1c50231d60
+  - R2OP-7792f42c931582e270d2a5a6
+  controller_terminal_ids:
+  - R2TERM-fb0e56dbea7b4a5aeeb6bb6b
+  expected_leaf_result: PASS
+- leaf_id: R2P-002-FIRST-CONSUME-ACCEPTED
+  requirement_id: R2P-REQ-VALID
+  scenario: first_consume_accepted
+  test_attempt_id: R2ATT-7933e389ccbff0e7ab915480
+  run_id: R2RUN-d08ea1c3612df10f29459860
+  authorization_id: R2AUTH-e5a4adb7b4e1cfdf33508e1d
+  authorization_nonce: 217b31a5eeb8ecd17a6b90d11d71aab8ef9f186e7c083e86fcf65cd025539f36
+  consume_operation_ids:
+  - R2CON-13eddafe59bbf6f37420a9c2
+  registry_operation_ids:
+  - R2OP-866ef7f6dbfd3d35c0b85841
+  - R2OP-6972ff99e5dc3c77a2a86dbb
+  controller_terminal_ids:
+  - R2TERM-668d156f43667cc002905fd4
+  expected_leaf_result: PASS
+- leaf_id: R2P-003-WRONG-RUN-REJECTED
+  requirement_id: R2P-REQ-WRONG-RUN
+  scenario: wrong_run_rejected
+  test_attempt_id: R2ATT-68facedd0e3901626cea7af4
+  run_id: R2RUN-cf0e3df3aa255c4ce2b947c3
+  authorization_id: R2AUTH-73baa9950e526775de078ab6
+  authorization_nonce: 74fe40f8bf3002c268676a9854825ed569124c71359a119c0bb9d70d0c62dbfc
+  consume_operation_ids:
+  - R2CON-e8495b4e01c2b61144aec1ff
+  registry_operation_ids:
+  - R2OP-6fcb8965e25b8b97cdc17cc9
+  - R2OP-ece8dd3f5b9013e0a559165a
+  controller_terminal_ids:
+  - R2TERM-c6ead61263c615992594657d
+  expected_leaf_result: PASS
+- leaf_id: R2P-004-WRONG-SOURCE-REJECTED
+  requirement_id: R2P-REQ-WRONG-SOURCE
+  scenario: wrong_source_rejected
+  test_attempt_id: R2ATT-fe303e7e07bed933229f4939
+  run_id: R2RUN-874f412a4680e5cdec8467f3
+  authorization_id: R2AUTH-742a8049d3db7317424e3bf8
+  authorization_nonce: c88a7383c632f022d1366f43fd53acd5c58174bd82d9bab70391ac8413410a1c
+  consume_operation_ids:
+  - R2CON-091a2d4f976250b0c2969eb6
+  registry_operation_ids:
+  - R2OP-eae528584bca6fe78779cd93
+  - R2OP-08f04ddb3ac6e73dee24d7bf
+  controller_terminal_ids:
+  - R2TERM-f0801b7cd923adb6ded4bdff
+  expected_leaf_result: PASS
+- leaf_id: R2P-005-WRONG-SOURCE-SNAPSHOT-REJECTED
+  requirement_id: R2P-REQ-WRONG-SOURCE
+  scenario: wrong_source_snapshot_rejected
+  test_attempt_id: R2ATT-f8d563d608bd781cca99e25a
+  run_id: R2RUN-78cae6353efb1ca528a22645
+  authorization_id: R2AUTH-b33bf111c248aa20df35af60
+  authorization_nonce: 7f4c891ca637982784b63c9a3e7ee15a5d6c663bf4923a49b77a3b48ae164ded
+  consume_operation_ids:
+  - R2CON-abd7f6b8cb652b5532661bba
+  registry_operation_ids:
+  - R2OP-311e7a75e02d23830380d3db
+  - R2OP-0fc10d384dc6b3aa0202aebd
+  controller_terminal_ids:
+  - R2TERM-d6ee2c3ca7d5845b79b35048
+  expected_leaf_result: PASS
+- leaf_id: R2P-006-WRONG-STRUCTURE-MAP-REJECTED
+  requirement_id: R2P-REQ-STRUCTURE
+  scenario: wrong_structure_map_rejected
+  test_attempt_id: R2ATT-c0eb061ecfd4f5177ae12f99
+  run_id: R2RUN-8a92945f025d8dbab5125b0e
+  authorization_id: R2AUTH-c74be9c648ad78ad49b42f47
+  authorization_nonce: c9bcbf4ea07668ac9b9aed85a4bd19ae21f044e4576536c0ae0a5615d593beaf
+  consume_operation_ids:
+  - R2CON-381330bd71e77bad9c2f500a
+  registry_operation_ids:
+  - R2OP-7640451ac9edb69196b9f573
+  - R2OP-b1d6f072921192ef7e90bfe8
+  controller_terminal_ids:
+  - R2TERM-4e3942d44c9efea078f588f8
+  expected_leaf_result: PASS
+- leaf_id: R2P-007-WRONG-TASK-SCOPE-REJECTED
+  requirement_id: R2P-REQ-TASK-SCOPE
+  scenario: wrong_task_scope_rejected
+  test_attempt_id: R2ATT-4a89f719dfd21e8b169b7697
+  run_id: R2RUN-12b63655c5d6ea9dbe82e50e
+  authorization_id: R2AUTH-1b4991f5db53e3411a761f2f
+  authorization_nonce: 3650d812b357e5f97b289adc9d56ff8c0a8ce1ee5808300ae9bc1e5c04436740
+  consume_operation_ids:
+  - R2CON-9ffd98f0729cbb35c9bed827
+  registry_operation_ids:
+  - R2OP-00e8b4337c04331b5494117a
+  - R2OP-ca7003374b4b63c8ada884d0
+  controller_terminal_ids:
+  - R2TERM-75a247d2b04a53b34cd2d264
+  expected_leaf_result: PASS
+- leaf_id: R2P-008-OUT-OF-RANGE-REJECTED
+  requirement_id: R2P-REQ-OUT-OF-RANGE
+  scenario: out_of_range_rejected
+  test_attempt_id: R2ATT-c870af23c8d59784794e9753
+  run_id: R2RUN-23cbb6223b0359c66f45fb2f
+  authorization_id: R2AUTH-f1d945376b05bfe985a9120d
+  authorization_nonce: 593f6c78bb9f9f21640cb344bce9fa3f62027dd45167e6f7dd926cac87183003
+  consume_operation_ids:
+  - R2CON-ca5e4a013376a0aabcec3d4f
+  registry_operation_ids:
+  - R2OP-a15dd87f7c4e291a33530a49
+  - R2OP-0ab43be946841f57ee05e6b0
+  controller_terminal_ids:
+  - R2TERM-3e6d9797d17b5d0dfeac5d31
+  expected_leaf_result: PASS
+- leaf_id: R2P-009-UNAUTHORIZED-CONSUMER-REJECTED
+  requirement_id: R2P-REQ-CONSUMER
+  scenario: unauthorized_consumer_rejected
+  test_attempt_id: R2ATT-ee0766dc416394ee7d79b641
+  run_id: R2RUN-d0351b7d1371d4b2b2e8f0eb
+  authorization_id: R2AUTH-dd67bd9c6f15461ccf65538a
+  authorization_nonce: 266bdb8e8ab1b4d8ebcf17dc9d2470e8e31a18b9ea2c1271178476b652bde019
+  consume_operation_ids:
+  - R2CON-82d9c53f059aaf3e90b41238
+  registry_operation_ids:
+  - R2OP-075b96e697ad07285f55d2f7
+  - R2OP-31457205b5bc7a8b35ddc232
+  controller_terminal_ids:
+  - R2TERM-9c466f1ca99acee16d30389d
+  expected_leaf_result: PASS
+- leaf_id: R2P-010-UNAUTHORIZED-OUTPUT-REJECTED
+  requirement_id: R2P-REQ-OUTPUT
+  scenario: unauthorized_output_rejected
+  test_attempt_id: R2ATT-c71cc4ac7eda8fb16a34ad20
+  run_id: R2RUN-331ea03ee2beaa6114c498e0
+  authorization_id: R2AUTH-33f879cbc565d8ea393df100
+  authorization_nonce: 3001214c9605b10457f642ca4ca6d2fc22b6452c647c3aea4146aca9935c09ad
+  consume_operation_ids:
+  - R2CON-915bc017f421ecb6af4fd5f5
+  registry_operation_ids:
+  - R2OP-75f50c6cf9e86c7836eb441a
+  - R2OP-f5ab8536e86dad5ce6bb1ddb
+  controller_terminal_ids:
+  - R2TERM-7e7f16d99ca5bb623d217318
+  expected_leaf_result: PASS
+- leaf_id: R2P-011-DENIED-CAPABILITY-REJECTED
+  requirement_id: R2P-REQ-DENY-POLICY
+  scenario: denied_capability_rejected
+  test_attempt_id: R2ATT-f00265a887fcc67084425a3a
+  run_id: R2RUN-b56a8abab2cde01293a15f67
+  authorization_id: R2AUTH-cbbea72644767879469f0210
+  authorization_nonce: 65cd2c2b6181b97582ed0533b8075d8baadc1ee4fd38d1cd9e165ab46fcbdde3
+  consume_operation_ids:
+  - R2CON-76e3d6a89b17f4e359ffe10d
+  registry_operation_ids:
+  - R2OP-fbf6866b2ff50a9786104c33
+  - R2OP-d67d2912b1e1b62802e0a075
+  controller_terminal_ids:
+  - R2TERM-39fc1e6e58116e39995e8d2f
+  expected_leaf_result: PASS
+- leaf_id: R2P-012-DENIED-POLICY-MUTATION-REJECTED
+  requirement_id: R2P-REQ-DENY-POLICY
+  scenario: denied_policy_mutation_rejected
+  test_attempt_id: R2ATT-4aafbadb487512badf829c32
+  run_id: R2RUN-954121bcefd11a265c10ec6c
+  authorization_id: R2AUTH-6c50a61c42795af97c400c64
+  authorization_nonce: f22370623c16fdb54362eca0db7c1956576fa736247eb7953efbb55c76dbffc5
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-b74035a6b06d1c4b1bbedc04
+  expected_leaf_result: PASS
+- leaf_id: R2P-013-EXPIRED-REJECTED
+  requirement_id: R2P-REQ-EXPIRED
+  scenario: expired_rejected
+  test_attempt_id: R2ATT-3440eb15db5c73a77c3954fd
+  run_id: R2RUN-430ed92bd3573b8718f2a6ea
+  authorization_id: R2AUTH-827aa80c252dabfe0364a1f1
+  authorization_nonce: a1e982da861b8ae64a8e36a13ef4e1f49b984bd77f074e2487cd665c0c206a9d
+  consume_operation_ids:
+  - R2CON-7465d3956713ab9ef5bb4f96
+  registry_operation_ids:
+  - R2OP-ad95b4991d6297d136040d91
+  - R2OP-b2dd299f7a767a5ab31db217
+  controller_terminal_ids:
+  - R2TERM-982a39b7d338640a691cee1d
+  expected_leaf_result: PASS
+- leaf_id: R2P-014-EXPIRY-BOUNDARY-REJECTED
+  requirement_id: R2P-REQ-EXPIRED
+  scenario: expiry_boundary_rejected
+  test_attempt_id: R2ATT-009dd39f3accb7faf021e32d
+  run_id: R2RUN-1384759aa3bc9d06b84ef126
+  authorization_id: R2AUTH-b70984eb8f0d29d7d9a299e8
+  authorization_nonce: cf9825a75ca7df07bd8503a3300c2a32efbc1e4a0cec290b3d6ad0e9c9c5aaa9
+  consume_operation_ids:
+  - R2CON-4731533bd459d09d134090a1
+  registry_operation_ids:
+  - R2OP-32ee5451aa35ed282b1af09b
+  - R2OP-341cfbed9f6b80b00a62515c
+  controller_terminal_ids:
+  - R2TERM-de0958367f31b9b6eeb8a38d
+  expected_leaf_result: PASS
+- leaf_id: R2P-015-REVOKED-REJECTED
+  requirement_id: R2P-REQ-REVOKED
+  scenario: revoked_rejected
+  test_attempt_id: R2ATT-641a45e86b6341588accd340
+  run_id: R2RUN-a9f94708f6b7b34b417676cb
+  authorization_id: R2AUTH-5b4fada42776f73c288b14ac
+  authorization_nonce: 57e24bee08703f82014410f5a21b33047b76a383ac1d4a4d38d548aed6584527
+  consume_operation_ids:
+  - R2CON-415bd246bf5c5eb057422503
+  registry_operation_ids:
+  - R2OP-c885db6109898cece148e6f8
+  - R2OP-b7be4959e1d04d7240be08bb
+  - R2OP-2a370d5fad3c707ccde50759
+  controller_terminal_ids:
+  - R2TERM-82db0f138ce1b25d70c25f95
+  expected_leaf_result: PASS
+- leaf_id: R2P-016-AUTHORIZATION-REPLAY-REJECTED
+  requirement_id: R2P-REQ-REPLAY
+  scenario: authorization_replay_rejected
+  test_attempt_id: R2ATT-90e5ed22cf4837658037bc9b
+  run_id: R2RUN-567baedfc04e7e4e5339b694
+  authorization_id: R2AUTH-38c1adce556898f6ded2ecc2
+  authorization_nonce: 9ddf70f37d4aa74caaf941eda44ddcfe2060f6bbb7283846afceaf421bf3b17e
+  consume_operation_ids:
+  - R2CON-3b8e43b3d0072de456c7a4e0
+  - R2CON-d9999f4857a051c7ab68c89f
+  registry_operation_ids:
+  - R2OP-c47a53ed625029c4754eba4d
+  - R2OP-52baf4b1fb5e37d75ede2c44
+  - R2OP-9563df21e0045b7b4c60885d
+  controller_terminal_ids:
+  - R2TERM-68954651a773774369ab326e
+  - R2TERM-409baecb6aeb21e364cf609b
+  expected_leaf_result: PASS
+- leaf_id: R2P-017-MALFORMED-YAML-REJECTED
+  requirement_id: R2P-REQ-MALFORMED
+  scenario: malformed_yaml_rejected
+  test_attempt_id: R2ATT-048d6c0ec0fad257bc7df945
+  run_id: R2RUN-de38331b6ad7dd561b3b7879
+  authorization_id: R2AUTH-4f36e89eae830763cda91402
+  authorization_nonce: a7063f6c85a3114ba47e4259cfec3d09e793c3adc41a4555890531ddba02c83b
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-dd723d14194ed253e7f88502
+  expected_leaf_result: PASS
+- leaf_id: R2P-018-DUPLICATE-KEY-REJECTED
+  requirement_id: R2P-REQ-MALFORMED
+  scenario: duplicate_key_rejected
+  test_attempt_id: R2ATT-e0ec8ecc093bc8ee78a9a8a5
+  run_id: R2RUN-61130f1247a0a5720b156904
+  authorization_id: R2AUTH-af9ffa9d1ff4bac65e947623
+  authorization_nonce: add9887f3b78b05ff051140255315aa9da647621997c76654e51084740d90157
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-a91f12be4f25ce19b3a484e0
+  expected_leaf_result: PASS
+- leaf_id: R2P-019-SELF-DIGEST-REJECTED
+  requirement_id: R2P-REQ-MALFORMED
+  scenario: self_digest_rejected
+  test_attempt_id: R2ATT-2942f69adba669fde64ff8b2
+  run_id: R2RUN-8a39721fc09f2b1b5aa05320
+  authorization_id: R2AUTH-b2fee79b26a43abcd71c1f90
+  authorization_nonce: 8913cf0336ea6cb4f7150a85631beba2b6b4997724ab29862a3a8d1c26ff93e7
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-da623927fde6f89c8af22622
+  expected_leaf_result: PASS
+- leaf_id: R2P-020-MISSING-REQUIRED-FIELD-REJECTED
+  requirement_id: R2P-REQ-MISSING-REQUIRED
+  scenario: missing_required_field_rejected
+  test_attempt_id: R2ATT-a7edb28b3ff6235d5028b0fb
+  run_id: R2RUN-214e420adbb5c06d315ba739
+  authorization_id: R2AUTH-6120a7bfec589421cf806a3c
+  authorization_nonce: 443f1648c7cce2a6bba60ea15928e296fd530926b32db049cf9c8d1422078d99
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-434cfe154b3ffbf1c2d48b11
+  expected_leaf_result: PASS
+- leaf_id: R2P-021-MISSING-VERSION-REJECTED
+  requirement_id: R2P-REQ-UNKNOWN-VERSION
+  scenario: missing_version_rejected
+  test_attempt_id: R2ATT-619663613789f7edeb3340f3
+  run_id: R2RUN-fa756c4d19067c23616f7ed7
+  authorization_id: R2AUTH-0c412472bfd3990df5c35d93
+  authorization_nonce: 1c695c1be43f0d284e667de20c21a39ebc322a6af8d3b0d607acca39c833d40f
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-76926980d87fac4d21f4e24c
+  expected_leaf_result: PASS
+- leaf_id: R2P-022-LEGACY-VERSION-REJECTED
+  requirement_id: R2P-REQ-UNKNOWN-VERSION
+  scenario: legacy_version_rejected
+  test_attempt_id: R2ATT-06d97748ea3ae0515206f077
+  run_id: R2RUN-18bf15d51690279682b3151d
+  authorization_id: R2AUTH-557ff73ef26c14fa73275a55
+  authorization_nonce: 5d4a1a7e48b4a5940e9e9fdc277aa53c2b9763352b09b3c24cda0c673d580196
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-06bce2547bab200d81dfed3d
+  expected_leaf_result: PASS
+- leaf_id: R2P-023-UNKNOWN-VERSION-REJECTED
+  requirement_id: R2P-REQ-UNKNOWN-VERSION
+  scenario: unknown_version_rejected
+  test_attempt_id: R2ATT-154f7fb8dd77d53b2c33a1e7
+  run_id: R2RUN-27f9f5599f98fd2512d01687
+  authorization_id: R2AUTH-f88ae09d613fb0779d04729d
+  authorization_nonce: 7f6455376e159e235304bb0e80227d25232dfdbc5490d06167ad37514e0d2b97
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-2c56e397baaa5674245ef38c
+  expected_leaf_result: PASS
+- leaf_id: R2P-024-REGISTRY-DIGEST-MISMATCH-REJECTED
+  requirement_id: R2P-REQ-REGISTRY-DIGEST
+  scenario: registry_digest_mismatch_rejected
+  test_attempt_id: R2ATT-7fd3e9e9f42d313f05b574a3
+  run_id: R2RUN-2a01a01da3749fa1c38f3d14
+  authorization_id: R2AUTH-aecbcad4e2df72cbe228bfe8
+  authorization_nonce: 56f188a609bfcb3f3dc13f163af6e3c3cf312e3a6469ed3e31ba814fe91095a8
+  consume_operation_ids: []
+  registry_operation_ids:
+  - R2OP-7590781cb0ec9bee13fea36c
+  controller_terminal_ids:
+  - R2TERM-c0482a41de6849161bc82fe9
+  expected_leaf_result: PASS
+- leaf_id: R2P-025-PROFILE-MISSING-REJECTED
+  requirement_id: R2P-REQ-PROFILE
+  scenario: profile_missing_rejected
+  test_attempt_id: R2ATT-e4a3a8a5532e594796e2036d
+  run_id: R2RUN-853e57872045deb1d6e723b1
+  authorization_id: R2AUTH-248882dff5920eb1cfcdba70
+  authorization_nonce: c3b58460dad7e3cd5919687882fd7cd9632c6561161f2ee2cc607a34de9ab33d
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-576ceea67299b8a0f0bc02d5
+  expected_leaf_result: PASS
+- leaf_id: R2P-026-WRONG-PROFILE-REJECTED
+  requirement_id: R2P-REQ-PROFILE
+  scenario: wrong_profile_rejected
+  test_attempt_id: R2ATT-34bea2ecd7feed1eea8d0f41
+  run_id: R2RUN-4a223e5a0a7799ab1df26467
+  authorization_id: R2AUTH-247d0695f1f7a8072c4e2116
+  authorization_nonce: 595ca5cceb5062bf2902eab15f7747e8e12952dbd4736297e96cf641cb67304d
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-1eee6b846ef59232161c936a
+  expected_leaf_result: PASS
+- leaf_id: R2P-027-DUPLICATE-NONCE-REJECTED
+  requirement_id: R2P-REQ-NONCE
+  scenario: duplicate_nonce_rejected
+  test_attempt_id: R2ATT-378c20bdef9b5a93019c2b4f
+  run_id: R2RUN-a52423e01e7df67e1dc0ca37
+  authorization_id: R2AUTH-4462a38c54785d84fe4e3e36
+  authorization_nonce: 07f6992223aa7e0522f75f62d8ac388e499817232d65ef280d51f8216f57cfa2
+  consume_operation_ids: []
+  registry_operation_ids:
+  - R2OP-d170857a0b139a0465f503b1
+  controller_terminal_ids:
+  - R2TERM-0d1a476606d6d89f0ba97779
+  expected_leaf_result: PASS
+- leaf_id: R2P-028-WRONG-NONCE-REJECTED
+  requirement_id: R2P-REQ-NONCE
+  scenario: wrong_nonce_rejected
+  test_attempt_id: R2ATT-b98d042006b80d65c7c72309
+  run_id: R2RUN-bd2847bface825e6a54b685d
+  authorization_id: R2AUTH-ad93ac568ae6a35493d9c657
+  authorization_nonce: 20e032e50047721b41e58aca9af542389da82a9af5b8621746cb28879cede21b
+  consume_operation_ids:
+  - R2CON-b5b4036c21c91d05b677723f
+  registry_operation_ids:
+  - R2OP-ecf6fca6106fcda292165178
+  - R2OP-f938035c8b5c7310471dccbd
+  controller_terminal_ids:
+  - R2TERM-9df2c0bafb82627a4624a517
+  expected_leaf_result: PASS
+- leaf_id: R2P-029-WRONG-STAGE-CONTEXT-REJECTED
+  requirement_id: R2P-REQ-CONTEXT-CONSUMERS
+  scenario: wrong_stage_context_rejected
+  test_attempt_id: R2ATT-040c9147da2963dd430ea0b5
+  run_id: R2RUN-65241aa75e292b0832f0559b
+  authorization_id: R2AUTH-1bacd4efe6089bfb5a92b3da
+  authorization_nonce: dc3cdd9386ec4d67e581490f034e8309d03ce4c731b90bb89a30bb1cc9b21d32
+  consume_operation_ids:
+  - R2CON-07326d4b556702e074fffca7
+  registry_operation_ids:
+  - R2OP-d0be6e79873d14d5d8211f06
+  - R2OP-48e0447c0a64fca4c527c51f
+  - R2OP-05ebaabbb9ce14f59a7740af
+  - R2OP-b172877189b4c9bd048462be
+  - R2OP-6903b3201a05c7904ca525c2
+  controller_terminal_ids:
+  - R2TERM-be62e90dcb16bd1063e8cecb
+  expected_leaf_result: PASS
+- leaf_id: R2P-030-STALE-CONTEXT-REJECTED
+  requirement_id: R2P-REQ-CONTEXT-CONSUMERS
+  scenario: stale_context_rejected
+  test_attempt_id: R2ATT-ca0f4bacf877a148209cca48
+  run_id: R2RUN-ab521c161e0c5d54d20f533d
+  authorization_id: R2AUTH-0c3ecfe9a21b7cce43bc842f
+  authorization_nonce: a57e6b61d7667854412512b8babbabbec877526e012d050ed16717f3ad1111eb
+  consume_operation_ids:
+  - R2CON-16577cda956d1b039fc27403
+  registry_operation_ids:
+  - R2OP-c56b17601627acec025986b3
+  - R2OP-d60727f3b23048559450d93b
+  - R2OP-f48e112cb29766f8f9886fe2
+  controller_terminal_ids:
+  - R2TERM-9df48bb5ef8df00cbfc161f8
+  expected_leaf_result: PASS
+- leaf_id: R2P-031-ONE-TIME-FALSE-REJECTED
+  requirement_id: R2P-REQ-ONE-TIME-FLAGS
+  scenario: one_time_false_rejected
+  test_attempt_id: R2ATT-a90a4d86441f29d5c061d1b1
+  run_id: R2RUN-1ca9aa7225f33481363e77c2
+  authorization_id: R2AUTH-f4c23071721fe2bf9bc687bd
+  authorization_nonce: ea365c629b0318b0db7fa5ecc76fb9d4f74619fa101ea2f810a51cbf41ca1b95
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-ef9bd56006ee2da07299a7c0
+  expected_leaf_result: PASS
+- leaf_id: R2P-032-RETRY-TRUE-REJECTED
+  requirement_id: R2P-REQ-ONE-TIME-FLAGS
+  scenario: retry_true_rejected
+  test_attempt_id: R2ATT-f486c3ca4a5e34347bd5f879
+  run_id: R2RUN-06711f98599af2cc330adfbd
+  authorization_id: R2AUTH-f1955a32d7cf2648d55ab711
+  authorization_nonce: bde792caf2d024d6e56591d91cd647206142b461867dfd63126feaf36ed411c8
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-0ca83a0e338a4015c4aaab2d
+  expected_leaf_result: PASS
+- leaf_id: R2P-033-INHERITANCE-TRUE-REJECTED
+  requirement_id: R2P-REQ-ONE-TIME-FLAGS
+  scenario: inheritance_true_rejected
+  test_attempt_id: R2ATT-3112d330d8c9bd4041a8a989
+  run_id: R2RUN-b08cb6c3704f03ad71408523
+  authorization_id: R2AUTH-5c5f41aa1d27283e8528b6c5
+  authorization_nonce: 4b090b3f443c04f3b59798a6d69ca3a0a62b6c0c9c9ce1dae47b8468f65c43a6
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-fba9e23d707f9b2abd336a2a
+  expected_leaf_result: PASS
+- leaf_id: R2P-034-TIME-ORDERING-REJECTED
+  requirement_id: R2P-REQ-TIME
+  scenario: time_ordering_rejected
+  test_attempt_id: R2ATT-a04a6ca83733281e5fe3f921
+  run_id: R2RUN-2cefa846844a59bdfb9bbd09
+  authorization_id: R2AUTH-3ac5ddc1bf9620905c7d7994
+  authorization_nonce: 0567961cd2f4fc17aacd095db5437adf1aeab642fa5a756a09aa03d95334078f
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-a601caada3d7a51c50f005c3
+  expected_leaf_result: PASS
+- leaf_id: R2P-035-INVALID-TIMEZONE-REJECTED
+  requirement_id: R2P-REQ-TIME
+  scenario: invalid_timezone_rejected
+  test_attempt_id: R2ATT-2ef0a7232891a9bf99ba8a16
+  run_id: R2RUN-9292ee8d06d570d21d6edfbf
+  authorization_id: R2AUTH-e138ed6ec059614503e7209a
+  authorization_nonce: 29883aa70ff363e8502659eecb5d8e6287b5ffb30fb1f2b1e805063f9571d671
+  consume_operation_ids: []
+  registry_operation_ids: []
+  controller_terminal_ids:
+  - R2TERM-b8281851a6468db6200eb50f
+  expected_leaf_result: PASS
+- leaf_id: R2P-036-CALLER-CLAIMS-MUTATION-REJECTED
+  requirement_id: R2P-REQ-CLAIMS-BYTES
+  scenario: caller_claims_mutation_rejected
+  test_attempt_id: R2ATT-78920bc5d6b4ea914d01ea65
+  run_id: R2RUN-87333601fa38ce5e35dc3a20
+  authorization_id: R2AUTH-fdcba085808dcb5b42db7ff9
+  authorization_nonce: aeae443116847bbd77b425e7293a4408fc96f7f938ad7dc61882eb46861c1b52
+  consume_operation_ids:
+  - R2CON-a3471adeda2b36c81857bae6
+  registry_operation_ids:
+  - R2OP-28b6f5d040c6358de42d5653
+  - R2OP-75b7dd996e77c35b82fb81d0
+  controller_terminal_ids:
+  - R2TERM-87b469cffb91f4f5d1e5b434
+  expected_leaf_result: PASS
+- leaf_id: R2P-037-REGISTRY-BLOB-TAMPER-REJECTED
+  requirement_id: R2P-REQ-REGISTRY-BLOB-TAMPER
+  scenario: registry_blob_tamper_rejected
+  test_attempt_id: R2ATT-77f4f753d553b07ef58b049f
+  run_id: R2RUN-e463ae89969c9c7b2a1f9f03
+  authorization_id: R2AUTH-2c8a49b69ab6c0c39685a270
+  authorization_nonce: be1ce82254b8cd8ea8d1e3330bea6e426bbbf2dd82fa8b0bb867ae2a155bdc37
+  consume_operation_ids: []
+  registry_operation_ids:
+  - R2OP-0012451413380652075800f3
+  controller_terminal_ids:
+  - R2TERM-1df3711de55ac975c793d675
+  expected_leaf_result: PASS
+- leaf_id: R2P-038-AUDIT-COPY-MUTATION-DETECTED
+  requirement_id: R2P-REQ-AUDIT-COPY-MUTATION
+  scenario: audit_copy_mutation_detected
+  test_attempt_id: R2ATT-98c60000750c90081412f302
+  run_id: R2RUN-016655da843bd6820a6fbef3
+  authorization_id: R2AUTH-202ac6ceebd5758473e6d057
+  authorization_nonce: 58fb240c2fcb70c13cd37833f9640d21072705095537ced0e0992d3501770edf
+  consume_operation_ids: []
+  registry_operation_ids:
+  - R2OP-79427c964be6bc42bab6f9e4
+  controller_terminal_ids:
+  - R2TERM-a3d4847b04f5144c746dc6fa
+  expected_leaf_result: PASS
+- leaf_id: R2P-039-CONCURRENT-CONSUME-SINGLE-WINNER
+  requirement_id: R2P-REQ-CONCURRENT-CAS
+  scenario: concurrent_consume_single_winner
+  test_attempt_id: R2ATT-b9873b9313071f261fb61caa
+  run_id: R2RUN-7ff148862b8389810210e0ec
+  authorization_id: R2AUTH-fd44b38784c40c3b487435a5
+  authorization_nonce: 9405529a3873d507add8e6aa043fc6f2acae9581d8a3ebe843caad72ff40118b
+  consume_operation_ids:
+  - R2CON-944ed569810798f28938d2d4
+  - R2CON-dad8b954038c5b81a1985509
+  registry_operation_ids:
+  - R2OP-a0a302f7009c5039222e239c
+  - R2OP-8f3948f57a38b64711e5fd07
+  - R2OP-1eacd9c6a6f7b0b755779312
+  controller_terminal_ids:
+  - R2TERM-b7ee239dabcce895ba1a846c
+  - R2TERM-2a7d9823d581bcf3a225b285
+  expected_leaf_result: PASS
+- leaf_id: R2P-040-CRASH-AFTER-CONSUME-BLOCKS-RECOVERY
+  requirement_id: R2P-REQ-CRASH-AFTER-CAS
+  scenario: crash_after_consume_blocks_recovery
+  test_attempt_id: R2ATT-fc0a2da04c7a2001bb0b2219
+  run_id: R2RUN-94c89b3ddbc14386067c77df
+  authorization_id: R2AUTH-4b37a32f01643527c9e034d7
+  authorization_nonce: c5cced2f5ac3cebde9ea4ab4b45cb6c3183ed8bbcc46b5c10af12b75f0d29aae
+  consume_operation_ids:
+  - R2CON-74e99ea1162ece42e0c13e3b
+  registry_operation_ids:
+  - R2OP-4d43f9562772afad8bab0dba
+  - R2OP-2d4fdfb957ed62450bb5266e
+  - R2OP-ccbf56e444d133953ff1e691
+  controller_terminal_ids:
+  - R2TERM-8605c58cfbb0c2d1673b39b3
+  - R2TERM-53988541e797528e244f351d
+  expected_leaf_result: PASS
+- leaf_id: R2P-041-POST-CONSUME-ABORT-BLOCKS-RETRY
+  requirement_id: R2P-REQ-POST-CONSUME-RETRY
+  scenario: post_consume_abort_blocks_retry
+  test_attempt_id: R2ATT-9bc7bd58ad9868711ad9eac6
+  run_id: R2RUN-263f4f6763a198dca3f4378c
+  authorization_id: R2AUTH-f853c0095d099c0e02cbb452
+  authorization_nonce: 9ac3fdd30e8a4a4a50d4dbacd05d19a2fdcda29c297fae839686282cba51ca66
+  consume_operation_ids:
+  - R2CON-977f2cc086661c62b19d1e71
+  registry_operation_ids:
+  - R2OP-579a5985053fec497bcf3ad0
+  - R2OP-a4f8d23ea39b6a27a44f0df4
+  - R2OP-906ac75cdfb1915d75819e2c
+  - R2OP-3ccdedbc9db877892ddfa784
+  controller_terminal_ids:
+  - R2TERM-9f9a237c2ae1e4922d474d18
+  expected_leaf_result: PASS
+- leaf_id: R2P-042-MINT-LEASE-REPLAY-REJECTED
+  requirement_id: R2P-REQ-MINT-LEASE-REPLAY
+  scenario: mint_lease_replay_rejected
+  test_attempt_id: R2ATT-0e2a429c3437361b2dc24e3e
+  run_id: R2RUN-4b7ac4696f6f7641a3728d7a
+  authorization_id: R2AUTH-dac0871c44e5cd0a1a6845d2
+  authorization_nonce: 4e089b2fa92c42d6e7bbf92bfbe28fc53f7eabffd837383fbb78261d8c9d08ca
+  consume_operation_ids:
+  - R2CON-b1e0bbff57e53c3d165b2cca
+  registry_operation_ids:
+  - R2OP-ec3bb099cb8740dc7c295d8e
+  - R2OP-529cf25accde0de7bc174f7d
+  - R2OP-b46848983256b8deab3f34a4
+  - R2OP-1f7014ab1a782f0eae8dd4a8
+  controller_terminal_ids:
+  - R2TERM-aaa5273344674e3dcf0ee52d
+  - R2TERM-72b6822e3e16218ec311898a
+  expected_leaf_result: PASS
+- leaf_id: R2P-043-PREPARATION-FAILURE-BEFORE-OBJECT
+  requirement_id: R2P-REQ-CAPABILITY-PREPARATION-FAILURE
+  scenario: preparation_failure_before_object
+  test_attempt_id: R2ATT-550283c77834bb41792fe732
+  run_id: R2RUN-5e8311db2f47382400b2efd1
+  authorization_id: R2AUTH-7c0655d1a8e9bec50c93899d
+  authorization_nonce: d9ae671029ecdbf6cd3b456474e2cef29353105c978c76a7c358e8a1216024ab
+  consume_operation_ids:
+  - R2CON-4bc3726ae6830ab6cf0c3bd5
+  registry_operation_ids:
+  - R2OP-ba82715446847aa59b8e199a
+  - R2OP-1aeb2b109a891ce482800af8
+  - R2OP-e634ec6a1233fe066eeb7055
+  - R2OP-48a73a92a5f0a4f6f0f91a62
+  controller_terminal_ids:
+  - R2TERM-dd3e0b16411fb68e65bdfc8f
+  expected_leaf_result: PASS
+- leaf_id: R2P-044-PREPARATION-FAILURE-AFTER-OBJECT
+  requirement_id: R2P-REQ-CAPABILITY-PREPARATION-FAILURE
+  scenario: preparation_failure_after_object
+  test_attempt_id: R2ATT-3f1668adcbffbc7e835bf22d
+  run_id: R2RUN-14596434cd058b18c00e10e4
+  authorization_id: R2AUTH-83db4112210df3ccba8684f4
+  authorization_nonce: 7b3a3b2012e33c39a93f9113f33a096efb03346a083d350332d0a7b56278cbcc
+  consume_operation_ids:
+  - R2CON-5266e5553054d5f2569181b2
+  registry_operation_ids:
+  - R2OP-b0f601a31a84b75ca1cb926b
+  - R2OP-7acc7bece8bb2f0738152b2d
+  - R2OP-bd46e1f8b8f80469f55e2d93
+  - R2OP-990eb472b79eb4c1943b1f5a
+  controller_terminal_ids:
+  - R2TERM-01922b72e25b6ddf05bbb554
+  expected_leaf_result: PASS
+- leaf_id: R2P-045-CAPABILITY-PREPARATION-REPLAY-REJECTED
+  requirement_id: R2P-REQ-CAPABILITY-PREPARATION-REPLAY
+  scenario: capability_preparation_replay_rejected
+  test_attempt_id: R2ATT-aa8aa30b665f43f57c2e6a74
+  run_id: R2RUN-3e09130d23a71ab28e4b492b
+  authorization_id: R2AUTH-bdbf4f22492761b03daba47d
+  authorization_nonce: e50d102160fcb20a24304917fc470d877376929d12ae7a8ea81759baa819e4eb
+  consume_operation_ids:
+  - R2CON-63194fe353b883667a7b98f4
+  registry_operation_ids:
+  - R2OP-039b27fae0e157d6c0efa412
+  - R2OP-20c6bd5698825c97c8f2665f
+  - R2OP-f5d271e0ff3c86cd75701ffc
+  - R2OP-0ff70d37468e1d89596a8a22
+  - R2OP-242954946d3d625dd197651e
+  controller_terminal_ids:
+  - R2TERM-ddba2020c4ca06260821acfc
+  - R2TERM-cda270a22c47e66e6f45062a
+  expected_leaf_result: PASS
+- leaf_id: R2P-046-CRASH-AFTER-LEASE-BLOCKS-PREPARATION
+  requirement_id: R2P-REQ-POST-LEASE-CRASH
+  scenario: crash_after_lease_blocks_preparation
+  test_attempt_id: R2ATT-93e319134d5a585143dd737b
+  run_id: R2RUN-4cffd06c75675f3271533a35
+  authorization_id: R2AUTH-924bc84f3067072925b508f7
+  authorization_nonce: ce0f0b2d3c34c55beb906fb453bd6929a8e9cca3102ae104979a12302442ee9a
+  consume_operation_ids:
+  - R2CON-0f2061bd47ccbf9982cd4ebf
+  registry_operation_ids:
+  - R2OP-6c8711dd6651fc6bd9d65b75
+  - R2OP-5098299de6eea2a8e72014db
+  - R2OP-4dc7162bf46f3863f8b35899
+  - R2OP-b7e2e89407ba261e917884a7
+  controller_terminal_ids:
+  - R2TERM-bd9ae7468a525caa2512dd47
+  - R2TERM-9c1221bf258b478bcce827bd
+  expected_leaf_result: PASS
+- leaf_id: R2P-047-CRASH-AFTER-PREPARATION-BLOCKS-ACTIVATION
+  requirement_id: R2P-REQ-POST-LEASE-CRASH
+  scenario: crash_after_preparation_blocks_activation
+  test_attempt_id: R2ATT-0b199c837ced9717b6fb8ea1
+  run_id: R2RUN-90ee5fd5630ff52896a46c5f
+  authorization_id: R2AUTH-4148d145e816a172f47c94f1
+  authorization_nonce: 204421ddd4870a1bd04c68f206f32f45089ca1907b83a8ac8064f928ab88a94e
+  consume_operation_ids:
+  - R2CON-eaa8705eb48db3c57e88d50b
+  registry_operation_ids:
+  - R2OP-5e6f3445741bbb124aa98210
+  - R2OP-f8499d85777c9aa581a26dfc
+  - R2OP-ed998c6cf53d16b69b47008f
+  - R2OP-c435a2e5287fbac681b1c46d
+  - R2OP-c1fec675312d68be41c437ec
+  controller_terminal_ids:
+  - R2TERM-d165c82cf4cb7f649c7326a2
+  - R2TERM-8980bcca71ac216161ec4568
+  expected_leaf_result: PASS
+- leaf_id: R2P-048-CAPABILITY-ACTIVATION-REPLAY-REJECTED
+  requirement_id: R2P-REQ-CAPABILITY-ACTIVATION-REPLAY
+  scenario: capability_activation_replay_rejected
+  test_attempt_id: R2ATT-60fa0203467bc3362cd0965c
+  run_id: R2RUN-9128e986c6612b348cf1fa96
+  authorization_id: R2AUTH-6b9efa61a760c2566f9d9388
+  authorization_nonce: cb8bb9fa637b01b7541b82894346fa6e3565fbad04085e50f562b7f6de41648e
+  consume_operation_ids:
+  - R2CON-5aa1608c0d4149029da9b8fd
+  registry_operation_ids:
+  - R2OP-20617496b811071fcda4ae8e
+  - R2OP-77d98516847a0d875e569073
+  - R2OP-537d1cba122640f3761f9179
+  - R2OP-76a953108bda3b2435b6429d
+  - R2OP-6d4d87cc48d1762723d86552
+  - R2OP-80d65dc5fd6b3bc88e64d60a
+  controller_terminal_ids:
+  - R2TERM-7314c19e63ff2a72a1c67378
+  - R2TERM-f8c702ccc1ea90abd01eed34
+  expected_leaf_result: PASS
+- leaf_id: R2P-049-AUDIT-WRITER-UNAVAILABLE-PRE-CONSUME
+  requirement_id: R2P-REQ-AUDIT-FAILURE
+  scenario: audit_writer_unavailable_pre_consume
+  test_attempt_id: R2ATT-dafaa6c2e6be2a4685129ff9
+  run_id: R2RUN-befdbe0662a7cd09e22d5abe
+  authorization_id: R2AUTH-e554c5983bb4d78f08602317
+  authorization_nonce: fbd9d849d77c208b00075fd3fe5ab583236f87721d6b0773ac417ffd4479978a
+  consume_operation_ids:
+  - R2CON-6e34ca2fa73346d277e6e812
+  registry_operation_ids:
+  - R2OP-7d17af582982a4a354ea3be2
+  - R2OP-17d7ed1253949b2559bfb40b
+  controller_terminal_ids:
+  - R2TERM-2ee2419d7f2abfa400c12924
+  expected_leaf_result: PASS
+- leaf_id: R2P-050-AUDIT-WRITER-FAILURE-POST-CONSUME
+  requirement_id: R2P-REQ-AUDIT-FAILURE
+  scenario: audit_writer_failure_post_consume
+  test_attempt_id: R2ATT-45da1cfd947ab6561a64b9df
+  run_id: R2RUN-6a5bdf37b4f8183b56e0dfad
+  authorization_id: R2AUTH-a3fae127e531450df1f8009c
+  authorization_nonce: 24d2db0095a476b2181a5d776175840d696a8f2daac3dfc283f83fb31b7f6e82
+  consume_operation_ids:
+  - R2CON-005b466d686c477bbc72f031
+  registry_operation_ids:
+  - R2OP-b80384aebc6cec6cab8ab5ec
+  - R2OP-b0b89a54def3121b84920c64
+  - R2OP-7490420abffa7e3a2d76f426
+  controller_terminal_ids:
+  - R2TERM-15857611c8e36a6c453efad8
+  expected_leaf_result: PASS
+- leaf_id: R2P-051-AUDIT-WRITER-FAILURE-POST-PREPARATION
+  requirement_id: R2P-REQ-AUDIT-FAILURE
+  scenario: audit_writer_failure_post_preparation
+  test_attempt_id: R2ATT-6227d32c74a0093b681f4c6b
+  run_id: R2RUN-5f08b8eb25de3ab288f04263
+  authorization_id: R2AUTH-2fe1ef3f089d816d42259f07
+  authorization_nonce: 345be155b372ed0f892e3ced14a131053a566ae2883eef5a241eab23f99ca735
+  consume_operation_ids:
+  - R2CON-9b70a78eeed49dced37523cb
+  registry_operation_ids:
+  - R2OP-e73ece9eaf20db7a30515528
+  - R2OP-4b51d4c543f9e03eb997ee91
+  - R2OP-3082174e0e93135e29d71b2b
+  - R2OP-2ccd17b0ffadd08498cd73f0
+  - R2OP-e2eeef5512a4c1efed49005e
+  controller_terminal_ids:
+  - R2TERM-82a9e36af54a25835992814f
+  expected_leaf_result: PASS

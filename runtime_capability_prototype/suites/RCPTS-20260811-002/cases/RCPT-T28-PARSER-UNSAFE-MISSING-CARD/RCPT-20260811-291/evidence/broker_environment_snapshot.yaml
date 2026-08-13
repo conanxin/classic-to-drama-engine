@@ -1,0 +1,12 @@
+environment: prototype_fixture_only
+attempt_id: RCPT-20260811-291
+broker_component_id: ctde-prototype-range-broker
+catalog_object_ids:
+- urn:ctde:fixture:c4f52619c1754be3892d74684c0c1f5ed2b76be451035e5910f80d7f86a2a2d0
+catalog_contains_synthetic_only: true
+greek_object_catalogued: false
+production_object_catalogued: false
+caller_range_override_interface_exposed: false
+automatic_retry_count: 0
+full_hash_or_eof_fallback_count: 0
+paths_persisted: false

@@ -1,0 +1,44 @@
+schema_version: 1.0.0
+artifact_class: runtime_capability_leaf_case_result
+suite_id: RCPTS-20260811-002
+leaf_case_id: RCPT-T35-PROFILE-KID-AUD-CLOSURE-PROD-ROOT-IN-PROTO
+requirement_group: RCPT-T35-PROFILE-KID
+attempt_id: RCPT-20260811-362
+grant_id: GRANT-RCPT-20260811-362
+authorization_absent: false
+authorization_absent_reason: null
+expected_component_result: BLOCKED_SIGNED_OBJECT_PROFILE_INVALID
+actual_component_result: BLOCKED_SANDBOX_ISOLATION_UNPROVEN
+exact_result_match: false
+case_test_result: fail
+evidence_complete: true
+side_effect_bundle: Z
+actual_read_calls:
+- offset: 4076
+  requested_bytes: 32439
+  returned_bytes: 32439
+actual_union_of_read_ranges:
+- end_byte_exclusive: 36515
+  start_byte: 4076
+registry_counts:
+  consumption_events: 1
+  capabilities: 1
+  deliveries: 1
+assertions:
+  candidate_run_id_used: false
+  candidate_runs_executed: 0
+  business_outputs_created: 0
+  story_structure_yaml_created: false
+  model_invocations: 0
+  payload_persisted: false
+  bytes_outside_allowed_range: 0
+  actual_union_within_book1: true
+  automatic_retry_count: 0
+  greek_open_success_count: 0
+  full_object_consumer_handle_count: 0
+  full_object_handle_policy_pass: true
+scope_attestation_sha256: fa6edb39284920fe8189f0dbfb7d13a38430af7f22a4d253ca07c2cfb92fa83a
+closure_attestation_sha256: cb14b9bfd6a34efc0c50a6685bda757879e0eea826df407a2629d774f98d0c01
+blockers:
+- 'BLOCKED_SANDBOX_ISOLATION_UNPROVEN: supervisor cannot resolve child PID in the
+  mounted /proc namespace'

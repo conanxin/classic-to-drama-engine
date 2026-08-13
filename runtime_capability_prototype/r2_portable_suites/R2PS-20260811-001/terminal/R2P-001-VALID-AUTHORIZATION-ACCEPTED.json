@@ -1,0 +1,31 @@
+{
+  "assurance": {
+    "a2_os_file_access_proof": "NOT_PROVIDED",
+    "certified": false,
+    "highest_claimed_evidence_level": "A1",
+    "profile": "CTDE-PORTABLE-DEV-1"
+  },
+  "consume_operation_count": 1,
+  "controller_terminal_count": 1,
+  "evidence_complete": true,
+  "expected_rejection_blocker": null,
+  "failure": null,
+  "leaf_id": "R2P-001-VALID-AUTHORIZATION-ACCEPTED",
+  "registry_operation_count": 5,
+  "requirement_id": "R2P-REQ-VALID",
+  "result": "PASS",
+  "scenario": "valid_authorization_accepted",
+  "scope_counters": {
+    "bounded_deliveries": 0,
+    "broker_open_calls": 0,
+    "broker_read_calls": 0,
+    "business_output_count": 0,
+    "candidate_run_count": 0,
+    "consumer_invocations": 0,
+    "english_tei_access_count": 0,
+    "greek_tei_access_count": 0,
+    "model_call_count": 0
+  },
+  "signed_runtime_event_count": 2,
+  "test_attempt_id": "R2ATT-0502dacad7ac2d30c7121b00"
+}
