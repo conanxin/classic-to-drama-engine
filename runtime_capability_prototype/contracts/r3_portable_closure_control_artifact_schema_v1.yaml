@@ -1,0 +1,22 @@
+schema_id: urn:ctde:contract:r3-portable-closure-control-artifact:1
+schema_version: 1.0.0
+artifact_class: ctde_r3_portable_closure_control_artifact_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+control_artifacts:
+  implementation_manifest: {create_stage: R3-S1-IMPLEMENTATION, create_once: true}
+  execution_plan: {create_stage: R3-S2-BOOTSTRAP, create_once: true}
+  closure_manifest: {create_stage: R3-S3-MANIFEST, create_once: true}
+  test_manifest: {create_stage: R3-S4-TEST-CONTROL, create_once: true}
+  fixture_catalog: {create_stage: R3-S4-TEST-CONTROL, create_once: true}
+  component_freeze: {create_stage: R3-S5-FREEZE, create_once: true}
+  snapshot_binding: {create_stage: R3-S5-FREEZE, create_once: true}
+  external_registry: {create_stage: R3-S5-FREEZE, create_once: true}
+  start_verification: {create_stage: R3-S6-START, create_once: true}
+  dynamic_observation: {create_stage: R3-S7-OBSERVE, create_once: true}
+  end_verification: {create_stage: R3-S8-END, create_once: true}
+  evidence_manifest: {create_stage: R3-S9-RESULT, create_once: true}
+  aggregate: {create_stage: R3-S9-RESULT, create_once: true}
+  formal_result: {create_stage: R3-S9-RESULT, create_once: true}
+mutable_existing_files: []
+resume_requires_strict_valid_prefix: true
+invalid_prefix_status: BLOCKED_R3_RESUME_IDENTITY_MISMATCH

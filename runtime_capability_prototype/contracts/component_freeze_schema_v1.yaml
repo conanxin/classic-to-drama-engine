@@ -1,0 +1,8 @@
+schema_id: urn:ctde:contract:component-freeze:1
+schema_version: 1.0.0
+artifact_class: ctde_component_freeze_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+closed_top_level_fields: [artifact_class, schema_version, suite_id, closure_manifest_sha256, closure_payload_sha256, implementation_manifest_sha256, members, platform, counts]
+member_required_fields: [node_id, classification, member_type, identity, sha256, bytes]
+complete_node_inventory_required: true
+

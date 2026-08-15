@@ -1,0 +1,8 @@
+schema_id: urn:ctde:contract:closure-snapshot-registry-record:1
+schema_version: 1.0.0
+artifact_class: ctde_closure_snapshot_registry_record_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+closed_top_level_fields: [artifact_class, schema_version, suite_id, registry_pass, implementation_manifest_sha256, execution_plan_sha256, closure_manifest_sha256, closure_payload_sha256, test_manifest_sha256, fixture_catalog_sha256, component_freeze_sha256, execution_snapshot_binding_sha256]
+producer: independent_controller_registry_pass
+self_digest_field: null
+

@@ -1,0 +1,52 @@
+schema_id: urn:ctde:contract:r3-portable-closure-policy:1
+schema_version: 1.0.0
+artifact_class: ctde_r3_portable_closure_policy
+phase_id: Phase 2-G-R3FRESH-E1
+phase_kind: fresh_r3_portable_transitive_closure_materialization_and_deterministic_verification
+suite_id: R3PS-20260814-001
+assurance_profile_id: CTDE-PORTABLE-DEV-1
+highest_claimed_evidence_level: A1
+environment_class: Development
+plan_path: FRESH_R3_PORTABLE_TRANSITIVE_CLOSURE_PLAN.md
+plan_sha256: 2e077e39ba4dc5b8f6970cc35a1aab5915fcfa340917afd78cbb3e23f17e0f83
+audit_path: FRESH_R3_CURRENT_TREE_AUDIT.json
+audit_sha256: 3b1d7715548c6dcff8100b21986aa57f144653518d9d1dcdd88ce39d75635b16
+write_scope_sha256: 8b1e9e4012bad4e60bbc9096a7b1b5841f55e48171ae6c1bb341a1d0383778c5
+primary_classifications:
+  - runtime_closure_member
+  - test_only_dependency
+  - build_only_dependency
+  - platform_boundary
+  - excluded_dependency
+edge_relations:
+  - imports
+  - initializes_package
+  - calls
+  - loads_schema
+  - loads_policy
+  - loads_config
+  - loads_public_trust
+  - executes
+  - dlopens
+  - builds_from
+  - links_to
+  - resolves_to
+  - observes
+  - verifies
+  - classified_by
+  - binds_identity
+forbidden_project_reads:
+  - source/
+  - book_structure_map.yaml
+forbidden_operations:
+  - model_call
+  - candidate_execution
+  - r4_execution
+  - business_output
+  - private_key_read
+pass_status: PASS_PORTABLE_RUNTIME_TRANSITIVE_CLOSURE
+blocked_status: BLOCKED_PORTABLE_RUNTIME_TRANSITIVE_CLOSURE
+unknown_dependency_policy: BLOCKED
+unresolved_symlink_policy: BLOCKED
+existing_file_mutation_policy: BLOCKED
+

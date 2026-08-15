@@ -1,0 +1,13 @@
+schema_id: urn:ctde:contract:native-component-build-policy:1
+schema_version: 1.0.0
+artifact_class: ctde_native_component_build_policy
+component_id: consumer_probe
+source_path: runtime_capability_prototype/native/consumer_probe.c
+tracked_binary_path: runtime_capability_prototype/bin/consumer_probe
+compiler_argv: [gcc, -static, -O2, -Wall, -Wextra, -Werror, -o, OUTPUT, SOURCE]
+fresh_build_count: 2
+fresh_builds_must_match: true
+tracked_binary_may_have_historical_toolchain_identity: true
+output_location: os_temporary_directory_only
+project_write_allowed: false
+

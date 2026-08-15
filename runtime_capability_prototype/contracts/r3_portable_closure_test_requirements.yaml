@@ -1,0 +1,34 @@
+schema_id: urn:ctde:contract:r3-portable-closure-test-requirements:1
+schema_version: 1.0.0
+artifact_class: ctde_r3_portable_closure_test_requirements
+suite_id: R3PS-20260814-001
+assurance_profile_id: CTDE-PORTABLE-DEV-1
+highest_claimed_evidence_level: A1
+synthetic_only: true
+source_content_allowed: false
+model_calls_allowed: false
+candidate_execution_allowed: false
+r4_execution_allowed: false
+business_outputs_allowed: false
+requirement_groups:
+  - {requirement_group_id: R3-VG01, expansion: authorization_and_identity}
+  - {requirement_group_id: R3-VG02, expansion: implementation_inventory}
+  - {requirement_group_id: R3-VG03, expansion: roots_roles_and_classifications}
+  - {requirement_group_id: R3-VG04, expansion: static_edges}
+  - {requirement_group_id: R3-VG05, expansion: schema_policy_config_and_formal_inputs}
+  - {requirement_group_id: R3-VG06, expansion: dynamic_sites}
+  - {requirement_group_id: R3-VG07, expansion: process_boundaries}
+  - {requirement_group_id: R3-VG08, expansion: native_build}
+  - {requirement_group_id: R3-VG09, expansion: platform_inventory}
+  - {requirement_group_id: R3-VG10, expansion: r3g03_binding}
+  - {requirement_group_id: R3-VG11, expansion: r3g04_binding}
+  - {requirement_group_id: R3-VG12, expansion: r3g07_binding}
+  - {requirement_group_id: R3-VG13, expansion: deferred_roles}
+  - {requirement_group_id: R3-VG14, expansion: canonical_reproducibility}
+  - {requirement_group_id: R3-VG15, expansion: freeze_binding_registry}
+  - {requirement_group_id: R3-VG16, expansion: start_dynamic_end}
+  - {requirement_group_id: R3-VG17, expansion: scope_and_zero_actions}
+  - {requirement_group_id: R3-VG18, expansion: evidence_aggregate_and_claim_ceiling}
+terminal_results: [PASS, FAIL, SKIPPED, UNKNOWN, TIMEOUT]
+pass_count_predicate: discovered == executed == evidence_complete == passed and failed == skipped == unknown == timeout == 0
+

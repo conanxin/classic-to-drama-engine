@@ -1,0 +1,27 @@
+schema_id: urn:ctde:contract:runtime-transitive-closure-manifest:1
+schema_version: 1.0.0
+artifact_class: ctde_runtime_transitive_closure_manifest_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+closed_top_level_fields:
+  - artifact_class
+  - schema_version
+  - canonicalization_id
+  - suite_id
+  - phase_id
+  - phase_kind
+  - assurance
+  - identities
+  - callable_roots
+  - nodes
+  - edges
+  - roles
+  - discovery
+  - platform
+  - action_ledger
+  - closure_payload_sha256
+node_required_fields: [node_id, classification, member_type, identity, sha256, bytes]
+edge_required_fields: [from_id, to_id, relation, locator]
+node_id_order: lexical
+edge_order: [from_id, to_id, relation, locator]
+payload_digest_excluded_field: closure_payload_sha256
+

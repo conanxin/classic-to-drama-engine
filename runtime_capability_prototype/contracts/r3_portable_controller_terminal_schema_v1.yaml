@@ -1,0 +1,8 @@
+schema_id: urn:ctde:contract:r3-portable-controller-terminal:1
+schema_version: 1.0.0
+artifact_class: ctde_r3_portable_controller_terminal_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+closed_fields: [sequence, stage_id, terminal_status, artifact_path, artifact_sha256, previous_row_sha256, fixed_utc_epoch_seconds]
+append_only: true
+allowed_terminal_statuses: [PASS, BLOCKED]
+

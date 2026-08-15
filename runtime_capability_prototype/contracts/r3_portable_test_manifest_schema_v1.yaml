@@ -1,0 +1,8 @@
+schema_id: urn:ctde:contract:r3-portable-test-manifest:1
+schema_version: 1.0.0
+artifact_class: ctde_r3_portable_test_manifest_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+closed_top_level_fields: [artifact_class, schema_version, suite_id, assurance_profile_id, synthetic_only, requirements_sha256, closure_manifest_sha256, fixture_catalog_sha256, requirement_groups, leaf_count, leaves]
+leaf_required_fields: [leaf_id, requirement_group_id, subject_kind, subject_id, method, evidence_locator, expected, earliest_stage]
+leaf_count_rule: actual_expansion_only
+hidden_skips_allowed: false
