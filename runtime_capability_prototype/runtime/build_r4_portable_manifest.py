@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -27,6 +28,7 @@ FULL_SIZE = 40960
 START = 4076
 END = 36515
 LENGTH = END - START
+BOOK_MARKER = b'<BOOK_01 xmlns="urn:ctde:synthetic">'
 
 
 class ManifestBuildFailure(RuntimeError):
@@ -60,6 +62,14 @@ def sha256_bytes(raw: bytes) -> str:
 
 def sha256_file(path: Path) -> str:
     return sha256_bytes(path.read_bytes())
+
+
+def synthetic_book1_object_id(full_raw: bytes) -> str:
+    return f"urn:ctde:fixture:{sha256_bytes(full_raw)}"
+
+
+def synthetic_greek_object_id(greek_raw: bytes) -> str:
+    return f"urn:ctde:fixture-greek-deny:{sha256_bytes(greek_raw)}"
 
 
 def load_yaml(path: Path) -> dict[str, Any]:
@@ -138,7 +148,9 @@ def build_synthetic_fixtures() -> tuple[bytes, bytes, dict[str, Any]]:
     if len(full_raw) <= END or len(full_raw[START:END]) != LENGTH or not greek_raw:
         raise ManifestBuildFailure("synthetic fixture boundary")
     allowed = full_raw[START:END]
-    marker_offsets: dict[str, int] = {"BOOK_01": allowed.index(b"<BOOK_01>") + START}
+    if allowed.count(BOOK_MARKER) != 1:
+        raise ManifestBuildFailure("synthetic Book marker identity")
+    marker_offsets: dict[str, int] = {"BOOK_01": allowed.index(BOOK_MARKER) + START}
     for index in range(1, 11):
         marker_offsets[f"CARD_{index:02d}"] = allowed.index(f"<CARD_{index:02d}>".encode()) + START
         marker_offsets[f"PARAGRAPH_{index:02d}"] = allowed.index(f"<PARA_{index:02d}/>".encode()) + START
@@ -151,7 +163,7 @@ def build_synthetic_fixtures() -> tuple[bytes, bytes, dict[str, Any]]:
         "fixtures": [
             {
                 "recipe_id": FULL_RECIPE_ID,
-                "object_id": "urn:ctde:r4:synthetic:book1-full",
+                "object_id": synthetic_book1_object_id(full_raw),
                 "sha256": sha256_bytes(full_raw),
                 "bytes": len(full_raw),
                 "allowed_range": [START, END],
@@ -162,7 +174,7 @@ def build_synthetic_fixtures() -> tuple[bytes, bytes, dict[str, Any]]:
             },
             {
                 "recipe_id": GREEK_RECIPE_ID,
-                "object_id": "urn:ctde:r4:synthetic:greek-deny",
+                "object_id": synthetic_greek_object_id(greek_raw),
                 "sha256": sha256_bytes(greek_raw),
                 "bytes": len(greek_raw),
                 "authorization_allowed": False,
@@ -173,7 +185,12 @@ def build_synthetic_fixtures() -> tuple[bytes, bytes, dict[str, Any]]:
 
 
 def _component_subject(group_id: str) -> str:
-    number = int(group_id.split("T", 1)[1].split("-", 1)[0])
+    match = re.fullmatch(r"RCPT-T([0-9]{2})-[A-Z0-9-]+", group_id)
+    if match is None:
+        raise ManifestBuildFailure(f"invalid requirement group identity: {group_id}")
+    number = int(match.group(1))
+    if not 1 <= number <= 37:
+        raise ManifestBuildFailure(f"requirement group out of range: {group_id}")
     if number <= 5 or number in {23, 24}:
         return "authorization_registry_v2"
     if number in {6, 7, 8, 9, 10, 11, 29, 31, 32, 33, 34, 35, 36, 37}:
