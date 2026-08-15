@@ -1,0 +1,57 @@
+schema_id: urn:ctde:contract:r4-portable-e2e-policy:1
+schema_version: 1.0.0
+artifact_class: ctde_r4_portable_e2e_policy
+suite_id: R4PS-20260815-001
+assurance_profile_id: CTDE-PORTABLE-DEV-1
+environment_class: Development
+highest_claimed_evidence_level: A1
+portable_pass_status: PASS_PORTABLE_RUNTIME_SYNTHETIC_E2E
+portable_blocked_status: BLOCKED_PORTABLE_RUNTIME_SYNTHETIC_E2E
+gate_a:
+  phase_id: Phase 2-G-R4FRESH-M1
+  phase_kind: r4_implementation_materialization_and_preexecution_transitive_closure_refresh_only
+  write_scope_sha256: 6e25a9fd26f8fbe484692b9e3c3b095fc10cd6f177cf3a38530c360b692fe548
+  pass_status: PASS_R4_PREEXECUTION_TRANSITIVE_CLOSURE_REFRESH
+gate_b:
+  phase_id: Phase 2-G-R4FRESH-E1
+  phase_kind: portable_r4_fresh_synthetic_e2e_deterministic_execution
+  write_scope_sha256: d4bf4ac03afe22461831261e06c82797cf86c50eb3b4882d6275895436baf71c
+  authorization_required: true
+synthetic_fixture:
+  recipe_id: CTDE-R4-SYNTHETIC-BOOK1-1
+  full_size: 40960
+  allowed_start: 4076
+  allowed_end_exclusive: 36515
+  allowed_length: 32439
+  book_count: 1
+  card_count: 10
+  paragraph_count: 10
+  book2_sentinel_outside_allowed_range: true
+greek_deny_fixture:
+  recipe_id: CTDE-R4-SYNTHETIC-GREEK-DENY-1
+  nonempty: true
+  authorization_allowed: false
+forbidden_project_reads:
+  - source/
+  - book_structure_map.yaml
+forbidden_operations:
+  - r4_gate_b_without_exact_authorization
+  - candidate_execution
+  - model_call
+  - business_output
+  - source_semantic_read
+  - production_private_key_read
+claim_ceiling:
+  certified: false
+  hardened: false
+  candidate_ready: false
+  r1_requalified: false
+  a2_complete_os_observation: not_claimed_under_portable_a1
+  a3_end_to_end_correlation: not_claimed_under_portable_a1
+controller_ownership:
+  persistent_writer: runtime_capability_prototype/runtime/run_r4_portable.py
+  manifest_builder_returns_bytes_only: true
+  aggregate_builder_returns_bytes_only: true
+  verifier_returns_bytes_only: true
+  automatic_retry_allowed: false
+

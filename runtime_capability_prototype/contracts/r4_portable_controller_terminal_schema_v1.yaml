@@ -1,0 +1,9 @@
+schema_id: urn:ctde:contract:r4-portable-controller-terminal:1
+schema_version: 1.0.0
+artifact_class: ctde_r4_portable_controller_terminal_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+required_fields: [artifact_class, schema_version, suite_id, sequence, stage_id, status, attempt_id, authorization_id, blocker, artifact_path, artifact_sha256, previous_terminal_sha256, fixed_time]
+stage_order: [R4-E0-AUTH, R4-E1-PREFIX-AND-CLOSURE, R4-E2-FIXTURES, R4-E3-MANIFEST, R4-E4-SNAPSHOT-AND-REGISTRY, R4-E5-START, R4-E6-ATTEMPTS, R4-E7-DYNAMIC, R4-E8-END, R4-E9-EVIDENCE, R4-E10-RESULT, R4-E11-GIT]
+append_only_hash_chain: true
+automatic_retry_allowed: false
+gate_a_authorization_may_not_authorize_gate_b: true

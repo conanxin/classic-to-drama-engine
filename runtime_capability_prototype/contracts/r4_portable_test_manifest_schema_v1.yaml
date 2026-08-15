@@ -1,0 +1,25 @@
+schema_id: urn:ctde:contract:r4-portable-test-manifest:1
+schema_version: 1.0.0
+artifact_class: ctde_r4_portable_test_manifest_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+closed_top_level_fields:
+  - artifact_class
+  - schema_version
+  - canonicalization_id
+  - suite_id
+  - phase_id
+  - assurance
+  - identities
+  - fixture_recipes
+  - requirement_groups
+  - leaves
+  - action_ledger
+leaf_required_fields: [leaf_id, group_id, scenario, attempt_id, authorization_id, fixture_recipe_id, component_subject, expected_terminal, side_effect_ceiling, evidence_locator, no_retry]
+requirement_group_count: 37
+attempt_identity_unique: true
+authorization_identity_unique_when_present: true
+historical_identity_reuse_allowed: false
+model_calls_allowed: 0
+candidate_runs_allowed: 0
+business_outputs_allowed: 0
+

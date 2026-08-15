@@ -1,0 +1,95 @@
+schema_id: urn:ctde:contract:r4-portable-test-requirements:1
+schema_version: 1.0.0
+artifact_class: ctde_r4_portable_test_requirements
+suite_id: R4PS-20260815-001
+synthetic_only: true
+historical_leaf_count_is_non_authoritative: 197
+expansion_rule: one_fresh_leaf_per_case_in_declared_order
+requirements:
+  - group_id: RCPT-T01-EXACT-RANGE
+    cases: [positive_exact_book1_path, exact_range_repeat_with_fresh_identity]
+  - group_id: RCPT-T02-AUTH-MISSING
+    cases: [authorization_missing, authorization_missing_compound]
+  - group_id: RCPT-T03-AUTH-DIGEST
+    cases: [authorization_digest_mismatch, authorization_digest_and_size_mismatch]
+  - group_id: RCPT-T04-AUTH-EXPIRED
+    cases: [authorization_expired, authorization_expiry_boundary]
+  - group_id: RCPT-T05-AUTH-REPLAY
+    cases: [authorization_replay, authorization_cross_case_replay]
+  - group_id: RCPT-T06-CAP-TAMPER
+    cases: [capability_payload_tamper, capability_signature_tamper]
+  - group_id: RCPT-T07-CAP-AUDIENCE
+    cases: [capability_wrong_audience, capability_missing_audience]
+  - group_id: RCPT-T08-RANGE-OVERRIDE
+    cases: [range_start_override, range_end_override]
+  - group_id: RCPT-T09-RANGE-SHORT
+    cases: [range_one_byte_short, range_empty]
+  - group_id: RCPT-T10-RANGE-LONG
+    cases: [range_one_byte_long, range_book2_overlap]
+  - group_id: RCPT-T11-SLICE-HASH
+    cases: [slice_digest_mismatch, slice_digest_post_delivery_tamper]
+  - group_id: RCPT-T12-DELIVERY-REPLAY
+    cases: [delivery_handle_replay, delivery_envelope_replay]
+  - group_id: RCPT-T13-ENVELOPE-TAMPER
+    cases: [envelope_payload_tamper, envelope_signature_tamper]
+  - group_id: RCPT-T14-FULL-PATH
+    cases: [consumer_full_path_denied, consumer_parent_path_denied]
+  - group_id: RCPT-T15-HANDLE-INVENTORY
+    cases: [consumer_full_object_handle_denied, inherited_handle_denied]
+  - group_id: RCPT-T16-GREEK-ID
+    cases: [greek_object_id_denied, greek_role_authorization_denied]
+  - group_id: RCPT-T17-GREEK-PATH
+    cases: [greek_path_denied, greek_alias_path_denied]
+  - group_id: RCPT-T18-BOOK2-MARKER
+    cases: [book2_marker_not_visible, book2_marker_parser_denied]
+  - group_id: RCPT-T19-WRITE-ESCAPE
+    cases: [project_write_escape_denied, temporary_write_escape_denied]
+  - group_id: RCPT-T20-FORMAL-DISCOVERY
+    cases: [formal_discovery_denied, formal_symlink_discovery_denied]
+  - group_id: RCPT-T21-RENAMED-COPY
+    cases: [formal_renamed_copy_denied, formal_hardlink_copy_denied]
+  - group_id: RCPT-T22-AUDIT-MISSING
+    cases: [audit_event_missing, audit_domain_missing]
+  - group_id: RCPT-T23-AUTH-CONCURRENT
+    cases: [authorization_concurrent_single_winner, concurrent_cross_process_single_winner]
+  - group_id: RCPT-T24-CAS-CRASH
+    cases: [crash_after_cas_blocks_retry, crash_after_lease_blocks_retry]
+  - group_id: RCPT-T25-AUDIT-TAMPER
+    cases: [audit_payload_tamper, audit_chain_tamper]
+  - group_id: RCPT-T26-FORMAL-POSITIVE
+    cases: [synthetic_formal_positive, synthetic_formal_positive_fresh_identity]
+  - group_id: RCPT-T27-FORMAL-TOCTOU
+    cases: [formal_toctou_denied, formal_parent_swap_denied]
+  - group_id: RCPT-T28-PARSER-UNSAFE
+    cases: [parser_dtd_denied, parser_external_entity_denied, parser_book2_denied]
+  - group_id: RCPT-T29-BROKER-OBJECT-SWAP
+    cases: [broker_object_swap_denied, broker_object_id_digest_swap_denied]
+  - group_id: RCPT-T30-SECOND-CHANNEL
+    cases: [consumer_second_channel_denied, parser_second_channel_denied]
+  - group_id: RCPT-T31-BROKER-FALLBACK
+    cases: [broker_fallback_denied, broker_short_read_fallback_denied]
+  - group_id: RCPT-T32-RANGE-ONLY-MISMATCH
+    cases: [range_only_book2_denied, range_only_greek_denied]
+  - group_id: RCPT-T33-PROFILE-ALG
+    cases: [profile_algorithm_mismatch, profile_algorithm_missing]
+  - group_id: RCPT-T34-PROFILE-TYP
+    cases: [profile_type_mismatch, profile_type_missing]
+  - group_id: RCPT-T35-PROFILE-KID
+    cases: [profile_key_id_unknown, profile_key_id_revoked]
+  - group_id: RCPT-T36-PROFILE-AUD
+    cases: [profile_audience_mismatch, profile_audience_missing]
+  - group_id: RCPT-T37-PROFILE-TIME
+    cases: [profile_expired, profile_not_yet_valid]
+leaf_required_fields:
+  - leaf_id
+  - group_id
+  - scenario
+  - attempt_id
+  - authorization_id
+  - fixture_recipe_id
+  - component_subject
+  - expected_terminal
+  - side_effect_ceiling
+  - evidence_locator
+  - no_retry
+

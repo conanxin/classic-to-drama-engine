@@ -1,0 +1,17 @@
+schema_id: urn:ctde:contract:r4-preexecution-closure-result:1
+schema_version: 1.0.0
+artifact_class: ctde_r4_preexecution_closure_result_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+verification_required_fields: [artifact_class, schema_version, suite_id, phase_id, status, implementation_file_count, expected_created_paths, actual_created_paths, predecessor_node_count, refreshed_node_count, refreshed_edge_count, deterministic_build_count, deterministic_builds_byte_identical, existing_project_file_modifications, unknown_dynamic_dependency_count, unknown_project_owned_loaded_bytes, unresolved_symlinks, scope_violations, action_ledger, independently_rehashed, evidence]
+pass_status: PASS_R4_PREEXECUTION_TRANSITIVE_CLOSURE_REFRESH
+blocked_status: BLOCKED_R4_PREEXECUTION_TRANSITIVE_CLOSURE_REFRESH
+pass_requires:
+  implementation_file_count: 16
+  deterministic_build_count: 2
+  deterministic_builds_byte_identical: true
+  existing_project_file_modifications: 0
+  unknown_dynamic_dependency_count: 0
+  unknown_project_owned_loaded_bytes: 0
+  unresolved_symlinks: 0
+  scope_violations: 0
+

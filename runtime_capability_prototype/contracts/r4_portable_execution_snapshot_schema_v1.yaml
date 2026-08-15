@@ -1,0 +1,9 @@
+schema_id: urn:ctde:contract:r4-portable-execution-snapshot:1
+schema_version: 1.0.0
+artifact_class: ctde_r4_portable_execution_snapshot_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+closed_top_level_fields: [artifact_class, schema_version, suite_id, phase_id, fixed_time, fixed_environment, plan_sha256, audit_sha256, implementation_manifest_sha256, preexecution_closure_manifest_sha256, preexecution_closure_payload_sha256, preexecution_component_freeze_sha256, preexecution_closure_registry_record_sha256, test_manifest_sha256, fixture_catalog_sha256, public_trust_sha256, public_key_status_registry_sha256, gate_b_authorization_sha256, gate_b_write_scope_sha256]
+snapshot_must_precede_runtime_imports: true
+snapshot_must_precede_fixture_reads: true
+self_digest_field: null
+

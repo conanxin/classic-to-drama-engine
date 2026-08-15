@@ -1,0 +1,16 @@
+schema_id: urn:ctde:contract:r4-preexecution-closure-manifest:1
+schema_version: 1.0.0
+artifact_class: ctde_r4_preexecution_closure_manifest_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+closed_top_level_fields: [artifact_class, schema_version, canonicalization_id, suite_id, phase_id, phase_kind, assurance, identities, callable_roots, nodes, edges, roles, discovery, platform, action_ledger, closure_payload_sha256]
+node_required_fields: [node_id, classification, member_type, identity, sha256, bytes]
+edge_required_fields: [from_id, to_id, relation, locator]
+node_id_order: lexical
+edge_order: [from_id, to_id, relation, locator]
+predecessor_node_subset_required: true
+r4_implementation_member_count: 16
+unknown_dynamic_dependency_count: 0
+unknown_project_owned_loaded_bytes: 0
+unresolved_symlinks: 0
+payload_digest_excluded_field: closure_payload_sha256
+

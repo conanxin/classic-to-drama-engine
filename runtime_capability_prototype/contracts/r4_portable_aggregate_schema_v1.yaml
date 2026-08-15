@@ -1,0 +1,18 @@
+schema_id: urn:ctde:contract:r4-portable-aggregate:1
+schema_version: 1.0.0
+artifact_class: ctde_r4_portable_aggregate_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+required_sections: [identities, assurance, counts, group_results, positive_path, negative_coverage, closure, logical_writes, action_ledger, evidence]
+required_counts: [requirement_groups, manifest_leaves, discovered, executed, evidence_complete, passed, failed, skipped, unknown, timeout, duplicate_attempt_ids, cross_case_authorization_reuse]
+pass_requires:
+  failed: 0
+  skipped: 0
+  unknown: 0
+  timeout: 0
+  duplicate_attempt_ids: 0
+  cross_case_authorization_reuse: 0
+  closure_delta_count: 0
+  model_calls: 0
+  candidate_runs: 0
+  business_outputs: 0
+

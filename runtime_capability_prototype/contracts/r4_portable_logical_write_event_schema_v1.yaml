@@ -1,0 +1,12 @@
+schema_id: urn:ctde:contract:r4-portable-logical-write-event:1
+schema_version: 1.0.0
+artifact_class: ctde_r4_portable_logical_write_event_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+required_fields: [sequence, attempt_id, operation, requested_path_class, resolved_path, allowed, blocker, bytes_requested, bytes_written, producer_id, previous_event_sha256, fixed_time, snapshot_identity]
+append_only_hash_chain: true
+first_previous_event_sha256: null
+allowed_path_classes: [gate_b_create_once, gate_b_append_only, os_temporary_leaf]
+denied_path_classes: [existing_project, source_layer, candidate, business_output, outside_allowlist]
+assurance_level: A1
+syscall_complete_claimed: false
+

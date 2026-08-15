@@ -1,0 +1,26 @@
+schema_id: urn:ctde:contract:r4-portable-case-result:1
+schema_version: 1.0.0
+artifact_class: ctde_r4_portable_case_result_schema
+canonicalization_id: CTDE-CANONICAL-JSON-SORTED-COMPACT-LF-1
+required_fields:
+  - artifact_class
+  - schema_version
+  - suite_id
+  - leaf_id
+  - group_id
+  - attempt_id
+  - authorization_id
+  - expected_terminal
+  - observed_terminal
+  - disposition
+  - blocker
+  - evidence_complete
+  - side_effect_counts
+  - not_reached
+  - evidence_locators
+  - fixed_time
+dispositions: [pass, fail, unknown, timeout]
+rejection_pass_requires_exact_blocker: true
+expected_values_may_not_impersonate_observations: true
+empty_evidence_forbidden: true
+
