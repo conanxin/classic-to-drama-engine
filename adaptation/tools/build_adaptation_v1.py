@@ -213,7 +213,7 @@ All 30 episode cards are locked, ordered, source-book bound, and supplied with o
 
 inventory = []
 for path in sorted(OUT.rglob("*")):
-    if path.is_file() and path.name != "manifest.json":
+    if path.is_file() and path.name not in {"manifest.json", "ADAPTATION_V1_VERIFICATION.json"}:
         raw = path.read_bytes()
         inventory.append({"path": path.relative_to(ROOT).as_posix(), "bytes": len(raw), "sha256": digest(raw)})
 write(
