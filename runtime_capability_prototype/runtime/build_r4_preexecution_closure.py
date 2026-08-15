@@ -20,20 +20,20 @@ import build_r3_portable_closure as r3
 
 
 CONTRACT_ROOT = PROTOTYPE_ROOT / "contracts"
-PLAN_PATH = WORKSPACE_ROOT / "FRESH_R4_SYNTHETIC_E2E_PLAN.md"
-AUDIT_PATH = WORKSPACE_ROOT / "FRESH_R4_CURRENT_TREE_AUDIT.json"
-CONTRACT_PATH = WORKSPACE_ROOT / "FRESH_R4_SYNTHETIC_E2E_MACHINE_CONTRACT.md"
-PREDECESSOR_MANIFEST_PATH = PROTOTYPE_ROOT / "r3_portable_suites" / "R3PS-20260814-001" / "control" / "runtime_transitive_closure_manifest.json"
-PREDECESSOR_FREEZE_PATH = PROTOTYPE_ROOT / "r3_portable_suites" / "R3PS-20260814-001" / "control" / "component_freeze.json"
-PLAN_SHA256 = "c1ddff51020880c22787f75722166656647ac18a0a8dd6b21c8af1d3ade24fb8"
-AUDIT_SHA256 = "210f5c1e4e205b1e17e731cb87180d72680d576f97a96e746d8f9fc82fde5b6a"
-CONTRACT_SHA256 = "b6b10f5cf06ef596270ae00ebd27343e96556593d05d17f6a0af5930e3615422"
-PREDECESSOR_MANIFEST_SHA256 = "56491b3fd08332327e98284a5dce0b482d3d6ae4bd23517204c62fa63fa3a4a5"
-PREDECESSOR_PAYLOAD_SHA256 = "703dcba04e0ce669c5472ef4d9b3fc6ed7080eb112e9d5770b3d40c3296e2eca"
-GATE_A_WRITE_SCOPE_SHA256 = "6e25a9fd26f8fbe484692b9e3c3b095fc10cd6f177cf3a38530c360b692fe548"
-SUITE_ID = "R4PS-20260815-001"
-PHASE_ID = "Phase 2-G-R4FRESH-M1"
-PHASE_KIND = "r4_implementation_materialization_and_preexecution_transitive_closure_refresh_only"
+PLAN_PATH = WORKSPACE_ROOT / "R4_GATE_B_RECOVERY_001_PLAN.md"
+AUDIT_PATH = WORKSPACE_ROOT / "R4_GATE_B_RECOVERY_001_AUDIT.json"
+CONTRACT_PATH = WORKSPACE_ROOT / "R4_GATE_B_RECOVERY_001_CONTRACT.md"
+PREDECESSOR_MANIFEST_PATH = PROTOTYPE_ROOT / "r4_portable_suites" / "R4PS-20260815-001" / "repair" / "R4R-20260815-001" / "control" / "r4r_repaired_preexecution_closure_manifest.json"
+PLAN_SHA256 = "c8740b9fdfc88f8761f8882d8e53bdae3e1a8095ab11dd6a2b3d8ad71cc0fa3e"
+AUDIT_SHA256 = "4da3c32aeb188f1790bd2e872c1e6a77a9e3d48d36c5e1f2fca212bef9ecca09"
+CONTRACT_SHA256 = "57b75f845d2718b85097fdd3864401356a5eeb02a02a20e3bb035ab175cfb3e2"
+PREDECESSOR_MANIFEST_SHA256 = "70b48a10b04ff3a31cae8dd2e3224a7d89278031ed95d2b56957618ea3d0326a"
+PREDECESSOR_PAYLOAD_SHA256 = "448fc78f6345d4f0ebf53fa60e20ab730f7f130dcf7794d50de7d03d79b143f1"
+PREDECESSOR_NODE_COUNT = 356
+GATE_A_WRITE_SCOPE_SHA256 = "8b30132ddd1c2c819adcb73269c3dd65601a94d5a80839bbec313059a82acdba"
+SUITE_ID = "R4PS-20260815-002"
+PHASE_ID = "Phase 2-G-R4FRESH-M2"
+PHASE_KIND = "r4_versioned_recovery_implementation_and_preexecution_closure_refresh"
 
 IMPLEMENTATION_PATHS = [
     "runtime_capability_prototype/contracts/r4_portable_e2e_policy_v1.yaml",
@@ -52,14 +52,15 @@ IMPLEMENTATION_PATHS = [
     "runtime_capability_prototype/runtime/verify_r4_portable.py",
     "runtime_capability_prototype/runtime/run_r4_portable.py",
     "runtime_capability_prototype/runtime/build_r4_portable_result.py",
+    "runtime_capability_prototype/runtime/ctde_runtime/sandbox.py",
 ]
 
 CONTROL_INPUT_PATHS = [
-    "FRESH_R4_SYNTHETIC_E2E_MACHINE_CONTRACT.md",
-    "FRESH_R4_CURRENT_TREE_AUDIT.json",
-    "FRESH_R4_SYNTHETIC_E2E_PLAN.md",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/control/r4_implementation_manifest.json",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/control/r4_materialization_plan.json",
+    "R4_GATE_B_RECOVERY_001_CONTRACT.md",
+    "R4_GATE_B_RECOVERY_001_AUDIT.json",
+    "R4_GATE_B_RECOVERY_001_PLAN.md",
+    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-002/recovery/R4X-20260815-002/control/r4x_implementation_manifest.json",
+    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-002/recovery/R4X-20260815-002/control/r4x_materialization_plan.json",
 ]
 
 SCHEMA_BINDINGS = {
@@ -100,6 +101,8 @@ CALLABLES = [
     ("R4-C006", "runtime_capability_prototype/runtime/run_r4_portable.py", "run_authorized_suite", "run_r4_portable"),
     ("R4-C007", "runtime_capability_prototype/runtime/build_r4_portable_result.py", "build_aggregate_bytes", "build_r4_portable_result"),
     ("R4-C008", "runtime_capability_prototype/runtime/build_r4_portable_result.py", "build_report_bytes", "build_r4_portable_result"),
+    ("R4-C009", "runtime_capability_prototype/runtime/run_r4_portable.py", "_ensure_sandbox_namespace_at_process_start", "run_r4_portable"),
+    ("R4-C010", "runtime_capability_prototype/runtime/ctde_runtime/sandbox.py", "SandboxSupervisor.run", "ctde_runtime.sandbox"),
 ]
 
 MANIFEST_FIELDS = {
@@ -158,9 +161,9 @@ def _validate_frozen_inputs(implementation: dict[str, Any], materialization: dic
         if not path.is_file() or path.is_symlink() or sha256_file(path) != digest:
             raise PreexecutionClosureFailure(f"frozen input drift: {path}")
     predecessor, predecessor_raw = load_canonical_json(PREDECESSOR_MANIFEST_PATH)
-    if predecessor.get("closure_payload_sha256") != PREDECESSOR_PAYLOAD_SHA256 or len(predecessor.get("nodes", [])) != 335:
+    if predecessor.get("closure_payload_sha256") != PREDECESSOR_PAYLOAD_SHA256 or len(predecessor.get("nodes", [])) != PREDECESSOR_NODE_COUNT:
         raise PreexecutionClosureFailure("predecessor closure identity")
-    if implementation.get("bundle_file_count") != 16 or [item.get("path") for item in implementation.get("files", [])] != IMPLEMENTATION_PATHS:
+    if implementation.get("bundle_file_count") != len(IMPLEMENTATION_PATHS) or [item.get("path") for item in implementation.get("files", [])] != IMPLEMENTATION_PATHS:
         raise PreexecutionClosureFailure("implementation inventory")
     if implementation.get("materialization_status") != "complete_create_once_bundle":
         raise PreexecutionClosureFailure("implementation status")
@@ -221,10 +224,13 @@ def build_preexecution_closure(
     path_to_node: dict[str, str] = {}
     python_records: list[tuple[Path, str, str]] = []
 
+    successor_mutable = set(IMPLEMENTATION_PATHS)
     for old_node in predecessor["nodes"]:
         if old_node["classification"] == "platform_boundary":
             continue
         identity = old_node["identity"]
+        if identity in successor_mutable:
+            continue
         node = _project_node(identity, old_node["classification"], old_node["member_type"])
         if node["node_id"] != old_node["node_id"] or node["sha256"] != old_node["sha256"] or node["bytes"] != old_node["bytes"]:
             raise PreexecutionClosureFailure(f"predecessor member drift: {identity}")
@@ -321,7 +327,8 @@ def build_preexecution_closure(
         edge = {"from_id": builder_id, "to_id": path_to_node[control], "relation": "loads_config", "locator": f"r4_gate_a_input:{control}"}
         edges[(edge["from_id"], edge["to_id"], edge["relation"], edge["locator"])] = edge
 
-    callable_roots = list(predecessor["callable_roots"])
+    successor_callable_ids = {record[0] for record in CALLABLES}
+    callable_roots = [record for record in predecessor["callable_roots"] if record.get("callable_id") not in successor_callable_ids]
     for callable_id, identity, qualname, module in CALLABLES:
         path = WORKSPACE_ROOT / identity
         if _definition_count(path, qualname) != 1:
@@ -426,8 +433,9 @@ def validate_manifest(manifest: dict[str, Any], raw: bytes, predecessor: dict[st
         raise PreexecutionClosureFailure("closure unresolved inventory")
     if predecessor is not None:
         lookup = {node["node_id"]: node for node in nodes}
+        mutable = set(IMPLEMENTATION_PATHS)
         for old_node in predecessor["nodes"]:
-            if lookup.get(old_node["node_id"]) != old_node:
+            if old_node["identity"] not in mutable and lookup.get(old_node["node_id"]) != old_node:
                 raise PreexecutionClosureFailure(f"predecessor node not preserved: {old_node['identity']}")
     identities = {node["identity"] for node in nodes}
     if not set(IMPLEMENTATION_PATHS).issubset(identities):

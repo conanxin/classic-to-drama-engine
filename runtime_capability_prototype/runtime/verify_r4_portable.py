@@ -30,14 +30,14 @@ _ensure_bytecode_disabled_at_process_start()
 
 PROTOTYPE_ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE_ROOT = PROTOTYPE_ROOT.parent
-SUITE_ID = "R4PS-20260815-001"
+SUITE_ID = "R4PS-20260815-002"
 GATE_A_PHASE_ID = "Phase 2-G-R4FRESH-M1"
-GATE_B_PHASE_ID = "Phase 2-G-R4FRESH-E1"
+GATE_B_PHASE_ID = "Phase 2-G-R4FRESH-E2"
 PLAN_SHA256 = "c1ddff51020880c22787f75722166656647ac18a0a8dd6b21c8af1d3ade24fb8"
 AUDIT_SHA256 = "210f5c1e4e205b1e17e731cb87180d72680d576f97a96e746d8f9fc82fde5b6a"
 CONTRACT_SHA256 = "b6b10f5cf06ef596270ae00ebd27343e96556593d05d17f6a0af5930e3615422"
 GATE_A_WRITE_SCOPE_SHA256 = "6e25a9fd26f8fbe484692b9e3c3b095fc10cd6f177cf3a38530c360b692fe548"
-GATE_B_WRITE_SCOPE_SHA256 = "d4bf4ac03afe22461831261e06c82797cf86c50eb3b4882d6275895436baf71c"
+GATE_B_WRITE_SCOPE_SHA256 = "db661411179360060acec24dd540fdbb29099b68551fb48bd1379ead5c3668ed"
 PREDECESSOR_MANIFEST_SHA256 = "56491b3fd08332327e98284a5dce0b482d3d6ae4bd23517204c62fa63fa3a4a5"
 PREDECESSOR_PAYLOAD_SHA256 = "703dcba04e0ce669c5472ef4d9b3fc6ed7080eb112e9d5770b3d40c3296e2eca"
 PREDECESSOR_COMMIT = "d22ba2c006a8011a2dfe08ee8c81e7d535593423"
@@ -50,6 +50,15 @@ REPAIR_PLAN_SHA256 = "3bf2fd6e127023468873165cb5cb7e6153aeb167695ecbae9bf3fd7e29
 REPAIR_RESULT_PATH = "PORTABLE_RUNTIME_R4_PREEXECUTION_CLOSURE_REPAIR_001_RESULT.md"
 EXPANDED_REPAIR_SCOPE_SHA256 = "e2812b2d1d9c072b3b6765771142a17bb2c8694339a6bf263c07ad59ee753729"
 REPAIR_ROOT = "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/repair/R4R-20260815-001"
+STANDING_AUTHORIZATION_ID = "CTDE-GOAL-COMPLETION-20260815-001"
+RECOVERY_ID = "R4X-20260815-002"
+RECOVERY_CONTRACT_PATH = "R4_GATE_B_RECOVERY_001_CONTRACT.md"
+RECOVERY_PLAN_PATH = "R4_GATE_B_RECOVERY_001_PLAN.md"
+RECOVERY_AUDIT_PATH = "R4_GATE_B_RECOVERY_001_AUDIT.json"
+AUTONOMOUS_AUTHORIZATION_PATH = "CTDE_AUTONOMOUS_GOAL_AUTHORIZATION.json"
+RECOVERY_ROOT = f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/recovery/{RECOVERY_ID}"
+PREDECESSOR_FAILURE_CASE_RESULTS_PATH = "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/evidence/case_results.jsonl"
+PREDECESSOR_FAILURE_CASE_RESULTS_SHA256 = "6122439e551b57fc2eb393567eadd0f05584d726f3aa40ef6095fce2b9e0e260"
 TRACKED_PROBE_RELATIVE = "runtime_capability_prototype/bin/consumer_probe"
 TRACKED_PROBE_SHA256 = "f1f4849e078169d14ae18c91a5469b171534479dd8255de359f588ca1b475c80"
 TRACKED_PROBE_BYTES = 803952
@@ -97,36 +106,36 @@ GATE_A_ARTIFACT_PATHS = [
 ]
 
 REPAIRED_GATE_A_ARTIFACT_PATHS = [
-    f"{REPAIR_ROOT}/control/r4r_repaired_implementation_manifest.json",
-    f"{REPAIR_ROOT}/control/r4r_materialization_plan.json",
-    f"{REPAIR_ROOT}/control/r4r_repaired_preexecution_closure_manifest.json",
-    f"{REPAIR_ROOT}/control/r4r_repaired_component_freeze.json",
-    f"{REPAIR_ROOT}/control/r4r_repaired_closure_registry_record.json",
-    f"{REPAIR_ROOT}/evidence/r4r_temp_gate_b_qualification.json",
-    f"{REPAIR_ROOT}/evidence/r4r_repair_verification.json",
+    f"{RECOVERY_ROOT}/control/r4x_implementation_manifest.json",
+    f"{RECOVERY_ROOT}/control/r4x_materialization_plan.json",
+    f"{RECOVERY_ROOT}/control/r4x_preexecution_closure_manifest.json",
+    f"{RECOVERY_ROOT}/control/r4x_component_freeze.json",
+    f"{RECOVERY_ROOT}/control/r4x_closure_registry_record.json",
+    f"{RECOVERY_ROOT}/evidence/r4x_temp_gate_b_qualification.json",
+    f"{RECOVERY_ROOT}/evidence/r4x_recovery_verification.json",
 ]
 
 GATE_B_ARTIFACT_PATHS = [
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/control/r4_test_manifest.json",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/control/r4_execution_snapshot.json",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/control/r4_snapshot_registry_record.json",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/fixtures/synthetic_full_fixture.bin",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/fixtures/synthetic_greek_deny.bin",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/fixtures/r4_synthetic_fixture_catalog.json",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/registry/authorization_registry.jsonl",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/registry/authorization_state.json",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/registry/registry_events.jsonl",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/evidence/controller_terminals.jsonl",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/evidence/attempts.jsonl",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/evidence/runtime_events.jsonl",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/evidence/logical_write_events.jsonl",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/evidence/case_results.jsonl",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/evidence/start_verification.json",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/evidence/dynamic_observation.json",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/evidence/end_verification.json",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/evidence/evidence_manifest.json",
-    "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001/aggregate/r4_portable_results.json",
-    "PORTABLE_RUNTIME_SYNTHETIC_E2E_RESULT.md",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/control/r4_test_manifest.json",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/control/r4_execution_snapshot.json",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/control/r4_snapshot_registry_record.json",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/fixtures/synthetic_full_fixture.bin",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/fixtures/synthetic_greek_deny.bin",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/fixtures/r4_synthetic_fixture_catalog.json",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/registry/authorization_registry.jsonl",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/registry/authorization_state.json",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/registry/registry_events.jsonl",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/evidence/controller_terminals.jsonl",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/evidence/attempts.jsonl",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/evidence/runtime_events.jsonl",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/evidence/logical_write_events.jsonl",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/evidence/case_results.jsonl",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/evidence/start_verification.json",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/evidence/dynamic_observation.json",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/evidence/end_verification.json",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/evidence/evidence_manifest.json",
+    f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}/aggregate/r4_portable_results.json",
+    "PORTABLE_RUNTIME_SYNTHETIC_E2E_RESULT_002.md",
 ]
 
 
@@ -410,9 +419,166 @@ def verify_preexecution_bundle(
     return evidence
 
 
+def verify_recovery_prefix(root: Path) -> dict[str, Any]:
+    root = root.resolve(strict=True)
+    _assert_verifier_bytecode_boundary(root, "recovery_prefix_start")
+    implementation, implementation_raw = load_canonical_json(root / REPAIRED_GATE_A_ARTIFACT_PATHS[0])
+    materialization, materialization_raw = load_canonical_json(root / REPAIRED_GATE_A_ARTIFACT_PATHS[1])
+    closure, closure_raw = load_canonical_json(root / REPAIRED_GATE_A_ARTIFACT_PATHS[2])
+    freeze, freeze_raw = load_canonical_json(root / REPAIRED_GATE_A_ARTIFACT_PATHS[3])
+    registry, registry_raw = load_canonical_json(root / REPAIRED_GATE_A_ARTIFACT_PATHS[4])
+    if implementation.get("suite_id") != SUITE_ID or implementation.get("recovery_id") != RECOVERY_ID or implementation.get("standing_authorization_id") != STANDING_AUTHORIZATION_ID:
+        raise VerificationFailure("recovery implementation identity")
+    files = implementation.get("files")
+    if type(files) is not list or implementation.get("bundle_file_count") != len(files) or len(files) != 17:
+        raise VerificationFailure("recovery implementation inventory")
+    for record in files:
+        path = root / record.get("path", "")
+        if not path.is_file() or path.is_symlink() or path.stat().st_size != record.get("bytes") or sha256_file(path) != record.get("sha256"):
+            raise VerificationFailure(f"recovery implementation drift: {record.get('path')}")
+    expected_materialization = {
+        "suite_id": SUITE_ID,
+        "recovery_id": RECOVERY_ID,
+        "standing_authorization_id": STANDING_AUTHORIZATION_ID,
+        "phase_id": "Phase 2-G-R4FRESH-M2",
+        "phase_kind": "r4_versioned_recovery_implementation_and_preexecution_closure_refresh",
+        "gate_a_write_scope_sha256": "8b30132ddd1c2c819adcb73269c3dd65601a94d5a80839bbec313059a82acdba",
+        "implementation_manifest_sha256": sha256_bytes(implementation_raw),
+        "execution_authorized": True,
+        "gate_b_execution_authorized": False,
+    }
+    if any(materialization.get(key) != value for key, value in expected_materialization.items()):
+        raise VerificationFailure("recovery materialization identity")
+    builder = root / "runtime_capability_prototype/runtime/build_r4_preexecution_closure.py"
+    command = [
+        sys.executable,
+        "-B",
+        str(builder),
+        "--implementation-manifest",
+        str(root / REPAIRED_GATE_A_ARTIFACT_PATHS[0]),
+        "--materialization-plan",
+        str(root / REPAIRED_GATE_A_ARTIFACT_PATHS[1]),
+    ]
+    environment = os.environ.copy()
+    environment["PYTHONDONTWRITEBYTECODE"] = "1"
+    pass_a = subprocess.check_output(command, cwd=root, env=environment)
+    pass_b = subprocess.check_output(command, cwd=root, env=environment)
+    if pass_a != pass_b or pass_a != closure_raw:
+        raise VerificationFailure("recovery closure independent deterministic builds")
+    if closure.get("suite_id") != SUITE_ID or closure.get("phase_id") != "Phase 2-G-R4FRESH-M2":
+        raise VerificationFailure("recovery closure identity")
+    verified_nodes = _verify_manifest_nodes(root, closure)
+    if freeze.get("closure_manifest_sha256") != sha256_bytes(closure_raw) or freeze.get("closure_payload_sha256") != closure.get("closure_payload_sha256") or freeze.get("implementation_manifest_sha256") != sha256_bytes(implementation_raw) or freeze.get("members") != closure.get("nodes"):
+        raise VerificationFailure("recovery component freeze")
+    if registry.get("closure_manifest_sha256") != sha256_bytes(closure_raw) or registry.get("closure_payload_sha256") != closure.get("closure_payload_sha256") or registry.get("component_freeze_sha256") != sha256_bytes(freeze_raw) or registry.get("implementation_manifest_sha256") != sha256_bytes(implementation_raw) or registry.get("materialization_plan_sha256") != sha256_bytes(materialization_raw) or registry.get("deterministic_builds_byte_identical") is not True:
+        raise VerificationFailure("recovery registry record")
+    _assert_verifier_bytecode_boundary(root, "recovery_prefix_end")
+    return {
+        "artifact_class": "ctde_r4_recovery_prefix_verification",
+        "schema_version": "1.0.0",
+        "status": "PASS_R4_RECOVERY_PREFIX_VERIFICATION",
+        "standing_authorization_id": STANDING_AUTHORIZATION_ID,
+        "recovery_id": RECOVERY_ID,
+        "suite_id": SUITE_ID,
+        "implementation_manifest_sha256": sha256_bytes(implementation_raw),
+        "materialization_plan_sha256": sha256_bytes(materialization_raw),
+        "closure_manifest_sha256": sha256_bytes(closure_raw),
+        "closure_payload_sha256": closure["closure_payload_sha256"],
+        "component_freeze_sha256": sha256_bytes(freeze_raw),
+        "registry_record_sha256": sha256_bytes(registry_raw),
+        "verified_closure_nodes": verified_nodes,
+        "deterministic_build_count": 2,
+        "project_python_bytecode_outputs": 0,
+    }
+
+
+def _verify_standing_recovery_authorization(
+    root: Path,
+    payload: dict[str, Any],
+    *,
+    qualification_only: bool,
+) -> dict[str, str]:
+    expected = {
+        "standing_authorization_id": STANDING_AUTHORIZATION_ID,
+        "recovery_id": RECOVERY_ID,
+        "predecessor_suite_id": "R4PS-20260815-001",
+        "suite_id": SUITE_ID,
+        "phase_id": GATE_B_PHASE_ID,
+        "phase_kind": "portable_r4_versioned_recovery_synthetic_e2e",
+        "gate_b_write_scope_sha256": GATE_B_WRITE_SCOPE_SHA256,
+        "authorization_payload_complete": True,
+        "qualification_only": qualification_only,
+        "current_status": "AUTHORIZED_R4_RECOVERY_TEMP_QUALIFICATION" if qualification_only else "AUTHORIZED_R4_SUCCESSOR_EXECUTION",
+        "approval_scope": (
+            "one fresh OS-temporary full R4 recovery qualification; no source semantic reads, Candidate runs, model calls, or business outputs"
+            if qualification_only
+            else "one formal versioned R4 successor execution under CTDE-GOAL-COMPLETION-20260815-001; no source semantic reads, Candidate runs, model calls, or business outputs"
+        ),
+    }
+    for key, value in expected.items():
+        if payload.get(key) != value:
+            raise VerificationFailure(f"standing recovery authorization mismatch: {key}")
+    if payload.get("git_head") != _git(root, "rev-parse", "HEAD"):
+        raise VerificationFailure("standing recovery Git identity")
+    governance_paths = {
+        "governance_authorization_sha256": AUTONOMOUS_AUTHORIZATION_PATH,
+        "recovery_contract_sha256": RECOVERY_CONTRACT_PATH,
+        "recovery_plan_sha256": RECOVERY_PLAN_PATH,
+        "recovery_audit_sha256": RECOVERY_AUDIT_PATH,
+    }
+    verified: dict[str, str] = {}
+    for key, relative in governance_paths.items():
+        actual = sha256_file(root / relative)
+        if payload.get(key) != actual:
+            raise VerificationFailure(f"standing recovery governance identity: {key}")
+        verified[key] = actual
+    authorization, _ = load_canonical_json(root / AUTONOMOUS_AUTHORIZATION_PATH)
+    audit, _ = load_canonical_json(root / RECOVERY_AUDIT_PATH)
+    if authorization.get("standing_authorization_id") != STANDING_AUTHORIZATION_ID or authorization.get("status") != "ACTIVE":
+        raise VerificationFailure("standing authorization artifact")
+    if audit.get("standing_authorization_id") != STANDING_AUTHORIZATION_ID or audit.get("failure_evidence_sha256") != PREDECESSOR_FAILURE_CASE_RESULTS_SHA256:
+        raise VerificationFailure("standing recovery audit binding")
+    predecessor_failure = root / PREDECESSOR_FAILURE_CASE_RESULTS_PATH
+    if predecessor_failure.exists():
+        if sha256_file(predecessor_failure) != PREDECESSOR_FAILURE_CASE_RESULTS_SHA256:
+            raise VerificationFailure("predecessor formal failure evidence drift")
+    elif not qualification_only:
+        raise VerificationFailure("predecessor formal failure evidence absent")
+    prefix_paths = {
+        "active_implementation_manifest_sha256": REPAIRED_GATE_A_ARTIFACT_PATHS[0],
+        "active_materialization_plan_sha256": REPAIRED_GATE_A_ARTIFACT_PATHS[1],
+        "active_closure_manifest_sha256": REPAIRED_GATE_A_ARTIFACT_PATHS[2],
+        "active_component_freeze_sha256": REPAIRED_GATE_A_ARTIFACT_PATHS[3],
+        "active_registry_record_sha256": REPAIRED_GATE_A_ARTIFACT_PATHS[4],
+    }
+    if not qualification_only:
+        prefix_paths.update(
+            {
+                "recovery_qualification_sha256": REPAIRED_GATE_A_ARTIFACT_PATHS[5],
+                "recovery_verification_sha256": REPAIRED_GATE_A_ARTIFACT_PATHS[6],
+            }
+        )
+    for key, relative in prefix_paths.items():
+        actual = sha256_file(root / relative)
+        if payload.get(key) != actual:
+            raise VerificationFailure(f"standing recovery prefix identity: {key}")
+        verified[key] = actual
+    closure, _ = load_canonical_json(root / REPAIRED_GATE_A_ARTIFACT_PATHS[2])
+    if payload.get("active_closure_payload_sha256") != closure.get("closure_payload_sha256"):
+        raise VerificationFailure("standing recovery closure payload")
+    verified["active_closure_payload_sha256"] = closure["closure_payload_sha256"]
+    if any((root / path).exists() for path in GATE_B_ARTIFACT_PATHS):
+        raise VerificationFailure("successor Gate B partial materialization")
+    return verified
+
+
 def verify_gate_b_authorization(root: Path, payload: dict[str, Any], *, repair_qualification: bool = False) -> dict[str, str]:
     root = root.resolve(strict=True)
     _assert_verifier_bytecode_boundary(root, "authorization_start")
+    if payload.get("standing_authorization_id") == STANDING_AUTHORIZATION_ID:
+        verified = _verify_standing_recovery_authorization(root, payload, qualification_only=repair_qualification)
+        _assert_verifier_bytecode_boundary(root, "authorization_end")
+        return verified
     expected_static = {
         "plan_path": "FRESH_R4_SYNTHETIC_E2E_PLAN.md",
         "plan_sha256": PLAN_SHA256,
@@ -615,6 +781,21 @@ def verify_gate_b_outputs(root: Path) -> dict[str, Any]:
     snapshot_bytecode = snapshot.get("python_bytecode_control")
     if type(snapshot_bytecode) is not dict or snapshot_bytecode.get("runner_startup_bytecode_disabled") is not True or snapshot_bytecode.get("preexisting_project_cache_outputs") != 0 or snapshot_bytecode.get("cache_cleanup_used_as_proof") is not False:
         raise VerificationFailure("Gate B runner startup bytecode evidence")
+    expected_namespace = {
+        "runner_user_namespace_bootstrapped": True,
+        "runner_effective_uid": 0,
+        "runner_effective_gid": 0,
+        "runner_setgroups_policy": "deny",
+        "runner_userns_bootstrap_utility": "/usr/bin/unshare",
+    }
+    if any(snapshot_bytecode.get(key) != value for key, value in expected_namespace.items()):
+        raise VerificationFailure("Gate B runner user namespace evidence")
+    for key in ("runner_uid_map", "runner_gid_map"):
+        mapping = snapshot_bytecode.get(key)
+        if type(mapping) is not list or len(mapping) != 3 or mapping[0] != 0 or mapping[2] != 1 or type(mapping[1]) is not int or mapping[1] < 0:
+            raise VerificationFailure(f"Gate B runner single-ID map: {key}")
+    if snapshot_bytecode.get("runner_outer_uid") != snapshot_bytecode["runner_uid_map"][1] or snapshot_bytecode.get("runner_outer_gid") != snapshot_bytecode["runner_gid_map"][1]:
+        raise VerificationFailure("Gate B runner outer identity binding")
     final_bytecode = end_verification.get("python_bytecode_control")
     if type(final_bytecode) is not dict or final_bytecode.get("post_workers_project_cache_outputs") != 0 or final_bytecode.get("all_workers_startup_bytecode_disabled") is not True or final_bytecode.get("cache_cleanup_used_as_proof") is not False:
         raise VerificationFailure("Gate B post-worker bytecode evidence")
@@ -644,6 +825,50 @@ def verify_gate_b_outputs(root: Path) -> dict[str, Any]:
         }
         if any(case_probe.get(key) != value for key, value in required_probe.items()) or case_probe.get("sandbox_execution") not in {"executed_verified_temporary_probe", "not_reached_by_case_design"}:
             raise VerificationFailure("Gate B sandbox probe preparation")
+        case_environment, event_environment = case.get("sandbox_environment"), event.get("sandbox_environment")
+        if case_environment != event_environment:
+            raise VerificationFailure("Gate B sandbox environment evidence binding")
+        if case_probe.get("sandbox_execution") == "executed_verified_temporary_probe":
+            if type(case_environment) is not dict:
+                raise VerificationFailure("Gate B sandbox environment evidence absent")
+            expected_full_object_handles = 0
+            if (
+                leaf.get("group_id") == "RCPT-T15-HANDLE-INVENTORY"
+                and event.get("legacy_regression_vector") == "RCPT-T15-HANDLE-INVENTORY.RESIDUAL-FD-DETECTED"
+            ):
+                if (
+                    case.get("expected_terminal") != "BLOCKED_SANDBOX_ISOLATION_UNPROVEN"
+                    or case.get("observed_terminal") != "BLOCKED_SANDBOX_ISOLATION_UNPROVEN"
+                    or type(case_environment.get("consumer_visible_full_object_handle_links")) is not dict
+                    or len(case_environment["consumer_visible_full_object_handle_links"]) != 1
+                ):
+                    raise VerificationFailure("Gate B residual full-object handle denial evidence")
+                expected_full_object_handles = 1
+            required_environment = {
+                "process_root_matches_empty_sandbox": True,
+                "single_uid_namespace_mapping": True,
+                "single_gid_namespace_mapping": True,
+                "effective_capabilities_zero": True,
+                "permitted_capabilities_zero": True,
+                "bounding_capabilities_zero": True,
+                "ambient_capabilities_zero": True,
+                "no_new_privs": "1",
+                "seccomp_mode": "2",
+                "consumer_visible_full_object_handles": expected_full_object_handles,
+                "consumer_visible_directory_handles": 0,
+                "project_workspace_mounted": False,
+                "project_source_tree_visible": False,
+                "broker_fixture_store_mounted": False,
+                "greek_fixture_or_raw_mounted": False,
+                "network_source_fetch_allowed": False,
+                "consumer_writable_project_paths": 0,
+            }
+            if any(case_environment.get(key) != value for key, value in required_environment.items()):
+                raise VerificationFailure("Gate B sandbox security semantics")
+            if type(case_environment.get("namespace_outer_uid")) is not int or case_environment["namespace_outer_uid"] < 0 or type(case_environment.get("namespace_outer_gid")) is not int or case_environment["namespace_outer_gid"] < 0:
+                raise VerificationFailure("Gate B sandbox outer identity evidence")
+        elif case_environment is not None:
+            raise VerificationFailure("Gate B sandbox environment for not-reached case")
         probe_records.append(case_probe)
         if leaf.get("authorization_id") is None:
             if case.get("runtime_fixture_object_id") is not None or case.get("authorization_fixture_object_id") is not None:
@@ -760,9 +985,10 @@ def verify_gate_b_outputs(root: Path) -> dict[str, Any]:
         raise VerificationFailure("Gate B final exact output scope")
 
     return {
-        "artifact_class": "ctde_r4_repair_temp_gate_b_qualification", "schema_version": "1.0.0",
-        "suite_id": SUITE_ID, "repair_id": REPAIR_ID, "status": "PASS_R4_REPAIR_TEMP_GATE_B_QUALIFICATION",
-        "attempt_count": 1, "qualification_attempt_ordinal": 3, "attempts_authorized_total": 3, "attempts_consumed_total": 3,
+        "artifact_class": "ctde_r4_recovery_temp_gate_b_qualification", "schema_version": "1.0.0",
+        "suite_id": SUITE_ID, "recovery_id": RECOVERY_ID, "standing_authorization_id": STANDING_AUTHORIZATION_ID,
+        "status": "PASS_R4_RECOVERY_TEMP_GATE_B_QUALIFICATION",
+        "attempt_count": 1, "qualification_attempt_ordinal": 1, "attempts_authorized_total": 1, "attempts_consumed_total": 1,
         "requirement_groups": len(groups), "manifest_leaf_count": leaf_count, "runner_discovered": len(cases), "runner_executed": len(cases),
         "evidence_complete": sum(item.get("evidence_complete") is True for item in cases), "passed": sum(item.get("disposition") == "pass" for item in cases),
         "failed": sum(item.get("disposition") == "fail" for item in cases), "skipped": counts["skipped"], "unknown": counts["unknown"],
@@ -778,7 +1004,7 @@ def verify_gate_b_outputs(root: Path) -> dict[str, Any]:
         "post_workers_project_cache_outputs": final_bytecode["post_workers_project_cache_outputs"],
         "post_verifier_project_cache_outputs": post_late_import_cache_count,
         "cache_cleanup_used_as_proof": False,
-        "defect_results": {f"R4R-D{index:02d}": "PASS" for index in range(1, 9)},
+        "defect_results": {**{f"R4R-D{index:02d}": "PASS" for index in range(1, 9)}, "R4R-D09-SANDBOX-USERNS-BOOTSTRAP": "PASS", "R4R-D10-FORMAL-ENVIRONMENT-BINDING": "PASS"},
         "action_ledger": {key: aggregate["action_ledger"][key] for key in zero_actions},
         "tracked_probe_sha256": tracked_probe_digest, "temporary_probe_sha256": tracked_probe_digest,
         "temporary_probe_mode": "0500", "temporary_probe_cleanup_complete": all(item.get("temporary_probe_cleanup_complete") is True for item in probe_records),
@@ -813,7 +1039,7 @@ def verify_bytecode_preflight(root: Path, *, expect_gate_b_output_scope: bool) -
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Independent R4 verifier")
-    parser.add_argument("--mode", choices=("preexecution", "gate-b-authorization", "gate-b-result", "bytecode-preflight"), required=True)
+    parser.add_argument("--mode", choices=("preexecution", "recovery-prefix", "gate-b-authorization", "gate-b-result", "bytecode-preflight"), required=True)
     parser.add_argument("--root", default=str(WORKSPACE_ROOT))
     parser.add_argument("--implementation-manifest")
     parser.add_argument("--materialization-plan")
@@ -843,6 +1069,8 @@ def main() -> int:
                 builder_pass_a=Path(args.builder_pass_a),
                 builder_pass_b=Path(args.builder_pass_b),
             )
+        elif args.mode == "recovery-prefix":
+            result = verify_recovery_prefix(root)
         elif args.mode == "gate-b-authorization":
             if args.authorization_payload is None:
                 raise VerificationFailure("authorization payload required")

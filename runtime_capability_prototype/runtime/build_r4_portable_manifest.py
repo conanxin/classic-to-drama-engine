@@ -17,11 +17,12 @@ POLICY_PATH = CONTRACT_ROOT / "r4_portable_e2e_policy_v1.yaml"
 REQUIREMENTS_PATH = CONTRACT_ROOT / "r4_portable_test_requirements_v1.yaml"
 SCHEMA_PATH = CONTRACT_ROOT / "r4_portable_test_manifest_schema_v1.yaml"
 LEGACY_MANIFEST_PATH = PROTOTYPE_ROOT / "suites" / "RCPTS-20260811-002" / "control" / "runtime_capability_test_manifest.yaml"
-SUITE_ID = "R4PS-20260815-001"
-PHASE_ID = "Phase 2-G-R4FRESH-E1"
+SUITE_ID = "R4PS-20260815-002"
+PREDECESSOR_SUITE_ID = "R4PS-20260815-001"
+PHASE_ID = "Phase 2-G-R4FRESH-E2"
 PLAN_SHA256 = "c1ddff51020880c22787f75722166656647ac18a0a8dd6b21c8af1d3ade24fb8"
 AUDIT_SHA256 = "210f5c1e4e205b1e17e731cb87180d72680d576f97a96e746d8f9fc82fde5b6a"
-GATE_B_WRITE_SCOPE_SHA256 = "d4bf4ac03afe22461831261e06c82797cf86c50eb3b4882d6275895436baf71c"
+GATE_B_WRITE_SCOPE_SHA256 = "db661411179360060acec24dd540fdbb29099b68551fb48bd1379ead5c3668ed"
 FULL_RECIPE_ID = "CTDE-R4-SYNTHETIC-BOOK1-1"
 GREEK_RECIPE_ID = "CTDE-R4-SYNTHETIC-GREEK-DENY-1"
 FULL_SIZE = 40960
@@ -238,7 +239,7 @@ def build_manifest(prefix: dict[str, str]) -> tuple[dict[str, Any], bytes, bytes
     requirements = load_yaml(REQUIREMENTS_PATH)
     schema = load_yaml(SCHEMA_PATH)
     legacy = load_yaml(LEGACY_MANIFEST_PATH)
-    if policy.get("suite_id") != SUITE_ID or requirements.get("suite_id") != SUITE_ID:
+    if policy.get("suite_id") != PREDECESSOR_SUITE_ID or requirements.get("suite_id") != PREDECESSOR_SUITE_ID:
         raise ManifestBuildFailure("suite identity mismatch")
     if schema.get("requirement_group_count") != 37:
         raise ManifestBuildFailure("manifest schema group count")

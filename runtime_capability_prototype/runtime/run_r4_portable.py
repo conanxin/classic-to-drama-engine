@@ -26,6 +26,69 @@ def _ensure_bytecode_disabled_at_process_start() -> None:
 _ensure_bytecode_disabled_at_process_start()
 
 
+def _namespace_map(name: str) -> tuple[int, int, int] | None:
+    fields = Path(f"/proc/self/{name}_map").read_text(encoding="utf-8").split()
+    if len(fields) != 3:
+        return None
+    try:
+        return tuple(int(field) for field in fields)  # type: ignore[return-value]
+    except ValueError:
+        return None
+
+
+def _sandbox_namespace_ready() -> bool:
+    uid_map = _namespace_map("uid")
+    gid_map = _namespace_map("gid")
+    setgroups = Path("/proc/self/setgroups").read_text(encoding="utf-8").strip()
+    return (
+        os.geteuid() == 0
+        and os.getegid() == 0
+        and uid_map is not None
+        and gid_map is not None
+        and uid_map[0] == gid_map[0] == 0
+        and uid_map[2] == gid_map[2] == 1
+        and setgroups == "deny"
+    )
+
+
+def _sandbox_namespace_evidence() -> dict[str, Any]:
+    uid_map = _namespace_map("uid")
+    gid_map = _namespace_map("gid")
+    return {
+        "runner_user_namespace_bootstrapped": _sandbox_namespace_ready(),
+        "runner_effective_uid": os.geteuid(),
+        "runner_effective_gid": os.getegid(),
+        "runner_uid_map": list(uid_map) if uid_map is not None else None,
+        "runner_gid_map": list(gid_map) if gid_map is not None else None,
+        "runner_outer_uid": uid_map[1] if uid_map is not None else None,
+        "runner_outer_gid": gid_map[1] if gid_map is not None else None,
+        "runner_setgroups_policy": Path("/proc/self/setgroups").read_text(encoding="utf-8").strip(),
+        "runner_userns_bootstrap_utility": "/usr/bin/unshare",
+    }
+
+
+def _ensure_sandbox_namespace_at_process_start() -> None:
+    if _sandbox_namespace_ready():
+        os.environ["CTDE_R4_USERNS_BOOTSTRAPPED"] = "1"
+        return
+    if os.environ.get("CTDE_R4_USERNS_BOOTSTRAPPED") == "1":
+        raise RuntimeError("R4 sandbox namespace bootstrap did not establish the required single-ID maps")
+    unshare = "/usr/bin/unshare"
+    if not Path(unshare).is_file():
+        raise RuntimeError("R4 sandbox namespace bootstrap utility unavailable")
+    environment = os.environ.copy()
+    environment["PYTHONDONTWRITEBYTECODE"] = "1"
+    environment["CTDE_R4_USERNS_BOOTSTRAPPED"] = "1"
+    os.execve(
+        unshare,
+        [unshare, "--user", "--map-root-user", sys.executable, "-B", *sys.argv],
+        environment,
+    )
+
+
+_ensure_sandbox_namespace_at_process_start()
+
+
 PROTOTYPE_ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE_ROOT = PROTOTYPE_ROOT.parent
 RUNTIME_ROOT = PROTOTYPE_ROOT / "runtime"
@@ -49,9 +112,9 @@ from monitor_r4_logical_writes import LogicalWriteMonitor
 from verify_r4_portable import GATE_B_ARTIFACT_PATHS, REPAIRED_GATE_A_ARTIFACT_PATHS, load_canonical_json, sha256_file, verify_gate_b_authorization
 
 
-PHASE_ID = "Phase 2-G-R4FRESH-E1"
+PHASE_ID = "Phase 2-G-R4FRESH-E2"
 FIXED_TIME = 1786761600
-SUITE_RELATIVE = "runtime_capability_prototype/r4_portable_suites/R4PS-20260815-001"
+SUITE_RELATIVE = f"runtime_capability_prototype/r4_portable_suites/{SUITE_ID}"
 TRACKED_PROBE_RELATIVE = "runtime_capability_prototype/bin/consumer_probe"
 PROTOTYPE_PROBE_RELATIVE = "bin/consumer_probe"
 TEMPORARY_PROBE_RELATIVE = "prepared-probe/consumer_probe"
@@ -409,6 +472,9 @@ def _leaf_worker(leaf_path: Path, temporary_root: Path) -> dict[str, Any]:
         "worker_environment_dont_write_bytecode": os.environ.get("PYTHONDONTWRITEBYTECODE") == "1",
         "cache_cleanup_used_as_proof": False,
     }
+    sandbox_environment = None
+    if isinstance(harness.sandbox_snapshot, dict):
+        sandbox_environment = dict(harness.sandbox_snapshot)
     return {
         "case_result": {
             "artifact_class": "ctde_r4_portable_case_result",
@@ -436,6 +502,7 @@ def _leaf_worker(leaf_path: Path, temporary_root: Path) -> dict[str, Any]:
             "authorization_fixture_object_id": harness.authorization.get("fixture_object_id") if harness.authorization is not None else None,
             "capability_fixture_object_id": capability_fixture_object_id,
             "python_bytecode_control": bytecode_control,
+            "sandbox_environment": sandbox_environment,
             "fixed_time": FIXED_TIME,
         },
         "runtime_event": {
@@ -453,6 +520,7 @@ def _leaf_worker(leaf_path: Path, temporary_root: Path) -> dict[str, Any]:
             "authorization_fixture_object_id": harness.authorization.get("fixture_object_id") if harness.authorization is not None else None,
             "capability_fixture_object_id": capability_fixture_object_id,
             "python_bytecode_control": bytecode_control,
+            "sandbox_environment": sandbox_environment,
             "temporary_evidence_deleted_after_return": True,
             "fixed_time": FIXED_TIME,
         },
@@ -555,7 +623,7 @@ def _render_final_outputs(
     logical_relative = f"{SUITE_RELATIVE}/evidence/logical_write_events.jsonl"
     evidence_relative = f"{SUITE_RELATIVE}/evidence/evidence_manifest.json"
     aggregate_relative = f"{SUITE_RELATIVE}/aggregate/r4_portable_results.json"
-    report_relative = "PORTABLE_RUNTIME_SYNTHETIC_E2E_RESULT.md"
+    report_relative = "PORTABLE_RUNTIME_SYNTHETIC_E2E_RESULT_002.md"
     final_paths = (logical_relative, evidence_relative, aggregate_relative, report_relative)
 
     def render(sizes: tuple[int, int, int, int]) -> tuple[LogicalWriteMonitor, dict[str, bytes], dict[str, Any]]:
@@ -646,6 +714,7 @@ def run_authorized_suite(root: Path, authorization_payload: dict[str, Any], auth
         "preexisting_project_cache_outputs": 0,
         "post_workers_project_cache_outputs": None,
         "cache_cleanup_used_as_proof": False,
+        **_sandbox_namespace_evidence(),
     }
     suite_root = root / SUITE_RELATIVE
     suite_root.mkdir(parents=True, exist_ok=True)

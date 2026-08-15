@@ -143,6 +143,18 @@ class SandboxSupervisor:
             uid_map = self._proc_text(process.pid, "uid_map")
             gid_map = self._proc_text(process.pid, "gid_map")
             setgroups_policy = self._proc_text(process.pid, "setgroups")
+            uid_map_fields = uid_map.split()
+            gid_map_fields = gid_map.split()
+            single_uid_mapping = (
+                len(uid_map_fields) == 3
+                and uid_map_fields[0] == "0"
+                and uid_map_fields[2] == "1"
+            )
+            single_gid_mapping = (
+                len(gid_map_fields) == 3
+                and gid_map_fields[0] == "0"
+                and gid_map_fields[2] == "1"
+            )
             try:
                 process_root = os.readlink(f"/proc/{process.pid}/root")
             except OSError as exc:
@@ -167,8 +179,10 @@ class SandboxSupervisor:
                 "uid_map": uid_map,
                 "gid_map": gid_map,
                 "setgroups_policy": setgroups_policy,
-                "single_uid_namespace_mapping": uid_map.split() == ["0", "0", "1"],
-                "single_gid_namespace_mapping": gid_map.split() == ["0", "0", "1"],
+                "single_uid_namespace_mapping": single_uid_mapping,
+                "single_gid_namespace_mapping": single_gid_mapping,
+                "namespace_outer_uid": int(uid_map_fields[1]) if single_uid_mapping else None,
+                "namespace_outer_gid": int(gid_map_fields[1]) if single_gid_mapping else None,
                 "effective_capabilities_zero": int(pre_status.get("CapEff", "1"), 16) == 0,
                 "permitted_capabilities_zero": int(pre_status.get("CapPrm", "1"), 16) == 0,
                 "bounding_capabilities_zero": int(pre_status.get("CapBnd", "1"), 16) == 0,
