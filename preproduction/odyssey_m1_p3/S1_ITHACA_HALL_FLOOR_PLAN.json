@@ -1,0 +1,45 @@
+{
+  "artifact_class": "odyssey_p3_s1_floor_plan",
+  "coordinates": {
+    "height_m": 6.0,
+    "north_length_m": 22.0,
+    "origin": "south_wall_center",
+    "width_m": 16.0
+  },
+  "episodes": ["EP01", "EP02", "EP20", "EP21", "EP22", "EP23", "EP24", "EP25", "EP26", "EP27", "EP28", "EP29", "EP30"],
+  "fixed_elements": [
+    {"id": "N0", "name": "main_entrance", "x": 0.0, "y": 22.0, "width_m": 3.2},
+    {"id": "E0", "name": "servant_side_door", "x": 8.0, "y": 9.0, "width_m": 1.1},
+    {"id": "S0", "name": "family_stair", "x": -5.5, "y": 0.0, "width_m": 1.4},
+    {"id": "A0", "name": "armory_access", "x": -5.0, "y": 1.0, "width_m": 0.9},
+    {"id": "W0", "name": "weapon_wall", "x": -8.0, "y": 11.5, "length_m": 9.0},
+    {"id": "P1", "name": "column_southwest", "x": -3.0, "y": 6.0},
+    {"id": "P2", "name": "column_southeast", "x": 3.0, "y": 6.0},
+    {"id": "P3", "name": "column_northwest", "x": -3.0, "y": 14.0},
+    {"id": "P4", "name": "column_northeast", "x": 3.0, "y": 14.0},
+    {"id": "H0", "name": "hearth", "x": 4.5, "y": 11.0, "diameter_m": 2.2},
+    {"id": "N2", "name": "dais_main_seat", "x": -4.5, "y": 18.5},
+    {"id": "B0", "name": "bow_mark", "x": 0.0, "y": 3.0},
+    {"id": "N1", "name": "arrow_backstop", "x": 0.0, "y": 19.0},
+    {"id": "G0", "name": "armory_grain_ladder", "x": -7.0, "y": -1.0}
+  ],
+  "routes": [
+    {"id": "R-PEN", "name": "penelope_private_to_public", "nodes": ["upper_private_rooms", "S0", "south_threshold", "hall_perimeter", "N2"]},
+    {"id": "R-TEL-PUB", "name": "telemachus_public", "nodes": ["N0", "east_aisle", "P2", "P4", "south_family_boundary"]},
+    {"id": "R-TEL-ARM", "name": "telemachus_armory", "nodes": ["P2", "south_crossing", "A0", "armory_store"]},
+    {"id": "R-SERV", "name": "servant_service", "nodes": ["C0", "E0", "east_aisle", "service_tables"]},
+    {"id": "R-OD-BOW", "name": "odysseus_bow", "nodes": ["east_guest_edge", "B0", "B0_safe_half_step", "N2_pivot"]},
+    {"id": "R-ARM-BYPASS", "name": "herdsmen_armory_bypass", "nodes": ["C0", "G0", "armory_rear", "A0"]}
+  ],
+  "states": [
+    {"id": "S1-A", "name": "CLEAN_OCCUPIED", "episodes": ["EP01", "EP02", "EP20", "EP21", "EP22", "EP23", "EP24"]},
+    {"id": "S1-B", "name": "CONTEST", "episodes": ["EP25", "EP26-S01", "EP26-S02", "EP26-S03"]},
+    {"id": "S1-C", "name": "FIRST_BLOOD", "episodes": ["EP26-S04", "EP26-S05", "EP27-S01"]},
+    {"id": "S1-D", "name": "FULL_BATTLE", "episodes": ["EP27-S02", "EP27-S03", "EP27-S04", "EP27-S05", "EP28-S01", "EP28-S02", "EP28-S03", "EP28-S04"]},
+    {"id": "S1-E", "name": "AFTERMATH", "episodes": ["EP28-S05", "EP29-S01"]},
+    {"id": "S1-F", "name": "RESTORED", "episodes": ["EP29", "EP30-S03"]}
+  ],
+  "status": "FROZEN_S1_FLOOR_PLAN",
+  "version": "1.0.0",
+  "wild_walls": ["WW-W", "WW-E", "WW-S", "WW-NW"]
+}
