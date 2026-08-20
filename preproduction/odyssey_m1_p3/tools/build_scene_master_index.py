@@ -277,6 +277,15 @@ def build_index() -> dict[str, object]:
             unit, standing_set, secondary_units = production_unit(episode, full_location, tags)
             water = bool(tags & {"water", "water-heavy", "low-water", "storm", "shore"})
             boats = "boat" in tags
+            prop_text = ",".join(props)
+            weapon_blood_action = (
+                "blood" in tags
+                and not tags & {"underworld", "cleanup"}
+                and any(token in prop_text for token in ("弓", "箭", "剑", "矛", "木杖", "刀"))
+            )
+            stunt = bool(
+                tags & {"fight", "fight-low", "fight-map", "stunt", "stunt-low", "stunt-safe", "athletics"}
+            ) or weapon_blood_action
             scene_id = f"{episode_id}-S{int(scene_number):02d}"
             scenes.append(
                 {
@@ -303,7 +312,7 @@ def build_index() -> dict[str, object]:
                     "source_episode_sha256": sha256_bytes(payload),
                     "standing_set": standing_set,
                     "story_location": story_location,
-                    "stunt": bool(tags & {"fight", "fight-low", "stunt", "stunt-low", "stunt-safe", "athletics"}),
+                    "stunt": stunt,
                     "tags": sorted(tags),
                     "time_label": full_location.split("·")[-1],
                     "vfx": vfx_level(tags),

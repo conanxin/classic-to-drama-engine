@@ -32,6 +32,7 @@ The master file also records per-scene `coverage_flag`, `coverage_ratio`, planne
 | CONSEQUENCE | What cannot be reset within the scene? | Hold long enough to register physical/social cost. |
 | TRANSITION | Which state carries into the next scene? | Used only when custody, injury, route, weather or knowledge crosses the cut. |
 | HOOK | What new pressure survives the cut? | Image/action, not a duplicated summary card. |
+| TECHNICAL_PLATE | Which isolated clean/reference/contact element makes the dramatic image safe and compositable? | VFX/SFX/stunt plate only; it must name the dramatic shot it supports. |
 
 A standard scene normally needs four to six of these purposes, often combined in a moving master or shared frame. A purpose does not justify a separate shot by itself.
 
