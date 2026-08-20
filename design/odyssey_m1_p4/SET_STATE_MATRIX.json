@@ -1,0 +1,104 @@
+{
+  "artifact_class": "odyssey_p4_set_state_matrix",
+  "standing_set_count": 5,
+  "sets": [
+    {
+      "set_id": "S1",
+      "name": "Ithaca hall",
+      "states": [
+        "S1-A",
+        "S1-B",
+        "S1-C",
+        "S1-D",
+        "S1-E",
+        "S1-F"
+      ],
+      "palette": [
+        "#806b4e",
+        "#66504f",
+        "#2f2b25",
+        "#9d845c"
+      ],
+      "p3_geometry_modified": false,
+      "design_sheet": "technical_sheets/P4-SET-S1-TECH.svg",
+      "high_fidelity_anchor_required": true
+    },
+    {
+      "set_id": "S2",
+      "name": "ceremonial court",
+      "states": [
+        "PYLOS",
+        "SPARTA",
+        "PHAEACIA",
+        "CIRCE"
+      ],
+      "palette": [
+        "#c2b58f",
+        "#607d82",
+        "#844b45",
+        "#4f6848"
+      ],
+      "p3_geometry_modified": false,
+      "design_sheet": "technical_sheets/P4-SET-S2-TECH.svg",
+      "high_fidelity_anchor_required": true
+    },
+    {
+      "set_id": "S3",
+      "name": "dry ship deck",
+      "states": [
+        "TELEMACHUS",
+        "FLEET",
+        "LAST-SHIP",
+        "PHAEACIAN"
+      ],
+      "palette": [
+        "#564331",
+        "#485b63",
+        "#a28d68",
+        "#252c2e"
+      ],
+      "p3_geometry_modified": false,
+      "design_sheet": "technical_sheets/P4-SET-S3-TECH.svg",
+      "high_fidelity_anchor_required": true
+    },
+    {
+      "set_id": "S4",
+      "name": "Eumaeus farm",
+      "states": [
+        "WORK",
+        "GUEST",
+        "RECOGNITION",
+        "DEPARTURE"
+      ],
+      "palette": [
+        "#6d4f37",
+        "#8a6746",
+        "#332b25",
+        "#a5906b"
+      ],
+      "p3_geometry_modified": false,
+      "design_sheet": "technical_sheets/P4-SET-S4-TECH.svg",
+      "high_fidelity_anchor_required": true
+    },
+    {
+      "set_id": "S5",
+      "name": "shore/cave adaptable",
+      "states": [
+        "OGYGIA",
+        "CYCLOPS",
+        "ITHACA-SHORE",
+        "CREATURE-COAST"
+      ],
+      "palette": [
+        "#717772",
+        "#312d29",
+        "#776b52",
+        "#445a5c"
+      ],
+      "p3_geometry_modified": false,
+      "design_sheet": "technical_sheets/P4-SET-S5-TECH.svg",
+      "high_fidelity_anchor_required": true
+    }
+  ],
+  "status": "FROZEN_FIVE_STANDING_SET_STATES"
+}

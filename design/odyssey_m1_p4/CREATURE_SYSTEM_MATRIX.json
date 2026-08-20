@@ -1,0 +1,61 @@
+{
+  "artifact_class": "odyssey_p4_creature_system_matrix",
+  "systems": [
+    {
+      "system_id": "CYCLOPS",
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-CYCLOPS-TECH.svg",
+      "full_cg_hero_required": false,
+      "status": "FROZEN"
+    },
+    {
+      "system_id": "CIRCE",
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-CIRCE-TECH.svg",
+      "full_cg_hero_required": false,
+      "status": "FROZEN"
+    },
+    {
+      "system_id": "SIRENS",
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-SIRENS-TECH.svg",
+      "full_cg_hero_required": false,
+      "status": "FROZEN"
+    },
+    {
+      "system_id": "CHARYBDIS",
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-CHARYBDIS-TECH.svg",
+      "full_cg_hero_required": false,
+      "status": "FROZEN"
+    },
+    {
+      "system_id": "SCYLLA",
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-SCYLLA-TECH.svg",
+      "full_cg_hero_required": false,
+      "status": "FROZEN"
+    },
+    {
+      "system_id": "UNDERWORLD",
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-UNDERWORLD-TECH.svg",
+      "full_cg_hero_required": false,
+      "status": "FROZEN"
+    },
+    {
+      "system_id": "POSEIDON",
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-POSEIDON-TECH.svg",
+      "full_cg_hero_required": false,
+      "status": "FROZEN"
+    },
+    {
+      "system_id": "ATHENA",
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-ATHENA-TECH.svg",
+      "full_cg_hero_required": false,
+      "status": "FROZEN"
+    },
+    {
+      "system_id": "PETRIFICATION",
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-PETRIFICATION-TECH.svg",
+      "full_cg_hero_required": false,
+      "status": "FROZEN"
+    }
+  ],
+  "p3_creature_scenes_covered": 8,
+  "status": "PASS_CREATURE_SYSTEMS"
+}

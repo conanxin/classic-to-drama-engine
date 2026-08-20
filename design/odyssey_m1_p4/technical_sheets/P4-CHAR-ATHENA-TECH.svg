@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#171816"/>
+<text x="40" y="58" fill="#eee8d8" font-family="sans-serif" font-size="34" font-weight="700">Athena visual states</text>
+<text x="40" y="92" fill="#a9a28e" font-family="sans-serif" font-size="18">fictional cast-neutral identity · TECHNICAL DESIGN SHEET</text>
+<rect x="40.0" y="130" width="172.5" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="58.0" y="150" width="136.5" height="46" fill="#81715a"/>
+<text x="62.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ATH-MENTES</text>
+<circle cx="126.2" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 34.2 585 Q 56.2 405 126.2 395 Q 196.2 405 218.2 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="126.2" y1="376" x2="126.2" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="62.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="62.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="232.5" y="130" width="172.5" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="250.5" y="150" width="136.5" height="46" fill="#655268"/>
+<text x="254.5" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ATH-MENTOR</text>
+<circle cx="318.8" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 226.8 585 Q 248.8 405 318.8 395 Q 388.8 405 410.8 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="318.8" y1="376" x2="318.8" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="254.5" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="254.5" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="425.0" y="130" width="172.5" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="443.0" y="150" width="136.5" height="46" fill="#8b7656"/>
+<text x="447.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ATH-GIRL</text>
+<circle cx="511.2" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 419.2 585 Q 441.2 405 511.2 395 Q 581.2 405 603.2 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="511.2" y1="376" x2="511.2" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="447.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="447.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="617.5" y="130" width="172.5" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="635.5" y="150" width="136.5" height="46" fill="#9a8d72"/>
+<text x="639.5" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ATH-COMPANION</text>
+<circle cx="703.8" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 611.8 585 Q 633.8 405 703.8 395 Q 773.8 405 795.8 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="703.8" y1="376" x2="703.8" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="639.5" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="639.5" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="810.0" y="130" width="172.5" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="828.0" y="150" width="136.5" height="46" fill="#6f5038"/>
+<text x="832.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ATH-BOY</text>
+<circle cx="896.2" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 804.2 585 Q 826.2 405 896.2 395 Q 966.2 405 988.2 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="896.2" y1="376" x2="896.2" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="832.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="832.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="1002.5" y="130" width="172.5" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="1020.5" y="150" width="136.5" height="46" fill="#9a4f3f"/>
+<text x="1024.5" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ATH-SHEPHERD</text>
+<circle cx="1088.8" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 996.8 585 Q 1018.8 405 1088.8 395 Q 1158.8 405 1180.8 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1088.8" y1="376" x2="1088.8" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1024.5" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="1024.5" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="1195.0" y="130" width="172.5" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="1213.0" y="150" width="136.5" height="46" fill="#4f6848"/>
+<text x="1217.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ATH-ALMOST</text>
+<circle cx="1281.2" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 1189.2 585 Q 1211.2 405 1281.2 395 Q 1351.2 405 1373.2 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1281.2" y1="376" x2="1281.2" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1217.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="1217.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="1387.5" y="130" width="172.5" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="1405.5" y="150" width="136.5" height="46" fill="#6d302b"/>
+<text x="1409.5" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ATH-DIVINE</text>
+<circle cx="1473.8" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 1381.8 585 Q 1403.8 405 1473.8 395 Q 1543.8 405 1565.8 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1473.8" y1="376" x2="1473.8" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1409.5" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="1409.5" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<text x="40" y="866" fill="#77715e" font-family="sans-serif" font-size="14">P4 · geometry and state reference only · not high-fidelity concept art</text>
+</svg>

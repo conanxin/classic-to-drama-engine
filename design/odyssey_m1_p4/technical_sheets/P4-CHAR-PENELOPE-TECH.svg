@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#171816"/>
+<text x="40" y="58" fill="#eee8d8" font-family="sans-serif" font-size="34" font-weight="700">Penelope visual states</text>
+<text x="40" y="92" fill="#a9a28e" font-family="sans-serif" font-size="18">fictional cast-neutral identity · TECHNICAL DESIGN SHEET</text>
+<rect x="40.0" y="130" width="200.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="58.0" y="150" width="164.0" height="46" fill="#81715a"/>
+<text x="62.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PEN-A</text>
+<circle cx="140.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 48.0 585 Q 70.0 405 140.0 395 Q 210.0 405 232.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="140.0" y1="376" x2="140.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="62.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="62.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="260.0" y="130" width="200.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="278.0" y="150" width="164.0" height="46" fill="#655268"/>
+<text x="282.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PEN-B</text>
+<circle cx="360.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 268.0 585 Q 290.0 405 360.0 395 Q 430.0 405 452.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="360.0" y1="376" x2="360.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="282.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="282.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="480.0" y="130" width="200.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="498.0" y="150" width="164.0" height="46" fill="#8b7656"/>
+<text x="502.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PEN-C</text>
+<circle cx="580.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 488.0 585 Q 510.0 405 580.0 395 Q 650.0 405 672.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="580.0" y1="376" x2="580.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="502.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="502.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="700.0" y="130" width="200.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="718.0" y="150" width="164.0" height="46" fill="#9a8d72"/>
+<text x="722.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PEN-D</text>
+<circle cx="800.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 708.0 585 Q 730.0 405 800.0 395 Q 870.0 405 892.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="800.0" y1="376" x2="800.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="722.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="722.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="920.0" y="130" width="200.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="938.0" y="150" width="164.0" height="46" fill="#6f5038"/>
+<text x="942.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PEN-E</text>
+<circle cx="1020.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 928.0 585 Q 950.0 405 1020.0 395 Q 1090.0 405 1112.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1020.0" y1="376" x2="1020.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="942.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="942.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="1140.0" y="130" width="200.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="1158.0" y="150" width="164.0" height="46" fill="#9a4f3f"/>
+<text x="1162.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PEN-F</text>
+<circle cx="1240.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 1148.0 585 Q 1170.0 405 1240.0 395 Q 1310.0 405 1332.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1240.0" y1="376" x2="1240.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1162.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="1162.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="1360.0" y="130" width="200.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="1378.0" y="150" width="164.0" height="46" fill="#4f6848"/>
+<text x="1382.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PEN-G</text>
+<circle cx="1460.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 1368.0 585 Q 1390.0 405 1460.0 395 Q 1530.0 405 1552.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1460.0" y1="376" x2="1460.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1382.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="1382.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<text x="40" y="866" fill="#77715e" font-family="sans-serif" font-size="14">P4 · geometry and state reference only · not high-fidelity concept art</text>
+</svg>

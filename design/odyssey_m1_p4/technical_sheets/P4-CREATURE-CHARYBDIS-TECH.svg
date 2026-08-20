@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#171816"/>
+<text x="40" y="58" fill="#eee8d8" font-family="sans-serif" font-size="34" font-weight="700">CHARYBDIS</text>
+<text x="40" y="92" fill="#a9a28e" font-family="sans-serif" font-size="18">practical base → in-camera → limited VFX → sound/reaction · TECHNICAL DESIGN SHEET</text>
+<rect x="40.0" y="130" width="493.3" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="58.0" y="150" width="457.3" height="46" fill="#6d5b42"/>
+<text x="62.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PRACTICAL</text>
+<circle cx="286.7" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 194.7 585 Q 216.7 405 286.7 395 Q 356.7 405 378.7 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="286.7" y1="376" x2="286.7" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="62.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">physical contact and measured eyeline</text>
+<text x="62.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="553.3" y="130" width="493.3" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="571.3" y="150" width="457.3" height="46" fill="#4f5d5a"/>
+<text x="575.3" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">IN-CAMERA</text>
+<circle cx="800.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 708.0 585 Q 730.0 405 800.0 395 Q 870.0 405 892.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="800.0" y1="376" x2="800.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="575.3" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">scale/absence/occlusion before reveal</text>
+<text x="575.3" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="1066.7" y="130" width="493.3" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="1084.7" y="150" width="457.3" height="46" fill="#58465b"/>
+<text x="1088.7" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">VFX LIMIT</text>
+<circle cx="1313.3" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 1221.3 585 Q 1243.3 405 1313.3 395 Q 1383.3 405 1405.3 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1313.3" y1="376" x2="1313.3" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1088.7" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">extension cannot replace human choice</text>
+<text x="1088.7" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<text x="40" y="866" fill="#77715e" font-family="sans-serif" font-size="14">P4 · geometry and state reference only · not high-fidelity concept art</text>
+</svg>

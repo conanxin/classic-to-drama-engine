@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#171816"/>
+<text x="40" y="58" fill="#eee8d8" font-family="sans-serif" font-size="34" font-weight="700">Hero props 9–12</text>
+<text x="40" y="92" fill="#a9a28e" font-family="sans-serif" font-size="18">custody and recognition evidence · TECHNICAL DESIGN SHEET</text>
+<rect x="40.0" y="130" width="365.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="58.0" y="150" width="329.0" height="46" fill="#815f3d"/>
+<text x="62.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PR-BOUNDARY-01</text>
+<circle cx="222.5" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 130.5 585 Q 152.5 405 222.5 395 Q 292.5 405 314.5 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="222.5" y1="376" x2="222.5" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="62.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">hero/stunt/safe identity and custody remain exact</text>
+<text x="62.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="425.0" y="130" width="365.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="443.0" y="150" width="329.0" height="46" fill="#796449"/>
+<text x="447.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PR-WIND-01</text>
+<circle cx="607.5" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 515.5 585 Q 537.5 405 607.5 395 Q 677.5 405 699.5 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="607.5" y1="376" x2="607.5" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="447.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">hero/stunt/safe identity and custody remain exact</text>
+<text x="447.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="810.0" y="130" width="365.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="828.0" y="150" width="329.0" height="46" fill="#69584d"/>
+<text x="832.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PR-STAKE-01</text>
+<circle cx="992.5" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 900.5 585 Q 922.5 405 992.5 395 Q 1062.5 405 1084.5 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="992.5" y1="376" x2="992.5" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="832.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">hero/stunt/safe identity and custody remain exact</text>
+<text x="832.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="1195.0" y="130" width="365.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="1213.0" y="150" width="329.0" height="46" fill="#8d764f"/>
+<text x="1217.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">PR-SHIP-INV-01</text>
+<circle cx="1377.5" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 1285.5 585 Q 1307.5 405 1377.5 395 Q 1447.5 405 1469.5 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1377.5" y1="376" x2="1377.5" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1217.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">hero/stunt/safe identity and custody remain exact</text>
+<text x="1217.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<text x="40" y="866" fill="#77715e" font-family="sans-serif" font-size="14">P4 · geometry and state reference only · not high-fidelity concept art</text>
+</svg>

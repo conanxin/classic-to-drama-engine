@@ -1,0 +1,298 @@
+{
+  "artifact_class": "odyssey_p4_costume_state_matrix",
+  "costumes": [
+    {
+      "character": "Odysseus",
+      "costume_id": "W-OD-05-CALYPSO-WORN",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "costume_id": "W-OD-05-RAFT-SALT",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "costume_id": "W-OD-06-PHAEACIA-BORROWED",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "costume_id": "W-OD-09-15-STORY",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "costume_id": "W-OD-16-LANDFALL",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "costume_id": "W-OD-17-26-BEGGAR",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "costume_id": "W-OD-27-BATTLE",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT",
+        "BLOOD"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "costume_id": "W-OD-29-CLEANED-RETURNED",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "costume_id": "W-OD-30-RETURNED-FIELD",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "costume_id": "W-TE-01-BOY-HOUSEHOLD",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "costume_id": "W-TE-03-TRAVELER",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "costume_id": "W-TE-18-RETURNING-HEIR",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "costume_id": "W-TE-26-BATTLE-HEIR",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT",
+        "BLOOD"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "costume_id": "W-TE-30-CIVIC-AUTHORITY",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "costume_id": "W-PE-01-HOUSEHOLD-MOURNING-PURPLE",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "costume_id": "W-PE-25-CONTEST",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "costume_id": "W-PE-29-RECOGNITION",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "costume_id": "W-PE-30-CIVIC-RESTORATION",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "costume_id": "W-AT-MENTES",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "costume_id": "W-AT-MENTOR",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "costume_id": "W-AT-GIRL",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "costume_id": "W-AT-COMPANION",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "costume_id": "W-AT-BOY",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "costume_id": "W-AT-SHEPHERD",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "costume_id": "W-AT-DIVINE",
+      "versions": [
+        "HERO",
+        "WET",
+        "STUNT"
+      ],
+      "material_continuity": "MATCH_REQUIRED",
+      "status": "FROZEN"
+    }
+  ],
+  "wet_states": [
+    "W0",
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+  ],
+  "blood_states": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5"
+  ],
+  "status": "FROZEN_COSTUME_STATES"
+}

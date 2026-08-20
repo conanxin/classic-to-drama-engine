@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1100" viewBox="0 0 1500 1100">
+<rect width="1500" height="1100" fill="#171816"/>
+<text x="50" y="55" fill="#eee8d8" font-family="sans-serif" font-size="32" font-weight="700">S1 ITHACA HALL · FROZEN P3 GEOMETRY</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d7b76d"/></marker></defs>
+<text x="50" y="88" fill="#a9a28e" font-family="sans-serif" font-size="17">16 m × 22 m · north at top · P4 surfaces and light only</text>
+<rect x="446" y="114" width="608" height="836" fill="#302e28" stroke="#bba77c" stroke-width="8"/>
+<rect x="732.0" y="102.0" width="36" height="24" fill="#5c665c" stroke="#d1c5a4" stroke-width="2"/>
+<text x="772.0" y="120.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">N0</text>
+<rect x="1036.0" y="596.0" width="36" height="24" fill="#5c665c" stroke="#d1c5a4" stroke-width="2"/>
+<text x="1076.0" y="614.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">E0</text>
+<rect x="523.0" y="938.0" width="36" height="24" fill="#5c665c" stroke="#d1c5a4" stroke-width="2"/>
+<text x="563.0" y="956.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">S0</text>
+<rect x="542.0" y="900.0" width="36" height="24" fill="#5c665c" stroke="#d1c5a4" stroke-width="2"/>
+<text x="582.0" y="918.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">A0</text>
+<rect x="428.0" y="501.0" width="36" height="24" fill="#5c665c" stroke="#d1c5a4" stroke-width="2"/>
+<text x="468.0" y="519.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">W0</text>
+<circle cx="636.0" cy="722.0" r="16" fill="#8a7957" stroke="#e6d7ae" stroke-width="4"/>
+<text x="658.0" y="728.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">P1</text>
+<circle cx="864.0" cy="722.0" r="16" fill="#8a7957" stroke="#e6d7ae" stroke-width="4"/>
+<text x="886.0" y="728.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">P2</text>
+<circle cx="636.0" cy="418.0" r="16" fill="#8a7957" stroke="#e6d7ae" stroke-width="4"/>
+<text x="658.0" y="424.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">P3</text>
+<circle cx="864.0" cy="418.0" r="16" fill="#8a7957" stroke="#e6d7ae" stroke-width="4"/>
+<text x="886.0" y="424.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">P4</text>
+<circle cx="921.0" cy="532.0" r="42" fill="#72452f" stroke="#d58b55" stroke-width="4"/>
+<text x="943.0" y="538.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">H0</text>
+<rect x="561.0" y="235.0" width="36" height="24" fill="#5c665c" stroke="#d1c5a4" stroke-width="2"/>
+<text x="601.0" y="253.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">N2</text>
+<rect x="732.0" y="824.0" width="36" height="24" fill="#5c665c" stroke="#d1c5a4" stroke-width="2"/>
+<text x="772.0" y="842.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">B0</text>
+<rect x="732.0" y="216.0" width="36" height="24" fill="#5c665c" stroke="#d1c5a4" stroke-width="2"/>
+<text x="772.0" y="234.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">N1</text>
+<rect x="466.0" y="976.0" width="36" height="24" fill="#5c665c" stroke="#d1c5a4" stroke-width="2"/>
+<text x="506.0" y="994.0" fill="#eee8d8" font-family="sans-serif" font-size="15" font-weight="700">G0</text>
+<line x1="750" y1="836" x2="750" y2="228" stroke="#d7b76d" stroke-width="4" stroke-dasharray="12 8"/>
+<circle cx="750" cy="760" r="8" fill="#b99656"/><text x="762" y="765" fill="#c8b990" font-family="sans-serif" font-size="11">AX01</text>
+<circle cx="750" cy="722" r="8" fill="#b99656"/><text x="762" y="727" fill="#c8b990" font-family="sans-serif" font-size="11">AX02</text>
+<circle cx="750" cy="684" r="8" fill="#b99656"/><text x="762" y="689" fill="#c8b990" font-family="sans-serif" font-size="11">AX03</text>
+<circle cx="750" cy="646" r="8" fill="#b99656"/><text x="762" y="651" fill="#c8b990" font-family="sans-serif" font-size="11">AX04</text>
+<circle cx="750" cy="608" r="8" fill="#b99656"/><text x="762" y="613" fill="#c8b990" font-family="sans-serif" font-size="11">AX05</text>
+<circle cx="750" cy="570" r="8" fill="#b99656"/><text x="762" y="575" fill="#c8b990" font-family="sans-serif" font-size="11">AX06</text>
+<circle cx="750" cy="532" r="8" fill="#b99656"/><text x="762" y="537" fill="#c8b990" font-family="sans-serif" font-size="11">AX07</text>
+<circle cx="750" cy="494" r="8" fill="#b99656"/><text x="762" y="499" fill="#c8b990" font-family="sans-serif" font-size="11">AX08</text>
+<circle cx="750" cy="456" r="8" fill="#b99656"/><text x="762" y="461" fill="#c8b990" font-family="sans-serif" font-size="11">AX09</text>
+<circle cx="750" cy="418" r="8" fill="#b99656"/><text x="762" y="423" fill="#c8b990" font-family="sans-serif" font-size="11">AX10</text>
+<circle cx="750" cy="380" r="8" fill="#b99656"/><text x="762" y="385" fill="#c8b990" font-family="sans-serif" font-size="11">AX11</text>
+<circle cx="750" cy="342" r="8" fill="#b99656"/><text x="762" y="347" fill="#c8b990" font-family="sans-serif" font-size="11">AX12</text>
+<polyline points="541.0,950 560,836 522,646 560,380 579.0,247.0" fill="none" stroke="#8d637e" stroke-width="5" opacity="0.88" marker-end="url(#arrow)"/>
+<polyline points="750,114 940,266 902,570 864,722 712,912" fill="none" stroke="#608a94" stroke-width="5" opacity="0.88" marker-end="url(#arrow)"/>
+<polyline points="864,722 750,836 560,912" fill="none" stroke="#6a93a0" stroke-width="5" opacity="0.88" marker-end="url(#arrow)"/>
+<polyline points="1092,608 1054,608 940,608 864,646" fill="none" stroke="#9f8a62" stroke-width="5" opacity="0.88" marker-end="url(#arrow)"/>
+<polyline points="978,798 750,836 750,855.0 579.0,247.0" fill="none" stroke="#c1a252" stroke-width="5" opacity="0.88" marker-end="url(#arrow)"/>
+<polyline points="1092,608 484,988 522,950 560,912" fill="none" stroke="#9a584e" stroke-width="5" opacity="0.88" marker-end="url(#arrow)"/>
+<line x1="1060" y1="220" x2="1120" y2="220" stroke="#8d637e" stroke-width="6"/><text x="1135" y="226" fill="#d8d1bd" font-family="sans-serif" font-size="17">R-PEN</text>
+<line x1="1060" y1="264" x2="1120" y2="264" stroke="#608a94" stroke-width="6"/><text x="1135" y="270" fill="#d8d1bd" font-family="sans-serif" font-size="17">R-TEL-PUB</text>
+<line x1="1060" y1="308" x2="1120" y2="308" stroke="#6a93a0" stroke-width="6"/><text x="1135" y="314" fill="#d8d1bd" font-family="sans-serif" font-size="17">R-TEL-ARM</text>
+<line x1="1060" y1="352" x2="1120" y2="352" stroke="#9f8a62" stroke-width="6"/><text x="1135" y="358" fill="#d8d1bd" font-family="sans-serif" font-size="17">R-SERV</text>
+<line x1="1060" y1="396" x2="1120" y2="396" stroke="#c1a252" stroke-width="6"/><text x="1135" y="402" fill="#d8d1bd" font-family="sans-serif" font-size="17">R-OD-BOW</text>
+<line x1="1060" y1="440" x2="1120" y2="440" stroke="#9a584e" stroke-width="6"/><text x="1135" y="446" fill="#d8d1bd" font-family="sans-serif" font-size="17">R-ARM-BYPASS</text>
+<text x="1060" y="160" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">LOCKED ROUTES</text>
+<text x="1060" y="560" fill="#a9a28e" font-family="sans-serif" font-size="16">N0 / E0 / A0 / G0 remain</text>
+<text x="1060" y="588" fill="#a9a28e" font-family="sans-serif" font-size="16">story constraints, never camera exits.</text>
+<text x="1060" y="648" fill="#d7b76d" font-family="sans-serif" font-size="18">X=0 bow / 12 axes / N1</text>
+<text x="50" y="1060" fill="#77715e" font-family="sans-serif" font-size="14">P4 TECHNICAL DESIGN · source: preproduction/odyssey_m1_p3/S1_ITHACA_HALL_FLOOR_PLAN.json</text>
+</svg>

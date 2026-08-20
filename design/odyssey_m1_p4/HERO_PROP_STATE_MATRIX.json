@@ -1,0 +1,78 @@
+{
+  "artifact_class": "odyssey_p4_hero_prop_state_matrix",
+  "props": [
+    {
+      "prop_id": "PR-BOW-01",
+      "technical_sheet": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-AXES-01..12",
+      "technical_sheet": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-SCAR-01",
+      "technical_sheet": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-BED-01",
+      "technical_sheet": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-WEAVE-01",
+      "technical_sheet": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-TE-SWORD-01",
+      "technical_sheet": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-OD-WEAPON-SET",
+      "technical_sheet": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-BONE-01..06",
+      "technical_sheet": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-BOUNDARY-01",
+      "technical_sheet": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-WIND-01",
+      "technical_sheet": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-STAKE-01",
+      "technical_sheet": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    },
+    {
+      "prop_id": "PR-SHIP-INV-01",
+      "technical_sheet": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "custody_lock": "P3_PROP_CONTINUITY",
+      "status": "FROZEN"
+    }
+  ],
+  "status": "PASS_HERO_PROP_SYSTEMS"
+}

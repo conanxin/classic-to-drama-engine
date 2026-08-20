@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#171816"/>
+<text x="40" y="58" fill="#eee8d8" font-family="sans-serif" font-size="34" font-weight="700">Odysseus states A–E</text>
+<text x="40" y="92" fill="#a9a28e" font-family="sans-serif" font-size="18">fictional cast-neutral identity · TECHNICAL DESIGN SHEET</text>
+<rect x="40.0" y="130" width="288.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="58.0" y="150" width="252.0" height="46" fill="#81715a"/>
+<text x="62.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ODY-A</text>
+<circle cx="184.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 92.0 585 Q 114.0 405 184.0 395 Q 254.0 405 276.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="184.0" y1="376" x2="184.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="62.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="62.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="348.0" y="130" width="288.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="366.0" y="150" width="252.0" height="46" fill="#655268"/>
+<text x="370.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ODY-B</text>
+<circle cx="492.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 400.0 585 Q 422.0 405 492.0 395 Q 562.0 405 584.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="492.0" y1="376" x2="492.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="370.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="370.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="656.0" y="130" width="288.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="674.0" y="150" width="252.0" height="46" fill="#8b7656"/>
+<text x="678.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ODY-C</text>
+<circle cx="800.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 708.0 585 Q 730.0 405 800.0 395 Q 870.0 405 892.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="800.0" y1="376" x2="800.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="678.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="678.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="964.0" y="130" width="288.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="982.0" y="150" width="252.0" height="46" fill="#9a8d72"/>
+<text x="986.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ODY-D</text>
+<circle cx="1108.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 1016.0 585 Q 1038.0 405 1108.0 395 Q 1178.0 405 1200.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1108.0" y1="376" x2="1108.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="986.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="986.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="1272.0" y="130" width="288.0" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="1290.0" y="150" width="252.0" height="46" fill="#6f5038"/>
+<text x="1294.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">ODY-E</text>
+<circle cx="1416.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 1324.0 585 Q 1346.0 405 1416.0 395 Q 1486.0 405 1508.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1416.0" y1="376" x2="1416.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1294.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">same fictional identity; state changes access and condi</text>
+<text x="1294.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<text x="40" y="866" fill="#77715e" font-family="sans-serif" font-size="14">P4 · geometry and state reference only · not high-fidelity concept art</text>
+</svg>

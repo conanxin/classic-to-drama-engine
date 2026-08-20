@@ -1,0 +1,381 @@
+{
+  "artifact_class": "odyssey_p4_character_state_matrix",
+  "principal_count": 4,
+  "states": [
+    {
+      "character": "Odysseus",
+      "state_id": "ODY-A",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-A.svg",
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-B.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "state_id": "ODY-B",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-A.svg",
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-B.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "state_id": "ODY-C",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-A.svg",
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-B.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "state_id": "ODY-D",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-A.svg",
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-B.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "state_id": "ODY-E",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-A.svg",
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-B.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "state_id": "ODY-F",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-A.svg",
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-B.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "state_id": "ODY-G",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-A.svg",
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-B.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "state_id": "ODY-H",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-A.svg",
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-B.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "state_id": "ODY-I",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-A.svg",
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-B.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Odysseus",
+      "state_id": "ODY-J",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-A.svg",
+        "technical_sheets/P4-CHAR-ODYSSEUS-TECH-B.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "state_id": "PEN-A",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-PENELOPE-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "state_id": "PEN-B",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-PENELOPE-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "state_id": "PEN-C",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-PENELOPE-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "state_id": "PEN-D",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-PENELOPE-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "state_id": "PEN-E",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-PENELOPE-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "state_id": "PEN-F",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-PENELOPE-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Penelope",
+      "state_id": "PEN-G",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-PENELOPE-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "state_id": "TEL-A",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-TELEMACHUS-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "state_id": "TEL-B",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-TELEMACHUS-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "state_id": "TEL-C",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-TELEMACHUS-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "state_id": "TEL-D",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-TELEMACHUS-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "state_id": "TEL-E",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-TELEMACHUS-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "state_id": "TEL-F",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-TELEMACHUS-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "state_id": "TEL-G",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-TELEMACHUS-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Telemachus",
+      "state_id": "TEL-H",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-TELEMACHUS-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "state_id": "ATH-MENTES",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ATHENA-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "state_id": "ATH-MENTOR",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ATHENA-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "state_id": "ATH-GIRL",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ATHENA-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "state_id": "ATH-COMPANION",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ATHENA-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "state_id": "ATH-BOY",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ATHENA-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "state_id": "ATH-SHEPHERD",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ATHENA-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "state_id": "ATH-ALMOST",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ATHENA-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    },
+    {
+      "character": "Athena",
+      "state_id": "ATH-DIVINE",
+      "silhouette_lock": "character invariant",
+      "identity_sheets": [
+        "technical_sheets/P4-CHAR-ATHENA-TECH.svg"
+      ],
+      "wet_state": "W0 unless scene-bound",
+      "blood_state": "B0 unless scene-bound",
+      "status": "FROZEN"
+    }
+  ],
+  "real_person_likeness": false,
+  "status": "FROZEN_CHARACTER_STATES"
+}
