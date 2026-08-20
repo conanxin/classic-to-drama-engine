@@ -192,18 +192,14 @@ def hmu_states(episode: int, cast: list[str], tags: set[str]) -> list[str]:
     return states
 
 
-def animals_in(text: str) -> list[str]:
-    mapping = {
-        "猪": "PIG",
-        "羊": "SHEEP",
-        "牛": "CATTLE",
-        "狗": "DOG",
-        "鹰": "RAPTOR",
-        "骡": "MULE",
-        "马": "HORSE",
-        "海豹": "SEAL",
-    }
-    return sorted({label for token, label in mapping.items() if token in text})
+def animals_in(spec: str) -> list[str]:
+    labels: set[str] = set()
+    if "山羊" in spec: labels.add("GOAT")
+    if "羊" in spec.replace("山羊", ""): labels.add("SHEEP")
+    for token, label in {"猪": "PIG", "牛": "CATTLE", "狗": "DOG", "犬": "DOG", "骡": "MULE", "马": "HORSE"}.items():
+        if token in spec:
+            labels.add(label)
+    return sorted(labels)
 
 
 def vfx_level(tags: set[str]) -> str:
@@ -289,7 +285,7 @@ def build_index() -> dict[str, object]:
             scene_id = f"{episode_id}-S{int(scene_number):02d}"
             scenes.append(
                 {
-                    "animals": animals_in(chunk),
+                    "animals": animals_in(fields.get("animals", "")),
                     "boats": boats,
                     "cast": cast,
                     "complexity": scene_score(extras, tags),

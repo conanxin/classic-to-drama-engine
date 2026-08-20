@@ -5,6 +5,7 @@ Status: `PASS_ASSUMPTION_BASED_THREE_TIER_BUDGET`
 > **ASSUMPTION-BASED PLANNING RANGE — NOT VENDOR QUOTE.** Currency is CNY/RMB, tax treatment and financing cost excluded. Rates are comparative planning units that must be replaced by bids before greenlight.
 
 Schedule authority: LEAN 42 days, TARGET 54 days, SAFE/PREMIUM 62 days. Target is the master recommendation. Quantity authority includes 212 estimated finished minutes, 171 planned VFX-handled shots, 25 target stunt shoot days plus seven dedicated rehearsal days, 17 target wet days, five standing sets and twelve production blocks.
+Extras quantity is the sum of each schedule day's peak practical pool call (TARGET 836 pool person-days), not the 1,643 scene-declaration sum. It avoids double-charging one pool across multiple scenes on a day; pool-by-pool bids must replace this assumption before greenlight.
 
 ## Quantity × unit assumptions
 
