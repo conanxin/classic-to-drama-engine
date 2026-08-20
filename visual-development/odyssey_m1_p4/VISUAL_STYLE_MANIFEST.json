@@ -1,0 +1,45 @@
+{
+  "artifact_class": "odyssey_p4_visual_style_manifest",
+  "schema_version": "1.0.0",
+  "baseline_commit": "0c4a403864d9ea89afabceed3c7be7d5819f86c8",
+  "p3_manifest_sha256": "bd1f79516b567f4c5aa9760662e9d0c76d2cb17f745a7550488138c730353bf4",
+  "p3_final_result_sha256": "637a18f78f962120d36aa948a781c486e2b69e0b754023138a9d3427deaf880a",
+  "look_bible_sha256": "f230218f64e39a070c4f73b5874b5ecfee1c8f1b66630c86dba47138f91af967",
+  "color_script_sha256": "777968ee7a71b7967b00f211d7db7a1bdccdc2c5bc9e25c66ad17bac12d549f9",
+  "lighting_script_sha256": "585319b3ca7d12feb9bc310dbaf1125eca21b4f40b9206330e8fb77acbbdddeb",
+  "material_language_sha256": "8990176481469291e9368699d9552c01f36c6a646023f6fbcbe7ca3b82758608",
+  "motif_atlas_sha256": "eed26e758752cd901be19ae959a4ec1bf0ea4de92aac4302414c598259943f43",
+  "immutable_bindings": {
+    "episodes": 30,
+    "scenes": 150,
+    "shots": 831,
+    "planned_storyboard_frames": 711,
+    "p3_s1_geometry": "FROZEN",
+    "p3_shot_ids": "FROZEN",
+    "v2_story": "FROZEN"
+  },
+  "visual_rules": {
+    "world": [
+      "lived-in",
+      "salted",
+      "worked",
+      "woven",
+      "smoked",
+      "weathered",
+      "handled",
+      "repaired"
+    ],
+    "exclude": [
+      "generic Hollywood Greece",
+      "white marble fantasy",
+      "generic fantasy armor",
+      "blue-orange blockbuster",
+      "continuous magic glow",
+      "celebrity likeness"
+    ],
+    "high_fidelity_method": "Codex integrated ImageGen",
+    "technical_method": "deterministic project SVG and Pillow/OpenCV",
+    "full_cg_hero_creature_required": false
+  },
+  "status": "FROZEN_P4_VISUAL_LANGUAGE"
+}

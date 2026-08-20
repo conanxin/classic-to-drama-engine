@@ -1,0 +1,247 @@
+{
+  "artifact_class": "odyssey_p4_color_key_image_manifest",
+  "episode_count": 30,
+  "images": [
+    {
+      "episode": "EP01",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP01_COLOR_KEY.png",
+      "sha256": "120fc2ea6b3aba8fabc48bbe9293b4563099e995918bb378745bef32649837b7",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP02",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP02_COLOR_KEY.png",
+      "sha256": "61dc837217699c0c81728b683a9f3fbac4113ba065d179f35aae07fe67263a4d",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP03",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP03_COLOR_KEY.png",
+      "sha256": "ea20018c1bda824ed2f2916666a531581c535f167e1f7890fc00c6b3fa27ee34",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP04",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP04_COLOR_KEY.png",
+      "sha256": "927adbb9c8c2f265c456c7d2ec8ed9754fcd420eb57e3833388dcdd6292cebdb",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP05",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP05_COLOR_KEY.png",
+      "sha256": "e26435c60d86cc57eaae591432759141fe79160c4fa87a9ba268b984e1d21f90",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP06",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP06_COLOR_KEY.png",
+      "sha256": "fa2567061c680d1461970a71d417f23946f417d0ef16631b22e11b6da9962b9a",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP07",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP07_COLOR_KEY.png",
+      "sha256": "9ecd9fbf2a1b10321d1faa0266e153543e3ba13bd366eace28f11284528ee086",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP08",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP08_COLOR_KEY.png",
+      "sha256": "3542917e509aee4289335a9a8c4d15f30c416d1b6906c4b8badad84d6bb79760",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP09",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP09_COLOR_KEY.png",
+      "sha256": "8e31a9684c9d07fb7a123406d240cda3e938812c384c18edbcc68319a19a96ee",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP10",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP10_COLOR_KEY.png",
+      "sha256": "558d07001d0547ee9cbb974977d6a6df882c580872f4d960f6d028411b1ab25f",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP11",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP11_COLOR_KEY.png",
+      "sha256": "5eca26c63711e6b2fa85cebd1c4f0b546a24ea9278fce126118853cdcdd2a257",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP12",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP12_COLOR_KEY.png",
+      "sha256": "bd0f0c1c8f16f7f21c092891a2dda9ae0fa92cd09d7456a990efd37c4bdddc53",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP13",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP13_COLOR_KEY.png",
+      "sha256": "b35bf38be18a407d8fca5456b9a263d4877b7b44e57ab37bb444c57d2e3e082b",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP14",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP14_COLOR_KEY.png",
+      "sha256": "8a0b38f07e575cd4f35415c588266ccb5b08c64573b1406a979da148fa15437b",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP15",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP15_COLOR_KEY.png",
+      "sha256": "8a68c117eb54a62185535c89f134a835d920e01503d4ae14c6a05a13b3a8ae21",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP16",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP16_COLOR_KEY.png",
+      "sha256": "2d53f106bcfb80807059a28c4d7c4a310c033c1ac5d6ef99b4fc6547ab1adcba",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP17",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP17_COLOR_KEY.png",
+      "sha256": "9da4a93ba309226a2e9a6020a04e856a3dd166a4a8de7e3e432e1e19ce9c17b3",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP18",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP18_COLOR_KEY.png",
+      "sha256": "11a591ce43a8ae12a81b11d4c21dc70b9b0e0f1e2b54672378371a19f8c244bd",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP19",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP19_COLOR_KEY.png",
+      "sha256": "6fcdf55e5da4d3427ae8ed5bde32a2f9c6429a29c31590ed0b249bbfe4d0898d",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP20",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP20_COLOR_KEY.png",
+      "sha256": "0de37d02492e957d76704d7cb76f4ddd11a3b3ecdd6c7f4918b07ea100dbd40e",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP21",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP21_COLOR_KEY.png",
+      "sha256": "f78911356d70c2b82a64d98c73dee5d6b98c522fc753323f7cd5afb2c7b7ae3d",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP22",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP22_COLOR_KEY.png",
+      "sha256": "2719fb7233e70e52b9163277e8f4b6e1413ed6298fe0f50920b7df39df6fdff5",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP23",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP23_COLOR_KEY.png",
+      "sha256": "412ffcec7efe1a399ec58b131a1d335deec79dbfc1ea13140a9b6f7bad287ee3",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP24",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP24_COLOR_KEY.png",
+      "sha256": "596863503ad6d49f1016a18d1f4d1c82ad8079bc0628e8a89a55734b7b9fdbc1",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP25",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP25_COLOR_KEY.png",
+      "sha256": "5bf73f9712c3e206e7f8bd13770135ee2f3867d7fafc3461901b4bc136743b89",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP26",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP26_COLOR_KEY.png",
+      "sha256": "ec9a8a907aad4db1fc0d94cbb3f35774c585b2a160a879b4251dfde6e29bf294",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP27",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP27_COLOR_KEY.png",
+      "sha256": "2bd79e7abcc7e5829cba7209bb52ba5ff0e7f0295b4433b290c049ed7991b943",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP28",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP28_COLOR_KEY.png",
+      "sha256": "4937a8e3b9e0cc060f3aa396157704bd5bb09f6c97ae5514c7c111ffc60e75f3",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP29",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP29_COLOR_KEY.png",
+      "sha256": "c8a033fca5d14a881ef72bd3a2a0839e5ce19389716269f235fe22d0bac21bef",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    },
+    {
+      "episode": "EP30",
+      "path": "visual-development/odyssey_m1_p4/color_keys/EP30_COLOR_KEY.png",
+      "sha256": "9d5b42bf971960bc9b81cec5a43f34c9556c14934880c87a772eb1df3016c8aa",
+      "width": 1280,
+      "height": 720,
+      "classification": "COLOR_KEY"
+    }
+  ],
+  "status": "PASS_COLOR_KEYS_30_OF_30"
+}
