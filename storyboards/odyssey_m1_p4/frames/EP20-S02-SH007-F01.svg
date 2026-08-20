@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;伊萨卡街道／宫殿门槛 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;1.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯/乞丐&quot;, &quot;欧迈俄斯&quot;, &quot;墨兰提俄斯&quot;], &quot;composition&quot;: &quot;MCU CONSEQUENCE composition for 奥德修斯/乞丐, 欧迈俄斯, 墨兰提俄斯&quot;, &quot;continuity_state&quot;: &quot;props=牧杖,山羊绳,破斗篷,门槛石; wardrobe=W-OD-20-BEGGAR-HALL; hmu=HMU-OD-OLD-BEGGAR-SCAR-COVER; unit=U08; tags=animal,street,stunt-low&quot;, &quot;foreground&quot;: &quot;牧杖&quot;, &quot;frame_id&quot;: &quot;EP20-S02-SH007-F01&quot;, &quot;lighting&quot;: &quot;DAY motivated source; preserve unit color and practical texture&quot;, &quot;midground&quot;: &quot;奥德修斯/乞丐, 欧迈俄斯, 墨兰提俄斯&quot;, &quot;movement&quot;: &quot;STATIC SINGLE&quot;, &quot;practical_element&quot;: &quot;牧杖&quot;, &quot;scene_id&quot;: &quot;EP20-S02&quot;, &quot;shot_id&quot;: &quot;EP20-S02-SH007&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;8e254ec48c0b04facbb3995c6a5e0dfa111ae9671a1bbf6297556c20d0459928&quot;}</metadata>
+<rect width="1280" height="720" fill="#e0dccf"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP20-S02-SH007-F01</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP20-S02-SH007 · EP20-S02 · SHOULD · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="80" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="1030" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<circle cx="449.5" cy="345.9" r="31.8" fill="none" stroke="#7b6745" stroke-width="5"/>
+<line x1="449.5" y1="377.6" x2="449.5" y2="473.0" stroke="#7b6745" stroke-width="7"/>
+<line x1="449.5" y1="413.0" x2="393.9" y2="453.0" stroke="#7b6745" stroke-width="6"/>
+<line x1="449.5" y1="413.0" x2="505.1" y2="448.0" stroke="#7b6745" stroke-width="6"/>
+<line x1="449.5" y1="473.0" x2="409.8" y2="543.0" stroke="#7b6745" stroke-width="7"/>
+<line x1="449.5" y1="473.0" x2="489.2" y2="543.0" stroke="#7b6745" stroke-width="7"/>
+<rect x="379.5" y="547.0" width="140" height="25" fill="#e0dccf" opacity="0.94"/>
+<text x="385.5" y="565.0" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯/乞丐</text>
+<circle cx="634.0" cy="368.9" r="28.5" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="634.0" y1="397.4" x2="634.0" y2="480.5" stroke="#242522" stroke-width="7"/>
+<line x1="634.0" y1="420.5" x2="584.1" y2="460.5" stroke="#242522" stroke-width="6"/>
+<line x1="634.0" y1="420.5" x2="683.9" y2="455.5" stroke="#242522" stroke-width="6"/>
+<line x1="634.0" y1="480.5" x2="598.4" y2="550.5" stroke="#242522" stroke-width="7"/>
+<line x1="634.0" y1="480.5" x2="669.6" y2="550.5" stroke="#242522" stroke-width="7"/>
+<rect x="564.0" y="554.5" width="140" height="25" fill="#e0dccf" opacity="0.94"/>
+<text x="570.0" y="572.5" fill="#242522" font-family="sans-serif" font-size="14">欧迈俄斯</text>
+<circle cx="828.5" cy="329.7" r="34.0" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="828.5" y1="363.8" x2="828.5" y2="467.8" stroke="#242522" stroke-width="7"/>
+<line x1="828.5" y1="407.8" x2="769.0" y2="447.8" stroke="#242522" stroke-width="6"/>
+<line x1="828.5" y1="407.8" x2="888.0" y2="442.8" stroke="#242522" stroke-width="6"/>
+<line x1="828.5" y1="467.8" x2="786.0" y2="537.8" stroke="#242522" stroke-width="7"/>
+<line x1="828.5" y1="467.8" x2="871.0" y2="537.8" stroke="#242522" stroke-width="7"/>
+<rect x="758.5" y="541.8" width="140" height="25" fill="#e0dccf" opacity="0.94"/>
+<text x="764.5" y="559.8" fill="#242522" font-family="sans-serif" font-size="14">墨兰提俄斯</text>
+<line x1="235" y1="630" x2="1035" y2="630" stroke="#7b6745" stroke-width="6"/>
+<path d="M 1035 630 l -18 -12 l 0 24 z" fill="#7b6745"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: STATIC SINGLE</text>
+<path d="M 55 125 l 20 -35 l 20 35 z" fill="none" stroke="#8d3f36" stroke-width="5"/>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">牧杖 / 奥德修斯/乞丐, 欧迈俄斯, 墨兰提俄斯 / 伊萨卡街道／宫殿门槛 geography; exits/pressure …</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=牧杖,山羊绳,破斗篷,门槛石; wardrobe=W-OD-20-BEGGAR-HALL; hmu=HMU-OD…</text>
+</svg>

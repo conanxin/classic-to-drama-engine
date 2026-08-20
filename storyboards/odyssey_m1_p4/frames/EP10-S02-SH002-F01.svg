@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;独眼巨人洞穴 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;1.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;波吕斐摩斯&quot;, &quot;船员&quot;], &quot;composition&quot;: &quot;MS2 WANT composition for 波吕斐摩斯, 船员, 奥德修斯&quot;, &quot;continuity_state&quot;: &quot;props=橄榄木桩,火堆,玛戎烈酒,奶碗; wardrobe=W-OD-10-VOYAGE-MEMORY; hmu=HMU-OD-VOYAGE-10; unit=S5; tags=cave-adaptable,creature-medium,fire&quot;, &quot;foreground&quot;: &quot;橄榄木桩&quot;, &quot;frame_id&quot;: &quot;EP10-S02-SH002-F01&quot;, &quot;lighting&quot;: &quot;MIXED motivated source; preserve unit color and practical texture&quot;, &quot;midground&quot;: &quot;波吕斐摩斯, 船员, 奥德修斯&quot;, &quot;movement&quot;: &quot;DOLLY_TRACK START&quot;, &quot;practical_element&quot;: &quot;橄榄木桩&quot;, &quot;scene_id&quot;: &quot;EP10-S02&quot;, &quot;shot_id&quot;: &quot;EP10-S02-SH002&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;8f7118b034f301626615572a150de35d7b24f6b6f4a346d4315bcee5f7fe3534&quot;}</metadata>
+<rect width="1280" height="720" fill="#d5cdbc"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP10-S02-SH002-F01</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP10-S02-SH002 · EP10-S02 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="80" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="1030" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<circle cx="407.5" cy="416.2" r="18.8" fill="none" stroke="#65546d" stroke-width="5"/>
+<line x1="407.5" y1="435.0" x2="407.5" y2="481.2" stroke="#65546d" stroke-width="7"/>
+<line x1="407.5" y1="421.2" x2="374.6" y2="461.2" stroke="#65546d" stroke-width="6"/>
+<line x1="407.5" y1="421.2" x2="440.4" y2="456.2" stroke="#65546d" stroke-width="6"/>
+<line x1="407.5" y1="481.2" x2="384.0" y2="551.2" stroke="#65546d" stroke-width="7"/>
+<line x1="407.5" y1="481.2" x2="431.0" y2="551.2" stroke="#65546d" stroke-width="7"/>
+<rect x="337.5" y="555.2" width="140" height="25" fill="#d5cdbc" opacity="0.94"/>
+<text x="343.5" y="573.2" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="628.0" cy="373.4" r="24.0" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="628.0" y1="397.3" x2="628.0" y2="463.2" stroke="#242522" stroke-width="7"/>
+<line x1="628.0" y1="403.2" x2="586.0" y2="443.2" stroke="#242522" stroke-width="6"/>
+<line x1="628.0" y1="403.2" x2="670.0" y2="438.2" stroke="#242522" stroke-width="6"/>
+<line x1="628.0" y1="463.2" x2="598.0" y2="533.2" stroke="#242522" stroke-width="7"/>
+<line x1="628.0" y1="463.2" x2="658.0" y2="533.2" stroke="#242522" stroke-width="7"/>
+<rect x="558.0" y="537.2" width="140" height="25" fill="#d5cdbc" opacity="0.94"/>
+<text x="564.0" y="555.2" fill="#242522" font-family="sans-serif" font-size="14">波吕斐摩斯</text>
+<circle cx="849.5" cy="400.1" r="20.7" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="849.5" y1="420.9" x2="849.5" y2="474.5" stroke="#242522" stroke-width="7"/>
+<line x1="849.5" y1="414.5" x2="813.2" y2="454.5" stroke="#242522" stroke-width="6"/>
+<line x1="849.5" y1="414.5" x2="885.8" y2="449.5" stroke="#242522" stroke-width="6"/>
+<line x1="849.5" y1="474.5" x2="823.6" y2="544.5" stroke="#242522" stroke-width="7"/>
+<line x1="849.5" y1="474.5" x2="875.4" y2="544.5" stroke="#242522" stroke-width="7"/>
+<rect x="779.5" y="548.5" width="140" height="25" fill="#d5cdbc" opacity="0.94"/>
+<text x="785.5" y="566.5" fill="#242522" font-family="sans-serif" font-size="14">船员</text>
+<line x1="1035" y1="630" x2="235" y2="630" stroke="#65546d" stroke-width="6"/>
+<path d="M 235 630 l 18 -12 l 0 24 z" fill="#65546d"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: DOLLY_TRACK START</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">橄榄木桩 / 波吕斐摩斯, 船员, 奥德修斯 / 独眼巨人洞穴 geography; exits/pressure sour…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=橄榄木桩,火堆,玛戎烈酒,奶碗; wardrobe=W-OD-10-VOYAGE-MEMORY; hmu=HMU…</text>
+</svg>

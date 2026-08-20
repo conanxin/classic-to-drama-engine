@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;埃俄罗斯岛岸边 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;1.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;埃俄罗斯&quot;, &quot;欧律洛科斯&quot;], &quot;composition&quot;: &quot;MCU REVERSAL composition for 欧律洛科斯, 奥德修斯, 埃俄罗斯&quot;, &quot;continuity_state&quot;: &quot;props=空风袋,封门链; wardrobe=W-OD-11-VOYAGE-MEMORY; hmu=HMU-OD-VOYAGE-11; unit=S5; tags=cliff-redress,low-cost&quot;, &quot;foreground&quot;: &quot;空风袋&quot;, &quot;frame_id&quot;: &quot;EP11-S04-SH003-F01&quot;, &quot;lighting&quot;: &quot;DAY motivated source; preserve unit color and practical texture&quot;, &quot;midground&quot;: &quot;欧律洛科斯, 奥德修斯, 埃俄罗斯&quot;, &quot;movement&quot;: &quot;PUSH_PULL SINGLE&quot;, &quot;practical_element&quot;: &quot;空风袋&quot;, &quot;scene_id&quot;: &quot;EP11-S04&quot;, &quot;shot_id&quot;: &quot;EP11-S04-SH003&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;0996d2b7d59d2424497b3b0387b7bdd1e808dc60645625a424f87be925eb095f&quot;}</metadata>
+<rect width="1280" height="720" fill="#e0dccf"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP11-S04-SH003-F01</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP11-S04-SH003 · EP11-S04 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="80" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="1030" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<circle cx="436.5" cy="320.5" r="35.3" fill="none" stroke="#65546d" stroke-width="5"/>
+<line x1="436.5" y1="355.8" x2="436.5" y2="464.8" stroke="#65546d" stroke-width="7"/>
+<line x1="436.5" y1="404.8" x2="374.7" y2="444.8" stroke="#65546d" stroke-width="6"/>
+<line x1="436.5" y1="404.8" x2="498.3" y2="439.8" stroke="#65546d" stroke-width="6"/>
+<line x1="436.5" y1="464.8" x2="392.4" y2="534.8" stroke="#65546d" stroke-width="7"/>
+<line x1="436.5" y1="464.8" x2="480.6" y2="534.8" stroke="#65546d" stroke-width="7"/>
+<rect x="366.5" y="538.8" width="140" height="25" fill="#e0dccf" opacity="0.94"/>
+<text x="372.5" y="556.8" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="650.0" cy="350.5" r="31.1" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="650.0" y1="381.6" x2="650.0" y2="474.5" stroke="#242522" stroke-width="7"/>
+<line x1="650.0" y1="414.5" x2="595.6" y2="454.5" stroke="#242522" stroke-width="6"/>
+<line x1="650.0" y1="414.5" x2="704.4" y2="449.5" stroke="#242522" stroke-width="6"/>
+<line x1="650.0" y1="474.5" x2="611.1" y2="544.5" stroke="#242522" stroke-width="7"/>
+<line x1="650.0" y1="474.5" x2="688.9" y2="544.5" stroke="#242522" stroke-width="7"/>
+<rect x="580.0" y="548.5" width="140" height="25" fill="#e0dccf" opacity="0.94"/>
+<text x="586.0" y="566.5" fill="#242522" font-family="sans-serif" font-size="14">埃俄罗斯</text>
+<circle cx="838.5" cy="368.9" r="28.5" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="838.5" y1="397.4" x2="838.5" y2="480.5" stroke="#242522" stroke-width="7"/>
+<line x1="838.5" y1="420.5" x2="788.6" y2="460.5" stroke="#242522" stroke-width="6"/>
+<line x1="838.5" y1="420.5" x2="888.4" y2="455.5" stroke="#242522" stroke-width="6"/>
+<line x1="838.5" y1="480.5" x2="802.9" y2="550.5" stroke="#242522" stroke-width="7"/>
+<line x1="838.5" y1="480.5" x2="874.1" y2="550.5" stroke="#242522" stroke-width="7"/>
+<rect x="768.5" y="554.5" width="140" height="25" fill="#e0dccf" opacity="0.94"/>
+<text x="774.5" y="572.5" fill="#242522" font-family="sans-serif" font-size="14">欧律洛科斯</text>
+<line x1="235" y1="630" x2="1035" y2="630" stroke="#65546d" stroke-width="6"/>
+<path d="M 1035 630 l -18 -12 l 0 24 z" fill="#65546d"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: PUSH_PULL SINGLE</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">空风袋 / 欧律洛科斯, 奥德修斯, 埃俄罗斯 / 埃俄罗斯岛岸边 geography; exits/pressure sou…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=空风袋,封门链; wardrobe=W-OD-11-VOYAGE-MEMORY; hmu=HMU-OD-VOYA…</text>
+</svg>

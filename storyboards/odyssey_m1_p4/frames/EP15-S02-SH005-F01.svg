@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;岛内避风坡／牧场 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;1.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;欧律洛科斯&quot;, &quot;船员&quot;], &quot;composition&quot;: &quot;MCU CONSEQUENCE composition for 欧律洛科斯, 船员, 奥德修斯&quot;, &quot;continuity_state&quot;: &quot;props=祈祷碗,橡叶,青铜刀,牛角金牌; wardrobe=W-OD-15-VOYAGE-MEMORY; hmu=HMU-OD-VOYAGE-15; unit=S5; tags=animal,fire,midpoint,shore&quot;, &quot;foreground&quot;: &quot;祈祷碗&quot;, &quot;frame_id&quot;: &quot;EP15-S02-SH005-F01&quot;, &quot;lighting&quot;: &quot;NIGHT motivated source; preserve unit color and practical texture&quot;, &quot;midground&quot;: &quot;欧律洛科斯, 船员, 奥德修斯&quot;, &quot;movement&quot;: &quot;STATIC SINGLE&quot;, &quot;practical_element&quot;: &quot;祈祷碗&quot;, &quot;scene_id&quot;: &quot;EP15-S02&quot;, &quot;shot_id&quot;: &quot;EP15-S02-SH005&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;e8c2ccc2cdcd03b4abbbaf90486a12627e81816cad2d842d0838b9092be87f61&quot;}</metadata>
+<rect width="1280" height="720" fill="#d9cfc8"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP15-S02-SH005-F01</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP15-S02-SH005 · EP15-S02 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="80" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="1030" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<circle cx="417.5" cy="338.9" r="32.7" fill="none" stroke="#65546d" stroke-width="5"/>
+<line x1="417.5" y1="371.7" x2="417.5" y2="470.8" stroke="#65546d" stroke-width="7"/>
+<line x1="417.5" y1="410.8" x2="360.2" y2="450.8" stroke="#65546d" stroke-width="6"/>
+<line x1="417.5" y1="410.8" x2="474.8" y2="445.8" stroke="#65546d" stroke-width="6"/>
+<line x1="417.5" y1="470.8" x2="376.6" y2="540.8" stroke="#65546d" stroke-width="7"/>
+<line x1="417.5" y1="470.8" x2="458.4" y2="540.8" stroke="#65546d" stroke-width="7"/>
+<rect x="347.5" y="544.8" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="353.5" y="562.8" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="628.0" cy="368.9" r="28.5" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="628.0" y1="397.4" x2="628.0" y2="480.5" stroke="#242522" stroke-width="7"/>
+<line x1="628.0" y1="420.5" x2="578.1" y2="460.5" stroke="#242522" stroke-width="6"/>
+<line x1="628.0" y1="420.5" x2="677.9" y2="455.5" stroke="#242522" stroke-width="6"/>
+<line x1="628.0" y1="480.5" x2="592.4" y2="550.5" stroke="#242522" stroke-width="7"/>
+<line x1="628.0" y1="480.5" x2="663.6" y2="550.5" stroke="#242522" stroke-width="7"/>
+<rect x="558.0" y="554.5" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="564.0" y="572.5" fill="#242522" font-family="sans-serif" font-size="14">欧律洛科斯</text>
+<circle cx="824.5" cy="325.1" r="34.7" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="824.5" y1="359.8" x2="824.5" y2="466.2" stroke="#242522" stroke-width="7"/>
+<line x1="824.5" y1="406.2" x2="763.8" y2="446.2" stroke="#242522" stroke-width="6"/>
+<line x1="824.5" y1="406.2" x2="885.2" y2="441.2" stroke="#242522" stroke-width="6"/>
+<line x1="824.5" y1="466.2" x2="781.2" y2="536.2" stroke="#242522" stroke-width="7"/>
+<line x1="824.5" y1="466.2" x2="867.8" y2="536.2" stroke="#242522" stroke-width="7"/>
+<rect x="754.5" y="540.2" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="760.5" y="558.2" fill="#242522" font-family="sans-serif" font-size="14">船员</text>
+<line x1="235" y1="630" x2="1035" y2="630" stroke="#65546d" stroke-width="6"/>
+<path d="M 1035 630 l -18 -12 l 0 24 z" fill="#65546d"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: STATIC SINGLE</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">祈祷碗 / 欧律洛科斯, 船员, 奥德修斯 / 岛内避风坡／牧场 geography; exits/pressure so…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=祈祷碗,橡叶,青铜刀,牛角金牌; wardrobe=W-OD-15-VOYAGE-MEMORY; hmu=HMU…</text>
+</svg>

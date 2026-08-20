@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;封闭厅堂 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;2.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;欧律马科斯&quot;, &quot;安菲诺摩斯&quot;, &quot;忒勒马科斯&quot;], &quot;composition&quot;: &quot;WS REVERSAL composition for 欧律马科斯, 安菲诺摩斯, 忒勒马科斯&quot;, &quot;continuity_state&quot;: &quot;props=弓,10箭,短剑,长矛; wardrobe=W-OD-27-BATTLE,W-TE-26-BATTLE-HEIR; hmu=HMU-OD-BEGGAR-BATTLE-BLOOD,HMU-TE-AGE-PROGRESSION; unit=S1; tags=blood,fight,hall-standing-set,stunt&quot;, &quot;foreground&quot;: &quot;10箭&quot;, &quot;frame_id&quot;: &quot;EP27-S02-SH006-F02&quot;, &quot;lighting&quot;: &quot;NIGHT motivated Mediterranean window/fire; architecture and evidence readable&quot;, &quot;midground&quot;: &quot;欧律马科斯, 安菲诺摩斯, 忒勒马科斯&quot;, &quot;movement&quot;: &quot;HANDHELD_CONTROLLED END&quot;, &quot;practical_element&quot;: &quot;10箭&quot;, &quot;scene_id&quot;: &quot;EP27-S02&quot;, &quot;shot_id&quot;: &quot;EP27-S02-SH006&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;284054224215712c86467d88ec885a79c368c0bd9f4bacf28d2d6d5f2245d911&quot;}</metadata>
+<rect width="1280" height="720" fill="#d9cfc8"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP27-S02-SH006-F02</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP27-S02-SH006 · EP27-S02 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="368" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="488" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="768" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="888" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="580" y="105" width="120" height="180" fill="none" stroke="#242522" stroke-width="5"/>
+<text x="616" y="132" fill="#242522" font-family="sans-serif" font-size="14">N0</text>
+<rect x="1130" y="315" width="70" height="140" fill="none" stroke="#242522" stroke-width="5"/>
+<text x="1150" y="340" fill="#242522" font-family="sans-serif" font-size="14">E0</text>
+<circle cx="940" cy="500" r="50" fill="none" stroke="#65546d" stroke-width="5"/><text x="930" y="505" fill="#242522" font-family="sans-serif" font-size="14">H0</text>
+<g transform="translate(1050 458)"><rect x="0" y="0" width="188" height="210" fill="#f4f1e8" stroke="#30322f" stroke-width="3"/><text x="78" y="16" font-family="sans-serif" font-size="12" fill="#30322f">N ↑</text><rect x="74" y="0" width="40" height="9" fill="#62645e"/><rect x="184" y="75" width="8" height="26" fill="#62645e"/><rect x="18" y="184" width="25" height="10" fill="#62645e"/><circle cx="58" cy="145" r="7" fill="#777"/><circle cx="130" cy="145" r="7" fill="#777"/><circle cx="58" cy="70" r="7" fill="#777"/><circle cx="130" cy="70" r="7" fill="#777"/><circle cx="150" cy="98" r="16" fill="none" stroke="#8d5a4e" stroke-width="3"/><line x1="94" y1="175" x2="94" y2="25" stroke="#a78547" stroke-width="3" stroke-dasharray="5 4"/><text x="8" y="205" font-family="sans-serif" font-size="11" fill="#30322f">EP27-S02</text></g>
+<circle cx="395.0" cy="415.2" r="16.0" fill="none" stroke="#65546d" stroke-width="5"/>
+<line x1="395.0" y1="431.2" x2="395.0" y2="467.0" stroke="#65546d" stroke-width="7"/>
+<line x1="395.0" y1="407.0" x2="367.0" y2="447.0" stroke="#65546d" stroke-width="6"/>
+<line x1="395.0" y1="407.0" x2="423.0" y2="442.0" stroke="#65546d" stroke-width="6"/>
+<line x1="395.0" y1="467.0" x2="375.0" y2="537.0" stroke="#65546d" stroke-width="7"/>
+<line x1="395.0" y1="467.0" x2="415.0" y2="537.0" stroke="#65546d" stroke-width="7"/>
+<rect x="325.0" y="541.0" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="331.0" y="559.0" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="544.0" cy="425.5" r="15.0" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="544.0" y1="440.5" x2="544.0" y2="472.2" stroke="#242522" stroke-width="7"/>
+<line x1="544.0" y1="412.2" x2="517.8" y2="452.2" stroke="#242522" stroke-width="6"/>
+<line x1="544.0" y1="412.2" x2="570.2" y2="447.2" stroke="#242522" stroke-width="6"/>
+<line x1="544.0" y1="472.2" x2="525.3" y2="542.2" stroke="#242522" stroke-width="7"/>
+<line x1="544.0" y1="472.2" x2="562.7" y2="542.2" stroke="#242522" stroke-width="7"/>
+<rect x="474.0" y="546.2" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="480.0" y="564.2" fill="#242522" font-family="sans-serif" font-size="14">欧律马科斯</text>
+<circle cx="727.0" cy="410.8" r="16.5" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="727.0" y1="427.3" x2="727.0" y2="464.8" stroke="#242522" stroke-width="7"/>
+<line x1="727.0" y1="404.8" x2="698.2" y2="444.8" stroke="#242522" stroke-width="6"/>
+<line x1="727.0" y1="404.8" x2="755.8" y2="439.8" stroke="#242522" stroke-width="6"/>
+<line x1="727.0" y1="464.8" x2="706.4" y2="534.8" stroke="#242522" stroke-width="7"/>
+<line x1="727.0" y1="464.8" x2="747.6" y2="534.8" stroke="#242522" stroke-width="7"/>
+<rect x="657.0" y="538.8" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="663.0" y="556.8" fill="#242522" font-family="sans-serif" font-size="14">安菲诺摩斯</text>
+<circle cx="884.0" cy="410.8" r="16.5" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="884.0" y1="427.3" x2="884.0" y2="464.8" stroke="#242522" stroke-width="7"/>
+<line x1="884.0" y1="404.8" x2="855.2" y2="444.8" stroke="#242522" stroke-width="6"/>
+<line x1="884.0" y1="404.8" x2="912.8" y2="439.8" stroke="#242522" stroke-width="6"/>
+<line x1="884.0" y1="464.8" x2="863.4" y2="534.8" stroke="#242522" stroke-width="7"/>
+<line x1="884.0" y1="464.8" x2="904.6" y2="534.8" stroke="#242522" stroke-width="7"/>
+<rect x="814.0" y="538.8" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="820.0" y="556.8" fill="#242522" font-family="sans-serif" font-size="14">忒勒马科斯</text>
+<line x1="1035" y1="630" x2="235" y2="630" stroke="#65546d" stroke-width="6"/>
+<path d="M 235 630 l 18 -12 l 0 24 z" fill="#65546d"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: HANDHELD_CONTROLLED END</text>
+<path d="M 55 125 l 20 -35 l 20 35 z" fill="none" stroke="#8d3f36" stroke-width="5"/>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">10箭 / 欧律马科斯, 安菲诺摩斯, 忒勒马科斯 / 封闭厅堂 geography; exits/pressure source…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=弓,10箭,短剑,长矛; wardrobe=W-OD-27-BATTLE,W-TE-26-BATTLE-HEIR…</text>
+<text x="910" y="158" fill="#8d3f36" font-family="sans-serif" font-size="14" font-weight="700">BEATS: A27-003, A27-004</text>
+</svg>

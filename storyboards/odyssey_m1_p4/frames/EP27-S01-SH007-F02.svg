@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;封闭厅堂 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;1.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;欧律马科斯&quot;, &quot;忒勒马科斯&quot;, &quot;众求婚者&quot;], &quot;composition&quot;: &quot;MCU CONSEQUENCE composition for 忒勒马科斯, 众求婚者, 奥德修斯&quot;, &quot;continuity_state&quot;: &quot;props=弓,11箭,空武器墙,长桌; wardrobe=W-OD-27-BATTLE,W-TE-26-BATTLE-HEIR; hmu=HMU-OD-BEGGAR-BATTLE-BLOOD,HMU-TE-AGE-PROGRESSION; unit=S1; tags=blood,crowd,fight-map,hall-standing-set&quot;, &quot;foreground&quot;: &quot;11箭&quot;, &quot;frame_id&quot;: &quot;EP27-S01-SH007-F02&quot;, &quot;lighting&quot;: &quot;NIGHT motivated Mediterranean window/fire; architecture and evidence readable&quot;, &quot;midground&quot;: &quot;忒勒马科斯, 众求婚者, 奥德修斯&quot;, &quot;movement&quot;: &quot;STATIC END&quot;, &quot;practical_element&quot;: &quot;11箭&quot;, &quot;scene_id&quot;: &quot;EP27-S01&quot;, &quot;shot_id&quot;: &quot;EP27-S01-SH007&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;13bed08b8a0554df43fbc1895fc559464258d53ef487980c946199ad978f3f48&quot;}</metadata>
+<rect width="1280" height="720" fill="#c9d3d0"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP27-S01-SH007-F02</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP27-S01-SH007 · EP27-S01 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="368" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="488" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="768" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="888" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="580" y="105" width="120" height="180" fill="none" stroke="#242522" stroke-width="5"/>
+<text x="616" y="132" fill="#242522" font-family="sans-serif" font-size="14">N0</text>
+<rect x="1130" y="315" width="70" height="140" fill="none" stroke="#242522" stroke-width="5"/>
+<text x="1150" y="340" fill="#242522" font-family="sans-serif" font-size="14">E0</text>
+<circle cx="940" cy="500" r="50" fill="none" stroke="#8d5a4e" stroke-width="5"/><text x="930" y="505" fill="#242522" font-family="sans-serif" font-size="14">H0</text>
+<g transform="translate(1050 458)"><rect x="0" y="0" width="188" height="210" fill="#f4f1e8" stroke="#30322f" stroke-width="3"/><text x="78" y="16" font-family="sans-serif" font-size="12" fill="#30322f">N ↑</text><rect x="74" y="0" width="40" height="9" fill="#62645e"/><rect x="184" y="75" width="8" height="26" fill="#62645e"/><rect x="18" y="184" width="25" height="10" fill="#62645e"/><circle cx="58" cy="145" r="7" fill="#777"/><circle cx="130" cy="145" r="7" fill="#777"/><circle cx="58" cy="70" r="7" fill="#777"/><circle cx="130" cy="70" r="7" fill="#777"/><circle cx="150" cy="98" r="16" fill="none" stroke="#8d5a4e" stroke-width="3"/><line x1="94" y1="175" x2="94" y2="25" stroke="#a78547" stroke-width="3" stroke-dasharray="5 4"/><text x="8" y="205" font-family="sans-serif" font-size="11" fill="#30322f">EP27-S01</text></g>
+<circle cx="355.0" cy="382.7" r="26.6" fill="none" stroke="#8d5a4e" stroke-width="5"/>
+<line x1="355.0" y1="409.3" x2="355.0" y2="485.0" stroke="#8d5a4e" stroke-width="7"/>
+<line x1="355.0" y1="425.0" x2="308.5" y2="465.0" stroke="#8d5a4e" stroke-width="6"/>
+<line x1="355.0" y1="425.0" x2="401.5" y2="460.0" stroke="#8d5a4e" stroke-width="6"/>
+<line x1="355.0" y1="485.0" x2="321.8" y2="555.0" stroke="#8d5a4e" stroke-width="7"/>
+<line x1="355.0" y1="485.0" x2="388.2" y2="555.0" stroke="#8d5a4e" stroke-width="7"/>
+<rect x="285.0" y="559.0" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="291.0" y="577.0" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="578.0" cy="318.2" r="35.6" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="578.0" y1="353.9" x2="578.0" y2="464.0" stroke="#242522" stroke-width="7"/>
+<line x1="578.0" y1="404.0" x2="515.6" y2="444.0" stroke="#242522" stroke-width="6"/>
+<line x1="578.0" y1="404.0" x2="640.4" y2="439.0" stroke="#242522" stroke-width="6"/>
+<line x1="578.0" y1="464.0" x2="533.5" y2="534.0" stroke="#242522" stroke-width="7"/>
+<line x1="578.0" y1="464.0" x2="622.5" y2="534.0" stroke="#242522" stroke-width="7"/>
+<rect x="508.0" y="538.0" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="514.0" y="556.0" fill="#242522" font-family="sans-serif" font-size="14">欧律马科斯</text>
+<circle cx="748.0" cy="329.7" r="34.0" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="748.0" y1="363.8" x2="748.0" y2="467.8" stroke="#242522" stroke-width="7"/>
+<line x1="748.0" y1="407.8" x2="688.5" y2="447.8" stroke="#242522" stroke-width="6"/>
+<line x1="748.0" y1="407.8" x2="807.5" y2="442.8" stroke="#242522" stroke-width="6"/>
+<line x1="748.0" y1="467.8" x2="705.5" y2="537.8" stroke="#242522" stroke-width="7"/>
+<line x1="748.0" y1="467.8" x2="790.5" y2="537.8" stroke="#242522" stroke-width="7"/>
+<rect x="678.0" y="541.8" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="684.0" y="559.8" fill="#242522" font-family="sans-serif" font-size="14">忒勒马科斯</text>
+<circle cx="915.0" cy="362.0" r="29.5" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="915.0" y1="391.5" x2="915.0" y2="478.2" stroke="#242522" stroke-width="7"/>
+<line x1="915.0" y1="418.2" x2="863.4" y2="458.2" stroke="#242522" stroke-width="6"/>
+<line x1="915.0" y1="418.2" x2="966.6" y2="453.2" stroke="#242522" stroke-width="6"/>
+<line x1="915.0" y1="478.2" x2="878.1" y2="548.2" stroke="#242522" stroke-width="7"/>
+<line x1="915.0" y1="478.2" x2="951.9" y2="548.2" stroke="#242522" stroke-width="7"/>
+<rect x="845.0" y="552.2" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="851.0" y="570.2" fill="#242522" font-family="sans-serif" font-size="14">众求婚者</text>
+<line x1="235" y1="630" x2="1035" y2="630" stroke="#8d5a4e" stroke-width="6"/>
+<path d="M 1035 630 l -18 -12 l 0 24 z" fill="#8d5a4e"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: STATIC END</text>
+<path d="M 55 125 l 20 -35 l 20 35 z" fill="none" stroke="#8d3f36" stroke-width="5"/>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">11箭 / 忒勒马科斯, 众求婚者, 奥德修斯 / 封闭厅堂 geography; exits/pressure source…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=弓,11箭,空武器墙,长桌; wardrobe=W-OD-27-BATTLE,W-TE-26-BATTLE-HE…</text>
+<text x="910" y="158" fill="#8d3f36" font-family="sans-serif" font-size="14" font-weight="700">BEATS: A27-001, A27-002</text>
+</svg>

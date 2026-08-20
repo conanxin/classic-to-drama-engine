@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;冥界边界 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;1.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;欧律洛科斯&quot;, &quot;厄尔佩诺耳&quot;], &quot;composition&quot;: &quot;MCU REVERSAL composition for 厄尔佩诺耳, 奥德修斯, 欧律洛科斯&quot;, &quot;continuity_state&quot;: &quot;props=血沟,黑羊,无墓桨,酒碗; wardrobe=W-OD-13-VOYAGE-MEMORY; hmu=HMU-OD-VOYAGE-13; unit=U09; tags=animal-offscreen,blood,underworld,vfx-medium&quot;, &quot;foreground&quot;: &quot;血沟&quot;, &quot;frame_id&quot;: &quot;EP13-S01-SH006-F01&quot;, &quot;lighting&quot;: &quot;directionless black field; blood as sole warm reflection&quot;, &quot;midground&quot;: &quot;厄尔佩诺耳, 奥德修斯, 欧律洛科斯&quot;, &quot;movement&quot;: &quot;PUSH_PULL START&quot;, &quot;practical_element&quot;: &quot;血沟&quot;, &quot;scene_id&quot;: &quot;EP13-S01&quot;, &quot;shot_id&quot;: &quot;EP13-S01-SH006&quot;, &quot;vfx_layer&quot;: &quot;MEDIUM&quot;}, &quot;source_frame_sha256&quot;: &quot;df78d6000f21d74c9e758cdbbbd151f52a250733e759ed2bbfb121c6b3ab74f9&quot;}</metadata>
+<rect width="1280" height="720" fill="#d9cfc8"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP13-S01-SH006-F01</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP13-S01-SH006 · EP13-S01 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="0" y="340" width="1280" height="280" fill="#272828" opacity="0.78"/>
+<path d="M 180 540 Q 640 420 1100 540" fill="none" stroke="#65546d" stroke-width="12"/>
+<circle cx="411.5" cy="345.9" r="31.8" fill="none" stroke="#65546d" stroke-width="5"/>
+<line x1="411.5" y1="377.6" x2="411.5" y2="473.0" stroke="#65546d" stroke-width="7"/>
+<line x1="411.5" y1="413.0" x2="355.9" y2="453.0" stroke="#65546d" stroke-width="6"/>
+<line x1="411.5" y1="413.0" x2="467.1" y2="448.0" stroke="#65546d" stroke-width="6"/>
+<line x1="411.5" y1="473.0" x2="371.8" y2="543.0" stroke="#65546d" stroke-width="7"/>
+<line x1="411.5" y1="473.0" x2="451.2" y2="543.0" stroke="#65546d" stroke-width="7"/>
+<rect x="341.5" y="547.0" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="347.5" y="565.0" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="636.0" cy="348.2" r="31.4" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="636.0" y1="379.6" x2="636.0" y2="473.8" stroke="#242522" stroke-width="7"/>
+<line x1="636.0" y1="413.8" x2="581.0" y2="453.8" stroke="#242522" stroke-width="6"/>
+<line x1="636.0" y1="413.8" x2="691.0" y2="448.8" stroke="#242522" stroke-width="6"/>
+<line x1="636.0" y1="473.8" x2="596.7" y2="543.8" stroke="#242522" stroke-width="7"/>
+<line x1="636.0" y1="473.8" x2="675.3" y2="543.8" stroke="#242522" stroke-width="7"/>
+<rect x="566.0" y="547.8" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="572.0" y="565.8" fill="#242522" font-family="sans-serif" font-size="14">欧律洛科斯</text>
+<circle cx="826.5" cy="325.1" r="34.7" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="826.5" y1="359.8" x2="826.5" y2="466.2" stroke="#242522" stroke-width="7"/>
+<line x1="826.5" y1="406.2" x2="765.8" y2="446.2" stroke="#242522" stroke-width="6"/>
+<line x1="826.5" y1="406.2" x2="887.2" y2="441.2" stroke="#242522" stroke-width="6"/>
+<line x1="826.5" y1="466.2" x2="783.2" y2="536.2" stroke="#242522" stroke-width="7"/>
+<line x1="826.5" y1="466.2" x2="869.8" y2="536.2" stroke="#242522" stroke-width="7"/>
+<rect x="756.5" y="540.2" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="762.5" y="558.2" fill="#242522" font-family="sans-serif" font-size="14">厄尔佩诺耳</text>
+<line x1="235" y1="630" x2="1035" y2="630" stroke="#65546d" stroke-width="6"/>
+<path d="M 1035 630 l -18 -12 l 0 24 z" fill="#65546d"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: PUSH_PULL START</text>
+<rect x="25" y="100" width="1230" height="495" fill="none" stroke="#65546d" stroke-width="4" stroke-dasharray="14 10"/>
+<text x="1010" y="125" fill="#65546d" font-family="sans-serif" font-size="15" font-weight="700">VFX LAYER / CLEAN PLATE</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">血沟 / 厄尔佩诺耳, 奥德修斯, 欧律洛科斯 / 冥界边界 geography; exits/pressure source…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=血沟,黑羊,无墓桨,酒碗; wardrobe=W-OD-13-VOYAGE-MEMORY; hmu=HMU-OD…</text>
+</svg>

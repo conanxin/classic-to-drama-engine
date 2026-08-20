@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;欧迈俄斯茅屋 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;1.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;忒勒马科斯&quot;, &quot;雅典娜&quot;], &quot;composition&quot;: &quot;MS2 CONSEQUENCE composition for 忒勒马科斯, 雅典娜, 奥德修斯&quot;, &quot;continuity_state&quot;: &quot;props=木炭平面图,豆粒,短刀,厚斗篷; wardrobe=W-OD-19-BEGGAR-REVEAL,W-TE-19-SECRET-HEIR,W-AT-DIVINE; hmu=HMU-OD-OLD-BEGGAR-SCAR-COVER,HMU-TE-AGE-PROGRESSION,HMU-AT-DISGUISE-EYELIGHT-CONTINUITY; unit=S4; tags=ending-hook,farm-standing-set,planning&quot;, &quot;foreground&quot;: &quot;木炭平面图&quot;, &quot;frame_id&quot;: &quot;EP19-S05-SH005-F01&quot;, &quot;lighting&quot;: &quot;NIGHT motivated source; preserve unit color and practical texture&quot;, &quot;midground&quot;: &quot;忒勒马科斯, 雅典娜, 奥德修斯&quot;, &quot;movement&quot;: &quot;STATIC SINGLE&quot;, &quot;practical_element&quot;: &quot;木炭平面图&quot;, &quot;scene_id&quot;: &quot;EP19-S05&quot;, &quot;shot_id&quot;: &quot;EP19-S05-SH005&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;0a85fae1745ebd12e68caf7404e1b44bfc36685725a65b2cc15cd90f00a59858&quot;}</metadata>
+<rect width="1280" height="720" fill="#e0dccf"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP19-S05-SH005-F01</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP19-S05-SH005 · EP19-S05 · SHOULD · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<path d="M 80 455 L 300 360 L 510 455" fill="none" stroke="#242522" stroke-width="7"/>
+<rect x="145" y="455" width="300" height="135" fill="none" stroke="#242522" stroke-width="6"/>
+<line x1="820" y1="295" x2="820" y2="590" stroke="#242522" stroke-width="18"/>
+<circle cx="424.5" cy="400.1" r="20.7" fill="none" stroke="#8d5a4e" stroke-width="5"/>
+<line x1="424.5" y1="420.9" x2="424.5" y2="474.5" stroke="#8d5a4e" stroke-width="7"/>
+<line x1="424.5" y1="414.5" x2="388.2" y2="454.5" stroke="#8d5a4e" stroke-width="6"/>
+<line x1="424.5" y1="414.5" x2="460.8" y2="449.5" stroke="#8d5a4e" stroke-width="6"/>
+<line x1="424.5" y1="474.5" x2="398.6" y2="544.5" stroke="#8d5a4e" stroke-width="7"/>
+<line x1="424.5" y1="474.5" x2="450.4" y2="544.5" stroke="#8d5a4e" stroke-width="7"/>
+<rect x="354.5" y="548.5" width="140" height="25" fill="#e0dccf" opacity="0.94"/>
+<text x="360.5" y="566.5" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="614.0" cy="389.4" r="22.0" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="614.0" y1="411.5" x2="614.0" y2="470.0" stroke="#242522" stroke-width="7"/>
+<line x1="614.0" y1="410.0" x2="575.4" y2="450.0" stroke="#242522" stroke-width="6"/>
+<line x1="614.0" y1="410.0" x2="652.6" y2="445.0" stroke="#242522" stroke-width="6"/>
+<line x1="614.0" y1="470.0" x2="586.5" y2="540.0" stroke="#242522" stroke-width="7"/>
+<line x1="614.0" y1="470.0" x2="641.5" y2="540.0" stroke="#242522" stroke-width="7"/>
+<rect x="544.0" y="544.0" width="140" height="25" fill="#e0dccf" opacity="0.94"/>
+<text x="550.0" y="562.0" fill="#242522" font-family="sans-serif" font-size="14">忒勒马科斯</text>
+<circle cx="829.5" cy="373.4" r="24.0" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="829.5" y1="397.3" x2="829.5" y2="463.2" stroke="#242522" stroke-width="7"/>
+<line x1="829.5" y1="403.2" x2="787.5" y2="443.2" stroke="#242522" stroke-width="6"/>
+<line x1="829.5" y1="403.2" x2="871.5" y2="438.2" stroke="#242522" stroke-width="6"/>
+<line x1="829.5" y1="463.2" x2="799.5" y2="533.2" stroke="#242522" stroke-width="7"/>
+<line x1="829.5" y1="463.2" x2="859.5" y2="533.2" stroke="#242522" stroke-width="7"/>
+<rect x="759.5" y="537.2" width="140" height="25" fill="#e0dccf" opacity="0.94"/>
+<text x="765.5" y="555.2" fill="#242522" font-family="sans-serif" font-size="14">雅典娜</text>
+<line x1="1035" y1="630" x2="235" y2="630" stroke="#8d5a4e" stroke-width="6"/>
+<path d="M 235 630 l 18 -12 l 0 24 z" fill="#8d5a4e"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: STATIC SINGLE</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">木炭平面图 / 忒勒马科斯, 雅典娜, 奥德修斯 / 欧迈俄斯茅屋 geography; exits/pressure sour…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=木炭平面图,豆粒,短刀,厚斗篷; wardrobe=W-OD-19-BEGGAR-REVEAL,W-TE-19-…</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;独眼巨人岛近岸 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;0.8m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;波吕斐摩斯&quot;, &quot;船员&quot;], &quot;composition&quot;: &quot;INSERT EVIDENCE composition for 船 custody/state&quot;, &quot;continuity_state&quot;: &quot;props=船,断岩,绳,公羊角; wardrobe=W-OD-10-VOYAGE-MEMORY; hmu=HMU-OD-VOYAGE-10; unit=S3; tags=boat,creature-medium,ending-hook,stunt-low,water&quot;, &quot;foreground&quot;: &quot;断岩&quot;, &quot;frame_id&quot;: &quot;EP10-S05-SH006-F02&quot;, &quot;lighting&quot;: &quot;DAY horizon/sky condition with practical wet specular control&quot;, &quot;midground&quot;: &quot;船 custody/state&quot;, &quot;movement&quot;: &quot;RIGGED_POV END&quot;, &quot;practical_element&quot;: &quot;断岩&quot;, &quot;scene_id&quot;: &quot;EP10-S05&quot;, &quot;shot_id&quot;: &quot;EP10-S05-SH006&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;88539aa804a36a9f7a42c32fc2da060ade8b98ce384f7e97cc5225410f7165b6&quot;}</metadata>
+<rect width="1280" height="720" fill="#d5cdbc"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP10-S05-SH006-F02</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP10-S05-SH006 · EP10-S05 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<line x1="640" y1="115" x2="640" y2="600" stroke="#242522" stroke-width="9"/>
+<path d="M 110 560 Q 640 655 1170 560" fill="none" stroke="#242522" stroke-width="12"/>
+<path d="M 640 145 L 965 335 L 640 335 Z" fill="none" stroke="#65546d" stroke-width="4"/>
+<circle cx="420.5" cy="409.1" r="19.7" fill="none" stroke="#65546d" stroke-width="5"/>
+<line x1="420.5" y1="428.7" x2="420.5" y2="478.2" stroke="#65546d" stroke-width="7"/>
+<line x1="420.5" y1="418.2" x2="386.1" y2="458.2" stroke="#65546d" stroke-width="6"/>
+<line x1="420.5" y1="418.2" x2="454.9" y2="453.2" stroke="#65546d" stroke-width="6"/>
+<line x1="420.5" y1="478.2" x2="395.9" y2="548.2" stroke="#65546d" stroke-width="7"/>
+<line x1="420.5" y1="478.2" x2="445.1" y2="548.2" stroke="#65546d" stroke-width="7"/>
+<rect x="350.5" y="552.2" width="140" height="25" fill="#d5cdbc" opacity="0.94"/>
+<text x="356.5" y="570.2" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="613.0" cy="380.5" r="23.1" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="613.0" y1="403.6" x2="613.0" y2="466.2" stroke="#242522" stroke-width="7"/>
+<line x1="613.0" y1="406.2" x2="572.6" y2="446.2" stroke="#242522" stroke-width="6"/>
+<line x1="613.0" y1="406.2" x2="653.4" y2="441.2" stroke="#242522" stroke-width="6"/>
+<line x1="613.0" y1="466.2" x2="584.1" y2="536.2" stroke="#242522" stroke-width="7"/>
+<line x1="613.0" y1="466.2" x2="641.9" y2="536.2" stroke="#242522" stroke-width="7"/>
+<rect x="543.0" y="540.2" width="140" height="25" fill="#d5cdbc" opacity="0.94"/>
+<text x="549.0" y="558.2" fill="#242522" font-family="sans-serif" font-size="14">波吕斐摩斯</text>
+<circle cx="851.5" cy="409.1" r="19.7" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="851.5" y1="428.7" x2="851.5" y2="478.2" stroke="#242522" stroke-width="7"/>
+<line x1="851.5" y1="418.2" x2="817.1" y2="458.2" stroke="#242522" stroke-width="6"/>
+<line x1="851.5" y1="418.2" x2="885.9" y2="453.2" stroke="#242522" stroke-width="6"/>
+<line x1="851.5" y1="478.2" x2="826.9" y2="548.2" stroke="#242522" stroke-width="7"/>
+<line x1="851.5" y1="478.2" x2="876.1" y2="548.2" stroke="#242522" stroke-width="7"/>
+<rect x="781.5" y="552.2" width="140" height="25" fill="#d5cdbc" opacity="0.94"/>
+<text x="787.5" y="570.2" fill="#242522" font-family="sans-serif" font-size="14">船员</text>
+<line x1="1035" y1="630" x2="235" y2="630" stroke="#65546d" stroke-width="6"/>
+<path d="M 235 630 l 18 -12 l 0 24 z" fill="#65546d"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: RIGGED_POV END</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">断岩 / 船 custody/state / 独眼巨人岛近岸 geography; exits/pressure sou…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=船,断岩,绳,公羊角; wardrobe=W-OD-10-VOYAGE-MEMORY; hmu=HMU-OD-V…</text>
+</svg>

@@ -1,0 +1,4391 @@
+{
+  "artifact_class": "odyssey_p4_storyboard_image_manifest",
+  "schema_version": "1.0.0",
+  "technical_frame_count": 711,
+  "board_page_count": 173,
+  "episode_contact_sheet_count": 30,
+  "board_pages": [
+    {
+      "scene_id": "EP03-S04",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP03-S04-SH001-F01",
+        "EP03-S04-SH006-F01",
+        "EP03-S04-SH007-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP03-S04-P01.png",
+      "sha256": "26f67c5d1f2c5dd2c6128db7c1c07690bc21ff8051f711c005d24bd1bf48d58b",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP05-S01-SH001-F01",
+        "EP05-S01-SH001-F02",
+        "EP05-S01-SH002-F01",
+        "EP05-S01-SH002-F02",
+        "EP05-S01-SH003-F01",
+        "EP05-S01-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S01-P01.png",
+      "sha256": "c08e737a06c9388ba4046ec0eab1217cdefff3b5e1b06d951849608ffdff818f",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S01",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP05-S01-SH004-F01",
+        "EP05-S01-SH004-F02",
+        "EP05-S01-SH005-F01",
+        "EP05-S01-SH005-F02",
+        "EP05-S01-SH006-F01",
+        "EP05-S01-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S01-P02.png",
+      "sha256": "2ed512be9894dfe0e633189994ab8b3fde95728f00ea58d3d9d1962de6ea4006",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S01",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP05-S01-SH007-F01",
+        "EP05-S01-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S01-P03.png",
+      "sha256": "249e4e7d8a11e513a395580a1cb2cf82173886a91ae38345e4a36bef38073c8c",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP05-S02-SH001-F01",
+        "EP05-S02-SH001-F02",
+        "EP05-S02-SH002-F01",
+        "EP05-S02-SH002-F02",
+        "EP05-S02-SH003-F01",
+        "EP05-S02-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S02-P01.png",
+      "sha256": "231763ffb56648d22512d718cb99c7c05104ed7ced9bbb7c9de1a659b9734fe5",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP05-S02-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S02-P02.png",
+      "sha256": "9f46e9f528b9a64225b09b2e97271154d3c21dc91bef59f1def82748d11983e7",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP05-S03-SH001-F01",
+        "EP05-S03-SH001-F02",
+        "EP05-S03-SH002-F01",
+        "EP05-S03-SH003-F01",
+        "EP05-S03-SH003-F02",
+        "EP05-S03-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S03-P01.png",
+      "sha256": "112e0e175c4a35fe76ac1f23ceaf9c4a62289e6303c1d9d5950fe0d0ef6d3d54",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S03",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP05-S03-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S03-P02.png",
+      "sha256": "5191c53ff2e533c027da030d11caf8154a41b9e35c17195aefc457fff6763189",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP05-S04-SH001-F01",
+        "EP05-S04-SH001-F02",
+        "EP05-S04-SH002-F01",
+        "EP05-S04-SH002-F02",
+        "EP05-S04-SH003-F01",
+        "EP05-S04-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S04-P01.png",
+      "sha256": "32164395bf44b4a57b6b2e930d7b49aee260a639514d8561e126402e919cf3a9",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S04",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP05-S04-SH004-F01",
+        "EP05-S04-SH004-F02",
+        "EP05-S04-SH005-F01",
+        "EP05-S04-SH005-F02",
+        "EP05-S04-SH006-F01",
+        "EP05-S04-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S04-P02.png",
+      "sha256": "5cbf86759485498b0eda8f59519743365917eaa577859742f5a3caf9ad7c451d",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S04",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP05-S04-SH007-F01",
+        "EP05-S04-SH007-F02",
+        "EP05-S04-SH008-F01",
+        "EP05-S04-SH008-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S04-P03.png",
+      "sha256": "9dce6e1fbc75df425ea910e1de122424ac7a8bba5353653ae953eee9b034e15c",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP05-S05-SH001-F01",
+        "EP05-S05-SH001-F02",
+        "EP05-S05-SH002-F01",
+        "EP05-S05-SH002-F02",
+        "EP05-S05-SH003-F01",
+        "EP05-S05-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S05-P01.png",
+      "sha256": "9c4e399fa290d0f3b3c7d8254eadc8d02d9937aaa880084f349fe776f5ed2724",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S05",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP05-S05-SH004-F01",
+        "EP05-S05-SH004-F02",
+        "EP05-S05-SH005-F01",
+        "EP05-S05-SH005-F02",
+        "EP05-S05-SH006-F01",
+        "EP05-S05-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S05-P02.png",
+      "sha256": "91a999c877c47c753006fd184cfa21d30c84050fa321291bdf8b885eda0a0e13",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP05-S05",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP05-S05-SH007-F01",
+        "EP05-S05-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP05-S05-P03.png",
+      "sha256": "4d7f6a01c9fee0e9a6f0f8114afaceb793d2dbfa57b79894af512c2ecaee54c3",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP06-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP06-S01-SH004-F01",
+        "EP06-S01-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP06-S01-P01.png",
+      "sha256": "0e858e9acb13f7383edebe18ed865561312264df98ddf460747aa006baef27ba",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP06-S04",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP06-S04-SH004-F01",
+        "EP06-S04-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP06-S04-P01.png",
+      "sha256": "4d844fe5883d1b0ec61c4e2b22793b6a378ac8cef8605ed03c03b4209519116e",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP07-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP07-S01-SH001-F01",
+        "EP07-S01-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP07-S01-P01.png",
+      "sha256": "6606d5204b4bc5c7437a5fa47a0983de904bf58b2128d750d143a92a01163740",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP08-S02",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP08-S02-SH001-F01",
+        "EP08-S02-SH006-F01",
+        "EP08-S02-SH007-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP08-S02-P01.png",
+      "sha256": "c2824a71b9d6ffef9498a6fa02a4cdcab2d258f3198d49a89f30b9000d771b1c",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP08-S03",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP08-S03-SH001-F01",
+        "EP08-S03-SH006-F01",
+        "EP08-S03-SH007-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP08-S03-P01.png",
+      "sha256": "6b1cd1977bd80bce8d56676ba42c8c461399eb9ac5c7bee65644d4ae477876a2",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP09-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP09-S01-SH001-F01",
+        "EP09-S01-SH006-F01",
+        "EP09-S01-SH007-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP09-S01-P01.png",
+      "sha256": "f87ad3b51a682eb24d4d1a084d3851f03786fdd4298e7e48014f173c3ccb5748",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP09-S05",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP09-S05-SH001-F01",
+        "EP09-S05-SH007-F01",
+        "EP09-S05-SH008-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP09-S05-P01.png",
+      "sha256": "a00b3111b67c1ddbb7ecde1f599083d1186404dad148dc41db28857ac686d703",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP10-S01-SH001-F01",
+        "EP10-S01-SH001-F02",
+        "EP10-S01-SH002-F01",
+        "EP10-S01-SH002-F02",
+        "EP10-S01-SH003-F01",
+        "EP10-S01-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S01-P01.png",
+      "sha256": "c3717b933bd9ce884e9594fef0e86435c714d3b225b91366b984a953207f3a07",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S01",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP10-S01-SH004-F01",
+        "EP10-S01-SH004-F02",
+        "EP10-S01-SH005-F01",
+        "EP10-S01-SH005-F02",
+        "EP10-S01-SH006-F01",
+        "EP10-S01-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S01-P02.png",
+      "sha256": "acf5b7e49fe0d9611479d69d60bcf91b8edffca2c6b90ce1724748f8fd0d9c61",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S01",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP10-S01-SH007-F01",
+        "EP10-S01-SH007-F02",
+        "EP10-S01-SH008-F01",
+        "EP10-S01-SH008-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S01-P03.png",
+      "sha256": "40bc6b054d83fda3bc6fd14de5a0ee9d9413be4a1e026edf3736fd565cb32517",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP10-S02-SH001-F01",
+        "EP10-S02-SH002-F01",
+        "EP10-S02-SH002-F02",
+        "EP10-S02-SH003-F01",
+        "EP10-S02-SH004-F01",
+        "EP10-S02-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S02-P01.png",
+      "sha256": "fc1a8d28f46fd980050a64e518e694ecbe400d460a9d0af594079b0b3a7eb8fb",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP10-S02-SH005-F02",
+        "EP10-S02-SH006-F01",
+        "EP10-S02-SH006-F02",
+        "EP10-S02-SH007-F01",
+        "EP10-S02-SH008-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S02-P02.png",
+      "sha256": "517a83e83a1f4b516c4da50a2f1028bb88b0bc03e81fd69b83d75255d6dcb608",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP10-S03-SH001-F01",
+        "EP10-S03-SH001-F02",
+        "EP10-S03-SH002-F01",
+        "EP10-S03-SH002-F02",
+        "EP10-S03-SH003-F01",
+        "EP10-S03-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S03-P01.png",
+      "sha256": "5510e1f15426ddc9fd84ba90000cc4f6c9ec00cb82fd86e11c46122d540c188b",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S03",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP10-S03-SH004-F01",
+        "EP10-S03-SH004-F02",
+        "EP10-S03-SH005-F01",
+        "EP10-S03-SH005-F02",
+        "EP10-S03-SH006-F01",
+        "EP10-S03-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S03-P02.png",
+      "sha256": "6c27ded9916dff6f42f3c2143196d5e5f7eb651941a7df08ef916d8760e144d6",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S03",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP10-S03-SH007-F01",
+        "EP10-S03-SH007-F02",
+        "EP10-S03-SH008-F01",
+        "EP10-S03-SH008-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S03-P03.png",
+      "sha256": "3e74aaf4b964a3949a194809f10195f1ea159fe3c1d509b478f85fbb1c3d0b31",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP10-S04-SH001-F01",
+        "EP10-S04-SH002-F01",
+        "EP10-S04-SH002-F02",
+        "EP10-S04-SH003-F01",
+        "EP10-S04-SH004-F01",
+        "EP10-S04-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S04-P01.png",
+      "sha256": "76970e9fec451606d74d776d3b5f52c4314c06c2092ef8d544b49e8848249adc",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S04",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP10-S04-SH005-F02",
+        "EP10-S04-SH006-F01",
+        "EP10-S04-SH006-F02",
+        "EP10-S04-SH007-F01",
+        "EP10-S04-SH008-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S04-P02.png",
+      "sha256": "af09b082f1d6d6dfc870cb13cb136415ca59bdefc719ec380a4cbe939593fa88",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP10-S05-SH001-F01",
+        "EP10-S05-SH001-F02",
+        "EP10-S05-SH002-F01",
+        "EP10-S05-SH002-F02",
+        "EP10-S05-SH003-F01",
+        "EP10-S05-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S05-P01.png",
+      "sha256": "20f31f97c9114646ae7cc9aabe87104f98cff99617b079e3f3059330d4f3dfd3",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S05",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP10-S05-SH004-F01",
+        "EP10-S05-SH004-F02",
+        "EP10-S05-SH005-F01",
+        "EP10-S05-SH005-F02",
+        "EP10-S05-SH006-F01",
+        "EP10-S05-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S05-P02.png",
+      "sha256": "6c6583bdf12b6a032f9586d6ad2602e894efab6c687b39456568e3e2a021e7d3",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP10-S05",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP10-S05-SH007-F01",
+        "EP10-S05-SH007-F02",
+        "EP10-S05-SH008-F01",
+        "EP10-S05-SH008-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP10-S05-P03.png",
+      "sha256": "bb15c88314989eff715a9513fd550fc396eb5a1ed8be077534b84ac566df93c1",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP11-S01-SH001-F01",
+        "EP11-S01-SH001-F02",
+        "EP11-S01-SH002-F01",
+        "EP11-S01-SH002-F02",
+        "EP11-S01-SH003-F01",
+        "EP11-S01-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S01-P01.png",
+      "sha256": "63245dcfb61732bea848fae7a13f00816a75d1b3d7b4d4ea95e87986e0361ca9",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S01",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP11-S01-SH004-F01",
+        "EP11-S01-SH004-F02",
+        "EP11-S01-SH005-F01",
+        "EP11-S01-SH005-F02",
+        "EP11-S01-SH006-F01",
+        "EP11-S01-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S01-P02.png",
+      "sha256": "6b5b382571d230832bd4810eb2e16600a311adf7de2629ab9592caee3e945af1",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S01",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP11-S01-SH007-F01",
+        "EP11-S01-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S01-P03.png",
+      "sha256": "89747d6aaee111d24b282bb87ce9ff44ce069ece5f3e0ba9c632ce01d42ec9ae",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP11-S02-SH001-F01",
+        "EP11-S02-SH001-F02",
+        "EP11-S02-SH002-F01",
+        "EP11-S02-SH002-F02",
+        "EP11-S02-SH003-F01",
+        "EP11-S02-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S02-P01.png",
+      "sha256": "2bfde610a26cb0d516a3040e5437319cc4b3635fe7a3c53db37eb935803ea3ca",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP11-S02-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S02-P02.png",
+      "sha256": "75072295e24a95bdfdfac45162e003bec7529e0271f856e69c78698e5bb7aafc",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP11-S03-SH001-F01",
+        "EP11-S03-SH001-F02",
+        "EP11-S03-SH002-F01",
+        "EP11-S03-SH002-F02",
+        "EP11-S03-SH003-F01",
+        "EP11-S03-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S03-P01.png",
+      "sha256": "f0c61b8bc95b03f7192ab5c9b78781613c9580b483e47ffd0d82fd7f8f398277",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S03",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP11-S03-SH004-F01",
+        "EP11-S03-SH004-F02",
+        "EP11-S03-SH005-F01",
+        "EP11-S03-SH005-F02",
+        "EP11-S03-SH006-F01",
+        "EP11-S03-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S03-P02.png",
+      "sha256": "7dd615831c9772fcc58279f5a5fad23fe04ad8e7652cec18af5bb8485372f7ae",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S03",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP11-S03-SH007-F01",
+        "EP11-S03-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S03-P03.png",
+      "sha256": "1f4719f17d3c684c6d9948565ab8a580a17a597c26f377205f106472ec993fcb",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP11-S04-SH001-F01",
+        "EP11-S04-SH001-F02",
+        "EP11-S04-SH002-F01",
+        "EP11-S04-SH003-F01",
+        "EP11-S04-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S04-P01.png",
+      "sha256": "7e96b3aabf0284401d3da609d7fd3195329b16d356e496b000ecfb2fa395ba74",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP11-S05-SH001-F01",
+        "EP11-S05-SH001-F02",
+        "EP11-S05-SH002-F01",
+        "EP11-S05-SH002-F02",
+        "EP11-S05-SH003-F01",
+        "EP11-S05-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S05-P01.png",
+      "sha256": "d7b6380df0297a240f32bb3cc2a7547c1c345475c467def8081b5f5f2ab9ae9f",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S05",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP11-S05-SH004-F01",
+        "EP11-S05-SH004-F02",
+        "EP11-S05-SH005-F01",
+        "EP11-S05-SH005-F02",
+        "EP11-S05-SH006-F01",
+        "EP11-S05-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S05-P02.png",
+      "sha256": "9b51b6603a4ecadef4b03438aa7d910be36cdb51840887172e322b69030de528",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP11-S05",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP11-S05-SH007-F01",
+        "EP11-S05-SH007-F02",
+        "EP11-S05-SH008-F01",
+        "EP11-S05-SH008-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP11-S05-P03.png",
+      "sha256": "26218105b58eab0fbfd76e29c51b650be693b1f6822e7af54dd9d6962633f76a",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP12-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP12-S01-SH001-F01",
+        "EP12-S01-SH007-F01",
+        "EP12-S01-SH008-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP12-S01-P01.png",
+      "sha256": "0fdf2852fd7d66169b7909a773dcfa868f948007e45288629d6b1c86d627cfc1",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP12-S02",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP12-S02-SH001-F01",
+        "EP12-S02-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP12-S02-P01.png",
+      "sha256": "8a97ff8a762e574e2be7259b4995ada952e8c37f15258dd13552bf0f37df9a9b",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP12-S03",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP12-S03-SH001-F01",
+        "EP12-S03-SH007-F01",
+        "EP12-S03-SH008-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP12-S03-P01.png",
+      "sha256": "e9f35b87019890952ac8f787a6c7b732ae605f3e0e7a4a00e83348a4dbac71cc",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP13-S01-SH001-F01",
+        "EP13-S01-SH001-F02",
+        "EP13-S01-SH002-F01",
+        "EP13-S01-SH002-F02",
+        "EP13-S01-SH003-F01",
+        "EP13-S01-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S01-P01.png",
+      "sha256": "1e2a59590692a413332bacaa791d68df804ba7720a5c11870dc21eba8af69c7c",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S01",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP13-S01-SH004-F01",
+        "EP13-S01-SH004-F02",
+        "EP13-S01-SH005-F01",
+        "EP13-S01-SH005-F02",
+        "EP13-S01-SH006-F01",
+        "EP13-S01-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S01-P02.png",
+      "sha256": "9dea4bd33d4925120fc100192c572155705f9e522a7ec85876b749e6a0808071",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S01",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP13-S01-SH007-F01",
+        "EP13-S01-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S01-P03.png",
+      "sha256": "3858175d712e6372c123799738cf5e39cfca15e335b7099ad6e4c23e05f438cf",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP13-S02-SH001-F01",
+        "EP13-S02-SH001-F02",
+        "EP13-S02-SH002-F01",
+        "EP13-S02-SH002-F02",
+        "EP13-S02-SH003-F01",
+        "EP13-S02-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S02-P01.png",
+      "sha256": "3be975d92d2dd5aa0ac530050460c79c497e100d4dc12cdbe930d384375331f0",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP13-S02-SH004-F01",
+        "EP13-S02-SH004-F02",
+        "EP13-S02-SH005-F01",
+        "EP13-S02-SH005-F02",
+        "EP13-S02-SH006-F01",
+        "EP13-S02-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S02-P02.png",
+      "sha256": "0b5f8155395711b33b9730a270023096a6e4b10de40231139032a869805c75a2",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S02",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP13-S02-SH007-F01",
+        "EP13-S02-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S02-P03.png",
+      "sha256": "30cdc6c534d98d2ed331bb32b8e171b246b47850abad6453864d38b98c3d8425",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP13-S03-SH001-F01",
+        "EP13-S03-SH001-F02",
+        "EP13-S03-SH002-F01",
+        "EP13-S03-SH002-F02",
+        "EP13-S03-SH003-F01",
+        "EP13-S03-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S03-P01.png",
+      "sha256": "4210dbc1f29f11554baf4425711e5f43a3097b5a8cecf4d01419078a01b6ee60",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S03",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP13-S03-SH004-F01",
+        "EP13-S03-SH004-F02",
+        "EP13-S03-SH005-F01",
+        "EP13-S03-SH005-F02",
+        "EP13-S03-SH006-F01",
+        "EP13-S03-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S03-P02.png",
+      "sha256": "13f3564a254a504096c3def29fe8ea52f3b6190859afd6c41b62e52e08311aec",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S03",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP13-S03-SH007-F01",
+        "EP13-S03-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S03-P03.png",
+      "sha256": "c3b06be77abe6f4de8f325d0b196b6b121454260b0d418a511653728f348f842",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP13-S04-SH001-F01",
+        "EP13-S04-SH001-F02",
+        "EP13-S04-SH002-F01",
+        "EP13-S04-SH002-F02",
+        "EP13-S04-SH003-F01",
+        "EP13-S04-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S04-P01.png",
+      "sha256": "527ae699b83515544a365fdc4a72b89094658f921c925a7ae2d4b852061513bf",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S04",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP13-S04-SH004-F01",
+        "EP13-S04-SH004-F02",
+        "EP13-S04-SH005-F01",
+        "EP13-S04-SH005-F02",
+        "EP13-S04-SH006-F01",
+        "EP13-S04-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S04-P02.png",
+      "sha256": "4ed61b094c264873db27e307e1633e9fd989f0c0a09d0404cb7da8078518073d",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S04",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP13-S04-SH007-F01",
+        "EP13-S04-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S04-P03.png",
+      "sha256": "ebb25fc831f8d79acca8dac46943d4580c8a7193440ccccbb4fbd0096d7916e8",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP13-S05-SH001-F01",
+        "EP13-S05-SH001-F02",
+        "EP13-S05-SH002-F01",
+        "EP13-S05-SH002-F02",
+        "EP13-S05-SH003-F01",
+        "EP13-S05-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S05-P01.png",
+      "sha256": "344ad1205c1e97c0d7a1e44e1b166d653ca8d19c712afb9f3bdd446516be77e2",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S05",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP13-S05-SH004-F01",
+        "EP13-S05-SH004-F02",
+        "EP13-S05-SH005-F01",
+        "EP13-S05-SH005-F02",
+        "EP13-S05-SH006-F01",
+        "EP13-S05-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S05-P02.png",
+      "sha256": "2f226119df56011338f3b1b8d620853e9dd91e0dd7fac4efa5b03c9e98dc2b90",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP13-S05",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP13-S05-SH007-F01",
+        "EP13-S05-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP13-S05-P03.png",
+      "sha256": "9a8aef55e9d74d531ea1142deb3fb49d11d2c4585ee0a2c797b86b798f1c41cf",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP14-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP14-S01-SH001-F01",
+        "EP14-S01-SH001-F02",
+        "EP14-S01-SH002-F01",
+        "EP14-S01-SH003-F01",
+        "EP14-S01-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP14-S01-P01.png",
+      "sha256": "aab52902e24decfd272a90d8a3705ed4d804ca6ab0b59cc484222e01f6b78883",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP14-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP14-S02-SH001-F01",
+        "EP14-S02-SH001-F02",
+        "EP14-S02-SH002-F01",
+        "EP14-S02-SH002-F02",
+        "EP14-S02-SH003-F01",
+        "EP14-S02-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP14-S02-P01.png",
+      "sha256": "2ea8f5e31c8f2225ae3d05985bca8c7211270329bf83e11a5f5e2e50428613f5",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP14-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP14-S02-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP14-S02-P02.png",
+      "sha256": "36247b1722f3881fabd9449a753db4b9441b84d89a9512050d286814a3004b74",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP14-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP14-S03-SH001-F01",
+        "EP14-S03-SH001-F02",
+        "EP14-S03-SH002-F01",
+        "EP14-S03-SH003-F01",
+        "EP14-S03-SH003-F02",
+        "EP14-S03-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP14-S03-P01.png",
+      "sha256": "3d8ad8e5d1de5255363a5914927dbeb272ba6b29f23dd86bb276370115776145",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP14-S03",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP14-S03-SH005-F01",
+        "EP14-S03-SH006-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP14-S03-P02.png",
+      "sha256": "0f9f518326140e9092bb18ca9bd4fcc39d6e837233aba85cdeb44a3c1018dab1",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP14-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP14-S04-SH001-F01",
+        "EP14-S04-SH001-F02",
+        "EP14-S04-SH002-F01",
+        "EP14-S04-SH003-F01",
+        "EP14-S04-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP14-S04-P01.png",
+      "sha256": "0d778baa0c89ce28df9e6868c0faf1df6379831b84c516bdb369a173206ed1d2",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP14-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP14-S05-SH001-F01",
+        "EP14-S05-SH001-F02",
+        "EP14-S05-SH002-F01",
+        "EP14-S05-SH002-F02",
+        "EP14-S05-SH003-F01",
+        "EP14-S05-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP14-S05-P01.png",
+      "sha256": "a4161c0d3f42673398c8793c6c704b2a149210447f0057c3618d2a14d7e115ba",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP14-S05",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP14-S05-SH004-F01",
+        "EP14-S05-SH004-F02",
+        "EP14-S05-SH005-F01",
+        "EP14-S05-SH005-F02",
+        "EP14-S05-SH006-F01",
+        "EP14-S05-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP14-S05-P02.png",
+      "sha256": "4373db302213a7b3c36777e6b96ff249b831b7743dd474984536256a75a5002a",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP14-S05",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP14-S05-SH007-F01",
+        "EP14-S05-SH007-F02",
+        "EP14-S05-SH008-F01",
+        "EP14-S05-SH008-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP14-S05-P03.png",
+      "sha256": "d5c3a5a28f584425e108d4765b1010f301fc812e1335cde71c2de6015972a6ab",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP15-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP15-S01-SH001-F01",
+        "EP15-S01-SH001-F02",
+        "EP15-S01-SH002-F01",
+        "EP15-S01-SH002-F02",
+        "EP15-S01-SH003-F01",
+        "EP15-S01-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP15-S01-P01.png",
+      "sha256": "b07582825648d8fd3e008f2b5553e4d987ee765396650c96e6f5a9b9b5711851",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP15-S01",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP15-S01-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP15-S01-P02.png",
+      "sha256": "8d225cb92b8dfb6fea21a9a0e22f17c70d5853ed090c268b2628402f2823a64e",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP15-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP15-S02-SH001-F01",
+        "EP15-S02-SH001-F02",
+        "EP15-S02-SH002-F01",
+        "EP15-S02-SH003-F01",
+        "EP15-S02-SH003-F02",
+        "EP15-S02-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP15-S02-P01.png",
+      "sha256": "98a2c46205a9565151b38c4a0726e72fdc1c200ab821bde25d45b007aa69a09d",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP15-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP15-S02-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP15-S02-P02.png",
+      "sha256": "0f44eb95bcde11d622eb358a6d6d87cf8a55525fcc4db5fc13ff5773a0972e1b",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP15-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP15-S03-SH001-F01",
+        "EP15-S03-SH001-F02",
+        "EP15-S03-SH002-F01",
+        "EP15-S03-SH003-F01",
+        "EP15-S03-SH004-F01",
+        "EP15-S03-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP15-S03-P01.png",
+      "sha256": "ceed6e2a19ed7a87db0c309c4d39faa0d97b0b1413f66ccae94443104fc08490",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP15-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP15-S04-SH001-F01",
+        "EP15-S04-SH001-F02",
+        "EP15-S04-SH002-F01",
+        "EP15-S04-SH002-F02",
+        "EP15-S04-SH003-F01",
+        "EP15-S04-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP15-S04-P01.png",
+      "sha256": "8c4954fb9e358e9ea9f8ef49cd1bce996f1ef0e808fb0cd3ab934b6c5079d0e4",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP15-S04",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP15-S04-SH004-F01",
+        "EP15-S04-SH004-F02",
+        "EP15-S04-SH005-F01",
+        "EP15-S04-SH005-F02",
+        "EP15-S04-SH006-F01",
+        "EP15-S04-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP15-S04-P02.png",
+      "sha256": "907203ace3f394d50b7208e07ba8aa837bb5a0e5beb8033dcf6a263bd366bfe5",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP15-S04",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP15-S04-SH007-F01",
+        "EP15-S04-SH007-F02",
+        "EP15-S04-SH008-F01",
+        "EP15-S04-SH008-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP15-S04-P03.png",
+      "sha256": "18b5909c306faeb745438fc921bab9b244460294d2c1aac301b4b0a33051b822",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP15-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP15-S05-SH001-F01",
+        "EP15-S05-SH001-F02",
+        "EP15-S05-SH002-F01",
+        "EP15-S05-SH003-F01",
+        "EP15-S05-SH003-F02",
+        "EP15-S05-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP15-S05-P01.png",
+      "sha256": "3615dd206bfe7f9132ed959689c5c023c7e694097d3ba82cfda856da7b250002",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP15-S05",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP15-S05-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP15-S05-P02.png",
+      "sha256": "33406bc0e73046c766e912caad4fb3d30609156087b539fd218440a4832c97ab",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP16-S01-SH001-F01",
+        "EP16-S01-SH001-F02",
+        "EP16-S01-SH002-F01",
+        "EP16-S01-SH003-F01",
+        "EP16-S01-SH003-F02",
+        "EP16-S01-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S01-P01.png",
+      "sha256": "febe23713c2ef253c6c8847d099cc4d83eeddad405d5bb1fab2a225bddfef314",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S01",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP16-S01-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S01-P02.png",
+      "sha256": "f50bdae38f6625d7c44344f32c809850fd7735cf7efc898c041dce349be879d1",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP16-S02-SH001-F01",
+        "EP16-S02-SH001-F02",
+        "EP16-S02-SH002-F01",
+        "EP16-S02-SH002-F02",
+        "EP16-S02-SH003-F01",
+        "EP16-S02-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S02-P01.png",
+      "sha256": "b92122292743de5785c8d3485174cd383f76d9307c877297343963020dcb0b45",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP16-S02-SH004-F01",
+        "EP16-S02-SH004-F02",
+        "EP16-S02-SH005-F01",
+        "EP16-S02-SH005-F02",
+        "EP16-S02-SH006-F01",
+        "EP16-S02-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S02-P02.png",
+      "sha256": "6f5eed4cbe4b8e19f4664cf77f18d64431d70ee29cec812a008c0465c5da4fd2",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S02",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP16-S02-SH007-F01",
+        "EP16-S02-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S02-P03.png",
+      "sha256": "a2e6b4359a19865f40d935df14ffe462d7c1dafb7af9546a455e13baa66a8eb3",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP16-S03-SH001-F01",
+        "EP16-S03-SH001-F02",
+        "EP16-S03-SH002-F01",
+        "EP16-S03-SH002-F02",
+        "EP16-S03-SH003-F01",
+        "EP16-S03-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S03-P01.png",
+      "sha256": "678979d29d409623024b494fee7c675a45e68a494484e5d119aece932eb47d44",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S03",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP16-S03-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S03-P02.png",
+      "sha256": "c70d20acfa5e0e1a39a080055056a6e14270a0fb4ff82da3a41c7f94a521f39d",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP16-S04-SH001-F01",
+        "EP16-S04-SH001-F02",
+        "EP16-S04-SH002-F01",
+        "EP16-S04-SH003-F01",
+        "EP16-S04-SH003-F02",
+        "EP16-S04-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S04-P01.png",
+      "sha256": "111eb5b132d2bf18f9811f8b9392a2f7fff483454b63fa25e623c25e568e1365",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S04",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP16-S04-SH005-F01",
+        "EP16-S04-SH006-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S04-P02.png",
+      "sha256": "6554f7c724671bb76d129b35d844845d124d93e414e6edea71f4b39e9dcf4220",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP16-S05-SH001-F01",
+        "EP16-S05-SH001-F02",
+        "EP16-S05-SH002-F01",
+        "EP16-S05-SH002-F02",
+        "EP16-S05-SH003-F01",
+        "EP16-S05-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S05-P01.png",
+      "sha256": "6d0b859752face1b13fc7045e0280f4ff418c86e1a5f32cfdea3e57a3830e2e2",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S05",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP16-S05-SH004-F01",
+        "EP16-S05-SH004-F02",
+        "EP16-S05-SH005-F01",
+        "EP16-S05-SH005-F02",
+        "EP16-S05-SH006-F01",
+        "EP16-S05-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S05-P02.png",
+      "sha256": "87f39facf1a3e1ebc606ee7128b7a09ec2d584059b2cd21d285bfebbd2574b81",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP16-S05",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP16-S05-SH007-F01",
+        "EP16-S05-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP16-S05-P03.png",
+      "sha256": "6e1836274d1d55f7c7b447390593b6286ab66fa0ecbab29a619aef4fff7cf5bc",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP17-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP17-S01-SH001-F01",
+        "EP17-S01-SH006-F01",
+        "EP17-S01-SH007-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP17-S01-P01.png",
+      "sha256": "e727f5f52d3feba397a4a7c4f2df7e7a224175d9b87c90d6275edb4efdd36b02",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP18-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP18-S01-SH004-F01",
+        "EP18-S01-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP18-S01-P01.png",
+      "sha256": "98a79f72d9785c92c9cbfbc91bb540093dcdab24e920f61de5b916848e335ee3",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP19-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP19-S01-SH001-F01",
+        "EP19-S01-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP19-S01-P01.png",
+      "sha256": "d1b5b416fa41811f01948e3c855895203c78609ecc729fb590f2312fa7e57482",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP19-S02",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP19-S02-SH001-F01",
+        "EP19-S02-SH006-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP19-S02-P01.png",
+      "sha256": "65010bf597eec3b6fef72592df9b1c5204ec41b864989d624d3f7f97657871b9",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP19-S03",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP19-S03-SH001-F01",
+        "EP19-S03-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP19-S03-P01.png",
+      "sha256": "4a55b05f7a0563c2db165a855a6a23643e85ff41a128db6d3e4e5e05bea940f5",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP19-S04",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP19-S04-SH001-F01",
+        "EP19-S04-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP19-S04-P01.png",
+      "sha256": "8ebe63b0636d9e6c3003f1e648ca90564f736c9e8b0202903c72bce06a2a747b",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP19-S05",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP19-S05-SH001-F01",
+        "EP19-S05-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP19-S05-P01.png",
+      "sha256": "8d68ce1550fc392d291dd923f63ca4e286f25f1aceb7d5aa7a989da9e0737cf3",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP20-S02",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP20-S02-SH001-F01",
+        "EP20-S02-SH006-F01",
+        "EP20-S02-SH007-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP20-S02-P01.png",
+      "sha256": "062649cbe4d3dcbee8da57dc63fb8d5d7a0e1d09946bfedccdeb24147c9f12cc",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP20-S04",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP20-S04-SH001-F01",
+        "EP20-S04-SH006-F01",
+        "EP20-S04-SH007-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP20-S04-P01.png",
+      "sha256": "d3698f670017f45b28a9917ecc013302e257f39793ddb1130241fc8c9bf493e5",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP21-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP21-S01-SH001-F01",
+        "EP21-S01-SH006-F01",
+        "EP21-S01-SH007-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP21-S01-P01.png",
+      "sha256": "58958f4fc1d3b4059d09c57e1d718a70ad75fdf502bcc1a926cc8f7ad5fb4b9d",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP21-S02",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP21-S02-SH001-F01",
+        "EP21-S02-SH006-F01",
+        "EP21-S02-SH007-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP21-S02-P01.png",
+      "sha256": "77d5baea34c2fdfad278b3b58236b929fd91f44332f6fa98b6b94ba419f93f7c",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP21-S05",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP21-S05-SH001-F01",
+        "EP21-S05-SH006-F01",
+        "EP21-S05-SH007-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP21-S05-P01.png",
+      "sha256": "654d6769dcd6fa90ca1be9f9eb727bdb34420b1ac6b447be6c78c82ad3d20d5a",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP23-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP23-S01-SH001-F01",
+        "EP23-S01-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP23-S01-P01.png",
+      "sha256": "12039df517c9c646815dad069a8f7f2d691d8348d1fd6c5193d2300e6babea7e",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP23-S02",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP23-S02-SH001-F01",
+        "EP23-S02-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP23-S02-P01.png",
+      "sha256": "db2d726d58cf1dc3ebd133a287587371db287d1d6ed23ed8d12463efe465a7dd",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP23-S03",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP23-S03-SH001-F01",
+        "EP23-S03-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP23-S03-P01.png",
+      "sha256": "ef1c2920d0fcda0e13907c0af5c5b534b241715e3690747c115dddd060eabeb0",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP23-S04",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP23-S04-SH001-F01",
+        "EP23-S04-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP23-S04-P01.png",
+      "sha256": "846ed915ed1e7e1463fb1040090812626b979e4cde3dc18ce3a7184883f9fe28",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP23-S05",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP23-S05-SH001-F01",
+        "EP23-S05-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP23-S05-P01.png",
+      "sha256": "d1aa04e582a2270033f6b0ab3ad68312164ecbaf90af649d6701fd36259bf700",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP24-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP24-S01-SH004-F01",
+        "EP24-S01-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP24-S01-P01.png",
+      "sha256": "6501623416e283e13275e6796486dc2d3f5412dd0f7e57a521f5aebab4167013",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP24-S03",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP24-S03-SH001-F01",
+        "EP24-S03-SH003-F01",
+        "EP24-S03-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP24-S03-P01.png",
+      "sha256": "b5208b07a4050a314a795c2a85e08476fbe6c4aaed38a8098bf96b496af55979",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP25-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP25-S01-SH001-F01",
+        "EP25-S01-SH001-F02",
+        "EP25-S01-SH002-F01",
+        "EP25-S01-SH003-F01",
+        "EP25-S01-SH003-F02",
+        "EP25-S01-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP25-S01-P01.png",
+      "sha256": "91f64e0f2d1274d503b409be278ef34dcca2da4253cf6c0c4ff80a24f2dfd6a0",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP25-S01",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP25-S01-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP25-S01-P02.png",
+      "sha256": "5cc6eb48a564cedb6612db28e33320215290178c31f968ec4e929a702a5f350e",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP25-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP25-S02-SH001-F01",
+        "EP25-S02-SH001-F02",
+        "EP25-S02-SH002-F01",
+        "EP25-S02-SH003-F01",
+        "EP25-S02-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP25-S02-P01.png",
+      "sha256": "5aa85385477d9b6dfe68e9d48298d22e29cea4c17dac91476c9576778a410125",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP25-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP25-S03-SH001-F01",
+        "EP25-S03-SH001-F02",
+        "EP25-S03-SH002-F01",
+        "EP25-S03-SH002-F02",
+        "EP25-S03-SH003-F01",
+        "EP25-S03-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP25-S03-P01.png",
+      "sha256": "f83c4a073836e786087ff627b4d1804cffaa97243d88f1fb688294d85b0c100f",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP25-S03",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP25-S03-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP25-S03-P02.png",
+      "sha256": "ae1ef89cca83e28e787d2e11974d7cfa69502bfeb03cf612dba29b11176e2128",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP25-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP25-S04-SH001-F01",
+        "EP25-S04-SH001-F02",
+        "EP25-S04-SH002-F01",
+        "EP25-S04-SH003-F01",
+        "EP25-S04-SH003-F02",
+        "EP25-S04-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP25-S04-P01.png",
+      "sha256": "f0a2f4a13d3eefc2653b95cbae8f722a221eb9acfeed2b04fae5e0cf492e5c96",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP25-S04",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP25-S04-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP25-S04-P02.png",
+      "sha256": "e95b895bc24c6ac759a972505100c67c13257fcc2234baa4531aee8027a486c2",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP25-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP25-S05-SH001-F01",
+        "EP25-S05-SH001-F02",
+        "EP25-S05-SH002-F01",
+        "EP25-S05-SH003-F01",
+        "EP25-S05-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP25-S05-P01.png",
+      "sha256": "39ded3aba13dbf274de037737458a78a927f8b68b8f2ccbc10f39ccfee43cd15",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP26-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP26-S01-SH001-F01",
+        "EP26-S01-SH001-F02",
+        "EP26-S01-SH002-F01",
+        "EP26-S01-SH003-F01",
+        "EP26-S01-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP26-S01-P01.png",
+      "sha256": "411aa5daf0179448670b59f4e94eb27534f2355d06be34b3834b8b9124abb070",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP26-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP26-S02-SH001-F01",
+        "EP26-S02-SH001-F02",
+        "EP26-S02-SH002-F01",
+        "EP26-S02-SH002-F02",
+        "EP26-S02-SH003-F01",
+        "EP26-S02-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP26-S02-P01.png",
+      "sha256": "90c255a04f2dc037cbf817da92e92a44a5a62812aad731c1559aa14bb2b7bae5",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP26-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP26-S02-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP26-S02-P02.png",
+      "sha256": "072f3d4b05f2969b5fed516c3a2a6330d3945ff5a83d0b5a169926d10753ce4a",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP26-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP26-S03-SH001-F01",
+        "EP26-S03-SH001-F02",
+        "EP26-S03-SH002-F01",
+        "EP26-S03-SH002-F02",
+        "EP26-S03-SH003-F01",
+        "EP26-S03-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP26-S03-P01.png",
+      "sha256": "3c54cb202bbc698d05c9d995e1fbb30408ec3ba4177839952ae1c33aa03d6fe7",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP26-S03",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP26-S03-SH004-F01",
+        "EP26-S03-SH004-F02",
+        "EP26-S03-SH005-F01",
+        "EP26-S03-SH005-F02",
+        "EP26-S03-SH006-F01",
+        "EP26-S03-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP26-S03-P02.png",
+      "sha256": "f8a94b8419c1e7242f8f604f161d62a888009a4c14eeeef448a8e378f3e3f6b3",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP26-S03",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP26-S03-SH007-F01",
+        "EP26-S03-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP26-S03-P03.png",
+      "sha256": "da5e98235f1e8826d57d18a7dc6a7be85848d7c988851060896afd877e65aab0",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP26-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP26-S04-SH001-F01",
+        "EP26-S04-SH001-F02",
+        "EP26-S04-SH002-F01",
+        "EP26-S04-SH003-F01",
+        "EP26-S04-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP26-S04-P01.png",
+      "sha256": "351b936bb296b9cddb5e21dd48a281c8e03d74f350ad47d1e8de40376e2288e4",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP26-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP26-S05-SH001-F01",
+        "EP26-S05-SH001-F02",
+        "EP26-S05-SH002-F01",
+        "EP26-S05-SH002-F02",
+        "EP26-S05-SH003-F01",
+        "EP26-S05-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP26-S05-P01.png",
+      "sha256": "bd257d3d3c2bf2bcb3fcd423c086ae41f0af9e60dfbbf5593e4e4541fa8717d4",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP26-S05",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP26-S05-SH004-F01",
+        "EP26-S05-SH004-F02",
+        "EP26-S05-SH005-F01",
+        "EP26-S05-SH005-F02",
+        "EP26-S05-SH006-F01",
+        "EP26-S05-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP26-S05-P02.png",
+      "sha256": "2aa5af55f8430a62014b5359f79e4cdfe82a95d40c57ae601ea7a505a3d01edc",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP26-S05",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP26-S05-SH007-F01",
+        "EP26-S05-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP26-S05-P03.png",
+      "sha256": "36dbcef0c24fb86da8b8e69064f6fdd1b2422b4e1a7456b6109c4ef15f32c8cb",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP27-S01-SH001-F01",
+        "EP27-S01-SH001-F02",
+        "EP27-S01-SH002-F01",
+        "EP27-S01-SH002-F02",
+        "EP27-S01-SH003-F01",
+        "EP27-S01-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S01-P01.png",
+      "sha256": "d7f84c60d6ee22edfe3219bb642d9618f1af4d75e0b563cc6a5352147befe825",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S01",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP27-S01-SH004-F01",
+        "EP27-S01-SH004-F02",
+        "EP27-S01-SH005-F01",
+        "EP27-S01-SH005-F02",
+        "EP27-S01-SH006-F01",
+        "EP27-S01-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S01-P02.png",
+      "sha256": "89ef68d5097ab5cd9a3b12f5b9996ebee205e39b42d7a8beaf1c3fecc83a8c1b",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S01",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP27-S01-SH007-F01",
+        "EP27-S01-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S01-P03.png",
+      "sha256": "c402c992a8b0579e29dbc5d6dda615cbb9f9813884b7e183348890b7542f661b",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP27-S02-SH001-F01",
+        "EP27-S02-SH001-F02",
+        "EP27-S02-SH002-F01",
+        "EP27-S02-SH002-F02",
+        "EP27-S02-SH003-F01",
+        "EP27-S02-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S02-P01.png",
+      "sha256": "09f0e25d8b9df090add7c03187de01d761871538950d8b71042f8cdcc4951077",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP27-S02-SH004-F01",
+        "EP27-S02-SH004-F02",
+        "EP27-S02-SH005-F01",
+        "EP27-S02-SH005-F02",
+        "EP27-S02-SH006-F01",
+        "EP27-S02-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S02-P02.png",
+      "sha256": "cfe580c3fda717ba0192717a5d00180bad2ab3c536f21ac0977ecb773d7df155",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S02",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP27-S02-SH007-F01",
+        "EP27-S02-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S02-P03.png",
+      "sha256": "fd9080ca2e1c074f5b2fe1c875821702a7ee09c99c008ea760d14896be61ef1a",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP27-S03-SH001-F01",
+        "EP27-S03-SH001-F02",
+        "EP27-S03-SH002-F01",
+        "EP27-S03-SH003-F01",
+        "EP27-S03-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S03-P01.png",
+      "sha256": "9f76b5d0113ce20243ee96a6d94e4b897c4e351f1c764e5038215d14c1f1dfc7",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP27-S04-SH001-F01",
+        "EP27-S04-SH001-F02",
+        "EP27-S04-SH002-F01",
+        "EP27-S04-SH002-F02",
+        "EP27-S04-SH003-F01",
+        "EP27-S04-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S04-P01.png",
+      "sha256": "ce883e34555f4fbbcc68e07669652fb92afcf59a50acf321edda53df47052219",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S04",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP27-S04-SH004-F01",
+        "EP27-S04-SH004-F02",
+        "EP27-S04-SH005-F01",
+        "EP27-S04-SH005-F02",
+        "EP27-S04-SH006-F01",
+        "EP27-S04-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S04-P02.png",
+      "sha256": "3142fb94f3af3e1b6e5f68a410f7564dd3e8296cca11abea87d3c03b48a685e5",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S04",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP27-S04-SH007-F01",
+        "EP27-S04-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S04-P03.png",
+      "sha256": "a2173d65f0bf6d48268498c2a217036a4b95dfb541e37ddd85ebcd5286f85c2b",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP27-S05-SH001-F01",
+        "EP27-S05-SH001-F02",
+        "EP27-S05-SH002-F01",
+        "EP27-S05-SH002-F02",
+        "EP27-S05-SH003-F01",
+        "EP27-S05-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S05-P01.png",
+      "sha256": "36daedad1311f4259ec397c31cfc58a2e4d29821422ccb2006bfbc09301ed70e",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S05",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP27-S05-SH004-F01",
+        "EP27-S05-SH004-F02",
+        "EP27-S05-SH005-F01",
+        "EP27-S05-SH005-F02",
+        "EP27-S05-SH006-F01",
+        "EP27-S05-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S05-P02.png",
+      "sha256": "80a90f050cdb80e5c58cc89ed6ad573a916e0773d014eadb3ce23eb93ba4d4d1",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP27-S05",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP27-S05-SH007-F01",
+        "EP27-S05-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP27-S05-P03.png",
+      "sha256": "6336cd7c4704632265ad1050cbf1922d863da40eedfb52982771f640a54597c9",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP28-S01-SH001-F01",
+        "EP28-S01-SH001-F02",
+        "EP28-S01-SH002-F01",
+        "EP28-S01-SH002-F02",
+        "EP28-S01-SH003-F01",
+        "EP28-S01-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S01-P01.png",
+      "sha256": "ccb464a498d9b753ef3819de241080d8d56129072965895d02165edc93ee9805",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S01",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP28-S01-SH004-F01",
+        "EP28-S01-SH004-F02",
+        "EP28-S01-SH005-F01",
+        "EP28-S01-SH005-F02",
+        "EP28-S01-SH006-F01",
+        "EP28-S01-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S01-P02.png",
+      "sha256": "559a4adfe61ce13ef7d082aba61c10d403fbece46ca08a05facb2cad5a0c0569",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S01",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP28-S01-SH007-F01",
+        "EP28-S01-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S01-P03.png",
+      "sha256": "a9a15f9a878b9391f49d023b05f3390d2f81f2ad718a3312e2bb07deba632972",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP28-S02-SH001-F01",
+        "EP28-S02-SH001-F02",
+        "EP28-S02-SH002-F01",
+        "EP28-S02-SH002-F02",
+        "EP28-S02-SH003-F01",
+        "EP28-S02-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S02-P01.png",
+      "sha256": "4e2dd9c56a0dccd749cb2b92163115b27601d47cddfd71162568ca4a5905ba33",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP28-S02-SH004-F01",
+        "EP28-S02-SH004-F02",
+        "EP28-S02-SH005-F01",
+        "EP28-S02-SH005-F02",
+        "EP28-S02-SH006-F01",
+        "EP28-S02-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S02-P02.png",
+      "sha256": "e891368c45d57f771d06c79c24dfa672d625c816194ab3ee7b8d1c39364d5965",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S02",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP28-S02-SH007-F01",
+        "EP28-S02-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S02-P03.png",
+      "sha256": "9d385864af48467eff4435fa648dd978d52c31fb0084f05a7f5b941b7671e979",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP28-S03-SH001-F01",
+        "EP28-S03-SH001-F02",
+        "EP28-S03-SH002-F01",
+        "EP28-S03-SH002-F02",
+        "EP28-S03-SH003-F01",
+        "EP28-S03-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S03-P01.png",
+      "sha256": "221c3f4099612eb91541e8ac6b007ca54fcce26f35ce7e2f3b55d18da4c10104",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S03",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP28-S03-SH004-F01",
+        "EP28-S03-SH004-F02",
+        "EP28-S03-SH005-F01",
+        "EP28-S03-SH005-F02",
+        "EP28-S03-SH006-F01",
+        "EP28-S03-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S03-P02.png",
+      "sha256": "c7aff47cec9cc34a8f0065e116c74f921e91ad3a0508ee38344da623640a0f1b",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S03",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP28-S03-SH007-F01",
+        "EP28-S03-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S03-P03.png",
+      "sha256": "038a2ee0c038e2b78dee7db2ade51343491c66236ead0aca34dc56ec59f33451",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP28-S04-SH001-F01",
+        "EP28-S04-SH001-F02",
+        "EP28-S04-SH002-F01",
+        "EP28-S04-SH003-F01",
+        "EP28-S04-SH003-F02",
+        "EP28-S04-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S04-P01.png",
+      "sha256": "abc67af9482d040d349690c4ff1bd1c7aa7b45eb69d3141eeda14192f4814e94",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S04",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP28-S04-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S04-P02.png",
+      "sha256": "08edf55ed19eac75d5d312abf8dbb2286b0df666c46c2dcbc561338f176a340f",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP28-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP28-S05-SH001-F01",
+        "EP28-S05-SH001-F02",
+        "EP28-S05-SH002-F01",
+        "EP28-S05-SH003-F01",
+        "EP28-S05-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP28-S05-P01.png",
+      "sha256": "355219ad865b07255bf2a724b146d3a736e2906717e32c45d6571785b774d922",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP29-S01",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP29-S01-SH001-F01",
+        "EP29-S01-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP29-S01-P01.png",
+      "sha256": "669ae203ddff569eda8bf7f17c9ced5213cea4b6b1f9db87bea4055caf6d6144",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP29-S02",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP29-S02-SH001-F01",
+        "EP29-S02-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP29-S02-P01.png",
+      "sha256": "cc29505be1b2cd75bf28a2fce2c65ad18724017fe493623588f0180b297d58be",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP29-S03",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP29-S03-SH001-F01",
+        "EP29-S03-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP29-S03-P01.png",
+      "sha256": "b8f7878760a3a25d5bd5bdd123971883c367372ed6ab4a91c44d66e2ff0e75f8",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP29-S04",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP29-S04-SH001-F01",
+        "EP29-S04-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP29-S04-P01.png",
+      "sha256": "45a6b7e00fe04d3ea0838b173ac73fbc71c070bfe2144f359666803148e275c2",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP29-S05",
+      "priority": "SHOULD",
+      "page": 1,
+      "frame_ids": [
+        "EP29-S05-SH001-F01",
+        "EP29-S05-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP29-S05-P01.png",
+      "sha256": "28a8a6abca8cbde826fd115d5b7b7e948745e7058ff189d470bbf162ef748253",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S01",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP30-S01-SH001-F01",
+        "EP30-S01-SH001-F02",
+        "EP30-S01-SH002-F01",
+        "EP30-S01-SH002-F02",
+        "EP30-S01-SH003-F01",
+        "EP30-S01-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S01-P01.png",
+      "sha256": "8d1f4cd96bef2ac2f3feeb49ba8abdf9ea2c7997f3410d4596bd3f77a9118fa2",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S01",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP30-S01-SH004-F01",
+        "EP30-S01-SH004-F02",
+        "EP30-S01-SH005-F01",
+        "EP30-S01-SH005-F02",
+        "EP30-S01-SH006-F01",
+        "EP30-S01-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S01-P02.png",
+      "sha256": "de93154952ad614fb8479219cb5586642371227986b67c331f8a2c91b5c7a01f",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S01",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP30-S01-SH007-F01",
+        "EP30-S01-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S01-P03.png",
+      "sha256": "75d84a1f810b43332a37b7a33123a955f7380c697743816ad3a1095d13df3805",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S02",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP30-S02-SH001-F01",
+        "EP30-S02-SH001-F02",
+        "EP30-S02-SH002-F01",
+        "EP30-S02-SH003-F01",
+        "EP30-S02-SH003-F02",
+        "EP30-S02-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S02-P01.png",
+      "sha256": "6fe2056f4ad6e177db74bd758c71726d261e3f6511fe4b641077c7bec7a38067",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S02",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP30-S02-SH005-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S02-P02.png",
+      "sha256": "51d002f8527fff230e5ead37a3e0d6f6edfc32aae30f31049bdbe0a284beefb9",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S03",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP30-S03-SH001-F01",
+        "EP30-S03-SH001-F02",
+        "EP30-S03-SH002-F01",
+        "EP30-S03-SH003-F01",
+        "EP30-S03-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S03-P01.png",
+      "sha256": "07dc3b146a3e536ff9e4af85d141f48b49b442b33ed6ec4a29a647a04265580d",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S04",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP30-S04-SH001-F01",
+        "EP30-S04-SH001-F02",
+        "EP30-S04-SH002-F01",
+        "EP30-S04-SH002-F02",
+        "EP30-S04-SH003-F01",
+        "EP30-S04-SH003-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S04-P01.png",
+      "sha256": "935ef47c934eccfcd30954316aee55b03bc2a442dbe4acc5826af2e36596800c",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S04",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP30-S04-SH004-F01",
+        "EP30-S04-SH004-F02",
+        "EP30-S04-SH005-F01",
+        "EP30-S04-SH005-F02",
+        "EP30-S04-SH006-F01",
+        "EP30-S04-SH006-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S04-P02.png",
+      "sha256": "07d0fc6fe9b22c42697775b8eff84e20fd97681c04217a8eeb2ca54f17dd0de1",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S04",
+      "priority": "MUST",
+      "page": 3,
+      "frame_ids": [
+        "EP30-S04-SH007-F01",
+        "EP30-S04-SH007-F02"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S04-P03.png",
+      "sha256": "dd8753d753cd1a055348b63667ea3c3b3365d23f414109caead3f36c84663d9e",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S05",
+      "priority": "MUST",
+      "page": 1,
+      "frame_ids": [
+        "EP30-S05-SH001-F01",
+        "EP30-S05-SH001-F02",
+        "EP30-S05-SH002-F01",
+        "EP30-S05-SH003-F01",
+        "EP30-S05-SH003-F02",
+        "EP30-S05-SH004-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S05-P01.png",
+      "sha256": "0933ec2916de5b5441cf8f98b8f03cc0449679f11633dc0942dbc95634998792",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    },
+    {
+      "scene_id": "EP30-S05",
+      "priority": "MUST",
+      "page": 2,
+      "frame_ids": [
+        "EP30-S05-SH005-F01",
+        "EP30-S05-SH006-F01"
+      ],
+      "path": "storyboards/odyssey_m1_p4/boards/EP30-S05-P02.png",
+      "sha256": "80d41aa4e7ca6e42702c893424f5d9327fe406adbcfbc18aabf118207b77efe8",
+      "width": 1920,
+      "height": 1080,
+      "classification": "TECHNICAL_BOARD_PNG"
+    }
+  ],
+  "episode_contact_sheets": [
+    {
+      "episode": "EP01",
+      "frame_count": 0,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP01_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "188100ae6fd786a0c999a07391a62465123336c43e6d70283b0530c1d86a7b93",
+      "width": 1600,
+      "height": 314
+    },
+    {
+      "episode": "EP02",
+      "frame_count": 0,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP02_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "56c59b5aee0713105d8de086dc73b4e6f708566dbf11437d80a79713ca9421ac",
+      "width": 1600,
+      "height": 314
+    },
+    {
+      "episode": "EP03",
+      "frame_count": 3,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP03_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "18cbc1730532e534ae2772947a51b0f0918672e70089d8aaded4f56d6293206d",
+      "width": 1600,
+      "height": 314
+    },
+    {
+      "episode": "EP04",
+      "frame_count": 0,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP04_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "94b7f8cd6e60d4fe9df98e67e094168db157f92cacc9c91fc666210bdc0f26ec",
+      "width": 1600,
+      "height": 314
+    },
+    {
+      "episode": "EP05",
+      "frame_count": 58,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP05_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "90aaa0573a64f383d35e9a6611e8efbac296f17b73dee81f424ecd0c87c9c32d",
+      "width": 1600,
+      "height": 3702
+    },
+    {
+      "episode": "EP06",
+      "frame_count": 4,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP06_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "b69f65036def2eea1dc343ef8745fcdd4c157da27de890802101852443797e46",
+      "width": 1600,
+      "height": 314
+    },
+    {
+      "episode": "EP07",
+      "frame_count": 2,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP07_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "181525cdfa197253027632cbc68cf4f7ee0e7b29a246c58f2115789ac4a85bbc",
+      "width": 1600,
+      "height": 314
+    },
+    {
+      "episode": "EP08",
+      "frame_count": 6,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP08_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "65a628ae048814efdf41903e73779865b7c3a033930b0ba40cf94974dab75827",
+      "width": 1600,
+      "height": 556
+    },
+    {
+      "episode": "EP09",
+      "frame_count": 6,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP09_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "9a3c8072fba1f78c87aac8a2303082d7c1ab24365e81264ccdb240a508b56ce9",
+      "width": 1600,
+      "height": 556
+    },
+    {
+      "episode": "EP10",
+      "frame_count": 70,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP10_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "54e090b3267933f1d752dce8f439fc5cc615e90793f0830a8271f9053455d50a",
+      "width": 1600,
+      "height": 4428
+    },
+    {
+      "episode": "EP11",
+      "frame_count": 56,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP11_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "3ecd9114c0f04ed8f6e39521782ce5ad702bdf36ecc9097d2f4c7a1ce3ab2fcf",
+      "width": 1600,
+      "height": 3460
+    },
+    {
+      "episode": "EP12",
+      "frame_count": 8,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP12_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "f295eac8b786042f706cd3297f7d3f8011a78b74494555fcf40d88d50286336f",
+      "width": 1600,
+      "height": 556
+    },
+    {
+      "episode": "EP13",
+      "frame_count": 70,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP13_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "052fc59a9eeb15a87d200a3bfa6c4fe5639e5cbe2b988c0df366b7a306f76a84",
+      "width": 1600,
+      "height": 4428
+    },
+    {
+      "episode": "EP14",
+      "frame_count": 41,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP14_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "bf1745ff1c5933aea5c2da5abe096a252a41d1ed17b9eeb956a34038ee6f1da8",
+      "width": 1600,
+      "height": 2734
+    },
+    {
+      "episode": "EP15",
+      "frame_count": 43,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP15_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "2dc076e709bb9d9704afef248d4e7e02e448115d6474ca3e79e6a7cc8245a614",
+      "width": 1600,
+      "height": 2734
+    },
+    {
+      "episode": "EP16",
+      "frame_count": 50,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP16_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "ad09ddcb9408c8763b84b75191b588c3b584b693cfa2f0c26884bbf1b110f85a",
+      "width": 1600,
+      "height": 3218
+    },
+    {
+      "episode": "EP17",
+      "frame_count": 3,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP17_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "1eb881083d3ba01d0a2b17b6458e80ad841dea182f7290d26ec9c276362d3e44",
+      "width": 1600,
+      "height": 314
+    },
+    {
+      "episode": "EP18",
+      "frame_count": 2,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP18_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "bc18ff9ec75c7d30a9417f13b237d5a9e68d98174ab60206b2d1fbe913e0052c",
+      "width": 1600,
+      "height": 314
+    },
+    {
+      "episode": "EP19",
+      "frame_count": 10,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP19_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "158d001cf7374e67ad16579ccf3e24f752dae84aa1f33ecaba0e9d0f0aaeee55",
+      "width": 1600,
+      "height": 798
+    },
+    {
+      "episode": "EP20",
+      "frame_count": 6,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP20_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "6c53a648b297878d1e29d9cc9d02ab9c365bd012ef8595f3cd3346b87378932d",
+      "width": 1600,
+      "height": 556
+    },
+    {
+      "episode": "EP21",
+      "frame_count": 9,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP21_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "2e11e089293735fb81d41a84cb9aa2f6979f00ad76b57820ce4cef3af0d3e47e",
+      "width": 1600,
+      "height": 798
+    },
+    {
+      "episode": "EP22",
+      "frame_count": 0,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP22_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "962f49f49ab9db7ffa186f29dfd275b2d8442a5f27e1542437d1bd5838b1a267",
+      "width": 1600,
+      "height": 314
+    },
+    {
+      "episode": "EP23",
+      "frame_count": 10,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP23_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "20d9dd0a28b0907207630140f6dce099a2d4a6182f8b03b2b4259e2d3d9189de",
+      "width": 1600,
+      "height": 798
+    },
+    {
+      "episode": "EP24",
+      "frame_count": 5,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP24_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "ee0f8482bc5319eb573bbeb10b83ad2e178c2aa6ac069aa85f7becd749a04854",
+      "width": 1600,
+      "height": 556
+    },
+    {
+      "episode": "EP25",
+      "frame_count": 31,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP25_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "046479cbc501664d8a223d6d406687199d8dd35d7552e46d78d8fa833f3e60d6",
+      "width": 1600,
+      "height": 2008
+    },
+    {
+      "episode": "EP26",
+      "frame_count": 45,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP26_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "38f9a1e0d19afb0bef3a7a62b2f651ce41c12e2ff0489097e254e94a3a5b9338",
+      "width": 1600,
+      "height": 2976
+    },
+    {
+      "episode": "EP27",
+      "frame_count": 61,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP27_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "b2f22650a705bf9a6d22bab5ca0a0a7480aad80d0702a2f490d0d805c0621b3f",
+      "width": 1600,
+      "height": 3944
+    },
+    {
+      "episode": "EP28",
+      "frame_count": 54,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP28_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "b0652e85245bd95766ea81ade1900bccd1f4f3865feefdacdaa12e8e426e4f41",
+      "width": 1600,
+      "height": 3460
+    },
+    {
+      "episode": "EP29",
+      "frame_count": 10,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP29_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "7d92e702c4385491c56a1bbfdbdbbb8b3f433db53fec7e0494f4107955bc0b45",
+      "width": 1600,
+      "height": 798
+    },
+    {
+      "episode": "EP30",
+      "frame_count": 48,
+      "path": "storyboards/odyssey_m1_p4/contact_sheets/EP30_TECHNICAL_CONTACT_SHEET.jpg",
+      "sha256": "ea97f4f8112d8b486a38725603939ea1da3631d7aacb63f52db0834b1d2aaee9",
+      "width": 1600,
+      "height": 2976
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "scene_id": "EP01-S01",
+      "episode": "EP01",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP01-S02",
+      "episode": "EP01",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP01-S03",
+      "episode": "EP01",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP01-S04",
+      "episode": "EP01",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP01-S05",
+      "episode": "EP01",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP02-S01",
+      "episode": "EP02",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP02-S02",
+      "episode": "EP02",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP02-S03",
+      "episode": "EP02",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP02-S04",
+      "episode": "EP02",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP02-S05",
+      "episode": "EP02",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP03-S01",
+      "episode": "EP03",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP03-S02",
+      "episode": "EP03",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP03-S03",
+      "episode": "EP03",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP03-S04",
+      "episode": "EP03",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP03-S05",
+      "episode": "EP03",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP04-S01",
+      "episode": "EP04",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP04-S02",
+      "episode": "EP04",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP04-S03",
+      "episode": "EP04",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP04-S04",
+      "episode": "EP04",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP04-S05",
+      "episode": "EP04",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP05-S01",
+      "episode": "EP05",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP05-S02",
+      "episode": "EP05",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP05-S03",
+      "episode": "EP05",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP05-S04",
+      "episode": "EP05",
+      "p3_priority": "MUST",
+      "planned_frames": 16,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP05-S05",
+      "episode": "EP05",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP06-S01",
+      "episode": "EP06",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP06-S02",
+      "episode": "EP06",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP06-S03",
+      "episode": "EP06",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP06-S04",
+      "episode": "EP06",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP06-S05",
+      "episode": "EP06",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP07-S01",
+      "episode": "EP07",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP07-S02",
+      "episode": "EP07",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP07-S03",
+      "episode": "EP07",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP07-S04",
+      "episode": "EP07",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP07-S05",
+      "episode": "EP07",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP08-S01",
+      "episode": "EP08",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP08-S02",
+      "episode": "EP08",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP08-S03",
+      "episode": "EP08",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP08-S04",
+      "episode": "EP08",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP08-S05",
+      "episode": "EP08",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP09-S01",
+      "episode": "EP09",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP09-S02",
+      "episode": "EP09",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP09-S03",
+      "episode": "EP09",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP09-S04",
+      "episode": "EP09",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP09-S05",
+      "episode": "EP09",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP10-S01",
+      "episode": "EP10",
+      "p3_priority": "MUST",
+      "planned_frames": 16,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP10-S02",
+      "episode": "EP10",
+      "p3_priority": "MUST",
+      "planned_frames": 11,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP10-S03",
+      "episode": "EP10",
+      "p3_priority": "MUST",
+      "planned_frames": 16,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP10-S04",
+      "episode": "EP10",
+      "p3_priority": "MUST",
+      "planned_frames": 11,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP10-S05",
+      "episode": "EP10",
+      "p3_priority": "MUST",
+      "planned_frames": 16,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP11-S01",
+      "episode": "EP11",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP11-S02",
+      "episode": "EP11",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP11-S03",
+      "episode": "EP11",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP11-S04",
+      "episode": "EP11",
+      "p3_priority": "MUST",
+      "planned_frames": 5,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP11-S05",
+      "episode": "EP11",
+      "p3_priority": "MUST",
+      "planned_frames": 16,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP12-S01",
+      "episode": "EP12",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP12-S02",
+      "episode": "EP12",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP12-S03",
+      "episode": "EP12",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP12-S04",
+      "episode": "EP12",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP12-S05",
+      "episode": "EP12",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP13-S01",
+      "episode": "EP13",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP13-S02",
+      "episode": "EP13",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP13-S03",
+      "episode": "EP13",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP13-S04",
+      "episode": "EP13",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP13-S05",
+      "episode": "EP13",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP14-S01",
+      "episode": "EP14",
+      "p3_priority": "MUST",
+      "planned_frames": 5,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP14-S02",
+      "episode": "EP14",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP14-S03",
+      "episode": "EP14",
+      "p3_priority": "MUST",
+      "planned_frames": 8,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP14-S04",
+      "episode": "EP14",
+      "p3_priority": "MUST",
+      "planned_frames": 5,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP14-S05",
+      "episode": "EP14",
+      "p3_priority": "MUST",
+      "planned_frames": 16,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP15-S01",
+      "episode": "EP15",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP15-S02",
+      "episode": "EP15",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP15-S03",
+      "episode": "EP15",
+      "p3_priority": "MUST",
+      "planned_frames": 6,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP15-S04",
+      "episode": "EP15",
+      "p3_priority": "MUST",
+      "planned_frames": 16,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP15-S05",
+      "episode": "EP15",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP16-S01",
+      "episode": "EP16",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP16-S02",
+      "episode": "EP16",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP16-S03",
+      "episode": "EP16",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP16-S04",
+      "episode": "EP16",
+      "p3_priority": "MUST",
+      "planned_frames": 8,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP16-S05",
+      "episode": "EP16",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP17-S01",
+      "episode": "EP17",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP17-S02",
+      "episode": "EP17",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP17-S03",
+      "episode": "EP17",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP17-S04",
+      "episode": "EP17",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP17-S05",
+      "episode": "EP17",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP18-S01",
+      "episode": "EP18",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP18-S02",
+      "episode": "EP18",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP18-S03",
+      "episode": "EP18",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP18-S04",
+      "episode": "EP18",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP18-S05",
+      "episode": "EP18",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP19-S01",
+      "episode": "EP19",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP19-S02",
+      "episode": "EP19",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP19-S03",
+      "episode": "EP19",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP19-S04",
+      "episode": "EP19",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP19-S05",
+      "episode": "EP19",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP20-S01",
+      "episode": "EP20",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP20-S02",
+      "episode": "EP20",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP20-S03",
+      "episode": "EP20",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP20-S04",
+      "episode": "EP20",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP20-S05",
+      "episode": "EP20",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP21-S01",
+      "episode": "EP21",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP21-S02",
+      "episode": "EP21",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP21-S03",
+      "episode": "EP21",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP21-S04",
+      "episode": "EP21",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP21-S05",
+      "episode": "EP21",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP22-S01",
+      "episode": "EP22",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP22-S02",
+      "episode": "EP22",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP22-S03",
+      "episode": "EP22",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP22-S04",
+      "episode": "EP22",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP22-S05",
+      "episode": "EP22",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP23-S01",
+      "episode": "EP23",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP23-S02",
+      "episode": "EP23",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP23-S03",
+      "episode": "EP23",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP23-S04",
+      "episode": "EP23",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP23-S05",
+      "episode": "EP23",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP24-S01",
+      "episode": "EP24",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP24-S02",
+      "episode": "EP24",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP24-S03",
+      "episode": "EP24",
+      "p3_priority": "SHOULD",
+      "planned_frames": 3,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP24-S04",
+      "episode": "EP24",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP24-S05",
+      "episode": "EP24",
+      "p3_priority": "NO",
+      "planned_frames": 0,
+      "p4_disposition": "NO_STORYBOARD_REQUIRED",
+      "reason": "director diagram and shot list sufficient; no storyboard inflation",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP25-S01",
+      "episode": "EP25",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP25-S02",
+      "episode": "EP25",
+      "p3_priority": "MUST",
+      "planned_frames": 5,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP25-S03",
+      "episode": "EP25",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP25-S04",
+      "episode": "EP25",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP25-S05",
+      "episode": "EP25",
+      "p3_priority": "MUST",
+      "planned_frames": 5,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP26-S01",
+      "episode": "EP26",
+      "p3_priority": "MUST",
+      "planned_frames": 5,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP26-S02",
+      "episode": "EP26",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP26-S03",
+      "episode": "EP26",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP26-S04",
+      "episode": "EP26",
+      "p3_priority": "MUST",
+      "planned_frames": 5,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP26-S05",
+      "episode": "EP26",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP27-S01",
+      "episode": "EP27",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP27-S02",
+      "episode": "EP27",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP27-S03",
+      "episode": "EP27",
+      "p3_priority": "MUST",
+      "planned_frames": 5,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP27-S04",
+      "episode": "EP27",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP27-S05",
+      "episode": "EP27",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP28-S01",
+      "episode": "EP28",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP28-S02",
+      "episode": "EP28",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP28-S03",
+      "episode": "EP28",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP28-S04",
+      "episode": "EP28",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP28-S05",
+      "episode": "EP28",
+      "p3_priority": "MUST",
+      "planned_frames": 5,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP29-S01",
+      "episode": "EP29",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP29-S02",
+      "episode": "EP29",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP29-S03",
+      "episode": "EP29",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP29-S04",
+      "episode": "EP29",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP29-S05",
+      "episode": "EP29",
+      "p3_priority": "SHOULD",
+      "planned_frames": 2,
+      "p4_disposition": "REPRESENTATIVE_TECHNICAL_BOARD",
+      "reason": "representative blocking/technical frame planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP30-S01",
+      "episode": "EP30",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP30-S02",
+      "episode": "EP30",
+      "p3_priority": "MUST",
+      "planned_frames": 7,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP30-S03",
+      "episode": "EP30",
+      "p3_priority": "MUST",
+      "planned_frames": 5,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP30-S04",
+      "episode": "EP30",
+      "p3_priority": "MUST",
+      "planned_frames": 14,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    },
+    {
+      "scene_id": "EP30-S05",
+      "episode": "EP30",
+      "p3_priority": "MUST",
+      "planned_frames": 8,
+      "p4_disposition": "FULL_TECHNICAL_BOARD",
+      "reason": "mandated episode-level action/VFX/recognition planning",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS_STORYBOARD_IMAGES_AND_BOARDS"
+}

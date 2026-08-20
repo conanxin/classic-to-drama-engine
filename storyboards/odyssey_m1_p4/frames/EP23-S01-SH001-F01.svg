@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;厅堂洗脚处 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;1.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯/乞丐&quot;, &quot;欧律克勒娅&quot;, &quot;佩涅洛佩&quot;], &quot;composition&quot;: &quot;MS2 GEOGRAPHY composition for 厅堂洗脚处 with 奥德修斯/乞丐, 欧律克勒娅, 佩涅洛佩&quot;, &quot;continuity_state&quot;: &quot;props=铜盆,油壶,旧伤疤; wardrobe=W-OD-20-BEGGAR-HALL,W-PE-01-HOUSEHOLD-MOURNING-PURPLE; hmu=HMU-OD-OLD-BEGGAR-SCAR-COVER,HMU-PE-HOUSEHOLD-PRESSURE; unit=S1; tags=hall-standing-set,recognition-scar,water&quot;, &quot;foreground&quot;: &quot;铜盆&quot;, &quot;frame_id&quot;: &quot;EP23-S01-SH001-F01&quot;, &quot;lighting&quot;: &quot;NIGHT motivated Mediterranean window/fire; architecture and evidence readable&quot;, &quot;midground&quot;: &quot;厅堂洗脚处 with 奥德修斯/乞丐, 欧律克勒娅, 佩涅洛佩&quot;, &quot;movement&quot;: &quot;DOLLY_TRACK SINGLE&quot;, &quot;practical_element&quot;: &quot;铜盆&quot;, &quot;scene_id&quot;: &quot;EP23-S01&quot;, &quot;shot_id&quot;: &quot;EP23-S01-SH001&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;6c92b77e964e3e04c2ecbf15b2c99d2ed26cff202033dfd57f791041bb01d1d5&quot;}</metadata>
+<rect width="1280" height="720" fill="#cfcfc6"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP23-S01-SH001-F01</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP23-S01-SH001 · EP23-S01 · SHOULD · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="368" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="488" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="768" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="888" y="332" width="24" height="205" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="580" y="105" width="120" height="180" fill="none" stroke="#242522" stroke-width="5"/>
+<text x="616" y="132" fill="#242522" font-family="sans-serif" font-size="14">N0</text>
+<rect x="1130" y="315" width="70" height="140" fill="none" stroke="#242522" stroke-width="5"/>
+<text x="1150" y="340" fill="#242522" font-family="sans-serif" font-size="14">E0</text>
+<circle cx="940" cy="500" r="50" fill="none" stroke="#5e7478" stroke-width="5"/><text x="930" y="505" fill="#242522" font-family="sans-serif" font-size="14">H0</text>
+<g transform="translate(1050 458)"><rect x="0" y="0" width="188" height="210" fill="#f4f1e8" stroke="#30322f" stroke-width="3"/><text x="78" y="16" font-family="sans-serif" font-size="12" fill="#30322f">N ↑</text><rect x="74" y="0" width="40" height="9" fill="#62645e"/><rect x="184" y="75" width="8" height="26" fill="#62645e"/><rect x="18" y="184" width="25" height="10" fill="#62645e"/><circle cx="58" cy="145" r="7" fill="#777"/><circle cx="130" cy="145" r="7" fill="#777"/><circle cx="58" cy="70" r="7" fill="#777"/><circle cx="130" cy="70" r="7" fill="#777"/><circle cx="150" cy="98" r="16" fill="none" stroke="#8d5a4e" stroke-width="3"/><line x1="94" y1="175" x2="94" y2="25" stroke="#a78547" stroke-width="3" stroke-dasharray="5 4"/><text x="8" y="205" font-family="sans-serif" font-size="11" fill="#30322f">EP23-S01</text></g>
+<circle cx="427.5" cy="394.8" r="21.4" fill="none" stroke="#5e7478" stroke-width="5"/>
+<line x1="427.5" y1="416.2" x2="427.5" y2="472.2" stroke="#5e7478" stroke-width="7"/>
+<line x1="427.5" y1="412.2" x2="390.1" y2="452.2" stroke="#5e7478" stroke-width="6"/>
+<line x1="427.5" y1="412.2" x2="464.9" y2="447.2" stroke="#5e7478" stroke-width="6"/>
+<line x1="427.5" y1="472.2" x2="400.8" y2="542.2" stroke="#5e7478" stroke-width="7"/>
+<line x1="427.5" y1="472.2" x2="454.2" y2="542.2" stroke="#5e7478" stroke-width="7"/>
+<rect x="357.5" y="546.2" width="140" height="25" fill="#cfcfc6" opacity="0.94"/>
+<text x="363.5" y="564.2" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯/乞丐</text>
+<circle cx="635.0" cy="376.9" r="23.5" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="635.0" y1="400.5" x2="635.0" y2="464.8" stroke="#242522" stroke-width="7"/>
+<line x1="635.0" y1="404.8" x2="593.8" y2="444.8" stroke="#242522" stroke-width="6"/>
+<line x1="635.0" y1="404.8" x2="676.2" y2="439.8" stroke="#242522" stroke-width="6"/>
+<line x1="635.0" y1="464.8" x2="605.6" y2="534.8" stroke="#242522" stroke-width="7"/>
+<line x1="635.0" y1="464.8" x2="664.4" y2="534.8" stroke="#242522" stroke-width="7"/>
+<rect x="565.0" y="538.8" width="140" height="25" fill="#cfcfc6" opacity="0.94"/>
+<text x="571.0" y="556.8" fill="#242522" font-family="sans-serif" font-size="14">欧律克勒娅</text>
+<circle cx="859.5" cy="425.1" r="17.7" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="859.5" y1="442.8" x2="859.5" y2="485.0" stroke="#242522" stroke-width="7"/>
+<line x1="859.5" y1="425.0" x2="828.5" y2="465.0" stroke="#242522" stroke-width="6"/>
+<line x1="859.5" y1="425.0" x2="890.5" y2="460.0" stroke="#242522" stroke-width="6"/>
+<line x1="859.5" y1="485.0" x2="837.4" y2="555.0" stroke="#242522" stroke-width="7"/>
+<line x1="859.5" y1="485.0" x2="881.6" y2="555.0" stroke="#242522" stroke-width="7"/>
+<rect x="789.5" y="559.0" width="140" height="25" fill="#cfcfc6" opacity="0.94"/>
+<text x="795.5" y="577.0" fill="#242522" font-family="sans-serif" font-size="14">佩涅洛佩</text>
+<line x1="1035" y1="630" x2="235" y2="630" stroke="#5e7478" stroke-width="6"/>
+<path d="M 235 630 l 18 -12 l 0 24 z" fill="#5e7478"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: DOLLY_TRACK SINGLE</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">铜盆 / 厅堂洗脚处 with 奥德修斯/乞丐, 欧律克勒娅, 佩涅洛佩 / 厅堂洗脚处 geography; exits/pressure sourc…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=铜盆,油壶,旧伤疤; wardrobe=W-OD-20-BEGGAR-HALL,W-PE-01-HOUSEHOL…</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;冥界边界 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;0.8m&quot;, &quot;characters&quot;: [&quot;安提诺俄斯亡魂&quot;, &quot;阿伽门农&quot;, &quot;阿喀琉斯&quot;, &quot;求婚者亡魂&quot;], &quot;composition&quot;: &quot;INSERT TECHNICAL_PLATE composition for clean/reference element for 冥界边界 and 安提诺俄斯亡魂, 阿伽门农&quot;, &quot;continuity_state&quot;: &quot;props=无弦弓影,婚床树根影,血色杯; wardrobe=W-ENS-30-SCENE; hmu=HMU-ENS-30; unit=U09; tags=crowd,underworld,vfx-medium&quot;, &quot;foreground&quot;: &quot;婚床树根影&quot;, &quot;frame_id&quot;: &quot;EP30-S01-SH004-F02&quot;, &quot;lighting&quot;: &quot;directionless black field; blood as sole warm reflection&quot;, &quot;midground&quot;: &quot;clean/reference element for 冥界边界 and 安提诺俄斯亡魂, 阿伽门农&quot;, &quot;movement&quot;: &quot;STATIC END&quot;, &quot;practical_element&quot;: &quot;婚床树根影&quot;, &quot;scene_id&quot;: &quot;EP30-S01&quot;, &quot;shot_id&quot;: &quot;EP30-S01-SH004&quot;, &quot;vfx_layer&quot;: &quot;MEDIUM&quot;}, &quot;source_frame_sha256&quot;: &quot;a94c3ab458e15456f5d747b3a1b1b8b890d054ede4c11a19df788780ea9ea192&quot;}</metadata>
+<rect width="1280" height="720" fill="#d9cfc8"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP30-S01-SH004-F02</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP30-S01-SH004 · EP30-S01 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="0" y="340" width="1280" height="280" fill="#272828" opacity="0.78"/>
+<path d="M 180 540 Q 640 420 1100 540" fill="none" stroke="#7b6745" stroke-width="12"/>
+<circle cx="399.0" cy="393.0" r="21.6" fill="none" stroke="#7b6745" stroke-width="5"/>
+<line x1="399.0" y1="414.6" x2="399.0" y2="471.5" stroke="#7b6745" stroke-width="7"/>
+<line x1="399.0" y1="411.5" x2="361.2" y2="451.5" stroke="#7b6745" stroke-width="6"/>
+<line x1="399.0" y1="411.5" x2="436.8" y2="446.5" stroke="#7b6745" stroke-width="6"/>
+<line x1="399.0" y1="471.5" x2="372.0" y2="541.5" stroke="#7b6745" stroke-width="7"/>
+<line x1="399.0" y1="471.5" x2="426.0" y2="541.5" stroke="#7b6745" stroke-width="7"/>
+<rect x="329.0" y="545.5" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="335.0" y="563.5" fill="#242522" font-family="sans-serif" font-size="14">安提诺俄斯亡魂</text>
+<circle cx="568.0" cy="378.7" r="23.3" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="568.0" y1="402.0" x2="568.0" y2="465.5" stroke="#242522" stroke-width="7"/>
+<line x1="568.0" y1="405.5" x2="527.2" y2="445.5" stroke="#242522" stroke-width="6"/>
+<line x1="568.0" y1="405.5" x2="608.8" y2="440.5" stroke="#242522" stroke-width="6"/>
+<line x1="568.0" y1="465.5" x2="538.8" y2="535.5" stroke="#242522" stroke-width="7"/>
+<line x1="568.0" y1="465.5" x2="597.2" y2="535.5" stroke="#242522" stroke-width="7"/>
+<rect x="498.0" y="539.5" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="504.0" y="557.5" fill="#242522" font-family="sans-serif" font-size="14">阿伽门农</text>
+<circle cx="732.0" cy="382.3" r="22.9" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="732.0" y1="405.2" x2="732.0" y2="467.0" stroke="#242522" stroke-width="7"/>
+<line x1="732.0" y1="407.0" x2="691.9" y2="447.0" stroke="#242522" stroke-width="6"/>
+<line x1="732.0" y1="407.0" x2="772.1" y2="442.0" stroke="#242522" stroke-width="6"/>
+<line x1="732.0" y1="467.0" x2="703.4" y2="537.0" stroke="#242522" stroke-width="7"/>
+<line x1="732.0" y1="467.0" x2="760.6" y2="537.0" stroke="#242522" stroke-width="7"/>
+<rect x="662.0" y="541.0" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="668.0" y="559.0" fill="#242522" font-family="sans-serif" font-size="14">阿喀琉斯</text>
+<circle cx="917.0" cy="373.4" r="24.0" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="917.0" y1="397.3" x2="917.0" y2="463.2" stroke="#242522" stroke-width="7"/>
+<line x1="917.0" y1="403.2" x2="875.0" y2="443.2" stroke="#242522" stroke-width="6"/>
+<line x1="917.0" y1="403.2" x2="959.0" y2="438.2" stroke="#242522" stroke-width="6"/>
+<line x1="917.0" y1="463.2" x2="887.0" y2="533.2" stroke="#242522" stroke-width="7"/>
+<line x1="917.0" y1="463.2" x2="947.0" y2="533.2" stroke="#242522" stroke-width="7"/>
+<rect x="847.0" y="537.2" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="853.0" y="555.2" fill="#242522" font-family="sans-serif" font-size="14">求婚者亡魂</text>
+<line x1="235" y1="630" x2="1035" y2="630" stroke="#7b6745" stroke-width="6"/>
+<path d="M 1035 630 l -18 -12 l 0 24 z" fill="#7b6745"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: STATIC END</text>
+<rect x="25" y="100" width="1230" height="495" fill="none" stroke="#65546d" stroke-width="4" stroke-dasharray="14 10"/>
+<text x="1010" y="125" fill="#65546d" font-family="sans-serif" font-size="15" font-weight="700">VFX LAYER / CLEAN PLATE</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">婚床树根影 / clean/reference element for 冥界边界 and 安提诺俄斯亡魂,… / 冥界边界 geography; exits/pressure source…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=无弦弓影,婚床树根影,血色杯; wardrobe=W-ENS-30-SCENE; hmu=HMU-ENS-30;…</text>
+</svg>

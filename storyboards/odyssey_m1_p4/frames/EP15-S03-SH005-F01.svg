@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;特里那基亚营地 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;2.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;欧律洛科斯&quot;, &quot;船员&quot;, &quot;赫利俄斯声&quot;], &quot;composition&quot;: &quot;WS TECHNICAL_PLATE composition for clean/reference element for 特里那基亚营地 and 奥德修斯, 欧律洛科斯&quot;, &quot;continuity_state&quot;: &quot;props=烤肉叉,空牛皮,牛角金牌,火; wardrobe=W-OD-15-VOYAGE-MEMORY; hmu=HMU-OD-VOYAGE-15; unit=S5; tags=animal,fire,shore,vfx-low&quot;, &quot;foreground&quot;: &quot;烤肉叉&quot;, &quot;frame_id&quot;: &quot;EP15-S03-SH005-F01&quot;, &quot;lighting&quot;: &quot;NIGHT motivated source; preserve unit color and practical texture&quot;, &quot;midground&quot;: &quot;clean/reference element for 特里那基亚营地 and 奥德修斯, 欧律洛科斯&quot;, &quot;movement&quot;: &quot;STATIC SINGLE&quot;, &quot;practical_element&quot;: &quot;烤肉叉&quot;, &quot;scene_id&quot;: &quot;EP15-S03&quot;, &quot;shot_id&quot;: &quot;EP15-S03-SH005&quot;, &quot;vfx_layer&quot;: &quot;LOW&quot;}, &quot;source_frame_sha256&quot;: &quot;156d82c044c44992d79c3a400a7414c1cb4c558b8a80784bcc02e56b1f436df6&quot;}</metadata>
+<rect width="1280" height="720" fill="#c9d3d0"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP15-S03-SH005-F01</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP15-S03-SH005 · EP15-S03 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="80" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="1030" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<circle cx="381.0" cy="415.2" r="16.0" fill="none" stroke="#8d5a4e" stroke-width="5"/>
+<line x1="381.0" y1="431.2" x2="381.0" y2="467.0" stroke="#8d5a4e" stroke-width="7"/>
+<line x1="381.0" y1="407.0" x2="353.0" y2="447.0" stroke="#8d5a4e" stroke-width="6"/>
+<line x1="381.0" y1="407.0" x2="409.0" y2="442.0" stroke="#8d5a4e" stroke-width="6"/>
+<line x1="381.0" y1="467.0" x2="361.0" y2="537.0" stroke="#8d5a4e" stroke-width="7"/>
+<line x1="381.0" y1="467.0" x2="401.0" y2="537.0" stroke="#8d5a4e" stroke-width="7"/>
+<rect x="311.0" y="541.0" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="317.0" y="559.0" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="571.0" cy="450.6" r="12.4" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="571.0" y1="463.0" x2="571.0" y2="485.0" stroke="#242522" stroke-width="7"/>
+<line x1="571.0" y1="425.0" x2="549.3" y2="465.0" stroke="#242522" stroke-width="6"/>
+<line x1="571.0" y1="425.0" x2="592.7" y2="460.0" stroke="#242522" stroke-width="6"/>
+<line x1="571.0" y1="485.0" x2="555.5" y2="555.0" stroke="#242522" stroke-width="7"/>
+<line x1="571.0" y1="485.0" x2="586.5" y2="555.0" stroke="#242522" stroke-width="7"/>
+<rect x="501.0" y="559.0" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="507.0" y="577.0" fill="#242522" font-family="sans-serif" font-size="14">欧律洛科斯</text>
+<circle cx="706.0" cy="416.7" r="15.9" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="706.0" y1="432.6" x2="706.0" y2="467.8" stroke="#242522" stroke-width="7"/>
+<line x1="706.0" y1="407.8" x2="678.2" y2="447.8" stroke="#242522" stroke-width="6"/>
+<line x1="706.0" y1="407.8" x2="733.8" y2="442.8" stroke="#242522" stroke-width="6"/>
+<line x1="706.0" y1="467.8" x2="686.2" y2="537.8" stroke="#242522" stroke-width="7"/>
+<line x1="706.0" y1="467.8" x2="725.8" y2="537.8" stroke="#242522" stroke-width="7"/>
+<rect x="636.0" y="541.8" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="642.0" y="559.8" fill="#242522" font-family="sans-serif" font-size="14">船员</text>
+<circle cx="868.0" cy="444.7" r="13.0" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="868.0" y1="457.7" x2="868.0" y2="482.0" stroke="#242522" stroke-width="7"/>
+<line x1="868.0" y1="422.0" x2="845.2" y2="462.0" stroke="#242522" stroke-width="6"/>
+<line x1="868.0" y1="422.0" x2="890.8" y2="457.0" stroke="#242522" stroke-width="6"/>
+<line x1="868.0" y1="482.0" x2="851.7" y2="552.0" stroke="#242522" stroke-width="7"/>
+<line x1="868.0" y1="482.0" x2="884.3" y2="552.0" stroke="#242522" stroke-width="7"/>
+<rect x="798.0" y="556.0" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="804.0" y="574.0" fill="#242522" font-family="sans-serif" font-size="14">赫利俄斯声</text>
+<line x1="1035" y1="630" x2="235" y2="630" stroke="#8d5a4e" stroke-width="6"/>
+<path d="M 235 630 l 18 -12 l 0 24 z" fill="#8d5a4e"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: STATIC SINGLE</text>
+<rect x="25" y="100" width="1230" height="495" fill="none" stroke="#65546d" stroke-width="4" stroke-dasharray="14 10"/>
+<text x="1010" y="125" fill="#65546d" font-family="sans-serif" font-size="15" font-weight="700">VFX LAYER / CLEAN PLATE</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">烤肉叉 / clean/reference element for 特里那基亚营地 and 奥德修斯,… / 特里那基亚营地 geography; exits/pressure sou…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=烤肉叉,空牛皮,牛角金牌,火; wardrobe=W-OD-15-VOYAGE-MEMORY; hmu=HMU-…</text>
+</svg>

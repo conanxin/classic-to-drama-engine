@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;宁芙洞穴／外景·伊萨卡山路 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;2.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;雅典娜&quot;], &quot;composition&quot;: &quot;WS GEOGRAPHY composition for 宁芙洞穴／外景·伊萨卡山路 with 奥德修斯, 雅典娜&quot;, &quot;continuity_state&quot;: &quot;props=礼物箱,洞石门,破斗篷,牧杖; wardrobe=W-OD-16-ITHACA-ARRIVAL-DISGUISE,W-AT-DIVINE; hmu=HMU-OD-OLD-BEGGAR-SCAR-COVER,HMU-AT-DISGUISE-EYELIGHT-CONTINUITY,HMU-SPECIAL-PROSTHETIC; unit=U08; tags=cave-adaptable,divine-medium,ending-hook,makeup&quot;, &quot;foreground&quot;: &quot;洞石门&quot;, &quot;frame_id&quot;: &quot;EP16-S05-SH001-F02&quot;, &quot;lighting&quot;: &quot;DAY motivated source; preserve unit color and practical texture&quot;, &quot;midground&quot;: &quot;宁芙洞穴／外景·伊萨卡山路 with 奥德修斯, 雅典娜&quot;, &quot;movement&quot;: &quot;STATIC END&quot;, &quot;practical_element&quot;: &quot;洞石门&quot;, &quot;scene_id&quot;: &quot;EP16-S05&quot;, &quot;shot_id&quot;: &quot;EP16-S05-SH001&quot;, &quot;vfx_layer&quot;: &quot;MEDIUM&quot;}, &quot;source_frame_sha256&quot;: &quot;49bd8bfbee8ec2576c9833a49f6afe101cfbc685746673feca890c05d1d4d466&quot;}</metadata>
+<rect width="1280" height="720" fill="#d5cdbc"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP16-S05-SH001-F02</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP16-S05-SH001 · EP16-S05 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="80" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="1030" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<circle cx="509.3" cy="449.1" r="12.5" fill="none" stroke="#7b6745" stroke-width="5"/>
+<line x1="509.3" y1="461.7" x2="509.3" y2="484.2" stroke="#7b6745" stroke-width="7"/>
+<line x1="509.3" y1="424.2" x2="487.4" y2="464.2" stroke="#7b6745" stroke-width="6"/>
+<line x1="509.3" y1="424.2" x2="531.3" y2="459.2" stroke="#7b6745" stroke-width="6"/>
+<line x1="509.3" y1="484.2" x2="493.6" y2="554.2" stroke="#7b6745" stroke-width="7"/>
+<line x1="509.3" y1="484.2" x2="525.0" y2="554.2" stroke="#7b6745" stroke-width="7"/>
+<rect x="439.3" y="558.2" width="140" height="25" fill="#d5cdbc" opacity="0.94"/>
+<text x="445.3" y="576.2" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="796.7" cy="418.2" r="15.7" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="796.7" y1="433.9" x2="796.7" y2="468.5" stroke="#242522" stroke-width="7"/>
+<line x1="796.7" y1="408.5" x2="769.1" y2="448.5" stroke="#242522" stroke-width="6"/>
+<line x1="796.7" y1="408.5" x2="824.2" y2="443.5" stroke="#242522" stroke-width="6"/>
+<line x1="796.7" y1="468.5" x2="777.0" y2="538.5" stroke="#242522" stroke-width="7"/>
+<line x1="796.7" y1="468.5" x2="816.3" y2="538.5" stroke="#242522" stroke-width="7"/>
+<rect x="726.7" y="542.5" width="140" height="25" fill="#d5cdbc" opacity="0.94"/>
+<text x="732.7" y="560.5" fill="#242522" font-family="sans-serif" font-size="14">雅典娜</text>
+<line x1="1035" y1="630" x2="235" y2="630" stroke="#7b6745" stroke-width="6"/>
+<path d="M 235 630 l 18 -12 l 0 24 z" fill="#7b6745"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: STATIC END</text>
+<rect x="25" y="100" width="1230" height="495" fill="none" stroke="#65546d" stroke-width="4" stroke-dasharray="14 10"/>
+<text x="1010" y="125" fill="#65546d" font-family="sans-serif" font-size="15" font-weight="700">VFX LAYER / CLEAN PLATE</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">洞石门 / 宁芙洞穴／外景·伊萨卡山路 with 奥德修斯, 雅典娜 / 宁芙洞穴／外景·伊萨卡山路 geography; exits/pressu…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=礼物箱,洞石门,破斗篷,牧杖; wardrobe=W-OD-16-ITHACA-ARRIVAL-DISGUISE…</text>
+</svg>

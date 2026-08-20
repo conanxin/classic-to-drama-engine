@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;菲埃克斯宴会厅 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;1.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;阿尔喀诺俄斯&quot;, &quot;阿瑞忒&quot;, &quot;得摩多科斯&quot;], &quot;composition&quot;: &quot;FS GEOGRAPHY composition for 菲埃克斯宴会厅 with 奥德修斯, 阿尔喀诺俄斯, 阿瑞忒&quot;, &quot;continuity_state&quot;: &quot;props=船籍牌,熄灭油灯,六枚空杯; wardrobe=W-OD-07-PHAEACIA-BORROWED-WHITE; hmu=HMU-OD-VOYAGE-15; unit=S2; tags=crowd,ending-hook,frame-return,standing-set&quot;, &quot;foreground&quot;: &quot;船籍牌&quot;, &quot;frame_id&quot;: &quot;EP15-S05-SH001-F01&quot;, &quot;lighting&quot;: &quot;NIGHT motivated source; preserve unit color and practical texture&quot;, &quot;midground&quot;: &quot;菲埃克斯宴会厅 with 奥德修斯, 阿尔喀诺俄斯, 阿瑞忒&quot;, &quot;movement&quot;: &quot;LATERAL_TRACK START&quot;, &quot;practical_element&quot;: &quot;船籍牌&quot;, &quot;scene_id&quot;: &quot;EP15-S05&quot;, &quot;shot_id&quot;: &quot;EP15-S05-SH001&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;30c31b1afd5c1ddc203b2d3096b1ab5409e46791f2006397f056e0afc7e0271b&quot;}</metadata>
+<rect width="1280" height="720" fill="#d9cfc8"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP15-S05-SH001-F01</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP15-S05-SH001 · EP15-S05 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="80" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="1030" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<circle cx="401.0" cy="393.7" r="20.7" fill="none" stroke="#65546d" stroke-width="5"/>
+<line x1="401.0" y1="414.4" x2="401.0" y2="467.8" stroke="#65546d" stroke-width="7"/>
+<line x1="401.0" y1="407.8" x2="364.8" y2="447.8" stroke="#65546d" stroke-width="6"/>
+<line x1="401.0" y1="407.8" x2="437.2" y2="442.8" stroke="#65546d" stroke-width="6"/>
+<line x1="401.0" y1="467.8" x2="375.2" y2="537.8" stroke="#65546d" stroke-width="7"/>
+<line x1="401.0" y1="467.8" x2="426.8" y2="537.8" stroke="#65546d" stroke-width="7"/>
+<rect x="331.0" y="541.8" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="337.0" y="559.8" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="546.0" cy="400.5" r="19.9" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="546.0" y1="420.4" x2="546.0" y2="470.8" stroke="#242522" stroke-width="7"/>
+<line x1="546.0" y1="410.8" x2="511.2" y2="450.8" stroke="#242522" stroke-width="6"/>
+<line x1="546.0" y1="410.8" x2="580.8" y2="445.8" stroke="#242522" stroke-width="6"/>
+<line x1="546.0" y1="470.8" x2="521.2" y2="540.8" stroke="#242522" stroke-width="7"/>
+<line x1="546.0" y1="470.8" x2="570.8" y2="540.8" stroke="#242522" stroke-width="7"/>
+<rect x="476.0" y="544.8" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="482.0" y="562.8" fill="#242522" font-family="sans-serif" font-size="14">阿尔喀诺俄斯</text>
+<circle cx="695.0" cy="415.7" r="18.1" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="695.0" y1="433.8" x2="695.0" y2="477.5" stroke="#242522" stroke-width="7"/>
+<line x1="695.0" y1="417.5" x2="663.3" y2="457.5" stroke="#242522" stroke-width="6"/>
+<line x1="695.0" y1="417.5" x2="726.7" y2="452.5" stroke="#242522" stroke-width="6"/>
+<line x1="695.0" y1="477.5" x2="672.4" y2="547.5" stroke="#242522" stroke-width="7"/>
+<line x1="695.0" y1="477.5" x2="717.6" y2="547.5" stroke="#242522" stroke-width="7"/>
+<rect x="625.0" y="551.5" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="631.0" y="569.5" fill="#242522" font-family="sans-serif" font-size="14">阿瑞忒</text>
+<circle cx="882.0" cy="412.4" r="18.5" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="882.0" y1="430.9" x2="882.0" y2="476.0" stroke="#242522" stroke-width="7"/>
+<line x1="882.0" y1="416.0" x2="849.6" y2="456.0" stroke="#242522" stroke-width="6"/>
+<line x1="882.0" y1="416.0" x2="914.4" y2="451.0" stroke="#242522" stroke-width="6"/>
+<line x1="882.0" y1="476.0" x2="858.9" y2="546.0" stroke="#242522" stroke-width="7"/>
+<line x1="882.0" y1="476.0" x2="905.1" y2="546.0" stroke="#242522" stroke-width="7"/>
+<rect x="812.0" y="550.0" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="818.0" y="568.0" fill="#242522" font-family="sans-serif" font-size="14">得摩多科斯</text>
+<line x1="235" y1="630" x2="1035" y2="630" stroke="#65546d" stroke-width="6"/>
+<path d="M 1035 630 l -18 -12 l 0 24 z" fill="#65546d"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: LATERAL_TRACK START</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">船籍牌 / 菲埃克斯宴会厅 with 奥德修斯, 阿尔喀诺俄斯, 阿瑞忒 / 菲埃克斯宴会厅 geography; exits/pressure sou…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=船籍牌,熄灭油灯,六枚空杯; wardrobe=W-OD-07-PHAEACIA-BORROWED-WHITE;…</text>
+</svg>

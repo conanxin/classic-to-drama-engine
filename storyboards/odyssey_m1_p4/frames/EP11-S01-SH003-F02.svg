@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;埃俄罗斯岛露台 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;2.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;埃俄罗斯&quot;, &quot;欧律洛科斯&quot;, &quot;船员&quot;], &quot;composition&quot;: &quot;WS TECHNICAL_PLATE composition for clean/reference element for 埃俄罗斯岛露台 and 奥德修斯, 埃俄罗斯&quot;, &quot;continuity_state&quot;: &quot;props=牛皮风袋,银绳,航海图,酒杯; wardrobe=W-OD-11-VOYAGE-MEMORY; hmu=HMU-OD-VOYAGE-11; unit=S2; tags=cliff-redress,divine-medium&quot;, &quot;foreground&quot;: &quot;银绳&quot;, &quot;frame_id&quot;: &quot;EP11-S01-SH003-F02&quot;, &quot;lighting&quot;: &quot;DAY motivated source; preserve unit color and practical texture&quot;, &quot;midground&quot;: &quot;clean/reference element for 埃俄罗斯岛露台 and 奥德修斯, 埃俄罗斯&quot;, &quot;movement&quot;: &quot;STATIC END&quot;, &quot;practical_element&quot;: &quot;银绳&quot;, &quot;scene_id&quot;: &quot;EP11-S01&quot;, &quot;shot_id&quot;: &quot;EP11-S01-SH003&quot;, &quot;vfx_layer&quot;: &quot;MEDIUM&quot;}, &quot;source_frame_sha256&quot;: &quot;9169d7ac87071618407ba5bec70f22d434625f82fec5d88d009bc6723b85e05a&quot;}</metadata>
+<rect width="1280" height="720" fill="#d9cfc8"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP11-S01-SH003-F02</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP11-S01-SH003 · EP11-S01 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="80" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="1030" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<circle cx="383.0" cy="418.2" r="15.7" fill="none" stroke="#5e7478" stroke-width="5"/>
+<line x1="383.0" y1="433.9" x2="383.0" y2="468.5" stroke="#5e7478" stroke-width="7"/>
+<line x1="383.0" y1="408.5" x2="355.5" y2="448.5" stroke="#5e7478" stroke-width="6"/>
+<line x1="383.0" y1="408.5" x2="410.5" y2="443.5" stroke="#5e7478" stroke-width="6"/>
+<line x1="383.0" y1="468.5" x2="363.3" y2="538.5" stroke="#5e7478" stroke-width="7"/>
+<line x1="383.0" y1="468.5" x2="402.7" y2="538.5" stroke="#5e7478" stroke-width="7"/>
+<rect x="313.0" y="542.5" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="319.0" y="560.5" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="547.0" cy="422.6" r="15.3" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="547.0" y1="437.8" x2="547.0" y2="470.8" stroke="#242522" stroke-width="7"/>
+<line x1="547.0" y1="410.8" x2="520.3" y2="450.8" stroke="#242522" stroke-width="6"/>
+<line x1="547.0" y1="410.8" x2="573.7" y2="445.8" stroke="#242522" stroke-width="6"/>
+<line x1="547.0" y1="470.8" x2="527.9" y2="540.8" stroke="#242522" stroke-width="7"/>
+<line x1="547.0" y1="470.8" x2="566.1" y2="540.8" stroke="#242522" stroke-width="7"/>
+<rect x="477.0" y="544.8" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="483.0" y="562.8" fill="#242522" font-family="sans-serif" font-size="14">埃俄罗斯</text>
+<circle cx="753.0" cy="413.7" r="16.2" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="753.0" y1="429.9" x2="753.0" y2="466.2" stroke="#242522" stroke-width="7"/>
+<line x1="753.0" y1="406.2" x2="724.7" y2="446.2" stroke="#242522" stroke-width="6"/>
+<line x1="753.0" y1="406.2" x2="781.3" y2="441.2" stroke="#242522" stroke-width="6"/>
+<line x1="753.0" y1="466.2" x2="732.8" y2="536.2" stroke="#242522" stroke-width="7"/>
+<line x1="753.0" y1="466.2" x2="773.2" y2="536.2" stroke="#242522" stroke-width="7"/>
+<rect x="683.0" y="540.2" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="689.0" y="558.2" fill="#242522" font-family="sans-serif" font-size="14">欧律洛科斯</text>
+<circle cx="923.0" cy="428.5" r="14.7" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="923.0" y1="443.1" x2="923.0" y2="473.8" stroke="#242522" stroke-width="7"/>
+<line x1="923.0" y1="413.8" x2="897.3" y2="453.8" stroke="#242522" stroke-width="6"/>
+<line x1="923.0" y1="413.8" x2="948.7" y2="448.8" stroke="#242522" stroke-width="6"/>
+<line x1="923.0" y1="473.8" x2="904.7" y2="543.8" stroke="#242522" stroke-width="7"/>
+<line x1="923.0" y1="473.8" x2="941.3" y2="543.8" stroke="#242522" stroke-width="7"/>
+<rect x="853.0" y="547.8" width="140" height="25" fill="#d9cfc8" opacity="0.94"/>
+<text x="859.0" y="565.8" fill="#242522" font-family="sans-serif" font-size="14">船员</text>
+<line x1="235" y1="630" x2="1035" y2="630" stroke="#5e7478" stroke-width="6"/>
+<path d="M 1035 630 l -18 -12 l 0 24 z" fill="#5e7478"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: STATIC END</text>
+<rect x="25" y="100" width="1230" height="495" fill="none" stroke="#65546d" stroke-width="4" stroke-dasharray="14 10"/>
+<text x="1010" y="125" fill="#65546d" font-family="sans-serif" font-size="15" font-weight="700">VFX LAYER / CLEAN PLATE</text>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">银绳 / clean/reference element for 埃俄罗斯岛露台 and 奥德修斯,… / 埃俄罗斯岛露台 geography; exits/pressure sou…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=牛皮风袋,银绳,航海图,酒杯; wardrobe=W-OD-11-VOYAGE-MEMORY; hmu=HMU-…</text>
+</svg>

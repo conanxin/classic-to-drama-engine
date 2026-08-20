@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;雷暴海面 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;1.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;, &quot;欧律洛科斯&quot;, &quot;船员&quot;, &quot;宙斯声&quot;], &quot;composition&quot;: &quot;FS OBSTRUCTION composition for 船员, 宙斯声, 奥德修斯&quot;, &quot;continuity_state&quot;: &quot;props=船桅,龙骨,牛角金牌,绳; wardrobe=W-OD-15-VOYAGE-MEMORY; hmu=HMU-OD-VOYAGE-15; unit=U11; tags=blood,storm,stunt,vfx-medium,water-heavy&quot;, &quot;foreground&quot;: &quot;龙骨&quot;, &quot;frame_id&quot;: &quot;EP15-S04-SH003-F02&quot;, &quot;lighting&quot;: &quot;MIXED horizon/sky condition with practical wet specular control&quot;, &quot;midground&quot;: &quot;船员, 宙斯声, 奥德修斯&quot;, &quot;movement&quot;: &quot;LATERAL_TRACK END&quot;, &quot;practical_element&quot;: &quot;龙骨&quot;, &quot;scene_id&quot;: &quot;EP15-S04&quot;, &quot;shot_id&quot;: &quot;EP15-S04-SH003&quot;, &quot;vfx_layer&quot;: &quot;MEDIUM&quot;}, &quot;source_frame_sha256&quot;: &quot;831c864e48ae89ed5e206ce660304c6b6a1ace65ed8e498b9f9a8435fc1dcece&quot;}</metadata>
+<rect width="1280" height="720" fill="#c9d3d0"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP15-S04-SH003-F02</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP15-S04-SH003 · EP15-S04 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<line x1="640" y1="115" x2="640" y2="600" stroke="#242522" stroke-width="9"/>
+<path d="M 110 560 Q 640 655 1170 560" fill="none" stroke="#242522" stroke-width="12"/>
+<path d="M 640 145 L 965 335 L 640 335 Z" fill="none" stroke="#8d5a4e" stroke-width="4"/>
+<circle cx="376.0" cy="427.6" r="16.7" fill="none" stroke="#8d5a4e" stroke-width="5"/>
+<line x1="376.0" y1="444.3" x2="376.0" y2="482.8" stroke="#8d5a4e" stroke-width="7"/>
+<line x1="376.0" y1="422.8" x2="346.7" y2="462.8" stroke="#8d5a4e" stroke-width="6"/>
+<line x1="376.0" y1="422.8" x2="405.3" y2="457.8" stroke="#8d5a4e" stroke-width="6"/>
+<line x1="376.0" y1="482.8" x2="355.1" y2="552.8" stroke="#8d5a4e" stroke-width="7"/>
+<line x1="376.0" y1="482.8" x2="396.9" y2="552.8" stroke="#8d5a4e" stroke-width="7"/>
+<rect x="306.0" y="556.8" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="312.0" y="574.8" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<circle cx="529.0" cy="385.3" r="21.6" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="529.0" y1="406.9" x2="529.0" y2="464.0" stroke="#242522" stroke-width="7"/>
+<line x1="529.0" y1="404.0" x2="491.1" y2="444.0" stroke="#242522" stroke-width="6"/>
+<line x1="529.0" y1="404.0" x2="566.9" y2="439.0" stroke="#242522" stroke-width="6"/>
+<line x1="529.0" y1="464.0" x2="501.9" y2="534.0" stroke="#242522" stroke-width="7"/>
+<line x1="529.0" y1="464.0" x2="556.1" y2="534.0" stroke="#242522" stroke-width="7"/>
+<rect x="459.0" y="538.0" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="465.0" y="556.0" fill="#242522" font-family="sans-serif" font-size="14">欧律洛科斯</text>
+<circle cx="699.0" cy="407.3" r="19.1" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="699.0" y1="426.4" x2="699.0" y2="473.8" stroke="#242522" stroke-width="7"/>
+<line x1="699.0" y1="413.8" x2="665.6" y2="453.8" stroke="#242522" stroke-width="6"/>
+<line x1="699.0" y1="413.8" x2="732.4" y2="448.8" stroke="#242522" stroke-width="6"/>
+<line x1="699.0" y1="473.8" x2="675.1" y2="543.8" stroke="#242522" stroke-width="7"/>
+<line x1="699.0" y1="473.8" x2="722.9" y2="543.8" stroke="#242522" stroke-width="7"/>
+<rect x="629.0" y="547.8" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="635.0" y="565.8" fill="#242522" font-family="sans-serif" font-size="14">船员</text>
+<circle cx="875.0" cy="385.3" r="21.6" fill="none" stroke="#242522" stroke-width="5"/>
+<line x1="875.0" y1="406.9" x2="875.0" y2="464.0" stroke="#242522" stroke-width="7"/>
+<line x1="875.0" y1="404.0" x2="837.1" y2="444.0" stroke="#242522" stroke-width="6"/>
+<line x1="875.0" y1="404.0" x2="912.9" y2="439.0" stroke="#242522" stroke-width="6"/>
+<line x1="875.0" y1="464.0" x2="847.9" y2="534.0" stroke="#242522" stroke-width="7"/>
+<line x1="875.0" y1="464.0" x2="902.1" y2="534.0" stroke="#242522" stroke-width="7"/>
+<rect x="805.0" y="538.0" width="140" height="25" fill="#c9d3d0" opacity="0.94"/>
+<text x="811.0" y="556.0" fill="#242522" font-family="sans-serif" font-size="14">宙斯声</text>
+<line x1="1035" y1="630" x2="235" y2="630" stroke="#8d5a4e" stroke-width="6"/>
+<path d="M 235 630 l 18 -12 l 0 24 z" fill="#8d5a4e"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: LATERAL_TRACK END</text>
+<rect x="25" y="100" width="1230" height="495" fill="none" stroke="#65546d" stroke-width="4" stroke-dasharray="14 10"/>
+<text x="1010" y="125" fill="#65546d" font-family="sans-serif" font-size="15" font-weight="700">VFX LAYER / CLEAN PLATE</text>
+<path d="M 55 125 l 20 -35 l 20 35 z" fill="none" stroke="#8d3f36" stroke-width="5"/>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">龙骨 / 船员, 宙斯声, 奥德修斯 / 雷暴海面 geography; exits/pressure source…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=船桅,龙骨,牛角金牌,绳; wardrobe=W-OD-15-VOYAGE-MEMORY; hmu=HMU-OD…</text>
+</svg>

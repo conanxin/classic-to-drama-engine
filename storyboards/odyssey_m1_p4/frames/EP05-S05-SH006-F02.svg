@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<metadata>{&quot;frame_spec&quot;: {&quot;background&quot;: &quot;斯刻里亚河口与岸林 geography; exits/pressure source remain legible&quot;, &quot;camera_height&quot;: &quot;2.4m&quot;, &quot;characters&quot;: [&quot;奥德修斯&quot;], &quot;composition&quot;: &quot;WS REVERSAL composition for 奥德修斯&quot;, &quot;continuity_state&quot;: &quot;props=浮帛,芦苇,落叶; wardrobe=W-OD-05-OGYGIA-RAFT-SALT; hmu=HMU-OD-SALT-CUTS-PROGRESSION; unit=S5; tags=ending-hook,shore,stunt-low,water&quot;, &quot;foreground&quot;: &quot;芦苇&quot;, &quot;frame_id&quot;: &quot;EP05-S05-SH006-F02&quot;, &quot;lighting&quot;: &quot;DAY motivated source; preserve unit color and practical texture&quot;, &quot;midground&quot;: &quot;奥德修斯&quot;, &quot;movement&quot;: &quot;HANDHELD_CONTROLLED END&quot;, &quot;practical_element&quot;: &quot;芦苇&quot;, &quot;scene_id&quot;: &quot;EP05-S05&quot;, &quot;shot_id&quot;: &quot;EP05-S05-SH006&quot;, &quot;vfx_layer&quot;: &quot;NONE&quot;}, &quot;source_frame_sha256&quot;: &quot;b09500ff420fa6c0e6820a5fae70941c17ebc66dd9a212716359b64f04cf02ae&quot;}</metadata>
+<rect width="1280" height="720" fill="#cfcfc6"/>
+<rect x="0" y="0" width="1280" height="76" fill="#171816"/>
+<text x="28" y="34" fill="#f1ecdc" font-family="sans-serif" font-size="24" font-weight="700">EP05-S05-SH006-F02</text>
+<text x="28" y="61" fill="#aca691" font-family="sans-serif" font-size="15">EP05-S05-SH006 · EP05-S05 · MUST · TECHNICAL</text>
+<path d="M 0 610 L 320 365 L 960 365 L 1280 610" fill="none" stroke="#62645e" stroke-width="3"/>
+<line x1="0" y1="365" x2="1280" y2="365" stroke="#62645e" stroke-width="2" stroke-dasharray="9 7"/>
+<line x1="640" y1="365" x2="640" y2="610" stroke="#62645e" stroke-width="2" stroke-dasharray="7 7"/>
+<rect x="80" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<rect x="1030" y="175" width="170" height="375" fill="none" stroke="#242522" stroke-width="5"/>
+<circle cx="652.0" cy="428.5" r="14.7" fill="none" stroke="#5e7478" stroke-width="5"/>
+<line x1="652.0" y1="443.1" x2="652.0" y2="473.8" stroke="#5e7478" stroke-width="7"/>
+<line x1="652.0" y1="413.8" x2="626.3" y2="453.8" stroke="#5e7478" stroke-width="6"/>
+<line x1="652.0" y1="413.8" x2="677.7" y2="448.8" stroke="#5e7478" stroke-width="6"/>
+<line x1="652.0" y1="473.8" x2="633.7" y2="543.8" stroke="#5e7478" stroke-width="7"/>
+<line x1="652.0" y1="473.8" x2="670.3" y2="543.8" stroke="#5e7478" stroke-width="7"/>
+<rect x="582.0" y="547.8" width="140" height="25" fill="#cfcfc6" opacity="0.94"/>
+<text x="588.0" y="565.8" fill="#242522" font-family="sans-serif" font-size="14">奥德修斯</text>
+<line x1="1035" y1="630" x2="235" y2="630" stroke="#5e7478" stroke-width="6"/>
+<path d="M 235 630 l 18 -12 l 0 24 z" fill="#5e7478"/>
+<text x="28" y="655" fill="#242522" font-family="sans-serif" font-size="15">MOVE: HANDHELD_CONTROLLED END</text>
+<path d="M 55 125 l 20 -35 l 20 35 z" fill="none" stroke="#8d3f36" stroke-width="5"/>
+<rect x="0" y="676" width="1280" height="44" fill="#171816"/>
+<text x="20" y="703" fill="#f1ecdc" font-family="sans-serif" font-size="14">芦苇 / 奥德修斯 / 斯刻里亚河口与岸林 geography; exits/pressure s…</text>
+<text x="790" y="703" fill="#aca691" font-family="sans-serif" font-size="13">props=浮帛,芦苇,落叶; wardrobe=W-OD-05-OGYGIA-RAFT-SALT; hmu=HMU-OD-…</text>
+</svg>
