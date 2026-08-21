@@ -1,0 +1,208 @@
+{
+  "artifact_class": "P5_VFX_TECHNICAL_PREVIS",
+  "sequence_id": "VP28-ARMORY-REVERSAL",
+  "classification": "TECHNICAL PREVIS — NOT FINAL VFX",
+  "summary": "armory route/reversal and screen-direction protection",
+  "source_scenes": [
+    "EP27-S05",
+    "EP28-S01",
+    "EP28-S02"
+  ],
+  "source_shots": [
+    "EP27-S05-SH001",
+    "EP27-S05-SH003",
+    "EP27-S05-SH005",
+    "EP28-S01-SH001",
+    "EP28-S01-SH003",
+    "EP28-S01-SH005",
+    "EP28-S01-SH007",
+    "EP28-S02-SH003",
+    "EP28-S02-SH005",
+    "EP28-S02-SH007"
+  ],
+  "runtime_seconds": 53.0,
+  "events": [
+    {
+      "shot_id": "EP27-S05-SH001",
+      "scene_id": "EP27-S05",
+      "start": 0.0,
+      "duration": 5.8,
+      "camera": "WS / S1-SOUTH-AXIS / CRANE_TOP",
+      "actor_blocking": "墨兰提俄斯抱着十二支矛和一叠盾回到求婚者后方。一件件武器从桌后传开。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        0.0,
+        5.8
+      ]
+    },
+    {
+      "shot_id": "EP27-S05-SH003",
+      "scene_id": "EP27-S05",
+      "start": 5.8,
+      "duration": 5.8,
+      "camera": "FS / S1-P2 / LATERAL_TRACK",
+      "actor_blocking": "奥德修斯把最后三箭从箭囊拔出，一支给每条狭道；空箭囊扔到脚边。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        5.8,
+        11.6
+      ]
+    },
+    {
+      "shot_id": "EP27-S05-SH005",
+      "scene_id": "EP27-S05",
+      "start": 11.6,
+      "duration": 4.8,
+      "camera": "MS3 / S1-NW-DAIS / PAN_TILT",
+      "actor_blocking": "奥德修斯把最后三箭从箭囊拔出，一支给每条狭道；空箭囊扔到脚边。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        11.6,
+        16.4
+      ]
+    },
+    {
+      "shot_id": "EP28-S01-SH001",
+      "scene_id": "EP28-S01",
+      "start": 16.4,
+      "duration": 5.8,
+      "camera": "WS / S1-SOUTH-AXIS / CRANE_TOP",
+      "actor_blocking": "欧迈俄斯和菲洛提俄斯从庭院棚顶翻进库房。墨兰提俄斯正抱第二批头盔，嘴里还咬着钥匙。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        16.4,
+        22.2
+      ]
+    },
+    {
+      "shot_id": "EP28-S01-SH003",
+      "scene_id": "EP28-S01",
+      "start": 22.2,
+      "duration": 5.8,
+      "camera": "FS / S1-P2 / LATERAL_TRACK",
+      "actor_blocking": "他们把库门上闩，将余下武器推离梯口，再带一捆长矛返回厅堂。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        22.2,
+        28.0
+      ]
+    },
+    {
+      "shot_id": "EP28-S01-SH005",
+      "scene_id": "EP28-S01",
+      "start": 28.0,
+      "duration": 4.8,
+      "camera": "MS3 / S1-NW-DAIS / PAN_TILT",
+      "actor_blocking": "两人扑倒他，用吊粮袋的绳把手脚反缚，拉到梁下。钥匙落地，菲洛提俄斯一脚踩住。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        28.0,
+        32.8
+      ]
+    },
+    {
+      "shot_id": "EP28-S01-SH007",
+      "scene_id": "EP28-S01",
+      "start": 32.8,
+      "duration": 4.8,
+      "camera": "MCU / S1-C0 / STATIC",
+      "actor_blocking": "他们把库门上闩，将余下武器推离梯口，再带一捆长矛返回厅堂。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        32.8,
+        37.6
+      ]
+    },
+    {
+      "shot_id": "EP28-S02-SH003",
+      "scene_id": "EP28-S02",
+      "start": 37.6,
+      "duration": 5.8,
+      "camera": "FS / S1-P2 / LATERAL_TRACK",
+      "actor_blocking": "雅典娜退到梁影，迫使他们完成第一轮反投。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        37.6,
+        43.4
+      ]
+    },
+    {
+      "shot_id": "EP28-S02-SH005",
+      "scene_id": "EP28-S02",
+      "start": 43.4,
+      "duration": 4.8,
+      "camera": "MS3 / S1-NW-DAIS / PAN_TILT",
+      "actor_blocking": "她用矛尾敲地，不出手。求婚者一轮六矛齐投；四人各自举盾、缩肩、移步。矛多数撞柱，一支划开忒勒马科斯上臂。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        43.4,
+        48.2
+      ]
+    },
+    {
+      "shot_id": "EP28-S02-SH007",
+      "scene_id": "EP28-S02",
+      "start": 48.2,
+      "duration": 4.8,
+      "camera": "MCU / S1-C0 / STATIC",
+      "actor_blocking": "雅典娜退到梁影，迫使他们完成第一轮反投。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        48.2,
+        53.0
+      ]
+    }
+  ],
+  "practical_vfx_boundary": "physical performer contact and foreground base; digital extension outside declared seam",
+  "status": "PASS_TEMPORAL_SPATIAL_PREVIS"
+}

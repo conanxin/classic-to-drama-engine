@@ -1,0 +1,207 @@
+{
+  "artifact_class": "P5_VFX_TECHNICAL_PREVIS",
+  "sequence_id": "VP14-SCYLLA",
+  "classification": "TECHNICAL PREVIS — NOT FINAL VFX",
+  "summary": "six readable victim vectors from a practical deck contact line",
+  "source_scenes": [
+    "EP14-S04",
+    "EP14-S05"
+  ],
+  "source_shots": [
+    "EP14-S04-SH001",
+    "EP14-S04-SH002",
+    "EP14-S04-SH003",
+    "EP14-S05-SH001",
+    "EP14-S05-SH002",
+    "EP14-S05-SH003",
+    "EP14-S05-SH004",
+    "EP14-S05-SH006",
+    "EP14-S05-SH007",
+    "EP14-S05-SH008"
+  ],
+  "runtime_seconds": 49.0,
+  "events": [
+    {
+      "shot_id": "EP14-S04-SH001",
+      "scene_id": "EP14-S04",
+      "start": 0.0,
+      "duration": 5.0,
+      "camera": "WS / U11-DRY-DECK / DOLLY_TRACK",
+      "actor_blocking": "左侧海水开始向下旋。右侧峭壁滴着黏液。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S04-SH002",
+      "scene_id": "EP14-S04",
+      "start": 5.0,
+      "duration": 4.0,
+      "camera": "MS2 / U11-TANK-EDGE / STATIC",
+      "actor_blocking": "欧律洛科斯把六枚骨子摊在甲板。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        5.0,
+        9.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S04-SH003",
+      "scene_id": "EP14-S04",
+      "start": 9.0,
+      "duration": 4.0,
+      "camera": "MCU / U11-MOTION-BASE / PUSH_PULL",
+      "actor_blocking": "他却披上甲，拿两支长矛走向船头。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        9.0,
+        13.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S05-SH001",
+      "scene_id": "EP14-S05",
+      "start": 13.0,
+      "duration": 5.8,
+      "camera": "WS / U11-DRY-DECK / CRANE_TOP",
+      "actor_blocking": "卡律布狄斯吸水，船向左倾。全员压右舷，刚好进入峭壁阴影。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        13.0,
+        18.8
+      ]
+    },
+    {
+      "shot_id": "EP14-S05-SH002",
+      "scene_id": "EP14-S05",
+      "start": 18.8,
+      "duration": 5.0,
+      "camera": "FS / U11-TANK-EDGE / DOLLY_TRACK",
+      "actor_blocking": "高处六道肢体同时落下，不像头，更像带牙的长臂。每一道准确卷住一个桨位。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        18.8,
+        23.8
+      ]
+    },
+    {
+      "shot_id": "EP14-S05-SH003",
+      "scene_id": "EP14-S05",
+      "start": 23.8,
+      "duration": 5.8,
+      "camera": "FS / U11-MOTION-BASE / LATERAL_TRACK",
+      "actor_blocking": "奥德修斯掷矛。矛钉进岩缝，什么也没救下。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        23.8,
+        29.6
+      ]
+    },
+    {
+      "shot_id": "EP14-S05-SH004",
+      "scene_id": "EP14-S05",
+      "start": 29.6,
+      "duration": 4.8,
+      "camera": "INSERT / U11-WATER-POV / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 被抓起的人本能喊自己的名字：德伊波忒斯、安菲达玛斯、波吕忒斯……名字一层压一层。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        29.6,
+        34.4
+      ]
+    },
+    {
+      "shot_id": "EP14-S05-SH006",
+      "scene_id": "EP14-S05",
+      "start": 34.4,
+      "duration": 4.0,
+      "camera": "INSERT / U11-DRY-DECK / RIGGED_POV",
+      "actor_blocking": "Keep custody/change legible in the same causal chain as: 高处六道肢体同时落下，不像头，更像带牙的长臂。每一道准确卷住一个桨位。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        34.4,
+        38.4
+      ]
+    },
+    {
+      "shot_id": "EP14-S05-SH007",
+      "scene_id": "EP14-S05",
+      "start": 38.4,
+      "duration": 5.8,
+      "camera": "WS / U11-TANK-EDGE / HANDHELD_CONTROLLED",
+      "actor_blocking": "海峡出口在前。奥德修斯从甲内取出喀耳刻的六枚骨子，一枚不少。他把它们扔进海里。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        38.4,
+        44.2
+      ]
+    },
+    {
+      "shot_id": "EP14-S05-SH008",
+      "scene_id": "EP14-S05",
+      "start": 44.2,
+      "duration": 4.8,
+      "camera": "MCU / U11-MOTION-BASE / STATIC",
+      "actor_blocking": "奥德修斯张口。欧律洛科斯等着。他只把盔摘下，提起水桶走向六个空位。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        44.2,
+        49.0
+      ]
+    }
+  ],
+  "practical_vfx_boundary": "physical performer contact and foreground base; digital extension outside declared seam",
+  "status": "PASS_TEMPORAL_SPATIAL_PREVIS"
+}

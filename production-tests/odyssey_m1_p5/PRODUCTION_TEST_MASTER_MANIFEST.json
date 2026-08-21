@@ -1,0 +1,94 @@
+{
+  "artifact_class": "P5_DESKTOP_PRODUCTION_TEST_MASTER_MANIFEST",
+  "test_count": 17,
+  "passes": 17,
+  "tests": [
+    {
+      "test_id": "CYCLOPS_SCALE",
+      "status": "PASS",
+      "limitation": "no real lens/performer/animal/rig test"
+    },
+    {
+      "test_id": "SCYLLA_SIX_GRAB",
+      "status": "PASS",
+      "limitation": "no real harness/stunt test"
+    },
+    {
+      "test_id": "EP26_28_44_BEATS",
+      "status": "PASS",
+      "limitation": "no stunt rehearsal"
+    },
+    {
+      "test_id": "RECOGNITION_ARGOS",
+      "status": "PASS",
+      "limitation": "silent timing; no actor performance"
+    },
+    {
+      "test_id": "RECOGNITION_SCAR",
+      "status": "PASS",
+      "limitation": "silent timing; no actor performance"
+    },
+    {
+      "test_id": "RECOGNITION_BOW",
+      "status": "PASS",
+      "limitation": "silent timing; no actor performance"
+    },
+    {
+      "test_id": "RECOGNITION_BED",
+      "status": "PASS",
+      "limitation": "silent timing; no actor performance"
+    },
+    {
+      "test_id": "RECOGNITION_LAERTES_LAND",
+      "status": "PASS",
+      "limitation": "silent timing; no actor performance"
+    },
+    {
+      "test_id": "GRAMMAR_HOME",
+      "status": "PASS",
+      "limitation": "desktop edit extract"
+    },
+    {
+      "test_id": "GRAMMAR_SEA",
+      "status": "PASS",
+      "limitation": "desktop edit extract"
+    },
+    {
+      "test_id": "GRAMMAR_MEMORY",
+      "status": "PASS",
+      "limitation": "desktop edit extract"
+    },
+    {
+      "test_id": "GRAMMAR_DISGUISE",
+      "status": "PASS",
+      "limitation": "desktop edit extract"
+    },
+    {
+      "test_id": "GRAMMAR_RECOGNITION",
+      "status": "PASS",
+      "limitation": "desktop edit extract"
+    },
+    {
+      "test_id": "GRAMMAR_DIVINE_CONDITION",
+      "status": "PASS",
+      "limitation": "desktop edit extract"
+    },
+    {
+      "test_id": "GRAMMAR_VIOLENCE",
+      "status": "PASS",
+      "limitation": "desktop edit extract"
+    },
+    {
+      "test_id": "GRAMMAR_RETURN",
+      "status": "PASS",
+      "limitation": "desktop edit extract"
+    },
+    {
+      "test_id": "TEMP_COLOR_PIPELINE_8",
+      "status": "PASS",
+      "limitation": "not calibrated DI"
+    }
+  ],
+  "honesty": "ALL TESTS ARE DESKTOP/VIRTUAL PREPRODUCTION TESTS; NO PHYSICAL TEST CLAIMED",
+  "status": "PASS"
+}

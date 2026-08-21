@@ -1,0 +1,207 @@
+{
+  "artifact_class": "P5_VFX_TECHNICAL_PREVIS",
+  "sequence_id": "VP26-FIRST-KILL",
+  "classification": "TECHNICAL PREVIS — NOT FINAL VFX",
+  "summary": "S1 sightline, bow custody and first-blood boundary",
+  "source_scenes": [
+    "EP26-S04",
+    "EP26-S05"
+  ],
+  "source_shots": [
+    "EP26-S04-SH001",
+    "EP26-S04-SH002",
+    "EP26-S04-SH003",
+    "EP26-S04-SH004",
+    "EP26-S05-SH001",
+    "EP26-S05-SH003",
+    "EP26-S05-SH004",
+    "EP26-S05-SH005",
+    "EP26-S05-SH006",
+    "EP26-S05-SH007"
+  ],
+  "runtime_seconds": 49.8,
+  "events": [
+    {
+      "shot_id": "EP26-S04-SH001",
+      "scene_id": "EP26-S04",
+      "start": 0.0,
+      "duration": 5.0,
+      "camera": "WS / S1-SOUTH-AXIS / DOLLY_TRACK",
+      "actor_blocking": "忒勒马科斯拔剑，跨到奥德修斯右侧；不是挡在父亲前面，也不是躲在后面。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "shot_id": "EP26-S04-SH002",
+      "scene_id": "EP26-S04",
+      "start": 5.0,
+      "duration": 4.0,
+      "camera": "MS2 / S1-WW-E / STATIC",
+      "actor_blocking": "奥德修斯扯掉破斗篷。老人妆仍在，站姿已经不是乞丐。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        5.0,
+        9.0
+      ]
+    },
+    {
+      "shot_id": "EP26-S04-SH003",
+      "scene_id": "EP26-S04",
+      "start": 9.0,
+      "duration": 4.0,
+      "camera": "MCU / S1-P2 / PUSH_PULL",
+      "actor_blocking": "安提诺俄斯仍坐主位，用奥德修斯双耳杯喝酒，以为这是少年与乞丐的把戏。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        9.0,
+        13.0
+      ]
+    },
+    {
+      "shot_id": "EP26-S04-SH004",
+      "scene_id": "EP26-S04",
+      "start": 13.0,
+      "duration": 5.0,
+      "camera": "FS / S1-WW-W / PAN_TILT",
+      "actor_blocking": "无人立刻动。那声弦鸣还留在每个人耳里。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        13.0,
+        18.0
+      ]
+    },
+    {
+      "shot_id": "EP26-S05-SH001",
+      "scene_id": "EP26-S05",
+      "start": 18.0,
+      "duration": 5.8,
+      "camera": "WS / S1-SOUTH-AXIS / CRANE_TOP",
+      "actor_blocking": "奥德修斯瞄准。安提诺俄斯正仰头喝最后一口，双耳杯遮住视线。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        18.0,
+        23.8
+      ]
+    },
+    {
+      "shot_id": "EP26-S05-SH003",
+      "scene_id": "EP26-S05",
+      "start": 23.8,
+      "duration": 5.8,
+      "camera": "FS / S1-P2 / LATERAL_TRACK",
+      "actor_blocking": "安提诺俄斯抓住杯耳，没抓住箭。他倒下，桌子翻起，食物泼满地。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        23.8,
+        29.6
+      ]
+    },
+    {
+      "shot_id": "EP26-S05-SH004",
+      "scene_id": "EP26-S05",
+      "start": 29.6,
+      "duration": 4.8,
+      "camera": "INSERT / S1-WW-W / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 奥德修斯从箭囊抽第二支。当前可用箭：十一。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        29.6,
+        34.4
+      ]
+    },
+    {
+      "shot_id": "EP26-S05-SH005",
+      "scene_id": "EP26-S05",
+      "start": 34.4,
+      "duration": 4.8,
+      "camera": "MS3 / S1-NW-DAIS / PAN_TILT",
+      "actor_blocking": "奥德修斯从箭囊抽第二支。当前可用箭：十一。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        34.4,
+        39.2
+      ]
+    },
+    {
+      "shot_id": "EP26-S05-SH006",
+      "scene_id": "EP26-S05",
+      "start": 39.2,
+      "duration": 5.8,
+      "camera": "WS / S1-OVERHEAD / HANDHELD_CONTROLLED",
+      "actor_blocking": "求婚者涌向空武器墙，摸到的只有挂钩。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        39.2,
+        45.0
+      ]
+    },
+    {
+      "shot_id": "EP26-S05-SH007",
+      "scene_id": "EP26-S05",
+      "start": 45.0,
+      "duration": 4.8,
+      "camera": "MCU / S1-C0 / STATIC",
+      "actor_blocking": "忒勒马科斯用脚把父亲的双耳杯从血里踢到柱后，留住而不去捡。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        45.0,
+        49.8
+      ]
+    }
+  ],
+  "practical_vfx_boundary": "physical performer contact and foreground base; digital extension outside declared seam",
+  "status": "PASS_TEMPORAL_SPATIAL_PREVIS"
+}

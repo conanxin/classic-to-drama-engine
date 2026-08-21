@@ -1,0 +1,207 @@
+{
+  "artifact_class": "P5_VFX_TECHNICAL_PREVIS",
+  "sequence_id": "VP14-SIRENS",
+  "classification": "TECHNICAL PREVIS — NOT FINAL VFX",
+  "summary": "mast restraint, performer eyeline and sound-led offscreen field",
+  "source_scenes": [
+    "EP14-S02",
+    "EP14-S03"
+  ],
+  "source_shots": [
+    "EP14-S02-SH001",
+    "EP14-S02-SH002",
+    "EP14-S02-SH003",
+    "EP14-S02-SH004",
+    "EP14-S02-SH005",
+    "EP14-S03-SH002",
+    "EP14-S03-SH003",
+    "EP14-S03-SH004",
+    "EP14-S03-SH005",
+    "EP14-S03-SH006"
+  ],
+  "runtime_seconds": 43.0,
+  "events": [
+    {
+      "shot_id": "EP14-S02-SH001",
+      "scene_id": "EP14-S02",
+      "start": 0.0,
+      "duration": 4.0,
+      "camera": "MS2 / S3-FOREDECK-AFT / DOLLY_TRACK",
+      "actor_blocking": "他把指挥刀交给欧律洛科斯，背靠桅杆。第一道绳绕胸，第二道绕膝，第三道压住手腕。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        0.0,
+        4.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S02-SH002",
+      "scene_id": "EP14-S02",
+      "start": 4.0,
+      "duration": 4.0,
+      "camera": "MS3 / S3-MAST-PORT / LATERAL_TRACK",
+      "actor_blocking": "欧律洛科斯把六枚骨子从他腰袋摸出，看见数字，抬眼。远处第一声歌已到，船员听不见他的质问。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        4.0,
+        8.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S02-SH003",
+      "scene_id": "EP14-S02",
+      "start": 8.0,
+      "duration": 5.0,
+      "camera": "FS / S3-OAR-LINE / PAN_TILT",
+      "actor_blocking": "他把指挥刀交给欧律洛科斯，背靠桅杆。第一道绳绕胸，第二道绕膝，第三道压住手腕。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        8.0,
+        13.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S02-SH004",
+      "scene_id": "EP14-S02",
+      "start": 13.0,
+      "duration": 4.0,
+      "camera": "CU / S3-STERN-FORWARD / STATIC",
+      "actor_blocking": "他把指挥刀交给欧律洛科斯，背靠桅杆。第一道绳绕胸，第二道绕膝，第三道压住手腕。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        13.0,
+        17.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S02-SH005",
+      "scene_id": "EP14-S02",
+      "start": 17.0,
+      "duration": 5.0,
+      "camera": "WS / S3-RIG-HIGH / STATIC",
+      "actor_blocking": "欧律洛科斯把六枚骨子从他腰袋摸出，看见数字，抬眼。远处第一声歌已到，船员听不见他的质问。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        17.0,
+        22.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S03-SH002",
+      "scene_id": "EP14-S03",
+      "start": 22.0,
+      "duration": 4.0,
+      "camera": "MS2 / S3-MAST-PORT / STATIC",
+      "actor_blocking": "无人回头。欧律洛科斯看见他口形，照约定再加一绳。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        22.0,
+        26.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S03-SH003",
+      "scene_id": "EP14-S03",
+      "start": 26.0,
+      "duration": 4.0,
+      "camera": "MS / S3-OAR-LINE / DOLLY_TRACK",
+      "actor_blocking": "无人回头。欧律洛科斯看见他口形，照约定再加一绳。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        26.0,
+        30.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S03-SH004",
+      "scene_id": "EP14-S03",
+      "start": 30.0,
+      "duration": 4.0,
+      "camera": "INSERT / S3-STERN-FORWARD / STATIC",
+      "actor_blocking": "Keep custody/change legible in the same causal chain as: 无人回头。欧律洛科斯看见他口形，照约定再加一绳。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        30.0,
+        34.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S03-SH005",
+      "scene_id": "EP14-S03",
+      "start": 34.0,
+      "duration": 4.0,
+      "camera": "MCU / S3-RIG-HIGH / STATIC",
+      "actor_blocking": "歌声断掉时，奥德修斯仍在说“再近一点”。船员拔出耳蜡，听见的只有喘息。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        34.0,
+        38.0
+      ]
+    },
+    {
+      "shot_id": "EP14-S03-SH006",
+      "scene_id": "EP14-S03",
+      "start": 38.0,
+      "duration": 5.0,
+      "camera": "WS / S3-FOREDECK-AFT / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 海面平得像镜。远岸坐着几个人形，脚边堆着锈盔与白骨。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        38.0,
+        43.0
+      ]
+    }
+  ],
+  "practical_vfx_boundary": "physical performer contact and foreground base; digital extension outside declared seam",
+  "status": "PASS_TEMPORAL_SPATIAL_PREVIS"
+}

@@ -1,0 +1,106 @@
+{
+  "artifact_class": "P5_VFX_PREVIS_MASTER_MANIFEST",
+  "required_sequences": 12,
+  "sequence_coverage": "12/12",
+  "classification": "TECHNICAL PREVIS — NOT FINAL VFX",
+  "sequences": [
+    {
+      "sequence_id": "VP05-STORM",
+      "runtime_seconds": 42.625,
+      "source_shot_count": 8,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP05-STORM_TECHNICAL_PREVIS.mp4",
+      "sha256": "e0e454121a475e3d04b5f3f2616058435eb9dd1f644e16737d8536401d8a7a2e",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP10-CYCLOPS",
+      "runtime_seconds": 49.0,
+      "source_shot_count": 10,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP10-CYCLOPS_TECHNICAL_PREVIS.mp4",
+      "sha256": "40550076e1f40a5aeecfd13927209d5e0150a569e02103d0d6f3c25ecd2da56a",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP11-FLEET-DESTRUCTION",
+      "runtime_seconds": 42.625,
+      "source_shot_count": 8,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP11-FLEET-DESTRUCTION_TECHNICAL_PREVIS.mp4",
+      "sha256": "fa23c3c5c844bacc6f208724a8240109822d2d7a86f015c19e96af0ddf02056e",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP13-UNDERWORLD",
+      "runtime_seconds": 47.0,
+      "source_shot_count": 10,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP13-UNDERWORLD_TECHNICAL_PREVIS.mp4",
+      "sha256": "6acead12a11dc568446a8159dd7555c74eaa7f7c4ac7acc1f498081299fe1b75",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP14-SIRENS",
+      "runtime_seconds": 43.0,
+      "source_shot_count": 10,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP14-SIRENS_TECHNICAL_PREVIS.mp4",
+      "sha256": "5152ab684048f4e268ac1aa890650687aabe9322329a5cfa430d429eb358aeab",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP14-SCYLLA",
+      "runtime_seconds": 49.0,
+      "source_shot_count": 10,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP14-SCYLLA_TECHNICAL_PREVIS.mp4",
+      "sha256": "2999632beabb5601681e570829a425c5d1af90ed424dccc1c9aa19d151b47a3d",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP15-WRECK",
+      "runtime_seconds": 42.625,
+      "source_shot_count": 8,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP15-WRECK_TECHNICAL_PREVIS.mp4",
+      "sha256": "bfa086a28bf7ced217bedc8e1b99f1b0dc112c361a3df11b3b2a4b4fc8f0bffe",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP16-PETRIFICATION",
+      "runtime_seconds": 31.0,
+      "source_shot_count": 7,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP16-PETRIFICATION_TECHNICAL_PREVIS.mp4",
+      "sha256": "787fd63b874d5ae79290304eefc53fad5f8e4e18cdabac6862404ee1bff42b0e",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP26-FIRST-KILL",
+      "runtime_seconds": 49.8,
+      "source_shot_count": 10,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP26-FIRST-KILL_TECHNICAL_PREVIS.mp4",
+      "sha256": "46b92212f157e19e03bde61707d01bd6c16be647a653639c5bda46644dbbf269",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP27-HALL-BATTLE",
+      "runtime_seconds": 53.0,
+      "source_shot_count": 10,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP27-HALL-BATTLE_TECHNICAL_PREVIS.mp4",
+      "sha256": "bf18fde598ced5d3eec1c15a36a764d70a1608f4b8afe90bc6f6e2babbbd0809",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP28-ARMORY-REVERSAL",
+      "runtime_seconds": 53.0,
+      "source_shot_count": 10,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP28-ARMORY-REVERSAL_TECHNICAL_PREVIS.mp4",
+      "sha256": "d3a96369d40fb4432af1889dfc2d292a638c16febdf9218de2a1e17ffee5c7fd",
+      "status": "PASS"
+    },
+    {
+      "sequence_id": "VP30-CIVIC-FIELD",
+      "runtime_seconds": 48.4,
+      "source_shot_count": 10,
+      "file": "vfx-previs/odyssey_m1_p5/sequences/VP30-CIVIC-FIELD_TECHNICAL_PREVIS.mp4",
+      "sha256": "0f157b6f0b9abdfb6da135eeed5de96355802ba7f35bdfad97a1797fadb2897c",
+      "status": "PASS"
+    }
+  ],
+  "total_runtime_seconds": 551.075,
+  "status": "PASS_12_OF_12"
+}

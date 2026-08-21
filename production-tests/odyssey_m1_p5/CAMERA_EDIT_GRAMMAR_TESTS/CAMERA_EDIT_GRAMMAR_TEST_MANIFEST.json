@@ -1,0 +1,118 @@
+{
+  "artifact_class": "P5_CAMERA_EDIT_GRAMMAR_TESTS",
+  "tests": [
+    {
+      "grammar": "HOME",
+      "scene_id": "EP01-S01",
+      "shot_ids": [
+        "EP01-S01-SH001",
+        "EP01-S01-SH002",
+        "EP01-S01-SH003",
+        "EP01-S01-SH004",
+        "EP01-S01-SH005"
+      ],
+      "runtime_seconds": 21.8,
+      "distinctive_read": "PASS"
+    },
+    {
+      "grammar": "SEA",
+      "scene_id": "EP05-S04",
+      "shot_ids": [
+        "EP05-S04-SH001",
+        "EP05-S04-SH002",
+        "EP05-S04-SH003",
+        "EP05-S04-SH004",
+        "EP05-S04-SH005",
+        "EP05-S04-SH006",
+        "EP05-S04-SH007"
+      ],
+      "runtime_seconds": 30.875,
+      "distinctive_read": "PASS"
+    },
+    {
+      "grammar": "MEMORY",
+      "scene_id": "EP13-S03",
+      "shot_ids": [
+        "EP13-S03-SH001",
+        "EP13-S03-SH002",
+        "EP13-S03-SH003",
+        "EP13-S03-SH004",
+        "EP13-S03-SH005",
+        "EP13-S03-SH006",
+        "EP13-S03-SH007"
+      ],
+      "runtime_seconds": 30.875,
+      "distinctive_read": "PASS"
+    },
+    {
+      "grammar": "DISGUISE",
+      "scene_id": "EP20-S03",
+      "shot_ids": [
+        "EP20-S03-SH001",
+        "EP20-S03-SH002",
+        "EP20-S03-SH003",
+        "EP20-S03-SH004",
+        "EP20-S03-SH005"
+      ],
+      "runtime_seconds": 21.8,
+      "distinctive_read": "PASS"
+    },
+    {
+      "grammar": "RECOGNITION",
+      "scene_id": "EP29-S04",
+      "shot_ids": [
+        "EP29-S04-SH001",
+        "EP29-S04-SH002",
+        "EP29-S04-SH003",
+        "EP29-S04-SH004",
+        "EP29-S04-SH005"
+      ],
+      "runtime_seconds": 21.8,
+      "distinctive_read": "PASS"
+    },
+    {
+      "grammar": "DIVINE_CONDITION",
+      "scene_id": "EP16-S04",
+      "shot_ids": [
+        "EP16-S04-SH001",
+        "EP16-S04-SH002",
+        "EP16-S04-SH003",
+        "EP16-S04-SH004",
+        "EP16-S04-SH005",
+        "EP16-S04-SH006"
+      ],
+      "runtime_seconds": 27.0,
+      "distinctive_read": "PASS"
+    },
+    {
+      "grammar": "VIOLENCE",
+      "scene_id": "EP27-S02",
+      "shot_ids": [
+        "EP27-S02-SH001",
+        "EP27-S02-SH002",
+        "EP27-S02-SH003",
+        "EP27-S02-SH004",
+        "EP27-S02-SH005",
+        "EP27-S02-SH006",
+        "EP27-S02-SH007"
+      ],
+      "runtime_seconds": 30.875,
+      "distinctive_read": "PASS"
+    },
+    {
+      "grammar": "RETURN",
+      "scene_id": "EP30-S05",
+      "shot_ids": [
+        "EP30-S05-SH001",
+        "EP30-S05-SH002",
+        "EP30-S05-SH003",
+        "EP30-S05-SH004",
+        "EP30-S05-SH005",
+        "EP30-S05-SH006"
+      ],
+      "runtime_seconds": 27.0,
+      "distinctive_read": "PASS"
+    }
+  ],
+  "status": "PASS_8_OF_8"
+}

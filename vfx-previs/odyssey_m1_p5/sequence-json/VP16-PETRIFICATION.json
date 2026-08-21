@@ -1,0 +1,149 @@
+{
+  "artifact_class": "P5_VFX_TECHNICAL_PREVIS",
+  "sequence_id": "VP16-PETRIFICATION",
+  "classification": "TECHNICAL PREVIS — NOT FINAL VFX",
+  "summary": "practical ship/shore plate with staged texture and petrification comp",
+  "source_scenes": [
+    "EP16-S02"
+  ],
+  "source_shots": [
+    "EP16-S02-SH001",
+    "EP16-S02-SH002",
+    "EP16-S02-SH003",
+    "EP16-S02-SH004",
+    "EP16-S02-SH005",
+    "EP16-S02-SH006",
+    "EP16-S02-SH007"
+  ],
+  "runtime_seconds": 31.0,
+  "events": [
+    {
+      "shot_id": "EP16-S02-SH001",
+      "scene_id": "EP16-S02",
+      "start": 0.0,
+      "duration": 5.0,
+      "camera": "WS / S2-THRESHOLD-IN / STATIC",
+      "actor_blocking": "返航船驶近斯刻里亚。波塞冬的三叉影落在水下。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "shot_id": "EP16-S02-SH002",
+      "scene_id": "EP16-S02",
+      "start": 5.0,
+      "duration": 4.0,
+      "camera": "MS2 / S2-WORK-AXIS / DOLLY_TRACK",
+      "actor_blocking": "一声低响从龙骨传到每支桨。木纹由内向外变灰，桨手再划，桨已连成石头。船在离岸一箭处停成礁。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        5.0,
+        9.0
+      ]
+    },
+    {
+      "shot_id": "EP16-S02-SH003",
+      "scene_id": "EP16-S02",
+      "start": 9.0,
+      "duration": 5.0,
+      "camera": "WS / S2-COURT-LATERAL / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 岸上的阿尔喀诺俄斯认出父辈的预言，命人把船坞封链。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        9.0,
+        14.0
+      ]
+    },
+    {
+      "shot_id": "EP16-S02-SH004",
+      "scene_id": "EP16-S02",
+      "start": 14.0,
+      "duration": 4.0,
+      "camera": "INSERT / S2-DAIS-RETURN / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 最后一条神奇返乡路被潮水拍打，纹丝不动。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        14.0,
+        18.0
+      ]
+    },
+    {
+      "shot_id": "EP16-S02-SH005",
+      "scene_id": "EP16-S02",
+      "start": 18.0,
+      "duration": 4.0,
+      "camera": "POV / S2-WILD-EAST / RIGGED_POV",
+      "actor_blocking": "岸上的阿尔喀诺俄斯认出父辈的预言，命人把船坞封链。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        18.0,
+        22.0
+      ]
+    },
+    {
+      "shot_id": "EP16-S02-SH006",
+      "scene_id": "EP16-S02",
+      "start": 22.0,
+      "duration": 4.0,
+      "camera": "MCU / S2-THRESHOLD-IN / PUSH_PULL",
+      "actor_blocking": "岸上的阿尔喀诺俄斯认出父辈的预言，命人把船坞封链。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        22.0,
+        26.0
+      ]
+    },
+    {
+      "shot_id": "EP16-S02-SH007",
+      "scene_id": "EP16-S02",
+      "start": 26.0,
+      "duration": 5.0,
+      "camera": "WS / S2-WORK-AXIS / STATIC",
+      "actor_blocking": "最后一条神奇返乡路被潮水拍打，纹丝不动。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        26.0,
+        31.0
+      ]
+    }
+  ],
+  "practical_vfx_boundary": "physical performer contact and foreground base; digital extension outside declared seam",
+  "status": "PASS_TEMPORAL_SPATIAL_PREVIS"
+}

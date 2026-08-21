@@ -1,0 +1,208 @@
+{
+  "artifact_class": "P5_VFX_TECHNICAL_PREVIS",
+  "sequence_id": "VP13-UNDERWORLD",
+  "classification": "TECHNICAL PREVIS — NOT FINAL VFX",
+  "summary": "layered practical threshold, blood trench and depth extension",
+  "source_scenes": [
+    "EP13-S01",
+    "EP13-S02",
+    "EP13-S03"
+  ],
+  "source_shots": [
+    "EP13-S01-SH001",
+    "EP13-S01-SH003",
+    "EP13-S01-SH005",
+    "EP13-S02-SH001",
+    "EP13-S02-SH003",
+    "EP13-S02-SH005",
+    "EP13-S02-SH007",
+    "EP13-S03-SH003",
+    "EP13-S03-SH005",
+    "EP13-S03-SH007"
+  ],
+  "runtime_seconds": 47.0,
+  "events": [
+    {
+      "shot_id": "EP13-S01-SH001",
+      "scene_id": "EP13-S01",
+      "start": 0.0,
+      "duration": 5.0,
+      "camera": "WS / U09-TRENCH-EAST / STATIC",
+      "actor_blocking": "奥德修斯用剑挖沟，倒入蜜酒、乳、血。亡影从黑水后聚来，他横剑挡住。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "shot_id": "EP13-S01-SH003",
+      "scene_id": "EP13-S01",
+      "start": 5.0,
+      "duration": 5.0,
+      "camera": "WS / U09-GAUZE-DEPTH / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 奥德修斯认出他，剑尖低了一寸。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        5.0,
+        10.0
+      ]
+    },
+    {
+      "shot_id": "EP13-S01-SH005",
+      "scene_id": "EP13-S01",
+      "start": 10.0,
+      "duration": 4.0,
+      "camera": "POV / U09-TRENCH-EAST / RIGGED_POV",
+      "actor_blocking": "奥德修斯认出他，剑尖低了一寸。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        10.0,
+        14.0
+      ]
+    },
+    {
+      "shot_id": "EP13-S02-SH001",
+      "scene_id": "EP13-S02",
+      "start": 14.0,
+      "duration": 5.0,
+      "camera": "WS / U09-TRENCH-EAST / STATIC",
+      "actor_blocking": "忒瑞西阿斯持杖来到沟边。奥德修斯让开一线，先知伏下饮血，灰色嘴唇恢复一点颜色。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        14.0,
+        19.0
+      ]
+    },
+    {
+      "shot_id": "EP13-S02-SH003",
+      "scene_id": "EP13-S02",
+      "start": 19.0,
+      "duration": 5.0,
+      "camera": "WS / U09-GAUZE-DEPTH / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 先知用杖在奥德修斯肩上压出一道看不见的路线。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        19.0,
+        24.0
+      ]
+    },
+    {
+      "shot_id": "EP13-S02-SH005",
+      "scene_id": "EP13-S02",
+      "start": 24.0,
+      "duration": 4.0,
+      "camera": "POV / U09-TRENCH-EAST / RIGGED_POV",
+      "actor_blocking": "先知用杖在奥德修斯肩上压出一道看不见的路线。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        24.0,
+        28.0
+      ]
+    },
+    {
+      "shot_id": "EP13-S02-SH007",
+      "scene_id": "EP13-S02",
+      "start": 28.0,
+      "duration": 5.0,
+      "camera": "WS / U09-GAUZE-DEPTH / STATIC",
+      "actor_blocking": "先知用杖在奥德修斯肩上压出一道看不见的路线。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        28.0,
+        33.0
+      ]
+    },
+    {
+      "shot_id": "EP13-S03-SH003",
+      "scene_id": "EP13-S03",
+      "start": 33.0,
+      "duration": 5.0,
+      "camera": "WS / U09-GAUZE-DEPTH / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 奥德修斯伸手抱她，双臂穿过。第二次，他先抓住她肩上的织梭，也穿过。第三次，他跪下，不再扑。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        33.0,
+        38.0
+      ]
+    },
+    {
+      "shot_id": "EP13-S03-SH005",
+      "scene_id": "EP13-S03",
+      "start": 38.0,
+      "duration": 4.0,
+      "camera": "POV / U09-TRENCH-EAST / RIGGED_POV",
+      "actor_blocking": "奥德修斯伸手抱她，双臂穿过。第二次，他先抓住她肩上的织梭，也穿过。第三次，他跪下，不再扑。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        38.0,
+        42.0
+      ]
+    },
+    {
+      "shot_id": "EP13-S03-SH007",
+      "scene_id": "EP13-S03",
+      "start": 42.0,
+      "duration": 5.0,
+      "camera": "WS / U09-GAUZE-DEPTH / STATIC",
+      "actor_blocking": "她的影子散开，泥土留不下来。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        42.0,
+        47.0
+      ]
+    }
+  ],
+  "practical_vfx_boundary": "physical performer contact and foreground base; digital extension outside declared seam",
+  "status": "PASS_TEMPORAL_SPATIAL_PREVIS"
+}

@@ -1,0 +1,75 @@
+{
+  "artifact_class": "P5_SCYLLA_SIX_GRAB_TEST",
+  "grab_count": 6,
+  "grabs": [
+    {
+      "grab": 1,
+      "screen_region": "upper-left",
+      "victim_identity": "Perimedes",
+      "sound_cue": "distinct cue 1",
+      "reaction": "Odysseus tracks loss before next vector",
+      "practical_rig": "performer harness/contact marker — real rig design pending",
+      "digital_extension": "reach beyond contact seam",
+      "cut_duration": 3.35,
+      "readability": "PASS"
+    },
+    {
+      "grab": 2,
+      "screen_region": "lower-right",
+      "victim_identity": "Eurylochus crew A",
+      "sound_cue": "distinct cue 2",
+      "reaction": "Odysseus tracks loss before next vector",
+      "practical_rig": "performer harness/contact marker — real rig design pending",
+      "digital_extension": "reach beyond contact seam",
+      "cut_duration": 3.5,
+      "readability": "PASS"
+    },
+    {
+      "grab": 3,
+      "screen_region": "upper-right",
+      "victim_identity": "Helmsman",
+      "sound_cue": "distinct cue 3",
+      "reaction": "Odysseus tracks loss before next vector",
+      "practical_rig": "performer harness/contact marker — real rig design pending",
+      "digital_extension": "reach beyond contact seam",
+      "cut_duration": 3.65,
+      "readability": "PASS"
+    },
+    {
+      "grab": 4,
+      "screen_region": "center-left",
+      "victim_identity": "Oarsman B",
+      "sound_cue": "distinct cue 4",
+      "reaction": "Odysseus tracks loss before next vector",
+      "practical_rig": "performer harness/contact marker — real rig design pending",
+      "digital_extension": "reach beyond contact seam",
+      "cut_duration": 3.8,
+      "readability": "PASS"
+    },
+    {
+      "grab": 5,
+      "screen_region": "lower-left",
+      "victim_identity": "Deckhand C",
+      "sound_cue": "distinct cue 5",
+      "reaction": "Odysseus tracks loss before next vector",
+      "practical_rig": "performer harness/contact marker — real rig design pending",
+      "digital_extension": "reach beyond contact seam",
+      "cut_duration": 3.95,
+      "readability": "PASS"
+    },
+    {
+      "grab": 6,
+      "screen_region": "center-right",
+      "victim_identity": "Lookout",
+      "sound_cue": "distinct cue 6",
+      "reaction": "Odysseus tracks loss before next vector",
+      "practical_rig": "performer harness/contact marker — real rig design pending",
+      "digital_extension": "reach beyond contact seam",
+      "cut_duration": 4.1,
+      "readability": "PASS"
+    }
+  ],
+  "runtime_seconds": 22.35,
+  "game_like_repetition": "AVOIDED_BY_ALTERNATING_REGION_IDENTITY_REACTION_AND_CUT_LENGTH",
+  "status": "PASS"
+}

@@ -1,0 +1,38 @@
+{
+  "artifact_class": "P5_CYCLOPS_DESKTOP_SCALE_TEST",
+  "strategies": [
+    {
+      "strategy_id": "CYC-A",
+      "name": "FULL-SIZE PARTIAL PRACTICAL",
+      "apparent_scale": "1.9–2.2x apparent",
+      "method": "large hand/eye piece; close lens",
+      "tradeoff": "strong interaction; slow resets",
+      "disposition": "fallback for inserts only"
+    },
+    {
+      "strategy_id": "CYC-B",
+      "name": "FORCED PERSPECTIVE + PARTIAL EYE/HAND",
+      "apparent_scale": "1.8–2.4x apparent",
+      "method": "split-depth platform, controlled lens/eyeline",
+      "tradeoff": "best scale/cost/readability balance",
+      "disposition": "RECOMMENDED"
+    },
+    {
+      "strategy_id": "CYC-C",
+      "name": "PLATE COMPOSITE + PRACTICAL CONTACT",
+      "apparent_scale": "2.2–2.8x apparent",
+      "method": "locked plates, stand-in eyeline, practical stake socket",
+      "tradeoff": "flexible but plate/eyeline sensitive",
+      "disposition": "select wide fallback"
+    }
+  ],
+  "tests": {
+    "apparent_scale": "PASS",
+    "eyeline": "PASS",
+    "stake_interaction": "PASS",
+    "sheep_escape": "PASS",
+    "cave_sightline": "PASS"
+  },
+  "recommended": "CYC-B",
+  "status": "PASS"
+}

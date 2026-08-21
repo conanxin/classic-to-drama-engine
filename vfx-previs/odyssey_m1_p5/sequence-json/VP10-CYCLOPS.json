@@ -1,0 +1,208 @@
+{
+  "artifact_class": "P5_VFX_TECHNICAL_PREVIS",
+  "sequence_id": "VP10-CYCLOPS",
+  "classification": "TECHNICAL PREVIS — NOT FINAL VFX",
+  "summary": "forced-scale cave, eye/stake interface and sheep escape sightline",
+  "source_scenes": [
+    "EP10-S01",
+    "EP10-S03",
+    "EP10-S04"
+  ],
+  "source_shots": [
+    "EP10-S01-SH001",
+    "EP10-S01-SH004",
+    "EP10-S01-SH006",
+    "EP10-S03-SH001",
+    "EP10-S03-SH003",
+    "EP10-S03-SH006",
+    "EP10-S03-SH008",
+    "EP10-S04-SH003",
+    "EP10-S04-SH005",
+    "EP10-S04-SH008"
+  ],
+  "runtime_seconds": 49.0,
+  "events": [
+    {
+      "shot_id": "EP10-S01-SH001",
+      "scene_id": "EP10-S01",
+      "start": 0.0,
+      "duration": 5.8,
+      "camera": "WS / S5-SHORE-LATERAL / CRANE_TOP",
+      "actor_blocking": "波吕斐摩斯睡在洞口前。奥德修斯爬到他颈侧，青铜剑悬在跳动的血管上。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        0.0,
+        5.8
+      ]
+    },
+    {
+      "shot_id": "EP10-S01-SH004",
+      "scene_id": "EP10-S01",
+      "start": 5.8,
+      "duration": 4.8,
+      "camera": "INSERT / S5-WATER-EDGE / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 奥德修斯盯住波吕斐摩斯手中的整树木杖。巨人出洞后，他把手掌贴上木杖，量出需要截下的长度。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        5.8,
+        10.6
+      ]
+    },
+    {
+      "shot_id": "EP10-S01-SH006",
+      "scene_id": "EP10-S01",
+      "start": 10.6,
+      "duration": 4.0,
+      "camera": "INSERT / S5-SHORE-LATERAL / RIGGED_POV",
+      "actor_blocking": "Keep custody/change legible in the same causal chain as: 波吕斐摩斯睡在洞口前。奥德修斯爬到他颈侧，青铜剑悬在跳动的血管上。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        10.6,
+        14.6
+      ]
+    },
+    {
+      "shot_id": "EP10-S03-SH001",
+      "scene_id": "EP10-S03",
+      "start": 14.6,
+      "duration": 5.8,
+      "camera": "WS / S5-SHORE-LATERAL / CRANE_TOP",
+      "actor_blocking": "四人抬桩，奥德修斯压住尾端。桩尖刺进独眼，巨人的吼声把洞顶灰土震落。镜头只见巨影、桩尾与被踩碎的水桶。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        14.6,
+        20.4
+      ]
+    },
+    {
+      "shot_id": "EP10-S03-SH003",
+      "scene_id": "EP10-S03",
+      "start": 20.4,
+      "duration": 5.8,
+      "camera": "FS / S5-ROCK-WILD / LATERAL_TRACK",
+      "actor_blocking": "洞外脚步停住。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        20.4,
+        26.2
+      ]
+    },
+    {
+      "shot_id": "EP10-S03-SH006",
+      "scene_id": "EP10-S03",
+      "start": 26.2,
+      "duration": 4.0,
+      "camera": "INSERT / S5-SHORE-LATERAL / RIGGED_POV",
+      "actor_blocking": "Keep custody/change legible in the same causal chain as: 波吕斐摩斯拔出木桩，撞向巨石。洞外传来其他独眼巨人的问话。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        26.2,
+        30.2
+      ]
+    },
+    {
+      "shot_id": "EP10-S03-SH008",
+      "scene_id": "EP10-S03",
+      "start": 30.2,
+      "duration": 4.8,
+      "camera": "MCU / S5-ROCK-WILD / STATIC",
+      "actor_blocking": "奥德修斯把三只公羊并排绑紧，摸了摸中央羊腹下的空位。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        30.2,
+        35.0
+      ]
+    },
+    {
+      "shot_id": "EP10-S04-SH003",
+      "scene_id": "EP10-S04",
+      "start": 35.0,
+      "duration": 5.0,
+      "camera": "WS / S5-ROCK-WILD / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 公羊停下。奥德修斯的手开始滑。巨人把羊头拉近自己胸口，反而将他拖过门线。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        35.0,
+        40.0
+      ]
+    },
+    {
+      "shot_id": "EP10-S04-SH005",
+      "scene_id": "EP10-S04",
+      "start": 40.0,
+      "duration": 4.0,
+      "camera": "POV / S5-REED-POV / RIGGED_POV",
+      "actor_blocking": "公羊停下。奥德修斯的手开始滑。巨人把羊头拉近自己胸口，反而将他拖过门线。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        40.0,
+        44.0
+      ]
+    },
+    {
+      "shot_id": "EP10-S04-SH008",
+      "scene_id": "EP10-S04",
+      "start": 44.0,
+      "duration": 5.0,
+      "camera": "WS / S5-ROCK-WILD / STATIC",
+      "actor_blocking": "船推出浅滩。众人用布包住桨锁，不发一声。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        44.0,
+        49.0
+      ]
+    }
+  ],
+  "practical_vfx_boundary": "physical performer contact and foreground base; digital extension outside declared seam",
+  "status": "PASS_TEMPORAL_SPATIAL_PREVIS"
+}

@@ -1,0 +1,95 @@
+{
+  "artifact_class": "P5_RECOGNITION_TIMING_TESTS",
+  "tests": [
+    {
+      "recognition_test": "ARGOS",
+      "source_scenes": [
+        "EP19-S03"
+      ],
+      "source_shots": [
+        "EP19-S03-SH001",
+        "EP19-S03-SH002",
+        "EP19-S03-SH003",
+        "EP19-S03-SH004",
+        "EP19-S03-SH005"
+      ],
+      "runtime_seconds": 25.5,
+      "performance_space": "shared frame and motivated close-up protected",
+      "vfx": "NONE/LOW only; no technical spectacle over performance",
+      "status": "PASS"
+    },
+    {
+      "recognition_test": "SCAR",
+      "source_scenes": [
+        "EP23-S04"
+      ],
+      "source_shots": [
+        "EP23-S04-SH001",
+        "EP23-S04-SH002",
+        "EP23-S04-SH003",
+        "EP23-S04-SH004",
+        "EP23-S04-SH005"
+      ],
+      "runtime_seconds": 25.5,
+      "performance_space": "shared frame and motivated close-up protected",
+      "vfx": "NONE/LOW only; no technical spectacle over performance",
+      "status": "PASS"
+    },
+    {
+      "recognition_test": "BOW",
+      "source_scenes": [
+        "EP25-S02",
+        "EP25-S03"
+      ],
+      "source_shots": [
+        "EP25-S02-SH001",
+        "EP25-S02-SH002",
+        "EP25-S02-SH003",
+        "EP25-S02-SH004",
+        "EP25-S03-SH001",
+        "EP25-S03-SH002",
+        "EP25-S03-SH003",
+        "EP25-S03-SH004"
+      ],
+      "runtime_seconds": 40.5,
+      "performance_space": "shared frame and motivated close-up protected",
+      "vfx": "NONE/LOW only; no technical spectacle over performance",
+      "status": "PASS"
+    },
+    {
+      "recognition_test": "BED",
+      "source_scenes": [
+        "EP29-S04"
+      ],
+      "source_shots": [
+        "EP29-S04-SH001",
+        "EP29-S04-SH002",
+        "EP29-S04-SH003",
+        "EP29-S04-SH004",
+        "EP29-S04-SH005"
+      ],
+      "runtime_seconds": 25.5,
+      "performance_space": "shared frame and motivated close-up protected",
+      "vfx": "NONE/LOW only; no technical spectacle over performance",
+      "status": "PASS"
+    },
+    {
+      "recognition_test": "LAERTES_LAND",
+      "source_scenes": [
+        "EP30-S02"
+      ],
+      "source_shots": [
+        "EP30-S02-SH001",
+        "EP30-S02-SH002",
+        "EP30-S02-SH003",
+        "EP30-S02-SH004",
+        "EP30-S02-SH005"
+      ],
+      "runtime_seconds": 24.0,
+      "performance_space": "shared frame and motivated close-up protected",
+      "vfx": "NONE/LOW only; no technical spectacle over performance",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS_5_OF_5"
+}

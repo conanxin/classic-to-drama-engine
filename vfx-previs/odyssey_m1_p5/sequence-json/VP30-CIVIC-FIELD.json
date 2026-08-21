@@ -1,0 +1,208 @@
+{
+  "artifact_class": "P5_VFX_TECHNICAL_PREVIS",
+  "sequence_id": "VP30-CIVIC-FIELD",
+  "classification": "TECHNICAL PREVIS — NOT FINAL VFX",
+  "summary": "field factions, Athena condition, weapons lowering and civic closure",
+  "source_scenes": [
+    "EP30-S03",
+    "EP30-S04",
+    "EP30-S05"
+  ],
+  "source_shots": [
+    "EP30-S03-SH001",
+    "EP30-S03-SH003",
+    "EP30-S04-SH001",
+    "EP30-S04-SH002",
+    "EP30-S04-SH004",
+    "EP30-S04-SH006",
+    "EP30-S05-SH001",
+    "EP30-S05-SH002",
+    "EP30-S05-SH004",
+    "EP30-S05-SH006"
+  ],
+  "runtime_seconds": 48.4,
+  "events": [
+    {
+      "shot_id": "EP30-S03-SH001",
+      "scene_id": "EP30-S03",
+      "start": 0.0,
+      "duration": 5.0,
+      "camera": "WS / U10-ORCHARD-ROW3 / DOLLY_TRACK",
+      "actor_blocking": "多利俄斯带老仆们进屋吃饭。远处传来集会角声，欧佩忒斯率死者亲属逼近。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "shot_id": "EP30-S03-SH003",
+      "scene_id": "EP30-S03",
+      "start": 5.0,
+      "duration": 4.0,
+      "camera": "MCU / U10-HOUSE-EDGE / PUSH_PULL",
+      "actor_blocking": "三代人各拿一支不同年代的矛：旧铜、特洛伊铁、少年练习矛。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        5.0,
+        9.0
+      ]
+    },
+    {
+      "shot_id": "EP30-S04-SH001",
+      "scene_id": "EP30-S04",
+      "start": 9.0,
+      "duration": 5.8,
+      "camera": "WS / U10-ORCHARD-ROW3 / CRANE_TOP",
+      "actor_blocking": "欧佩忒斯把安提诺俄斯的血衣绑在矛上。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        9.0,
+        14.8
+      ]
+    },
+    {
+      "shot_id": "EP30-S04-SH002",
+      "scene_id": "EP30-S04",
+      "start": 14.8,
+      "duration": 5.0,
+      "camera": "FS / U10-FIELD-BOUNDARY / DOLLY_TRACK",
+      "actor_blocking": "欧佩忒斯先投矛，击中奥德修斯盾。拉厄耳忒斯在雅典娜稳定的风中回投，矛穿过对方盔颊，欧佩忒斯倒下。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        14.8,
+        19.8
+      ]
+    },
+    {
+      "shot_id": "EP30-S04-SH004",
+      "scene_id": "EP30-S04",
+      "start": 19.8,
+      "duration": 4.8,
+      "camera": "INSERT / U10-TREE-MACRO / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 门托耳的声音从田埂响起。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        19.8,
+        24.6
+      ]
+    },
+    {
+      "shot_id": "EP30-S04-SH006",
+      "scene_id": "EP30-S04",
+      "start": 24.6,
+      "duration": 5.8,
+      "camera": "WS / U10-ORCHARD-ROW3 / HANDHELD_CONTROLLED",
+      "actor_blocking": "门托耳的声音从田埂响起。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        24.6,
+        30.4
+      ]
+    },
+    {
+      "shot_id": "EP30-S05-SH001",
+      "scene_id": "EP30-S05",
+      "start": 30.4,
+      "duration": 5.0,
+      "camera": "FS / U10-ORCHARD-ROW3 / LATERAL_TRACK",
+      "actor_blocking": "晴空雷响。奥德修斯先把矛尖插进土里，双手离开。忒勒马科斯看他，再把自己的练习矛横放地面。拉厄耳忒斯最后放下旧铜矛。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        30.4,
+        35.4
+      ]
+    },
+    {
+      "shot_id": "EP30-S05-SH002",
+      "scene_id": "EP30-S05",
+      "start": 35.4,
+      "duration": 4.0,
+      "camera": "MS2 / U10-FIELD-BOUNDARY / STATIC",
+      "actor_blocking": "亲族代表将欧佩忒斯的血衣从矛上解下，压在田埂界石下。奥德修斯从另一侧扶住石头，两边的手同时离开武器。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        35.4,
+        39.4
+      ]
+    },
+    {
+      "shot_id": "EP30-S05-SH004",
+      "scene_id": "EP30-S05",
+      "start": 39.4,
+      "duration": 4.0,
+      "camera": "INSERT / U10-TREE-MACRO / STATIC",
+      "actor_blocking": "Keep custody/change legible in the same causal chain as: 镜头沿活橄榄树床柱下移，穿过地砖，抵达仍扎在伊萨卡土里的根。外面传来锯木声：忒勒马科斯正在制作自己的集会权杖。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        39.4,
+        43.4
+      ]
+    },
+    {
+      "shot_id": "EP30-S05-SH006",
+      "scene_id": "EP30-S05",
+      "start": 43.4,
+      "duration": 5.0,
+      "camera": "WS / U10-ORCHARD-ROW3 / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 镜头沿活橄榄树床柱下移，穿过地砖，抵达仍扎在伊萨卡土里的根。外面传来锯木声：忒勒马科斯正在制作自己的集会权杖。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "LOW",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        43.4,
+        48.4
+      ]
+    }
+  ],
+  "practical_vfx_boundary": "physical performer contact and foreground base; digital extension outside declared seam",
+  "status": "PASS_TEMPORAL_SPATIAL_PREVIS"
+}

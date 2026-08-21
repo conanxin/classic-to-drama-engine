@@ -1,0 +1,168 @@
+{
+  "artifact_class": "P5_VFX_TECHNICAL_PREVIS",
+  "sequence_id": "VP05-STORM",
+  "classification": "TECHNICAL PREVIS — NOT FINAL VFX",
+  "summary": "raft storm: practical deck/performer base with rain, sea and horizon extension",
+  "source_scenes": [
+    "EP05-S04"
+  ],
+  "source_shots": [
+    "EP05-S04-SH001",
+    "EP05-S04-SH002",
+    "EP05-S04-SH003",
+    "EP05-S04-SH004",
+    "EP05-S04-SH005",
+    "EP05-S04-SH006",
+    "EP05-S04-SH007",
+    "EP05-S04-SH008"
+  ],
+  "runtime_seconds": 42.625,
+  "events": [
+    {
+      "shot_id": "EP05-S04-SH001",
+      "scene_id": "EP05-S04",
+      "start": 0.0,
+      "duration": 5.8,
+      "camera": "WS / U11-DRY-DECK / CRANE_TOP",
+      "actor_blocking": "第十七道炭痕。奥德修斯用星位校帆。远处海面忽然压平，连风都停了。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        0.0,
+        5.8
+      ]
+    },
+    {
+      "shot_id": "EP05-S04-SH002",
+      "scene_id": "EP05-S04",
+      "start": 5.8,
+      "duration": 5.0,
+      "camera": "FS / U11-TANK-EDGE / DOLLY_TRACK",
+      "actor_blocking": "低沉的浪声从木筏下传来。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        5.8,
+        10.8
+      ]
+    },
+    {
+      "shot_id": "EP05-S04-SH003",
+      "scene_id": "EP05-S04",
+      "start": 10.8,
+      "duration": 5.8,
+      "camera": "FS / U11-MOTION-BASE / LATERAL_TRACK",
+      "actor_blocking": "水墙从侧面砸来。桅杆折断，帆把奥德修斯拖进水下。他割断帆绳，浮上来时，水袋已经不见。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        10.8,
+        16.6
+      ]
+    },
+    {
+      "shot_id": "EP05-S04-SH004",
+      "scene_id": "EP05-S04",
+      "start": 16.6,
+      "duration": 4.8,
+      "camera": "INSERT / U11-WATER-POV / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 一条白色浮帛贴上断木。伊诺的声音混在浪里。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        16.6,
+        21.4
+      ]
+    },
+    {
+      "shot_id": "EP05-S04-SH005",
+      "scene_id": "EP05-S04",
+      "start": 21.4,
+      "duration": 4.8,
+      "camera": "MS3 / U11-RIG-HIGH / PAN_TILT",
+      "actor_blocking": "一条白色浮帛贴上断木。伊诺的声音混在浪里。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "NONE",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        21.4,
+        26.2
+      ]
+    },
+    {
+      "shot_id": "EP05-S04-SH006",
+      "scene_id": "EP05-S04",
+      "start": 26.2,
+      "duration": 5.8,
+      "camera": "WS / U11-DRY-DECK / STATIC",
+      "actor_blocking": "Isolate from principal path; support the dramatic action anchored by: 他解下卡吕普索给的斗篷和腰带。每丢一件，游姿就轻一点。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        26.2,
+        32.0
+      ]
+    },
+    {
+      "shot_id": "EP05-S04-SH007",
+      "scene_id": "EP05-S04",
+      "start": 32.0,
+      "duration": 5.8,
+      "camera": "WS / U11-TANK-EDGE / HANDHELD_CONTROLLED",
+      "actor_blocking": "他解下卡吕普索给的斗篷和腰带。每丢一件，游姿就轻一点。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        32.0,
+        37.8
+      ]
+    },
+    {
+      "shot_id": "EP05-S04-SH008",
+      "scene_id": "EP05-S04",
+      "start": 37.8,
+      "duration": 4.8,
+      "camera": "MCU / U11-MOTION-BASE / STATIC",
+      "actor_blocking": "他朝黑暗里一线白沫游去。",
+      "practical_base": "performer/set/contact element remains practical",
+      "tracking": "removable markers only where extension requires",
+      "clean_plate": "required before strike",
+      "interaction": "eyeline and contact witness marks tied to P3 geography",
+      "vfx_extension": "MEDIUM",
+      "safety_boundary": "no previs image authorizes performer/rig/load action; department sign-off required",
+      "edit_points": [
+        37.8,
+        42.6
+      ]
+    }
+  ],
+  "practical_vfx_boundary": "physical performer contact and foreground base; digital extension outside declared seam",
+  "status": "PASS_TEMPORAL_SPATIAL_PREVIS"
+}
