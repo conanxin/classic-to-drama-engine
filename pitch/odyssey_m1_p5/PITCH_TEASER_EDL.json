@@ -1,0 +1,120 @@
+{
+  "artifact_class": "P5_PITCH_TEASER_EDL",
+  "frame_rate": 12,
+  "runtime_seconds": 90.0,
+  "events": [
+    {
+      "event_id": "PT-01",
+      "source_path": "pitch/odyssey_m1_p5/P5_PITCH_TITLE_CARD.jpg",
+      "source_in": 0,
+      "record_in": 0.0,
+      "record_out": 5.0,
+      "source_class": "P5_ORIGINAL_GRAPHIC"
+    },
+    {
+      "event_id": "PT-02",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP01-S01-SH001.jpg",
+      "source_in": 0,
+      "record_in": 5.0,
+      "record_out": 12.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-03",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP02-S05-SH005.jpg",
+      "source_in": 0,
+      "record_in": 12.0,
+      "record_out": 18.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-04",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP09-S05-SH004.jpg",
+      "source_in": 0,
+      "record_in": 18.0,
+      "record_out": 24.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-05",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP11-S05-SH004.jpg",
+      "source_in": 0,
+      "record_in": 24.0,
+      "record_out": 32.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-06",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP20-S03-SH003.jpg",
+      "source_in": 0,
+      "record_in": 32.0,
+      "record_out": 39.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-07",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP23-S04-SH003.jpg",
+      "source_in": 0,
+      "record_in": 39.0,
+      "record_out": 46.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-08",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP25-S02-SH003.jpg",
+      "source_in": 0,
+      "record_in": 46.0,
+      "record_out": 54.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-09",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP27-S03-SH003.jpg",
+      "source_in": 0,
+      "record_in": 54.0,
+      "record_out": 60.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-10",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP28-S03-SH003.jpg",
+      "source_in": 0,
+      "record_in": 60.0,
+      "record_out": 66.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-11",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP29-S04-SH003.jpg",
+      "source_in": 0,
+      "record_in": 66.0,
+      "record_out": 73.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-12",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP30-S02-SH003.jpg",
+      "source_in": 0,
+      "record_in": 73.0,
+      "record_out": 80.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-13",
+      "source_path": "animatic/odyssey_m1_p5/cards/EP30-S05-SH003.jpg",
+      "source_in": 0,
+      "record_in": 80.0,
+      "record_out": 87.0,
+      "source_class": "P4_APPROVED_HIGH_FIDELITY"
+    },
+    {
+      "event_id": "PT-14",
+      "source_path": "pitch/odyssey_m1_p5/P5_PITCH_END_CARD.jpg",
+      "source_in": 0,
+      "record_in": 87.0,
+      "record_out": 90.0,
+      "source_class": "P5_ORIGINAL_GRAPHIC"
+    }
+  ],
+  "status": "PASS"
+}
