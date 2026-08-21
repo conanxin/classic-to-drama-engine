@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import storyboards from '../../generated/storyboards.json';
+import episodes from '../../generated/episodes.json';
+import { episodePath, withBase } from '../../lib/urls';
+export function getStaticPaths(){return storyboards.map((boards)=>({params:{episode:String(boards.number).padStart(2,'0')},props:{boards,episode:episodes[boards.number-1]}}));}
+const { boards, episode } = Astro.props;
+---
+<BaseLayout title={`EP${String(boards.number).padStart(2,'0')} 技术分镜｜${episode.title}`} description={`EP${String(boards.number).padStart(2,'0')}《${episode.title}》技术分镜板与 shot/frame ID。`}>
+  <header class="board-header"><div><p class="eyebrow">TECHNICAL STORYBOARD · EP{String(boards.number).padStart(2,'0')}</p><h1>{episode.title}</h1><p>{boards.pages.length} 页 · {episode.scene_count} 场 · P4 冻结技术板</p></div><ResponsiveImage src={boards.contact_sheet} responsive={boards.contact_sheet_responsive} alt={`EP${String(boards.number).padStart(2,'0')}技术分镜总联系表`} loading="eager" /></header>
+  <section class="board-pages">
+    {boards.pages.map((page,index)=><figure id={page.board_page_id}><button class="board-open" type="button" data-src={withBase(page.public_path)} aria-label={`放大 ${page.board_page_id}`}><ResponsiveImage src={page.public_path} responsive={page.public_responsive} alt={`${page.scene_id} ${page.shot_ids.join('、')} 技术分镜`} loading={index<2?'eager':'lazy'} /></button><figcaption><span>{page.board_page_id}</span><span>{page.scene_id}</span><span>{page.shot_ids.join(' · ')}</span><span>{page.frame_ids.length} frames</span></figcaption></figure>)}
+  </section>
+  <nav class="board-footer"><a href={episodePath(episode.number)}>阅读本集剧本</a><a href={withBase('storyboards/')}>返回分镜目录</a></nav>
+  <dialog class="lightbox"><button type="button" aria-label="关闭放大视图">关闭</button><img alt="放大的技术分镜" /></dialog>
+</BaseLayout>
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>('.lightbox');
+  const image = dialog?.querySelector('img');
+  document.querySelectorAll<HTMLButtonElement>('.board-open').forEach((button)=>button.addEventListener('click',()=>{if(image)image.src=button.dataset.src||'';dialog?.showModal()}));
+  dialog?.querySelector('button')?.addEventListener('click',()=>dialog.close());
+  dialog?.addEventListener('click',(event)=>{if(event.target===dialog)dialog.close()});
+</script>
+<style>.board-header{display:grid;grid-template-columns:.85fr 1.15fr;border-bottom:1px solid var(--rule)}.board-header>div{padding:clamp(3rem,7vw,7rem) var(--pad);display:flex;flex-direction:column;justify-content:center}.board-header h1{font-size:clamp(3rem,7vw,6rem)}.board-header>img{width:100%;height:100%;object-fit:cover;background:#eee}.board-pages{max-width:88rem;margin:auto;padding:var(--pad)}.board-pages figure{margin:0 0 4rem}.board-open{display:block;border:0;padding:0;background:#eee;width:100%;cursor:zoom-in}.board-open img{display:block;width:100%}.board-pages figcaption{display:grid;grid-template-columns:1fr 1fr 2fr 1fr;gap:1rem;padding:.65rem 0;border-bottom:1px solid var(--rule);font-size:.65rem;color:var(--muted)}.board-footer{max-width:88rem;margin:auto;padding:2rem var(--pad);display:flex;justify-content:space-between}.lightbox{width:min(96vw,100rem);height:min(94vh,70rem);background:#111;border:1px solid #555;padding:3rem;color:#fff}.lightbox::backdrop{background:rgba(0,0,0,.88)}.lightbox img{width:100%;height:100%;object-fit:contain}.lightbox button{position:absolute;right:1rem;top:1rem;background:none;color:#fff;border:1px solid #777;padding:.4rem .7rem}@media(max-width:720px){.board-header{grid-template-columns:1fr}.board-pages figcaption{grid-template-columns:1fr 1fr}.board-pages figcaption span:nth-child(3){grid-column:1/-1}}</style>
+<style is:global>.board-header img{width:100%;height:100%;object-fit:cover;background:#eee}</style>

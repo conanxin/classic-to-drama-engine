@@ -1,0 +1,10 @@
+---
+import { withBase } from '../lib/urls';
+interface Props { src:string; responsive?:string|null; alt:string; loading?:'eager'|'lazy'; fetchpriority?:'high'|'low'|'auto'; }
+const { src, responsive, alt, loading='lazy', fetchpriority='auto' } = Astro.props;
+---
+<picture>
+  {responsive && <source media="(max-width: 800px)" srcset={withBase(responsive)} type="image/webp" />}
+  <img src={withBase(src)} alt={alt} loading={loading} fetchpriority={fetchpriority} />
+</picture>
+<style>picture{display:contents}</style>

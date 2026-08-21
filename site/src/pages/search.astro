@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageIntro from '../components/PageIntro.astro';
+import { withBase } from '../lib/urls';
+---
+<BaseLayout title="搜索｜《归途：奥德修斯》档案" description="搜索三十集剧本、人物、世界与精选制作文档。" pagefind={false}>
+  <PageIntro eyebrow="FULL-TEXT SEARCH" title="找一个名字，一件物，或一次辨认。" deck="搜索范围包括三十集剧本、人物与世界页面、改编圣经、导演愿景、制作圣经以及精选 P3/P4/P5 文档。" />
+  <section class="search-shell" data-base={withBase()}>
+    <form role="search"><label for="archive-search">搜索公开档案</label><div><input id="archive-search" type="search" autocomplete="off" placeholder="例如：奥德修斯、弓、床、身份" /><button type="submit">搜索</button></div></form>
+    <p class="search-status" role="status" aria-live="polite">输入关键词开始搜索。</p>
+    <ol class="search-results"></ol>
+  </section>
+</BaseLayout>
+<script is:inline type="module">
+  const shell=document.querySelector('.search-shell'); const form=shell?.querySelector('form'); const input=shell?.querySelector('input'); const status=shell?.querySelector('.search-status'); const results=shell?.querySelector('.search-results');
+  const base=shell?.dataset.base || '/';
+  const escape=(value)=>String(value).replace(/[&<>"']/g,(char)=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  const cjkIndex=fetch(`${base}search-data.json`).then((response)=>response.json());
+  async function run(query){if(!query.trim()){if(status)status.textContent='输入关键词开始搜索。';if(results)results.innerHTML='';return}if(status)status.textContent='正在搜索…';try{
+    const [pagefind,index]=await Promise.all([import(`${base}_pagefind/pagefind.js`),cjkIndex]);
+    const search=await pagefind.search(query);const pagefindData=await Promise.all(search.results.slice(0,30).map((result)=>result.data()));
+    const exact=index.map((item)=>{const offset=item.text.indexOf(query);if(offset<0)return null;const start=Math.max(0,offset-42);const excerpt=item.text.slice(start,offset)+`<mark>${escape(query)}</mark>`+item.text.slice(offset+query.length,offset+query.length+76);return{url:`${base}${item.route}`,meta:{type:item.type,title:item.title},excerpt:escape(excerpt).replace('&lt;mark&gt;','<mark>').replace('&lt;/mark&gt;','</mark>'),score:(item.text.split(query).length-1)}}).filter(Boolean).sort((a,b)=>b.score-a.score);
+    const merged=new Map();for(const item of [...exact,...pagefindData])if(!merged.has(item.url))merged.set(item.url,item);const data=[...merged.values()].slice(0,30);
+    if(status)status.textContent=`找到 ${merged.size} 条结果。`;if(results)results.innerHTML=data.map((item)=>`<li><a href="${escape(item.url)}"><span>${escape(item.meta?.type||'档案')}</span><h2>${escape(item.meta?.title||item.url)}</h2><p>${item.excerpt}</p></a></li>`).join('')
+  }catch(error){if(status)status.textContent='搜索索引尚未可用。请使用 production build 预览。';console.error(error)}}
+  form?.addEventListener('submit',(event)=>{event.preventDefault();run(input?.value||'')}); const q=new URLSearchParams(location.search).get('q');if(q&&input){input.value=q;run(q)}
+</script>
+<style>.search-shell{max-width:58rem;margin:auto;padding:clamp(3rem,6vw,6rem) var(--pad)}.search-shell label{display:block;font-size:.7rem;letter-spacing:.12em;color:var(--muted);margin-bottom:.7rem}.search-shell form div{display:grid;grid-template-columns:1fr auto;border-bottom:1px solid var(--paper)}.search-shell input{background:none;border:0;color:var(--paper);font-family:var(--serif);font-size:clamp(1.5rem,4vw,2.8rem);padding:.7rem 0;min-width:0}.search-shell input:focus{outline:0}.search-shell button{background:none;border:0;color:var(--paper);padding:0 1rem}.search-status{font-size:.72rem;color:var(--muted);margin:1rem 0 3rem}.search-results{list-style:none;padding:0}.search-results :global(li){border-top:1px solid var(--rule)}.search-results :global(a){display:block;padding:1.5rem 0;text-decoration:none}.search-results :global(span){font-size:.65rem;color:var(--rust);letter-spacing:.1em}.search-results :global(h2){font-size:1.4rem;margin:.3rem 0}.search-results :global(p){font-size:.82rem;color:var(--muted)}.search-results :global(mark){background:var(--earth);color:#fff}</style>

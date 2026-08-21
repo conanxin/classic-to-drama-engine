@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import media from '../../generated/media.json';
+import { withBase } from '../../lib/urls';
+---
+<BaseLayout title="观看 Pitch Teaser Previs｜《归途：奥德修斯》" description="观看《归途：奥德修斯》90 秒 P5 Pitch Teaser Previs。">
+  <section class="watch-shell">
+    <header><p class="eyebrow">P5 PITCH TEASER · PREVIS · 90 SECONDS</p><h1>先看见归途，<br />再听见名字。</h1><p>这是制作前的节奏与视觉证明，不是正式 Trailer。</p></header>
+    <div class="video-wrap"><video controls preload="metadata" playsinline src={withBase(media.pitch_teaser)}>你的浏览器不支持 HTML5 视频。<a href={withBase(media.pitch_teaser)}>下载视频</a></video></div>
+    <footer><span>PREVIS — NOT FINAL TRAILER</span><a href={withBase('animatics/')}>浏览 30 集 Animatics</a></footer>
+  </section>
+</BaseLayout>
+<style>.watch-shell{max-width:90rem;margin:auto;padding:clamp(4rem,8vw,8rem) var(--pad)}.watch-shell header{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:end;margin-bottom:3rem}.watch-shell h1{font-size:clamp(3rem,7vw,6.4rem);margin:.5rem 0}.watch-shell header>p:last-child{font-family:var(--serif);font-size:1.2rem;color:var(--muted);max-width:25rem}.video-wrap{background:#000}.video-wrap video{display:block;width:100%;aspect-ratio:16/9}.watch-shell footer{display:flex;justify-content:space-between;padding:.8rem 0;font-size:.68rem;letter-spacing:.1em;color:var(--muted)}@media(max-width:700px){.watch-shell header{grid-template-columns:1fr}.watch-shell footer{flex-direction:column;gap:.7rem}}</style>

@@ -1,0 +1,19 @@
+---
+import { episodePath, formatRuntime } from '../lib/urls';
+interface Episode { number:number; title:string; animatic_runtime_seconds:number; scene_count:number; source_books:number[]; want:string; characters:string[]; locations:string[]; }
+interface Props { episodes: Episode[]; compact?: boolean; }
+const { episodes, compact = false } = Astro.props;
+---
+<ol class:list={['episode-index', { compact }]}>
+  {episodes.map((episode) => (
+    <li>
+      <a href={episodePath(episode.number)}>
+        <span class="episode-no">EP{String(episode.number).padStart(2,'0')}</span>
+        <span class="episode-title">{episode.title}</span>
+        {!compact && <span class="episode-logline">{episode.want}</span>}
+        <span class="episode-meta">{formatRuntime(episode.animatic_runtime_seconds)} · {episode.scene_count} 场 · Books {episode.source_books.join(' / ')}</span>
+        <span class="episode-arrow" aria-hidden="true">↗</span>
+      </a>
+    </li>
+  ))}
+</ol>

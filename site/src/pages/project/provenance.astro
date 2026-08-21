@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import project from '../../generated/project.json';
+import summary from '../../generated/build-summary.json';
+import { withBase } from '../../lib/urls';
+---
+<BaseLayout title="Technical Provenance｜Classic-to-Drama Engine" description="CTDE Web Archive 的冻结基线、内容身份与公开边界。">
+  <PageIntro eyebrow="TECHNICAL PROVENANCE" title="公开阅读，也保留可复核性。" deck="这一页服务研究、reproducibility 与项目历史。它不会把 Runtime 控制面暴露为普通网站内容，也不会把内部绝对路径带进页面。" />
+  <section class="section provenance">
+    <dl><div><dt>公开基线</dt><dd><code>{project.baseline_commit}</code></dd></div><div><dt>P5 artifact manifest SHA-256</dt><dd><code>{project.p5_manifest_sha256}</code></dd></div><div><dt>V2 剧集 / 场次</dt><dd>{summary.episodes} / {summary.scenes}</dd></div><div><dt>精选文档</dt><dd>{summary.documents}</dd></div><div><dt>公开媒体</dt><dd>{summary.public_assets} 项 · {(summary.public_media_bytes/1024/1024).toFixed(1)} MiB</dd></div><div><dt>P6 状态</dt><dd>PAUSED_BY_USER</dd></div></dl>
+    <div class="boundary"><h2>公开边界</h2><p>网站从 V2、P3、P4、P5 的冻结产物读取内容。剧本正文不重写；视觉只提升 approved 状态；发布文件只来自两个显式 manifest。</p><ul><li>V2 / P3 / P4 / P5 modifications: 0</li><li>Runtime modifications: 0</li><li>Actor / vendor outreach: 0</li><li>Real-world research / payments: 0</li></ul><a class="text-link" href="https://github.com/conanxin/classic-to-drama-engine">查看 GitHub 历史</a></div>
+  </section>
+  <section class="section"><a class="back-link" href={withBase('project/')}>← 返回项目方法</a></section>
+</BaseLayout>
+<style>.provenance{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(3rem,8vw,8rem)}.provenance dl{margin:0}.provenance dl div{padding:1.2rem 0;border-top:1px solid var(--rule)}.provenance dt{font-size:.7rem;color:var(--muted)}.provenance dd{margin:.4rem 0 0;overflow-wrap:anywhere}.provenance code{font-size:.75rem}.boundary{background:var(--ink-2);padding:clamp(2rem,5vw,4rem)}.boundary p,.boundary li{color:var(--muted)}.back-link{text-decoration:none}@media(max-width:750px){.provenance{grid-template-columns:1fr}}</style>

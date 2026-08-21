@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import visual from '../../generated/visual.json';
+---
+<BaseLayout title="视觉档案｜《归途：奥德修斯》" description="批准角色设计、布景锚点、英雄画面与全季色彩脚本。">
+  <PageIntro eyebrow="P4 APPROVED VISUAL ARCHIVE" title="风留下方向，物件留下证词。" deck="所有画面均来自冻结的 P4 视觉系统。六张 rejected hero targets 不在这里出现；技术分镜也始终明确标为技术资料，而非 final art。" />
+  <section class="hero-strip">
+    {visual.hero.slice(0,3).map((item,index)=><figure><ResponsiveImage src={item.path} responsive={item.responsive} alt={`${item.label}，P4 批准英雄画面`} loading={index===0?'eager':'lazy'} /><figcaption><span>{item.asset_id}</span>{item.label}</figcaption></figure>)}
+  </section>
+  <section class="section visual-section">
+    <div class="section-header"><div><p class="eyebrow">PRINCIPAL IDENTITIES</p><h2>人物</h2></div><p>同一角色身份贯穿剧本、视觉开发与制作连续性。</p></div>
+    <div class="identity-grid">{visual.characters.map((item)=><figure><ResponsiveImage src={item.path} responsive={item.responsive} alt={`${item.character}批准角色设计页`} /><figcaption>{item.character}</figcaption></figure>)}</div>
+  </section>
+  <section class="section visual-section">
+    <div class="section-header"><div><p class="eyebrow">STANDING SET ANCHORS</p><h2>可被重写的空间</h2></div><p>厅堂、海岸、洞穴与农庄以换景、光线、声音和前景物件承担多个叙事阶段。</p></div>
+    <div class="set-grid">{visual.sets.map((item)=><figure><ResponsiveImage src={item.path} responsive={item.responsive} alt={`${item.label}批准布景锚点`} /><figcaption>{item.asset_id} · {item.label}</figcaption></figure>)}</div>
+  </section>
+  <section class="section visual-section">
+    <div class="section-header"><div><p class="eyebrow">COLOR SCRIPT · EP01–EP30</p><h2>全季光线</h2></div><p>色彩不是装饰层：它记录压力、辨认与归家如何逐集改变。</p></div>
+    <div class="color-grid">{visual.color.map((item)=><figure><ResponsiveImage src={item.path} responsive={item.responsive} alt={`${item.episode}色彩脚本`} /><figcaption>{item.episode}</figcaption></figure>)}</div>
+  </section>
+  <section class="section hero-archive">
+    <div class="section-header"><div><p class="eyebrow">SELECTED HERO FRAMES</p><h2>冻结画面</h2></div><p>十二张批准英雄画面构成公开首版的视觉主轴；其余中间渲染保留在项目仓库。</p></div>
+    <div>{visual.hero.slice(3).map((item)=><figure><ResponsiveImage src={item.path} responsive={item.responsive} alt={`${item.label}批准英雄画面`} /><figcaption><span>{item.asset_id}</span>{item.label}</figcaption></figure>)}</div>
+  </section>
+</BaseLayout>
+<style>figure{margin:0}.hero-strip{display:grid;grid-template-columns:2fr 1fr 1fr;min-height:45rem}.hero-strip figure{position:relative;min-width:0}.hero-strip img{display:block;width:100%;height:100%;object-fit:cover}.hero-strip figcaption,.hero-archive figcaption{position:absolute;left:1rem;right:1rem;bottom:1rem;display:flex;justify-content:space-between;color:#fff;font-size:.65rem;text-shadow:0 1px 8px #000}.identity-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);margin-top:2rem}.identity-grid figure{background:var(--black)}.identity-grid img{display:block;width:100%}.identity-grid figcaption,.set-grid figcaption,.color-grid figcaption{padding:.6rem;font-size:.65rem;color:var(--muted)}.set-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;margin-top:2rem}.set-grid img{aspect-ratio:16/9;width:100%;object-fit:cover}.color-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:1rem;margin-top:2rem}.color-grid img{width:100%;aspect-ratio:16/9;object-fit:cover}.hero-archive>div{columns:2;column-gap:1.5rem;margin-top:2rem}.hero-archive figure{position:relative;break-inside:avoid;margin-bottom:1.5rem}.hero-archive img{display:block;width:100%}@media(max-width:850px){.hero-strip{grid-template-columns:1fr;min-height:auto}.hero-strip figure{height:70vw}.identity-grid,.color-grid{grid-template-columns:repeat(2,1fr)}.set-grid,.hero-archive>div{grid-template-columns:1fr;columns:1}}</style>

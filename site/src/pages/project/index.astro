@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import project from '../../generated/project.json';
+import documents from '../../generated/documents.json';
+import { withBase } from '../../lib/urls';
+---
+<BaseLayout title="项目方法｜Classic-to-Drama Engine" description="Classic-to-Drama Engine 如何把来源、责任、人物选择与制作档案连接为一条可追溯的改编链。">
+  <PageIntro eyebrow="CLASSIC-TO-DRAMA ENGINE" title="不是把经典缩短，而是把责任重新放回场景。" deck="Source → Analysis → Adaptation → Screenplay → Editorial → Director → Lookdev → Animatic / Preproduction。每一层都有自己的判断，也保留通往上一层的证据。" />
+  <section class="method-chain section" aria-label="项目方法">
+    {['Source','Analysis','Adaptation','Screenplay','Editorial','Director','Lookdev','Animatic / Preproduction'].map((item,index)=><div><span>{String(index+1).padStart(2,'0')}</span><strong>{item}</strong></div>)}
+  </section>
+  <section class="section project-copy"><div><p class="eyebrow">WHAT THE ENGINE PROTECTS</p><h2>谁选择，谁受苦，谁认出谁。</h2></div><div><p>改编可以压缩、融合、发明对白和连接动作；它不能为了“更好看”而悄悄交换行动者、责任与后果。这个引擎首先保护的是因果链，然后才把它交给剧作、导演和制作。</p><p>《归途：奥德修斯》是这套方法的第一部完整作品：二十四卷来源进入三十集 V2 剧本，再进入导演、视觉与 animatic 证明。</p><a class="text-link" href={withBase('documents/adaptation-method/')}>阅读改编方法</a></div></section>
+  <section class="timeline section"><div class="section-header"><div><p class="eyebrow">PROJECT TIMELINE</p><h2>从来源到公开档案</h2></div><p>普通时间线保留主要创作与制作阶段；详细技术历史仍可在 GitHub 中复核。</p></div><ol>{project.timeline.map((item)=><li><span>{String(item.index).padStart(2,'0')}</span><h3>{item.milestone}</h3><p>{item.summary}</p></li>)}</ol></section>
+  <section class="section project-links"><a href={withBase('project/provenance/')}><span>研究与复核</span><h2>Technical Provenance</h2><p>基线、里程碑、manifest identities 与不可变输入。</p></a><a href={withBase('production/')}><span>制作入口</span><h2>Production Archive</h2><p>{documents.length} 份精选冻结文档。</p></a></section>
+</BaseLayout>
+<style>.method-chain{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule)}.method-chain div{background:var(--ink);padding:2rem 1.2rem;min-height:9rem;display:flex;flex-direction:column;justify-content:space-between}.method-chain span{font-size:.65rem;color:var(--rust)}.method-chain strong{font-family:var(--serif);font-size:1.25rem;font-weight:400}.project-copy{display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,8vw,8rem)}.project-copy p{font-family:var(--serif);color:var(--paper-2)}.timeline ol{list-style:none;padding:2rem 0 0;margin:0}.timeline li{display:grid;grid-template-columns:4rem 1fr 2fr;gap:2rem;padding:1.5rem 0;border-top:1px solid var(--rule)}.timeline li span{color:var(--rust);font-size:.7rem}.timeline li h3{font-family:var(--sans);font-size:1rem}.timeline li p{font-size:.8rem;color:var(--muted)}.project-links{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule)}.project-links a{padding:3rem;background:var(--ink);text-decoration:none}.project-links span,.project-links p{font-size:.7rem;color:var(--muted)}@media(max-width:750px){.method-chain{grid-template-columns:repeat(2,1fr)}.project-copy,.project-links{grid-template-columns:1fr}.timeline li{grid-template-columns:2.5rem 1fr}.timeline li p{grid-column:2}}</style>

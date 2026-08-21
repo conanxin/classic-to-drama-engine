@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import storyboards from '../../generated/storyboards.json';
+import episodes from '../../generated/episodes.json';
+import { withBase } from '../../lib/urls';
+---
+<BaseLayout title="技术分镜｜《归途：奥德修斯》" description="按集浏览《归途：奥德修斯》P4 技术分镜与 contact sheets。">
+  <PageIntro eyebrow="TECHNICAL STORYBOARD · 173 BOARDS" title="先让空间说得清，再让摄影机靠近。" deck="每一张板都服务 shot ID、blocking、连续性与安全计划。它们是 TECHNICAL STORYBOARD，不是 final art。" />
+  <section class="section board-index">
+    {storyboards.map((item,index)=><article><a href={withBase(`storyboards/${String(item.number).padStart(2,'0')}/`)}><figure><ResponsiveImage src={item.contact_sheet} responsive={item.contact_sheet_responsive} alt={`EP${String(item.number).padStart(2,'0')}技术分镜联系表`} loading={index<3?'eager':'lazy'} /></figure><div><p class="eyebrow">EP{String(item.number).padStart(2,'0')} · TECHNICAL</p><h2>{episodes[index].title}</h2><p>{item.pages.length} board pages · {episodes[index].scene_count} scenes</p></div></a></article>)}
+  </section>
+</BaseLayout>
+<style>.board-index{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem 1.3rem}.board-index a{text-decoration:none}.board-index figure{margin:0;background:#eee;overflow:hidden}.board-index img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .25s}.board-index a:hover img{transform:scale(1.02)}.board-index h2{font-size:1.35rem;margin:.4rem 0}.board-index article p:last-child{font-size:.7rem;color:var(--muted)}@media(max-width:900px){.board-index{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.board-index{grid-template-columns:1fr}}</style>

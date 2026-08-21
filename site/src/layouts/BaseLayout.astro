@@ -1,0 +1,55 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { withBase } from '../lib/urls';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  pagefind?: boolean;
+  theme?: 'ink' | 'paper';
+}
+const {
+  title = '《归途：奥德修斯》｜Classic-to-Drama Engine',
+  description = '一部关于归乡、身份与被重新认出的三十集短剧，以及它从改编研究走向制作准备的完整档案。',
+  image = withBase('media/visual/hero/P4-HF-01.png'),
+  pagefind = true,
+  theme = 'ink'
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="zh-CN" data-theme={theme}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="color-scheme" content="dark light" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="《归途：奥德修斯》" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(image, Astro.site)} />
+    <meta property="og:url" content={canonical} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href={withBase('favicon.svg')} type="image/svg+xml" />
+    <title>{title}</title>
+  </head>
+  <body class:list={[`theme-${theme}`]} data-pagefind-body={pagefind ? true : undefined}>
+    <a class="skip-link" href="#main">跳到正文</a>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    <script is:inline>
+      (() => {
+        const saved = localStorage.getItem('ctde-color-mode');
+        if (saved === 'light' || saved === 'dark') document.documentElement.dataset.colorMode = saved;
+      })();
+    </script>
+  </body>
+</html>

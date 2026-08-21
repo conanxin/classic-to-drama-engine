@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import characters from '../../generated/characters.json';
+import episodes from '../../generated/episodes.json';
+import { episodePath } from '../../lib/urls';
+export function getStaticPaths(){ return characters.core.map((character)=>({params:{slug:character.slug},props:{character}})); }
+const { character } = Astro.props;
+const related = episodes.filter((episode)=>character.episodes.includes(episode.number));
+---
+<BaseLayout title={`${character.zh}｜人物档案`} description={`${character.zh}：${character.role}。人物弧线、辨认关系、视觉与服装状态。`}>
+  <section class="character-hero">
+    <div><p class="eyebrow">{character.en} · CHARACTER FILE</p><h1>{character.zh}</h1><p class="character-role">{character.role}</p></div>
+    <figure><ResponsiveImage src={character.image} responsive={character.image_responsive} alt={`${character.zh}批准角色设计页`} loading="eager" /></figure>
+  </section>
+  <section class="character-data section">
+    <div><p class="eyebrow">RECOGNITION CHAIN</p><h2>如何被认出</h2><ol>{character.recognition.map((item)=><li>{item}</li>)}</ol></div>
+    <div><p class="eyebrow">VOICE & ARC</p><h2>声音与变化</h2><div class="source-excerpt">{character.voice_source || character.arc_source || '人物以选择与后果，而非主题宣言完成弧线。'}</div></div>
+  </section>
+  <section class="section states">
+    <div class="section-header"><div><p class="eyebrow">DESIGN CONTINUITY</p><h2>可见状态</h2></div><p>批准的角色状态与服装状态来自 P4 冻结矩阵；网站不创建新的角色身份。</p></div>
+    <div class="state-grid"><div><h3>角色状态</h3>{character.visual_states.map((x)=><code>{x}</code>)}</div><div><h3>服装状态</h3>{character.costume_states.map((x)=><code>{x}</code>)}</div><div><h3>关键道具</h3>{character.props.map((x)=><code>{x}</code>)}</div></div>
+  </section>
+  <section class="section related"><div class="section-header"><div><p class="eyebrow">EPISODES</p><h2>相关剧集</h2></div><p>{character.zh}出现在 {related.length} 集正式剧本中。</p></div><div class="episode-links">{related.map((ep)=><a href={episodePath(ep.number)}><span>EP{String(ep.number).padStart(2,'0')}</span>{ep.title}</a>)}</div></section>
+</BaseLayout>
+<style>.character-hero{display:grid;grid-template-columns:.8fr 1.2fr;min-height:calc(100svh - var(--header));border-bottom:1px solid var(--rule)}.character-hero>div{padding:var(--pad);display:flex;flex-direction:column;justify-content:center}.character-hero h1{margin:.4rem 0}.character-role{font-family:var(--serif);font-size:1.3rem;color:var(--paper-2)}.character-hero figure{margin:0;background:var(--black)}.character-hero img{display:block;width:100%;height:100%;object-fit:cover}.character-data{display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,8vw,8rem)}.character-data ol{padding:0;list-style:none;counter-reset:rec}.character-data li{counter-increment:rec;border-top:1px solid var(--rule);padding:1rem 0}.character-data li::before{content:counter(rec,decimal-leading-zero);color:var(--rust);font-size:.7rem;margin-right:1.4rem}.source-excerpt{white-space:pre-wrap;font-family:var(--serif);color:var(--paper-2)}.state-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:3rem}.state-grid code{display:block;padding:.6rem 0;border-top:1px solid var(--rule);color:var(--muted);font-size:.72rem}.episode-links{display:grid;grid-template-columns:repeat(3,1fr);margin-top:2rem}.episode-links a{padding:1rem;border-top:1px solid var(--rule);text-decoration:none}.episode-links span{font-size:.65rem;color:var(--rust);display:block}@media(max-width:800px){.character-hero,.character-data{grid-template-columns:1fr}.character-hero figure{min-height:120vw}.state-grid,.episode-links{grid-template-columns:1fr}}</style>

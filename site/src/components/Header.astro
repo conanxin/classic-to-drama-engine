@@ -1,0 +1,26 @@
+---
+import { withBase } from '../lib/urls';
+const nav = [
+  ['剧集','episodes/'], ['人物','characters/'], ['世界','world/'], ['视觉','visual/'],
+  ['分镜','storyboards/'], ['制作','production/'], ['项目','project/']
+];
+---
+<header class="site-header" data-pagefind-ignore>
+  <a class="site-mark" href={withBase()} aria-label="返回首页">
+    <span class="site-mark-cn">归途</span><span class="site-mark-en">CTDE ARCHIVE</span>
+  </a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">目录</button>
+  <nav id="primary-nav" class="primary-nav" aria-label="主导航">
+    {nav.map(([label, path]) => <a href={withBase(path)}>{label}</a>)}
+    <a class="search-link" href={withBase('search/')} aria-label="搜索档案">搜索</a>
+  </nav>
+</header>
+<script>
+  const button = document.querySelector<HTMLButtonElement>('.nav-toggle');
+  const nav = document.querySelector<HTMLElement>('#primary-nav');
+  button?.addEventListener('click', () => {
+    const open = button.getAttribute('aria-expanded') === 'true';
+    button.setAttribute('aria-expanded', String(!open));
+    nav?.classList.toggle('is-open', !open);
+  });
+</script>

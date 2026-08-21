@@ -1,0 +1,34 @@
+<div class="reader-settings" data-pagefind-ignore>
+  <span>阅读设置</span>
+  <div role="group" aria-label="字体大小">
+    <button type="button" data-reader-size="small" aria-label="小字号">小</button>
+    <button type="button" data-reader-size="medium" aria-label="中字号">中</button>
+    <button type="button" data-reader-size="large" aria-label="大字号">大</button>
+  </div>
+  <div role="group" aria-label="阅读宽度">
+    <button type="button" data-reader-width="comfortable">舒适</button>
+    <button type="button" data-reader-width="wide">宽</button>
+  </div>
+  <button type="button" data-color-toggle>亮 / 暗</button>
+</div>
+<style>
+  .reader-settings{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;padding:1rem 0;border-bottom:1px solid var(--rule);font-size:.68rem;color:var(--muted)}
+  .reader-settings>span{margin-right:auto}.reader-settings div{display:flex}.reader-settings button{background:none;color:inherit;border:1px solid var(--rule);padding:.3rem .55rem;cursor:pointer}.reader-settings button:hover,.reader-settings button:focus-visible{color:var(--paper);border-color:var(--rust)}
+</style>
+<script>
+  const root = document.documentElement;
+  const article = document.querySelector<HTMLElement>('.screenplay');
+  const savedSize = localStorage.getItem('ctde-reader-size') || 'medium';
+  const savedWidth = localStorage.getItem('ctde-reader-width') || 'comfortable';
+  article?.setAttribute('data-size', savedSize);
+  article?.setAttribute('data-width', savedWidth);
+  document.querySelectorAll<HTMLButtonElement>('[data-reader-size]').forEach((button) => button.addEventListener('click', () => {
+    const value = button.dataset.readerSize || 'medium'; article?.setAttribute('data-size', value); localStorage.setItem('ctde-reader-size', value);
+  }));
+  document.querySelectorAll<HTMLButtonElement>('[data-reader-width]').forEach((button) => button.addEventListener('click', () => {
+    const value = button.dataset.readerWidth || 'comfortable'; article?.setAttribute('data-width', value); localStorage.setItem('ctde-reader-width', value);
+  }));
+  document.querySelector<HTMLButtonElement>('[data-color-toggle]')?.addEventListener('click', () => {
+    const next = root.dataset.colorMode === 'light' ? 'dark' : 'light'; root.dataset.colorMode = next; localStorage.setItem('ctde-color-mode', next);
+  });
+</script>

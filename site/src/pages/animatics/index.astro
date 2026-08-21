@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import media from '../../generated/media.json';
+import episodes from '../../generated/episodes.json';
+import { formatRuntime, withBase } from '../../lib/urls';
+---
+<BaseLayout title="全系列 Animatics｜《归途：奥德修斯》" description="三十集 P5 timing animatics，验证每集节奏与镜头结构。">
+  <PageIntro eyebrow="P5 FULL-SERIES ANIMATICS" title="三十集的时间，已经可以被观看。" deck="这些低体积 timing animatics 以技术分镜为画面、以正式时长为约束。它们用于节奏、覆盖与制作验证，不替代表演和最终摄影。" />
+  <section class="section animatic-list">
+    {media.animatics.map((item,index)=><article><div class="animatic-still"><ResponsiveImage src={item.poster} responsive={item.poster_responsive} alt={`${item.episode} animatic 联系表预览`} loading={index<3?'eager':'lazy'} /><button type="button" data-video={withBase(item.public_path)} data-label={`${item.episode}《${episodes[index].title}》`}>播放</button></div><div><p class="eyebrow">{item.episode} · {formatRuntime(item.rendered_runtime_seconds)}</p><h2>{episodes[index].title}</h2><p>{episodes[index].scene_count} 场 · Books {episodes[index].source_books.join(' / ')}</p><a href={withBase(item.public_path)}>下载 MP4</a></div></article>)}
+  </section>
+  <dialog class="video-dialog"><button class="close" type="button">关闭</button><h2></h2><video controls preload="metadata" playsinline></video></dialog>
+</BaseLayout>
+<script>
+  const dialog=document.querySelector<HTMLDialogElement>('.video-dialog'); const video=dialog?.querySelector('video'); const title=dialog?.querySelector('h2');
+  document.querySelectorAll<HTMLButtonElement>('[data-video]').forEach((button)=>button.addEventListener('click',()=>{if(video)video.src=button.dataset.video||'';if(title)title.textContent=button.dataset.label||'';dialog?.showModal();video?.play()}));
+  dialog?.querySelector('.close')?.addEventListener('click',()=>{video?.pause();dialog.close()}); dialog?.addEventListener('close',()=>{video?.pause();if(video)video.removeAttribute('src')});
+</script>
+<style>.animatic-list{display:grid;grid-template-columns:repeat(2,1fr);gap:4rem 2rem}.animatic-list article{display:grid;grid-template-columns:1.25fr .75fr;gap:1.4rem}.animatic-still{position:relative;background:#eee}.animatic-still img{display:block;width:100%;height:100%;object-fit:cover}.animatic-still button{position:absolute;inset:auto auto 1rem 1rem;background:var(--paper);color:var(--ink);border:0;padding:.6rem 1rem}.animatic-list h2{font-size:1.4rem;margin:.3rem 0}.animatic-list article p:last-of-type,.animatic-list a{font-size:.7rem;color:var(--muted)}.video-dialog{width:min(94vw,80rem);background:#111;color:#fff;border:1px solid #555;padding:2rem}.video-dialog::backdrop{background:rgba(0,0,0,.9)}.video-dialog video{width:100%;display:block}.video-dialog .close{float:right;background:none;border:1px solid #777;color:#fff;padding:.4rem .7rem}@media(max-width:1000px){.animatic-list{grid-template-columns:1fr}}@media(max-width:560px){.animatic-list article{grid-template-columns:1fr}}</style>

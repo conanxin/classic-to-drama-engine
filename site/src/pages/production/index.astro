@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import documents from '../../generated/documents.json';
+import { withBase } from '../../lib/urls';
+const groups: Array<[string, string[]]> = [
+  ['改编与编剧',['adaptation-bible','screenplay-v2-result','editorial-result','character-voice-bible','character-arc-audit']],
+  ['导演与制作',['production-bible','production-complexity','director-vision','storyboard-plan','p3-final-result']],
+  ['视觉与美术',['look-bible','p4-final-result','art-department-master']],
+  ['Animatic 与证明',['full-series-animatic-result','pitch-package','p5-final-result']]
+];
+const bySlug = new Map(documents.map((doc)=>[doc.slug,doc]));
+---
+<BaseLayout title="制作档案｜《归途：奥德修斯》" description="从改编圣经、导演方案到视觉开发、Animatic 与 P5 制作证明的精选档案。">
+  <PageIntro eyebrow="PRODUCTION ARCHIVE · CURATED SOURCES" title="一场戏的背后，是一连串可检查的决定。" deck="这里不是仓库文件树。公开清单只纳入读者、导演与制作团队真正需要的冻结文档；Runtime、授权注册表、失败日志与临时证据不对外发布。" />
+  <section class="section production-groups">
+    {groups.map(([label,slugs],index)=><section><header><span>{String(index+1).padStart(2,'0')}</span><h2>{label}</h2></header><div>{slugs.map((slug)=>{const doc=bySlug.get(slug);return doc&&<a href={withBase(`documents/${doc.slug}/`)}><div><h3>{doc.title}</h3><p>{doc.deck}</p></div><span>阅读 ↗</span></a>})}</div></section>)}
+  </section>
+</BaseLayout>
+<style>.production-groups>section{display:grid;grid-template-columns:1fr 2fr;gap:2rem;padding:3rem 0;border-top:1px solid var(--rule);min-width:0}.production-groups>section>*{min-width:0}.production-groups header{display:grid;grid-template-columns:3rem minmax(0,1fr)}.production-groups header span{font-size:.7rem;color:var(--rust)}.production-groups header h2{font-size:2rem;overflow-wrap:anywhere}.production-groups section>div>a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2rem;padding:1.2rem 0;border-top:1px solid var(--rule);text-decoration:none;min-width:0}.production-groups section>div>a:first-child{border-top:0}.production-groups h3{font-family:var(--sans);font-size:1rem;margin:0;overflow-wrap:anywhere}.production-groups a p{font-size:.75rem;color:var(--muted);margin:.4rem 0;overflow-wrap:anywhere}.production-groups a>span{font-size:.7rem}@media(max-width:720px){.production-groups>section{grid-template-columns:minmax(0,1fr)}.production-groups section>div>a{gap:1rem}}</style>

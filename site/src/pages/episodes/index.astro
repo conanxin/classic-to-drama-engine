@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import EpisodeIndex from '../../components/EpisodeIndex.astro';
+import episodes from '../../generated/episodes.json';
+---
+<BaseLayout title="三十集剧本｜《归途：奥德修斯》" description="浏览《归途：奥德修斯》完整三十集 V2 制作剧本。">
+  <PageIntro eyebrow="SCREENPLAY V2 · 30 EPISODES" title="三十次出发，一次归家。" deck="从忒勒马科斯无法拿回父亲的酒杯，到共同体看见武器被放下。完整 V2 正文按集呈现，来源覆盖《奥德赛》Books 1–24。" />
+  <section class="section episode-catalog">
+    <EpisodeIndex episodes={episodes} />
+  </section>
+</BaseLayout>
+<style>.episode-catalog{padding-top:1rem}</style>
