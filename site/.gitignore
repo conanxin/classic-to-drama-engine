@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.playwright-cli/
+output/
+public/media/
+public/search-data.json
+src/generated/
+.pagefind/
+qa-output/

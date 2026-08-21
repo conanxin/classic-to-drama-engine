@@ -1,0 +1,33 @@
+{
+  "artifact_class": "CTDE_WEB_PUBLICATION_MANIFEST",
+  "schema_version": "1.0.0",
+  "baseline_commit": "478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5",
+  "policy": "Only listed documents and generated episode/character/world metadata may enter the public archive.",
+  "documents": [
+    {"slug":"project-overview","title":"项目概览","type":"Project","source":"site/content/documents/01_PROJECT_OVERVIEW.md"},
+    {"slug":"adaptation-method","title":"改编方法","type":"Adaptation","source":"site/content/documents/02_ADAPTATION_METHOD.md"},
+    {"slug":"adaptation-bible","title":"Adaptation Bible V1","type":"Adaptation","source":"adaptation/odyssey_m1_v1/ADAPTATION_BIBLE.md"},
+    {"slug":"screenplay-v2-result","title":"Screenplay V2 Result","type":"Screenplay","source":"scripts/odyssey_m1_v2/SCREENPLAY_V2_RESULT.md"},
+    {"slug":"editorial-result","title":"Screenplay V2 Editorial Result","type":"Editorial","source":"editorial/odyssey_m1_v2/SCREENPLAY_V2_EDITORIAL_RESULT.md"},
+    {"slug":"character-voice-bible","title":"Character Voice Bible","type":"Editorial","source":"editorial/odyssey_m1_v2/CHARACTER_VOICE_BIBLE.md"},
+    {"slug":"character-arc-audit","title":"Character Arc Audit","type":"Editorial","source":"editorial/odyssey_m1_v2/CHARACTER_ARC_AUDIT.md"},
+    {"slug":"production-bible","title":"Production Bible","type":"Production","source":"production/odyssey_m1_v2/PRODUCTION_BIBLE.md"},
+    {"slug":"production-complexity","title":"Production Complexity Report","type":"Production","source":"production/odyssey_m1_v2/PRODUCTION_COMPLEXITY_REPORT.md"},
+    {"slug":"director-vision","title":"Director Vision","type":"Director","source":"preproduction/odyssey_m1_p3/DIRECTOR_VISION.md"},
+    {"slug":"storyboard-plan","title":"Storyboard Plan","type":"Director","source":"preproduction/odyssey_m1_p3/STORYBOARD_PLAN.md"},
+    {"slug":"p3-final-result","title":"P3 Director & Production Package Result","type":"Milestone","source":"preproduction/odyssey_m1_p3/P3_FINAL_RESULT.md"},
+    {"slug":"look-bible","title":"Look Bible","type":"Look Development","source":"visual-development/odyssey_m1_p4/LOOK_BIBLE.md"},
+    {"slug":"p4-final-result","title":"P4 Visual Development Result","type":"Milestone","source":"ODYSSEY_P4_FINAL_RESULT.md"},
+    {"slug":"art-department-master","title":"Art Department Master Bible","type":"Art Department","source":"art-department/odyssey_m1_p5/ART_DEPARTMENT_MASTER_BIBLE.md"},
+    {"slug":"full-series-animatic-result","title":"Full-Series Animatic Result","type":"Animatic","source":"animatic/odyssey_m1_p5/FULL_SERIES_ANIMATIC_RESULT.md"},
+    {"slug":"pitch-package","title":"Production Pitch Package","type":"Pitch","source":"pitch/odyssey_m1_p5/PITCH_PACKAGE.md"},
+    {"slug":"p5-final-result","title":"P5 Final Preproduction Proof Result","type":"Milestone","source":"ODYSSEY_P5_FINAL_RESULT.md"}
+  ],
+  "forbidden_publication_classes": [
+    "runtime internals",
+    "authorization registries",
+    "temporary evidence",
+    "failed sandbox logs",
+    "credentials and environment secrets"
+  ]
+}

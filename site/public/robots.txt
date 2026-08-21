@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://conanxin.github.io/classic-to-drama-engine/sitemap-index.xml

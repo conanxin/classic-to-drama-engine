@@ -1,0 +1,2607 @@
+{
+  "artifact_class": "CTDE_WEB_ASSET_PUBLICATION_MANIFEST",
+  "schema_version": "1.0.0",
+  "baseline_commit": "478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5",
+  "strategy": "Curated approved P4/P5 media; all 30 compressed animatics are online, while intermediate high-resolution renders and 711 individual SVG frames remain repository-only.",
+  "selected_hero_frame_ids": [
+    "P4-HF-01",
+    "P4-HF-02",
+    "P4-HF-09",
+    "P4-HF-16",
+    "P4-HF-31",
+    "P4-HF-36",
+    "P4-HF-37",
+    "P4-HF-40",
+    "P4-HF-45",
+    "P4-HF-46",
+    "P4-HF-48",
+    "P4-HF-53"
+  ],
+  "rejected_hero_frame_ids": [
+    "P4-HF-19",
+    "P4-HF-29",
+    "P4-HF-34",
+    "P4-HF-39",
+    "P4-HF-43",
+    "P4-HF-44"
+  ],
+  "asset_count": 286,
+  "total_bytes": 211556718,
+  "assets": [
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP01_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP01_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1630375,
+      "sha256": "6ad033cfbbfa0085045f0146342d4f8d44906c3346e0ecd10c0ad1c0b806faf1",
+      "authority": "P5 timing animatic EP01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP02_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP02_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1626122,
+      "sha256": "6f4b67350879524ae955da27bf308cd072bcac096eca308d8a9af20453fb417c",
+      "authority": "P5 timing animatic EP02",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP03_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP03_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1651593,
+      "sha256": "878b3ec285ca634c2b1fa613d3312663421bd2516c77fc9f9a026d1336440435",
+      "authority": "P5 timing animatic EP03",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP04_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP04_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1607330,
+      "sha256": "efed1db6a7d0da8296dce82b327e1995eec2cfc9a77cbfa05f5dd96ef90e3b9e",
+      "authority": "P5 timing animatic EP04",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP05_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP05_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1918189,
+      "sha256": "a48d7e69015c6f6f13b130b34e08da1ecc1cb93cf74249690a4bb122b29d3ccb",
+      "authority": "P5 timing animatic EP05",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP06_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP06_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1683403,
+      "sha256": "ba5bc5bd12dd55691f2ca3fda49f5a5f63f038ef925aff521118aed194d173ec",
+      "authority": "P5 timing animatic EP06",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP07_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP07_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1684086,
+      "sha256": "941a5e9cfbb9cc3b5570a528402751d823ce693f22638534985601edce36c74e",
+      "authority": "P5 timing animatic EP07",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP08_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP08_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1734822,
+      "sha256": "a4bf321e42ae31f22b662fbf53faeb556a478f717f37e8f7fe80c207c5a8f71a",
+      "authority": "P5 timing animatic EP08",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP09_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP09_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1701842,
+      "sha256": "0fc289f2e92cd2ea566b5049f70041b7db677097fadbb0f6d74ea5bab48f8501",
+      "authority": "P5 timing animatic EP09",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP10_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP10_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 2049452,
+      "sha256": "932488a4dd4e577494ad7e62b86706d3a03f7d096c426f71db3fa93aaf113775",
+      "authority": "P5 timing animatic EP10",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP11_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP11_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1911292,
+      "sha256": "4317b2571fb46d0c8e685edeb809fea0e18f6f83b3b910101d556ea126e66870",
+      "authority": "P5 timing animatic EP11",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP12_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP12_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1755898,
+      "sha256": "ce99879c4efb4590d71db5790326c72122a1a91a695be48f938adcdb029da1df",
+      "authority": "P5 timing animatic EP12",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP13_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP13_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1841846,
+      "sha256": "6f1e985f59f8225124f1c4716e170e76e21cf2512bcd6f423a3ce35d68f50bed",
+      "authority": "P5 timing animatic EP13",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP14_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP14_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1964709,
+      "sha256": "de88dfb4c5ecf28022ab97e8c8aebad7f34c8d43ba18a5b578defa95aa62e559",
+      "authority": "P5 timing animatic EP14",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP15_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP15_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1820156,
+      "sha256": "0aa266a054050c7f556711d7f5c3f982067832fc23ae6505450c97dc21026a27",
+      "authority": "P5 timing animatic EP15",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP16_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP16_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1894986,
+      "sha256": "37f5a3ffee256a16c8c6c2a88f4bfaeaf63589705d49b18d7eb31c35acdf634a",
+      "authority": "P5 timing animatic EP16",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP17_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP17_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1600125,
+      "sha256": "bc3fb203a1168372d9dcadfe229158d707ad7b405ac4a4235c4c67220ee2f433",
+      "authority": "P5 timing animatic EP17",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP18_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP18_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1673042,
+      "sha256": "c936211f02d086456fa1b95c5f8c0bb25c23b187f5553a5f5b7ae3ada48502eb",
+      "authority": "P5 timing animatic EP18",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP19_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP19_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1812437,
+      "sha256": "efcbb965048f6c401b15d30be97a23d2a178613ca6ce88c7f9401529ec32538a",
+      "authority": "P5 timing animatic EP19",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP20_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP20_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1765647,
+      "sha256": "1c693156375d19b6000ea2635727ba7c4dfd50f9182c11d5c47a689ddf174bdd",
+      "authority": "P5 timing animatic EP20",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP21_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP21_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1682692,
+      "sha256": "9ddbd4436add3c71befc1d597e5c5a114ec4bcb58c1de391c37d03978fcca226",
+      "authority": "P5 timing animatic EP21",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP22_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP22_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1622574,
+      "sha256": "d7717c7ce5db1e16b57d3c6524edb41acf1532992bdc94c13bbb0d233ca45235",
+      "authority": "P5 timing animatic EP22",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP23_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP23_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1868351,
+      "sha256": "5659266b702954c52739df8ea02e5d9a60672ed5423d93c5ca70b7e438ca4b47",
+      "authority": "P5 timing animatic EP23",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP24_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP24_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1654813,
+      "sha256": "67b606458a64434fb52dee5529c2c44a12d9c7049285ca459dd098e3a88be079",
+      "authority": "P5 timing animatic EP24",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP25_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP25_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1868318,
+      "sha256": "9f4896b67b547bdbb4dbccd1d33dca89bc57e33e9c78765f5179b9a2222b194a",
+      "authority": "P5 timing animatic EP25",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP26_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP26_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1922103,
+      "sha256": "f9e8e2ce2e3829f63187643b0b0e0bcefe19d7560fc677152bdb3df8f6da83af",
+      "authority": "P5 timing animatic EP26",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP27_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP27_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1926557,
+      "sha256": "d486ee13e141890133617d93c4b44b90e8281ef24551bd7720371b554524a717",
+      "authority": "P5 timing animatic EP27",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP28_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP28_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1988281,
+      "sha256": "af1cf833866ab06598e6a0b415043d47e7014566e2f8a7efcf05d9c6a1af4a6d",
+      "authority": "P5 timing animatic EP28",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP29_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP29_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 1854102,
+      "sha256": "a66f5d820e6a61b212773a26e5a5d42c8f4156b18dbad9bc431d7a6d557b2091",
+      "authority": "P5 timing animatic EP29",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "animatic/odyssey_m1_p5/episodes/EP30_ANIMATIC.mp4",
+      "published_path": "media/animatics/EP30_ANIMATIC.mp4",
+      "type": "video",
+      "bytes": 2081565,
+      "sha256": "362a51af3da7be63434c973951424706515fdf877df3b4480a062de664483ab6",
+      "authority": "P5 timing animatic EP30",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP03-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP03-S04-P01.png",
+      "type": "image",
+      "bytes": 78417,
+      "sha256": "26f67c5d1f2c5dd2c6128db7c1c07690bc21ff8051f711c005d24bd1bf48d58b",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP03-S04 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP05-S01-P01.png",
+      "type": "image",
+      "bytes": 116149,
+      "sha256": "c08e737a06c9388ba4046ec0eab1217cdefff3b5e1b06d951849608ffdff818f",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S01-P02.png",
+      "published_path": "media/storyboards/boards/EP05-S01-P02.png",
+      "type": "image",
+      "bytes": 118625,
+      "sha256": "2ed512be9894dfe0e633189994ab8b3fde95728f00ea58d3d9d1962de6ea4006",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S01-P03.png",
+      "published_path": "media/storyboards/boards/EP05-S01-P03.png",
+      "type": "image",
+      "bytes": 52182,
+      "sha256": "249e4e7d8a11e513a395580a1cb2cf82173886a91ae38345e4a36bef38073c8c",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP05-S02-P01.png",
+      "type": "image",
+      "bytes": 99104,
+      "sha256": "231763ffb56648d22512d718cb99c7c05104ed7ced9bbb7c9de1a659b9734fe5",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP05-S02-P02.png",
+      "type": "image",
+      "bytes": 45610,
+      "sha256": "9f46e9f528b9a64225b09b2e97271154d3c21dc91bef59f1def82748d11983e7",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP05-S03-P01.png",
+      "type": "image",
+      "bytes": 115850,
+      "sha256": "112e0e175c4a35fe76ac1f23ceaf9c4a62289e6303c1d9d5950fe0d0ef6d3d54",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S03-P02.png",
+      "published_path": "media/storyboards/boards/EP05-S03-P02.png",
+      "type": "image",
+      "bytes": 43023,
+      "sha256": "5191c53ff2e533c027da030d11caf8154a41b9e35c17195aefc457fff6763189",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP05-S04-P01.png",
+      "type": "image",
+      "bytes": 126390,
+      "sha256": "32164395bf44b4a57b6b2e930d7b49aee260a639514d8561e126402e919cf3a9",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S04-P02.png",
+      "published_path": "media/storyboards/boards/EP05-S04-P02.png",
+      "type": "image",
+      "bytes": 114524,
+      "sha256": "5cbf86759485498b0eda8f59519743365917eaa577859742f5a3caf9ad7c451d",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S04-P03.png",
+      "published_path": "media/storyboards/boards/EP05-S04-P03.png",
+      "type": "image",
+      "bytes": 101327,
+      "sha256": "9dce6e1fbc75df425ea910e1de122424ac7a8bba5353653ae953eee9b034e15c",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP05-S05-P01.png",
+      "type": "image",
+      "bytes": 106234,
+      "sha256": "9c4e399fa290d0f3b3c7d8254eadc8d02d9937aaa880084f349fe776f5ed2724",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S05-P02.png",
+      "published_path": "media/storyboards/boards/EP05-S05-P02.png",
+      "type": "image",
+      "bytes": 106499,
+      "sha256": "91a999c877c47c753006fd184cfa21d30c84050fa321291bdf8b885eda0a0e13",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S05-P03.png",
+      "published_path": "media/storyboards/boards/EP05-S05-P03.png",
+      "type": "image",
+      "bytes": 49781,
+      "sha256": "4d7f6a01c9fee0e9a6f0f8114afaceb793d2dbfa57b79894af512c2ecaee54c3",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP05-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP06-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP06-S01-P01.png",
+      "type": "image",
+      "bytes": 59830,
+      "sha256": "0e858e9acb13f7383edebe18ed865561312264df98ddf460747aa006baef27ba",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP06-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP06-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP06-S04-P01.png",
+      "type": "image",
+      "bytes": 58359,
+      "sha256": "4d844fe5883d1b0ec61c4e2b22793b6a378ac8cef8605ed03c03b4209519116e",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP06-S04 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP07-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP07-S01-P01.png",
+      "type": "image",
+      "bytes": 63489,
+      "sha256": "6606d5204b4bc5c7437a5fa47a0983de904bf58b2128d750d143a92a01163740",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP07-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP08-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP08-S02-P01.png",
+      "type": "image",
+      "bytes": 84375,
+      "sha256": "c2824a71b9d6ffef9498a6fa02a4cdcab2d258f3198d49a89f30b9000d771b1c",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP08-S02 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP08-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP08-S03-P01.png",
+      "type": "image",
+      "bytes": 80557,
+      "sha256": "6b1cd1977bd80bce8d56676ba42c8c461399eb9ac5c7bee65644d4ae477876a2",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP08-S03 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP09-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP09-S01-P01.png",
+      "type": "image",
+      "bytes": 80278,
+      "sha256": "f87ad3b51a682eb24d4d1a084d3851f03786fdd4298e7e48014f173c3ccb5748",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP09-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP09-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP09-S05-P01.png",
+      "type": "image",
+      "bytes": 78166,
+      "sha256": "a00b3111b67c1ddbb7ecde1f599083d1186404dad148dc41db28857ac686d703",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP09-S05 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP10-S01-P01.png",
+      "type": "image",
+      "bytes": 120973,
+      "sha256": "c3717b933bd9ce884e9594fef0e86435c714d3b225b91366b984a953207f3a07",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S01-P02.png",
+      "published_path": "media/storyboards/boards/EP10-S01-P02.png",
+      "type": "image",
+      "bytes": 121413,
+      "sha256": "acf5b7e49fe0d9611479d69d60bcf91b8edffca2c6b90ce1724748f8fd0d9c61",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S01-P03.png",
+      "published_path": "media/storyboards/boards/EP10-S01-P03.png",
+      "type": "image",
+      "bytes": 112462,
+      "sha256": "40bc6b054d83fda3bc6fd14de5a0ee9d9413be4a1e026edf3736fd565cb32517",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP10-S02-P01.png",
+      "type": "image",
+      "bytes": 119853,
+      "sha256": "fc1a8d28f46fd980050a64e518e694ecbe400d460a9d0af594079b0b3a7eb8fb",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP10-S02-P02.png",
+      "type": "image",
+      "bytes": 116057,
+      "sha256": "517a83e83a1f4b516c4da50a2f1028bb88b0bc03e81fd69b83d75255d6dcb608",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP10-S03-P01.png",
+      "type": "image",
+      "bytes": 130329,
+      "sha256": "5510e1f15426ddc9fd84ba90000cc4f6c9ec00cb82fd86e11c46122d540c188b",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S03-P02.png",
+      "published_path": "media/storyboards/boards/EP10-S03-P02.png",
+      "type": "image",
+      "bytes": 125588,
+      "sha256": "6c27ded9916dff6f42f3c2143196d5e5f7eb651941a7df08ef916d8760e144d6",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S03-P03.png",
+      "published_path": "media/storyboards/boards/EP10-S03-P03.png",
+      "type": "image",
+      "bytes": 117432,
+      "sha256": "3e74aaf4b964a3949a194809f10195f1ea159fe3c1d509b478f85fbb1c3d0b31",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP10-S04-P01.png",
+      "type": "image",
+      "bytes": 122790,
+      "sha256": "76970e9fec451606d74d776d3b5f52c4314c06c2092ef8d544b49e8848249adc",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S04-P02.png",
+      "published_path": "media/storyboards/boards/EP10-S04-P02.png",
+      "type": "image",
+      "bytes": 113582,
+      "sha256": "af09b082f1d6d6dfc870cb13cb136415ca59bdefc719ec380a4cbe939593fa88",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP10-S05-P01.png",
+      "type": "image",
+      "bytes": 117488,
+      "sha256": "20f31f97c9114646ae7cc9aabe87104f98cff99617b079e3f3059330d4f3dfd3",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S05-P02.png",
+      "published_path": "media/storyboards/boards/EP10-S05-P02.png",
+      "type": "image",
+      "bytes": 121343,
+      "sha256": "6c6583bdf12b6a032f9586d6ad2602e894efab6c687b39456568e3e2a021e7d3",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S05-P03.png",
+      "published_path": "media/storyboards/boards/EP10-S05-P03.png",
+      "type": "image",
+      "bytes": 97625,
+      "sha256": "bb15c88314989eff715a9513fd550fc396eb5a1ed8be077534b84ac566df93c1",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP10-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP11-S01-P01.png",
+      "type": "image",
+      "bytes": 123242,
+      "sha256": "63245dcfb61732bea848fae7a13f00816a75d1b3d7b4d4ea95e87986e0361ca9",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S01-P02.png",
+      "published_path": "media/storyboards/boards/EP11-S01-P02.png",
+      "type": "image",
+      "bytes": 119083,
+      "sha256": "6b5b382571d230832bd4810eb2e16600a311adf7de2629ab9592caee3e945af1",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S01-P03.png",
+      "published_path": "media/storyboards/boards/EP11-S01-P03.png",
+      "type": "image",
+      "bytes": 52820,
+      "sha256": "89747d6aaee111d24b282bb87ce9ff44ce069ece5f3e0ba9c632ce01d42ec9ae",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP11-S02-P01.png",
+      "type": "image",
+      "bytes": 122595,
+      "sha256": "2bfde610a26cb0d516a3040e5437319cc4b3635fe7a3c53db37eb935803ea3ca",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP11-S02-P02.png",
+      "type": "image",
+      "bytes": 45147,
+      "sha256": "75072295e24a95bdfdfac45162e003bec7529e0271f856e69c78698e5bb7aafc",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP11-S03-P01.png",
+      "type": "image",
+      "bytes": 130316,
+      "sha256": "f0c61b8bc95b03f7192ab5c9b78781613c9580b483e47ffd0d82fd7f8f398277",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S03-P02.png",
+      "published_path": "media/storyboards/boards/EP11-S03-P02.png",
+      "type": "image",
+      "bytes": 118617,
+      "sha256": "7dd615831c9772fcc58279f5a5fad23fe04ad8e7652cec18af5bb8485372f7ae",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S03-P03.png",
+      "published_path": "media/storyboards/boards/EP11-S03-P03.png",
+      "type": "image",
+      "bytes": 54989,
+      "sha256": "1f4719f17d3c684c6d9948565ab8a580a17a597c26f377205f106472ec993fcb",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP11-S04-P01.png",
+      "type": "image",
+      "bytes": 114098,
+      "sha256": "7e96b3aabf0284401d3da609d7fd3195329b16d356e496b000ecfb2fa395ba74",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP11-S05-P01.png",
+      "type": "image",
+      "bytes": 142887,
+      "sha256": "d7b6380df0297a240f32bb3cc2a7547c1c345475c467def8081b5f5f2ab9ae9f",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S05-P02.png",
+      "published_path": "media/storyboards/boards/EP11-S05-P02.png",
+      "type": "image",
+      "bytes": 130161,
+      "sha256": "9b51b6603a4ecadef4b03438aa7d910be36cdb51840887172e322b69030de528",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP11-S05-P03.png",
+      "published_path": "media/storyboards/boards/EP11-S05-P03.png",
+      "type": "image",
+      "bytes": 113853,
+      "sha256": "26218105b58eab0fbfd76e29c51b650be693b1f6822e7af54dd9d6962633f76a",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP11-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP12-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP12-S01-P01.png",
+      "type": "image",
+      "bytes": 72607,
+      "sha256": "0fdf2852fd7d66169b7909a773dcfa868f948007e45288629d6b1c86d627cfc1",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP12-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP12-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP12-S02-P01.png",
+      "type": "image",
+      "bytes": 60655,
+      "sha256": "8a97ff8a762e574e2be7259b4995ada952e8c37f15258dd13552bf0f37df9a9b",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP12-S02 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP12-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP12-S03-P01.png",
+      "type": "image",
+      "bytes": 71254,
+      "sha256": "e9f35b87019890952ac8f787a6c7b732ae605f3e0e7a4a00e83348a4dbac71cc",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP12-S03 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP13-S01-P01.png",
+      "type": "image",
+      "bytes": 110808,
+      "sha256": "1e2a59590692a413332bacaa791d68df804ba7720a5c11870dc21eba8af69c7c",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S01-P02.png",
+      "published_path": "media/storyboards/boards/EP13-S01-P02.png",
+      "type": "image",
+      "bytes": 97667,
+      "sha256": "9dea4bd33d4925120fc100192c572155705f9e522a7ec85876b749e6a0808071",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S01-P03.png",
+      "published_path": "media/storyboards/boards/EP13-S01-P03.png",
+      "type": "image",
+      "bytes": 49382,
+      "sha256": "3858175d712e6372c123799738cf5e39cfca15e335b7099ad6e4c23e05f438cf",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP13-S02-P01.png",
+      "type": "image",
+      "bytes": 106236,
+      "sha256": "3be975d92d2dd5aa0ac530050460c79c497e100d4dc12cdbe930d384375331f0",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP13-S02-P02.png",
+      "type": "image",
+      "bytes": 106701,
+      "sha256": "0b5f8155395711b33b9730a270023096a6e4b10de40231139032a869805c75a2",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S02-P03.png",
+      "published_path": "media/storyboards/boards/EP13-S02-P03.png",
+      "type": "image",
+      "bytes": 51128,
+      "sha256": "30cdc6c534d98d2ed331bb32b8e171b246b47850abad6453864d38b98c3d8425",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP13-S03-P01.png",
+      "type": "image",
+      "bytes": 112541,
+      "sha256": "4210dbc1f29f11554baf4425711e5f43a3097b5a8cecf4d01419078a01b6ee60",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S03-P02.png",
+      "published_path": "media/storyboards/boards/EP13-S03-P02.png",
+      "type": "image",
+      "bytes": 103936,
+      "sha256": "13f3564a254a504096c3def29fe8ea52f3b6190859afd6c41b62e52e08311aec",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S03-P03.png",
+      "published_path": "media/storyboards/boards/EP13-S03-P03.png",
+      "type": "image",
+      "bytes": 45146,
+      "sha256": "c3b06be77abe6f4de8f325d0b196b6b121454260b0d418a511653728f348f842",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP13-S04-P01.png",
+      "type": "image",
+      "bytes": 97587,
+      "sha256": "527ae699b83515544a365fdc4a72b89094658f921c925a7ae2d4b852061513bf",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S04-P02.png",
+      "published_path": "media/storyboards/boards/EP13-S04-P02.png",
+      "type": "image",
+      "bytes": 102663,
+      "sha256": "4ed61b094c264873db27e307e1633e9fd989f0c0a09d0404cb7da8078518073d",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S04-P03.png",
+      "published_path": "media/storyboards/boards/EP13-S04-P03.png",
+      "type": "image",
+      "bytes": 49244,
+      "sha256": "ebb25fc831f8d79acca8dac46943d4580c8a7193440ccccbb4fbd0096d7916e8",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP13-S05-P01.png",
+      "type": "image",
+      "bytes": 97968,
+      "sha256": "344ad1205c1e97c0d7a1e44e1b166d653ca8d19c712afb9f3bdd446516be77e2",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S05-P02.png",
+      "published_path": "media/storyboards/boards/EP13-S05-P02.png",
+      "type": "image",
+      "bytes": 113808,
+      "sha256": "2f226119df56011338f3b1b8d620853e9dd91e0dd7fac4efa5b03c9e98dc2b90",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S05-P03.png",
+      "published_path": "media/storyboards/boards/EP13-S05-P03.png",
+      "type": "image",
+      "bytes": 46108,
+      "sha256": "9a8aef55e9d74d531ea1142deb3fb49d11d2c4585ee0a2c797b86b798f1c41cf",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP13-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP14-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP14-S01-P01.png",
+      "type": "image",
+      "bytes": 113162,
+      "sha256": "aab52902e24decfd272a90d8a3705ed4d804ca6ab0b59cc484222e01f6b78883",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP14-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP14-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP14-S02-P01.png",
+      "type": "image",
+      "bytes": 132702,
+      "sha256": "2ea8f5e31c8f2225ae3d05985bca8c7211270329bf83e11a5f5e2e50428613f5",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP14-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP14-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP14-S02-P02.png",
+      "type": "image",
+      "bytes": 54081,
+      "sha256": "36247b1722f3881fabd9449a753db4b9441b84d89a9512050d286814a3004b74",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP14-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP14-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP14-S03-P01.png",
+      "type": "image",
+      "bytes": 126092,
+      "sha256": "3d8ad8e5d1de5255363a5914927dbeb272ba6b29f23dd86bb276370115776145",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP14-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP14-S03-P02.png",
+      "published_path": "media/storyboards/boards/EP14-S03-P02.png",
+      "type": "image",
+      "bytes": 67351,
+      "sha256": "0f9f518326140e9092bb18ca9bd4fcc39d6e837233aba85cdeb44a3c1018dab1",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP14-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP14-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP14-S04-P01.png",
+      "type": "image",
+      "bytes": 115775,
+      "sha256": "0d778baa0c89ce28df9e6868c0faf1df6379831b84c516bdb369a173206ed1d2",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP14-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP14-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP14-S05-P01.png",
+      "type": "image",
+      "bytes": 136759,
+      "sha256": "a4161c0d3f42673398c8793c6c704b2a149210447f0057c3618d2a14d7e115ba",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP14-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP14-S05-P02.png",
+      "published_path": "media/storyboards/boards/EP14-S05-P02.png",
+      "type": "image",
+      "bytes": 130441,
+      "sha256": "4373db302213a7b3c36777e6b96ff249b831b7743dd474984536256a75a5002a",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP14-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP14-S05-P03.png",
+      "published_path": "media/storyboards/boards/EP14-S05-P03.png",
+      "type": "image",
+      "bytes": 116064,
+      "sha256": "d5c3a5a28f584425e108d4765b1010f301fc812e1335cde71c2de6015972a6ab",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP14-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP15-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP15-S01-P01.png",
+      "type": "image",
+      "bytes": 112209,
+      "sha256": "b07582825648d8fd3e008f2b5553e4d987ee765396650c96e6f5a9b9b5711851",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP15-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP15-S01-P02.png",
+      "published_path": "media/storyboards/boards/EP15-S01-P02.png",
+      "type": "image",
+      "bytes": 44822,
+      "sha256": "8d225cb92b8dfb6fea21a9a0e22f17c70d5853ed090c268b2628402f2823a64e",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP15-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP15-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP15-S02-P01.png",
+      "type": "image",
+      "bytes": 124226,
+      "sha256": "98a2c46205a9565151b38c4a0726e72fdc1c200ab821bde25d45b007aa69a09d",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP15-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP15-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP15-S02-P02.png",
+      "type": "image",
+      "bytes": 48577,
+      "sha256": "0f44eb95bcde11d622eb358a6d6d87cf8a55525fcc4db5fc13ff5773a0972e1b",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP15-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP15-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP15-S03-P01.png",
+      "type": "image",
+      "bytes": 133989,
+      "sha256": "ceed6e2a19ed7a87db0c309c4d39faa0d97b0b1413f66ccae94443104fc08490",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP15-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP15-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP15-S04-P01.png",
+      "type": "image",
+      "bytes": 132249,
+      "sha256": "8c4954fb9e358e9ea9f8ef49cd1bce996f1ef0e808fb0cd3ab934b6c5079d0e4",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP15-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP15-S04-P02.png",
+      "published_path": "media/storyboards/boards/EP15-S04-P02.png",
+      "type": "image",
+      "bytes": 119436,
+      "sha256": "907203ace3f394d50b7208e07ba8aa837bb5a0e5beb8033dcf6a263bd366bfe5",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP15-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP15-S04-P03.png",
+      "published_path": "media/storyboards/boards/EP15-S04-P03.png",
+      "type": "image",
+      "bytes": 116070,
+      "sha256": "18b5909c306faeb745438fc921bab9b244460294d2c1aac301b4b0a33051b822",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP15-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP15-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP15-S05-P01.png",
+      "type": "image",
+      "bytes": 132401,
+      "sha256": "3615dd206bfe7f9132ed959689c5c023c7e694097d3ba82cfda856da7b250002",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP15-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP15-S05-P02.png",
+      "published_path": "media/storyboards/boards/EP15-S05-P02.png",
+      "type": "image",
+      "bytes": 47056,
+      "sha256": "33406bc0e73046c766e912caad4fb3d30609156087b539fd218440a4832c97ab",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP15-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP16-S01-P01.png",
+      "type": "image",
+      "bytes": 126454,
+      "sha256": "febe23713c2ef253c6c8847d099cc4d83eeddad405d5bb1fab2a225bddfef314",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S01-P02.png",
+      "published_path": "media/storyboards/boards/EP16-S01-P02.png",
+      "type": "image",
+      "bytes": 49826,
+      "sha256": "f50bdae38f6625d7c44344f32c809850fd7735cf7efc898c041dce349be879d1",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP16-S02-P01.png",
+      "type": "image",
+      "bytes": 125825,
+      "sha256": "b92122292743de5785c8d3485174cd383f76d9307c877297343963020dcb0b45",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP16-S02-P02.png",
+      "type": "image",
+      "bytes": 117546,
+      "sha256": "6f5eed4cbe4b8e19f4664cf77f18d64431d70ee29cec812a008c0465c5da4fd2",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S02-P03.png",
+      "published_path": "media/storyboards/boards/EP16-S02-P03.png",
+      "type": "image",
+      "bytes": 54630,
+      "sha256": "a2e6b4359a19865f40d935df14ffe462d7c1dafb7af9546a455e13baa66a8eb3",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP16-S03-P01.png",
+      "type": "image",
+      "bytes": 106613,
+      "sha256": "678979d29d409623024b494fee7c675a45e68a494484e5d119aece932eb47d44",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S03-P02.png",
+      "published_path": "media/storyboards/boards/EP16-S03-P02.png",
+      "type": "image",
+      "bytes": 41766,
+      "sha256": "c70d20acfa5e0e1a39a080055056a6e14270a0fb4ff82da3a41c7f94a521f39d",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP16-S04-P01.png",
+      "type": "image",
+      "bytes": 115483,
+      "sha256": "111eb5b132d2bf18f9811f8b9392a2f7fff483454b63fa25e623c25e568e1365",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S04-P02.png",
+      "published_path": "media/storyboards/boards/EP16-S04-P02.png",
+      "type": "image",
+      "bytes": 56088,
+      "sha256": "6554f7c724671bb76d129b35d844845d124d93e414e6edea71f4b39e9dcf4220",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP16-S05-P01.png",
+      "type": "image",
+      "bytes": 124292,
+      "sha256": "6d0b859752face1b13fc7045e0280f4ff418c86e1a5f32cfdea3e57a3830e2e2",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S05-P02.png",
+      "published_path": "media/storyboards/boards/EP16-S05-P02.png",
+      "type": "image",
+      "bytes": 112693,
+      "sha256": "87f39facf1a3e1ebc606ee7128b7a09ec2d584059b2cd21d285bfebbd2574b81",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S05-P03.png",
+      "published_path": "media/storyboards/boards/EP16-S05-P03.png",
+      "type": "image",
+      "bytes": 49808,
+      "sha256": "6e1836274d1d55f7c7b447390593b6286ab66fa0ecbab29a619aef4fff7cf5bc",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP16-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP17-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP17-S01-P01.png",
+      "type": "image",
+      "bytes": 75413,
+      "sha256": "e727f5f52d3feba397a4a7c4f2df7e7a224175d9b87c90d6275edb4efdd36b02",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP17-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP18-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP18-S01-P01.png",
+      "type": "image",
+      "bytes": 68195,
+      "sha256": "98a79f72d9785c92c9cbfbc91bb540093dcdab24e920f61de5b916848e335ee3",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP18-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP19-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP19-S01-P01.png",
+      "type": "image",
+      "bytes": 63862,
+      "sha256": "d1b5b416fa41811f01948e3c855895203c78609ecc729fb590f2312fa7e57482",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP19-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP19-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP19-S02-P01.png",
+      "type": "image",
+      "bytes": 62382,
+      "sha256": "65010bf597eec3b6fef72592df9b1c5204ec41b864989d624d3f7f97657871b9",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP19-S02 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP19-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP19-S03-P01.png",
+      "type": "image",
+      "bytes": 60162,
+      "sha256": "4a55b05f7a0563c2db165a855a6a23643e85ff41a128db6d3e4e5e05bea940f5",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP19-S03 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP19-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP19-S04-P01.png",
+      "type": "image",
+      "bytes": 58243,
+      "sha256": "8ebe63b0636d9e6c3003f1e648ca90564f736c9e8b0202903c72bce06a2a747b",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP19-S04 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP19-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP19-S05-P01.png",
+      "type": "image",
+      "bytes": 65334,
+      "sha256": "8d68ce1550fc392d291dd923f63ca4e286f25f1aceb7d5aa7a989da9e0737cf3",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP19-S05 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP20-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP20-S02-P01.png",
+      "type": "image",
+      "bytes": 79458,
+      "sha256": "062649cbe4d3dcbee8da57dc63fb8d5d7a0e1d09946bfedccdeb24147c9f12cc",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP20-S02 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP20-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP20-S04-P01.png",
+      "type": "image",
+      "bytes": 87257,
+      "sha256": "d3698f670017f45b28a9917ecc013302e257f39793ddb1130241fc8c9bf493e5",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP20-S04 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP21-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP21-S01-P01.png",
+      "type": "image",
+      "bytes": 78711,
+      "sha256": "58958f4fc1d3b4059d09c57e1d718a70ad75fdf502bcc1a926cc8f7ad5fb4b9d",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP21-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP21-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP21-S02-P01.png",
+      "type": "image",
+      "bytes": 85659,
+      "sha256": "77d5baea34c2fdfad278b3b58236b929fd91f44332f6fa98b6b94ba419f93f7c",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP21-S02 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP21-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP21-S05-P01.png",
+      "type": "image",
+      "bytes": 80945,
+      "sha256": "654d6769dcd6fa90ca1be9f9eb727bdb34420b1ac6b447be6c78c82ad3d20d5a",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP21-S05 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP23-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP23-S01-P01.png",
+      "type": "image",
+      "bytes": 61786,
+      "sha256": "12039df517c9c646815dad069a8f7f2d691d8348d1fd6c5193d2300e6babea7e",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP23-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP23-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP23-S02-P01.png",
+      "type": "image",
+      "bytes": 61479,
+      "sha256": "db2d726d58cf1dc3ebd133a287587371db287d1d6ed23ed8d12463efe465a7dd",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP23-S02 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP23-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP23-S03-P01.png",
+      "type": "image",
+      "bytes": 56716,
+      "sha256": "ef1c2920d0fcda0e13907c0af5c5b534b241715e3690747c115dddd060eabeb0",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP23-S03 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP23-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP23-S04-P01.png",
+      "type": "image",
+      "bytes": 61638,
+      "sha256": "846ed915ed1e7e1463fb1040090812626b979e4cde3dc18ce3a7184883f9fe28",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP23-S04 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP23-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP23-S05-P01.png",
+      "type": "image",
+      "bytes": 69046,
+      "sha256": "d1aa04e582a2270033f6b0ab3ad68312164ecbaf90af649d6701fd36259bf700",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP23-S05 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP24-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP24-S01-P01.png",
+      "type": "image",
+      "bytes": 60355,
+      "sha256": "6501623416e283e13275e6796486dc2d3f5412dd0f7e57a521f5aebab4167013",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP24-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP24-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP24-S03-P01.png",
+      "type": "image",
+      "bytes": 82291,
+      "sha256": "b5208b07a4050a314a795c2a85e08476fbe6c4aaed38a8098bf96b496af55979",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP24-S03 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP25-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP25-S01-P01.png",
+      "type": "image",
+      "bytes": 133223,
+      "sha256": "91f64e0f2d1274d503b409be278ef34dcca2da4253cf6c0c4ff80a24f2dfd6a0",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP25-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP25-S01-P02.png",
+      "published_path": "media/storyboards/boards/EP25-S01-P02.png",
+      "type": "image",
+      "bytes": 51456,
+      "sha256": "5cc6eb48a564cedb6612db28e33320215290178c31f968ec4e929a702a5f350e",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP25-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP25-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP25-S02-P01.png",
+      "type": "image",
+      "bytes": 133237,
+      "sha256": "5aa85385477d9b6dfe68e9d48298d22e29cea4c17dac91476c9576778a410125",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP25-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP25-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP25-S03-P01.png",
+      "type": "image",
+      "bytes": 128857,
+      "sha256": "f83c4a073836e786087ff627b4d1804cffaa97243d88f1fb688294d85b0c100f",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP25-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP25-S03-P02.png",
+      "published_path": "media/storyboards/boards/EP25-S03-P02.png",
+      "type": "image",
+      "bytes": 49742,
+      "sha256": "ae1ef89cca83e28e787d2e11974d7cfa69502bfeb03cf612dba29b11176e2128",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP25-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP25-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP25-S04-P01.png",
+      "type": "image",
+      "bytes": 123370,
+      "sha256": "f0a2f4a13d3eefc2653b95cbae8f722a221eb9acfeed2b04fae5e0cf492e5c96",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP25-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP25-S04-P02.png",
+      "published_path": "media/storyboards/boards/EP25-S04-P02.png",
+      "type": "image",
+      "bytes": 46863,
+      "sha256": "e95b895bc24c6ac759a972505100c67c13257fcc2234baa4531aee8027a486c2",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP25-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP25-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP25-S05-P01.png",
+      "type": "image",
+      "bytes": 128687,
+      "sha256": "39ded3aba13dbf274de037737458a78a927f8b68b8f2ccbc10f39ccfee43cd15",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP25-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP26-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP26-S01-P01.png",
+      "type": "image",
+      "bytes": 132654,
+      "sha256": "411aa5daf0179448670b59f4e94eb27534f2355d06be34b3834b8b9124abb070",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP26-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP26-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP26-S02-P01.png",
+      "type": "image",
+      "bytes": 119044,
+      "sha256": "90c255a04f2dc037cbf817da92e92a44a5a62812aad731c1559aa14bb2b7bae5",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP26-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP26-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP26-S02-P02.png",
+      "type": "image",
+      "bytes": 50812,
+      "sha256": "072f3d4b05f2969b5fed516c3a2a6330d3945ff5a83d0b5a169926d10753ce4a",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP26-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP26-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP26-S03-P01.png",
+      "type": "image",
+      "bytes": 130464,
+      "sha256": "3c54cb202bbc698d05c9d995e1fbb30408ec3ba4177839952ae1c33aa03d6fe7",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP26-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP26-S03-P02.png",
+      "published_path": "media/storyboards/boards/EP26-S03-P02.png",
+      "type": "image",
+      "bytes": 122748,
+      "sha256": "f8a94b8419c1e7242f8f604f161d62a888009a4c14eeeef448a8e378f3e3f6b3",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP26-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP26-S03-P03.png",
+      "published_path": "media/storyboards/boards/EP26-S03-P03.png",
+      "type": "image",
+      "bytes": 62723,
+      "sha256": "da5e98235f1e8826d57d18a7dc6a7be85848d7c988851060896afd877e65aab0",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP26-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP26-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP26-S04-P01.png",
+      "type": "image",
+      "bytes": 129476,
+      "sha256": "351b936bb296b9cddb5e21dd48a281c8e03d74f350ad47d1e8de40376e2288e4",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP26-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP26-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP26-S05-P01.png",
+      "type": "image",
+      "bytes": 137659,
+      "sha256": "bd257d3d3c2bf2bcb3fcd423c086ae41f0af9e60dfbbf5593e4e4541fa8717d4",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP26-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP26-S05-P02.png",
+      "published_path": "media/storyboards/boards/EP26-S05-P02.png",
+      "type": "image",
+      "bytes": 123568,
+      "sha256": "2aa5af55f8430a62014b5359f79e4cdfe82a95d40c57ae601ea7a505a3d01edc",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP26-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP26-S05-P03.png",
+      "published_path": "media/storyboards/boards/EP26-S05-P03.png",
+      "type": "image",
+      "bytes": 64764,
+      "sha256": "36dbcef0c24fb86da8b8e69064f6fdd1b2422b4e1a7456b6109c4ef15f32c8cb",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP26-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP27-S01-P01.png",
+      "type": "image",
+      "bytes": 129199,
+      "sha256": "d7f84c60d6ee22edfe3219bb642d9618f1af4d75e0b563cc6a5352147befe825",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S01-P02.png",
+      "published_path": "media/storyboards/boards/EP27-S01-P02.png",
+      "type": "image",
+      "bytes": 118736,
+      "sha256": "89ef68d5097ab5cd9a3b12f5b9996ebee205e39b42d7a8beaf1c3fecc83a8c1b",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S01-P03.png",
+      "published_path": "media/storyboards/boards/EP27-S01-P03.png",
+      "type": "image",
+      "bytes": 60589,
+      "sha256": "c402c992a8b0579e29dbc5d6dda615cbb9f9813884b7e183348890b7542f661b",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP27-S02-P01.png",
+      "type": "image",
+      "bytes": 135999,
+      "sha256": "09f0e25d8b9df090add7c03187de01d761871538950d8b71042f8cdcc4951077",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP27-S02-P02.png",
+      "type": "image",
+      "bytes": 139208,
+      "sha256": "cfe580c3fda717ba0192717a5d00180bad2ab3c536f21ac0977ecb773d7df155",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S02-P03.png",
+      "published_path": "media/storyboards/boards/EP27-S02-P03.png",
+      "type": "image",
+      "bytes": 60328,
+      "sha256": "fd9080ca2e1c074f5b2fe1c875821702a7ee09c99c008ea760d14896be61ef1a",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP27-S03-P01.png",
+      "type": "image",
+      "bytes": 121925,
+      "sha256": "9f76b5d0113ce20243ee96a6d94e4b897c4e351f1c764e5038215d14c1f1dfc7",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP27-S04-P01.png",
+      "type": "image",
+      "bytes": 141998,
+      "sha256": "ce883e34555f4fbbcc68e07669652fb92afcf59a50acf321edda53df47052219",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S04-P02.png",
+      "published_path": "media/storyboards/boards/EP27-S04-P02.png",
+      "type": "image",
+      "bytes": 128886,
+      "sha256": "3142fb94f3af3e1b6e5f68a410f7564dd3e8296cca11abea87d3c03b48a685e5",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S04-P03.png",
+      "published_path": "media/storyboards/boards/EP27-S04-P03.png",
+      "type": "image",
+      "bytes": 62617,
+      "sha256": "a2173d65f0bf6d48268498c2a217036a4b95dfb541e37ddd85ebcd5286f85c2b",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP27-S05-P01.png",
+      "type": "image",
+      "bytes": 138552,
+      "sha256": "36daedad1311f4259ec397c31cfc58a2e4d29821422ccb2006bfbc09301ed70e",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S05-P02.png",
+      "published_path": "media/storyboards/boards/EP27-S05-P02.png",
+      "type": "image",
+      "bytes": 137296,
+      "sha256": "80a90f050cdb80e5c58cc89ed6ad573a916e0773d014eadb3ce23eb93ba4d4d1",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S05-P03.png",
+      "published_path": "media/storyboards/boards/EP27-S05-P03.png",
+      "type": "image",
+      "bytes": 65872,
+      "sha256": "6336cd7c4704632265ad1050cbf1922d863da40eedfb52982771f640a54597c9",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP27-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP28-S01-P01.png",
+      "type": "image",
+      "bytes": 135951,
+      "sha256": "ccb464a498d9b753ef3819de241080d8d56129072965895d02165edc93ee9805",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S01-P02.png",
+      "published_path": "media/storyboards/boards/EP28-S01-P02.png",
+      "type": "image",
+      "bytes": 132073,
+      "sha256": "559a4adfe61ce13ef7d082aba61c10d403fbece46ca08a05facb2cad5a0c0569",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S01-P03.png",
+      "published_path": "media/storyboards/boards/EP28-S01-P03.png",
+      "type": "image",
+      "bytes": 56304,
+      "sha256": "a9a15f9a878b9391f49d023b05f3390d2f81f2ad718a3312e2bb07deba632972",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP28-S02-P01.png",
+      "type": "image",
+      "bytes": 135588,
+      "sha256": "4e2dd9c56a0dccd749cb2b92163115b27601d47cddfd71162568ca4a5905ba33",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP28-S02-P02.png",
+      "type": "image",
+      "bytes": 134676,
+      "sha256": "e891368c45d57f771d06c79c24dfa672d625c816194ab3ee7b8d1c39364d5965",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S02-P03.png",
+      "published_path": "media/storyboards/boards/EP28-S02-P03.png",
+      "type": "image",
+      "bytes": 60672,
+      "sha256": "9d385864af48467eff4435fa648dd978d52c31fb0084f05a7f5b941b7671e979",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP28-S03-P01.png",
+      "type": "image",
+      "bytes": 142603,
+      "sha256": "221c3f4099612eb91541e8ac6b007ca54fcce26f35ce7e2f3b55d18da4c10104",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S03-P02.png",
+      "published_path": "media/storyboards/boards/EP28-S03-P02.png",
+      "type": "image",
+      "bytes": 139326,
+      "sha256": "c7aff47cec9cc34a8f0065e116c74f921e91ad3a0508ee38344da623640a0f1b",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S03-P03.png",
+      "published_path": "media/storyboards/boards/EP28-S03-P03.png",
+      "type": "image",
+      "bytes": 63236,
+      "sha256": "038a2ee0c038e2b78dee7db2ade51343491c66236ead0aca34dc56ec59f33451",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP28-S04-P01.png",
+      "type": "image",
+      "bytes": 135967,
+      "sha256": "abc67af9482d040d349690c4ff1bd1c7aa7b45eb69d3141eeda14192f4814e94",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S04-P02.png",
+      "published_path": "media/storyboards/boards/EP28-S04-P02.png",
+      "type": "image",
+      "bytes": 54828,
+      "sha256": "08edf55ed19eac75d5d312abf8dbb2286b0df666c46c2dcbc561338f176a340f",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP28-S05-P01.png",
+      "type": "image",
+      "bytes": 131532,
+      "sha256": "355219ad865b07255bf2a724b146d3a736e2906717e32c45d6571785b774d922",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP28-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP29-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP29-S01-P01.png",
+      "type": "image",
+      "bytes": 63315,
+      "sha256": "669ae203ddff569eda8bf7f17c9ced5213cea4b6b1f9db87bea4055caf6d6144",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP29-S01 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP29-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP29-S02-P01.png",
+      "type": "image",
+      "bytes": 69416,
+      "sha256": "cc29505be1b2cd75bf28a2fce2c65ad18724017fe493623588f0180b297d58be",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP29-S02 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP29-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP29-S03-P01.png",
+      "type": "image",
+      "bytes": 63643,
+      "sha256": "b8f7878760a3a25d5bd5bdd123971883c367372ed6ab4a91c44d66e2ff0e75f8",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP29-S03 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP29-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP29-S04-P01.png",
+      "type": "image",
+      "bytes": 70069,
+      "sha256": "45a6b7e00fe04d3ea0838b173ac73fbc71c070bfe2144f359666803148e275c2",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP29-S04 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP29-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP29-S05-P01.png",
+      "type": "image",
+      "bytes": 68497,
+      "sha256": "28a8a6abca8cbde826fd115d5b7b7e948745e7058ff189d470bbf162ef748253",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP29-S05 SHOULD",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S01-P01.png",
+      "published_path": "media/storyboards/boards/EP30-S01-P01.png",
+      "type": "image",
+      "bytes": 111027,
+      "sha256": "8d1f4cd96bef2ac2f3feeb49ba8abdf9ea2c7997f3410d4596bd3f77a9118fa2",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S01-P02.png",
+      "published_path": "media/storyboards/boards/EP30-S01-P02.png",
+      "type": "image",
+      "bytes": 124703,
+      "sha256": "de93154952ad614fb8479219cb5586642371227986b67c331f8a2c91b5c7a01f",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S01-P03.png",
+      "published_path": "media/storyboards/boards/EP30-S01-P03.png",
+      "type": "image",
+      "bytes": 56592,
+      "sha256": "75d84a1f810b43332a37b7a33123a955f7380c697743816ad3a1095d13df3805",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S01 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S02-P01.png",
+      "published_path": "media/storyboards/boards/EP30-S02-P01.png",
+      "type": "image",
+      "bytes": 130101,
+      "sha256": "6fe2056f4ad6e177db74bd758c71726d261e3f6511fe4b641077c7bec7a38067",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S02-P02.png",
+      "published_path": "media/storyboards/boards/EP30-S02-P02.png",
+      "type": "image",
+      "bytes": 52860,
+      "sha256": "51d002f8527fff230e5ead37a3e0d6f6edfc32aae30f31049bdbe0a284beefb9",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S02 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S03-P01.png",
+      "published_path": "media/storyboards/boards/EP30-S03-P01.png",
+      "type": "image",
+      "bytes": 126163,
+      "sha256": "07dc3b146a3e536ff9e4af85d141f48b49b442b33ed6ec4a29a647a04265580d",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S03 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S04-P01.png",
+      "published_path": "media/storyboards/boards/EP30-S04-P01.png",
+      "type": "image",
+      "bytes": 131685,
+      "sha256": "935ef47c934eccfcd30954316aee55b03bc2a442dbe4acc5826af2e36596800c",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S04-P02.png",
+      "published_path": "media/storyboards/boards/EP30-S04-P02.png",
+      "type": "image",
+      "bytes": 127383,
+      "sha256": "07d0fc6fe9b22c42697775b8eff84e20fd97681c04217a8eeb2ca54f17dd0de1",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S04-P03.png",
+      "published_path": "media/storyboards/boards/EP30-S04-P03.png",
+      "type": "image",
+      "bytes": 60913,
+      "sha256": "dd8753d753cd1a055348b63667ea3c3b3365d23f414109caead3f36c84663d9e",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S04 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S05-P01.png",
+      "published_path": "media/storyboards/boards/EP30-S05-P01.png",
+      "type": "image",
+      "bytes": 130222,
+      "sha256": "0933ec2916de5b5441cf8f98b8f03cc0449679f11633dc0942dbc95634998792",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S05-P02.png",
+      "published_path": "media/storyboards/boards/EP30-S05-P02.png",
+      "type": "image",
+      "bytes": 67696,
+      "sha256": "80d41aa4e7ca6e42702c893424f5d9327fe406adbcfbc18aabf118207b77efe8",
+      "authority": "P4 TECHNICAL_BOARD_PNG EP30-S05 MUST",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP01_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP01_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 46110,
+      "sha256": "188100ae6fd786a0c999a07391a62465123336c43e6d70283b0530c1d86a7b93",
+      "authority": "P4 technical contact sheet EP01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP02_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP02_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 46193,
+      "sha256": "56c59b5aee0713105d8de086dc73b4e6f708566dbf11437d80a79713ca9421ac",
+      "authority": "P4 technical contact sheet EP02",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP03_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP03_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 93868,
+      "sha256": "18cbc1730532e534ae2772947a51b0f0918672e70089d8aaded4f56d6293206d",
+      "authority": "P4 technical contact sheet EP03",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP04_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP04_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 46244,
+      "sha256": "94b7f8cd6e60d4fe9df98e67e094168db157f92cacc9c91fc666210bdc0f26ec",
+      "authority": "P4 technical contact sheet EP04",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP05_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP05_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 1141730,
+      "sha256": "90aaa0573a64f383d35e9a6611e8efbac296f17b73dee81f424ecd0c87c9c32d",
+      "authority": "P4 technical contact sheet EP05",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP06_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP06_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 105636,
+      "sha256": "b69f65036def2eea1dc343ef8745fcdd4c157da27de890802101852443797e46",
+      "authority": "P4 technical contact sheet EP06",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP07_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP07_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 63657,
+      "sha256": "181525cdfa197253027632cbc68cf4f7ee0e7b29a246c58f2115789ac4a85bbc",
+      "authority": "P4 technical contact sheet EP07",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP08_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP08_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 164828,
+      "sha256": "65a628ae048814efdf41903e73779865b7c3a033930b0ba40cf94974dab75827",
+      "authority": "P4 technical contact sheet EP08",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP09_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP09_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 142407,
+      "sha256": "9a3c8072fba1f78c87aac8a2303082d7c1ab24365e81264ccdb240a508b56ce9",
+      "authority": "P4 technical contact sheet EP09",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP10_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP10_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 1456403,
+      "sha256": "54e090b3267933f1d752dce8f439fc5cc615e90793f0830a8271f9053455d50a",
+      "authority": "P4 technical contact sheet EP10",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP11_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP11_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 1264986,
+      "sha256": "3ecd9114c0f04ed8f6e39521782ce5ad702bdf36ecc9097d2f4c7a1ce3ab2fcf",
+      "authority": "P4 technical contact sheet EP11",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP12_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP12_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 185123,
+      "sha256": "f295eac8b786042f706cd3297f7d3f8011a78b74494555fcf40d88d50286336f",
+      "authority": "P4 technical contact sheet EP12",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP13_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP13_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 1439690,
+      "sha256": "052fc59a9eeb15a87d200a3bfa6c4fe5639e5cbe2b988c0df366b7a306f76a84",
+      "authority": "P4 technical contact sheet EP13",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP14_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP14_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 894233,
+      "sha256": "bf1745ff1c5933aea5c2da5abe096a252a41d1ed17b9eeb956a34038ee6f1da8",
+      "authority": "P4 technical contact sheet EP14",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP15_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP15_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 975622,
+      "sha256": "2dc076e709bb9d9704afef248d4e7e02e448115d6474ca3e79e6a7cc8245a614",
+      "authority": "P4 technical contact sheet EP15",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP16_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP16_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 1030863,
+      "sha256": "ad09ddcb9408c8763b84b75191b588c3b584b693cfa2f0c26884bbf1b110f85a",
+      "authority": "P4 technical contact sheet EP16",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP17_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP17_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 73015,
+      "sha256": "1eb881083d3ba01d0a2b17b6458e80ad841dea182f7290d26ec9c276362d3e44",
+      "authority": "P4 technical contact sheet EP17",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP18_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP18_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 68111,
+      "sha256": "bc18ff9ec75c7d30a9417f13b237d5a9e68d98174ab60206b2d1fbe913e0052c",
+      "authority": "P4 technical contact sheet EP18",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP19_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP19_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 207664,
+      "sha256": "158d001cf7374e67ad16579ccf3e24f752dae84aa1f33ecaba0e9d0f0aaeee55",
+      "authority": "P4 technical contact sheet EP19",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP20_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP20_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 150409,
+      "sha256": "6c53a648b297878d1e29d9cc9d02ab9c365bd012ef8595f3cd3346b87378932d",
+      "authority": "P4 technical contact sheet EP20",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP21_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP21_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 219000,
+      "sha256": "2e11e089293735fb81d41a84cb9aa2f6979f00ad76b57820ce4cef3af0d3e47e",
+      "authority": "P4 technical contact sheet EP21",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP22_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP22_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 46192,
+      "sha256": "962f49f49ab9db7ffa186f29dfd275b2d8442a5f27e1542437d1bd5838b1a267",
+      "authority": "P4 technical contact sheet EP22",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP23_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP23_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 203522,
+      "sha256": "20d9dd0a28b0907207630140f6dce099a2d4a6182f8b03b2b4259e2d3d9189de",
+      "authority": "P4 technical contact sheet EP23",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP24_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP24_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 132839,
+      "sha256": "ee0f8482bc5319eb573bbeb10b83ad2e178c2aa6ac069aa85f7becd749a04854",
+      "authority": "P4 technical contact sheet EP24",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP25_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP25_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 674765,
+      "sha256": "046479cbc501664d8a223d6d406687199d8dd35d7552e46d78d8fa833f3e60d6",
+      "authority": "P4 technical contact sheet EP25",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP26_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP26_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 997853,
+      "sha256": "38f9a1e0d19afb0bef3a7a62b2f651ce41c12e2ff0489097e254e94a3a5b9338",
+      "authority": "P4 technical contact sheet EP26",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP27_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP27_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 1343397,
+      "sha256": "b2f22650a705bf9a6d22bab5ca0a0a7480aad80d0702a2f490d0d805c0621b3f",
+      "authority": "P4 technical contact sheet EP27",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP28_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP28_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 1239557,
+      "sha256": "b0652e85245bd95766ea81ade1900bccd1f4f3865feefdacdaa12e8e426e4f41",
+      "authority": "P4 technical contact sheet EP28",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP29_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP29_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 208834,
+      "sha256": "7d92e702c4385491c56a1bbfdbdbbb8b3f433db53fec7e0494f4107955bc0b45",
+      "authority": "P4 technical contact sheet EP29",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "storyboards/odyssey_m1_p4/contact_sheets/EP30_TECHNICAL_CONTACT_SHEET.jpg",
+      "published_path": "media/storyboards/contact/EP30_TECHNICAL_CONTACT_SHEET.jpg",
+      "type": "image",
+      "bytes": 1125846,
+      "sha256": "ea97f4f8112d8b486a38725603939ea1da3631d7aacb63f52db0834b1d2aaee9",
+      "authority": "P4 technical contact sheet EP30",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "previs/odyssey_m1_p4/TEASER_PREVIS.mp4",
+      "published_path": "media/video/P4_TEASER_PREVIS.mp4",
+      "type": "video",
+      "bytes": 65234932,
+      "sha256": "918b18eef4e634e5e5b315a2c0d82b3c8439cee0fd6402070dce007c0b3ad067",
+      "authority": "P4 approved teaser previs",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "pitch/odyssey_m1_p5/PITCH_TEASER_PREVIS.mp4",
+      "published_path": "media/video/PITCH_TEASER_PREVIS.mp4",
+      "type": "video",
+      "bytes": 1264090,
+      "sha256": "6ccb1b3837b26ec2f9c52605a6ffea3f8f86a8a4dd5066e5077c167f4bb0b941",
+      "authority": "P5 approved pitch previs",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/characters/P4-CHAR-ATH-IDENTITY-V01.png",
+      "published_path": "media/visual/characters/P4-CHAR-ATH-IDENTITY-V01.png",
+      "type": "image",
+      "bytes": 3112909,
+      "sha256": "d368e99c6c11d92edea524ffcc78be3e1c4807472971df045333fbe643c26992",
+      "authority": "P4 PRINCIPAL_CHARACTER_SHEET P4-CHAR-ATH-IDENTITY-V01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/characters/P4-CHAR-ODY-IDENTITY-V02.png",
+      "published_path": "media/visual/characters/P4-CHAR-ODY-IDENTITY-V02.png",
+      "type": "image",
+      "bytes": 2907155,
+      "sha256": "a0947ac640b54227e388eb391a07c07b919b7f7c6003488d100420c2d03ce488",
+      "authority": "P4 PRINCIPAL_CHARACTER_SHEET P4-CHAR-ODY-IDENTITY-V02",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/characters/P4-CHAR-PEN-IDENTITY-V01.png",
+      "published_path": "media/visual/characters/P4-CHAR-PEN-IDENTITY-V01.png",
+      "type": "image",
+      "bytes": 3200288,
+      "sha256": "108fe5475e56ea6046ba42ab9178d22e63f5db85aef36563b57c75186f73958d",
+      "authority": "P4 PRINCIPAL_CHARACTER_SHEET P4-CHAR-PEN-IDENTITY-V01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/characters/P4-CHAR-TEL-IDENTITY-V01.png",
+      "published_path": "media/visual/characters/P4-CHAR-TEL-IDENTITY-V01.png",
+      "type": "image",
+      "bytes": 2954400,
+      "sha256": "5692f8baec88681915d9798f9f4602ad598775c2453b328f709aff49634460c8",
+      "authority": "P4 PRINCIPAL_CHARACTER_SHEET P4-CHAR-TEL-IDENTITY-V01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP01_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP01_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 42480,
+      "sha256": "120fc2ea6b3aba8fabc48bbe9293b4563099e995918bb378745bef32649837b7",
+      "authority": "P4 approved color key EP01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP02_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP02_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 46920,
+      "sha256": "61dc837217699c0c81728b683a9f3fbac4113ba065d179f35aae07fe67263a4d",
+      "authority": "P4 approved color key EP02",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP03_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP03_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 42278,
+      "sha256": "ea20018c1bda824ed2f2916666a531581c535f167e1f7890fc00c6b3fa27ee34",
+      "authority": "P4 approved color key EP03",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP04_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP04_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 41033,
+      "sha256": "927adbb9c8c2f265c456c7d2ec8ed9754fcd420eb57e3833388dcdd6292cebdb",
+      "authority": "P4 approved color key EP04",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP05_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP05_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 39085,
+      "sha256": "e26435c60d86cc57eaae591432759141fe79160c4fa87a9ba268b984e1d21f90",
+      "authority": "P4 approved color key EP05",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP06_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP06_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 41370,
+      "sha256": "fa2567061c680d1461970a71d417f23946f417d0ef16631b22e11b6da9962b9a",
+      "authority": "P4 approved color key EP06",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP07_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP07_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 42850,
+      "sha256": "9ecd9fbf2a1b10321d1faa0266e153543e3ba13bd366eace28f11284528ee086",
+      "authority": "P4 approved color key EP07",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP08_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP08_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 43430,
+      "sha256": "3542917e509aee4289335a9a8c4d15f30c416d1b6906c4b8badad84d6bb79760",
+      "authority": "P4 approved color key EP08",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP09_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP09_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 40193,
+      "sha256": "8e31a9684c9d07fb7a123406d240cda3e938812c384c18edbcc68319a19a96ee",
+      "authority": "P4 approved color key EP09",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP10_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP10_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 43880,
+      "sha256": "558d07001d0547ee9cbb974977d6a6df882c580872f4d960f6d028411b1ab25f",
+      "authority": "P4 approved color key EP10",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP11_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP11_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 43692,
+      "sha256": "5eca26c63711e6b2fa85cebd1c4f0b546a24ea9278fce126118853cdcdd2a257",
+      "authority": "P4 approved color key EP11",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP12_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP12_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 42439,
+      "sha256": "bd0f0c1c8f16f7f21c092891a2dda9ae0fa92cd09d7456a990efd37c4bdddc53",
+      "authority": "P4 approved color key EP12",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP13_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP13_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 42933,
+      "sha256": "b35bf38be18a407d8fca5456b9a263d4877b7b44e57ab37bb444c57d2e3e082b",
+      "authority": "P4 approved color key EP13",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP14_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP14_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 40437,
+      "sha256": "8a0b38f07e575cd4f35415c588266ccb5b08c64573b1406a979da148fa15437b",
+      "authority": "P4 approved color key EP14",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP15_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP15_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 39299,
+      "sha256": "8a68c117eb54a62185535c89f134a835d920e01503d4ae14c6a05a13b3a8ae21",
+      "authority": "P4 approved color key EP15",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP16_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP16_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 41905,
+      "sha256": "2d53f106bcfb80807059a28c4d7c4a310c033c1ac5d6ef99b4fc6547ab1adcba",
+      "authority": "P4 approved color key EP16",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP17_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP17_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 42377,
+      "sha256": "9da4a93ba309226a2e9a6020a04e856a3dd166a4a8de7e3e432e1e19ce9c17b3",
+      "authority": "P4 approved color key EP17",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP18_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP18_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 41566,
+      "sha256": "11a591ce43a8ae12a81b11d4c21dc70b9b0e0f1e2b54672378371a19f8c244bd",
+      "authority": "P4 approved color key EP18",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP19_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP19_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 41832,
+      "sha256": "6fcdf55e5da4d3427ae8ed5bde32a2f9c6429a29c31590ed0b249bbfe4d0898d",
+      "authority": "P4 approved color key EP19",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP20_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP20_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 40426,
+      "sha256": "0de37d02492e957d76704d7cb76f4ddd11a3b3ecdd6c7f4918b07ea100dbd40e",
+      "authority": "P4 approved color key EP20",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP21_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP21_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 37606,
+      "sha256": "f78911356d70c2b82a64d98c73dee5d6b98c522fc753323f7cd5afb2c7b7ae3d",
+      "authority": "P4 approved color key EP21",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP22_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP22_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 44474,
+      "sha256": "2719fb7233e70e52b9163277e8f4b6e1413ed6298fe0f50920b7df39df6fdff5",
+      "authority": "P4 approved color key EP22",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP23_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP23_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 44717,
+      "sha256": "412ffcec7efe1a399ec58b131a1d335deec79dbfc1ea13140a9b6f7bad287ee3",
+      "authority": "P4 approved color key EP23",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP24_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP24_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 41027,
+      "sha256": "596863503ad6d49f1016a18d1f4d1c82ad8079bc0628e8a89a55734b7b9fdbc1",
+      "authority": "P4 approved color key EP24",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP25_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP25_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 42414,
+      "sha256": "5bf73f9712c3e206e7f8bd13770135ee2f3867d7fafc3461901b4bc136743b89",
+      "authority": "P4 approved color key EP25",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP26_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP26_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 43751,
+      "sha256": "ec9a8a907aad4db1fc0d94cbb3f35774c585b2a160a879b4251dfde6e29bf294",
+      "authority": "P4 approved color key EP26",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP27_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP27_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 38353,
+      "sha256": "2bd79e7abcc7e5829cba7209bb52ba5ff0e7f0295b4433b290c049ed7991b943",
+      "authority": "P4 approved color key EP27",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP28_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP28_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 43110,
+      "sha256": "4937a8e3b9e0cc060f3aa396157704bd5bb09f6c97ae5514c7c111ffc60e75f3",
+      "authority": "P4 approved color key EP28",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP29_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP29_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 43106,
+      "sha256": "c8a033fca5d14a881ef72bd3a2a0839e5ce19389716269f235fe22d0bac21bef",
+      "authority": "P4 approved color key EP29",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/color_keys/EP30_COLOR_KEY.png",
+      "published_path": "media/visual/color/EP30_COLOR_KEY.png",
+      "type": "image",
+      "bytes": 41473,
+      "sha256": "9d5b42bf971960bc9b81cec5a43f34c9556c14934880c87a772eb1df3016c8aa",
+      "authority": "P4 approved color key EP30",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-01.png",
+      "published_path": "media/visual/hero/P4-HF-01.png",
+      "type": "image",
+      "bytes": 2598096,
+      "sha256": "c8e16fc04def7f61dd07d876a5cf4ec1636215529dabc4395cf0fa11915d4c2d",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-02.png",
+      "published_path": "media/visual/hero/P4-HF-02.png",
+      "type": "image",
+      "bytes": 2265084,
+      "sha256": "e4ac6b666a8fc7f1f5ed48f208e6ea44699148e6d3232348bbc0e23f7e9f502c",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-02",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-09.png",
+      "published_path": "media/visual/hero/P4-HF-09.png",
+      "type": "image",
+      "bytes": 2867648,
+      "sha256": "e8c0f4660e71a0908d2973a94ffa4dcd3b74ef42993aef82f80f1e6849b12cb1",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-09",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-16.png",
+      "published_path": "media/visual/hero/P4-HF-16.png",
+      "type": "image",
+      "bytes": 2617480,
+      "sha256": "c735abd0724e741b6523a9b011515b020293d24a6b2ec40876604a420a556d3c",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-16",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-31.png",
+      "published_path": "media/visual/hero/P4-HF-31.png",
+      "type": "image",
+      "bytes": 2628388,
+      "sha256": "25dced307f721d7464dbc924b1e94de9604cb20e8b2f6ffe1878c093bd28bc1f",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-31",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-36.png",
+      "published_path": "media/visual/hero/P4-HF-36.png",
+      "type": "image",
+      "bytes": 2188541,
+      "sha256": "d01692a671d6adbadfa32df6a67d93fcdf3ece3636201ae829e07072791789bf",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-36",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-37.png",
+      "published_path": "media/visual/hero/P4-HF-37.png",
+      "type": "image",
+      "bytes": 2253630,
+      "sha256": "76a93de517b2eea26852e807b6e7d8d809ca307ed295341108ca384290c82410",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-37",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-40.png",
+      "published_path": "media/visual/hero/P4-HF-40.png",
+      "type": "image",
+      "bytes": 2400267,
+      "sha256": "97554d0f52af31252c893bc8815d44171ef897023968f94e173ceacabb4fb9dc",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-40",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-45.png",
+      "published_path": "media/visual/hero/P4-HF-45.png",
+      "type": "image",
+      "bytes": 2653780,
+      "sha256": "61f26284cf5485393e90cf0453109082d055db733d6a2cfc60751d259a02fff8",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-45",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-46.png",
+      "published_path": "media/visual/hero/P4-HF-46.png",
+      "type": "image",
+      "bytes": 2454520,
+      "sha256": "aaf8bed4ad75545c7419ac81031f12b01a9bd9b3c29a4699b47b7fba65a98f0e",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-46",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-48.png",
+      "published_path": "media/visual/hero/P4-HF-48.png",
+      "type": "image",
+      "bytes": 2689556,
+      "sha256": "710c159306bd5c5684a8cdab8344649bbe15ef5acad56ede022d6273ba57f257",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-48",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-53.png",
+      "published_path": "media/visual/hero/P4-HF-53.png",
+      "type": "image",
+      "bytes": 2631560,
+      "sha256": "dc59cde1f94cea754f4a6f632e06e56adede0139b235068f36a4f32c6260e530",
+      "authority": "P4 HERO_LOOKDEV_FRAME P4-HF-53",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/sets/P4-SET-S1-ANCHOR-V01.png",
+      "published_path": "media/visual/sets/P4-SET-S1-ANCHOR-V01.png",
+      "type": "image",
+      "bytes": 2579109,
+      "sha256": "f369a840241657ded23d43bbcc545345d705ca783be651aa7bfc6a71b5ac8f0d",
+      "authority": "P4 STANDING_SET_ANCHOR P4-SET-S1-ANCHOR-V01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/sets/P4-SET-S2-ANCHOR-V01.png",
+      "published_path": "media/visual/sets/P4-SET-S2-ANCHOR-V01.png",
+      "type": "image",
+      "bytes": 2781933,
+      "sha256": "eb96fd90e08eea98b21067558ea27ee6427fea86b38381f4fd4da325b1f0262b",
+      "authority": "P4 STANDING_SET_ANCHOR P4-SET-S2-ANCHOR-V01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/sets/P4-SET-S3-ANCHOR-V01.png",
+      "published_path": "media/visual/sets/P4-SET-S3-ANCHOR-V01.png",
+      "type": "image",
+      "bytes": 2914573,
+      "sha256": "e1c8755b9f0aec10719116aed51e705cd3184710f7ba17ad72242d1f0ebf6710",
+      "authority": "P4 STANDING_SET_ANCHOR P4-SET-S3-ANCHOR-V01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/sets/P4-SET-S4-ANCHOR-V01.png",
+      "published_path": "media/visual/sets/P4-SET-S4-ANCHOR-V01.png",
+      "type": "image",
+      "bytes": 3404371,
+      "sha256": "8a2591ab3f04baf80adaa75ae06138b825eb2b1276062fb6cb774c6ef9dcd1d7",
+      "authority": "P4 STANDING_SET_ANCHOR P4-SET-S4-ANCHOR-V01",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "visual-development/odyssey_m1_p4/high_fidelity/sets/P4-SET-S5-ANCHOR-V01.png",
+      "published_path": "media/visual/sets/P4-SET-S5-ANCHOR-V01.png",
+      "type": "image",
+      "bytes": 3538685,
+      "sha256": "19a3a9811b0fca10341ec20ca65b5e19add7b84c2c9d6268e6e4a10d452eba4c",
+      "authority": "P4 STANDING_SET_ANCHOR P4-SET-S5-ANCHOR-V01",
+      "status": "APPROVED"
+    }
+  ],
+  "status": "APPROVED_PUBLIC_MEDIA_ALLOWLIST"
+}

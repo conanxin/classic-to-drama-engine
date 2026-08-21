@@ -1,0 +1,28 @@
+{
+  "name": "ctde-public-web-archive",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "content": "node scripts/build-content-data.mjs",
+    "dev": "npm run content && astro dev",
+    "check": "npm run content && astro check",
+    "verify": "npm run content && node scripts/verify-publication.mjs",
+    "build": "npm run content && node scripts/verify-publication.mjs && astro build && pagefind --site dist --output-subdir _pagefind && node scripts/verify-publication.mjs --dist && node scripts/build-artifact-manifest.mjs",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.7.3",
+    "astro": "7.2.4",
+    "marked": "18.0.10"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "pagefind": "1.5.2",
+    "sharp": "0.35.3",
+    "typescript": "6.0.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
