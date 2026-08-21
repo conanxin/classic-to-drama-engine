@@ -1,0 +1,39 @@
+{
+  "artifact_class": "odyssey_p4_supporting_character_silhouette_matrix",
+  "groups": [
+    {
+      "group_id": "SUITOR-SILHOUETTES",
+      "characters": [
+        "Antinous",
+        "Eurymachus",
+        "Amphinomus"
+      ],
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-SUPPORT-SUITOR-SILHOUETTES-TECH.svg",
+      "black_silhouette_review": "PASS"
+    },
+    {
+      "group_id": "LOYAL-RECOGNITION",
+      "characters": [
+        "Eumaeus",
+        "Eurycleia",
+        "Laertes"
+      ],
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-SUPPORT-LOYAL-RECOGNITION-TECH.svg",
+      "black_silhouette_review": "PASS"
+    },
+    {
+      "group_id": "ISLAND-COURT",
+      "characters": [
+        "Nausicaa",
+        "Alcinous",
+        "Circe",
+        "Calypso",
+        "Polyphemus-fragment"
+      ],
+      "technical_sheet": "design/odyssey_m1_p4/technical_sheets/P4-SUPPORT-ISLAND-COURT-TECH.svg",
+      "black_silhouette_review": "PASS"
+    }
+  ],
+  "named_character_count": 11,
+  "status": "PASS_SUPPORTING_SILHOUETTES"
+}

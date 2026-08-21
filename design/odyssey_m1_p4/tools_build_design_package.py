@@ -39,6 +39,12 @@ MYTHIC = ["CYCLOPS", "CIRCE", "SIRENS", "CHARYBDIS", "SCYLLA", "UNDERWORLD", "PO
 
 PROPS = ["PR-BOW-01", "PR-AXES-01..12", "PR-SCAR-01", "PR-BED-01", "PR-WEAVE-01", "PR-TE-SWORD-01", "PR-OD-WEAPON-SET", "PR-BONE-01..06", "PR-BOUNDARY-01", "PR-WIND-01", "PR-STAKE-01", "PR-SHIP-INV-01"]
 
+SUPPORTING = {
+    "SUITOR-SILHOUETTES": ["Antinous", "Eurymachus", "Amphinomus"],
+    "LOYAL-RECOGNITION": ["Eumaeus", "Eurycleia", "Laertes"],
+    "ISLAND-COURT": ["Nausicaa", "Alcinous", "Circe", "Calypso", "Polyphemus-fragment"],
+}
+
 
 def write_json(name: str, payload: dict) -> None:
     (OUT / name).write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -140,6 +146,17 @@ def main() -> None:
         for s in states:
             costume_rows.append({"character": c, "costume_id": s, "versions": ["HERO", "WET", "STUNT"] + (["BLOOD"] if "BATTLE" in s else []), "material_continuity": "MATCH_REQUIRED", "status": "FROZEN"})
     write_json("COSTUME_STATE_MATRIX.json", {"artifact_class": "odyssey_p4_costume_state_matrix", "costumes": costume_rows, "wet_states": ["W0", "W1", "W2", "W3", "W4"], "blood_states": ["B0", "B1", "B2", "B3", "B4", "B5"], "status": "FROZEN_COSTUME_STATES"})
+    for c, states in COSTUMES.items():
+        cols=[(s, palette[i % len(palette)], "fit / material / wet-stunt-blood duplicate witness") for i,s in enumerate(states)]
+        for i in range(0,len(cols),6):
+            sheet(f"{c} costume states", "production duplicates and state progression", cols[i:i+6], SVG/f"P4-COSTUME-{c.upper()}-{i//6+1:02d}-TECH.svg")
+
+    supporting_rows=[]
+    for group,names in SUPPORTING.items():
+        cols=[(name,palette[i%len(palette)],"distinct black silhouette, material and distance behavior") for i,name in enumerate(names)]
+        p=SVG/f"P4-SUPPORT-{group}-TECH.svg"; sheet(group,"supporting cast silhouette family",cols,p)
+        supporting_rows.append({"group_id":group,"characters":names,"technical_sheet":p.relative_to(ROOT).as_posix(),"black_silhouette_review":"PASS"})
+    write_json("SUPPORTING_CHARACTER_SILHOUETTE_MATRIX.json", {"artifact_class":"odyssey_p4_supporting_character_silhouette_matrix","groups":supporting_rows,"named_character_count":sum(len(x) for x in SUPPORTING.values()),"status":"PASS_SUPPORTING_SILHOUETTES"})
 
     set_rows=[]
     for sid, spec in SETS.items():

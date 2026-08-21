@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#171816"/>
+<text x="40" y="58" fill="#eee8d8" font-family="sans-serif" font-size="34" font-weight="700">Athena costume states</text>
+<text x="40" y="92" fill="#a9a28e" font-family="sans-serif" font-size="18">production duplicates and state progression · TECHNICAL DESIGN SHEET</text>
+<rect x="40.0" y="130" width="236.7" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="58.0" y="150" width="200.7" height="46" fill="#81715a"/>
+<text x="62.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">W-AT-MENTES</text>
+<circle cx="158.3" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 66.3 585 Q 88.3 405 158.3 395 Q 228.3 405 250.3 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="158.3" y1="376" x2="158.3" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="62.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">fit / material / wet-stunt-blood duplicate witness</text>
+<text x="62.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="296.7" y="130" width="236.7" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="314.7" y="150" width="200.7" height="46" fill="#655268"/>
+<text x="318.7" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">W-AT-MENTOR</text>
+<circle cx="415.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 323.0 585 Q 345.0 405 415.0 395 Q 485.0 405 507.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="415.0" y1="376" x2="415.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="318.7" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">fit / material / wet-stunt-blood duplicate witness</text>
+<text x="318.7" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="553.3" y="130" width="236.7" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="571.3" y="150" width="200.7" height="46" fill="#8b7656"/>
+<text x="575.3" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">W-AT-GIRL</text>
+<circle cx="671.7" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 579.7 585 Q 601.7 405 671.7 395 Q 741.7 405 763.7 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="671.7" y1="376" x2="671.7" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="575.3" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">fit / material / wet-stunt-blood duplicate witness</text>
+<text x="575.3" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="810.0" y="130" width="236.7" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="828.0" y="150" width="200.7" height="46" fill="#9a8d72"/>
+<text x="832.0" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">W-AT-COMPANION</text>
+<circle cx="928.3" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 836.3 585 Q 858.3 405 928.3 395 Q 998.3 405 1020.3 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="928.3" y1="376" x2="928.3" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="832.0" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">fit / material / wet-stunt-blood duplicate witness</text>
+<text x="832.0" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="1066.7" y="130" width="236.7" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="1084.7" y="150" width="200.7" height="46" fill="#6f5038"/>
+<text x="1088.7" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">W-AT-BOY</text>
+<circle cx="1185.0" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 1093.0 585 Q 1115.0 405 1185.0 395 Q 1255.0 405 1277.0 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1185.0" y1="376" x2="1185.0" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1088.7" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">fit / material / wet-stunt-blood duplicate witness</text>
+<text x="1088.7" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<rect x="1323.3" y="130" width="236.7" height="680" rx="8" fill="#252720" stroke="#77715e"/>
+<rect x="1341.3" y="150" width="200.7" height="46" fill="#9a4f3f"/>
+<text x="1345.3" y="226" fill="#eee8d8" font-family="sans-serif" font-size="20" font-weight="700">W-AT-SHEPHERD</text>
+<circle cx="1441.7" cy="330" r="46" fill="none" stroke="#d4c6a5" stroke-width="7"/>
+<path d="M 1349.7 585 Q 1371.7 405 1441.7 395 Q 1511.7 405 1533.7 585" fill="none" stroke="#d4c6a5" stroke-width="9"/>
+<line x1="1441.7" y1="376" x2="1441.7" y2="690" stroke="#8d876f" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1345.3" y="742" fill="#c4bea9" font-family="sans-serif" font-size="15">fit / material / wet-stunt-blood duplicate witness</text>
+<text x="1345.3" y="775" fill="#77715e" font-family="sans-serif" font-size="13">identity / material / access witness</text>
+<text x="40" y="866" fill="#77715e" font-family="sans-serif" font-size="14">P4 · geometry and state reference only · not high-fidelity concept art</text>
+</svg>
