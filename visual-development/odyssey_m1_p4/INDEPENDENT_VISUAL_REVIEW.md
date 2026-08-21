@@ -1,6 +1,6 @@
 # P4 Independent Visual Review
 
-Status: `PASS_LOOKDEV_PENDING_TEASER_ASSEMBLY`
+Status: `PASS_P4_INDEPENDENT_VISUAL_REVIEW`
 
 This review is updated only after native image generation and teaser assembly. It does not substitute artifact counts for visual judgment.
 
@@ -51,7 +51,9 @@ This review is updated only after native image generation and teaser assembly. I
 - Test: 60–90 seconds, readable identity question, no generic transition pack, protected recognition pauses, original/abstract sound only.
 - Finding: initial prose target said 77 seconds while the first exact timeline totaled 79.6 seconds; the accepted HF12 read too graphically for its provisional two-second hold.
 - Resolution: authority was made frame-accurate, then HF12 was limited to 0.8 seconds; the final pre-assembly timeline is 78.4 seconds.
-- Final status: `PENDING_TEASER_ASSEMBLY`.
+- Media inspection: `1920×1080`, progressive H.264 High at `24 fps`, AAC-LC mono at `48 kHz`, exact runtime `78.400 s`; eight sampled story positions plus opening and final cards were visually inspected. The arc reads house → name/story → sea → disguise → scar/bow/axes → finite violence → bed/land/civic work.
+- Audio inspection: abstract/original track present, peak `-9.9 dB`, no clipping and no commercial music.
+- Final status: `PASS`.
 
 ## Manifest authority review
 
@@ -60,3 +62,12 @@ This review is updated only after native image generation and teaser assembly. I
 - Resolution: the plan now freezes `HF01–HF54` as attempted targets. Independent visual review approves `48` hero frames and rejects `6` after the two-attempt limit (`HF19`, `HF29`, `HF34`, `HF39`, `HF43`, `HF44`). Principal identity and standing-set anchors contribute a separate approved `4 + 5`, for `57` approved high-fidelity targets out of `63` planned/attempted targets.
 - Each rejected target has explicit technical-board or adjacent-approved-frame responsibility; no rejected bitmap is counted as approved.
 - Final status: `PASS`.
+
+## Final independent conclusion
+
+- Technical storyboard realization: `711 / 711`, duplicates `0`, missing `0`.
+- High-fidelity visual targets: `57` approved of `63`; the `6` rejected targets remain honest failure evidence with exact responsibility substitutes.
+- Teaser previs: `PASS_TEASER_PREVIS_PRODUCED` at `78.400 s`.
+- Visual continuity failures left unresolved: `0`.
+- Script change requests: `0`.
+- Overall: `PASS_P4_INDEPENDENT_VISUAL_REVIEW`.
