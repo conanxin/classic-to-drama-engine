@@ -1,0 +1,74 @@
+{
+  "artifact_class": "odyssey_p4_independent_verification",
+  "status": "PASS_ODYSSEY_P4_INDEPENDENT_VERIFICATION",
+  "baseline_commit": "0c4a403864d9ea89afabceed3c7be7d5819f86c8",
+  "counts": {
+    "episodes": 30,
+    "scenes": 150,
+    "shots": 831,
+    "planned_frames": 711,
+    "technical_frames": 711,
+    "must_scenes": 60,
+    "should_scenes": 35,
+    "no_storyboard_scenes": 55,
+    "hero_lookdev_attempted": 54,
+    "hero_lookdev_approved": 48,
+    "hero_lookdev_rejected": 6,
+    "principal_character_sheets": 4,
+    "standing_set_anchors": 5,
+    "color_keys": 30,
+    "creature_scenes": 8
+  },
+  "continuity": {
+    "character": "PASS",
+    "costume": "PASS",
+    "S1_geometry": "PASS",
+    "weapon_prop": "PASS",
+    "wet": "PASS",
+    "blood": "PASS"
+  },
+  "teaser": {
+    "status": "PASS",
+    "runtime_seconds": 78.4,
+    "clips": 25,
+    "file": "previs/odyssey_m1_p4/TEASER_PREVIS.mp4",
+    "sha256": "918b18eef4e634e5e5b315a2c0d82b3c8439cee0fd6402070dce007c0b3ad067"
+  },
+  "immutability": {
+    "scripts/odyssey_m1_v2": {
+      "baseline": "fe1045bf959b57149d13ba1aa8d6908a84508021",
+      "current": "fe1045bf959b57149d13ba1aa8d6908a84508021",
+      "modified": false
+    },
+    "editorial/odyssey_m1_v2": {
+      "baseline": "86b06571a3dd91004522d46f8aaf301204267e08",
+      "current": "86b06571a3dd91004522d46f8aaf301204267e08",
+      "modified": false
+    },
+    "production/odyssey_m1_v2": {
+      "baseline": "eab18ebe8186dd1e964060bec4878ddcfe31b282",
+      "current": "eab18ebe8186dd1e964060bec4878ddcfe31b282",
+      "modified": false
+    },
+    "preproduction/odyssey_m1_p3": {
+      "baseline": "26c27395ab0534acfc2450fd1fc3ed8d0558f740",
+      "current": "26c27395ab0534acfc2450fd1fc3ed8d0558f740",
+      "modified": false
+    },
+    "runtime_capability_prototype": {
+      "baseline": "0615e1dd144d69a12f2e40cb88a3bb0a0392896c",
+      "current": "0615e1dd144d69a12f2e40cb88a3bb0a0392896c",
+      "modified": false
+    },
+    "ODYSSEY_V2_FINAL_RESULT.md": {
+      "baseline": "a850597bd727120fa7356da4f8463e107a0cbb30",
+      "current": "a850597bd727120fa7356da4f8463e107a0cbb30",
+      "modified": false
+    }
+  },
+  "artifact_manifest_status": "PASS",
+  "script_change_requests": 0,
+  "V2_modified": 0,
+  "P3_modified": 0,
+  "runtime_modified": 0
+}
