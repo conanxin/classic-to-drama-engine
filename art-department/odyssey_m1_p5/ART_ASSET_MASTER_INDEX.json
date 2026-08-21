@@ -1,0 +1,2513 @@
+{
+  "artifact_class": "P5_ART_ASSET_MASTER_INDEX",
+  "schema_version": "1.0.0",
+  "baseline_commit": "563839908cc62dca3f9132fae20c490e4b0a14b6",
+  "p4_artifact_manifest_sha256": "626800b73ccaa8e996f7ff882c4745894720033fcf117337140f714689767bc3",
+  "authority_order": [
+    "P3 geometry/continuity",
+    "P4 approved visual authority",
+    "P5 build translation"
+  ],
+  "real_world_boundary": "ASSUMPTION-BASED DESKTOP BUILD SPECIFICATION; NEEDS SHOP, VENDOR, SAFETY AND PROCUREMENT VALIDATION",
+  "asset_count": 75,
+  "standing_set_count": 5,
+  "production_unit_redress_count": 12,
+  "frozen_hero_prop_system_count": 12,
+  "assets": [
+    {
+      "asset_id": "SET-S1",
+      "category": "STANDING_SET",
+      "department": "ART/CONSTRUCTION",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-SET-S1-TECH.svg",
+      "p3_scene_usage": [
+        "EP01-S01",
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04",
+        "EP01-S05",
+        "EP20-S01",
+        "EP20-S03",
+        "EP20-S04",
+        "EP20-S05",
+        "EP21-S01",
+        "EP21-S02",
+        "EP21-S03",
+        "EP21-S04",
+        "EP21-S05",
+        "EP22-S01",
+        "EP22-S02",
+        "EP22-S03",
+        "EP22-S04",
+        "EP22-S05",
+        "EP23-S01",
+        "EP23-S02",
+        "EP23-S03",
+        "EP23-S04",
+        "EP23-S05",
+        "EP24-S01",
+        "EP24-S02",
+        "EP24-S03",
+        "EP24-S04",
+        "EP24-S05",
+        "EP25-S01",
+        "EP25-S02",
+        "EP25-S03",
+        "EP25-S04",
+        "EP25-S05",
+        "EP26-S01",
+        "EP26-S02",
+        "EP26-S03",
+        "EP26-S04",
+        "EP26-S05",
+        "EP27-S01",
+        "EP27-S02",
+        "EP27-S03",
+        "EP27-S04",
+        "EP27-S05",
+        "EP28-S01",
+        "EP28-S02",
+        "EP28-S03",
+        "EP28-S04",
+        "EP28-S05",
+        "EP29-S01",
+        "EP29-S02",
+        "EP29-S03",
+        "EP29-S04"
+      ],
+      "episodes": [
+        "EP01",
+        "EP20",
+        "EP21",
+        "EP22",
+        "EP23",
+        "EP24",
+        "EP25",
+        "EP26",
+        "EP27",
+        "EP28",
+        "EP29"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "HERO STANDING SET",
+      "duplicate_count": 0,
+      "material": "timber, scenic plaster, stone skins",
+      "finish": "P4 palette and material lock",
+      "aging": "state-specific smoke/salt/handling",
+      "damage_states": [
+        "S1-A",
+        "S1-B",
+        "S1-C",
+        "S1-D",
+        "S1-E",
+        "S1-F"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 controlled"
+      ],
+      "blood_states": [
+        "B0",
+        "battle zones where applicable"
+      ],
+      "storage": "locked stage footprint",
+      "reset_requirements": "photo survey at every state transition; labeled replaceable dressing",
+      "continuity_owner": "PRODUCTION DESIGNER + ART CONTINUITY",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "P3 geometry remains exact; wild walls recorded on construction drawings."
+    },
+    {
+      "asset_id": "SET-S2",
+      "category": "STANDING_SET",
+      "department": "ART/CONSTRUCTION",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-SET-S2-TECH.svg",
+      "p3_scene_usage": [
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP04-S01",
+        "EP04-S02",
+        "EP04-S03",
+        "EP07-S02",
+        "EP07-S03",
+        "EP07-S04",
+        "EP07-S05",
+        "EP08-S01",
+        "EP08-S04",
+        "EP08-S05",
+        "EP11-S01",
+        "EP12-S03",
+        "EP12-S04",
+        "EP14-S01",
+        "EP15-S05",
+        "EP16-S01",
+        "EP16-S02",
+        "EP18-S01"
+      ],
+      "episodes": [
+        "EP03",
+        "EP04",
+        "EP07",
+        "EP08",
+        "EP11",
+        "EP12",
+        "EP14",
+        "EP15",
+        "EP16",
+        "EP18"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "HERO STANDING SET",
+      "duplicate_count": 0,
+      "material": "timber, scenic plaster, stone skins",
+      "finish": "P4 palette and material lock",
+      "aging": "state-specific smoke/salt/handling",
+      "damage_states": [
+        "PYLOS",
+        "SPARTA",
+        "PHAEACIA",
+        "CIRCE"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 controlled"
+      ],
+      "blood_states": [
+        "B0",
+        "battle zones where applicable"
+      ],
+      "storage": "locked stage footprint",
+      "reset_requirements": "photo survey at every state transition; labeled replaceable dressing",
+      "continuity_owner": "PRODUCTION DESIGNER + ART CONTINUITY",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "P3 geometry remains exact; wild walls recorded on construction drawings."
+    },
+    {
+      "asset_id": "SET-S3",
+      "category": "STANDING_SET",
+      "department": "ART/CONSTRUCTION",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-SET-S3-TECH.svg",
+      "p3_scene_usage": [
+        "EP09-S03",
+        "EP10-S05",
+        "EP11-S02",
+        "EP11-S03",
+        "EP12-S05",
+        "EP14-S02",
+        "EP14-S03",
+        "EP18-S04"
+      ],
+      "episodes": [
+        "EP09",
+        "EP10",
+        "EP11",
+        "EP12",
+        "EP14",
+        "EP18"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "HERO STANDING SET",
+      "duplicate_count": 0,
+      "material": "timber, scenic plaster, stone skins",
+      "finish": "P4 palette and material lock",
+      "aging": "state-specific smoke/salt/handling",
+      "damage_states": [
+        "TELEMACHUS",
+        "FLEET",
+        "LAST-SHIP",
+        "PHAEACIAN"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 controlled"
+      ],
+      "blood_states": [
+        "B0",
+        "battle zones where applicable"
+      ],
+      "storage": "locked stage footprint",
+      "reset_requirements": "photo survey at every state transition; labeled replaceable dressing",
+      "continuity_owner": "PRODUCTION DESIGNER + ART CONTINUITY",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "P3 geometry remains exact; wild walls recorded on construction drawings."
+    },
+    {
+      "asset_id": "SET-S4",
+      "category": "STANDING_SET",
+      "department": "ART/CONSTRUCTION",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-SET-S4-TECH.svg",
+      "p3_scene_usage": [
+        "EP17-S01",
+        "EP17-S02",
+        "EP17-S03",
+        "EP17-S04",
+        "EP17-S05",
+        "EP18-S05",
+        "EP19-S01",
+        "EP19-S02",
+        "EP19-S03",
+        "EP19-S04",
+        "EP19-S05"
+      ],
+      "episodes": [
+        "EP17",
+        "EP18",
+        "EP19"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "HERO STANDING SET",
+      "duplicate_count": 0,
+      "material": "timber, scenic plaster, stone skins",
+      "finish": "P4 palette and material lock",
+      "aging": "state-specific smoke/salt/handling",
+      "damage_states": [
+        "WORK",
+        "GUEST",
+        "RECOGNITION",
+        "DEPARTURE"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 controlled"
+      ],
+      "blood_states": [
+        "B0",
+        "battle zones where applicable"
+      ],
+      "storage": "locked stage footprint",
+      "reset_requirements": "photo survey at every state transition; labeled replaceable dressing",
+      "continuity_owner": "PRODUCTION DESIGNER + ART CONTINUITY",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "P3 geometry remains exact; wild walls recorded on construction drawings."
+    },
+    {
+      "asset_id": "SET-S5",
+      "category": "STANDING_SET",
+      "department": "ART/CONSTRUCTION",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-SET-S5-TECH.svg",
+      "p3_scene_usage": [
+        "EP03-S01",
+        "EP05-S01",
+        "EP05-S02",
+        "EP05-S03",
+        "EP05-S05",
+        "EP06-S01",
+        "EP06-S02",
+        "EP06-S03",
+        "EP06-S04",
+        "EP09-S01",
+        "EP09-S02",
+        "EP09-S04",
+        "EP09-S05",
+        "EP10-S01",
+        "EP10-S02",
+        "EP10-S03",
+        "EP10-S04",
+        "EP11-S04",
+        "EP15-S01",
+        "EP15-S02",
+        "EP15-S03",
+        "EP16-S03",
+        "EP16-S04"
+      ],
+      "episodes": [
+        "EP03",
+        "EP05",
+        "EP06",
+        "EP09",
+        "EP10",
+        "EP11",
+        "EP15",
+        "EP16"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "HERO STANDING SET",
+      "duplicate_count": 0,
+      "material": "timber, scenic plaster, stone skins",
+      "finish": "P4 palette and material lock",
+      "aging": "state-specific smoke/salt/handling",
+      "damage_states": [
+        "OGYGIA",
+        "CYCLOPS",
+        "ITHACA-SHORE",
+        "CREATURE-COAST"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 controlled"
+      ],
+      "blood_states": [
+        "B0",
+        "battle zones where applicable"
+      ],
+      "storage": "locked stage footprint",
+      "reset_requirements": "photo survey at every state transition; labeled replaceable dressing",
+      "continuity_owner": "PRODUCTION DESIGNER + ART CONTINUITY",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "P3 geometry remains exact; wild walls recorded on construction drawings."
+    },
+    {
+      "asset_id": "REDRESS-U01",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "S1 household/occupied; S1-A",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "S1-A"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U01",
+      "reset_requirements": "prepack by continuity photo; restore before days 01-06",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 01-06"
+    },
+    {
+      "asset_id": "REDRESS-U02",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "S1 contest; S1-B",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "S1-B"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U02",
+      "reset_requirements": "prepack by continuity photo; restore before days 07-10",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 07-10"
+    },
+    {
+      "asset_id": "REDRESS-U03",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "S1 battle/aftermath/restored; S1-C..F",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "S1-C..F"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U03",
+      "reset_requirements": "prepack by continuity photo; restore before days 11-16",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 11-16"
+    },
+    {
+      "asset_id": "REDRESS-U04",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "S4 Eumaeus farm; dry/rain variants",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "dry/rain variants"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U04",
+      "reset_requirements": "prepack by continuity photo; restore before days 17-20",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 17-20"
+    },
+    {
+      "asset_id": "REDRESS-U05",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "S2 Phaeacia court; court/feast/story",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "court/feast/story"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U05",
+      "reset_requirements": "prepack by continuity photo; restore before days 21-24",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 21-24"
+    },
+    {
+      "asset_id": "REDRESS-U06",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP08-S02",
+        "EP08-S03"
+      ],
+      "episodes": [
+        "EP02",
+        "EP08"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "civic/harbor; assembly/shore",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "assembly/shore"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U06",
+      "reset_requirements": "prepack by continuity photo; restore before days 25-28",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 25-28"
+    },
+    {
+      "asset_id": "REDRESS-U07",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [
+        "EP02-S04",
+        "EP02-S05",
+        "EP04-S04",
+        "EP04-S05",
+        "EP18-S02",
+        "EP18-S03"
+      ],
+      "episodes": [
+        "EP02",
+        "EP04",
+        "EP18"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "Ithaca exterior/kin; courtyard/field",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "courtyard/field"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U07",
+      "reset_requirements": "prepack by continuity photo; restore before days 29-31",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 29-31"
+    },
+    {
+      "asset_id": "REDRESS-U08",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [
+        "EP03-S05",
+        "EP06-S05",
+        "EP07-S01",
+        "EP12-S01",
+        "EP12-S02",
+        "EP16-S05",
+        "EP20-S02",
+        "EP29-S05"
+      ],
+      "episodes": [
+        "EP03",
+        "EP06",
+        "EP07",
+        "EP12",
+        "EP16",
+        "EP20",
+        "EP29"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "roads/forest; Telemachus/Laertes",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "Telemachus/Laertes"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U08",
+      "reset_requirements": "prepack by continuity photo; restore before days 32-35",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 32-35"
+    },
+    {
+      "asset_id": "REDRESS-U09",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [
+        "EP13-S01",
+        "EP13-S02",
+        "EP13-S03",
+        "EP13-S04",
+        "EP13-S05",
+        "EP30-S01"
+      ],
+      "episodes": [
+        "EP13",
+        "EP30"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "Underworld; black-water/threshold",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "black-water/threshold"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U09",
+      "reset_requirements": "prepack by continuity photo; restore before days 36-38",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 36-38"
+    },
+    {
+      "asset_id": "REDRESS-U10",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [
+        "EP30-S02",
+        "EP30-S03",
+        "EP30-S04",
+        "EP30-S05"
+      ],
+      "episodes": [
+        "EP30"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "finale field/land; restoration",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "restoration"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U10",
+      "reset_requirements": "prepack by continuity photo; restore before days 39-41",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 39-41"
+    },
+    {
+      "asset_id": "REDRESS-U11",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [
+        "EP05-S04",
+        "EP11-S05",
+        "EP14-S04",
+        "EP14-S05",
+        "EP15-S04"
+      ],
+      "episodes": [
+        "EP05",
+        "EP11",
+        "EP14",
+        "EP15"
+      ],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "wet/motion sea unit; storm/wreck/strait",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "storm/wreck/strait"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U11",
+      "reset_requirements": "prepack by continuity photo; restore before days 42-48",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 42-48"
+    },
+    {
+      "asset_id": "REDRESS-U12",
+      "category": "PRODUCTION_UNIT_REDRESS",
+      "department": "SET DECORATION",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "REDRESS PACKAGE",
+      "duplicate_count": 0,
+      "material": "unit-bound practical dressing",
+      "finish": "dry deck/cave myth unit; deck/cave/islands",
+      "aging": "handled, repaired, never theme-park clean",
+      "damage_states": [
+        "deck/cave/islands"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 if scheduled"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene if scheduled"
+      ],
+      "storage": "rolling cages labeled U12",
+      "reset_requirements": "prepack by continuity photo; restore before days 49-54",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "days 49-54"
+    },
+    {
+      "asset_id": "PR-BOW-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 4,
+      "material": "laminated hero bow",
+      "finish": "oiled olive/yew tone",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "dry/wet/blood-safe custody",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "laminated hero bow; low-draw rehearsal; inert stunt"
+    },
+    {
+      "asset_id": "PR-AXES-01..12",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-SCAR-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 24,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 23,
+      "material": "silicone scar transfer system",
+      "finish": "skin-match sealed edge",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "close/mid/stunt tolerance set",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "silicone scar transfer system"
+    },
+    {
+      "asset_id": "PR-BED-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 2,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 1,
+      "material": "built-in olive-trunk bed section + camera wild piece",
+      "finish": "oil-dark olive wood",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "never detached in story geography",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "built-in olive-trunk bed section + camera wild piece"
+    },
+    {
+      "asset_id": "PR-WEAVE-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-TE-SWORD-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-OD-WEAPON-SET",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-BONE-01..06",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-BOUNDARY-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-WIND-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-STAKE-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-SHIP-INV-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "SHIP-RIG-HERO",
+      "category": "SHIP_ELEMENT",
+      "department": "MARINE ART/PROPS",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [
+        "EP05",
+        "EP06",
+        "EP07",
+        "EP08",
+        "EP09",
+        "EP10",
+        "EP11",
+        "EP12",
+        "EP13",
+        "EP14",
+        "EP15",
+        "EP16"
+      ],
+      "build_quantity": 2,
+      "hero_stunt_background": "HERO + WET DUPLICATE",
+      "duplicate_count": 1,
+      "material": "soft-core rope, rated scenic mast/rail interfaces",
+      "finish": "tar/salt/hand wear",
+      "aging": "dry/wet continuity",
+      "damage_states": [
+        "intact",
+        "storm",
+        "wreck"
+      ],
+      "wet_states": [
+        "W0",
+        "W1",
+        "W2"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "dry rack plus wet drip zone",
+      "reset_requirements": "rigging diagram, knot witness photos, safety inspection before every load",
+      "continuity_owner": "MARINE COORDINATOR + PROPS",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": ""
+    },
+    {
+      "asset_id": "COST-W-OD-05-CALYPSO-WORN",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-05-CALYPSO-WORN",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-05-RAFT-SALT",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-05-RAFT-SALT",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-06-PHAEACIA-BORROWED",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-06-PHAEACIA-BORROWED",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-09-15-STORY",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-09-15-STORY",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-16-LANDFALL",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-16-LANDFALL",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-17-26-BEGGAR",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-17-26-BEGGAR",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-27-BATTLE",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 5,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "BLOOD"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-27-BATTLE",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT, BLOOD"
+    },
+    {
+      "asset_id": "COST-W-OD-29-CLEANED-RETURNED",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-29-CLEANED-RETURNED",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-30-RETURNED-FIELD",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-30-RETURNED-FIELD",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-TE-01-BOY-HOUSEHOLD",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-TE-01-BOY-HOUSEHOLD",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-TE-03-TRAVELER",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-TE-03-TRAVELER",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-TE-18-RETURNING-HEIR",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-TE-18-RETURNING-HEIR",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-TE-26-BATTLE-HEIR",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 5,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "BLOOD"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-TE-26-BATTLE-HEIR",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT, BLOOD"
+    },
+    {
+      "asset_id": "COST-W-TE-30-CIVIC-AUTHORITY",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-TE-30-CIVIC-AUTHORITY",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-PE-01-HOUSEHOLD-MOURNING-PURPLE",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-PE-01-HOUSEHOLD-MOURNING-PURPLE",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-PE-25-CONTEST",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-PE-25-CONTEST",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-PE-29-RECOGNITION",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-PE-29-RECOGNITION",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-PE-30-CIVIC-RESTORATION",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-PE-30-CIVIC-RESTORATION",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-MENTES",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-MENTES",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-MENTOR",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-MENTOR",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-GIRL",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-GIRL",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-COMPANION",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-COMPANION",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-BOY",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-BOY",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-SHEPHERD",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-SHEPHERD",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-DIVINE",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-DIVINE",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "HMU-ODY-SCAR",
+      "category": "HMU_PROSTHETIC",
+      "department": "HMU/PROSTHETICS",
+      "p4_visual_authority": "design/odyssey_m1_p4/CHARACTER_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 24,
+      "hero_stunt_background": "HERO APPLICATION SYSTEM",
+      "duplicate_count": 23,
+      "material": "silicone transfers; right outer thigh witness template",
+      "finish": "camera-distance calibrated",
+      "aging": "state card",
+      "damage_states": [
+        "intact",
+        "used/discard"
+      ],
+      "wet_states": [
+        "dry",
+        "wet-safe where required"
+      ],
+      "blood_states": [
+        "clean",
+        "blood progression where required"
+      ],
+      "storage": "temperature-controlled labeled prosthetic storage",
+      "reset_requirements": "single-use transfers; fresh edge blend; continuity photography",
+      "continuity_owner": "KEY MAKEUP + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "Desktop specification only; no human test performed."
+    },
+    {
+      "asset_id": "HMU-ODY-SALT",
+      "category": "HMU_PROSTHETIC",
+      "department": "HMU/PROSTHETICS",
+      "p4_visual_authority": "design/odyssey_m1_p4/CHARACTER_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 8,
+      "hero_stunt_background": "HERO APPLICATION SYSTEM",
+      "duplicate_count": 7,
+      "material": "salt/weathering palettes by ODY state",
+      "finish": "camera-distance calibrated",
+      "aging": "state card",
+      "damage_states": [
+        "intact",
+        "used/discard"
+      ],
+      "wet_states": [
+        "dry",
+        "wet-safe where required"
+      ],
+      "blood_states": [
+        "clean",
+        "blood progression where required"
+      ],
+      "storage": "temperature-controlled labeled prosthetic storage",
+      "reset_requirements": "single-use transfers; fresh edge blend; continuity photography",
+      "continuity_owner": "KEY MAKEUP + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "Desktop specification only; no human test performed."
+    },
+    {
+      "asset_id": "HMU-WOUND-SYS",
+      "category": "HMU_PROSTHETIC",
+      "department": "HMU/PROSTHETICS",
+      "p4_visual_authority": "design/odyssey_m1_p4/CHARACTER_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 40,
+      "hero_stunt_background": "HERO APPLICATION SYSTEM",
+      "duplicate_count": 39,
+      "material": "graded wounds B1–B5; removable appliances",
+      "finish": "camera-distance calibrated",
+      "aging": "state card",
+      "damage_states": [
+        "intact",
+        "used/discard"
+      ],
+      "wet_states": [
+        "dry",
+        "wet-safe where required"
+      ],
+      "blood_states": [
+        "clean",
+        "blood progression where required"
+      ],
+      "storage": "temperature-controlled labeled prosthetic storage",
+      "reset_requirements": "single-use transfers; fresh edge blend; continuity photography",
+      "continuity_owner": "KEY MAKEUP + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "Desktop specification only; no human test performed."
+    },
+    {
+      "asset_id": "HMU-CYCLOPS-EYE",
+      "category": "HMU_PROSTHETIC",
+      "department": "HMU/PROSTHETICS",
+      "p4_visual_authority": "design/odyssey_m1_p4/CHARACTER_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 4,
+      "hero_stunt_background": "HERO APPLICATION SYSTEM",
+      "duplicate_count": 3,
+      "material": "practical eyelid/blood interface, VFX-safe tracking surround",
+      "finish": "camera-distance calibrated",
+      "aging": "state card",
+      "damage_states": [
+        "intact",
+        "used/discard"
+      ],
+      "wet_states": [
+        "dry",
+        "wet-safe where required"
+      ],
+      "blood_states": [
+        "clean",
+        "blood progression where required"
+      ],
+      "storage": "temperature-controlled labeled prosthetic storage",
+      "reset_requirements": "single-use transfers; fresh edge blend; continuity photography",
+      "continuity_owner": "KEY MAKEUP + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "Desktop specification only; no human test performed."
+    },
+    {
+      "asset_id": "HMU-ATHENA-STATE",
+      "category": "HMU_PROSTHETIC",
+      "department": "HMU/PROSTHETICS",
+      "p4_visual_authority": "design/odyssey_m1_p4/CHARACTER_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "HERO APPLICATION SYSTEM",
+      "duplicate_count": 5,
+      "material": "human disguises/divine condition continuity; no glow makeup",
+      "finish": "camera-distance calibrated",
+      "aging": "state card",
+      "damage_states": [
+        "intact",
+        "used/discard"
+      ],
+      "wet_states": [
+        "dry",
+        "wet-safe where required"
+      ],
+      "blood_states": [
+        "clean",
+        "blood progression where required"
+      ],
+      "storage": "temperature-controlled labeled prosthetic storage",
+      "reset_requirements": "single-use transfers; fresh edge blend; continuity photography",
+      "continuity_owner": "KEY MAKEUP + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "Desktop specification only; no human test performed."
+    },
+    {
+      "asset_id": "CREATURE-CYCLOPS",
+      "category": "PRACTICAL_CREATURE",
+      "department": "CREATURE FX/VFX",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-CYCLOPS-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "PRACTICAL INTERACTION SYSTEM",
+      "duplicate_count": 0,
+      "material": "partial practical, puppet/prosthetic/rig/tracking as specified",
+      "finish": "P4 creature grammar",
+      "aging": "handled contact points remain physical; digital extension beyond boundary",
+      "damage_states": [
+        "clean",
+        "story damage"
+      ],
+      "wet_states": [
+        "dry",
+        "controlled wet if applicable"
+      ],
+      "blood_states": [
+        "clean",
+        "contact blood if applicable"
+      ],
+      "storage": "department-specific rig cases",
+      "reset_requirements": "reset interaction witness marks; clean plate before strike",
+      "continuity_owner": "CREATURE FX SUPERVISOR + VFX SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "full-CG hero creature required: false; final method requires physical safety and vendor validation."
+    },
+    {
+      "asset_id": "CREATURE-CIRCE",
+      "category": "PRACTICAL_CREATURE",
+      "department": "CREATURE FX/VFX",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-CIRCE-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "PRACTICAL INTERACTION SYSTEM",
+      "duplicate_count": 0,
+      "material": "partial practical, puppet/prosthetic/rig/tracking as specified",
+      "finish": "P4 creature grammar",
+      "aging": "handled contact points remain physical; digital extension beyond boundary",
+      "damage_states": [
+        "clean",
+        "story damage"
+      ],
+      "wet_states": [
+        "dry",
+        "controlled wet if applicable"
+      ],
+      "blood_states": [
+        "clean",
+        "contact blood if applicable"
+      ],
+      "storage": "department-specific rig cases",
+      "reset_requirements": "reset interaction witness marks; clean plate before strike",
+      "continuity_owner": "CREATURE FX SUPERVISOR + VFX SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "full-CG hero creature required: false; final method requires physical safety and vendor validation."
+    },
+    {
+      "asset_id": "CREATURE-SIRENS",
+      "category": "PRACTICAL_CREATURE",
+      "department": "CREATURE FX/VFX",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-SIRENS-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "PRACTICAL INTERACTION SYSTEM",
+      "duplicate_count": 0,
+      "material": "partial practical, puppet/prosthetic/rig/tracking as specified",
+      "finish": "P4 creature grammar",
+      "aging": "handled contact points remain physical; digital extension beyond boundary",
+      "damage_states": [
+        "clean",
+        "story damage"
+      ],
+      "wet_states": [
+        "dry",
+        "controlled wet if applicable"
+      ],
+      "blood_states": [
+        "clean",
+        "contact blood if applicable"
+      ],
+      "storage": "department-specific rig cases",
+      "reset_requirements": "reset interaction witness marks; clean plate before strike",
+      "continuity_owner": "CREATURE FX SUPERVISOR + VFX SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "full-CG hero creature required: false; final method requires physical safety and vendor validation."
+    },
+    {
+      "asset_id": "CREATURE-CHARYBDIS",
+      "category": "PRACTICAL_CREATURE",
+      "department": "CREATURE FX/VFX",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-CHARYBDIS-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "PRACTICAL INTERACTION SYSTEM",
+      "duplicate_count": 0,
+      "material": "partial practical, puppet/prosthetic/rig/tracking as specified",
+      "finish": "P4 creature grammar",
+      "aging": "handled contact points remain physical; digital extension beyond boundary",
+      "damage_states": [
+        "clean",
+        "story damage"
+      ],
+      "wet_states": [
+        "dry",
+        "controlled wet if applicable"
+      ],
+      "blood_states": [
+        "clean",
+        "contact blood if applicable"
+      ],
+      "storage": "department-specific rig cases",
+      "reset_requirements": "reset interaction witness marks; clean plate before strike",
+      "continuity_owner": "CREATURE FX SUPERVISOR + VFX SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "full-CG hero creature required: false; final method requires physical safety and vendor validation."
+    },
+    {
+      "asset_id": "CREATURE-SCYLLA",
+      "category": "PRACTICAL_CREATURE",
+      "department": "CREATURE FX/VFX",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-SCYLLA-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "PRACTICAL INTERACTION SYSTEM",
+      "duplicate_count": 0,
+      "material": "partial practical, puppet/prosthetic/rig/tracking as specified",
+      "finish": "P4 creature grammar",
+      "aging": "handled contact points remain physical; digital extension beyond boundary",
+      "damage_states": [
+        "clean",
+        "story damage"
+      ],
+      "wet_states": [
+        "dry",
+        "controlled wet if applicable"
+      ],
+      "blood_states": [
+        "clean",
+        "contact blood if applicable"
+      ],
+      "storage": "department-specific rig cases",
+      "reset_requirements": "reset interaction witness marks; clean plate before strike",
+      "continuity_owner": "CREATURE FX SUPERVISOR + VFX SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "full-CG hero creature required: false; final method requires physical safety and vendor validation."
+    },
+    {
+      "asset_id": "CREATURE-UNDERWORLD",
+      "category": "PRACTICAL_CREATURE",
+      "department": "CREATURE FX/VFX",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-UNDERWORLD-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "PRACTICAL INTERACTION SYSTEM",
+      "duplicate_count": 0,
+      "material": "partial practical, puppet/prosthetic/rig/tracking as specified",
+      "finish": "P4 creature grammar",
+      "aging": "handled contact points remain physical; digital extension beyond boundary",
+      "damage_states": [
+        "clean",
+        "story damage"
+      ],
+      "wet_states": [
+        "dry",
+        "controlled wet if applicable"
+      ],
+      "blood_states": [
+        "clean",
+        "contact blood if applicable"
+      ],
+      "storage": "department-specific rig cases",
+      "reset_requirements": "reset interaction witness marks; clean plate before strike",
+      "continuity_owner": "CREATURE FX SUPERVISOR + VFX SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "full-CG hero creature required: false; final method requires physical safety and vendor validation."
+    },
+    {
+      "asset_id": "CREATURE-POSEIDON",
+      "category": "PRACTICAL_CREATURE",
+      "department": "CREATURE FX/VFX",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-POSEIDON-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "PRACTICAL INTERACTION SYSTEM",
+      "duplicate_count": 0,
+      "material": "partial practical, puppet/prosthetic/rig/tracking as specified",
+      "finish": "P4 creature grammar",
+      "aging": "handled contact points remain physical; digital extension beyond boundary",
+      "damage_states": [
+        "clean",
+        "story damage"
+      ],
+      "wet_states": [
+        "dry",
+        "controlled wet if applicable"
+      ],
+      "blood_states": [
+        "clean",
+        "contact blood if applicable"
+      ],
+      "storage": "department-specific rig cases",
+      "reset_requirements": "reset interaction witness marks; clean plate before strike",
+      "continuity_owner": "CREATURE FX SUPERVISOR + VFX SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "full-CG hero creature required: false; final method requires physical safety and vendor validation."
+    },
+    {
+      "asset_id": "CREATURE-ATHENA",
+      "category": "PRACTICAL_CREATURE",
+      "department": "CREATURE FX/VFX",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-ATHENA-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "PRACTICAL INTERACTION SYSTEM",
+      "duplicate_count": 0,
+      "material": "partial practical, puppet/prosthetic/rig/tracking as specified",
+      "finish": "P4 creature grammar",
+      "aging": "handled contact points remain physical; digital extension beyond boundary",
+      "damage_states": [
+        "clean",
+        "story damage"
+      ],
+      "wet_states": [
+        "dry",
+        "controlled wet if applicable"
+      ],
+      "blood_states": [
+        "clean",
+        "contact blood if applicable"
+      ],
+      "storage": "department-specific rig cases",
+      "reset_requirements": "reset interaction witness marks; clean plate before strike",
+      "continuity_owner": "CREATURE FX SUPERVISOR + VFX SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "full-CG hero creature required: false; final method requires physical safety and vendor validation."
+    },
+    {
+      "asset_id": "CREATURE-PETRIFICATION",
+      "category": "PRACTICAL_CREATURE",
+      "department": "CREATURE FX/VFX",
+      "p4_visual_authority": "design/odyssey_m1_p4/technical_sheets/P4-CREATURE-PETRIFICATION-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 1,
+      "hero_stunt_background": "PRACTICAL INTERACTION SYSTEM",
+      "duplicate_count": 0,
+      "material": "partial practical, puppet/prosthetic/rig/tracking as specified",
+      "finish": "P4 creature grammar",
+      "aging": "handled contact points remain physical; digital extension beyond boundary",
+      "damage_states": [
+        "clean",
+        "story damage"
+      ],
+      "wet_states": [
+        "dry",
+        "controlled wet if applicable"
+      ],
+      "blood_states": [
+        "clean",
+        "contact blood if applicable"
+      ],
+      "storage": "department-specific rig cases",
+      "reset_requirements": "reset interaction witness marks; clean plate before strike",
+      "continuity_owner": "CREATURE FX SUPERVISOR + VFX SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "full-CG hero creature required: false; final method requires physical safety and vendor validation."
+    },
+    {
+      "asset_id": "GFX-ITHACA-HOUSE",
+      "category": "GRAPHICS_TEXTURE_FURNITURE_RITUAL",
+      "department": "GRAPHICS/SET DEC/PROPS",
+      "p4_visual_authority": "design/odyssey_m1_p4/GRAPHIC_SYMBOL_LANGUAGE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "HERO/BACKGROUND FAMILY",
+      "duplicate_count": 5,
+      "material": "period-grounded practical media",
+      "finish": "matte, worn, no modern legibility",
+      "aging": "state-specific handling",
+      "damage_states": [
+        "clean",
+        "battle/ritual state"
+      ],
+      "wet_states": [
+        "dry",
+        "wet if scene-bound"
+      ],
+      "blood_states": [
+        "clean",
+        "blood only if battle-bound"
+      ],
+      "storage": "flat files or labeled rolling cage",
+      "reset_requirements": "continuity photo and quantity count",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "household seals, storage marks, weaving tally"
+    },
+    {
+      "asset_id": "GFX-PHAEACIA",
+      "category": "GRAPHICS_TEXTURE_FURNITURE_RITUAL",
+      "department": "GRAPHICS/SET DEC/PROPS",
+      "p4_visual_authority": "design/odyssey_m1_p4/GRAPHIC_SYMBOL_LANGUAGE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "HERO/BACKGROUND FAMILY",
+      "duplicate_count": 5,
+      "material": "period-grounded practical media",
+      "finish": "matte, worn, no modern legibility",
+      "aging": "state-specific handling",
+      "damage_states": [
+        "clean",
+        "battle/ritual state"
+      ],
+      "wet_states": [
+        "dry",
+        "wet if scene-bound"
+      ],
+      "blood_states": [
+        "clean",
+        "blood only if battle-bound"
+      ],
+      "storage": "flat files or labeled rolling cage",
+      "reset_requirements": "continuity photo and quantity count",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "court/harbor practical symbols"
+    },
+    {
+      "asset_id": "GFX-SHIP",
+      "category": "GRAPHICS_TEXTURE_FURNITURE_RITUAL",
+      "department": "GRAPHICS/SET DEC/PROPS",
+      "p4_visual_authority": "design/odyssey_m1_p4/GRAPHIC_SYMBOL_LANGUAGE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "HERO/BACKGROUND FAMILY",
+      "duplicate_count": 5,
+      "material": "period-grounded practical media",
+      "finish": "matte, worn, no modern legibility",
+      "aging": "state-specific handling",
+      "damage_states": [
+        "clean",
+        "battle/ritual state"
+      ],
+      "wet_states": [
+        "dry",
+        "wet if scene-bound"
+      ],
+      "blood_states": [
+        "clean",
+        "blood only if battle-bound"
+      ],
+      "storage": "flat files or labeled rolling cage",
+      "reset_requirements": "continuity photo and quantity count",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "sail/rope identification and non-readable navigational dressing"
+    },
+    {
+      "asset_id": "TEXTILE-PENELOPE",
+      "category": "GRAPHICS_TEXTURE_FURNITURE_RITUAL",
+      "department": "GRAPHICS/SET DEC/PROPS",
+      "p4_visual_authority": "design/odyssey_m1_p4/GRAPHIC_SYMBOL_LANGUAGE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "HERO/BACKGROUND FAMILY",
+      "duplicate_count": 5,
+      "material": "period-grounded practical media",
+      "finish": "matte, worn, no modern legibility",
+      "aging": "state-specific handling",
+      "damage_states": [
+        "clean",
+        "battle/ritual state"
+      ],
+      "wet_states": [
+        "dry",
+        "wet if scene-bound"
+      ],
+      "blood_states": [
+        "clean",
+        "blood only if battle-bound"
+      ],
+      "storage": "flat files or labeled rolling cage",
+      "reset_requirements": "continuity photo and quantity count",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "loom textile family and burial-shroud progression"
+    },
+    {
+      "asset_id": "RITUAL-OFFERING",
+      "category": "GRAPHICS_TEXTURE_FURNITURE_RITUAL",
+      "department": "GRAPHICS/SET DEC/PROPS",
+      "p4_visual_authority": "design/odyssey_m1_p4/GRAPHIC_SYMBOL_LANGUAGE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "HERO/BACKGROUND FAMILY",
+      "duplicate_count": 5,
+      "material": "period-grounded practical media",
+      "finish": "matte, worn, no modern legibility",
+      "aging": "state-specific handling",
+      "damage_states": [
+        "clean",
+        "battle/ritual state"
+      ],
+      "wet_states": [
+        "dry",
+        "wet if scene-bound"
+      ],
+      "blood_states": [
+        "clean",
+        "blood only if battle-bound"
+      ],
+      "storage": "flat files or labeled rolling cage",
+      "reset_requirements": "continuity photo and quantity count",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "cups, ash bowls, oil, grave and civic offering family"
+    },
+    {
+      "asset_id": "FURN-S1",
+      "category": "GRAPHICS_TEXTURE_FURNITURE_RITUAL",
+      "department": "GRAPHICS/SET DEC/PROPS",
+      "p4_visual_authority": "design/odyssey_m1_p4/GRAPHIC_SYMBOL_LANGUAGE.md",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "HERO/BACKGROUND FAMILY",
+      "duplicate_count": 5,
+      "material": "period-grounded practical media",
+      "finish": "matte, worn, no modern legibility",
+      "aging": "state-specific handling",
+      "damage_states": [
+        "clean",
+        "battle/ritual state"
+      ],
+      "wet_states": [
+        "dry",
+        "wet if scene-bound"
+      ],
+      "blood_states": [
+        "clean",
+        "blood only if battle-bound"
+      ],
+      "storage": "flat files or labeled rolling cage",
+      "reset_requirements": "continuity photo and quantity count",
+      "continuity_owner": "SET DECORATOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "tables, benches, stools, off-axis suitor seat, weapon wall furniture"
+    }
+  ],
+  "duplicate_asset_ids": [],
+  "status": "PASS_ART_ASSET_INDEX"
+}

@@ -1,0 +1,717 @@
+{
+  "artifact_class": "P5_COSTUME_BUILD_MATRIX",
+  "frozen_costume_state_count": 25,
+  "principal_characters": [
+    "Odysseus",
+    "Penelope",
+    "Telemachus",
+    "Athena"
+  ],
+  "costumes": [
+    {
+      "asset_id": "COST-W-OD-05-CALYPSO-WORN",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-05-CALYPSO-WORN",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-05-RAFT-SALT",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-05-RAFT-SALT",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-06-PHAEACIA-BORROWED",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-06-PHAEACIA-BORROWED",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-09-15-STORY",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-09-15-STORY",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-16-LANDFALL",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-16-LANDFALL",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-17-26-BEGGAR",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-17-26-BEGGAR",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-27-BATTLE",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 5,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "BLOOD"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-27-BATTLE",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT, BLOOD"
+    },
+    {
+      "asset_id": "COST-W-OD-29-CLEANED-RETURNED",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-29-CLEANED-RETURNED",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-OD-30-RETURNED-FIELD",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-OD-30-RETURNED-FIELD",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-TE-01-BOY-HOUSEHOLD",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-TE-01-BOY-HOUSEHOLD",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-TE-03-TRAVELER",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-TE-03-TRAVELER",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-TE-18-RETURNING-HEIR",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-TE-18-RETURNING-HEIR",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-TE-26-BATTLE-HEIR",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 6,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 5,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "BLOOD"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-TE-26-BATTLE-HEIR",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT, BLOOD"
+    },
+    {
+      "asset_id": "COST-W-TE-30-CIVIC-AUTHORITY",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-TE-30-CIVIC-AUTHORITY",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-PE-01-HOUSEHOLD-MOURNING-PURPLE",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-PE-01-HOUSEHOLD-MOURNING-PURPLE",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-PE-25-CONTEST",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-PE-25-CONTEST",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-PE-29-RECOGNITION",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-PE-29-RECOGNITION",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-PE-30-CIVIC-RESTORATION",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-PE-30-CIVIC-RESTORATION",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-MENTES",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-MENTES",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-MENTOR",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-MENTOR",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-GIRL",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-GIRL",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-COMPANION",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-COMPANION",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-BOY",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-BOY",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-SHEPHERD",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-SHEPHERD",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    },
+    {
+      "asset_id": "COST-W-AT-DIVINE",
+      "category": "COSTUME",
+      "department": "COSTUME",
+      "p4_visual_authority": "design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "PRINCIPAL",
+      "duplicate_count": 4,
+      "material": "linen/wool/leather per P4 state",
+      "finish": "dyed within locked character palette",
+      "aging": "separate clean/organic progression/stunt records",
+      "damage_states": [
+        "STUNT"
+      ],
+      "wet_states": [
+        "WET"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "ventilated rail, bagged and tagged W-AT-DIVINE",
+      "reset_requirements": "do not force-dry hero continuity; use matched duplicate",
+      "continuity_owner": "COSTUME SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "HERO, WET, STUNT"
+    }
+  ],
+  "logic": {
+    "organic_progression": "minor dry wear between adjacent dry scenes only",
+    "separate_duplicates": "wet, blood, stunt, major damage and non-linear schedule states"
+  },
+  "status": "PASS_PRINCIPAL_4_OF_4"
+}

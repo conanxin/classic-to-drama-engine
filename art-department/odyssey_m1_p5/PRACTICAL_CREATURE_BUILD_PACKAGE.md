@@ -1,0 +1,5 @@
+# Practical Creature Build Package
+
+Full-CG hero creature required: **false**. Eight frozen creature scenes are covered by nine execution systems. Cyclops uses forced scale, partial face/eye, hand/contact and cave occlusion; Scylla uses practical victim rigs and contact points with digital reach extension; Sirens are performer/cloth/sound-led; Charybdis is water, deck reaction and environment extension; Circe transformation is cut, prosthetic fragments, silhouette and reaction; Underworld uses depth layers, gauze/water/reflection and sparse extensions; petrification uses progressive practical texture plus comp; divine manifestation uses condition, shadow, wind and editorial alignment.
+
+Every system declares the performer touch point, rated rig owner, puppet/prosthetic piece, shadow/water element, removable tracking reference, clean plate and digital-extension seam. P5 is technical planning only. Rig loads, performer contact, water/electrical separation and materials require P6 physical testing.

@@ -1,0 +1,204 @@
+{
+  "artifact_class": "P5_SET_BUILD_MATRIX",
+  "schema_version": "1.0.0",
+  "target_schedule_days": 54,
+  "sets": [
+    {
+      "set_id": "S1",
+      "states": [
+        "S1-A",
+        "S1-B",
+        "S1-C",
+        "S1-D",
+        "S1-E",
+        "S1-F"
+      ],
+      "build": "shop prefabricate; stage assemble and survey",
+      "redress": "state cart and signed continuity photographs",
+      "strike": "only after final scheduled state",
+      "restore": "labeled clean baseline crate",
+      "damage": "replaceable scenic skins/panels",
+      "wet": "sealed surfaces; anti-slip and drainage plan",
+      "blood": "washable barrier and zone map",
+      "vfx_marker": "removable non-destructive marker mounts",
+      "wild_wall": "P3 camera wall authority retained",
+      "schedule_relationship": "bound to P3 TARGET block; no extra shooting day assumed"
+    },
+    {
+      "set_id": "S2",
+      "states": [
+        "PYLOS",
+        "SPARTA",
+        "PHAEACIA",
+        "CIRCE"
+      ],
+      "build": "shop prefabricate; stage assemble and survey",
+      "redress": "state cart and signed continuity photographs",
+      "strike": "only after final scheduled state",
+      "restore": "labeled clean baseline crate",
+      "damage": "replaceable scenic skins/panels",
+      "wet": "sealed surfaces; anti-slip and drainage plan",
+      "blood": "washable barrier and zone map",
+      "vfx_marker": "removable non-destructive marker mounts",
+      "wild_wall": "P3 camera wall authority retained",
+      "schedule_relationship": "bound to P3 TARGET block; no extra shooting day assumed"
+    },
+    {
+      "set_id": "S3",
+      "states": [
+        "TELEMACHUS",
+        "FLEET",
+        "LAST-SHIP",
+        "PHAEACIAN"
+      ],
+      "build": "shop prefabricate; stage assemble and survey",
+      "redress": "state cart and signed continuity photographs",
+      "strike": "only after final scheduled state",
+      "restore": "labeled clean baseline crate",
+      "damage": "replaceable scenic skins/panels",
+      "wet": "sealed surfaces; anti-slip and drainage plan",
+      "blood": "washable barrier and zone map",
+      "vfx_marker": "removable non-destructive marker mounts",
+      "wild_wall": "P3 camera wall authority retained",
+      "schedule_relationship": "bound to P3 TARGET block; no extra shooting day assumed"
+    },
+    {
+      "set_id": "S4",
+      "states": [
+        "WORK",
+        "GUEST",
+        "RECOGNITION",
+        "DEPARTURE"
+      ],
+      "build": "shop prefabricate; stage assemble and survey",
+      "redress": "state cart and signed continuity photographs",
+      "strike": "only after final scheduled state",
+      "restore": "labeled clean baseline crate",
+      "damage": "replaceable scenic skins/panels",
+      "wet": "sealed surfaces; anti-slip and drainage plan",
+      "blood": "washable barrier and zone map",
+      "vfx_marker": "removable non-destructive marker mounts",
+      "wild_wall": "P3 camera wall authority retained",
+      "schedule_relationship": "bound to P3 TARGET block; no extra shooting day assumed"
+    },
+    {
+      "set_id": "S5",
+      "states": [
+        "OGYGIA",
+        "CYCLOPS",
+        "ITHACA-SHORE",
+        "CREATURE-COAST"
+      ],
+      "build": "shop prefabricate; stage assemble and survey",
+      "redress": "state cart and signed continuity photographs",
+      "strike": "only after final scheduled state",
+      "restore": "labeled clean baseline crate",
+      "damage": "replaceable scenic skins/panels",
+      "wet": "sealed surfaces; anti-slip and drainage plan",
+      "blood": "washable barrier and zone map",
+      "vfx_marker": "removable non-destructive marker mounts",
+      "wild_wall": "P3 camera wall authority retained",
+      "schedule_relationship": "bound to P3 TARGET block; no extra shooting day assumed"
+    }
+  ],
+  "redresses": [
+    {
+      "unit_id": "U01",
+      "label": "S1 household/occupied",
+      "state": "S1-A",
+      "target_block": "days 01-06",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U02",
+      "label": "S1 contest",
+      "state": "S1-B",
+      "target_block": "days 07-10",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U03",
+      "label": "S1 battle/aftermath/restored",
+      "state": "S1-C..F",
+      "target_block": "days 11-16",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U04",
+      "label": "S4 Eumaeus farm",
+      "state": "dry/rain variants",
+      "target_block": "days 17-20",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U05",
+      "label": "S2 Phaeacia court",
+      "state": "court/feast/story",
+      "target_block": "days 21-24",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U06",
+      "label": "civic/harbor",
+      "state": "assembly/shore",
+      "target_block": "days 25-28",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U07",
+      "label": "Ithaca exterior/kin",
+      "state": "courtyard/field",
+      "target_block": "days 29-31",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U08",
+      "label": "roads/forest",
+      "state": "Telemachus/Laertes",
+      "target_block": "days 32-35",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U09",
+      "label": "Underworld",
+      "state": "black-water/threshold",
+      "target_block": "days 36-38",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U10",
+      "label": "finale field/land",
+      "state": "restoration",
+      "target_block": "days 39-41",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U11",
+      "label": "wet/motion sea unit",
+      "state": "storm/wreck/strait",
+      "target_block": "days 42-48",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    },
+    {
+      "unit_id": "U12",
+      "label": "dry deck/cave myth unit",
+      "state": "deck/cave/islands",
+      "target_block": "days 49-54",
+      "build_redress_strike_restore": "prepack → install → witness-photo → shoot → inventory → restore",
+      "variance": "NONE IDENTIFIED; real stage turnaround to validate"
+    }
+  ],
+  "p5_production_variances": [],
+  "status": "PASS_TARGET_54_DAY_COMPATIBLE_DESKTOP_PLAN"
+}

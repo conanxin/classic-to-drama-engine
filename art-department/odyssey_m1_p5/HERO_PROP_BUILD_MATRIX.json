@@ -1,0 +1,431 @@
+{
+  "artifact_class": "P5_HERO_PROP_BUILD_MATRIX",
+  "frozen_prop_system_count": 12,
+  "props": [
+    {
+      "asset_id": "PR-BOW-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 5,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 4,
+      "material": "laminated hero bow",
+      "finish": "oiled olive/yew tone",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "dry/wet/blood-safe custody",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "laminated hero bow; low-draw rehearsal; inert stunt"
+    },
+    {
+      "asset_id": "PR-AXES-01..12",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-SCAR-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 24,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 23,
+      "material": "silicone scar transfer system",
+      "finish": "skin-match sealed edge",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "close/mid/stunt tolerance set",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "silicone scar transfer system"
+    },
+    {
+      "asset_id": "PR-BED-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-01-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 2,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 1,
+      "material": "built-in olive-trunk bed section + camera wild piece",
+      "finish": "oil-dark olive wood",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "never detached in story geography",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "built-in olive-trunk bed section + camera wild piece"
+    },
+    {
+      "asset_id": "PR-WEAVE-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-TE-SWORD-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-OD-WEAPON-SET",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-BONE-01..06",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-02-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-BOUNDARY-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-WIND-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-STAKE-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "PR-SHIP-INV-01",
+      "category": "HERO_PROP",
+      "department": "PROPS",
+      "p4_visual_authority": "technical_sheets/P4-PROPS-03-TECH.svg",
+      "p3_scene_usage": [],
+      "episodes": [],
+      "build_quantity": 3,
+      "hero_stunt_background": "HERO/STUNT/SAFETY SYSTEM",
+      "duplicate_count": 2,
+      "material": "hero, stunt and safety versions as scene requires",
+      "finish": "P4 locked finish",
+      "aging": "story handling and state only",
+      "damage_states": [
+        "D0",
+        "scene-bound damage"
+      ],
+      "wet_states": [
+        "W0",
+        "W1 duplicate where used"
+      ],
+      "blood_states": [
+        "B0",
+        "B-scene duplicate"
+      ],
+      "storage": "locked props cage; custody log",
+      "reset_requirements": "photo/custody reset",
+      "continuity_owner": "PROP MASTER + SCRIPT SUPERVISOR",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": "hero, stunt and safety versions as scene requires"
+    },
+    {
+      "asset_id": "SHIP-RIG-HERO",
+      "category": "SHIP_ELEMENT",
+      "department": "MARINE ART/PROPS",
+      "p4_visual_authority": "design/odyssey_m1_p4/SET_DESIGN_BIBLE.md",
+      "p3_scene_usage": [],
+      "episodes": [
+        "EP05",
+        "EP06",
+        "EP07",
+        "EP08",
+        "EP09",
+        "EP10",
+        "EP11",
+        "EP12",
+        "EP13",
+        "EP14",
+        "EP15",
+        "EP16"
+      ],
+      "build_quantity": 2,
+      "hero_stunt_background": "HERO + WET DUPLICATE",
+      "duplicate_count": 1,
+      "material": "soft-core rope, rated scenic mast/rail interfaces",
+      "finish": "tar/salt/hand wear",
+      "aging": "dry/wet continuity",
+      "damage_states": [
+        "intact",
+        "storm",
+        "wreck"
+      ],
+      "wet_states": [
+        "W0",
+        "W1",
+        "W2"
+      ],
+      "blood_states": [
+        "B0"
+      ],
+      "storage": "dry rack plus wet drip zone",
+      "reset_requirements": "rigging diagram, knot witness photos, safety inspection before every load",
+      "continuity_owner": "MARINE COORDINATOR + PROPS",
+      "real_world_status": "BUILD SPECIFICATION — NEEDS VENDOR/SHOP VALIDATION",
+      "notes": ""
+    }
+  ],
+  "recognition_chain_locks": {
+    "bow": "PR-BOW-01",
+    "axes": "PR-AXES-12",
+    "bed": "PR-BED-01",
+    "scar": "PR-SCAR-01",
+    "land": "PR-BOUNDARY-STONE"
+  },
+  "status": "PASS"
+}
