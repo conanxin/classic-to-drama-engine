@@ -45,9 +45,14 @@
       "sha256": "2be25fdd3d75f2538bf0cc0c96a0409bc4526718f49605551eb476d583b84ea3"
     },
     {
+      "path": "LIVE_DEPLOYMENT_QA_REPORT.md",
+      "bytes": 7591,
+      "sha256": "1dbf7369c4222a95820cdb3c237458333f2b842cfe4a2c107d0b56435e1f1582"
+    },
+    {
       "path": "LIVE_SITE_ISSUE_REGISTER.md",
-      "bytes": 7486,
-      "sha256": "a6909e47444bb7a0bd285b7c45ef193ecb8c13f6bd6051710469ca6ecaf894ec"
+      "bytes": 7478,
+      "sha256": "6ffc288758fb82bbdc6fd8f7f6bd7bd2227a5d105e337c4cbd9432d12517858d"
     },
     {
       "path": "PUBLISHING_POLICY.md",

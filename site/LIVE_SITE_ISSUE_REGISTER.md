@@ -15,7 +15,7 @@ Scope: public GitHub Pages archive only. P6 remains `PAUSED_BY_USER`; V2, P3, P4
 - root cause: deterministic substring search and Pagefind were coupled through one failure path.
 - fix: make the deterministic case-folded index independently authoritative for exact Chinese and English matches; invoke Pagefind only when the deterministic index has no match; never retain stale results behind an error status.
 - verification: local production build returns 18 current `recognition` matches and valid results for all 13 required terms with zero console error/warn entries.
-- status: `FIXED_LOCAL_PENDING_LIVE_DEPLOYMENT`
+- status: `LIVE_VERIFIED`
 
 ## WEB02-002 — Desktop images lacked intrinsic geometry and used original PNGs
 
@@ -30,7 +30,7 @@ Scope: public GitHub Pages archive only. P6 remains `PAUSED_BY_USER`; V2, P3, P4
 - root cause: publication generation produced only a mobile derivative and the shared image component did not expose source dimensions.
 - fix: deterministically generate `-w720.webp` and `-w1600.webp`, emit image metadata, use a width-based `srcset`, add intrinsic dimensions and async decoding, and verify both derivative families.
 - verification: P4-HF-01 desktop candidate is 202,762 bytes; mobile candidate is 45,296 bytes; all 254 published images have dimensions and both derivatives.
-- status: `FIXED_LOCAL_PENDING_LIVE_DEPLOYMENT`
+- status: `LIVE_VERIFIED`
 
 ## WEB02-003 — P4 teaser was allowlisted but had no public viewer entry
 
@@ -45,7 +45,7 @@ Scope: public GitHub Pages archive only. P6 remains `PAUSED_BY_USER`; V2, P3, P4
 - root cause: the generated media model contained `p4_teaser`, but the Watch template rendered only `pitch_teaser`.
 - fix: add a secondary P4 PREVIS viewer with an approved poster, native controls and `preload="none"`; retain P5 as the primary 90-second feature.
 - verification: local Watch page exposes two labelled videos; P5 reports 90.0 seconds and is seekable; P4 remains at readyState 0 before interaction.
-- status: `FIXED_LOCAL_PENDING_LIVE_DEPLOYMENT`
+- status: `LIVE_VERIFIED`
 
 ## WEB02-004 — Reader preference state was visual-only and theme was page-scoped
 
@@ -60,7 +60,7 @@ Scope: public GitHub Pages archive only. P6 remains `PAUSED_BY_USER`; V2, P3, P4
 - root cause: reader settings owned color presentation that belongs to the global shell.
 - fix: apply system preference in the document head, retain user override across routes, move light tokens to global theme CSS, and synchronize `aria-pressed` plus contextual color-toggle labels.
 - verification: system light initializes as `source=system`; user dark survives reload and `/project/provenance/`; large/wide survives EP27→EP30; selected controls expose correct `aria-pressed` values.
-- status: `FIXED_LOCAL_PENDING_LIVE_DEPLOYMENT`
+- status: `LIVE_VERIFIED`
 
 ## WEB02-005 — Storyboard navigation stopped at each board image
 
@@ -75,7 +75,7 @@ Scope: public GitHub Pages archive only. P6 remains `PAUSED_BY_USER`; V2, P3, P4
 - root cause: navigation state was not represented in the viewer.
 - fix: add board index state, previous/next controls, disabled boundaries, ArrowLeft/ArrowRight, explicit Escape close, live board/shot label, and adjacent episode links.
 - verification: EP27 advances from `EP27-S01-P01` to `EP27-S01-P02`, updates shot IDs, disables the first previous control, closes on Escape, and links EP26/EP28.
-- status: `FIXED_LOCAL_PENDING_LIVE_DEPLOYMENT`
+- status: `LIVE_VERIFIED`
 
 ## WEB02-006 — Curated documents lacked archive return and sequential reading
 
@@ -90,7 +90,7 @@ Scope: public GitHub Pages archive only. P6 remains `PAUSED_BY_USER`; V2, P3, P4
 - root cause: the document component received only the current record.
 - fix: pass adjacent manifest records, add a Production back link and previous/next document footer.
 - verification: Character Voice Bible exposes 17 TOC links, 17 anchored headings, frozen source, Production return, Editorial Result previous and Character Arc Audit next.
-- status: `FIXED_LOCAL_PENDING_LIVE_DEPLOYMENT`
+- status: `LIVE_VERIFIED`
 
 ## WEB02-007 — One transient GitHub Pages edge response during the first crawl
 
@@ -110,8 +110,10 @@ Scope: public GitHub Pages archive only. P6 remains `PAUSED_BY_USER`; V2, P3, P4
 ## Register Summary
 
 - S0: 0
-- S1: 1 fixed locally
-- S2: 5 fixed locally
+- S1: 1 fixed and live verified
+- S2: 5 fixed and live verified
 - S3: 1 recovered and hardened in audit tooling
 - unresolved product issues: 0
-- live deployment verification: pending
+- live deployment verification: `PASS`
+- deployment commit: `c03587dcb14f254c76563c6f46bd8805bc7a4629`
+- successful workflow run: `32544769018`
