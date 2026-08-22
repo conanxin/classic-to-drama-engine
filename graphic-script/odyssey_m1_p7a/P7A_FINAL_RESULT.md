@@ -113,8 +113,25 @@ P7A artifact manifest: `graphic-script/odyssey_m1_p7a/P7A_ARTIFACT_MANIFEST.json
 P7A artifact manifest SHA-256: `c6e20f2da8d9aea8f8791d6b5e6d33ba0fa5b211d3c091421d9aa3ebf32208e8`  
 Web production build SHA-256: `c003fdcdc1702ec895c928745be9db4746b9935b0497c30fe9147f33e23d48ac`
 
-Git commit: `RECORDED_BY_THE_COMMIT_CONTAINING_THIS_RESULT`  
-deployment: `REQUIRES_NORMAL_PUSH_AND_GITHUB_PAGES_WORKFLOW_AFTER_THIS_RESULT_IS_FROZEN`
+implementation commit: `84e565201d1822a77a9f15598bbd8a963216b78d`
+
+deployment workflow run: `32549797882`
+
+deployment workflow URL: `https://github.com/conanxin/classic-to-drama-engine/actions/runs/32549797882`
+
+deployment: `PASS_GITHUB_PAGES_BUILD_AND_DEPLOY`
+
+Live verification at `https://conanxin.github.io/classic-to-drama-engine/`:
+
+- sitemap routes: `98`; route failures: `0`; canonical failures: `0`;
+- checked published assets: `804`; asset failures: `0`;
+- video range checks: `32`; failures: `0`;
+- privacy leaks: `0`; rejected visual promotions: `0`;
+- live Graphic routes EP01/19/27: `5 scenes / 5 source layers / 2 mode links` each;
+- live search “父亲显形”: `2 results` (`剧本` + `图文剧本`);
+- live EP27 390×844 screenshot: PASS.
+
+closeout commit: `RECORDED_BY_THE_COMMIT_CONTAINING_THIS_DEPLOYMENT_EVIDENCE`
 
 ## 11. Next phase recommendation
 
@@ -126,4 +143,3 @@ Suggested future choices only:
 2. `ODYSSEY-P7C GRAPHIC SCRIPT WEB POLISH AND READER TESTING`.
 
 P6 remains paused until the user explicitly authorizes it.
-
