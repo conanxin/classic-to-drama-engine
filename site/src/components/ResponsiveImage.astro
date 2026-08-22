@@ -1,10 +1,14 @@
 ---
 import { withBase } from '../lib/urls';
+import imageMetadata from '../generated/image-metadata.json';
 interface Props { src:string; responsive?:string|null; alt:string; loading?:'eager'|'lazy'; fetchpriority?:'high'|'low'|'auto'; }
 const { src, responsive, alt, loading='lazy', fetchpriority='auto' } = Astro.props;
+const metadata = (imageMetadata as Record<string, { width:number; height:number; responsive_w720:string; responsive_w1600:string }>)[src];
+const mobile = responsive || metadata?.responsive_w720;
+const srcset = metadata ? `${withBase(mobile)} 720w, ${withBase(metadata.responsive_w1600)} 1600w` : null;
 ---
 <picture>
-  {responsive && <source media="(max-width: 800px)" srcset={withBase(responsive)} type="image/webp" />}
-  <img src={withBase(src)} alt={alt} loading={loading} fetchpriority={fetchpriority} />
+  {srcset ? <source srcset={srcset} sizes="(max-width: 800px) 100vw, 1600px" type="image/webp" /> : mobile && <source srcset={withBase(mobile)} type="image/webp" />}
+  <img src={withBase(src)} alt={alt} loading={loading} fetchpriority={fetchpriority} width={metadata?.width} height={metadata?.height} decoding="async" />
 </picture>
 <style>picture{display:contents}</style>

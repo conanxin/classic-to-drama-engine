@@ -30,6 +30,7 @@ const costumeStates = await readJson('design/odyssey_m1_p4/COSTUME_STATE_MATRIX.
 
 const assetBySource = new Map(assetManifest.assets.map((x) => [x.source_path, x]));
 const responsiveBySource = new Map();
+const imageMetadata = {};
 for (const asset of assetManifest.assets) {
   if (asset.status !== 'APPROVED') throw new Error(`Non-approved published asset: ${asset.source_path}`);
   const source = path.join(repoRoot, asset.source_path);
@@ -39,12 +40,22 @@ for (const asset of assetManifest.assets) {
   await mkdir(path.dirname(dest), { recursive: true });
   await cp(source, dest);
   if (asset.type === 'image') {
+    const metadata = await sharp(bytes).metadata();
     const extension = path.extname(asset.published_path);
     const responsivePath = asset.published_path.slice(0, -extension.length) + '-w720.webp';
+    const desktopPath = asset.published_path.slice(0, -extension.length) + '-w1600.webp';
     await sharp(bytes).resize({ width:720, withoutEnlargement:true }).webp({ quality:78, effort:4 }).toFile(path.join(siteRoot, 'public', responsivePath));
+    await sharp(bytes).resize({ width:1600, withoutEnlargement:true }).webp({ quality:82, effort:4 }).toFile(path.join(siteRoot, 'public', desktopPath));
     responsiveBySource.set(asset.source_path, responsivePath);
+    imageMetadata[asset.published_path] = {
+      width: metadata.width,
+      height: metadata.height,
+      responsive_w720: responsivePath,
+      responsive_w1600: desktopPath
+    };
   }
 }
+await writeJson('image-metadata.json', imageMetadata);
 
 function cleanInline(text) {
   return text.replace(/^\*\*(.+)\*\*$/, '$1').replace(/`([^`]+)`/g, '$1').trim();

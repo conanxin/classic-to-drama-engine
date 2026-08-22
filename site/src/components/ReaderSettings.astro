@@ -9,11 +9,11 @@
     <button type="button" data-reader-width="comfortable">舒适</button>
     <button type="button" data-reader-width="wide">宽</button>
   </div>
-  <button type="button" data-color-toggle>亮 / 暗</button>
+  <button type="button" data-color-toggle aria-label="切换亮暗模式">亮 / 暗</button>
 </div>
 <style>
   .reader-settings{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;padding:1rem 0;border-bottom:1px solid var(--rule);font-size:.68rem;color:var(--muted)}
-  .reader-settings>span{margin-right:auto}.reader-settings div{display:flex}.reader-settings button{background:none;color:inherit;border:1px solid var(--rule);padding:.3rem .55rem;cursor:pointer}.reader-settings button:hover,.reader-settings button:focus-visible{color:var(--paper);border-color:var(--rust)}
+  .reader-settings>span{margin-right:auto}.reader-settings div{display:flex}.reader-settings button{background:none;color:inherit;border:1px solid var(--rule);padding:.3rem .55rem;cursor:pointer}.reader-settings button:hover,.reader-settings button:focus-visible,.reader-settings button[aria-pressed="true"]{color:var(--paper);border-color:var(--rust)}
 </style>
 <script>
   const root = document.documentElement;
@@ -22,13 +22,21 @@
   const savedWidth = localStorage.getItem('ctde-reader-width') || 'comfortable';
   article?.setAttribute('data-size', savedSize);
   article?.setAttribute('data-width', savedWidth);
+  const sync = () => {
+    document.querySelectorAll<HTMLButtonElement>('[data-reader-size]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.readerSize === article?.dataset.size)));
+    document.querySelectorAll<HTMLButtonElement>('[data-reader-width]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.readerWidth === article?.dataset.width)));
+    const color = document.querySelector<HTMLButtonElement>('[data-color-toggle]');
+    color?.setAttribute('aria-pressed', String(root.dataset.colorMode === 'light'));
+    color?.setAttribute('aria-label', root.dataset.colorMode === 'light' ? '切换到暗色模式' : '切换到亮色模式');
+  };
   document.querySelectorAll<HTMLButtonElement>('[data-reader-size]').forEach((button) => button.addEventListener('click', () => {
-    const value = button.dataset.readerSize || 'medium'; article?.setAttribute('data-size', value); localStorage.setItem('ctde-reader-size', value);
+    const value = button.dataset.readerSize || 'medium'; article?.setAttribute('data-size', value); localStorage.setItem('ctde-reader-size', value); sync();
   }));
   document.querySelectorAll<HTMLButtonElement>('[data-reader-width]').forEach((button) => button.addEventListener('click', () => {
-    const value = button.dataset.readerWidth || 'comfortable'; article?.setAttribute('data-width', value); localStorage.setItem('ctde-reader-width', value);
+    const value = button.dataset.readerWidth || 'comfortable'; article?.setAttribute('data-width', value); localStorage.setItem('ctde-reader-width', value); sync();
   }));
   document.querySelector<HTMLButtonElement>('[data-color-toggle]')?.addEventListener('click', () => {
-    const next = root.dataset.colorMode === 'light' ? 'dark' : 'light'; root.dataset.colorMode = next; localStorage.setItem('ctde-color-mode', next);
+    const next = root.dataset.colorMode === 'light' ? 'dark' : 'light'; root.dataset.colorMode = next; root.dataset.colorModeSource = 'user'; localStorage.setItem('ctde-color-mode', next); sync();
   });
+  sync();
 </script>

@@ -4,7 +4,10 @@ import DocumentReader from '../../components/DocumentReader.astro';
 import documents from '../../generated/documents.json';
 export function getStaticPaths(){return documents.map((document)=>({params:{slug:document.slug},props:{document}}));}
 const { document } = Astro.props;
+const index = documents.findIndex((item) => item.slug === document.slug);
+const previous = documents[index - 1];
+const next = documents[index + 1];
 ---
 <BaseLayout title={`${document.title}｜项目文档`} description={document.deck}>
-  <DocumentReader document={document} />
+  <DocumentReader document={document} previous={previous} next={next} />
 </BaseLayout>

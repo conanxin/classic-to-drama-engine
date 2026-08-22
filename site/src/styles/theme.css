@@ -1,0 +1,19 @@
+html[data-color-mode="light"] {
+  --ink:#e6dfcf;
+  --ink-2:#d8cfbb;
+  --paper:#191915;
+  --paper-2:#3a372f;
+  --muted:#716b5f;
+  --rule:rgba(20,20,18,.2);
+  --black:#f0ebdf;
+}
+
+html[data-color-mode="light"] .site-header {
+  background:rgba(230,223,207,.94);
+}
+
+html[data-color-mode="light"] .primary-nav a:hover,
+html[data-color-mode="light"] .primary-nav a:focus-visible,
+html[data-color-mode="light"] .text-link:hover {
+  color:#000;
+}

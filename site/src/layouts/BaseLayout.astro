@@ -3,6 +3,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { withBase } from '../lib/urls';
 import '../styles/global.css';
+import '../styles/theme.css';
 
 interface Props {
   title?: string;
@@ -28,6 +29,14 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
     <meta name="color-scheme" content="dark light" />
+    <script is:inline>
+      (() => {
+        const saved = localStorage.getItem('ctde-color-mode');
+        const system = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.dataset.colorMode = saved === 'light' || saved === 'dark' ? saved : system;
+        document.documentElement.dataset.colorModeSource = saved === 'light' || saved === 'dark' ? 'user' : 'system';
+      })();
+    </script>
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="《归途：奥德修斯》" />
     <meta property="og:title" content={title} />
@@ -45,11 +54,5 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       <slot />
     </main>
     <Footer />
-    <script is:inline>
-      (() => {
-        const saved = localStorage.getItem('ctde-color-mode');
-        if (saved === 'light' || saved === 'dark') document.documentElement.dataset.colorMode = saved;
-      })();
-    </script>
   </body>
 </html>

@@ -18,6 +18,7 @@ const storyboards = await readJson('src/generated/storyboards.json');
 const assets = await readJson('content/ASSET_PUBLICATION_MANIFEST.json');
 const publication = await readJson('content/PUBLICATION_MANIFEST.json');
 const summary = await readJson('src/generated/build-summary.json');
+const imageMetadata = await readJson('src/generated/image-metadata.json');
 
 if (episodes.length !== 30) fail(`episode count ${episodes.length}`);
 if (episodes.reduce((n, episode) => n + episode.scene_count, 0) !== 150) fail('scene count is not 150');
@@ -31,6 +32,8 @@ if (assets.assets.some((asset) => asset.status !== 'APPROVED')) fail('non-approv
 const rejected = new Set(assets.rejected_hero_frame_ids);
 if (assets.assets.some((asset) => [...rejected].some((id) => asset.source_path.includes(id)))) fail('rejected P4 target promoted');
 if (assets.assets.filter((asset) => asset.type === 'video').length !== 32) fail('video allowlist coverage failed');
+if (Object.keys(imageMetadata).length !== assets.assets.filter((asset) => asset.type === 'image').length) fail('image metadata coverage failed');
+if (Object.values(imageMetadata).some((item) => !item.width || !item.height || !item.responsive_w720 || !item.responsive_w1600)) fail('image dimensions or derivatives incomplete');
 
 for (const asset of assets.assets) {
   const source = path.join(repoRoot, asset.source_path);
@@ -86,8 +89,10 @@ if (hasDist) {
   }
   for (const asset of assets.assets.filter((item)=>item.type==='image')) {
     const extension=path.extname(asset.published_path);
-    const variant=asset.published_path.slice(0,-extension.length)+'-w720.webp';
-    if (!(await exists(path.join(siteRoot,'dist',variant)))) fail(`responsive image missing ${variant}`);
+    for (const width of [720,1600]) {
+      const variant=asset.published_path.slice(0,-extension.length)+`-w${width}.webp`;
+      if (!(await exists(path.join(siteRoot,'dist',variant)))) fail(`responsive image missing ${variant}`);
+    }
   }
 }
 
