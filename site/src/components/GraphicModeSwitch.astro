@@ -1,0 +1,23 @@
+---
+import { episodePath, graphicEpisodePath } from '../lib/urls';
+
+interface Props { number: number; active: 'script' | 'graphic'; }
+const { number, active } = Astro.props;
+---
+<nav class="mode-switch" aria-label="阅读模式" data-pagefind-ignore>
+  <a class:list={{ active: active === 'graphic' }} aria-current={active === 'graphic' ? 'page' : undefined} href={graphicEpisodePath(number)}>
+    <span>Graphic Mode</span>
+    <strong>图文模式</strong>
+  </a>
+  <a class:list={{ active: active === 'script' }} aria-current={active === 'script' ? 'page' : undefined} href={episodePath(number)}>
+    <span>Script Mode</span>
+    <strong>剧本模式</strong>
+  </a>
+</nav>
+<style>
+  .mode-switch{display:grid;grid-template-columns:1fr 1fr;width:min(100%,28rem);border:1px solid var(--graphic-rule);background:rgba(15,15,14,.72)}
+  .mode-switch a{display:flex;align-items:baseline;justify-content:space-between;gap:.8rem;padding:.7rem .9rem;text-decoration:none;color:var(--graphic-muted);border-right:1px solid var(--graphic-rule)}
+  .mode-switch a:last-child{border-right:0}.mode-switch a.active{background:var(--graphic-paper);color:var(--graphic-ink)}
+  .mode-switch span{font-size:.58rem;letter-spacing:.12em;text-transform:uppercase}.mode-switch strong{font-size:.75rem;font-weight:600}
+  @media(max-width:540px){.mode-switch{width:100%}.mode-switch a{padding:.65rem .7rem;align-items:flex-start;flex-direction:column;gap:.05rem}.mode-switch span{font-size:.52rem}}
+</style>

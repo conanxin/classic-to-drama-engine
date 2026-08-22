@@ -142,6 +142,21 @@ for (const artifact of screenplayManifest.artifacts) {
 if (episodes.length !== 30 || new Set(episodes.map((x) => x.number)).size !== 30) throw new Error('Episode route coverage failure');
 await writeJson('episodes.json', episodes);
 
+const graphicCharacterSystem = await readJson('graphic-script/odyssey_m1_p7a/CHARACTER_RECOGNITION_SYSTEM.json');
+const graphicPrototypePaths = [
+  'graphic-script/odyssey_m1_p7a/prototypes/EP01_GRAPHIC_SCRIPT_PROTOTYPE.json',
+  'graphic-script/odyssey_m1_p7a/prototypes/EP19_GRAPHIC_SCRIPT_PROTOTYPE.json',
+  'graphic-script/odyssey_m1_p7a/prototypes/EP27_GRAPHIC_SCRIPT_PROTOTYPE.json'
+];
+const graphicPrototypes = await Promise.all(graphicPrototypePaths.map(readJson));
+for (const prototype of graphicPrototypes) {
+  const episode = episodes.find((item) => item.id === prototype.episode);
+  if (!episode || episode.source_sha256 !== prototype.source_sha256) throw new Error(`Graphic prototype source mismatch: ${prototype.episode}`);
+  if (prototype.scenes.length !== episode.scene_count) throw new Error(`Graphic prototype scene mismatch: ${prototype.episode}`);
+}
+await writeJson('graphic-characters.json', graphicCharacterSystem);
+await writeJson('graphic-prototypes.json', graphicPrototypes);
+
 function section(markdown, heading) {
   const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const m = markdown.match(new RegExp(`^##\\s+${escaped}[^\\n]*\\n([\\s\\S]*?)(?=^##\\s+|(?![\\s\\S]))`, 'm'));
@@ -236,7 +251,11 @@ const searchRecords = [
   })),
   ...docs.map((doc)=>({route:`documents/${doc.slug}/`,type:'文档',title:doc.title,text:doc.raw})),
   ...core.map((character)=>({route:`characters/${character.slug}/`,type:'人物',title:character.zh,text:[character.en,character.role,character.voice_source,character.arc_source,...character.recognition,...character.props].join('\n')})),
-  ...world.map((place)=>({route:'world/',type:'世界',title:place.name,text:[place.name,place.thesis,...place.locations].join('\n')}))
+  ...world.map((place)=>({route:'world/',type:'世界',title:place.name,text:[place.name,place.thesis,...place.locations].join('\n')})),
+  ...graphicPrototypes.map((prototype)=>({
+    route:`episodes/${String(prototype.number).padStart(2,'0')}/graphic/`, type:'图文剧本', title:`${prototype.episode}《${prototype.title}》图文模式`,
+    text:[prototype.title,prototype.story_stage,prototype.previously_on,prototype.core_conflict,prototype.end_hook,...prototype.scenes.flatMap((scene)=>[scene.heading,scene.conflict_goal,scene.relation_tip,scene.space_tip,scene.prop_tip,...scene.narrative,...scene.essential_dialogue.flatMap((line)=>[line.speaker,line.text])])].join('\n')
+  }))
 ];
 await writeFile(path.join(siteRoot,'public/search-data.json'),`${JSON.stringify(searchRecords)}\n`);
 
@@ -250,7 +269,8 @@ const timeline = [
   ['P3','Director, shot, schedule and budget package reaches preproduction readiness.'],
   ['P4','Approved look development, technical storyboards and teaser previs are frozen.'],
   ['P5','Art handoff, full-series animatics, VFX previs and pitch proof pass independently.'],
-  ['Web Archive','The frozen work becomes a curated, searchable public viewer while P6 remains paused.']
+  ['Web Archive','The frozen work becomes a curated, searchable public viewer while P6 remains paused.'],
+  ['Graphic Script P7A','A dual reading layer prototypes character recognition, relationship help and scene-led visual reading for EP01, EP19 and EP27.']
 ].map(([milestone,summary],index)=>({index:index+1,milestone,summary}));
 await writeJson('project.json', { timeline, baseline_commit:'478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5', p5_manifest_sha256:'6078af3ab505aab3958d82aea2bfa3e2a5b5e07bc163293285fe411c1a469353' });
 
@@ -269,6 +289,8 @@ await writeJson('build-summary.json', {
   public_videos:assetManifest.assets.filter((x)=>x.type==='video').length,
   public_media_bytes:assetManifest.total_bytes,
   search_documents:searchRecords.length,
+  graphic_prototypes:graphicPrototypes.length,
+  graphic_scenes:graphicPrototypes.reduce((count,prototype)=>count+prototype.scenes.length,0),
   generated_at:'DETERMINISTIC_FROM_BASELINE_478fd10'
 });
 

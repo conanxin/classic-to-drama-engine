@@ -1,0 +1,41 @@
+{
+  "artifact_class": "ODYSSEY_P7A_ARTIFACT_MANIFEST",
+  "schema_version": "1.0.0",
+  "baseline_commit": "f5a430aec96a7cfa3bf79446b212bed4325058fb",
+  "status": "P7A_CANDIDATE_VERIFIED",
+  "counts": {
+    "graphic_prototypes": 3,
+    "graphic_scenes": 15,
+    "character_recognition_entries": 16,
+    "exact_source_dialogue_quotes": 35,
+    "web_routes": 4
+  },
+  "artifacts": [
+    { "path": "graphic-script/odyssey_m1_p7a/GRAPHIC_SCRIPT_SYSTEM.md", "bytes": 8195, "sha256": "322b696a6e43fea04535431a3c127d2f9c742498aaa417623930822d2a2c233a" },
+    { "path": "graphic-script/odyssey_m1_p7a/CHARACTER_RECOGNITION_BIBLE.md", "bytes": 7354, "sha256": "879706e95a7028e3599779bfed1adcc097c0cfea140093faf85fe65fbb472036" },
+    { "path": "graphic-script/odyssey_m1_p7a/CHARACTER_RECOGNITION_SYSTEM.json", "bytes": 7780, "sha256": "86a19aa2e51c90b777516e28f977bba21cfe62cefae656a260ffe696d4f2e398" },
+    { "path": "graphic-script/odyssey_m1_p7a/GRAPHIC_SCRIPT_IMAGE_COVERAGE_PLAN.md", "bytes": 4466, "sha256": "8a1e9522d63e3a36df731131284b2d06a7f059d65c10930b65f077c1bf1da5cf" },
+    { "path": "graphic-script/odyssey_m1_p7a/WEB_INTEGRATION_PLAN.md", "bytes": 4410, "sha256": "c83bed6a233be9d4c5c8af1316fb747a1bf9a7c94af7318379470b9b8fa149a0" },
+    { "path": "graphic-script/odyssey_m1_p7a/GRAPHIC_SCRIPT_PROTOTYPE_REVIEW.md", "bytes": 8154, "sha256": "04019e514ed982e2401044e1ea7a0dde0effe631bf777d9c34b95b9377afd1fe" },
+    { "path": "graphic-script/odyssey_m1_p7a/prototypes/EP01_GRAPHIC_SCRIPT_PROTOTYPE.json", "bytes": 8819, "sha256": "4952e9450f4d9eb8f3783dc4ac119d5773d9bfe3c74064c394718a458dec7834" },
+    { "path": "graphic-script/odyssey_m1_p7a/prototypes/EP19_GRAPHIC_SCRIPT_PROTOTYPE.json", "bytes": 9195, "sha256": "a088f9f0359489dceafd5a1ae4446700c81b9f97a5841fa004edef8d5fdf5b10" },
+    { "path": "graphic-script/odyssey_m1_p7a/prototypes/EP27_GRAPHIC_SCRIPT_PROTOTYPE.json", "bytes": 10078, "sha256": "03953a45d4a1a8a97e05b6782283ee4c8cb18e8ae5273b5cf7b8eaf5240763c4" },
+    { "path": "graphic-script/odyssey_m1_p7a/design/GRAPHIC_MODE_CONCEPT_DESKTOP.png", "bytes": 1821242, "sha256": "14e4f4653545648f544de16f64751a53c9f830f1cd6c3c1852ea4a9b7ba5063f" },
+    { "path": "graphic-script/odyssey_m1_p7a/design/GRAPHIC_MODE_CONCEPT_MOBILE.png", "bytes": 1662744, "sha256": "18eaac12371140fa1b1c80d64d3918bb68611df26de7a621cae0408f02dd10eb" },
+    { "path": "site/package.json", "bytes": 1120, "sha256": "2509f1343cbfc364a2c9aaedea4412bbe7a89602cc03024ccce3cf3133102e57" },
+    { "path": "site/scripts/build-content-data.mjs", "bytes": 19344, "sha256": "fb5d98cc2801e91da66a9224ef33114084691f642811f01bf800d12c34d62270" },
+    { "path": "site/scripts/verify-graphic-prototypes.mjs", "bytes": 7977, "sha256": "54e91565d0c0030e375bd9b84f47dc29d0151f4ce09e2f69e1c9ef0b45aa5083" },
+    { "path": "site/scripts/verify-publication.mjs", "bytes": 9209, "sha256": "6dadfa03547c8f59b91c70527cbd15ccb986e0a565fad71eafabef22a1105cd4" },
+    { "path": "site/src/components/GraphicIdentityStrip.astro", "bytes": 4069, "sha256": "662ad55b8ff4cfe561b0f8a29b6fe47e445cad4af35e9fba2bc328d537fd425b" },
+    { "path": "site/src/components/GraphicModeSwitch.astro", "bytes": 1483, "sha256": "c2c33ff2779bd6b02c750449b75c23d46f320af43162b3ee1f3d9f06f28d6d0d" },
+    { "path": "site/src/components/GraphicSceneBlock.astro", "bytes": 7853, "sha256": "bd582f90bdf37fc1bd1a0734d768af94f7754c80aeef9305ad6c70dbbdc077e8" },
+    { "path": "site/src/components/Header.astro", "bytes": 1213, "sha256": "921981478c6b24d982b4ea3551d1e8b785a2a221fcaf42ed1cf9d8fdbcd3e71b" },
+    { "path": "site/src/components/ResponsiveImage.astro", "bytes": 1039, "sha256": "569770b4bb0e94e52f0123b086617cf029ed8079fa291544e68e1f289b13a783" },
+    { "path": "site/src/lib/urls.ts", "bytes": 663, "sha256": "bed52a0edb8d05ec0497427b818247fa2a3a77db05f6e6133ccc6704763d4760" },
+    { "path": "site/src/pages/episodes/[number].astro", "bytes": 7691, "sha256": "bc3ba1a511edd9666dee2a08720fcda82a54f86d50f54abf3d23cc88b41b532b" },
+    { "path": "site/src/pages/episodes/index.astro", "bytes": 1589, "sha256": "8a46fb866006b597d35f5c5c2c026692ac1c9dbdb4fc906c3392d84701e07220" },
+    { "path": "site/src/pages/episodes/[number]/graphic.astro", "bytes": 11295, "sha256": "772d76650f04c6418688b5f0e51d6815098532d9f9af1f1d709b24e20ab7e1de" },
+    { "path": "site/src/pages/graphic/index.astro", "bytes": 7799, "sha256": "340ca3a71d79cc8182190fa6f6f9754473db6aee41fe065df54bd7e57a0e5e5f" },
+    { "path": "site/src/pages/index.astro", "bytes": 5227, "sha256": "df5da0bd74f5016021633e2527e841cffdeff6290a5eac47bf155dbed8eb5d0a" }
+  ]
+}

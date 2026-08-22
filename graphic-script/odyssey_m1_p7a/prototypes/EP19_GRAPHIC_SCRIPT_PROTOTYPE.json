@@ -1,0 +1,66 @@
+{
+  "artifact_class": "ODYSSEY_P7A_GRAPHIC_SCRIPT_PROTOTYPE",
+  "schema_version": "1.0.0",
+  "episode": "EP19",
+  "number": 19,
+  "title": "父亲显形",
+  "source_path": "scripts/odyssey_m1_v2/episodes/EP19.md",
+  "source_sha256": "749e48f7ded4eefb5157e5a5319ffc4ab0e09a139ed2c4fae3f58abebb75eb42",
+  "source_books": [16],
+  "runtime_seconds": 434,
+  "story_stage": "伪装中的返乡｜父子从验证走向共谋",
+  "previously_on": "奥德修斯已经回到伊萨卡，却以乞丐身份观察自己的家。忒勒马科斯带着外界证词归来，还不知道陌生老人就是父亲。",
+  "core_conflict": "奥德修斯必须让儿子相信一个会换脸的父亲；忒勒马科斯必须判断这不是神设下的陷阱。",
+  "cover_visual": { "path": "media/visual/hero/P4-HF-31.png", "responsive": "media/visual/hero/P4-HF-31-w720.webp", "authority": "P4-HF-31 APPROVED", "alt": "奥德修斯与忒勒马科斯在茅屋中以证物互相验证" },
+  "cast": ["odysseus", "telemachus", "athena", "eumaeus"],
+  "relationships": [
+    { "from": "odysseus", "to": "telemachus", "label": "读者已知：父子｜少年尚未验证", "spoiler": "reader" },
+    { "from": "athena", "to": "odysseus", "label": "改变外表，不替他取得相信", "spoiler": "public" },
+    { "from": "eumaeus", "to": "odysseus", "label": "忠仆↔未被认出的主人", "spoiler": "reader" }
+  ],
+  "scenes": [
+    {
+      "scene_id": "EP19-S01", "number": 1, "heading": "内景·欧迈俄斯茅屋·日", "location": "欧迈俄斯茅屋", "time": "日", "cast": ["odysseus", "telemachus", "athena"],
+      "conflict_goal": "乞丐要摸清少年是否能成为同盟；少年要保留让陌生人离开的距离。", "relation_tip": "奥德修斯知道对方是儿子；忒勒马科斯只把他当来路不明的老人。", "space_tip": "面包分给客人，破凳却放在门边——款待和驱逐同时成立。", "prop_tip": "破凳＝随时可以结束的关系。",
+      "visual": { "kind": "technical_storyboard", "path": "media/storyboards/boards/EP19-S01-P01.png", "responsive": "media/storyboards/boards/EP19-S01-P01-w720.webp", "authority": "P4 TECHNICAL_BOARD_PNG APPROVED", "alt": "技术分镜：茅屋内的乞丐奥德修斯与忒勒马科斯保持试探距离" },
+      "narrative": ["忒勒马科斯把面包掰半，却把客人的凳子放在门边。乞丐建议召朋友赶走占屋的人，少年用一百多个敌人回答。", "老人险些露出父亲的笑，又把它压成咳嗽。他注意到：这个年轻人已经把自己算进可用的人数。"],
+      "essential_dialogue": [{ "speaker": "奥德修斯／乞丐", "text": "笑你数人时，把自己算在里面了。" }, { "speaker": "忒勒马科斯", "text": "你笑什么？" }],
+      "identity_state": "ODY-E 乞丐状态｜TEL-F 秘密保管者前夜", "irreversible_change": "父亲确认儿子已经能承担风险，而不是只等待救援。"
+    },
+    {
+      "scene_id": "EP19-S02", "number": 2, "heading": "外景·猪场橄榄树后·日", "location": "猪场橄榄树后", "time": "日", "cast": ["odysseus", "athena"],
+      "conflict_goal": "雅典娜要他立刻显形；奥德修斯要保留儿子怀疑的权利。", "relation_tip": "神只能改变条件，不能替父亲说服儿子。", "space_tip": "一棵橄榄树把‘乞丐’与‘父亲’两个状态隔开。", "prop_tip": "破斗篷留在树根，成为可逆伪装的物证。",
+      "visual": { "kind": "technical_storyboard", "path": "media/storyboards/boards/EP19-S02-P01.png", "responsive": "media/storyboards/boards/EP19-S02-P01-w720.webp", "authority": "P4 TECHNICAL_BOARD_PNG APPROVED", "alt": "技术分镜：橄榄树后雅典娜改变奥德修斯的外表" },
+      "narrative": ["雅典娜泼下洗脸水、扯走破斗篷。老人斑退去，灰发恢复，肩背重新挺直。", "奥德修斯不愿把一张神换过的脸当成证明。雅典娜只给他一刻时间，然后把说服留给人。"],
+      "essential_dialogue": [{ "speaker": "雅典娜", "text": "让他怀疑。你需要的是能判断的儿子，不是会下跪的儿子。" }, { "speaker": "奥德修斯", "text": "凭一张神换过的脸？他应该怀疑。" }],
+      "identity_state": "ODY-E→本貌短暂显露｜ATH 条件改变者", "irreversible_change": "奥德修斯选择接受验证，而不是要求服从。"
+    },
+    {
+      "scene_id": "EP19-S03", "number": 3, "heading": "内景·欧迈俄斯茅屋·日", "location": "欧迈俄斯茅屋", "time": "日", "cast": ["odysseus", "telemachus"],
+      "conflict_goal": "父亲要让身份成立；儿子要找一个无法预先编好的答案。", "relation_tip": "脸是神能改变的；损失和路线才是可验证的人的证词。", "space_tip": "忒勒马科斯退到猪栏墙边，短刀把两人隔开。", "prop_tip": "焦黑船钉＝少年带回的证据；‘没有船钉’成为父亲的反证。",
+      "visual": { "kind": "approved_story_frame", "path": "media/visual/hero/P4-HF-31.png", "responsive": "media/visual/hero/P4-HF-31-w720.webp", "authority": "P4-HF-31 APPROVED", "alt": "父子在茅屋中以焦黑船钉与返乡路线互相验证" },
+      "narrative": ["本貌的男人走回茅屋，自称父亲。少年拔刀退墙，拒绝把变脸当成血缘。", "奥德修斯说出卡吕普索、木筏和菲埃克斯人的返航。少年用一枚船钉追问哪条船带他回家。答案是：没有。他自己的十二条船，一条也没回来。"],
+      "essential_dialogue": [{ "speaker": "奥德修斯", "text": "在这里。我是你父亲。" }, { "speaker": "忒勒马科斯", "text": "这枚是涅斯托耳给的。你若是他，告诉我哪一枚船钉把你带回家。" }, { "speaker": "奥德修斯", "text": "没有。别人的船送我。我自己的十二条，一条也没回来。" }],
+      "identity_state": "真实身份提出｜儿子尚未接受", "irreversible_change": "短刀放低；身份从不可能变成待验证。"
+    },
+    {
+      "scene_id": "EP19-S04", "number": 4, "heading": "内景·欧迈俄斯茅屋·暮", "location": "欧迈俄斯茅屋", "time": "暮", "cast": ["odysseus", "telemachus"],
+      "conflict_goal": "父亲要靠近；儿子要决定是否把身体交给这个答案。", "relation_tip": "证明不再增加，选择开始承担。", "space_tip": "一只停在两人之间的手，替代拥抱命令。", "prop_tip": "短刀先放上桌，关系才跨过距离。",
+      "visual": { "kind": "technical_storyboard", "path": "media/storyboards/boards/EP19-S04-P01.png", "responsive": "media/storyboards/boards/EP19-S04-P01-w720.webp", "authority": "P4 TECHNICAL_BOARD_PNG APPROVED", "alt": "技术分镜：忒勒马科斯放下短刀，以额头触碰父亲手掌" },
+      "narrative": ["奥德修斯只说，离家时孩子整个身体躺在这条手臂上。他没有再补一个更漂亮的答案。", "忒勒马科斯先放刀，再用额头碰他的手掌。两人抱紧、松开、看清彼此，然后同时哭起来。"],
+      "essential_dialogue": [{ "speaker": "奥德修斯", "text": "我走时，你整个身子躺在这一条手臂上。" }, { "speaker": "忒勒马科斯", "text": "母亲知道吗？" }, { "speaker": "奥德修斯", "text": "不知道。现在不能知道。" }],
+      "identity_state": "父子相认｜佩涅洛佩仍不知情", "irreversible_change": "十九年的缺席被共同承认，秘密也随即成立。"
+    },
+    {
+      "scene_id": "EP19-S05", "number": 5, "heading": "内景·欧迈俄斯茅屋·暮", "location": "欧迈俄斯茅屋", "time": "暮", "cast": ["odysseus", "telemachus", "athena", "eumaeus"],
+      "conflict_goal": "父子要把相认变成可执行计划，并在欧迈俄斯回来前恢复伪装。", "relation_tip": "父子第一次作为同一阵营工作；欧迈俄斯仍不知主人身份。", "space_tip": "桌面豆粒缩成门、柱、武器墙三处，情感转为地理。", "prop_tip": "豆粒与破斗篷共同记录‘真实联盟／外部伪装’。",
+      "visual": { "kind": "technical_storyboard", "path": "media/storyboards/boards/EP19-S05-P01.png", "responsive": "media/storyboards/boards/EP19-S05-P01-w720.webp", "authority": "P4 TECHNICAL_BOARD_PNG APPROVED", "alt": "技术分镜：父子用豆粒标记厅堂门、柱与武器墙" },
+      "narrative": ["忒勒马科斯摆出一百多个求婚者，豆粒都不够。奥德修斯扫掉人数，只留下门、柱和武器墙。", "雅典娜在窗外举起斗篷，父亲重新变回乞丐。门外脚步逼近，两人把豆粒扫进同一只袋。"],
+      "essential_dialogue": [{ "speaker": "奥德修斯", "text": "人数以后数。先让墙上没有他们能拿的矛。" }, { "speaker": "奥德修斯／乞丐", "text": "记住这种感觉。厅堂里每个人都要有。" }],
+      "identity_state": "读者/儿子知道真实身份｜对外恢复乞丐", "irreversible_change": "相认变成共同解除厅堂武装的计划。"
+    }
+  ],
+  "end_hook": "父子相认后的第一件共同之事不是拥抱母亲，而是让敌人身后的武器墙变空。",
+  "next_episode": 20,
+  "status": "COMPLETE_P7A_PROTOTYPE"
+}

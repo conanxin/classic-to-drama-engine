@@ -1,0 +1,72 @@
+{
+  "artifact_class": "ODYSSEY_P7A_GRAPHIC_SCRIPT_PROTOTYPE",
+  "schema_version": "1.0.0",
+  "episode": "EP27",
+  "number": 27,
+  "title": "厅堂审判·上",
+  "source_path": "scripts/odyssey_m1_v2/episodes/EP27.md",
+  "source_sha256": "5b220dace48e02503ff4668db9f64591a9376933053069e5488c3faf22e29593",
+  "source_books": [22],
+  "runtime_seconds": 429,
+  "story_stage": "身份公开后的清算｜有限武器与封闭空间",
+  "previously_on": "奥德修斯已经弯弓、穿过十二把斧并杀死安提诺俄斯。厅门封闭，求婚者失去墙上的武器，却仍占据人数。",
+  "core_conflict": "奥德修斯要用十一支箭控制三条狭道；求婚者必须夺门、拖近距离，或重新拿到武器。",
+  "cover_visual": { "path": "media/visual/hero/P4-HF-45.png", "responsive": "media/visual/hero/P4-HF-45-w720.webp", "authority": "P4-HF-45 APPROVED", "alt": "武器库门未锁，厅堂战斗的优势开始逆转" },
+  "cast": ["odysseus", "telemachus", "eurymachus", "amphinomus", "eumaeus", "philoetius", "melanthius", "suitors"],
+  "relationships": [
+    { "from": "odysseus", "to": "telemachus", "label": "父子｜中路与右翼的共同指挥", "spoiler": "public" },
+    { "from": "eumaeus", "to": "philoetius", "label": "守门同盟｜猪倌与牛倌", "spoiler": "public" },
+    { "from": "suitors", "to": "household", "label": "被封闭的人群↔控制出口的四人", "spoiler": "public" },
+    { "from": "melanthius", "to": "suitors", "label": "山羊倌→供武器者", "spoiler": "revealed" }
+  ],
+  "scenes": [
+    {
+      "scene_id": "EP27-S01", "number": 1, "heading": "内景·封闭厅堂·暮", "location": "封闭厅堂", "time": "暮", "cast": ["odysseus", "telemachus", "eurymachus", "suitors"],
+      "conflict_goal": "欧律马科斯要用赔偿换停战；奥德修斯要维持门、距离和道德判断。", "relation_tip": "欧律马科斯把集团责任推给死人；父子把沉默和资源也算入参与。", "space_tip": "北门闩死、东侧门有人守、西墙武器架空、南楼梯通内室；四柱分出三条狭道。", "prop_tip": "箭：11→10；长桌开始竖成移动盾。",
+      "visual": { "kind": "technical_storyboard", "path": "media/storyboards/boards/EP27-S01-P01.png", "responsive": "media/storyboards/boards/EP27-S01-P01-w720.webp", "authority": "P4 TECHNICAL_BOARD_PNG APPROVED", "alt": "技术分镜：封闭厅堂三条狭道与求婚者桌盾推进" },
+      "narrative": ["厅堂先被读成地图：门、柱、空武器墙和三条狭道。欧律马科斯隔着翻桌报价，把所有罪推给已死的安提诺俄斯。", "奥德修斯拒绝用自己的牛换自己的命。他射倒爬向侧门的人，求婚者立刻把长桌竖成盾，开始压缩射程。"],
+      "essential_dialogue": [{ "speaker": "欧律马科斯", "text": "接受赔偿，你还是王。拒绝，你只是在自己屋里杀客人的人。" }, { "speaker": "奥德修斯", "text": "客人不会封主人的航路。把手从桌后拿出来。" }],
+      "state_cues": { "arrows": "10", "doors": "北门闩死｜东侧门受控｜库门未知", "enemy_weapons": "桌盾／一把短剑" },
+      "irreversible_change": "谈判结束；求婚者改用家具逼近。"
+    },
+    {
+      "scene_id": "EP27-S02", "number": 2, "heading": "内景·封闭厅堂·暮", "location": "封闭厅堂", "time": "暮", "cast": ["odysseus", "telemachus", "eurymachus", "amphinomus", "suitors"],
+      "conflict_goal": "求婚者从两路迫近；父子必须第一次分配战线。", "relation_tip": "奥德修斯给边界，忒勒马科斯主动接管右翼。", "space_tip": "第二根柱是射击线，右道是少年独立承担的区域。", "prop_tip": "箭：10→9；安菲诺摩斯的矛转入少年手中。",
+      "visual": { "kind": "technical_storyboard", "path": "media/storyboards/boards/EP27-S02-P01.png", "responsive": "media/storyboards/boards/EP27-S02-P01-w720.webp", "authority": "P4 TECHNICAL_BOARD_PNG APPROVED", "alt": "技术分镜：欧律马科斯与安菲诺摩斯从两路冲向父子战线" },
+      "narrative": ["欧律马科斯拔出短剑，要求从两边同时冲弓手。奥德修斯等他越过柱线，用第三箭结束谈判者。", "安菲诺摩斯持矛冲来。忒勒马科斯从父亲右后方刺穿他，第一次亲手把一个人的重量留在矛上。"],
+      "essential_dialogue": [{ "speaker": "欧律马科斯", "text": "弓手只有一双眼！从两边上！" }, { "speaker": "忒勒马科斯", "text": "是我杀的。" }, { "speaker": "奥德修斯", "text": "记住。现在拔矛，别把自己钉在他身上。" }],
+      "state_cues": { "arrows": "9", "doors": "不变", "enemy_weapons": "短剑失去｜长矛倒地" },
+      "irreversible_change": "两名关键求婚者倒下；少年承担第一次杀人。"
+    },
+    {
+      "scene_id": "EP27-S03", "number": 3, "heading": "内景·封闭厅堂／武器库·暮", "location": "厅堂与武器库", "time": "暮", "cast": ["odysseus", "telemachus", "eumaeus", "philoetius", "suitors"],
+      "conflict_goal": "四人要在箭耗尽前换装；忒勒马科斯要保持侧门有人守。", "relation_tip": "少年做出正确的分工，却在执行中留下新漏洞。", "space_tip": "南楼梯下的小门进入暗廊；只有忒勒马科斯知道库锁。", "prop_tip": "箭：9→5；四盾、四盔、八矛进入己方；库门留下一指缝。",
+      "visual": { "kind": "approved_story_frame", "path": "media/visual/hero/P4-HF-45.png", "responsive": "media/visual/hero/P4-HF-45-w720.webp", "authority": "P4-HF-45 APPROVED", "alt": "忒勒马科斯抱回盾与矛，身后的武器库门没有完全关上" },
+      "narrative": ["四箭分别打断手腕、喉咙、膝盖与桌缝后的窥视。敌人学会藏头，改投酒壶。", "忒勒马科斯判断欧迈俄斯不能离开侧门，自己去武器库取四套甲矛。他双手抱盾，用脚顶开库门，却忘了回身落锁。"],
+      "essential_dialogue": [{ "speaker": "奥德修斯", "text": "五支。需要甲和矛。" }, { "speaker": "忒勒马科斯", "text": "你离开侧门，他们就能绕。只有我知道库锁。我去库房。" }, { "speaker": "奥德修斯", "text": "拿四套。门锁回去。" }],
+      "state_cues": { "arrows": "5", "doors": "武器库门未锁", "ally_weapons": "四盾／四盔／八矛" },
+      "irreversible_change": "己方获得近战装备，但武器库出现可被利用的入口。"
+    },
+    {
+      "scene_id": "EP27-S04", "number": 4, "heading": "内景·封闭厅堂·夜初", "location": "封闭厅堂", "time": "夜初", "cast": ["odysseus", "telemachus", "eumaeus", "philoetius", "melanthius", "suitors"],
+      "conflict_goal": "四人要稳住柱线；墨兰提俄斯要沿被忽略的路线寻找武器。", "relation_tip": "父子战术配合变好，反而让背叛者有时间观察脚印。", "space_tip": "第二、第三柱成防线；桌墙封中央道；西墙尸体旁少了一个人。", "prop_tip": "箭：5→3；油灯被藏进衣下；脚印指向暗廊。",
+      "visual": { "kind": "technical_storyboard", "path": "media/storyboards/boards/EP27-S04-P01.png", "responsive": "media/storyboards/boards/EP27-S04-P01-w720.webp", "authority": "P4 TECHNICAL_BOARD_PNG APPROVED", "alt": "技术分镜：四人守柱线，墨兰提俄斯沿西墙尸体爬向暗廊" },
+      "narrative": ["四人守住柱线，用矛、盾角和两支箭拆掉桌墙。箭只留给越线的人。", "墨兰提俄斯贴着西墙尸体爬行，从忒勒马科斯的靴印找到未锁库门。少年听见‘西边少了一个’，才想起那一脚。"],
+      "essential_dialogue": [{ "speaker": "奥德修斯", "text": "好。箭只留给越柱的人。" }, { "speaker": "欧迈俄斯", "text": "山羊倌。刚才还在尸体旁。" }],
+      "state_cues": { "arrows": "3", "doors": "库门被进入", "enemy_weapons": "即将补给" },
+      "irreversible_change": "背叛者找到武器路线，远程优势即将结束。"
+    },
+    {
+      "scene_id": "EP27-S05", "number": 5, "heading": "内景·封闭厅堂／武器库暗道·夜", "location": "厅堂与武器库暗道", "time": "夜", "cast": ["odysseus", "telemachus", "eumaeus", "philoetius", "melanthius", "suitors"],
+      "conflict_goal": "敌方重新武装；父子必须在不拆掉右翼的情况下封住供武路线。", "relation_tip": "忒勒马科斯公开承担错误，奥德修斯要求他先提供第二条路。", "space_tip": "粮梯通庭院棚顶；侧门只能缩到一人宽，右翼由一面盾封住。", "prop_tip": "箭保持3；十二支敌矛与盾开始传递；空箭囊落地。",
+      "visual": { "kind": "technical_storyboard", "path": "media/storyboards/boards/EP27-S05-P01.png", "responsive": "media/storyboards/boards/EP27-S05-P01-w720.webp", "authority": "P4 TECHNICAL_BOARD_PNG APPROVED", "alt": "技术分镜：敌方获得长矛，父子以盾和最后三箭重组防线" },
+      "narrative": ["墨兰提俄斯把十二支矛和一叠盾送到桌后。第一轮敌矛钉柱、擦耳，封闭厅堂从射击控制变成矛雨。", "少年承认库门是自己没锁。父亲不允许他离开右翼补错，而是追问第二条路线。两名牧人将走粮梯抓人，父子留下承受第一轮齐投。"],
+      "essential_dialogue": [{ "speaker": "忒勒马科斯", "text": "库门是我没锁。" }, { "speaker": "奥德修斯", "text": "现在不是认错的时候。告诉我第二条路。" }, { "speaker": "奥德修斯", "text": "对。矛雨来时别逞强看我，先看盾缘有没有露脚。" }],
+      "state_cues": { "arrows": "3｜一支对应一条狭道", "doors": "侧门缩窄｜粮梯成为反绕路线", "enemy_weapons": "十二矛／多面盾" },
+      "irreversible_change": "求婚者重新武装；父子失去单向优势。"
+    }
+  ],
+  "end_hook": "箭只剩三支，武器库被背叛者打开；父子必须在自己犯下的门锁错误中守住厅堂。",
+  "next_episode": 28,
+  "status": "COMPLETE_P7A_PROTOTYPE"
+}

@@ -8,6 +8,10 @@ export function episodePath(number: number): string {
   return withBase(`episodes/${String(number).padStart(2, '0')}/`);
 }
 
+export function graphicEpisodePath(number: number): string {
+  return withBase(`episodes/${String(number).padStart(2, '0')}/graphic/`);
+}
+
 export function formatRuntime(seconds: number): string {
   const minutes = Math.floor(seconds / 60);
   const rest = Math.round(seconds % 60);

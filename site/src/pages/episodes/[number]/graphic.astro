@@ -1,0 +1,97 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ResponsiveImage from '../../../components/ResponsiveImage.astro';
+import GraphicModeSwitch from '../../../components/GraphicModeSwitch.astro';
+import GraphicIdentityStrip from '../../../components/GraphicIdentityStrip.astro';
+import GraphicSceneBlock from '../../../components/GraphicSceneBlock.astro';
+import episodes from '../../../generated/episodes.json';
+import prototypes from '../../../generated/graphic-prototypes.json';
+import characterSystem from '../../../generated/graphic-characters.json';
+import { episodePath, formatRuntime, graphicEpisodePath, withBase } from '../../../lib/urls';
+
+export function getStaticPaths() {
+  return prototypes.map((prototype) => ({
+    params: { number: String(prototype.number).padStart(2, '0') },
+    props: { prototype, episode: episodes[prototype.number - 1] }
+  }));
+}
+const { prototype, episode } = Astro.props;
+const nextPrototype = prototypes.find((item) => item.number > prototype.number);
+const palettes: Record<number, { accent:string; accent2:string; label:string }> = {
+  1: { accent:'#a05f55', accent2:'#756344', label:'占领赭红 × 家庭土金' },
+  19: { accent:'#9b8050', accent2:'#6f7754', label:'返乡麦金 × 农舍橄榄' },
+  27: { accent:'#9a4f3f', accent2:'#62513f', label:'战斗血锈 × 烟黑青铜' }
+};
+const palette = palettes[prototype.number];
+const relationName = (id:string) => id === 'household' ? '伊萨卡家宅' : characterSystem.characters.find((item) => item.id === id)?.name || id;
+---
+<BaseLayout title={`EP${String(prototype.number).padStart(2,'0')}《${prototype.title}》｜图文剧本`} description={`${prototype.core_conflict}。《归途：奥德修斯》Graphic Mode 连续阅读原型。`} image={withBase(prototype.cover_visual.path)}>
+  <article class="graphic-reader" style={`--graphic-accent:${palette.accent};--graphic-accent-2:${palette.accent2}`} data-graphic-episode={prototype.episode} data-pagefind-meta={`type:图文剧本, episode:${prototype.episode}`}>
+    <header class="episode-cover">
+      <div class="cover-copy">
+        <p class="eyebrow">GRAPHIC SCRIPT · {prototype.episode}</p>
+        <p class="story-stage">{prototype.story_stage}</p>
+        <h1>{prototype.title}</h1>
+        <p class="core-conflict">{prototype.core_conflict}</p>
+        <GraphicModeSwitch number={prototype.number} active="graphic" />
+        <dl><div><dt>时长</dt><dd>{formatRuntime(prototype.runtime_seconds)}</dd></div><div><dt>场次</dt><dd>{prototype.scenes.length}</dd></div><div><dt>来源</dt><dd>Books {prototype.source_books.join(' / ')}</dd></div><div><dt>本集色调</dt><dd>{palette.label}</dd></div></dl>
+      </div>
+      <figure class="cover-image"><ResponsiveImage src={prototype.cover_visual.path} responsive={prototype.cover_visual.responsive} alt={prototype.cover_visual.alt} loading="eager" fetchpriority="high" sizes="(max-width: 850px) 100vw, 60vw" /><figcaption>{prototype.cover_visual.authority}</figcaption></figure>
+    </header>
+
+    <section class="reader-orientation">
+      <div><p class="eyebrow">PREVIOUSLY ON</p><p>{prototype.previously_on}</p></div>
+      <div><p class="eyebrow">CORE CONFLICT</p><p>{prototype.core_conflict}</p></div>
+    </section>
+
+    <GraphicIdentityStrip cast={prototype.cast} characters={characterSystem.characters} />
+
+    <section class="relation-map" aria-labelledby="relation-title">
+      <header><p class="eyebrow">RELATIONSHIP NOW</p><h2 id="relation-title">这一集，谁在影响谁</h2></header>
+      <div>{prototype.relationships.map((relation) => <p><span>{relationName(relation.from)}</span><strong>{relation.label}</strong><span>{relationName(relation.to)}</span></p>)}</div>
+    </section>
+
+    <div class="graphic-body">
+      <nav class="scene-progress" aria-label="本集场次进度" data-pagefind-ignore>
+        <a class="back" href={withBase('graphic/')}>图文目录</a>
+        <ol>{prototype.scenes.map((scene) => <li><a href={`#scene-${scene.number}`} data-scene-link={scene.number}><span>{String(scene.number).padStart(2,'0')}</span><small>{scene.location}</small></a></li>)}</ol>
+        <p><span data-progress-current>01</span> / {String(prototype.scenes.length).padStart(2,'0')}</p>
+      </nav>
+      <div class="scene-stream">
+        {prototype.scenes.map((scene) => <GraphicSceneBlock scene={scene} sourceScene={episode.scenes[scene.number - 1]} characters={characterSystem.characters} />)}
+      </div>
+    </div>
+
+    <footer class="graphic-hook">
+      <p class="eyebrow">END HOOK · {prototype.episode}</p><h2>{prototype.end_hook}</h2>
+      <nav data-pagefind-ignore><a href={episodePath(prototype.next_episode)}>继续读 EP{String(prototype.next_episode).padStart(2,'0')} 剧本</a>{nextPrototype && <a href={graphicEpisodePath(nextPrototype.number)}>下一个图文原型 EP{String(nextPrototype.number).padStart(2,'0')}</a>}<a href={episodePath(prototype.number)}>回到本集完整剧本</a></nav>
+    </footer>
+  </article>
+</BaseLayout>
+<script>
+  const links = [...document.querySelectorAll<HTMLElement>('[data-scene-link]')];
+  const current = document.querySelector<HTMLElement>('[data-progress-current]');
+  const scenes = [...document.querySelectorAll<HTMLElement>('.graphic-scene')];
+  const setActive = (scene:number) => {
+    links.forEach((link) => link.toggleAttribute('aria-current', Number(link.dataset.sceneLink) === scene));
+    if (current) current.textContent = String(scene).padStart(2, '0');
+  };
+  const observer = new IntersectionObserver((entries) => {
+    const visible = entries.filter((entry) => entry.isIntersecting).sort((a,b) => b.intersectionRatio - a.intersectionRatio)[0];
+    if (visible) setActive(Number((visible.target as HTMLElement).id.replace('scene-', '')));
+  }, { rootMargin:'-20% 0px -55% 0px', threshold:[0,.2,.6] });
+  scenes.forEach((scene) => observer.observe(scene));
+  setActive(1);
+  localStorage.setItem('ctde-last-reading-mode', 'graphic');
+</script>
+<style>
+  .graphic-reader{--graphic-ink:#151513;--graphic-ink-2:#1c1b18;--graphic-black:#0c0c0b;--graphic-paper:#d8cfbb;--graphic-paper-2:#c6bda9;--graphic-muted:#9e9687;--graphic-rule:rgba(216,207,187,.24);--graphic-pad:clamp(1rem,4vw,4.5rem);background:var(--graphic-ink);color:var(--graphic-paper);overflow:clip}
+  .episode-cover{min-height:calc(100vh - var(--header));display:grid;grid-template-columns:minmax(24rem,.85fr) minmax(0,1.15fr);border-bottom:1px solid var(--graphic-rule)}.cover-copy{padding:clamp(3rem,7vw,7rem) var(--graphic-pad);display:flex;flex-direction:column;justify-content:center}.story-stage{color:var(--graphic-accent);font-size:.66rem;letter-spacing:.1em;margin:.7rem 0 0}.cover-copy h1{font-size:clamp(4rem,8vw,7.5rem);margin:.4rem 0 1.3rem}.core-conflict{max-width:35rem;font-family:var(--serif);font-size:clamp(1.08rem,1.8vw,1.4rem);color:var(--graphic-paper-2);margin-bottom:2rem}.cover-copy dl{display:grid;grid-template-columns:repeat(2,1fr);gap:.7rem 1.5rem;margin:2rem 0 0;max-width:32rem}.cover-copy dl div{border-top:1px solid var(--graphic-rule);padding-top:.5rem}.cover-copy dt{font-size:.55rem;color:var(--graphic-muted);letter-spacing:.1em}.cover-copy dd{margin:.15rem 0 0;font-size:.7rem}.cover-image{position:relative;margin:0;min-height:40rem;background:#0c0c0b}.cover-image figcaption{position:absolute;bottom:1rem;right:1rem;background:rgba(12,12,11,.78);padding:.35rem .55rem;font-size:.55rem;color:var(--graphic-muted)}
+  .reader-orientation{display:grid;grid-template-columns:1fr 1fr;max-width:90rem;margin:auto;padding:clamp(3rem,6vw,5rem) var(--graphic-pad);gap:1px;background:var(--graphic-rule)}.reader-orientation>div{background:var(--graphic-ink);padding:clamp(1.2rem,3vw,2.5rem)}.reader-orientation>div>p:last-child{font-family:var(--serif);font-size:clamp(1rem,1.7vw,1.25rem);margin:1rem 0 0;color:var(--graphic-paper-2)}
+  .relation-map{max-width:90rem;margin:auto;padding:clamp(4rem,8vw,7rem) var(--graphic-pad);display:grid;grid-template-columns:minmax(14rem,.7fr) minmax(0,1.3fr);gap:clamp(2rem,5vw,6rem);border-bottom:1px solid var(--graphic-rule)}.relation-map h2{margin:.5rem 0 0}.relation-map>div{border-top:2px solid var(--graphic-accent)}.relation-map>div p{display:grid;grid-template-columns:6rem 1fr 6rem;gap:1rem;align-items:center;margin:0;padding:1rem 0;border-bottom:1px solid var(--graphic-rule)}.relation-map>div span{font-size:.6rem;color:var(--graphic-accent);text-transform:uppercase}.relation-map>div span:last-child{text-align:right}.relation-map strong{font-family:var(--serif);font-weight:400;text-align:center}
+  .graphic-body{display:grid;grid-template-columns:10rem minmax(0,1fr);max-width:105rem;margin:auto}.scene-progress{position:sticky;top:0;height:100vh;border-right:1px solid var(--graphic-rule);padding:2rem 1.2rem;align-self:start;display:flex;flex-direction:column;background:var(--graphic-ink);z-index:3}.scene-progress .back{font-size:.62rem;color:var(--graphic-muted)}.scene-progress ol{list-style:none;margin:auto 0;padding:0}.scene-progress li a{display:grid;grid-template-columns:1.5rem 1fr;gap:.5rem;align-items:center;text-decoration:none;padding:.65rem 0;color:var(--graphic-muted)}.scene-progress li a span{font-family:var(--serif);font-size:1rem}.scene-progress li a small{font-size:.57rem}.scene-progress li a[aria-current]{color:var(--graphic-paper)}.scene-progress li a[aria-current] span{color:var(--graphic-accent)}.scene-progress>p{font-size:.58rem;color:var(--graphic-muted);margin:0}.scene-progress>p span{color:var(--graphic-accent)}.scene-stream{min-width:0}
+  .graphic-hook{padding:clamp(5rem,10vw,10rem) var(--graphic-pad);max-width:90rem;margin:auto}.graphic-hook h2{max-width:23ch;font-size:clamp(2.5rem,5vw,5rem);margin:1rem 0 3rem}.graphic-hook nav{display:flex;gap:1rem;flex-wrap:wrap}.graphic-hook nav a{padding:.8rem 1rem;border:1px solid var(--graphic-rule);text-decoration:none;font-size:.72rem}.graphic-hook nav a:first-child{background:var(--graphic-paper);color:var(--graphic-ink)}
+  @media(max-width:850px){.episode-cover{grid-template-columns:1fr;min-height:0}.cover-copy{min-height:36rem}.cover-image{min-height:0;aspect-ratio:16/10}.relation-map{grid-template-columns:1fr}.graphic-body{display:block}.scene-progress{height:auto;top:0;border-right:0;border-bottom:1px solid var(--graphic-rule);padding:.65rem var(--graphic-pad);display:grid;grid-template-columns:auto 1fr auto;align-items:center}.scene-progress .back,.scene-progress small{display:none}.scene-progress ol{display:flex;justify-content:center;gap:.3rem;margin:0}.scene-progress li a{display:block;padding:.4rem .55rem}.scene-progress>p{text-align:right}}
+  @media(max-width:560px){.cover-copy{min-height:34rem}.cover-copy h1{font-size:4rem}.cover-copy dl{grid-template-columns:1fr 1fr}.reader-orientation{grid-template-columns:1fr;padding-inline:1rem}.relation-map>div p{grid-template-columns:4rem 1fr 4rem;gap:.5rem}.relation-map strong{font-size:.82rem}.scene-progress{grid-template-columns:1fr auto}.scene-progress .back{display:none}.scene-progress ol{justify-content:flex-start}.scene-progress li a{padding:.35rem .48rem}.graphic-hook nav{flex-direction:column}.graphic-hook nav a{text-align:center}}
+</style>
+<style is:global>.cover-image img{display:block;width:100%;height:100%;object-fit:cover}</style>

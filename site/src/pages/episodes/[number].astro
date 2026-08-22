@@ -2,11 +2,12 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ReaderSettings from '../../components/ReaderSettings.astro';
 import episodes from '../../generated/episodes.json';
-import { episodePath, formatRuntime, withBase } from '../../lib/urls';
+import { episodePath, formatRuntime, graphicEpisodePath, withBase } from '../../lib/urls';
 export function getStaticPaths() { return episodes.map((episode) => ({ params:{number:String(episode.number).padStart(2,'0')}, props:{episode} })); }
 const { episode } = Astro.props;
 const prev = episodes[episode.number - 2];
 const next = episodes[episode.number];
+const graphicAvailable = [1,19,27].includes(episode.number);
 ---
 <BaseLayout title={`EP${String(episode.number).padStart(2,'0')}《${episode.title}》｜完整剧本`} description={`${episode.want}。阅读《归途：奥德修斯》EP${String(episode.number).padStart(2,'0')}完整 V2 剧本。`} theme="paper">
   <div class="reader-shell">
@@ -19,6 +20,10 @@ const next = episodes[episode.number];
         <p class="eyebrow">SCREENPLAY V2 · EP{String(episode.number).padStart(2,'0')}</p>
         <h1>{episode.title}</h1>
         <p class="episode-want">{episode.want}</p>
+        {graphicAvailable && <nav class="reading-mode" aria-label="阅读模式" data-pagefind-ignore>
+          <a href={graphicEpisodePath(episode.number)}>图文模式</a>
+          <a class="active" href={episodePath(episode.number)} aria-current="page">剧本模式</a>
+        </nav>}
         <dl>
           <div><dt>时长</dt><dd>{formatRuntime(episode.animatic_runtime_seconds)}</dd></div>
           <div><dt>场次</dt><dd>{episode.scene_count}</dd></div>
@@ -60,6 +65,7 @@ const next = episodes[episode.number];
 </BaseLayout>
 <style>
   .reader-shell{display:grid;grid-template-columns:12.5rem minmax(0,1fr) 16rem;align-items:start;max-width:100rem;margin:auto}.episode-rail,.episode-context{position:sticky;top:0;max-height:100vh;overflow:auto;padding:2rem 1.4rem;font-size:.72rem}.episode-rail{border-right:1px solid var(--rule)}.rail-title{display:block;margin-bottom:1rem}.episode-rail ol{list-style:none;padding:0;margin:0}.episode-rail a{text-decoration:none}.episode-rail li a{display:grid;grid-template-columns:1.6rem 1fr;gap:.5rem;padding:.32rem 0;color:var(--muted)}.episode-rail li.active a{color:var(--paper)}.episode-rail li.active span{color:var(--rust)}.screenplay{width:100%;max-width:var(--reading);margin:auto;padding:clamp(3rem,7vw,7rem) clamp(1.25rem,5vw,5rem);font-size:1rem}.screenplay[data-size="small"]{font-size:.9rem}.screenplay[data-size="large"]{font-size:1.12rem}.screenplay[data-width="wide"]{max-width:56rem}.screenplay-header{padding-bottom:3rem;border-bottom:1px solid var(--rule)}.screenplay-header h1{font-size:clamp(2.8rem,7vw,5.5rem);margin:.5rem 0 1rem}.episode-want{font-family:var(--serif);font-size:1.15em;color:var(--paper-2)}.screenplay-header dl{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:2rem}.screenplay-header dl div{border-top:1px solid var(--rule);padding-top:.6rem}.screenplay-header dt,.episode-context dt{font-size:.65rem;color:var(--muted);letter-spacing:.1em}.screenplay-header dd{margin:0;font-size:.75rem}.scene-jumps{display:flex;gap:.5rem;padding:1.3rem 0 0}.scene-jumps a{width:2rem;height:2rem;border:1px solid var(--rule);display:grid;place-items:center;text-decoration:none;font-size:.65rem}.script-scene{padding:4rem 0 2.5rem;border-bottom:1px solid var(--rule);scroll-margin-top:2rem}.script-scene>header{display:grid;grid-template-columns:3.5rem 1fr;gap:1rem;margin-bottom:2.4rem}.script-scene>header span{font-size:.65rem;color:var(--rust);letter-spacing:.1em}.script-scene h2{font-family:var(--sans);font-size:.9em;letter-spacing:.08em;text-transform:uppercase}.scene-blocks p{white-space:pre-wrap}.action{font-family:var(--serif);margin:0 0 1.3em;line-height:1.9}.character{font-weight:600;letter-spacing:.12em;margin:1.9em auto .25em;width:min(72%,28rem)}.dialogue{margin:0 auto 1em;width:min(72%,28rem);line-height:1.8}.transition{text-align:right;font-size:.75em;letter-spacing:.14em;margin:2rem 0}.episode-context{border-left:1px solid var(--rule);color:var(--muted)}.episode-context dl{margin:2rem 0}.episode-context dd{margin:.3rem 0 1.4rem;line-height:1.6}.episode-context a{color:var(--paper)}.episode-pagination{display:grid;grid-template-columns:1fr 1fr;gap:1rem;padding-top:5rem}.episode-pagination a{text-decoration:none;border-top:1px solid var(--rule);padding-top:1rem;display:flex;flex-direction:column}.episode-pagination .next{text-align:right}.episode-pagination small{color:var(--muted)}
+  .reading-mode{display:grid;grid-template-columns:1fr 1fr;max-width:25rem;margin:2rem 0 0;border:1px solid var(--rule)}.reading-mode a{padding:.7rem 1rem;text-align:center;text-decoration:none;font-size:.75rem}.reading-mode .active{background:var(--paper);color:var(--ink)}
   @media(max-width:1100px){.reader-shell{grid-template-columns:10rem minmax(0,1fr)}.episode-context{display:none}}
   @media(max-width:760px){.reader-shell{display:block}.episode-rail{display:none}.screenplay{padding-top:3.5rem}.screenplay-header dl{grid-template-columns:repeat(2,1fr)}.character,.dialogue{width:86%}.episode-pagination strong{font-size:.8rem}}
 </style>

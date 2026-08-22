@@ -1,0 +1,43 @@
+{
+  "artifact_class": "ODYSSEY_P7A_CHARACTER_RECOGNITION_SYSTEM",
+  "schema_version": "1.0.0",
+  "status": "FROZEN_P7A_PROTOTYPE_SYSTEM",
+  "source_authorities": [
+    "design/odyssey_m1_p4/CHARACTER_DESIGN_BIBLE.md",
+    "editorial/odyssey_m1_v2/CHARACTER_VOICE_BIBLE.md",
+    "editorial/odyssey_m1_v2/CHARACTER_ARC_AUDIT.md",
+    "visual-development/odyssey_m1_p4/LOOK_BIBLE.md"
+  ],
+  "spoiler_levels": {
+    "public": "本集开始前普通读者可知",
+    "reader": "观众已经知道、场内人物可能不知道",
+    "revealed": "仅在对应场次变化后显示"
+  },
+  "factions": [
+    { "id": "household", "label": "伊萨卡家族", "color": "#756344", "mark": "门槛" },
+    { "id": "loyal-household", "label": "忠诚家人／仆从", "color": "#6f7754", "mark": "钥匙" },
+    { "id": "suitors", "label": "求婚者集团", "color": "#9a4f3f", "mark": "裂杯" },
+    { "id": "gods", "label": "神明／条件改变者", "color": "#b7aa83", "mark": "错位影子" },
+    { "id": "phaeacia", "label": "菲埃克斯人", "color": "#789aa0", "mark": "海玻璃" },
+    { "id": "sea-pressure", "label": "海神压力", "color": "#426a75", "mark": "失衡地平线" },
+    { "id": "otherworld", "label": "怪物／异境", "color": "#554c43", "mark": "断裂边界" }
+  ],
+  "characters": [
+    { "id": "odysseus", "name": "奥德修斯", "aliases": ["乞丐", "无人", "返乡者"], "faction": "household", "color": "#9b8050", "anchor": "左鬓盐灰、右肩下沉、握工具先找平衡点", "prop": "弓／伤疤", "shape": "宽背折线", "first_appearance": "先给当前身份，再给读者已知层；场内人物的未知不被抹掉", "image": "media/visual/characters/P4-CHAR-ODY-IDENTITY-V02.png", "image_responsive": "media/visual/characters/P4-CHAR-ODY-IDENTITY-V02-w720.webp" },
+    { "id": "penelope", "name": "佩涅洛佩", "aliases": ["王后", "家主", "最终验证者"], "faction": "household", "color": "#756075", "anchor": "左侧钥匙与布料、判断时方正静止", "prop": "钥匙／织梭", "shape": "垂直方形", "first_appearance": "用正在执行的家庭工作说明权力，不用等待标签", "image": "media/visual/characters/P4-CHAR-PEN-IDENTITY-V01.png", "image_responsive": "media/visual/characters/P4-CHAR-PEN-IDENTITY-V01-w720.webp" },
+    { "id": "telemachus", "name": "忒勒马科斯", "aliases": ["儿子", "继承人", "战斗右翼"], "faction": "household", "color": "#6d8e92", "anchor": "长颈、左脚先行、从不合身剑带到稳定盾位", "prop": "账板／短剑", "shape": "上升斜线", "first_appearance": "说明当前能力阶段，不提前写成成熟英雄", "image": "media/visual/characters/P4-CHAR-TEL-IDENTITY-V01.png", "image_responsive": "media/visual/characters/P4-CHAR-TEL-IDENTITY-V01-w720.webp" },
+    { "id": "athena", "name": "雅典娜", "aliases": ["门忒斯", "门托尔", "牧人", "引路者"], "faction": "gods", "color": "#b7aa83", "anchor": "猫头鹰针、半转停顿、先于身体到达的眼光", "prop": "长矛／斗篷", "shape": "错位影线", "first_appearance": "同时显示人类身份与读者层，绝不替人物完成选择", "image": "media/visual/characters/P4-CHAR-ATH-IDENTITY-V01.png", "image_responsive": "media/visual/characters/P4-CHAR-ATH-IDENTITY-V01-w720.webp" },
+    { "id": "eumaeus", "name": "欧迈俄斯", "aliases": ["猪倌", "忠仆"], "faction": "loyal-household", "color": "#6f7754", "anchor": "修补纤维、低工具带、用身体守门", "prop": "牧杖／门闩", "shape": "低重心方块", "first_appearance": "先写劳动职责，再写忠诚判断", "image": null, "image_responsive": null },
+    { "id": "eurycleia", "name": "欧律克勒娅", "aliases": ["乳母", "管家"], "faction": "loyal-household", "color": "#aa9c82", "anchor": "卷起袖口、钥匙与水盆、以触觉读身体历史", "prop": "钥匙／水盆", "shape": "紧凑圆角", "first_appearance": "以照料和保管职责建立位置", "image": null, "image_responsive": null },
+    { "id": "antinous", "name": "安提诺俄斯", "aliases": ["首领型求婚者"], "faction": "suitors", "color": "#8e3f34", "anchor": "柔软富贵体量、重戒指手、占据主位", "prop": "奥德修斯酒杯", "shape": "宽倒三角", "first_appearance": "姓名始终与‘占位者’动作并列", "image": null, "image_responsive": null },
+    { "id": "eurymachus", "name": "欧律马科斯", "aliases": ["谈判者", "求婚者"], "faction": "suitors", "color": "#824d51", "anchor": "窄裁衣层、抛光扣、靠近时保留出口", "prop": "短剑／赔偿条件", "shape": "窄箭头", "first_appearance": "与安提诺俄斯区分：他用话语和退路，不用体量", "image": null, "image_responsive": null },
+    { "id": "amphinomus", "name": "安菲诺摩斯", "aliases": ["犹豫的求婚者"], "faction": "suitors", "color": "#8f6c57", "anchor": "劳作肩线、触及共同劳动对象时停顿", "prop": "长矛", "shape": "断开的箭头", "first_appearance": "显示曾被警告，但不把犹豫写成免罪", "image": null, "image_responsive": null },
+    { "id": "suitors", "name": "众求婚者", "aliases": ["占领集团", "敌方人群"], "faction": "suitors", "color": "#9a4f3f", "anchor": "酒锈色群体、共同占桌、武装状态随场次变化", "prop": "桌盾／矛", "shape": "重复竖线", "first_appearance": "先作为集团显示；只有行动改变责任时拆出个人", "image": null, "image_responsive": null },
+    { "id": "philoetius", "name": "菲洛提俄斯", "aliases": ["牛倌", "忠诚右翼"], "faction": "loyal-household", "color": "#7f865f", "anchor": "受力肩、矛与盾的实用握法", "prop": "长矛／盾", "shape": "支撑斜线", "first_appearance": "用‘牛倌／是否可信’帮助读者复位", "image": null, "image_responsive": null },
+    { "id": "melanthius", "name": "墨兰提俄斯", "aliases": ["山羊倌"], "revealed_alias": "背叛者", "revealed_at": "EP27-S04", "faction": "suitors", "color": "#6f4b3d", "anchor": "贴墙低爬、油灯藏衣、总沿别人留下的路线移动", "prop": "油灯／武器库", "shape": "下行折线", "first_appearance": "公开身份为山羊倌；背叛标签只在行动发生后显示", "image": null, "image_responsive": null },
+    { "id": "phemius", "name": "斐弥俄斯", "aliases": ["琴师"], "faction": "loyal-household", "color": "#96845f", "anchor": "竖琴与被迫表演的位置", "prop": "竖琴", "shape": "弦线", "first_appearance": "说明他在被占领厅堂中受命演唱", "image": null, "image_responsive": null },
+    { "id": "poseidon", "name": "波塞冬", "aliases": ["海神", "压力层"], "faction": "sea-pressure", "color": "#426a75", "anchor": "先让地平线、绳索与人的平衡变形", "prop": "海／失衡", "shape": "不稳定水平线", "first_appearance": "不要求固定人形，先标条件变化", "image": null, "image_responsive": null },
+    { "id": "phaeacians", "name": "菲埃克斯人", "aliases": ["法埃西亚人", "送归者"], "faction": "phaeacia", "color": "#789aa0", "anchor": "海玻璃修补色、公开款待程序", "prop": "船／礼物清单", "shape": "横向开放线", "first_appearance": "群体先标‘监督下的款待’，再拆国王与公主", "image": null, "image_responsive": null },
+    { "id": "otherworld", "name": "怪物／异境对象", "aliases": ["独眼巨人", "海妖", "斯库拉", "卡律布狄斯", "冥界"], "faction": "otherworld", "color": "#554c43", "anchor": "按叙事功能显示：封路、诱惑、夺取、吞没、作证", "prop": "环境状态", "shape": "断裂边界", "first_appearance": "先说明它改变了什么选择，不先堆神话名词", "image": null, "image_responsive": null }
+  ]
+}

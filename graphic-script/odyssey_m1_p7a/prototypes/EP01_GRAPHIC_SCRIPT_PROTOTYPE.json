@@ -1,0 +1,66 @@
+{
+  "artifact_class": "ODYSSEY_P7A_GRAPHIC_SCRIPT_PROTOTYPE",
+  "schema_version": "1.0.0",
+  "episode": "EP01",
+  "number": 1,
+  "title": "没有父亲的家",
+  "source_path": "scripts/odyssey_m1_v2/episodes/EP01.md",
+  "source_sha256": "95b6d76f860a55bd3487a0f296a1ef7396b9d7c815c0d548ed20ac50ff8c15bf",
+  "source_books": [1],
+  "runtime_seconds": 418,
+  "story_stage": "家被占领｜继承人第一次公开发声",
+  "previously_on": "特洛伊战争结束多年，伊萨卡的王仍未归来。他的家正被一群以求婚为名的客人吃空。",
+  "core_conflict": "忒勒马科斯要在父亲缺席的屋里，第一次把‘这是我家’变成可见行动。",
+  "cover_visual": { "path": "media/visual/hero/P4-HF-01.png", "responsive": "media/visual/hero/P4-HF-01-w720.webp", "authority": "P4-HF-01 APPROVED", "alt": "被求婚者占据的伊萨卡厅堂，忒勒马科斯在画面边缘，佩涅洛佩穿过工作路线" },
+  "cast": ["telemachus", "penelope", "athena", "antinous", "eurymachus", "eurycleia", "phemius", "suitors"],
+  "relationships": [
+    { "from": "telemachus", "to": "penelope", "label": "母子｜同守一屋，行动方法不同", "spoiler": "public" },
+    { "from": "telemachus", "to": "athena", "label": "少年←陌生来客的推动", "spoiler": "reader" },
+    { "from": "household", "to": "suitors", "label": "主人↔以客人名义占领的人", "spoiler": "public" }
+  ],
+  "scenes": [
+    {
+      "scene_id": "EP01-S01", "number": 1, "heading": "内景·伊萨卡厅堂·日", "location": "伊萨卡厅堂", "time": "日", "cast": ["telemachus", "penelope", "antinous", "eurymachus", "eurycleia", "suitors"],
+      "conflict_goal": "少年要拿回父亲的酒杯；母亲要先保住剩余家产。", "relation_tip": "母子没有并肩站，但分别从杯与酒库切断占领。", "space_tip": "主位和长桌被求婚者控制；佩涅洛佩停在楼梯半腰。", "prop_tip": "旧海豚双耳杯＝父亲留下的主权物证。",
+      "visual": { "kind": "approved_story_frame", "path": "media/visual/hero/P4-HF-01.png", "responsive": "media/visual/hero/P4-HF-01-w720.webp", "authority": "P4-HF-01 APPROVED", "alt": "求婚者占据厅堂主位，忒勒马科斯在边缘争回杯子" },
+      "narrative": ["安提诺俄斯劈开酒坛封泥，用奥德修斯的杯子分酒。忒勒马科斯伸手，杯子却沿长桌传得更远。", "佩涅洛佩没有替儿子争吵。她命人把余酒搬进织房，让每一次开坛都重新回到她的手里。杯底多了一道白痕，忒勒马科斯终于把它夺回。"],
+      "essential_dialogue": [{ "speaker": "忒勒马科斯", "text": "那只杯子不出这张桌。" }, { "speaker": "佩涅洛佩", "text": "这是我给亡灵留的。谁先喝，谁先替他躺进土里。" }],
+      "irreversible_change": "母子第一次各自收回一部分家庭控制权。"
+    },
+    {
+      "scene_id": "EP01-S02", "number": 2, "heading": "内景·伊萨卡厅堂门廊·日", "location": "厅堂门廊", "time": "日", "cast": ["telemachus", "athena", "antinous"],
+      "conflict_goal": "忒勒马科斯要恢复待客规则；陌生来客要看他是否敢坐下。", "relation_tip": "读者知道来客是雅典娜；忒勒马科斯只知道她叫门忒斯。", "space_tip": "门闩、长矛与一张空椅组成小型权力测试。", "prop_tip": "第二支长矛放到父亲旧矛旁，暗示缺席者仍在量空间。",
+      "visual": { "kind": "identity_anchor", "path": "media/visual/characters/P4-CHAR-ATH-IDENTITY-V01.png", "responsive": "media/visual/characters/P4-CHAR-ATH-IDENTITY-V01-w720.webp", "authority": "P4 principal identity APPROVED", "alt": "雅典娜不同人类伪装与猫头鹰针的身份设计图" },
+      "narrative": ["门外的长矛敲石三次，厅里无人回应。忒勒马科斯亲自开门、收矛、找座位，像在一件件捡回被遗忘的规矩。", "安提诺俄斯占着空椅不让。少年把粮斗搬成脚凳，仍然坐了下去。"],
+      "essential_dialogue": [{ "speaker": "雅典娜／门忒斯", "text": "奥德修斯的儿子坐粮斗？" }, { "speaker": "忒勒马科斯", "text": "家里老师多。" }],
+      "irreversible_change": "他第一次在求婚者面前选择位置，而不是接受边缘。"
+    },
+    {
+      "scene_id": "EP01-S03", "number": 3, "heading": "内景·伊萨卡厅堂侧廊·暮", "location": "厅堂侧廊", "time": "暮", "cast": ["telemachus", "athena"],
+      "conflict_goal": "门忒斯要迫使少年把损耗从抱怨变成期限。", "relation_tip": "神提供判断条件，不替少年出海或夺回家。", "space_tip": "空酒架把占领从抽象羞辱变成四十天后的饥饿。", "prop_tip": "账板和羊骨把时间变成可数的威胁。",
+      "visual": { "kind": "approved_set_anchor", "path": "media/visual/sets/P4-SET-S1-ANCHOR-V01.png", "responsive": "media/visual/sets/P4-SET-S1-ANCHOR-V01-w720.webp", "authority": "P4-SET-S1-ANCHOR-V01 APPROVED", "alt": "伊萨卡厅堂的门、长桌、柱与工作路线空间锚点" },
+      "narrative": ["账板上每天都少掉羊、酒和麦粉。门忒斯把一根羊骨压在第四十一天的位置。", "少年终于把现在的‘客人’叫成强盗。随后，他得到一条必须由自己走完的路线：皮洛斯、斯巴达，再回伊萨卡。"],
+      "essential_dialogue": [{ "speaker": "雅典娜／门忒斯", "text": "四十天后，你管他们叫什么？" }, { "speaker": "忒勒马科斯", "text": "也是强盗。" }],
+      "irreversible_change": "损耗有了期限，离家求证变成实际方案。"
+    },
+    {
+      "scene_id": "EP01-S04", "number": 4, "heading": "内景·伊萨卡厅堂·夜", "location": "伊萨卡厅堂", "time": "夜", "cast": ["telemachus", "penelope", "antinous", "eurymachus", "eurycleia", "phemius", "suitors"],
+      "conflict_goal": "佩涅洛佩要停止伤人的歌；儿子要让所有人听见明日集会。", "relation_tip": "母亲不替儿子背书，却把他的命令变成三份可公开的账。", "space_tip": "佩涅洛佩从楼梯进入席间；忒勒马科斯第一次横在她与求婚者之间。", "prop_tip": "账板从私人证据变成公共告示。",
+      "visual": { "kind": "identity_anchor", "path": "media/visual/characters/P4-CHAR-PEN-IDENTITY-V01.png", "responsive": "media/visual/characters/P4-CHAR-PEN-IDENTITY-V01-w720.webp", "authority": "P4 principal identity APPROVED", "alt": "佩涅洛佩携钥匙、织物与账板工作的稳定身份设计" },
+      "narrative": ["琴师唱起阿开亚人的漂散。佩涅洛佩要求换歌，忒勒马科斯却让歌继续，因为他必须正面听见父亲可能不归的世界。", "他命令求婚者次日带账到集会。佩涅洛佩接过账板，不是撤回儿子的命令，而是安排三处张贴，让全岛看见这座家正在被吃掉。"],
+      "essential_dialogue": [{ "speaker": "忒勒马科斯", "text": "明天到集会场来。把你们吃掉的羊、酒、麦子带上账。然后离开我家。" }, { "speaker": "佩涅洛佩", "text": "他没有替我说话。他在试着替自己说。" }],
+      "irreversible_change": "私人冲突成为公开政治行动。"
+    },
+    {
+      "scene_id": "EP01-S05", "number": 5, "heading": "内景·忒勒马科斯寝室·深夜", "location": "忒勒马科斯寝室", "time": "深夜", "cast": ["telemachus", "eurycleia"],
+      "conflict_goal": "少年要秘密出发；乳母要让他带着合身的东西回来负责。", "relation_tip": "欧律克勒娅既是照料者，也是第一个被托付秘密的人。", "space_tip": "寝室从孩子的房间变成出发准备间。", "prop_tip": "父亲长剑不合身；他换回自己的短刀。",
+      "visual": { "kind": "identity_anchor", "path": "media/visual/characters/P4-CHAR-TEL-IDENTITY-V01.png", "responsive": "media/visual/characters/P4-CHAR-TEL-IDENTITY-V01-w720.webp", "authority": "P4 principal identity APPROVED", "alt": "忒勒马科斯从少年、旅行者到继承人的服装与身体状态" },
+      "narrative": ["父亲的剑鞘拖地，少年走两步就撞翻水盆。欧律克勒娅替旧皮带剪短两个孔。", "他不再假装已经合身：解下长剑，换上自己的短刀，把蜡板上的‘皮洛斯’转到最上面。"],
+      "essential_dialogue": [{ "speaker": "欧律克勒娅", "text": "剑不会因为是他的，就合你的身。" }, { "speaker": "忒勒马科斯", "text": "我要知道该等一个活人，还是埋一个死人。" }],
+      "irreversible_change": "忒勒马科斯决定秘密出海，并选择以自己的尺寸开始。"
+    }
+  ],
+  "end_hook": "天亮，他将召集二十年来第一次公民大会；入夜，他要瞒着母亲出海。",
+  "next_episode": 2,
+  "status": "COMPLETE_P7A_PROTOTYPE"
+}

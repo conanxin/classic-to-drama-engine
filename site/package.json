@@ -6,10 +6,10 @@
   "scripts": {
     "content": "node scripts/build-content-data.mjs",
     "dev": "npm run content && astro dev",
-    "check": "npm run content && astro check",
-    "verify": "npm run content && node scripts/verify-publication.mjs",
+    "check": "npm run content && node scripts/verify-graphic-prototypes.mjs && astro check",
+    "verify": "npm run content && node scripts/verify-graphic-prototypes.mjs && node scripts/verify-publication.mjs",
     "audit:live": "node scripts/audit-live-site.mjs",
-    "build": "npm run content && node scripts/verify-publication.mjs && astro build && pagefind --site dist --output-subdir _pagefind && node scripts/verify-publication.mjs --dist && node scripts/build-artifact-manifest.mjs",
+    "build": "npm run content && node scripts/verify-graphic-prototypes.mjs && node scripts/verify-publication.mjs && astro build && pagefind --site dist --output-subdir _pagefind && node scripts/verify-graphic-prototypes.mjs --dist && node scripts/verify-publication.mjs --dist && node scripts/build-artifact-manifest.mjs",
     "preview": "astro preview"
   },
   "dependencies": {

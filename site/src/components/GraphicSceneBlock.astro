@@ -1,0 +1,72 @@
+---
+import ResponsiveImage from './ResponsiveImage.astro';
+
+interface Character { id:string; name:string; color:string; }
+interface DialogueBeat { speaker:string; text:string; }
+interface SourceBlock { type:string; text:string; }
+interface Props { scene: any; sourceScene:{ blocks:SourceBlock[] }; characters:Character[]; }
+const { scene, sourceScene, characters } = Astro.props;
+const cast = (scene.cast as string[]).map((id:string) => characters.find((item) => item.id === id)).filter((item): item is Character => Boolean(item));
+const colorForSpeaker = (speaker: string) => characters.find((item) => speaker.includes(item.name))?.color || 'var(--graphic-accent)';
+const labelForVisual = scene.visual.kind === 'technical_storyboard' ? 'TECHNICAL STORYBOARD · P4' : scene.visual.kind === 'approved_story_frame' ? 'APPROVED STORY FRAME · P4' : scene.visual.kind === 'approved_set_anchor' ? 'APPROVED SET ANCHOR · P4' : 'IDENTITY ANCHOR · P4';
+---
+<section class="graphic-scene" id={`scene-${scene.number}`} data-scene-id={scene.scene_id}>
+  <header class="scene-heading">
+    <div><span>{scene.scene_id}</span><h2>{scene.heading}</h2></div>
+    <p class="scene-goal">{scene.conflict_goal}</p>
+  </header>
+  <div class="scene-layout">
+    <div class="scene-visual">
+      <figure>
+        <ResponsiveImage src={scene.visual.path} responsive={scene.visual.responsive} alt={scene.visual.alt} loading={scene.number === 1 ? 'eager' : 'lazy'} sizes="(max-width: 850px) calc(100vw - 2rem), 70vw" />
+        <figcaption><span>{labelForVisual}</span><span>{scene.visual.authority}</span></figcaption>
+      </figure>
+      <div class="cast-chips" aria-label="本场人物">
+        {cast.map((character:Character) => <a href={`#character-${character.id}`} style={`--chip:${character.color}`}><span aria-hidden="true"></span>{character.name}</a>)}
+      </div>
+    </div>
+    <aside class="scene-aids" aria-label={`${scene.scene_id} 阅读辅助`}>
+      <dl>
+        <div><dt>关系</dt><dd>{scene.relation_tip}</dd></div>
+        <div><dt>空间</dt><dd>{scene.space_tip}</dd></div>
+        <div><dt>关键物</dt><dd>{scene.prop_tip}</dd></div>
+      </dl>
+    </aside>
+    <div class="scene-story">
+      <div class="reduced-narrative">
+        {(scene.narrative as string[]).map((paragraph:string) => <p>{paragraph}</p>)}
+      </div>
+      <div class="dialogue-beats" aria-label="关键对白">
+        {(scene.essential_dialogue as DialogueBeat[]).map((quote:DialogueBeat) => (
+          <blockquote style={`--speaker:${colorForSpeaker(quote.speaker)}`}>
+            <p>“{quote.text}”</p><cite>{quote.speaker}</cite>
+          </blockquote>
+        ))}
+      </div>
+      <p class="change"><span>不可逆变化</span>{scene.irreversible_change}</p>
+      <details class="source-layer" data-pagefind-ignore>
+        <summary>展开原剧本 <small>Script Mode 原文 · 本场完整</small></summary>
+        <div class="source-blocks">
+          {sourceScene.blocks.map((block:SourceBlock) => block.type === 'character'
+            ? <p class="source-character">{block.text}</p>
+            : block.type === 'dialogue'
+              ? <p class="source-dialogue">{block.text}</p>
+              : block.type === 'transition'
+                ? <p class="source-transition">{block.text}</p>
+                : <p class="source-action">{block.text}</p>)}
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+<style>
+  .graphic-scene{scroll-margin-top:1rem;border-bottom:1px solid var(--graphic-rule);padding:clamp(4rem,8vw,8rem) var(--graphic-pad)}
+  .scene-heading,.scene-layout{max-width:90rem;margin:auto}.scene-heading{display:grid;grid-template-columns:minmax(13rem,1fr) minmax(18rem,1fr);gap:2rem;align-items:end;margin-bottom:2rem}.scene-heading p,.scene-heading h2{margin:0}.scene-heading>div{display:flex;flex-direction:column}.scene-heading span{font-size:.62rem;letter-spacing:.16em;color:var(--graphic-accent)}.scene-heading h2{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.8rem);font-weight:500}.scene-goal{font-family:var(--serif);font-size:1.08rem;color:var(--graphic-paper-2)}
+  .scene-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(15rem,.58fr);gap:0 2rem;align-items:start}.scene-visual{min-width:0}.scene-visual figure{margin:0;background:#ece7dc}.scene-visual figcaption{display:flex;justify-content:space-between;gap:1rem;padding:.55rem .75rem;background:var(--graphic-black);color:var(--graphic-muted);font-size:.58rem;letter-spacing:.08em}.scene-visual figcaption span:last-child{text-align:right}.cast-chips{display:flex;gap:.45rem;flex-wrap:wrap;margin-top:.8rem}.cast-chips a{display:flex;align-items:center;gap:.4rem;text-decoration:none;border:1px solid var(--graphic-rule);padding:.32rem .52rem;font-size:.63rem;background:var(--graphic-ink-2)}.cast-chips a span{width:.45rem;height:.45rem;background:var(--chip)}
+  .scene-aids{grid-column:2;grid-row:1 / span 2;position:sticky;top:1rem;border-top:2px solid var(--graphic-accent)}.scene-aids dl{margin:0}.scene-aids div{padding:1.1rem 0;border-bottom:1px solid var(--graphic-rule)}.scene-aids dt{font-size:.56rem;letter-spacing:.15em;color:var(--graphic-muted);text-transform:uppercase}.scene-aids dd{margin:.35rem 0 0;font-family:var(--serif);font-size:.88rem;line-height:1.65}
+  .scene-story{grid-column:1;max-width:55rem;padding:clamp(2.2rem,5vw,4.5rem) clamp(0rem,3vw,3rem) 0}.reduced-narrative{font-family:var(--serif);font-size:clamp(1.02rem,1.7vw,1.25rem);line-height:2}.reduced-narrative p{margin-bottom:1.3em}.dialogue-beats{margin:2.5rem 0}.dialogue-beats blockquote{margin:0;padding:1.1rem 0 1.1rem clamp(1rem,3vw,2rem);border-left:3px solid var(--speaker);border-bottom:1px solid var(--graphic-rule)}.dialogue-beats blockquote p{font-family:var(--serif);font-size:clamp(1.2rem,2vw,1.65rem);line-height:1.55;margin:0 0 .5rem}.dialogue-beats cite{font-style:normal;font-size:.65rem;color:var(--speaker);letter-spacing:.1em}.change{display:grid;grid-template-columns:7rem 1fr;gap:1rem;margin:2rem 0;padding:1rem 0;border-block:1px solid var(--graphic-rule);font-family:var(--serif)}.change span{font-family:var(--sans);font-size:.56rem;letter-spacing:.12em;color:var(--graphic-accent)}
+  .source-layer{margin-top:2rem;border:1px solid var(--graphic-rule);background:rgba(0,0,0,.15)}.source-layer summary{cursor:pointer;padding:.9rem 1rem;font-size:.72rem;letter-spacing:.08em}.source-layer summary small{display:block;margin-top:.15rem;color:var(--graphic-muted);font-size:.58rem}.source-blocks{padding:clamp(1.1rem,4vw,2.5rem);border-top:1px solid var(--graphic-rule);font-size:.88rem}.source-action{font-family:var(--serif);line-height:1.9}.source-character{width:75%;margin:1.7rem auto .2rem;font-weight:600;letter-spacing:.1em}.source-dialogue{width:75%;margin:.2rem auto 1rem;line-height:1.8}.source-transition{text-align:right;font-size:.7rem;letter-spacing:.12em}
+  @media(max-width:850px){.graphic-scene{padding-inline:var(--graphic-pad)}.scene-heading{grid-template-columns:1fr}.scene-layout{display:block}.scene-aids{position:static;margin-top:1.2rem}.scene-aids dl{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--graphic-rule)}.scene-aids div{background:var(--graphic-ink);padding:.8rem}.scene-story{padding-inline:0}.source-character,.source-dialogue{width:88%}}
+  @media(max-width:560px){.graphic-scene{padding-top:3.5rem}.scene-heading{gap:.8rem}.scene-goal{font-size:.9rem}.scene-visual figcaption{display:block}.scene-visual figcaption span{display:block}.scene-aids dl{grid-template-columns:1fr}.scene-aids dd{font-size:.8rem}.dialogue-beats blockquote p{font-size:1.15rem}.change{grid-template-columns:1fr;gap:.25rem}.source-blocks{font-size:.82rem}}
+</style>
+<style is:global>.scene-visual figure img{display:block;width:100%;height:auto;max-height:52rem;object-fit:contain}</style>
