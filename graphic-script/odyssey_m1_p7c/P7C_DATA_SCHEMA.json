@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://conanxin.github.io/classic-to-drama-engine/schemas/p7c-reader-test-result-1.0.0.json",
+  "title": "ODYSSEY P7C Reader Test Result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "prototype_version",
+    "study_id",
+    "participant_anonymous_code",
+    "participant_consent",
+    "synthetic_fixture",
+    "device_class",
+    "condition",
+    "started_at",
+    "completed_at",
+    "tasks",
+    "events",
+    "answers"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "prototype_version": { "type": "string", "minLength": 1 },
+    "study_id": { "const": "ODYSSEY-P7C-READER-STUDY" },
+    "participant_anonymous_code": { "type": "string", "pattern": "^[A-Z0-9-]{4,32}$" },
+    "participant_consent": { "const": true },
+    "synthetic_fixture": { "type": "boolean" },
+    "odyssey_familiarity": { "enum": ["unfamiliar", "familiar_not_project", "project_team"] },
+    "device_class": { "enum": ["mobile", "tablet", "desktop", "unknown"] },
+    "condition": { "enum": ["A", "B"] },
+    "started_at": { "type": "string", "format": "date-time" },
+    "completed_at": { "type": ["string", "null"], "format": "date-time" },
+    "tasks": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["episode", "mode", "task", "status"],
+        "properties": {
+          "episode": { "enum": ["EP01", "EP19", "EP27"] },
+          "mode": { "enum": ["script", "graphic"] },
+          "task": { "enum": ["onboarding", "identity_relationship", "high_load_action"] },
+          "status": { "enum": ["not_started", "reading", "answered", "completed"] },
+          "started_offset_ms": { "type": ["integer", "null"], "minimum": 0 },
+          "completed_offset_ms": { "type": ["integer", "null"], "minimum": 0 }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["offset_ms", "type"],
+        "properties": {
+          "offset_ms": { "type": "integer", "minimum": 0 },
+          "type": { "enum": ["session_start", "route_open", "scene_entered", "character_assist_opened", "relationship_assist_opened", "source_layer_opened", "mode_switched", "next_episode_clicked", "task_answered", "completion", "session_stop"] },
+          "episode": { "type": "string" },
+          "mode": { "enum": ["script", "graphic", "test"] },
+          "scene_id": { "type": "string" },
+          "target": { "type": "string" }
+        }
+      }
+    },
+    "answers": { "type": "object", "additionalProperties": true },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "objective_correct": { "type": "integer", "minimum": 0 },
+        "objective_total": { "type": "integer", "minimum": 0 },
+        "completion_rate": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    }
+  }
+}

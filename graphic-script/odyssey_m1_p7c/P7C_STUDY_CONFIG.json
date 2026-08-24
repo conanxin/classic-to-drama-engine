@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "prototype_version": "P7C-20260824",
+  "study_id": "ODYSSEY-P7C-READER-STUDY",
+  "estimated_minutes": "20-30",
+  "conditions": {
+    "A": [
+      { "episode": "EP01", "mode": "script", "task": "onboarding" },
+      { "episode": "EP19", "mode": "graphic", "task": "identity_relationship" },
+      { "episode": "EP27", "mode": "graphic", "task": "high_load_action" }
+    ],
+    "B": [
+      { "episode": "EP01", "mode": "graphic", "task": "onboarding" },
+      { "episode": "EP19", "mode": "script", "task": "identity_relationship" },
+      { "episode": "EP27", "mode": "graphic", "task": "high_load_action" }
+    ]
+  },
+  "questions": {
+    "EP01": [
+      {
+        "id": "ep01_athena_identity",
+        "type": "single_choice",
+        "prompt": "忒勒马科斯第一次见到雅典娜时，以为她是谁？",
+        "options": ["门忒斯", "欧迈俄斯", "斐弥俄斯", "波塞冬"],
+        "correct": ["门忒斯"],
+        "metric": "character_recognition"
+      },
+      {
+        "id": "ep01_sword_choice",
+        "type": "single_choice",
+        "prompt": "忒勒马科斯为什么把父亲的长剑放回去？",
+        "options": ["长剑不合身，他改用自己的短刀", "长剑已经生锈", "欧律克勒娅禁止他带走", "求婚者已经拿走剑鞘"],
+        "correct": ["长剑不合身，他改用自己的短刀"],
+        "metric": "action_comprehension"
+      },
+      {
+        "id": "ep01_household_roles",
+        "type": "single_choice",
+        "prompt": "本集中谁通过钥匙、酒库和账目继续管理家宅？",
+        "options": ["佩涅洛佩", "雅典娜", "安提诺俄斯", "斐弥俄斯"],
+        "correct": ["佩涅洛佩"],
+        "metric": "relationship_comprehension"
+      }
+    ],
+    "EP19": [
+      {
+        "id": "ep19_knowledge_start",
+        "type": "multiple_choice",
+        "prompt": "第一场开始时，谁知道乞丐的真实身份是奥德修斯？",
+        "options": ["奥德修斯", "雅典娜", "忒勒马科斯", "欧迈俄斯"],
+        "correct": ["奥德修斯", "雅典娜"],
+        "metric": "relationship_comprehension"
+      },
+      {
+        "id": "ep19_human_evidence",
+        "type": "single_choice",
+        "prompt": "忒勒马科斯用什么把神能改变的外表，变成人可以验证的证词？",
+        "options": ["焦黑船钉与航路细节", "王冠与印章", "弓与十二把斧", "婚床与橄榄树"],
+        "correct": ["焦黑船钉与航路细节"],
+        "metric": "identity_comprehension"
+      },
+      {
+        "id": "ep19_eumaeus_knowledge",
+        "type": "single_choice",
+        "prompt": "父子开始共同计划时，欧迈俄斯是否已经知道主人的身份？",
+        "options": ["还不知道", "已经知道", "只有雅典娜不知道", "剧中没有说明"],
+        "correct": ["还不知道"],
+        "metric": "scene_knowledge"
+      }
+    ],
+    "EP27": [
+      {
+        "id": "ep27_right_flank",
+        "type": "single_choice",
+        "prompt": "谁主动接管了厅堂右翼？",
+        "options": ["忒勒马科斯", "奥德修斯", "欧律马科斯", "墨兰提俄斯"],
+        "correct": ["忒勒马科斯"],
+        "metric": "action_comprehension"
+      },
+      {
+        "id": "ep27_arrow_count",
+        "type": "single_choice",
+        "prompt": "本集结尾时，箭还剩多少？",
+        "options": ["3", "5", "9", "11"],
+        "correct": ["3"],
+        "metric": "prop_tracking"
+      },
+      {
+        "id": "ep27_armory_change",
+        "type": "single_choice",
+        "prompt": "武器库控制为什么从优势变成危险？",
+        "options": ["忒勒马科斯搬出己方武器后留下一指门缝，墨兰提俄斯沿路线取武器", "奥德修斯把钥匙交给欧律马科斯", "北门被求婚者撞开", "欧迈俄斯主动放下长矛"],
+        "correct": ["忒勒马科斯搬出己方武器后留下一指门缝，墨兰提俄斯沿路线取武器"],
+        "metric": "action_comprehension"
+      }
+    ]
+  },
+  "subjective_questions": [
+    { "id": "ease_of_reading", "prompt": "这一轮阅读容易跟上。", "scale": 5 },
+    { "id": "visual_overload", "prompt": "页面上的视觉与提示让我感到信息过载。", "scale": 5 },
+    { "id": "text_overload", "prompt": "页面文字密度让我难以继续。", "scale": 5 },
+    { "id": "orientation_confidence", "prompt": "我知道这一场谁在做什么、为什么。", "scale": 5 },
+    { "id": "desire_to_continue", "prompt": "我愿意继续阅读下一集。", "scale": 5 }
+  ],
+  "open_questions": [
+    { "id": "most_confusing", "prompt": "哪里最让你困惑？" },
+    { "id": "most_helpful", "prompt": "哪个辅助最有用？" },
+    { "id": "most_disruptive", "prompt": "哪个东西最碍事？" },
+    { "id": "forgotten_character", "prompt": "有没有始终记不住的人？" },
+    { "id": "continue_why", "prompt": "你会继续看下一集吗？为什么？" }
+  ]
+}

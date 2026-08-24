@@ -6,20 +6,21 @@ const { cast, characters } = Astro.props;
 const castEntries = cast.map((id) => characters.find((item) => item.id === id)).filter(Boolean);
 ---
 <section class="identity-section" aria-labelledby="identity-title">
-  <header><p class="eyebrow">CAST IN THIS EPISODE</p><h2 id="identity-title">先认人，再进场</h2><p>点开人物卡可复位身份。颜色与形状在本集保持不变，不提前泄露场内人物尚不知道的真相。</p></header>
+  <header><p class="eyebrow">LEVEL 3 · DETAIL</p><h2 id="identity-title">本集人物，按需展开</h2><p>先看姓名与短身份；需要时再展开识别锚点。前四位是本集最先要认的人，其余人物会在进入相关场次时补充。</p></header>
   <div class="identity-rail">
-    {castEntries.map((character) => (
-      <details class="identity-card" id={`character-${character.id}`} style={`--identity:${character.color}`}>
+    {castEntries.map((character, index) => (
+      <details class="identity-card" id={`character-${character.id}`} style={`--identity:${character.color}`} data-study-event="character_detail_open" data-character-id={character.id} data-introduction-tier={index < 4 ? 'priority' : 'on-demand'}>
         <summary>
           <span class="portrait">
             {character.image
               ? <ResponsiveImage src={character.image} responsive={character.image_responsive} alt={`${character.name}角色识别图`} sizes="80px" />
               : <b aria-hidden="true">{character.name.slice(0, 1)}</b>}
           </span>
-          <span class="identity-name"><strong>{character.name}</strong><small>{character.aliases.slice(0, 2).join(' · ')}</small></span>
+          <span class="identity-name"><strong>{character.name}</strong><small>{character.aliases[0]}</small></span>
           <span class="identity-mark" aria-hidden="true">＋</span>
         </summary>
         <div class="identity-detail">
+          <p class="tier-label">{index < 4 ? '本集先认' : '按场补充'} · DETAIL</p>
           <dl><div><dt>识别锚点</dt><dd>{character.anchor}</dd></div><div><dt>关键物</dt><dd>{character.prop}</dd></div><div><dt>轮廓</dt><dd>{character.shape}</dd></div></dl>
           <p>{character.first_appearance}</p>
         </div>
@@ -32,11 +33,11 @@ const castEntries = cast.map((id) => characters.find((item) => item.id === id)).
   .identity-section>header{display:grid;grid-template-columns:12rem minmax(0,1fr) minmax(16rem,1fr);gap:2rem;align-items:end;max-width:90rem;margin:0 auto 2rem}
   .identity-section h2{font-size:clamp(1.7rem,3vw,2.8rem);margin:0}.identity-section>header>p:last-child{margin:0;color:var(--graphic-muted);font-family:var(--serif)}
   .identity-rail{max-width:90rem;margin:auto;display:flex;overflow-x:auto;scrollbar-color:var(--graphic-accent) transparent;scroll-snap-type:x proximity;border-top:1px solid var(--graphic-rule)}
-  .identity-card{flex:0 0 15rem;border-right:1px solid var(--graphic-rule);scroll-snap-align:start;position:relative}.identity-card::before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:var(--identity)}
+  .identity-card{flex:0 0 17.25rem;border-right:1px solid var(--graphic-rule);scroll-snap-align:start;position:relative}.identity-card::before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:var(--identity)}.identity-card[data-introduction-tier="on-demand"]{background:rgba(255,255,255,.018)}
   summary{list-style:none;cursor:pointer;padding:1rem;min-height:6.5rem;display:grid;grid-template-columns:3.6rem 1fr auto;gap:.8rem;align-items:center}summary::-webkit-details-marker{display:none}
   .portrait{width:3.6rem;aspect-ratio:3/4;background:color-mix(in srgb,var(--identity) 38%,#151513);display:grid;place-items:center;overflow:hidden}.portrait b{font-family:var(--serif);font-size:1.45rem}.identity-name{min-width:0}.identity-name strong{display:block;font-family:var(--serif);font-weight:500}.identity-name small{display:block;color:var(--graphic-muted);font-size:.61rem;margin-top:.3rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.identity-mark{color:var(--identity)}
-  .identity-detail{padding:0 1rem 1rem;font-size:.72rem}.identity-detail dl{margin:0}.identity-detail div{border-top:1px solid var(--graphic-rule);padding:.55rem 0}.identity-detail dt{color:var(--graphic-muted);font-size:.58rem;letter-spacing:.1em}.identity-detail dd{margin:.15rem 0 0}.identity-detail p{color:var(--graphic-muted);margin:1rem 0 0}
+  .identity-detail{padding:0 1rem 1rem;font-size:.72rem}.identity-detail dl{margin:0}.identity-detail div{border-top:1px solid var(--graphic-rule);padding:.55rem 0}.identity-detail dt{color:var(--graphic-muted);font-size:.58rem;letter-spacing:.1em}.identity-detail dd{margin:.15rem 0 0}.identity-detail p{color:var(--graphic-muted);margin:1rem 0 0}.identity-detail .tier-label{margin:0 0 .7rem;color:var(--identity);font-family:var(--sans);font-size:.54rem;letter-spacing:.12em}
   details[open] .identity-mark{transform:rotate(45deg)}
-  @media(max-width:800px){.identity-section{padding-inline:0}.identity-section>header{display:block;padding-inline:var(--graphic-pad)}.identity-section h2{margin:.5rem 0 1rem}.identity-section>header>p:last-child{font-size:.85rem}.identity-rail{padding-left:var(--graphic-pad)}.identity-card{flex-basis:13.5rem}}
+  @media(max-width:800px){.identity-section{padding-block:3rem;padding-inline:0}.identity-section>header{display:block;padding-inline:var(--graphic-pad)}.identity-section h2{margin:.5rem 0 1rem}.identity-section>header>p:last-child{font-size:.85rem}.identity-rail{padding-left:var(--graphic-pad)}.identity-card{flex-basis:13.5rem}}
 </style>
 <style is:global>.identity-card .portrait img{width:100%;height:100%;object-fit:cover;object-position:center}</style>

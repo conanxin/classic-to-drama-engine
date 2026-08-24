@@ -1,0 +1,91 @@
+---
+import { withBase } from '../lib/urls';
+interface Props { mode:'script'|'graphic'; episode:string; }
+const { mode, episode } = Astro.props;
+---
+<aside class="study-bridge" data-study-bridge data-study-mode={mode} data-study-episode={episode} hidden data-pagefind-ignore aria-live="polite">
+  <span><strong>阅读测试进行中</strong><small>交互只记录在本机</small></span>
+  <a href={withBase('graphic/test/')}>返回测试任务</a>
+</aside>
+<script>
+  const STORAGE_KEY = 'ctde-p7c-study-v1';
+  const params = new URLSearchParams(location.search);
+  const bridge = document.querySelector<HTMLElement>('[data-study-bridge]');
+
+  const loadSession = () => {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null'); } catch { return null; }
+  };
+  const saveSession = (session:any) => localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
+  const record = (type:string, detail:Record<string,string> = {}) => {
+    const session = loadSession();
+    if (!session?.participant_consent || !session.started_at) return;
+    const event = { offset_ms: Math.max(0, Date.now() - Date.parse(session.started_at)), type, ...detail };
+    session.events = [...(session.events || []), event];
+    saveSession(session);
+  };
+
+  if (params.get('study') === 'p7c' && bridge) {
+    const session = loadSession();
+    if (session?.participant_consent) {
+      bridge.hidden = false;
+      document.documentElement.dataset.studyMode = 'p7c';
+      const episode = bridge.dataset.studyEpisode || '';
+      const mode = bridge.dataset.studyMode || '';
+      const taskId = params.get('task') || `${episode}-${mode}`;
+      const task = session.tasks?.find((item:any) => item.episode === episode && item.mode === mode);
+      if (task && task.status === 'not_started') {
+        task.status = 'reading';
+        task.started_offset_ms = Math.max(0, Date.now() - Date.parse(session.started_at));
+        saveSession(session);
+      }
+      record('route_open', { episode, mode, target:taskId });
+
+      document.querySelectorAll<HTMLDetailsElement>('[data-study-event]').forEach((details) => {
+        details.addEventListener('toggle', () => {
+          if (!details.open) return;
+          const mapping:Record<string,string> = {
+            character_assist_open:'character_assist_opened',
+            character_detail_open:'character_assist_opened',
+            relationship_assist_open:'relationship_assist_opened',
+            source_layer_open:'source_layer_opened'
+          };
+          const type = mapping[details.dataset.studyEvent || ''];
+          if (!type) return;
+          const scene = details.closest<HTMLElement>('[data-scene-id]')?.dataset.sceneId || '';
+          const target = details.dataset.characterId || '';
+          record(type, { episode, mode, scene_id:scene, target });
+        });
+      });
+
+      document.querySelectorAll<HTMLAnchorElement>('[data-study-mode-switch]').forEach((link) => {
+        const destination = new URL(link.href);
+        destination.searchParams.set('study', 'p7c');
+        destination.searchParams.set('task', taskId);
+        link.href = destination.toString();
+        link.addEventListener('click', () => {
+          record('mode_switched', { episode, mode, target:link.dataset.studyModeSwitch || '' });
+        });
+      });
+      document.querySelectorAll<HTMLAnchorElement>('[data-study-next]').forEach((link) => link.addEventListener('click', () => {
+        record('next_episode_clicked', { episode, mode, target:link.getAttribute('href') || '' });
+      }));
+
+      const seen = new Set<string>();
+      const observer = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          const sceneId = (entry.target as HTMLElement).dataset.sceneId || '';
+          if (!sceneId || seen.has(sceneId)) continue;
+          seen.add(sceneId);
+          record('scene_entered', { episode, mode, scene_id:sceneId });
+        }
+      }, { rootMargin:'-20% 0px -55% 0px', threshold:.05 });
+      document.querySelectorAll<HTMLElement>('[data-study-scene],[data-scene-id]').forEach((scene) => observer.observe(scene));
+    }
+  }
+</script>
+<style>
+  .study-bridge{position:fixed;z-index:30;left:50%;bottom:.75rem;transform:translateX(-50%);width:min(calc(100% - 1.5rem),34rem);display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.65rem .75rem;background:#f0e8d8;color:#171613;border:1px solid #7e6b51;box-shadow:0 .75rem 2.5rem rgba(0,0,0,.35)}.study-bridge[hidden]{display:none}.study-bridge span{display:flex;flex-direction:column}.study-bridge strong{font-size:.7rem}.study-bridge small{font-size:.55rem;color:#6b6256}.study-bridge a{padding:.45rem .65rem;background:#171613;color:#f0e8d8;text-decoration:none;font-size:.65rem}
+  :global(html[data-study-mode="p7c"]){scroll-padding-bottom:4rem}
+  @media(max-width:520px){.study-bridge{bottom:.5rem}.study-bridge small{display:none}}
+</style>

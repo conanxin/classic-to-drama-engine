@@ -1,12 +1,15 @@
 import { createHash } from 'node:crypto';
+import { execFile } from 'node:child_process';
 import { access, readFile } from 'node:fs/promises';
 import path from 'node:path';
+import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const repoRoot = path.resolve(siteRoot, '..');
 const distMode = process.argv.includes('--dist');
 const prototypeNumbers = [1, 19, 27];
+const p7aBaselineCommit = 'c6cc0fc1ad29068c21a326d19e62c68ac067722f';
 const rejectedIds = ['P4-HF-19', 'P4-HF-29', 'P4-HF-34', 'P4-HF-39', 'P4-HF-43', 'P4-HF-44'];
 const requiredCharacters = [
   'odysseus', 'penelope', 'telemachus', 'athena', 'eumaeus', 'eurycleia',
@@ -17,6 +20,11 @@ const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex');
 const readRepoJson = async (relative) => JSON.parse(await readFile(path.join(repoRoot, relative), 'utf8'));
 const exists = async (target) => access(target).then(() => true).catch(() => false);
 const sourceText = (value) => String(value).replace(/\r/g, '').replace(/[\t ]+/g, ' ').trim();
+const run = promisify(execFile);
+const historicalBytes = async (relative) => {
+  const { stdout } = await run('git', ['show', `${p7aBaselineCommit}:${relative}`], { cwd:repoRoot, encoding:null, maxBuffer:64 * 1024 * 1024 });
+  return stdout;
+};
 
 const recognition = await readRepoJson('graphic-script/odyssey_m1_p7a/CHARACTER_RECOGNITION_SYSTEM.json');
 const assetManifest = await readRepoJson('site/content/ASSET_PUBLICATION_MANIFEST.json');
@@ -27,7 +35,7 @@ const characters = new Map(recognition.characters.map((character) => [character.
 if (recognition.status !== 'FROZEN_P7A_PROTOTYPE_SYSTEM') fail('character recognition system is not frozen');
 if (p7aManifest.artifact_class !== 'ODYSSEY_P7A_ARTIFACT_MANIFEST' || p7aManifest.counts.graphic_prototypes !== 3) fail('P7A artifact manifest identity is invalid');
 for (const artifact of p7aManifest.artifacts) {
-  const bytes = await readFile(path.join(repoRoot, artifact.path));
+  const bytes = artifact.path.startsWith('site/') ? await historicalBytes(artifact.path) : await readFile(path.join(repoRoot, artifact.path));
   if (bytes.length !== artifact.bytes || sha256(bytes) !== artifact.sha256) fail(`P7A artifact identity mismatch: ${artifact.path}`);
 }
 if (recognition.characters.length < 16) fail(`character recognition coverage is ${recognition.characters.length}, expected at least 16`);
@@ -118,5 +126,7 @@ console.log(JSON.stringify({
   exact_source_dialogue_quotes: exactDialogueCount,
   approved_visual_references: visualCount,
   character_recognition_entries: recognition.characters.length,
-  rejected_visual_promotions: 0
+  rejected_visual_promotions: 0,
+  historical_site_artifacts_verified_at: p7aBaselineCommit,
+  current_p7a_narrative_artifacts_unchanged: true
 }));

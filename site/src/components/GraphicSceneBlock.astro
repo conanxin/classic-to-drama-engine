@@ -1,7 +1,7 @@
 ---
 import ResponsiveImage from './ResponsiveImage.astro';
 
-interface Character { id:string; name:string; color:string; }
+interface Character { id:string; name:string; color:string; aliases:string[]; faction:string; }
 interface DialogueBeat { speaker:string; text:string; }
 interface SourceBlock { type:string; text:string; }
 interface Props { scene: any; sourceScene:{ blocks:SourceBlock[] }; characters:Character[]; }
@@ -9,11 +9,13 @@ const { scene, sourceScene, characters } = Astro.props;
 const cast = (scene.cast as string[]).map((id:string) => characters.find((item) => item.id === id)).filter((item): item is Character => Boolean(item));
 const colorForSpeaker = (speaker: string) => characters.find((item) => speaker.includes(item.name))?.color || 'var(--graphic-accent)';
 const labelForVisual = scene.visual.kind === 'technical_storyboard' ? 'TECHNICAL STORYBOARD · P4' : scene.visual.kind === 'approved_story_frame' ? 'APPROVED STORY FRAME · P4' : scene.visual.kind === 'approved_set_anchor' ? 'APPROVED SET ANCHOR · P4' : 'IDENTITY ANCHOR · P4';
+const factionLabels:Record<string,string> = { household:'家宅核心', 'loyal-household':'忠诚家宅', suitors:'求婚者阵营', gods:'神明层', 'sea-pressure':'海神压力', phaeacia:'法埃西亚', otherworld:'异境' };
+const compactCast = `${cast.slice(0, 3).map((item) => item.name).join('、')}${cast.length > 3 ? `等${cast.length}人/组` : ''}`;
 ---
-<section class="graphic-scene" id={`scene-${scene.number}`} data-scene-id={scene.scene_id}>
+<section class="graphic-scene" id={`scene-${scene.number}`} data-scene-id={scene.scene_id} data-study-scene>
   <header class="scene-heading">
-    <div><span>{scene.scene_id}</span><h2>{scene.heading}</h2></div>
-    <p class="scene-goal">{scene.conflict_goal}</p>
+    <div><span>WHERE · {scene.scene_id}</span><h2>{scene.heading}</h2></div>
+    <p class="scene-goal"><span>AT STAKE</span>{scene.conflict_goal}</p>
   </header>
   <div class="scene-layout">
     <div class="scene-visual">
@@ -21,17 +23,40 @@ const labelForVisual = scene.visual.kind === 'technical_storyboard' ? 'TECHNICAL
         <ResponsiveImage src={scene.visual.path} responsive={scene.visual.responsive} alt={scene.visual.alt} loading={scene.number === 1 ? 'eager' : 'lazy'} sizes="(max-width: 850px) calc(100vw - 2rem), 70vw" />
         <figcaption><span>{labelForVisual}</span><span>{scene.visual.authority}</span></figcaption>
       </figure>
-      <div class="cast-chips" aria-label="本场人物">
-        {cast.map((character:Character) => <a href={`#character-${character.id}`} style={`--chip:${character.color}`}><span aria-hidden="true"></span>{character.name}</a>)}
-      </div>
     </div>
-    <aside class="scene-aids" aria-label={`${scene.scene_id} 阅读辅助`}>
-      <dl>
-        <div><dt>关系</dt><dd>{scene.relation_tip}</dd></div>
-        <div><dt>空间</dt><dd>{scene.space_tip}</dd></div>
-        <div><dt>关键物</dt><dd>{scene.prop_tip}</dd></div>
-      </dl>
-    </aside>
+
+    <div class="scene-tools">
+      <div class="cast-chips" aria-label="本场人物快速识别">
+        {cast.map((character:Character) => (
+          <details class="character-assist" style={`--chip:${character.color}`} data-study-event="character_assist_open" data-character-id={character.id}>
+            <summary aria-label={`${character.name}，${character.aliases[0]}。展开当前关系`}>
+              <b aria-hidden="true">{character.name.slice(0,1)}</b>
+              <span><strong>{character.name}</strong><small>{character.aliases[0]}</small></span>
+            </summary>
+            <span class="assist-preview" aria-hidden="true">{character.aliases[0]} · {factionLabels[character.faction] || character.faction}</span>
+            <div class="assist-context">
+              <p><span>阵营</span>{factionLabels[character.faction] || character.faction}</p>
+              <p><span>当前关系</span>{scene.relation_tip}</p>
+              <a href={`#character-${character.id}`}>查看详细识别卡</a>
+            </div>
+          </details>
+        ))}
+      </div>
+
+      <details class="reorient" data-study-event="relationship_assist_open">
+        <summary><span>现在有哪些人？</span><small>{compactCast}</small></summary>
+        <div class="reorient-panel">
+          <p class="current-goal"><span>本场目标</span>{scene.conflict_goal}</p>
+          <ul>{cast.map((character:Character) => <li><i style={`--who:${character.color}`} aria-hidden="true"></i><strong>{character.name}</strong><span>{character.aliases[0]} · {factionLabels[character.faction] || character.faction}</span></li>)}</ul>
+          <dl>
+            <div><dt>当前关系</dt><dd>{scene.relation_tip}</dd></div>
+            <div><dt>空间</dt><dd>{scene.space_tip}</dd></div>
+            <div><dt>关键物</dt><dd>{scene.prop_tip}</dd></div>
+          </dl>
+        </div>
+      </details>
+    </div>
+
     <div class="scene-story">
       <div class="reduced-narrative">
         {(scene.narrative as string[]).map((paragraph:string) => <p>{paragraph}</p>)}
@@ -44,7 +69,7 @@ const labelForVisual = scene.visual.kind === 'technical_storyboard' ? 'TECHNICAL
         ))}
       </div>
       <p class="change"><span>不可逆变化</span>{scene.irreversible_change}</p>
-      <details class="source-layer" data-pagefind-ignore>
+      <details class="source-layer" data-pagefind-ignore data-study-event="source_layer_open">
         <summary>展开原剧本 <small>Script Mode 原文 · 本场完整</small></summary>
         <div class="source-blocks">
           {sourceScene.blocks.map((block:SourceBlock) => block.type === 'character'
@@ -60,13 +85,17 @@ const labelForVisual = scene.visual.kind === 'technical_storyboard' ? 'TECHNICAL
   </div>
 </section>
 <style>
-  .graphic-scene{scroll-margin-top:1rem;border-bottom:1px solid var(--graphic-rule);padding:clamp(4rem,8vw,8rem) var(--graphic-pad)}
-  .scene-heading,.scene-layout{max-width:90rem;margin:auto}.scene-heading{display:grid;grid-template-columns:minmax(13rem,1fr) minmax(18rem,1fr);gap:2rem;align-items:end;margin-bottom:2rem}.scene-heading p,.scene-heading h2{margin:0}.scene-heading>div{display:flex;flex-direction:column}.scene-heading span{font-size:.62rem;letter-spacing:.16em;color:var(--graphic-accent)}.scene-heading h2{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.8rem);font-weight:500}.scene-goal{font-family:var(--serif);font-size:1.08rem;color:var(--graphic-paper-2)}
-  .scene-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(15rem,.58fr);gap:0 2rem;align-items:start}.scene-visual{min-width:0}.scene-visual figure{margin:0;background:#ece7dc}.scene-visual figcaption{display:flex;justify-content:space-between;gap:1rem;padding:.55rem .75rem;background:var(--graphic-black);color:var(--graphic-muted);font-size:.58rem;letter-spacing:.08em}.scene-visual figcaption span:last-child{text-align:right}.cast-chips{display:flex;gap:.45rem;flex-wrap:wrap;margin-top:.8rem}.cast-chips a{display:flex;align-items:center;gap:.4rem;text-decoration:none;border:1px solid var(--graphic-rule);padding:.32rem .52rem;font-size:.63rem;background:var(--graphic-ink-2)}.cast-chips a span{width:.45rem;height:.45rem;background:var(--chip)}
-  .scene-aids{grid-column:2;grid-row:1 / span 2;position:sticky;top:1rem;border-top:2px solid var(--graphic-accent)}.scene-aids dl{margin:0}.scene-aids div{padding:1.1rem 0;border-bottom:1px solid var(--graphic-rule)}.scene-aids dt{font-size:.56rem;letter-spacing:.15em;color:var(--graphic-muted);text-transform:uppercase}.scene-aids dd{margin:.35rem 0 0;font-family:var(--serif);font-size:.88rem;line-height:1.65}
-  .scene-story{grid-column:1;max-width:55rem;padding:clamp(2.2rem,5vw,4.5rem) clamp(0rem,3vw,3rem) 0}.reduced-narrative{font-family:var(--serif);font-size:clamp(1.02rem,1.7vw,1.25rem);line-height:2}.reduced-narrative p{margin-bottom:1.3em}.dialogue-beats{margin:2.5rem 0}.dialogue-beats blockquote{margin:0;padding:1.1rem 0 1.1rem clamp(1rem,3vw,2rem);border-left:3px solid var(--speaker);border-bottom:1px solid var(--graphic-rule)}.dialogue-beats blockquote p{font-family:var(--serif);font-size:clamp(1.2rem,2vw,1.65rem);line-height:1.55;margin:0 0 .5rem}.dialogue-beats cite{font-style:normal;font-size:.65rem;color:var(--speaker);letter-spacing:.1em}.change{display:grid;grid-template-columns:7rem 1fr;gap:1rem;margin:2rem 0;padding:1rem 0;border-block:1px solid var(--graphic-rule);font-family:var(--serif)}.change span{font-family:var(--sans);font-size:.56rem;letter-spacing:.12em;color:var(--graphic-accent)}
-  .source-layer{margin-top:2rem;border:1px solid var(--graphic-rule);background:rgba(0,0,0,.15)}.source-layer summary{cursor:pointer;padding:.9rem 1rem;font-size:.72rem;letter-spacing:.08em}.source-layer summary small{display:block;margin-top:.15rem;color:var(--graphic-muted);font-size:.58rem}.source-blocks{padding:clamp(1.1rem,4vw,2.5rem);border-top:1px solid var(--graphic-rule);font-size:.88rem}.source-action{font-family:var(--serif);line-height:1.9}.source-character{width:75%;margin:1.7rem auto .2rem;font-weight:600;letter-spacing:.1em}.source-dialogue{width:75%;margin:.2rem auto 1rem;line-height:1.8}.source-transition{text-align:right;font-size:.7rem;letter-spacing:.12em}
-  @media(max-width:850px){.graphic-scene{padding-inline:var(--graphic-pad)}.scene-heading{grid-template-columns:1fr}.scene-layout{display:block}.scene-aids{position:static;margin-top:1.2rem}.scene-aids dl{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--graphic-rule)}.scene-aids div{background:var(--graphic-ink);padding:.8rem}.scene-story{padding-inline:0}.source-character,.source-dialogue{width:88%}}
-  @media(max-width:560px){.graphic-scene{padding-top:3.5rem}.scene-heading{gap:.8rem}.scene-goal{font-size:.9rem}.scene-visual figcaption{display:block}.scene-visual figcaption span{display:block}.scene-aids dl{grid-template-columns:1fr}.scene-aids dd{font-size:.8rem}.dialogue-beats blockquote p{font-size:1.15rem}.change{grid-template-columns:1fr;gap:.25rem}.source-blocks{font-size:.82rem}}
+  .graphic-scene{scroll-margin-top:3.6rem;border-bottom:1px solid var(--graphic-rule);padding:clamp(3.5rem,7vw,7rem) var(--graphic-pad)}
+  .scene-heading,.scene-layout{max-width:90rem;margin:auto}.scene-heading{display:grid;grid-template-columns:minmax(13rem,1fr) minmax(18rem,1fr);gap:2rem;align-items:end;margin-bottom:1.5rem}.scene-heading p,.scene-heading h2{margin:0}.scene-heading>div{display:flex;flex-direction:column}.scene-heading>div>span,.scene-goal>span{display:block;font-size:.56rem;letter-spacing:.16em;color:var(--graphic-accent);font-family:var(--sans);margin-bottom:.35rem}.scene-heading h2{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.8rem);font-weight:500}.scene-goal{font-family:var(--serif);font-size:1.08rem;color:var(--graphic-paper-2)}
+  .scene-layout{min-width:0}.scene-visual figure{margin:0;background:#ece7dc}.scene-visual figcaption{display:flex;justify-content:space-between;gap:1rem;padding:.55rem .75rem;background:var(--graphic-black);color:var(--graphic-muted);font-size:.58rem;letter-spacing:.08em}.scene-visual figcaption span:last-child{text-align:right}
+  .scene-tools{display:grid;grid-template-columns:minmax(0,1fr) minmax(18rem,.48fr);gap:1rem;align-items:start;margin-top:.8rem}.cast-chips{display:flex;gap:.45rem;flex-wrap:wrap;min-width:0}.character-assist{position:relative}.character-assist>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:1.35rem auto;gap:.45rem;align-items:center;border:1px solid var(--graphic-rule);padding:.35rem .5rem;background:var(--graphic-ink-2);min-height:2.45rem}.character-assist>summary::-webkit-details-marker{display:none}.character-assist>summary>b{display:grid;place-items:center;width:1.2rem;height:1.2rem;background:color-mix(in srgb,var(--chip) 48%,var(--graphic-black));font-family:var(--serif);font-size:.58rem}.character-assist>summary span{min-width:0}.character-assist>summary strong{display:block;font-size:.63rem;font-weight:500}.character-assist>summary small{display:block;font-size:.52rem;color:var(--graphic-muted);margin-top:.08rem}.character-assist[open]>summary{border-color:var(--chip)}
+  .assist-preview{position:absolute;z-index:4;left:0;bottom:calc(100% + .35rem);width:max-content;max-width:15rem;padding:.45rem .55rem;background:var(--graphic-paper);color:var(--graphic-ink);font-size:.58rem;box-shadow:0 .5rem 2rem rgba(0,0,0,.35);opacity:0;pointer-events:none;transform:translateY(.2rem);transition:opacity .15s,transform .15s}.character-assist:not([open])>summary:hover+.assist-preview,.character-assist:not([open])>summary:focus-visible+.assist-preview{opacity:1;transform:none}
+  .assist-context{position:absolute;z-index:5;left:0;top:calc(100% + .35rem);width:min(19rem,calc(100vw - 2rem));padding:.8rem;background:var(--graphic-paper);color:var(--graphic-ink);box-shadow:0 .75rem 2.5rem rgba(0,0,0,.45);font-size:.68rem}.assist-context p{margin:0 0 .55rem;line-height:1.55}.assist-context p span{display:block;font-size:.5rem;letter-spacing:.1em;color:#675f53}.assist-context a{color:inherit;font-size:.6rem}
+  .reorient{border:1px solid var(--graphic-rule);background:var(--graphic-ink-2)}.reorient>summary{list-style:none;cursor:pointer;padding:.62rem .75rem;display:flex;justify-content:space-between;gap:1rem;align-items:center}.reorient>summary::-webkit-details-marker{display:none}.reorient>summary span{font-family:var(--serif);font-size:.84rem}.reorient>summary small{font-size:.56rem;color:var(--graphic-muted);text-align:right}.reorient[open]>summary{border-bottom:1px solid var(--graphic-rule)}.reorient-panel{padding:.85rem}.current-goal{margin:0 0 .8rem;font-family:var(--serif);font-size:.78rem}.current-goal span{display:block;font-family:var(--sans);font-size:.5rem;color:var(--graphic-accent);letter-spacing:.1em}.reorient ul{list-style:none;padding:0;margin:0 0 .8rem;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.35rem}.reorient li{display:grid;grid-template-columns:.45rem auto 1fr;gap:.4rem;align-items:baseline;font-size:.61rem}.reorient li i{width:.38rem;height:.38rem;background:var(--who)}.reorient li strong{font-weight:500}.reorient li span{color:var(--graphic-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reorient dl{margin:0}.reorient dl div{border-top:1px solid var(--graphic-rule);padding:.55rem 0}.reorient dt{font-size:.5rem;color:var(--graphic-muted);letter-spacing:.1em}.reorient dd{margin:.2rem 0 0;font-family:var(--serif);font-size:.72rem;line-height:1.55}
+  .scene-story{max-width:55rem;padding:clamp(2rem,4vw,4rem) clamp(0rem,3vw,3rem) 0}.reduced-narrative{font-family:var(--serif);font-size:clamp(1.02rem,1.7vw,1.25rem);line-height:2}.reduced-narrative p{margin-bottom:1.3em}.dialogue-beats{margin:2.1rem 0}.dialogue-beats blockquote{margin:0;padding:1rem 0 1rem clamp(1rem,3vw,2rem);border-left:3px solid var(--speaker);border-bottom:1px solid var(--graphic-rule)}.dialogue-beats blockquote p{font-family:var(--serif);font-size:clamp(1.2rem,2vw,1.65rem);line-height:1.55;margin:0 0 .5rem}.dialogue-beats cite{font-style:normal;font-size:.65rem;color:var(--speaker);letter-spacing:.1em}.change{display:grid;grid-template-columns:7rem 1fr;gap:1rem;margin:2rem 0;padding:1rem 0;border-block:1px solid var(--graphic-rule);font-family:var(--serif)}.change span{font-family:var(--sans);font-size:.56rem;letter-spacing:.12em;color:var(--graphic-accent)}
+  .source-layer{margin-top:1.6rem;border:1px solid var(--graphic-rule);background:rgba(0,0,0,.15)}.source-layer summary{cursor:pointer;padding:.9rem 1rem;font-size:.72rem;letter-spacing:.08em}.source-layer summary small{display:block;margin-top:.15rem;color:var(--graphic-muted);font-size:.58rem}.source-blocks{padding:clamp(1.1rem,4vw,2.5rem);border-top:1px solid var(--graphic-rule);font-size:.88rem}.source-action{font-family:var(--serif);line-height:1.9}.source-character{width:75%;margin:1.7rem auto .2rem;font-weight:600;letter-spacing:.1em}.source-dialogue{width:75%;margin:.2rem auto 1rem;line-height:1.8}.source-transition{text-align:right;font-size:.7rem;letter-spacing:.12em}
+  @media(max-width:850px){.scene-heading{grid-template-columns:1fr}.scene-tools{grid-template-columns:1fr}.scene-story{padding-inline:0}.source-character,.source-dialogue{width:88%}}
+  @media(max-width:560px){.graphic-scene{padding-top:2.6rem;padding-bottom:3.1rem}.scene-heading{gap:.75rem;margin-bottom:1rem}.scene-goal{font-size:.9rem}.scene-visual figcaption{display:block}.scene-visual figcaption span{display:block}.scene-tools{gap:.65rem}.character-assist>summary{padding:.3rem .42rem}.assist-preview{display:none}.assist-context{position:fixed;inset:auto .75rem 4.25rem .75rem;width:auto;max-height:45vh;overflow:auto}.reorient>summary{padding:.58rem .65rem}.reorient-panel{padding:.7rem}.reorient ul{grid-template-columns:1fr}.scene-story{padding-top:1.65rem}.reduced-narrative{line-height:1.85}.dialogue-beats{margin:1.6rem 0}.dialogue-beats blockquote p{font-size:1.15rem}.change{grid-template-columns:1fr;gap:.25rem;margin:1.5rem 0}.source-blocks{font-size:.82rem}}
+  @media(prefers-reduced-motion:reduce){.assist-preview{transition:none}}
 </style>
 <style is:global>.scene-visual figure img{display:block;width:100%;height:auto;max-height:52rem;object-fit:contain}</style>

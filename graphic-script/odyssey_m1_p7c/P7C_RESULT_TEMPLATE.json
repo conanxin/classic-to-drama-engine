@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "prototype_version": "P7C-20260824",
+  "study_id": "ODYSSEY-P7C-READER-STUDY",
+  "participant_anonymous_code": "CODE-0000",
+  "participant_consent": true,
+  "synthetic_fixture": false,
+  "odyssey_familiarity": "unfamiliar",
+  "device_class": "unknown",
+  "condition": "A",
+  "started_at": "2026-08-24T00:00:00.000Z",
+  "completed_at": null,
+  "tasks": [
+    { "episode": "EP01", "mode": "script", "task": "onboarding", "status": "not_started", "started_offset_ms": null, "completed_offset_ms": null },
+    { "episode": "EP19", "mode": "graphic", "task": "identity_relationship", "status": "not_started", "started_offset_ms": null, "completed_offset_ms": null },
+    { "episode": "EP27", "mode": "graphic", "task": "high_load_action", "status": "not_started", "started_offset_ms": null, "completed_offset_ms": null }
+  ],
+  "events": [],
+  "answers": {},
+  "summary": { "objective_correct": 0, "objective_total": 9, "completion_rate": 0 }
+}

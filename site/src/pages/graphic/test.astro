@@ -1,0 +1,239 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import study from '../../generated/p7c-study.json';
+import { withBase } from '../../lib/urls';
+const serializedStudy = JSON.stringify(study).replace(/</g, '\\u003c');
+const episodes = ['EP01','EP19','EP27'] as const;
+const taskNames:Record<string,string> = { EP01:'A · 新世界与人物进入', EP19:'B · 身份与关系判断', EP27:'C · 高负荷动作追踪' };
+---
+<BaseLayout title="P7C 阅读体验测试｜《归途：奥德修斯》" description="隐私优先、本机记录的 Script / Graphic 阅读体验测试。">
+  <main class="test-page" data-test-root data-episode-base={withBase('episodes/')} data-pagefind-ignore>
+    <header class="test-hero">
+      <p class="eyebrow">ODYSSEY-P7C · READER TEST MODE</p>
+      <h1>不是考你记性，<br />是在测试阅读方式。</h1>
+      <p>大约 20–30 分钟。你会按分组阅读 EP01、EP19 和 EP27，再回答少量人物、关系与动作问题。</p>
+    </header>
+
+    <section class="notice" aria-labelledby="notice-title">
+      <div><p class="eyebrow">INFORMED TEST NOTICE</p><h2 id="notice-title">数据只留在这台设备，除非你主动导出。</h2></div>
+      <div class="notice-copy">
+        <p>本测试记录：任务开始/完成时间、进入的场次、人物或关系辅助是否打开、模式切换、答案与完成状态。</p>
+        <p>不记录姓名、邮箱、IP、精确位置、浏览器指纹或站外浏览记录；不会自动上传。你可以随时停止。</p>
+      </div>
+    </section>
+
+    <section class="setup" data-test-setup aria-labelledby="setup-title">
+      <div><p class="eyebrow">SETUP</p><h2 id="setup-title">开始一次匿名测试</h2></div>
+      <form data-start-form>
+        <label>匿名代码 <input name="participant_code" pattern="[A-Z0-9]{4,32}" maxlength="32" autocomplete="off" required /><small>可使用自动生成代码，不要填姓名或邮箱。</small></label>
+        <label>你对《奥德赛》的熟悉程度 <select name="familiarity"><option value="unfamiliar">不熟悉</option><option value="familiar_not_project">知道《奥德赛》，没读过本项目</option><option value="project_team">参与或熟悉本项目</option></select></label>
+        <label>测试分组 <select name="condition"><option value="A">A：EP01 Script / EP19 Graphic</option><option value="B">B：EP01 Graphic / EP19 Script</option></select><small>主持人按 A/B 交替；个人自测任选。</small></label>
+        <label class="consent"><input type="checkbox" name="consent" required /> <span>我理解这是阅读体验测试、数据默认只存本机、我可以随时停止。</span></label>
+        <button type="submit">开始测试</button>
+      </form>
+    </section>
+
+    <section class="active-study" data-active-study hidden aria-labelledby="active-title">
+      <header><p class="eyebrow">YOUR SESSION</p><h2 id="active-title">按顺序完成三段阅读</h2><p data-session-summary></p></header>
+      <div class="task-list">
+        {episodes.map((episode, index) => (
+          <article class="test-task" data-task-card data-episode={episode} data-task-index={index}>
+            <header><span>{String(index + 1).padStart(2,'0')}</span><div><p>{taskNames[episode]}</p><h3>{episode}</h3></div><strong data-task-status>未开始</strong></header>
+            <p class="mode-line">本轮模式：<b data-task-mode>—</b></p>
+            <nav><a href="#" data-task-link>进入阅读</a><button type="button" data-open-questions>读完了，回答问题</button></nav>
+            <form class="question-set" data-question-form hidden>
+              <p class="memory-note">请从记忆作答，不要返回剧集查找。</p>
+              {study.questions[episode].map((question:any, qIndex:number) => (
+                <fieldset data-question-id={question.id} data-question-type={question.type}>
+                  <legend>{qIndex + 1}. {question.prompt}</legend>
+                  {question.options.map((option:string) => <label><input type={question.type === 'multiple_choice' ? 'checkbox' : 'radio'} name={question.id} value={option} /> <span>{option}</span></label>)}
+                </fieldset>
+              ))}
+              <p class="form-error" data-form-error role="alert"></p>
+              <button type="submit">保存本段答案</button>
+            </form>
+          </article>
+        ))}
+      </div>
+
+      <form class="reflection" data-reflection-form hidden>
+        <header><p class="eyebrow">SHORT REFLECTION</p><h2>最后五个判断</h2><p>1 表示非常不同意，5 表示非常同意。</p></header>
+        {study.subjective_questions.map((question:any) => (
+          <fieldset data-question-id={question.id}><legend>{question.prompt}</legend><div class="scale">{[1,2,3,4,5].map((value) => <label><input type="radio" name={question.id} value={value} required /><span>{value}</span></label>)}</div></fieldset>
+        ))}
+        <div class="open-questions">{study.open_questions.map((question:any) => <label>{question.prompt}<textarea name={question.id} rows="2"></textarea></label>)}</div>
+        <button type="submit">完成测试</button>
+      </form>
+
+      <section class="export-panel" data-export-panel hidden aria-labelledby="export-title">
+        <p class="eyebrow">LOCAL EXPORT</p><h2 id="export-title">测试已完成</h2>
+        <p>结果仍只在本机。下载 JSON 后，由你决定是否交给测试组织者。</p>
+        <button type="button" data-export-result>Export Reader Test Result</button>
+      </section>
+
+      <footer class="session-actions"><button type="button" data-stop-session>停止并保留当前结果</button><button type="button" data-clear-session>清除本机测试记录</button></footer>
+    </section>
+  </main>
+  <script type="application/json" id="p7c-study-config" set:html={serializedStudy} is:inline></script>
+</BaseLayout>
+<script>
+  const STORAGE_KEY = 'ctde-p7c-study-v1';
+  const root = document.querySelector<HTMLElement>('[data-test-root]');
+  const setup = document.querySelector<HTMLElement>('[data-test-setup]');
+  const active = document.querySelector<HTMLElement>('[data-active-study]');
+  const startForm = document.querySelector<HTMLFormElement>('[data-start-form]');
+  const reflection = document.querySelector<HTMLFormElement>('[data-reflection-form]');
+  const exportPanel = document.querySelector<HTMLElement>('[data-export-panel]');
+  const config = JSON.parse(document.querySelector<HTMLScriptElement>('#p7c-study-config')?.textContent || '{}');
+
+  const randomCode = () => {
+    const bytes = new Uint8Array(3); crypto.getRandomValues(bytes);
+    return `P7C${[...bytes].map((value) => value.toString(16).padStart(2,'0')).join('').toUpperCase()}`;
+  };
+  const load = () => { try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null'); } catch { return null; } };
+  const save = (session:any) => localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
+  const elapsed = (session:any) => Math.max(0, Date.now() - Date.parse(session.started_at));
+  const record = (session:any, type:string, detail:Record<string,string> = {}) => { session.events.push({ offset_ms:elapsed(session), type, ...detail }); save(session); };
+  const deviceClass = () => innerWidth < 600 ? 'mobile' : innerWidth < 1024 ? 'tablet' : 'desktop';
+  const modeLabel = (mode:string) => mode === 'graphic' ? 'Graphic Mode · 图文' : 'Script Mode · 完整剧本';
+  const statusLabel = (status:string) => ({ not_started:'未开始', reading:'阅读中', answered:'已回答', completed:'已完成' } as Record<string,string>)[status] || status;
+  const taskRoute = (task:any) => {
+    const base = root?.dataset.episodeBase || '';
+    const number = task.episode.slice(2);
+    const path = task.mode === 'graphic' ? `${base}${number}/graphic/` : `${base}${number}/`;
+    return `${path}?study=p7c&task=${task.episode}-${task.mode}`;
+  };
+
+  const answerArray = (form:HTMLFormElement, id:string) => [...form.querySelectorAll<HTMLInputElement>(`[name="${id}"]:checked`)].map((input) => input.value);
+  const sameAnswers = (left:string[], right:string[]) => [...left].sort().join('|') === [...right].sort().join('|');
+  const scoreSession = (session:any) => {
+    const objective = Object.values(config.questions).flat() as any[];
+    const correct = objective.filter((question) => sameAnswers(session.answers[question.id] || [], question.correct)).length;
+    return { objective_correct:correct, objective_total:objective.length, completion_rate:session.tasks.filter((task:any) => task.status === 'completed').length / session.tasks.length };
+  };
+
+  const render = () => {
+    const session = load();
+    if (!session?.participant_consent) { if (setup) setup.hidden = false; if (active) active.hidden = true; return; }
+    if (setup) setup.hidden = true;
+    if (active) active.hidden = false;
+    const summary = document.querySelector<HTMLElement>('[data-session-summary]');
+    if (summary) summary.textContent = `匿名代码 ${session.participant_anonymous_code} · 分组 ${session.condition} · ${session.device_class}`;
+    document.querySelectorAll<HTMLElement>('[data-task-card]').forEach((card, index) => {
+      const task = session.tasks[index];
+      const status = card.querySelector<HTMLElement>('[data-task-status]');
+      const mode = card.querySelector<HTMLElement>('[data-task-mode]');
+      const link = card.querySelector<HTMLAnchorElement>('[data-task-link]');
+      const form = card.querySelector<HTMLFormElement>('[data-question-form]');
+      if (status) status.textContent = statusLabel(task.status);
+      if (mode) mode.textContent = modeLabel(task.mode);
+      if (link) link.href = taskRoute(task);
+      if (form && task.status === 'completed') form.hidden = true;
+    });
+    const allCompleted = session.tasks.every((task:any) => task.status === 'completed');
+    if (reflection) reflection.hidden = !allCompleted || Boolean(session.completed_at);
+    if (exportPanel) exportPanel.hidden = !Boolean(session.completed_at) && !session.stopped_at;
+  };
+
+  if (startForm) {
+    const code = startForm.elements.namedItem('participant_code') as HTMLInputElement;
+    code.value = randomCode();
+    startForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const data = new FormData(startForm);
+      const condition = String(data.get('condition') || 'A');
+      const started = new Date().toISOString();
+      const session = {
+        schema_version:config.schema_version,
+        prototype_version:config.prototype_version,
+        study_id:config.study_id,
+        participant_anonymous_code:String(data.get('participant_code') || randomCode()).toUpperCase(),
+        participant_consent:true,
+        synthetic_fixture:false,
+        odyssey_familiarity:String(data.get('familiarity') || 'unfamiliar'),
+        device_class:deviceClass(),
+        condition,
+        started_at:started,
+        completed_at:null,
+        tasks:config.conditions[condition].map((task:any) => ({ ...task, status:'not_started', started_offset_ms:null, completed_offset_ms:null })),
+        events:[{ offset_ms:0, type:'session_start', mode:'test' }],
+        answers:{},
+        summary:{ objective_correct:0, objective_total:9, completion_rate:0 }
+      };
+      save(session); render();
+    });
+  }
+
+  document.querySelectorAll<HTMLAnchorElement>('[data-task-link]').forEach((link) => link.addEventListener('click', () => {
+    const session = load(); if (!session) return;
+    const index = Number(link.closest<HTMLElement>('[data-task-card]')?.dataset.taskIndex || 0);
+    const task = session.tasks[index];
+    if (task.status === 'not_started') { task.status = 'reading'; task.started_offset_ms = elapsed(session); }
+    record(session, 'task_started', { episode:task.episode, mode:task.mode, target:'assigned_task' });
+  }));
+
+  document.querySelectorAll<HTMLButtonElement>('[data-open-questions]').forEach((button) => button.addEventListener('click', () => {
+    const form = button.closest<HTMLElement>('[data-task-card]')?.querySelector<HTMLFormElement>('[data-question-form]');
+    if (form) { form.hidden = false; form.querySelector<HTMLInputElement>('input')?.focus(); }
+  }));
+
+  document.querySelectorAll<HTMLFormElement>('[data-question-form]').forEach((form) => form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const session = load(); if (!session) return;
+    const card = form.closest<HTMLElement>('[data-task-card]');
+    const index = Number(card?.dataset.taskIndex || 0);
+    const episode = card?.dataset.episode || '';
+    const questions = config.questions[episode];
+    const missing = questions.find((question:any) => answerArray(form, question.id).length === 0);
+    const error = form.querySelector<HTMLElement>('[data-form-error]');
+    if (missing) { if (error) error.textContent = '请完成本段的三道题。'; return; }
+    if (error) error.textContent = '';
+    for (const question of questions) session.answers[question.id] = answerArray(form, question.id);
+    session.tasks[index].status = 'completed';
+    session.tasks[index].completed_offset_ms = elapsed(session);
+    record(session, 'task_answered', { episode, mode:session.tasks[index].mode });
+    form.hidden = true; render();
+  }));
+
+  reflection?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const session = load(); if (!session) return;
+    const data = new FormData(reflection);
+    for (const question of [...config.subjective_questions, ...config.open_questions]) session.answers[question.id] = data.get(question.id) ? [String(data.get(question.id))] : [];
+    session.completed_at = new Date().toISOString();
+    session.summary = scoreSession(session);
+    record(session, 'completion', { mode:'test' });
+    render();
+  });
+
+  document.querySelector<HTMLButtonElement>('[data-stop-session]')?.addEventListener('click', () => {
+    const session = load(); if (!session) return;
+    session.stopped_at = new Date().toISOString();
+    session.summary = scoreSession(session);
+    record(session, 'session_stop', { mode:'test' }); render();
+  });
+  document.querySelector<HTMLButtonElement>('[data-clear-session]')?.addEventListener('click', () => {
+    if (!confirm('清除这台设备上的当前 P7C 测试记录？此操作无法撤销。')) return;
+    localStorage.removeItem(STORAGE_KEY); location.reload();
+  });
+  document.querySelector<HTMLButtonElement>('[data-export-result]')?.addEventListener('click', () => {
+    const session = load(); if (!session) return;
+    const blob = new Blob([`${JSON.stringify(session,null,2)}\n`], { type:'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url; link.download = `p7c-reader-${session.participant_anonymous_code}-${new Date().toISOString().slice(0,10)}.json`;
+    link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+  });
+
+  render();
+</script>
+<style>
+  .setup[hidden],.active-study[hidden],.reflection[hidden],.export-panel[hidden]{display:none!important}
+  .test-page{--test-paper:#e2d9c6;--test-muted:#a89f90;--test-rule:rgba(226,217,198,.22);background:#141412;color:var(--test-paper);min-height:100vh}.test-hero{padding:clamp(5rem,10vw,9rem) var(--pad);max-width:92rem;margin:auto;border-bottom:1px solid var(--test-rule)}.test-hero h1{font-size:clamp(3.4rem,8vw,7.5rem);line-height:.92;margin:.8rem 0 1.5rem;max-width:12ch}.test-hero>p:last-child{font-family:var(--serif);font-size:clamp(1rem,1.8vw,1.3rem);max-width:42rem;color:var(--test-muted)}
+  .notice,.setup{max-width:92rem;margin:auto;padding:clamp(3rem,6vw,5rem) var(--pad);display:grid;grid-template-columns:minmax(15rem,.75fr) minmax(0,1.25fr);gap:clamp(2rem,6vw,7rem);border-bottom:1px solid var(--test-rule)}.notice h2,.setup h2{font-size:clamp(1.8rem,3vw,3.2rem);margin:.5rem 0}.notice-copy{font-family:var(--serif);color:var(--test-muted);line-height:1.8}.setup form{display:grid;gap:1.2rem}.setup label{display:grid;gap:.4rem;font-size:.72rem}.setup small{color:var(--test-muted)}input,select,textarea{width:100%;border:1px solid var(--test-rule);background:#1d1c19;color:var(--test-paper);padding:.75rem;font:inherit}input[type="checkbox"],input[type="radio"]{width:auto;accent-color:#a15b49}.consent{grid-template-columns:auto 1fr!important;align-items:start}.setup button,.question-set button,.reflection button,.export-panel button{justify-self:start;border:0;background:var(--test-paper);color:#141412;padding:.8rem 1rem;font:inherit;font-size:.72rem;cursor:pointer}
+  .active-study{max-width:92rem;margin:auto;padding:clamp(4rem,8vw,7rem) var(--pad)}.active-study>header{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:end;margin-bottom:2rem}.active-study>header h2{font-size:clamp(2rem,4vw,4rem);margin:.5rem 0}.active-study>header>p:last-child{color:var(--test-muted);text-align:right}.task-list{border-top:1px solid var(--test-rule)}.test-task{padding:1.5rem 0;border-bottom:1px solid var(--test-rule)}.test-task>header{display:grid;grid-template-columns:3rem 1fr auto;gap:1rem;align-items:center}.test-task>header>span{font-family:var(--serif);font-size:1.8rem;color:#a15b49}.test-task h3{font-size:1.4rem;margin:.15rem 0}.test-task header p{font-size:.58rem;color:var(--test-muted);margin:0}.test-task header>strong{font-size:.62rem;color:#a15b49}.mode-line{font-family:var(--serif);color:var(--test-muted);margin-left:4rem}.test-task nav{display:flex;gap:.6rem;margin-left:4rem}.test-task nav a,.test-task nav button{border:1px solid var(--test-rule);background:transparent;color:var(--test-paper);padding:.65rem .8rem;text-decoration:none;font:inherit;font-size:.65rem;cursor:pointer}.test-task nav a{background:var(--test-paper);color:#141412}
+  .question-set{margin:1.5rem 0 0 4rem;padding:1.5rem;border:1px solid var(--test-rule);display:grid;gap:1.5rem}.question-set[hidden]{display:none}.memory-note{color:#a15b49;font-size:.68rem}.question-set fieldset,.reflection fieldset{border:0;padding:0;margin:0}.question-set legend,.reflection legend{font-family:var(--serif);margin-bottom:.7rem}.question-set fieldset label{display:flex;gap:.5rem;align-items:flex-start;padding:.38rem 0;font-size:.72rem}.form-error{color:#dc8675;min-height:1em;font-size:.68rem}
+  .reflection,.export-panel{margin-top:4rem;padding-top:3rem;border-top:2px solid #a15b49}.reflection>header{margin-bottom:2rem}.reflection fieldset{padding:1rem 0;border-top:1px solid var(--test-rule)}.scale{display:flex;gap:.8rem}.scale label{display:flex;align-items:center;gap:.25rem}.open-questions{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem 0}.open-questions label{display:grid;gap:.4rem;font-size:.7rem}.export-panel p{color:var(--test-muted)}.session-actions{display:flex;gap:.6rem;justify-content:flex-end;margin-top:4rem}.session-actions button{background:transparent;border:1px solid var(--test-rule);color:var(--test-muted);padding:.55rem .7rem;font:inherit;font-size:.6rem;cursor:pointer}
+  @media(max-width:720px){.notice,.setup{grid-template-columns:1fr}.active-study>header{grid-template-columns:1fr}.active-study>header>p:last-child{text-align:left}.test-task>header{grid-template-columns:2rem 1fr}.test-task header>strong{grid-column:2}.mode-line,.test-task nav,.question-set{margin-left:3rem}.test-task nav{flex-direction:column}.test-task nav a,.test-task nav button{text-align:center}.open-questions{grid-template-columns:1fr}}
+  @media(max-width:430px){.test-hero h1{font-size:3.2rem}.active-study,.notice,.setup{padding-inline:1rem}.mode-line,.test-task nav,.question-set{margin-left:0}.question-set{padding:1rem}.session-actions{align-items:stretch;flex-direction:column}}
+</style>

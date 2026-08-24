@@ -5,11 +5,11 @@ interface Props { number: number; active: 'script' | 'graphic'; }
 const { number, active } = Astro.props;
 ---
 <nav class="mode-switch" aria-label="阅读模式" data-pagefind-ignore>
-  <a class:list={{ active: active === 'graphic' }} aria-current={active === 'graphic' ? 'page' : undefined} href={graphicEpisodePath(number)}>
+  <a class:list={{ active: active === 'graphic' }} aria-current={active === 'graphic' ? 'page' : undefined} href={graphicEpisodePath(number)} data-study-mode-switch="graphic">
     <span>Graphic Mode</span>
     <strong>图文模式</strong>
   </a>
-  <a class:list={{ active: active === 'script' }} aria-current={active === 'script' ? 'page' : undefined} href={episodePath(number)}>
+  <a class:list={{ active: active === 'script' }} aria-current={active === 'script' ? 'page' : undefined} href={episodePath(number)} data-study-mode-switch="script">
     <span>Script Mode</span>
     <strong>剧本模式</strong>
   </a>

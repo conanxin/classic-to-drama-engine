@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "prototype_version": "P7C-20260824",
+  "study_id": "ODYSSEY-P7C-READER-STUDY",
+  "participant_anonymous_code": "SYNTHETIC-0001",
+  "participant_consent": true,
+  "synthetic_fixture": true,
+  "odyssey_familiarity": "unfamiliar",
+  "device_class": "mobile",
+  "condition": "A",
+  "started_at": "2026-08-24T00:00:00.000Z",
+  "completed_at": "2026-08-24T00:24:00.000Z",
+  "tasks": [
+    { "episode": "EP01", "mode": "script", "task": "onboarding", "status": "completed", "started_offset_ms": 0, "completed_offset_ms": 420000 },
+    { "episode": "EP19", "mode": "graphic", "task": "identity_relationship", "status": "completed", "started_offset_ms": 430000, "completed_offset_ms": 950000 },
+    { "episode": "EP27", "mode": "graphic", "task": "high_load_action", "status": "completed", "started_offset_ms": 960000, "completed_offset_ms": 1380000 }
+  ],
+  "events": [
+    { "offset_ms": 0, "type": "session_start", "mode": "test" },
+    { "offset_ms": 432000, "type": "character_assist_opened", "episode": "EP19", "mode": "graphic", "target": "odysseus" },
+    { "offset_ms": 970000, "type": "relationship_assist_opened", "episode": "EP27", "mode": "graphic", "scene_id": "EP27-S01" },
+    { "offset_ms": 1440000, "type": "completion", "mode": "test" }
+  ],
+  "answers": {
+    "ep01_athena_identity": ["门忒斯"],
+    "ep01_sword_choice": ["长剑不合身，他改用自己的短刀"],
+    "ep01_household_roles": ["佩涅洛佩"],
+    "ep19_knowledge_start": ["奥德修斯", "雅典娜"],
+    "ep19_human_evidence": ["焦黑船钉与航路细节"],
+    "ep19_eumaeus_knowledge": ["还不知道"],
+    "ep27_right_flank": ["忒勒马科斯"],
+    "ep27_arrow_count": ["3"],
+    "ep27_armory_change": ["忒勒马科斯搬出己方武器后留下一指门缝，墨兰提俄斯沿路线取武器"]
+  },
+  "summary": { "objective_correct": 9, "objective_total": 9, "completion_rate": 1 }
+}

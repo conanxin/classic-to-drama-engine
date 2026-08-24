@@ -149,6 +149,7 @@ const graphicPrototypePaths = [
   'graphic-script/odyssey_m1_p7a/prototypes/EP27_GRAPHIC_SCRIPT_PROTOTYPE.json'
 ];
 const graphicPrototypes = await Promise.all(graphicPrototypePaths.map(readJson));
+const p7cStudyConfig = await readJson('graphic-script/odyssey_m1_p7c/P7C_STUDY_CONFIG.json');
 for (const prototype of graphicPrototypes) {
   const episode = episodes.find((item) => item.id === prototype.episode);
   if (!episode || episode.source_sha256 !== prototype.source_sha256) throw new Error(`Graphic prototype source mismatch: ${prototype.episode}`);
@@ -156,6 +157,7 @@ for (const prototype of graphicPrototypes) {
 }
 await writeJson('graphic-characters.json', graphicCharacterSystem);
 await writeJson('graphic-prototypes.json', graphicPrototypes);
+await writeJson('p7c-study.json', p7cStudyConfig);
 
 function section(markdown, heading) {
   const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -270,7 +272,8 @@ const timeline = [
   ['P4','Approved look development, technical storyboards and teaser previs are frozen.'],
   ['P5','Art handoff, full-series animatics, VFX previs and pitch proof pass independently.'],
   ['Web Archive','The frozen work becomes a curated, searchable public viewer while P6 remains paused.'],
-  ['Graphic Script P7A','A dual reading layer prototypes character recognition, relationship help and scene-led visual reading for EP01, EP19 and EP27.']
+  ['Graphic Script P7A','A dual reading layer prototypes character recognition, relationship help and scene-led visual reading for EP01, EP19 and EP27.'],
+  ['Graphic Reader P7C','The three prototypes add progressive character help, resumable reading and a privacy-first local reader-test harness.']
 ].map(([milestone,summary],index)=>({index:index+1,milestone,summary}));
 await writeJson('project.json', { timeline, baseline_commit:'478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5', p5_manifest_sha256:'6078af3ab505aab3958d82aea2bfa3e2a5b5e07bc163293285fe411c1a469353' });
 
@@ -291,6 +294,7 @@ await writeJson('build-summary.json', {
   search_documents:searchRecords.length,
   graphic_prototypes:graphicPrototypes.length,
   graphic_scenes:graphicPrototypes.reduce((count,prototype)=>count+prototype.scenes.length,0),
+  p7c_test_conditions:Object.keys(p7cStudyConfig.conditions).length,
   generated_at:'DETERMINISTIC_FROM_BASELINE_478fd10'
 });
 
