@@ -151,8 +151,8 @@
     },
     {
       "path": "scripts/verify-p7c-reader.mjs",
-      "bytes": 5740,
-      "sha256": "73c770734d6582d8d4382639f8eb270d8c4cce9e19fd2e328e33e6d10fb93dd7"
+      "bytes": 6910,
+      "sha256": "32c2bf8e805fc4d4de5a2cf066a21408bf9f6bd03689bca6fc0136a028c4707c"
     },
     {
       "path": "scripts/verify-publication.mjs",

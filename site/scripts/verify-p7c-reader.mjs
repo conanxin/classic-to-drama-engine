@@ -1,4 +1,5 @@
 import { access, readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -13,9 +14,20 @@ const readJson = async (relative) => JSON.parse(await readRepo(relative));
 const requiredDocs = [
   'P7C_READER_RESEARCH_PLAN.md','P7C_SUCCESS_CRITERIA.md','P7C_TEST_PROTOCOL.md','P7C_PARTICIPANT_INSTRUCTIONS.md',
   'P7C_FACILITATOR_GUIDE.md','P7C_DATA_SCHEMA.json','P7C_RESULT_TEMPLATE.json','P7C_RESULT_ANALYSIS.md','P7C_PRIVACY_NOTE.md',
-  'P7C_COGNITIVE_LOAD_AUDIT.md','CHARACTER_INTRODUCTION_BUDGET.md','P7C_VISUAL_NARRATIVE_AUDIT.md','P7B_SCALE_COST_MODEL.md','P7B_ROLLOUT_DECISION.md'
+  'P7C_COGNITIVE_LOAD_AUDIT.md','CHARACTER_INTRODUCTION_BUDGET.md','P7C_VISUAL_NARRATIVE_AUDIT.md','P7C_READER_POLISH_QA.md',
+  'P7B_SCALE_COST_MODEL.md','P7B_ROLLOUT_DECISION.md','P7C_ARTIFACT_MANIFEST.json','P7C_FINAL_RESULT.md'
 ];
 for (const file of requiredDocs) if (!(await exists(path.join(repoRoot, 'graphic-script/odyssey_m1_p7c', file)))) fail('missing ' + file);
+const artifactManifest = await readJson('graphic-script/odyssey_m1_p7c/P7C_ARTIFACT_MANIFEST.json');
+if (artifactManifest.status !== 'PASS_ODYSSEY_P7C_GRAPHIC_READER_POLISHED_AND_READER_TEST_READY') fail('artifact manifest status mismatch');
+if (artifactManifest.counts?.real_participants !== 0 || artifactManifest.counts?.synthetic_fixtures_excluded !== 1) fail('artifact manifest evidence boundary mismatch');
+if (!Array.isArray(artifactManifest.artifacts) || artifactManifest.artifacts.length !== 31) fail('artifact manifest must freeze 31 implementation artifacts');
+if (new Set(artifactManifest.artifacts.map((item) => item.path)).size !== artifactManifest.artifacts.length) fail('duplicate artifact manifest path');
+for (const item of artifactManifest.artifacts) {
+  const bytes = await readFile(path.join(repoRoot, item.path));
+  const digest = createHash('sha256').update(bytes).digest('hex');
+  if (bytes.length !== item.bytes || digest !== item.sha256) fail('artifact identity mismatch: ' + item.path);
+}
 const config = await readJson('graphic-script/odyssey_m1_p7c/P7C_STUDY_CONFIG.json');
 const schema = await readJson('graphic-script/odyssey_m1_p7c/P7C_DATA_SCHEMA.json');
 const template = await readJson('graphic-script/odyssey_m1_p7c/P7C_RESULT_TEMPLATE.json');
@@ -55,4 +67,4 @@ if (distMode) {
   if (!scriptHtml.includes('data-study-bridge') || !scriptHtml.includes('data-study-mode-switch="script"')) fail('Script Mode study bridge missing');
 }
 
-console.log(JSON.stringify({ status:'PASS_P7C_READER_VERIFY', dist_verified:distMode, prototype_episodes:3, objective_questions:questions.length, test_conditions:2, synthetic_fixture_exclusion_required:true, real_participant_claims:0 }));
+console.log(JSON.stringify({ status:'PASS_P7C_READER_VERIFY', dist_verified:distMode, prototype_episodes:3, objective_questions:questions.length, test_conditions:2, artifact_manifest_verified:true, synthetic_fixture_exclusion_required:true, real_participant_claims:0 }));
