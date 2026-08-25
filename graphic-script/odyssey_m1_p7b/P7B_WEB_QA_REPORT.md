@@ -89,4 +89,14 @@ No material visual deviation remains. The rendered system meets agency-signoff q
 
 ## Deployment verification
 
-The deployment run and public crawl are recorded in `P7B_FINAL_RESULT.md` after the authoritative commit is deployed. Local production QA is complete.
+- implementation commit: `2f930463e761874cfb61bea343ddbb855257ae1e`
+- GitHub Actions run: `32862387497`
+- build job: `PASS` in 2m55s
+- deploy job: `PASS` in 26s
+- public base: `https://conanxin.github.io/classic-to-drama-engine/`
+- live sitemap routes: `126 / 126`
+- live internal and allowlisted asset references: `2,699 / 2,699`
+- live video Range delivery: `32 / 32`
+- route, asset, canonical, privacy and rejected-visual failures: `0`
+
+Post-deployment Playwright checks confirmed the 30-row Graphic directory and public EP01, EP27 and EP30 pages. Mobile EP27 rendered 5 scenes and 28 panels without overflow or broken images. Live search for “奥德修斯” reported 73 matches and exposed valid Graphic results under the GitHub Pages base path.

@@ -1,0 +1,82 @@
+{
+  "artifact_class": "ODYSSEY_P7B_ARTIFACT_MANIFEST",
+  "schema_version": "1.0.0",
+  "status": "COMPLETE",
+  "source_baseline_commit": "912cdd6715fe5ae4fe82418b30035440938a9c17",
+  "user_rollout_authorization": "CONFIRMED",
+  "real_reader_validation": "NOT_CLAIMED",
+  "closure_policy": "manifest excludes itself; all other files in this P7B directory are hashed",
+  "artifact_count": 14,
+  "artifacts": [
+    {
+      "path": "P7B_30_EPISODE_COVERAGE_REPORT.md",
+      "bytes": 2922,
+      "sha256": "6c3b30f0637f91f4d6e21f36676c4bbe1635fe010bb0a75bbd148f7b00180009"
+    },
+    {
+      "path": "P7B_CHARACTER_REGISTRY.json",
+      "bytes": 39480,
+      "sha256": "e090e9af8e5f875bcb0b95991e9adf692a471420c556bf6e9494d1b227c785ff"
+    },
+    {
+      "path": "P7B_EPISODE_MANIFEST.json",
+      "bytes": 405503,
+      "sha256": "1fae8f835a199f58e5a11d50a443ce5a0a96e6ae776d76a54c0c373331cc1bc5"
+    },
+    {
+      "path": "P7B_FINAL_RESULT.md",
+      "bytes": 4920,
+      "sha256": "d03ad62ebc9f5bbf6c5142c53369759d76a18aa4f760306f5fe6c082dfdd1f6b"
+    },
+    {
+      "path": "P7B_GRAPHIC_NOVEL_BIBLE.md",
+      "bytes": 5426,
+      "sha256": "ded489f9d399709b48818202c5f0615c7cf6921265fb2f8d6c2e001b0d8372e9"
+    },
+    {
+      "path": "P7B_INTERNAL_READER_REVIEW.md",
+      "bytes": 3732,
+      "sha256": "3a26ec867f0f1b56cbb68d8a80c4276904d3981dc07ab8eb854297991be57f39"
+    },
+    {
+      "path": "P7B_NEW_PANEL_GENERATION_QUEUE.json",
+      "bytes": 53159,
+      "sha256": "adefd068eb9c488d68dc16745cb30e9750133ba3e77916c7904ae362e5cf604a"
+    },
+    {
+      "path": "P7B_PANEL_GRAMMAR.md",
+      "bytes": 5165,
+      "sha256": "100f4b6db7b6cc87a16790c7700eb89076007a1af124bbe24edafd0ba52b9616"
+    },
+    {
+      "path": "P7B_PANEL_MANIFEST.json",
+      "bytes": 1006694,
+      "sha256": "0b09b2c5ae834024b65ec7f4922ddcc60f7c1ac551d607580eaa514103442c44"
+    },
+    {
+      "path": "P7B_PROP_VISUAL_LEDGER.json",
+      "bytes": 22645,
+      "sha256": "bfada7161f84d29eef396f001b366e4fc98c8c4a0c3cb89b6bc1c236e6a5d433"
+    },
+    {
+      "path": "P7B_WEB_QA_REPORT.md",
+      "bytes": 5241,
+      "sha256": "9491304f7814c3331ef71017e6b6b8fe8d4e9ed728e2be9409324f1cb90f7c64"
+    },
+    {
+      "path": "P8_COMIC_RENDERING_HANDOFF.md",
+      "bytes": 2069,
+      "sha256": "1155c05f13625f34df9052a4989ab7834879b0f26ed938bf5654def0459c4aeb"
+    },
+    {
+      "path": "tools/build_p7b_artifact_manifest.mjs",
+      "bytes": 1632,
+      "sha256": "b7f23732d504463f23a81e411ff2a94b7c0993f1b06c244a7ddf55a05e47b330"
+    },
+    {
+      "path": "tools/build_p7b.mjs",
+      "bytes": 27740,
+      "sha256": "ddad0186dbb3a3e9f449cca994e883d5cfe11a9e632a6e2de9ff4b7470e102a7"
+    }
+  ]
+}
