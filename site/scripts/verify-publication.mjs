@@ -21,6 +21,9 @@ const summary = await readJson('src/generated/build-summary.json');
 const imageMetadata = await readJson('src/generated/image-metadata.json');
 const graphicPrototypes = await readJson('src/generated/graphic-prototypes.json');
 const graphicCharacters = await readJson('src/generated/graphic-characters.json');
+const graphicEpisodes = await readJson('src/generated/graphic-episodes.json');
+const graphicPanels = await readJson('src/generated/graphic-panels.json');
+const graphicCharactersP7B = await readJson('src/generated/graphic-characters-p7b.json');
 
 if (episodes.length !== 30) fail(`episode count ${episodes.length}`);
 if (episodes.reduce((n, episode) => n + episode.scene_count, 0) !== 150) fail('scene count is not 150');
@@ -38,6 +41,9 @@ if (Object.keys(imageMetadata).length !== assets.assets.filter((asset) => asset.
 if (Object.values(imageMetadata).some((item) => !item.width || !item.height || !item.responsive_w720 || !item.responsive_w1600)) fail('image dimensions or derivatives incomplete');
 if (graphicPrototypes.length !== 3 || graphicPrototypes.reduce((count,item)=>count+item.scenes.length,0) !== 15) fail('graphic prototype coverage failed');
 if (graphicCharacters.characters.length < 16) fail('graphic character recognition coverage failed');
+if (graphicEpisodes.length !== 30 || graphicEpisodes.reduce((count,item)=>count+item.scenes.length,0) !== 150) fail('P7B Graphic episode coverage failed');
+if (graphicPanels.panels.length < 450 || graphicPanels.panels.length > 650) fail('P7B panel placement range failed');
+if (graphicCharactersP7B.resolved_source_cast_labels !== 76) fail('P7B character source labels unresolved');
 
 for (const asset of assets.assets) {
   const source = path.join(repoRoot, asset.source_path);
@@ -45,7 +51,7 @@ for (const asset of assets.assets) {
   if (bytes.length !== asset.bytes || sha(bytes) !== asset.sha256) fail(`asset identity mismatch ${asset.source_path}`);
 }
 
-const publicText = `${JSON.stringify(documents)}\n${JSON.stringify(episodes)}\n${JSON.stringify(graphicPrototypes)}\n${JSON.stringify(graphicCharacters)}`;
+const publicText = `${JSON.stringify(documents)}\n${JSON.stringify(episodes)}\n${JSON.stringify(graphicPrototypes)}\n${JSON.stringify(graphicCharacters)}\n${JSON.stringify(graphicEpisodes)}\n${JSON.stringify(graphicCharactersP7B)}`;
 for (const pattern of [/\/home\/conanxin\//i, /C:\\Users\\/i, /\\\\wsl\$/i, /OPENAI_API_KEY/i]) {
   if (pattern.test(publicText)) fail(`forbidden public text ${pattern}`);
 }
@@ -79,6 +85,11 @@ if (hasDist) {
     const probes = [prototype.title,prototype.core_conflict,prototype.scenes[0].heading,prototype.scenes.at(-1).essential_dialogue.at(-1).text,prototype.end_hook];
     if (probes.some((probe)=>!readable.includes(probe))) fail(`graphic reader probe failed ${prototype.episode}`);
   }
+  for (const graphicEpisode of graphicEpisodes) {
+    const padded=String(graphicEpisode.number).padStart(2,'0');
+    const html = await readFile(path.join(siteRoot,'dist','episodes',padded,'graphic','index.html'),'utf8');
+    if (!html.includes(`data-graphic-episode="${graphicEpisode.episode}"`) || !html.includes('data-panel-id=') || !html.includes('展开原剧本')) fail(`P7B graphic reader structure failed ${graphicEpisode.episode}`);
+  }
   const htmlFiles = [];
   async function walk(dir) { for (const name of await readdir(dir)) { const target=path.join(dir,name); const info=await stat(target); if(info.isDirectory()) await walk(target); else if(name.endsWith('.html')) htmlFiles.push(target); } }
   await walk(path.join(siteRoot,'dist'));
@@ -110,5 +121,6 @@ console.log(JSON.stringify({
   status:'PASS_PUBLICATION_VERIFY', dist_verified:hasDist, episodes:episodes.length, scenes:summary.scenes,
   documents:documents.length, images:assets.assets.filter((asset)=>asset.type==='image').length,
   videos:assets.assets.filter((asset)=>asset.type==='video').length, storyboard_pages:storyboards.reduce((n,x)=>n+x.pages.length,0),
+  graphic_episodes:graphicEpisodes.length, graphic_scenes:graphicEpisodes.reduce((n,x)=>n+x.scenes.length,0), graphic_panels:graphicPanels.panels.length,
   forbidden_internal_publication:0, immutable_modifications:0
 }));

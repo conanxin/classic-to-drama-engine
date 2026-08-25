@@ -8,7 +8,7 @@ export function getStaticPaths() { return episodes.map((episode) => ({ params:{n
 const { episode } = Astro.props;
 const prev = episodes[episode.number - 2];
 const next = episodes[episode.number];
-const graphicAvailable = [1,19,27].includes(episode.number);
+const graphicAvailable = true;
 ---
 <BaseLayout title={`EP${String(episode.number).padStart(2,'0')}《${episode.title}》｜完整剧本`} description={`${episode.want}。阅读《归途：奥德修斯》EP${String(episode.number).padStart(2,'0')}完整 V2 剧本。`} theme="paper">
   <div class="reader-shell">

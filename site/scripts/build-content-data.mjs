@@ -27,8 +27,12 @@ const storyboard = await readJson('storyboards/odyssey_m1_p4/STORYBOARD_IMAGE_MA
 const look = await readJson('visual-development/odyssey_m1_p4/LOOKDEV_RENDER_MANIFEST.json');
 const characterStates = await readJson('design/odyssey_m1_p4/CHARACTER_STATE_MATRIX.json');
 const costumeStates = await readJson('design/odyssey_m1_p4/COSTUME_STATE_MATRIX.json');
+const p7bEpisodeManifest = await readJson('graphic-script/odyssey_m1_p7b/P7B_EPISODE_MANIFEST.json');
+const p7bPanelManifest = await readJson('graphic-script/odyssey_m1_p7b/P7B_PANEL_MANIFEST.json');
+const p7bCharacterRegistry = await readJson('graphic-script/odyssey_m1_p7b/P7B_CHARACTER_REGISTRY.json');
 
-const assetBySource = new Map(assetManifest.assets.map((x) => [x.source_path, x]));
+const assetBySource = new Map();
+for (const asset of assetManifest.assets) if (!assetBySource.has(asset.source_path) || !asset.transform) assetBySource.set(asset.source_path, asset);
 const responsiveBySource = new Map();
 const imageMetadata = {};
 for (const asset of assetManifest.assets) {
@@ -38,15 +42,19 @@ for (const asset of assetManifest.assets) {
   if (bytes.length !== asset.bytes || sha(bytes) !== asset.sha256) throw new Error(`Asset identity mismatch: ${asset.source_path}`);
   const dest = path.join(siteRoot, 'public', asset.published_path);
   await mkdir(path.dirname(dest), { recursive: true });
-  await cp(source, dest);
+  let publishedBytes = bytes;
+  if (asset.transform?.kind === 'extract_webp') {
+    publishedBytes = await sharp(bytes).extract(asset.transform.crop).webp({ quality:asset.transform.quality || 82, effort:4 }).toBuffer();
+    await writeFile(dest, publishedBytes);
+  } else await cp(source, dest);
   if (asset.type === 'image') {
-    const metadata = await sharp(bytes).metadata();
+    const metadata = await sharp(publishedBytes).metadata();
     const extension = path.extname(asset.published_path);
     const responsivePath = asset.published_path.slice(0, -extension.length) + '-w720.webp';
     const desktopPath = asset.published_path.slice(0, -extension.length) + '-w1600.webp';
-    await sharp(bytes).resize({ width:720, withoutEnlargement:true }).webp({ quality:78, effort:4 }).toFile(path.join(siteRoot, 'public', responsivePath));
-    await sharp(bytes).resize({ width:1600, withoutEnlargement:true }).webp({ quality:82, effort:4 }).toFile(path.join(siteRoot, 'public', desktopPath));
-    responsiveBySource.set(asset.source_path, responsivePath);
+    await sharp(publishedBytes).resize({ width:720, withoutEnlargement:true }).webp({ quality:78, effort:4 }).toFile(path.join(siteRoot, 'public', responsivePath));
+    await sharp(publishedBytes).resize({ width:1600, withoutEnlargement:true }).webp({ quality:82, effort:4 }).toFile(path.join(siteRoot, 'public', desktopPath));
+    if (!responsiveBySource.has(asset.source_path) || !asset.transform) responsiveBySource.set(asset.source_path, responsivePath);
     imageMetadata[asset.published_path] = {
       width: metadata.width,
       height: metadata.height,
@@ -159,6 +167,18 @@ await writeJson('graphic-characters.json', graphicCharacterSystem);
 await writeJson('graphic-prototypes.json', graphicPrototypes);
 await writeJson('p7c-study.json', p7cStudyConfig);
 
+if (p7bEpisodeManifest.counts.episodes !== 30 || p7bEpisodeManifest.counts.scenes !== 150) throw new Error('P7B episode manifest coverage failure');
+if (p7bPanelManifest.counts.panel_placements < 450 || p7bPanelManifest.counts.panel_placements > 650) throw new Error('P7B panel placement range failure');
+const p7bPanelsById = new Map(p7bPanelManifest.panels.map((panel) => [panel.panel_id, panel]));
+const graphicEpisodes = p7bEpisodeManifest.episodes.map((graphicEpisode) => ({
+  ...graphicEpisode,
+  scenes: graphicEpisode.scenes.map((scene) => ({ ...scene, panels: scene.panel_ids.map((panelId) => p7bPanelsById.get(panelId)) }))
+}));
+if (graphicEpisodes.some((episode) => episode.scenes.some((scene) => scene.panels.some((panel) => !panel)))) throw new Error('P7B panel join failure');
+await writeJson('graphic-episodes.json', graphicEpisodes);
+await writeJson('graphic-panels.json', p7bPanelManifest);
+await writeJson('graphic-characters-p7b.json', p7bCharacterRegistry);
+
 function section(markdown, heading) {
   const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const m = markdown.match(new RegExp(`^##\\s+${escaped}[^\\n]*\\n([\\s\\S]*?)(?=^##\\s+|(?![\\s\\S]))`, 'm'));
@@ -254,9 +274,9 @@ const searchRecords = [
   ...docs.map((doc)=>({route:`documents/${doc.slug}/`,type:'文档',title:doc.title,text:doc.raw})),
   ...core.map((character)=>({route:`characters/${character.slug}/`,type:'人物',title:character.zh,text:[character.en,character.role,character.voice_source,character.arc_source,...character.recognition,...character.props].join('\n')})),
   ...world.map((place)=>({route:'world/',type:'世界',title:place.name,text:[place.name,place.thesis,...place.locations].join('\n')})),
-  ...graphicPrototypes.map((prototype)=>({
-    route:`episodes/${String(prototype.number).padStart(2,'0')}/graphic/`, type:'图文剧本', title:`${prototype.episode}《${prototype.title}》图文模式`,
-    text:[prototype.title,prototype.story_stage,prototype.previously_on,prototype.core_conflict,prototype.end_hook,...prototype.scenes.flatMap((scene)=>[scene.heading,scene.conflict_goal,scene.relation_tip,scene.space_tip,scene.prop_tip,...scene.narrative,...scene.essential_dialogue.flatMap((line)=>[line.speaker,line.text])])].join('\n')
+  ...graphicEpisodes.map((episode)=>({
+    route:`episodes/${String(episode.number).padStart(2,'0')}/graphic/`, type:'图文剧本', title:`${episode.episode}《${episode.title}》图文模式`,
+    text:[episode.title,episode.story_stage,episode.previously_on,episode.core_conflict,episode.end_hook,...episode.scenes.flatMap((scene)=>[scene.heading,scene.conflict_goal,scene.relation_tip,scene.space_tip,scene.prop_tip,...scene.narrative,...scene.essential_dialogue.flatMap((line)=>[line.speaker,line.text])])].join('\n')
   }))
 ];
 await writeFile(path.join(siteRoot,'public/search-data.json'),`${JSON.stringify(searchRecords)}\n`);
@@ -274,6 +294,7 @@ const timeline = [
   ['Web Archive','The frozen work becomes a curated, searchable public viewer while P6 remains paused.'],
   ['Graphic Script P7A','A dual reading layer prototypes character recognition, relationship help and scene-led visual reading for EP01, EP19 and EP27.'],
   ['Graphic Reader P7C','The three prototypes add progressive character help, resumable reading and a privacy-first local reader-test harness.']
+  ,['Graphic Novel Script P7B','All thirty episodes and 150 scenes gain a source-bound, comicized dual reading layer; real-reader validation remains unclaimed.']
 ].map(([milestone,summary],index)=>({index:index+1,milestone,summary}));
 await writeJson('project.json', { timeline, baseline_commit:'478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5', p5_manifest_sha256:'6078af3ab505aab3958d82aea2bfa3e2a5b5e07bc163293285fe411c1a469353' });
 
@@ -293,7 +314,9 @@ await writeJson('build-summary.json', {
   public_media_bytes:assetManifest.total_bytes,
   search_documents:searchRecords.length,
   graphic_prototypes:graphicPrototypes.length,
-  graphic_scenes:graphicPrototypes.reduce((count,prototype)=>count+prototype.scenes.length,0),
+  graphic_episodes:graphicEpisodes.length,
+  graphic_scenes:graphicEpisodes.reduce((count,episode)=>count+episode.scenes.length,0),
+  graphic_panels:p7bPanelManifest.counts.panel_placements,
   p7c_test_conditions:Object.keys(p7cStudyConfig.conditions).length,
   generated_at:'DETERMINISTIC_FROM_BASELINE_478fd10'
 });

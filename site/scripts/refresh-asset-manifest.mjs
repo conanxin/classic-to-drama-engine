@@ -9,7 +9,7 @@ const readJson = async (p) => JSON.parse(await readFile(path.join(repoRoot, p), 
 const hash = async (p) => createHash('sha256').update(await readFile(path.join(repoRoot, p))).digest('hex');
 const entries = [];
 
-async function add(sourcePath, publishedPath, type, authority, status = 'APPROVED') {
+async function add(sourcePath, publishedPath, type, authority, status = 'APPROVED', transform = null) {
   const info = await stat(path.join(repoRoot, sourcePath));
   entries.push({
     source_path: sourcePath,
@@ -18,12 +18,13 @@ async function add(sourcePath, publishedPath, type, authority, status = 'APPROVE
     bytes: info.size,
     sha256: await hash(sourcePath),
     authority,
-    status
+    status,
+    ...(transform ? { transform } : {})
   });
 }
 
 const look = await readJson('visual-development/odyssey_m1_p4/LOOKDEV_RENDER_MANIFEST.json');
-const selectedHero = new Set(['P4-HF-01','P4-HF-02','P4-HF-09','P4-HF-16','P4-HF-31','P4-HF-36','P4-HF-37','P4-HF-40','P4-HF-45','P4-HF-46','P4-HF-48','P4-HF-53']);
+const selectedHero = new Set(look.assets.filter((asset) => asset.status === 'APPROVED' && asset.asset_type === 'HERO_LOOKDEV_FRAME').map((asset) => asset.asset_id));
 for (const asset of look.assets) {
   const include = asset.status === 'APPROVED' && (
     asset.asset_type === 'PRINCIPAL_CHARACTER_SHEET' ||
@@ -57,6 +58,20 @@ for (let i = 1; i <= 30; i += 1) {
   await add(`animatic/odyssey_m1_p5/episodes/${ep}_ANIMATIC.mp4`, `media/animatics/${ep}_ANIMATIC.mp4`, 'video', `P5 timing animatic ${ep}`);
 }
 
+const p7bPanels = await readJson('graphic-script/odyssey_m1_p7b/P7B_PANEL_MANIFEST.json');
+const transformedPanelAssets = new Map();
+for (const panel of p7bPanels.panels) {
+  if (!panel.visual.transform) continue;
+  const existing = transformedPanelAssets.get(panel.visual.public_path);
+  const identity = JSON.stringify([panel.visual.source_path, panel.visual.transform]);
+  if (existing && existing !== identity) throw new Error(`Conflicting P7B panel transform: ${panel.visual.public_path}`);
+  transformedPanelAssets.set(panel.visual.public_path, identity);
+}
+for (const panel of p7bPanels.panels) {
+  if (!panel.visual.transform || entries.some((entry) => entry.published_path === panel.visual.public_path)) continue;
+  await add(panel.visual.source_path, panel.visual.public_path, 'image', panel.visual.authority, 'APPROVED', panel.visual.transform);
+}
+
 entries.sort((a, b) => a.published_path.localeCompare(b.published_path));
 const duplicatePublished = entries.filter((x, i) => entries.findIndex((y) => y.published_path === x.published_path) !== i);
 if (duplicatePublished.length) throw new Error(`Duplicate published asset paths: ${duplicatePublished.map((x) => x.published_path).join(', ')}`);
@@ -65,7 +80,7 @@ const payload = {
   artifact_class: 'CTDE_WEB_ASSET_PUBLICATION_MANIFEST',
   schema_version: '1.0.0',
   baseline_commit: '478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5',
-  strategy: 'Curated approved P4/P5 media; all 30 compressed animatics are online, while intermediate high-resolution renders and 711 individual SVG frames remain repository-only.',
+  strategy: 'Curated approved P4/P5 media plus deterministic P7B single-frame/carded derivatives. All dialogue and narration remain semantic HTML; rejected P4 targets and nonselected intermediate renders remain unpublished.',
   selected_hero_frame_ids: [...selectedHero].sort(),
   rejected_hero_frame_ids: ['P4-HF-19','P4-HF-29','P4-HF-34','P4-HF-39','P4-HF-43','P4-HF-44'],
   asset_count: entries.length,

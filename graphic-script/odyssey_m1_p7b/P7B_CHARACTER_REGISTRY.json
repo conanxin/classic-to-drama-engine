@@ -1,0 +1,1278 @@
+{
+  "artifact_class": "ODYSSEY_P7B_CHARACTER_REGISTRY",
+  "schema_version": "2.0.0",
+  "p7a_frozen_entries": 16,
+  "source_cast_labels": 76,
+  "resolved_source_cast_labels": 76,
+  "characters": [
+    {
+      "id": "amphinomus",
+      "name": "安菲诺摩斯",
+      "aliases": [
+        "犹豫的求婚者"
+      ],
+      "faction": "suitors",
+      "color": "#8f6c57",
+      "anchor": "劳作肩线、触及共同劳动对象时停顿",
+      "prop": "长矛",
+      "shape": "断开的箭头",
+      "first_appearance": "显示曾被警告，但不把犹豫写成免罪",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "安菲诺摩斯"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "antinous",
+      "name": "安提诺俄斯",
+      "aliases": [
+        "首领型求婚者"
+      ],
+      "faction": "suitors",
+      "color": "#8e3f34",
+      "anchor": "柔软富贵体量、重戒指手、占据主位",
+      "prop": "奥德修斯酒杯",
+      "shape": "宽倒三角",
+      "first_appearance": "姓名始终与‘占位者’动作并列",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "安提诺俄斯"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "athena",
+      "name": "雅典娜",
+      "aliases": [
+        "门忒斯",
+        "门托尔",
+        "牧人",
+        "引路者"
+      ],
+      "faction": "gods",
+      "color": "#b7aa83",
+      "anchor": "猫头鹰针、半转停顿、先于身体到达的眼光",
+      "prop": "长矛／斗篷",
+      "shape": "错位影线",
+      "first_appearance": "同时显示人类身份与读者层，绝不替人物完成选择",
+      "image": "media/visual/characters/P4-CHAR-ATH-IDENTITY-V01.png",
+      "image_responsive": "media/visual/characters/P4-CHAR-ATH-IDENTITY-V01-w720.webp",
+      "source_labels": [
+        "雅典娜",
+        "雅典娜/门忒斯",
+        "雅典娜/门托耳",
+        "雅典娜/牧童",
+        "雅典娜/女伴",
+        "雅典娜/少年",
+        "雅典娜/提灯女孩"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "eumaeus",
+      "name": "欧迈俄斯",
+      "aliases": [
+        "猪倌",
+        "忠仆"
+      ],
+      "faction": "loyal-household",
+      "color": "#6f7754",
+      "anchor": "修补纤维、低工具带、用身体守门",
+      "prop": "牧杖／门闩",
+      "shape": "低重心方块",
+      "first_appearance": "先写劳动职责，再写忠诚判断",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "欧迈俄斯"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "eurycleia",
+      "name": "欧律克勒娅",
+      "aliases": [
+        "乳母",
+        "管家"
+      ],
+      "faction": "loyal-household",
+      "color": "#aa9c82",
+      "anchor": "卷起袖口、钥匙与水盆、以触觉读身体历史",
+      "prop": "钥匙／水盆",
+      "shape": "紧凑圆角",
+      "first_appearance": "以照料和保管职责建立位置",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "欧律克勒娅"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "eurymachus",
+      "name": "欧律马科斯",
+      "aliases": [
+        "谈判者",
+        "求婚者"
+      ],
+      "faction": "suitors",
+      "color": "#824d51",
+      "anchor": "窄裁衣层、抛光扣、靠近时保留出口",
+      "prop": "短剑／赔偿条件",
+      "shape": "窄箭头",
+      "first_appearance": "与安提诺俄斯区分：他用话语和退路，不用体量",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "欧律马科斯"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "melanthius",
+      "name": "墨兰提俄斯",
+      "aliases": [
+        "山羊倌"
+      ],
+      "revealed_alias": "背叛者",
+      "revealed_at": "EP27-S04",
+      "faction": "suitors",
+      "color": "#6f4b3d",
+      "anchor": "贴墙低爬、油灯藏衣、总沿别人留下的路线移动",
+      "prop": "油灯／武器库",
+      "shape": "下行折线",
+      "first_appearance": "公开身份为山羊倌；背叛标签只在行动发生后显示",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "墨兰提俄斯"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "odysseus",
+      "name": "奥德修斯",
+      "aliases": [
+        "乞丐",
+        "无人",
+        "返乡者"
+      ],
+      "faction": "household",
+      "color": "#9b8050",
+      "anchor": "左鬓盐灰、右肩下沉、握工具先找平衡点",
+      "prop": "弓／伤疤",
+      "shape": "宽背折线",
+      "first_appearance": "先给当前身份，再给读者已知层；场内人物的未知不被抹掉",
+      "image": "media/visual/characters/P4-CHAR-ODY-IDENTITY-V02.png",
+      "image_responsive": "media/visual/characters/P4-CHAR-ODY-IDENTITY-V02-w720.webp",
+      "source_labels": [
+        "奥德修斯",
+        "奥德修斯/乞丐"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "otherworld",
+      "name": "怪物／异境对象",
+      "aliases": [
+        "独眼巨人",
+        "海妖",
+        "斯库拉",
+        "卡律布狄斯",
+        "冥界"
+      ],
+      "faction": "otherworld",
+      "color": "#554c43",
+      "anchor": "按叙事功能显示：封路、诱惑、夺取、吞没、作证",
+      "prop": "环境状态",
+      "shape": "断裂边界",
+      "first_appearance": "先说明它改变了什么选择，不先堆神话名词",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "怪物／异境对象"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "penelope",
+      "name": "佩涅洛佩",
+      "aliases": [
+        "王后",
+        "家主",
+        "最终验证者"
+      ],
+      "faction": "household",
+      "color": "#756075",
+      "anchor": "左侧钥匙与布料、判断时方正静止",
+      "prop": "钥匙／织梭",
+      "shape": "垂直方形",
+      "first_appearance": "用正在执行的家庭工作说明权力，不用等待标签",
+      "image": "media/visual/characters/P4-CHAR-PEN-IDENTITY-V01.png",
+      "image_responsive": "media/visual/characters/P4-CHAR-PEN-IDENTITY-V01-w720.webp",
+      "source_labels": [
+        "佩涅洛佩"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "phaeacians",
+      "name": "菲埃克斯人",
+      "aliases": [
+        "法埃西亚人",
+        "送归者"
+      ],
+      "faction": "phaeacia",
+      "color": "#789aa0",
+      "anchor": "海玻璃修补色、公开款待程序",
+      "prop": "船／礼物清单",
+      "shape": "横向开放线",
+      "first_appearance": "群体先标‘监督下的款待’，再拆国王与公主",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "菲埃克斯人"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "phemius",
+      "name": "斐弥俄斯",
+      "aliases": [
+        "琴师"
+      ],
+      "faction": "loyal-household",
+      "color": "#96845f",
+      "anchor": "竖琴与被迫表演的位置",
+      "prop": "竖琴",
+      "shape": "弦线",
+      "first_appearance": "说明他在被占领厅堂中受命演唱",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "斐弥俄斯"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "philoetius",
+      "name": "菲洛提俄斯",
+      "aliases": [
+        "牛倌",
+        "忠诚右翼"
+      ],
+      "faction": "loyal-household",
+      "color": "#7f865f",
+      "anchor": "受力肩、矛与盾的实用握法",
+      "prop": "长矛／盾",
+      "shape": "支撑斜线",
+      "first_appearance": "用‘牛倌／是否可信’帮助读者复位",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "菲洛提俄斯"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "poseidon",
+      "name": "波塞冬",
+      "aliases": [
+        "海神",
+        "压力层"
+      ],
+      "faction": "sea-pressure",
+      "color": "#426a75",
+      "anchor": "先让地平线、绳索与人的平衡变形",
+      "prop": "海／失衡",
+      "shape": "不稳定水平线",
+      "first_appearance": "不要求固定人形，先标条件变化",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "波塞冬"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "suitors",
+      "name": "众求婚者",
+      "aliases": [
+        "占领集团",
+        "敌方人群"
+      ],
+      "faction": "suitors",
+      "color": "#9a4f3f",
+      "anchor": "酒锈色群体、共同占桌、武装状态随场次变化",
+      "prop": "桌盾／矛",
+      "shape": "重复竖线",
+      "first_appearance": "先作为集团显示；只有行动改变责任时拆出个人",
+      "image": null,
+      "image_responsive": null,
+      "source_labels": [
+        "众求婚者"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    },
+    {
+      "id": "support-004bd756cf",
+      "name": "埃俄罗斯",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP11-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP11-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "埃俄罗斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-0c939c5d62",
+      "name": "船员",
+      "aliases": [
+        "航海行动角色"
+      ],
+      "faction": "sailors",
+      "color": "#657b7b",
+      "anchor": "先认场内职责与位置；首次出现在 EP02-S04。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP02-S04 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "船员"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-0f87050fe8",
+      "name": "墨兰托",
+      "aliases": [
+        "求婚者阵营"
+      ],
+      "faction": "suitors",
+      "color": "#9a4f3f",
+      "anchor": "先认场内职责与位置；首次出现在 EP21-S05。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "求婚者前景轮廓",
+      "first_appearance": "EP21-S05 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "墨兰托"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-14b1a27d83",
+      "name": "多利俄斯",
+      "aliases": [
+        "伊萨卡家宅"
+      ],
+      "faction": "household",
+      "color": "#9b8050",
+      "anchor": "先认场内职责与位置；首次出现在 EP30-S03。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP30-S03 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "多利俄斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-169f2379b1",
+      "name": "宙斯声",
+      "aliases": [
+        "声音／神意层"
+      ],
+      "faction": "gods",
+      "color": "#758091",
+      "anchor": "先认场内职责与位置；首次出现在 EP15-S04。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP15-S04 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "宙斯声"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-319b8863d4",
+      "name": "伏击者声",
+      "aliases": [
+        "声音／神意层"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP18-S03。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP18-S03 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "伏击者声"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-38ca049fa4",
+      "name": "伊诺",
+      "aliases": [
+        "神明层"
+      ],
+      "faction": "gods",
+      "color": "#758091",
+      "anchor": "先认场内职责与位置；首次出现在 EP05-S04。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP05-S04 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "伊诺"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-3c1d642736",
+      "name": "安提诺俄斯亡魂",
+      "aliases": [
+        "冥界证词角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP30-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP30-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "安提诺俄斯亡魂"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-3dce791af7",
+      "name": "斯库拉局部",
+      "aliases": [
+        "异境角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP14-S05。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP14-S05 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "斯库拉局部"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-44cd7a6b2b",
+      "name": "卡吕普索",
+      "aliases": [
+        "异境角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP05-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP05-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "卡吕普索"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-46fa68a6f9",
+      "name": "赫尔墨斯",
+      "aliases": [
+        "神明层"
+      ],
+      "faction": "gods",
+      "color": "#758091",
+      "anchor": "先认场内职责与位置；首次出现在 EP05-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP05-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "赫尔墨斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-4ebcfa7725",
+      "name": "欧律阿罗斯",
+      "aliases": [
+        "菲埃克斯人物"
+      ],
+      "faction": "phaeacia",
+      "color": "#8b7468",
+      "anchor": "先认场内职责与位置；首次出现在 EP08-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP08-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "欧律阿罗斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-50d01f1b04",
+      "name": "年长船员",
+      "aliases": [
+        "航海行动角色"
+      ],
+      "faction": "sailors",
+      "color": "#657b7b",
+      "anchor": "先认场内职责与位置；首次出现在 EP18-S02。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP18-S02 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "年长船员"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-51d650d6c6",
+      "name": "阿伽门农",
+      "aliases": [
+        "冥界证词角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP13-S04。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP13-S04 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "阿伽门农"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-55a967fcab",
+      "name": "阿喀琉斯",
+      "aliases": [
+        "冥界证词角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP13-S05。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP13-S05 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "阿喀琉斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-58fb4da5cc",
+      "name": "埃阿斯",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP13-S05。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP13-S05 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "埃阿斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-5bd02920e9",
+      "name": "三名船员",
+      "aliases": [
+        "航海行动角色"
+      ],
+      "faction": "sailors",
+      "color": "#657b7b",
+      "anchor": "先认场内职责与位置；首次出现在 EP09-S02。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP09-S02 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "三名船员"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-5f9387f82b",
+      "name": "得摩多科斯",
+      "aliases": [
+        "菲埃克斯人物"
+      ],
+      "faction": "phaeacia",
+      "color": "#8b7468",
+      "anchor": "先认场内职责与位置；首次出现在 EP08-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP08-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "得摩多科斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-6646050a0e",
+      "name": "雷奥得斯",
+      "aliases": [
+        "求婚者阵营"
+      ],
+      "faction": "suitors",
+      "color": "#9a4f3f",
+      "anchor": "先认场内职责与位置；首次出现在 EP25-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "求婚者前景轮廓",
+      "first_appearance": "EP25-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "雷奥得斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-6bd44e1a99",
+      "name": "忒瑞西阿斯",
+      "aliases": [
+        "冥界证词角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP13-S02。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP13-S02 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "忒瑞西阿斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-6c38d977f7",
+      "name": "波吕斐摩斯",
+      "aliases": [
+        "异境角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP09-S05。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP09-S05 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "波吕斐摩斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-70ca20eca1",
+      "name": "海妖声",
+      "aliases": [
+        "声音／神意层"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP14-S03。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP14-S03 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "海妖声"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-71c18d94a9",
+      "name": "阿尔喀诺俄斯",
+      "aliases": [
+        "菲埃克斯人物"
+      ],
+      "faction": "phaeacia",
+      "color": "#8b7468",
+      "anchor": "先认场内职责与位置；首次出现在 EP06-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP06-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "阿尔喀诺俄斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-72f4c040a4",
+      "name": "桨手",
+      "aliases": [
+        "航海行动角色"
+      ],
+      "faction": "phaeacia",
+      "color": "#8b7468",
+      "anchor": "先认场内职责与位置；首次出现在 EP16-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP16-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "桨手"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-75bd3471a0",
+      "name": "赫利俄斯声",
+      "aliases": [
+        "声音／神意层"
+      ],
+      "faction": "gods",
+      "color": "#758091",
+      "anchor": "先认场内职责与位置；首次出现在 EP15-S03。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP15-S03 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "赫利俄斯声"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-76fd0f82c9",
+      "name": "海伦",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP04-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP04-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "海伦"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-80d054451f",
+      "name": "洞外独眼巨人们",
+      "aliases": [
+        "异境角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP10-S03。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP10-S03 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "洞外独眼巨人们"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-88607d1b7c",
+      "name": "侦察船员",
+      "aliases": [
+        "航海行动角色"
+      ],
+      "faction": "sailors",
+      "color": "#657b7b",
+      "anchor": "先认场内职责与位置；首次出现在 EP11-S05。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP11-S05 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "侦察船员"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-8ad745e9e6",
+      "name": "墨涅拉俄斯",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP04-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP04-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "墨涅拉俄斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-8dc50aff6d",
+      "name": "安提克勒娅",
+      "aliases": [
+        "冥界证词角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP13-S03。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP13-S03 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "安提克勒娅"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-90c804e600",
+      "name": "涅斯托耳",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP03-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP03-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "涅斯托耳"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-93ed51cfe3",
+      "name": "忒奥克吕墨诺斯",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP18-S02。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP18-S02 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "忒奥克吕墨诺斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-9e3b28fef6",
+      "name": "磨坊女奴",
+      "aliases": [
+        "伊萨卡家宅"
+      ],
+      "faction": "household",
+      "color": "#9b8050",
+      "anchor": "先认场内职责与位置；首次出现在 EP24-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP24-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "磨坊女奴"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-9ef1aae9e9",
+      "name": "厄尔佩诺耳",
+      "aliases": [
+        "异境角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP13-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP13-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "厄尔佩诺耳"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-a065f51781",
+      "name": "菲埃克斯船长",
+      "aliases": [
+        "菲埃克斯人物"
+      ],
+      "faction": "phaeacia",
+      "color": "#8b7468",
+      "anchor": "先认场内职责与位置；首次出现在 EP16-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP16-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "菲埃克斯船长"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-a9c3e445d9",
+      "name": "厄刻涅俄斯",
+      "aliases": [
+        "菲埃克斯人物"
+      ],
+      "faction": "phaeacia",
+      "color": "#8b7468",
+      "anchor": "先认场内职责与位置；首次出现在 EP07-S02。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP07-S02 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "厄刻涅俄斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-ad5bdec435",
+      "name": "女伴们",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP06-S02。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP06-S02 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "女伴们"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-afdad440f9",
+      "name": "伊洛斯",
+      "aliases": [
+        "求婚者阵营"
+      ],
+      "faction": "suitors",
+      "color": "#9a4f3f",
+      "anchor": "先认场内职责与位置；首次出现在 EP21-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "求婚者前景轮廓",
+      "first_appearance": "EP21-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "伊洛斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-b15d629794",
+      "name": "求婚者亡魂",
+      "aliases": [
+        "冥界证词角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP30-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP30-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "求婚者亡魂"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-b6fb1b1085",
+      "name": "猪场帮工",
+      "aliases": [
+        "忠诚家宅"
+      ],
+      "faction": "loyal-household",
+      "color": "#6f7754",
+      "anchor": "先认场内职责与位置；首次出现在 EP17-S02。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP17-S02 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "猪场帮工"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-bd4785fd10",
+      "name": "伊萨卡亲族",
+      "aliases": [
+        "伊萨卡家宅"
+      ],
+      "faction": "household",
+      "color": "#9b8050",
+      "anchor": "先认场内职责与位置；首次出现在 EP30-S05。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP30-S05 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "伊萨卡亲族"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-bd7d94083f",
+      "name": "埃及普提俄斯",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP02-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP02-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "埃及普提俄斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-be32dd961f",
+      "name": "莱斯特律戈涅斯人",
+      "aliases": [
+        "异境角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP11-S05。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP11-S05 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "莱斯特律戈涅斯人"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-c2c8244b1a",
+      "name": "雷奥克里托斯",
+      "aliases": [
+        "求婚者阵营"
+      ],
+      "faction": "suitors",
+      "color": "#9a4f3f",
+      "anchor": "先认场内职责与位置；首次出现在 EP02-S03。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "求婚者前景轮廓",
+      "first_appearance": "EP02-S03 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "雷奥克里托斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-c48d0a3c33",
+      "name": "阿瑞忒",
+      "aliases": [
+        "菲埃克斯人物"
+      ],
+      "faction": "phaeacia",
+      "color": "#8b7468",
+      "anchor": "先认场内职责与位置；首次出现在 EP07-S02。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP07-S02 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "阿瑞忒"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-d2590e81f1",
+      "name": "欧律洛科斯",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP09-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP09-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "欧律洛科斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-d46cb02ac6",
+      "name": "喀耳刻",
+      "aliases": [
+        "异境角色"
+      ],
+      "faction": "otherworld",
+      "color": "#66504f",
+      "anchor": "先认场内职责与位置；首次出现在 EP12-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "异境／证词轮廓",
+      "first_appearance": "EP12-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "喀耳刻"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-d9517c136e",
+      "name": "伏击船员",
+      "aliases": [
+        "航海行动角色"
+      ],
+      "faction": "sailors",
+      "color": "#657b7b",
+      "anchor": "先认场内职责与位置；首次出现在 EP04-S05。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP04-S05 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "伏击船员"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-de3eba2b27",
+      "name": "劳达玛斯",
+      "aliases": [
+        "菲埃克斯人物"
+      ],
+      "faction": "phaeacia",
+      "color": "#8b7468",
+      "anchor": "先认场内职责与位置；首次出现在 EP08-S02。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP08-S02 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "劳达玛斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-ed92766326",
+      "name": "庇西斯特拉托斯",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP03-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP03-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "庇西斯特拉托斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-f0c5be3af3",
+      "name": "墨冬",
+      "aliases": [
+        "城邦／旅途人物"
+      ],
+      "faction": "civic",
+      "color": "#8c7659",
+      "anchor": "先认场内职责与位置；首次出现在 EP28-S04。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP28-S04 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "墨冬"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-f3571135b6",
+      "name": "拉厄耳忒斯",
+      "aliases": [
+        "伊萨卡家宅"
+      ],
+      "faction": "household",
+      "color": "#9b8050",
+      "anchor": "先认场内职责与位置；首次出现在 EP30-S02。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP30-S02 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "拉厄耳忒斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-f46bdaede9",
+      "name": "复原船员",
+      "aliases": [
+        "航海行动角色"
+      ],
+      "faction": "sailors",
+      "color": "#657b7b",
+      "anchor": "先认场内职责与位置；首次出现在 EP12-S04。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP12-S04 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "复原船员"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-fa86f94b01",
+      "name": "欧佩忒斯",
+      "aliases": [
+        "忠诚家宅"
+      ],
+      "faction": "loyal-household",
+      "color": "#6f7754",
+      "anchor": "先认场内职责与位置；首次出现在 EP30-S04。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP30-S04 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "欧佩忒斯"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "support-fe93eb93be",
+      "name": "瑙西卡",
+      "aliases": [
+        "菲埃克斯人物"
+      ],
+      "faction": "phaeacia",
+      "color": "#8b7468",
+      "anchor": "先认场内职责与位置；首次出现在 EP06-S01。",
+      "prop": "随本场关键物与行动显示",
+      "shape": "按场内任务区分",
+      "first_appearance": "EP06-S01 首次进入 Graphic 阅读层。",
+      "source_labels": [
+        "瑙西卡"
+      ],
+      "recognition_level": "P7B_CONTEXT_ONLY"
+    },
+    {
+      "id": "telemachus",
+      "name": "忒勒马科斯",
+      "aliases": [
+        "儿子",
+        "继承人",
+        "战斗右翼"
+      ],
+      "faction": "household",
+      "color": "#6d8e92",
+      "anchor": "长颈、左脚先行、从不合身剑带到稳定盾位",
+      "prop": "账板／短剑",
+      "shape": "上升斜线",
+      "first_appearance": "说明当前能力阶段，不提前写成成熟英雄",
+      "image": "media/visual/characters/P4-CHAR-TEL-IDENTITY-V01.png",
+      "image_responsive": "media/visual/characters/P4-CHAR-TEL-IDENTITY-V01-w720.webp",
+      "source_labels": [
+        "忒勒马科斯"
+      ],
+      "recognition_level": "P7A_FROZEN_DETAIL"
+    }
+  ],
+  "status": "COMPLETE_P7B_CHARACTER_ID_RESOLUTION"
+}

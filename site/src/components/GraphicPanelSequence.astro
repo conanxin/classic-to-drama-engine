@@ -1,0 +1,40 @@
+---
+import ResponsiveImage from './ResponsiveImage.astro';
+
+interface Character { id:string; name:string; color:string; aliases:string[]; }
+interface Props { panels:any[]; characters:Character[]; }
+const { panels, characters } = Astro.props;
+const speakerColor = (speaker:string) => characters.find((character) => speaker.includes(character.name))?.color || 'var(--graphic-accent)';
+const sourceLabel:Record<string,string> = {
+  P4_HIGH_FIDELITY:'P4 approved high-fidelity',
+  STORYBOARD_DERIVED_PANEL:'P4 single-frame storyboard derivative',
+  ANIMATIC_DERIVED_PANEL:'P5 animatic-card derivative'
+};
+const wideTypes = new Set(['ESTABLISHING','ACTION','REVEAL','ENVIRONMENT','CLIMAX','POV']);
+---
+<ol class="panel-sequence" aria-label="本场图像小说式叙事序列">
+  {panels.map((panel, index) => (
+    <li class:list={['panel-card', `panel-${panel.panel_type.toLowerCase()}`, `ratio-${panel.ratio.replace(':','-')}`, { wide:wideTypes.has(panel.panel_type), silent:panel.silent }]} data-panel-id={panel.panel_id}>
+      <figure>
+        <ResponsiveImage src={panel.visual.public_path} alt={panel.alt} loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : 'auto'} sizes="(max-width: 850px) calc(100vw - 2rem), 70vw" />
+        {panel.caption && <figcaption>{panel.caption}</figcaption>}
+      </figure>
+      {panel.dialogue && <blockquote class="panel-bubble" style={`--speaker:${speakerColor(panel.dialogue.speaker)}`}>
+        <p>{panel.dialogue.text}</p><cite>{panel.dialogue.speaker}</cite>
+      </blockquote>}
+      {panel.silent && <span class="silent-beat" aria-label="无对白画面">无对白</span>}
+      <details class="panel-provenance" data-pagefind-ignore>
+        <summary>画面依据</summary>
+        <p><strong>{sourceLabel[panel.visual.source_kind]}</strong><span>{panel.shot_id} · {panel.panel_type}</span><span>{panel.visual.authority}</span></p>
+      </details>
+    </li>
+  ))}
+</ol>
+<style>
+  .panel-sequence{list-style:none;padding:0;margin:1.5rem 0 0;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(.75rem,1.8vw,1.4rem);align-items:start}.panel-card{grid-column:span 6;position:relative;min-width:0;background:var(--graphic-black);border:1px solid var(--graphic-rule);overflow:clip}.panel-card.wide{grid-column:1/-1}.panel-card:nth-child(3n+2):not(.wide){grid-column:span 7}.panel-card:nth-child(3n):not(.wide){grid-column:span 5}
+  figure{margin:0;position:relative;background:#090908;overflow:hidden}.ratio-16-9 figure{aspect-ratio:16/9}.ratio-3-2 figure{aspect-ratio:3/2}.ratio-4-3 figure{aspect-ratio:4/3}.ratio-1-1 figure{aspect-ratio:1/1}figcaption{position:absolute;left:0;bottom:0;max-width:min(32rem,90%);padding:.7rem .85rem;background:rgba(12,12,11,.88);color:var(--graphic-paper);font-family:var(--serif);font-size:clamp(.74rem,1.2vw,.9rem);line-height:1.55;border-top:2px solid var(--graphic-accent)}
+  .panel-bubble{position:relative;margin:-1.1rem clamp(.7rem,3vw,1.4rem) 1rem auto;width:min(82%,28rem);padding:.8rem 1rem .7rem;background:var(--graphic-paper);color:var(--graphic-ink);border-left:4px solid var(--speaker);box-shadow:0 .7rem 1.7rem rgba(0,0,0,.3);z-index:2}.panel-bubble::before{content:"";position:absolute;top:-.55rem;right:1.4rem;border-width:0 .55rem .6rem;border-style:solid;border-color:transparent transparent var(--graphic-paper)}.panel-bubble p{font-family:var(--serif);font-size:clamp(.92rem,1.45vw,1.1rem);line-height:1.65;margin:0 0 .35rem}.panel-bubble cite{font-style:normal;color:var(--speaker);font-size:.56rem;letter-spacing:.1em}.silent-beat{position:absolute;left:.65rem;top:.65rem;padding:.22rem .4rem;background:rgba(12,12,11,.7);color:var(--graphic-muted);font-size:.48rem;letter-spacing:.12em}
+  .panel-provenance{border-top:1px solid var(--graphic-rule);color:var(--graphic-muted)}.panel-provenance summary{cursor:pointer;list-style:none;padding:.48rem .65rem;font-size:.5rem;letter-spacing:.1em}.panel-provenance summary::-webkit-details-marker{display:none}.panel-provenance p{display:flex;flex-wrap:wrap;gap:.35rem 1rem;margin:0;padding:0 .65rem .65rem;font-size:.52rem}.panel-provenance strong{color:var(--graphic-paper);font-weight:500}.panel-provenance span:last-child{width:100%}
+  @media(max-width:700px){.panel-sequence{display:block;margin-top:1rem}.panel-card,.panel-card.wide,.panel-card:nth-child(3n+2):not(.wide),.panel-card:nth-child(3n):not(.wide){margin-bottom:.85rem}.panel-card figure{aspect-ratio:auto;min-height:10rem}.panel-card figure :global(img){min-height:10rem;max-height:70vh;object-fit:cover}.panel-bubble{width:calc(100% - 1.4rem);margin:-.65rem .7rem .8rem}.panel-provenance summary{min-height:2rem;display:flex;align-items:center}}
+</style>
+<style is:global>.panel-card figure picture,.panel-card figure img{display:block;width:100%;height:100%}.panel-card figure img{object-fit:cover}</style>

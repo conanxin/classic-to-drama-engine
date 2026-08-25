@@ -1,0 +1,1390 @@
+{
+  "artifact_class": "ODYSSEY_P7B_NEW_PANEL_GENERATION_QUEUE",
+  "schema_version": "1.0.0",
+  "purpose": "Optional P8 high-fidelity upgrades only; no entry is a missing P7B panel or placeholder.",
+  "graphic_completion_blocked": false,
+  "queue_count": 104,
+  "items": [
+    {
+      "queue_id": "UPGRADE-EP01-S02",
+      "episode": "EP01",
+      "scene_id": "EP01-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP01-S03",
+      "episode": "EP01",
+      "scene_id": "EP01-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP01-S04",
+      "episode": "EP01",
+      "scene_id": "EP01-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP01-S05",
+      "episode": "EP01",
+      "scene_id": "EP01-S05",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP02-S01",
+      "episode": "EP02",
+      "scene_id": "EP02-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP02-S02",
+      "episode": "EP02",
+      "scene_id": "EP02-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP02-S03",
+      "episode": "EP02",
+      "scene_id": "EP02-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP02-S04",
+      "episode": "EP02",
+      "scene_id": "EP02-S04",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP03-S01",
+      "episode": "EP03",
+      "scene_id": "EP03-S01",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP03-S02",
+      "episode": "EP03",
+      "scene_id": "EP03-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP03-S03",
+      "episode": "EP03",
+      "scene_id": "EP03-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP03-S04",
+      "episode": "EP03",
+      "scene_id": "EP03-S04",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP03-S05",
+      "episode": "EP03",
+      "scene_id": "EP03-S05",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP04-S01",
+      "episode": "EP04",
+      "scene_id": "EP04-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP04-S02",
+      "episode": "EP04",
+      "scene_id": "EP04-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP04-S03",
+      "episode": "EP04",
+      "scene_id": "EP04-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP04-S04",
+      "episode": "EP04",
+      "scene_id": "EP04-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP04-S05",
+      "episode": "EP04",
+      "scene_id": "EP04-S05",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP05-S01",
+      "episode": "EP05",
+      "scene_id": "EP05-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP05-S05",
+      "episode": "EP05",
+      "scene_id": "EP05-S05",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP06-S01",
+      "episode": "EP06",
+      "scene_id": "EP06-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP06-S03",
+      "episode": "EP06",
+      "scene_id": "EP06-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP06-S04",
+      "episode": "EP06",
+      "scene_id": "EP06-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP06-S05",
+      "episode": "EP06",
+      "scene_id": "EP06-S05",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP07-S01",
+      "episode": "EP07",
+      "scene_id": "EP07-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP07-S03",
+      "episode": "EP07",
+      "scene_id": "EP07-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP07-S04",
+      "episode": "EP07",
+      "scene_id": "EP07-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP07-S05",
+      "episode": "EP07",
+      "scene_id": "EP07-S05",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP08-S01",
+      "episode": "EP08",
+      "scene_id": "EP08-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP08-S02",
+      "episode": "EP08",
+      "scene_id": "EP08-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP08-S03",
+      "episode": "EP08",
+      "scene_id": "EP08-S03",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP08-S04",
+      "episode": "EP08",
+      "scene_id": "EP08-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP09-S01",
+      "episode": "EP09",
+      "scene_id": "EP09-S01",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP09-S02",
+      "episode": "EP09",
+      "scene_id": "EP09-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP09-S03",
+      "episode": "EP09",
+      "scene_id": "EP09-S03",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP09-S04",
+      "episode": "EP09",
+      "scene_id": "EP09-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP11-S01",
+      "episode": "EP11",
+      "scene_id": "EP11-S01",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP11-S02",
+      "episode": "EP11",
+      "scene_id": "EP11-S02",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP11-S04",
+      "episode": "EP11",
+      "scene_id": "EP11-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP12-S02",
+      "episode": "EP12",
+      "scene_id": "EP12-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP12-S04",
+      "episode": "EP12",
+      "scene_id": "EP12-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP12-S05",
+      "episode": "EP12",
+      "scene_id": "EP12-S05",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP13-S01",
+      "episode": "EP13",
+      "scene_id": "EP13-S01",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP13-S02",
+      "episode": "EP13",
+      "scene_id": "EP13-S02",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP13-S04",
+      "episode": "EP13",
+      "scene_id": "EP13-S04",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP13-S05",
+      "episode": "EP13",
+      "scene_id": "EP13-S05",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP14-S01",
+      "episode": "EP14",
+      "scene_id": "EP14-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP14-S02",
+      "episode": "EP14",
+      "scene_id": "EP14-S02",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP15-S01",
+      "episode": "EP15",
+      "scene_id": "EP15-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP15-S02",
+      "episode": "EP15",
+      "scene_id": "EP15-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP15-S03",
+      "episode": "EP15",
+      "scene_id": "EP15-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP16-S01",
+      "episode": "EP16",
+      "scene_id": "EP16-S01",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP16-S02",
+      "episode": "EP16",
+      "scene_id": "EP16-S02",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP16-S04",
+      "episode": "EP16",
+      "scene_id": "EP16-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP17-S01",
+      "episode": "EP17",
+      "scene_id": "EP17-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP17-S02",
+      "episode": "EP17",
+      "scene_id": "EP17-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP17-S03",
+      "episode": "EP17",
+      "scene_id": "EP17-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP17-S04",
+      "episode": "EP17",
+      "scene_id": "EP17-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP17-S05",
+      "episode": "EP17",
+      "scene_id": "EP17-S05",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP18-S01",
+      "episode": "EP18",
+      "scene_id": "EP18-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP18-S02",
+      "episode": "EP18",
+      "scene_id": "EP18-S02",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP18-S03",
+      "episode": "EP18",
+      "scene_id": "EP18-S03",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP18-S04",
+      "episode": "EP18",
+      "scene_id": "EP18-S04",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP19-S01",
+      "episode": "EP19",
+      "scene_id": "EP19-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP19-S02",
+      "episode": "EP19",
+      "scene_id": "EP19-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP19-S04",
+      "episode": "EP19",
+      "scene_id": "EP19-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP19-S05",
+      "episode": "EP19",
+      "scene_id": "EP19-S05",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP20-S01",
+      "episode": "EP20",
+      "scene_id": "EP20-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP20-S02",
+      "episode": "EP20",
+      "scene_id": "EP20-S02",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP20-S05",
+      "episode": "EP20",
+      "scene_id": "EP20-S05",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP21-S01",
+      "episode": "EP21",
+      "scene_id": "EP21-S01",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP21-S02",
+      "episode": "EP21",
+      "scene_id": "EP21-S02",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP21-S03",
+      "episode": "EP21",
+      "scene_id": "EP21-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP21-S04",
+      "episode": "EP21",
+      "scene_id": "EP21-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP21-S05",
+      "episode": "EP21",
+      "scene_id": "EP21-S05",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP22-S02",
+      "episode": "EP22",
+      "scene_id": "EP22-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP22-S03",
+      "episode": "EP22",
+      "scene_id": "EP22-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP22-S04",
+      "episode": "EP22",
+      "scene_id": "EP22-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP22-S05",
+      "episode": "EP22",
+      "scene_id": "EP22-S05",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP23-S02",
+      "episode": "EP23",
+      "scene_id": "EP23-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP23-S03",
+      "episode": "EP23",
+      "scene_id": "EP23-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP24-S01",
+      "episode": "EP24",
+      "scene_id": "EP24-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP24-S02",
+      "episode": "EP24",
+      "scene_id": "EP24-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP24-S03",
+      "episode": "EP24",
+      "scene_id": "EP24-S03",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP24-S04",
+      "episode": "EP24",
+      "scene_id": "EP24-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP24-S05",
+      "episode": "EP24",
+      "scene_id": "EP24-S05",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP25-S01",
+      "episode": "EP25",
+      "scene_id": "EP25-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP25-S03",
+      "episode": "EP25",
+      "scene_id": "EP25-S03",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP25-S04",
+      "episode": "EP25",
+      "scene_id": "EP25-S04",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP25-S05",
+      "episode": "EP25",
+      "scene_id": "EP25-S05",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP26-S01",
+      "episode": "EP26",
+      "scene_id": "EP26-S01",
+      "priority": "HIGH",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity",
+        "A26-001",
+        "A26-002"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP26-S04",
+      "episode": "EP26",
+      "scene_id": "EP26-S04",
+      "priority": "HIGH",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity",
+        "A26-007",
+        "A26-008"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP26-S05",
+      "episode": "EP26",
+      "scene_id": "EP26-S05",
+      "priority": "HIGH",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity",
+        "A26-009",
+        "A26-010",
+        "A26-011",
+        "A26-012"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP27-S01",
+      "episode": "EP27",
+      "scene_id": "EP27-S01",
+      "priority": "HIGH",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity",
+        "A27-001",
+        "A27-002"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP27-S02",
+      "episode": "EP27",
+      "scene_id": "EP27-S02",
+      "priority": "HIGH",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity",
+        "A27-003",
+        "A27-004"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP27-S04",
+      "episode": "EP27",
+      "scene_id": "EP27-S04",
+      "priority": "HIGH",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity",
+        "A27-008",
+        "A27-009",
+        "A27-010",
+        "A27-011"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP27-S05",
+      "episode": "EP27",
+      "scene_id": "EP27-S05",
+      "priority": "HIGH",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity",
+        "A27-012",
+        "A27-013",
+        "A27-014",
+        "A27-015"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP28-S01",
+      "episode": "EP28",
+      "scene_id": "EP28-S01",
+      "priority": "HIGH",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity",
+        "A28-001",
+        "A28-002",
+        "A28-003"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP28-S02",
+      "episode": "EP28",
+      "scene_id": "EP28-S02",
+      "priority": "HIGH",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity",
+        "A28-004",
+        "A28-005",
+        "A28-006"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP28-S04",
+      "episode": "EP28",
+      "scene_id": "EP28-S04",
+      "priority": "HIGH",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity",
+        "A28-014",
+        "A28-015"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP29-S01",
+      "episode": "EP29",
+      "scene_id": "EP29-S01",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP29-S02",
+      "episode": "EP29",
+      "scene_id": "EP29-S02",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP29-S03",
+      "episode": "EP29",
+      "scene_id": "EP29-S03",
+      "priority": "LOW",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    },
+    {
+      "queue_id": "UPGRADE-EP30-S01",
+      "episode": "EP30",
+      "scene_id": "EP30-S01",
+      "priority": "MEDIUM",
+      "purpose": "Future P8 high-fidelity replacement for one technical/animatic-derived anchor while preserving current complete Graphic reading coverage.",
+      "current_visual_status": "COMPLETE_WITH_APPROVED_TECHNICAL_AUTHORITY",
+      "required_continuity_refs": [
+        "P7B panel manifest",
+        "P4 visual bible",
+        "P3 scene/prop continuity"
+      ]
+    }
+  ],
+  "status": "NON_BLOCKING_FUTURE_RENDER_QUEUE"
+}

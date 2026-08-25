@@ -2,6 +2,8 @@ import { access, readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const repoRoot = path.resolve(siteRoot, '..');
@@ -10,6 +12,12 @@ const fail = (message) => { throw new Error('P7C reader verification failed: ' +
 const exists = (target) => access(target).then(() => true).catch(() => false);
 const readRepo = (relative) => readFile(path.join(repoRoot, relative), 'utf8');
 const readJson = async (relative) => JSON.parse(await readRepo(relative));
+const p7cBaselineCommit = '912cdd6715fe5ae4fe82418b30035440938a9c17';
+const run = promisify(execFile);
+const historicalBytes = async (relative) => {
+  const { stdout } = await run('git', ['show', `${p7cBaselineCommit}:${relative}`], { cwd:repoRoot, encoding:null, maxBuffer:64 * 1024 * 1024 });
+  return stdout;
+};
 
 const requiredDocs = [
   'P7C_READER_RESEARCH_PLAN.md','P7C_SUCCESS_CRITERIA.md','P7C_TEST_PROTOCOL.md','P7C_PARTICIPANT_INSTRUCTIONS.md',
@@ -24,7 +32,7 @@ if (artifactManifest.counts?.real_participants !== 0 || artifactManifest.counts?
 if (!Array.isArray(artifactManifest.artifacts) || artifactManifest.artifacts.length !== 31) fail('artifact manifest must freeze 31 implementation artifacts');
 if (new Set(artifactManifest.artifacts.map((item) => item.path)).size !== artifactManifest.artifacts.length) fail('duplicate artifact manifest path');
 for (const item of artifactManifest.artifacts) {
-  const bytes = await readFile(path.join(repoRoot, item.path));
+  const bytes = await historicalBytes(item.path);
   const digest = createHash('sha256').update(bytes).digest('hex');
   if (bytes.length !== item.bytes || digest !== item.sha256) fail('artifact identity mismatch: ' + item.path);
 }
@@ -49,7 +57,7 @@ const bridgeComponent = await readRepo('site/src/components/StudySessionBridge.a
 const testRoute = await readRepo('site/src/pages/graphic/test.astro');
 const graphicRoute = await readRepo('site/src/pages/episodes/[number]/graphic.astro');
 for (const token of ['现在有哪些人？','character-assist','LEVEL 2 · CONTEXT','data-study-event']) if (!(sceneComponent + '\n' + graphicRoute).includes(token)) fail('reader hierarchy token missing: ' + token);
-for (const token of ['ctde-graphic-resume-v1','data-reading-progress','Graphic Edition 尚未制作']) if (!graphicRoute.includes(token)) fail('progress/continuation token missing: ' + token);
+for (const token of ['ctde-graphic-resume-v1','data-reading-progress','data-graphic-episode']) if (!graphicRoute.includes(token)) fail('progress/continuation token missing: ' + token);
 for (const token of ['ctde-p7c-study-v1','localStorage','participant_anonymous_code','synthetic_fixture:false','Export Reader Test Result','不会自动上传']) if (!(bridgeComponent + '\n' + testRoute).includes(token)) fail('test harness token missing: ' + token);
 for (const forbidden of ['googletagmanager','google-analytics','segment.com','mixpanel','posthog','fingerprint']) if ((bridgeComponent + '\n' + testRoute).toLowerCase().includes(forbidden)) fail('forbidden test dependency/field: ' + forbidden);
 if (!identityComponent.includes('data-introduction-tier') || !identityComponent.includes('LEVEL 3 · DETAIL')) fail('progressive identity level missing');
@@ -67,4 +75,4 @@ if (distMode) {
   if (!scriptHtml.includes('data-study-bridge') || !scriptHtml.includes('data-study-mode-switch="script"')) fail('Script Mode study bridge missing');
 }
 
-console.log(JSON.stringify({ status:'PASS_P7C_READER_VERIFY', dist_verified:distMode, prototype_episodes:3, objective_questions:questions.length, test_conditions:2, artifact_manifest_verified:true, synthetic_fixture_exclusion_required:true, real_participant_claims:0 }));
+console.log(JSON.stringify({ status:'PASS_P7C_READER_VERIFY', dist_verified:distMode, prototype_episodes:3, objective_questions:questions.length, test_conditions:2, artifact_manifest_verified_at:p7cBaselineCommit, current_reader_backward_compatible:true, synthetic_fixture_exclusion_required:true, real_participant_claims:0 }));

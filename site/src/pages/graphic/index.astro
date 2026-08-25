@@ -1,21 +1,23 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ResponsiveImage from '../../components/ResponsiveImage.astro';
-import prototypes from '../../generated/graphic-prototypes.json';
-import characters from '../../generated/graphic-characters.json';
+import graphicEpisodes from '../../generated/graphic-episodes.json';
+import characterRegistry from '../../generated/graphic-characters-p7b.json';
 import { episodePath, formatRuntime, graphicEpisodePath, withBase } from '../../lib/urls';
-const characterMap = new Map(characters.characters.map((item) => [item.id, item]));
+const characterMap = new Map(characterRegistry.characters.map((item) => [item.id, item]));
+const movements = [...new Map(graphicEpisodes.map((episode) => [episode.story_arc_id, { id:episode.story_arc_id, title:episode.story_stage.split('｜')[0] }])).values()];
+const pad = (number:number) => String(number).padStart(2, '0');
 ---
-<BaseLayout title="Graphic Mode｜《归途：奥德修斯》图文剧本" description="EP01、EP19、EP27 图像小说式短剧剧本原型：先认人、再进场，在不替代完整 V2 剧本的前提下降低阅读负担。">
+<BaseLayout title="30 集 Graphic Novel Script｜《归途：奥德修斯》" description="《归途：奥德修斯》完整 30 集、150 场图像小说式短剧剧本。保留完整 Script Mode，并以图像、对白、人物与空间辅助连续阅读。" image={withBase(graphicEpisodes[18].cover_visual.path)}>
   <div class="graphic-index">
     <header class="graphic-hero">
       <div class="hero-copy">
-        <p class="eyebrow">GRAPHIC SCRIPT · P7A PROTOTYPE</p>
-        <h1>先认人，<br />再进场。</h1>
-        <p>Graphic Mode 是《归途：奥德修斯》的第二种阅读层：用批准的视觉锚点、关系提示与精选原文对白，帮助普通读者进入空间、记住人物、跟上冲突。</p>
-        <div class="dual-note"><span>Graphic Mode</span><b>降低理解门槛</b><i>＋</i><span>Script Mode</span><b>保留完整 V2 原文</b></div>
+        <p class="eyebrow">GRAPHIC NOVEL SCRIPT · 30 EPISODES</p>
+        <h1>从失去名字，<br />到被家认出。</h1>
+        <p>30 集、150 场完整图像小说式短剧剧本。每场以真实批准画面、精选原文对白与完整 V2 source layer 组成；你可以一路读到底，也可以随时切回专业剧本。</p>
+        <nav><a href={graphicEpisodePath(1)}>从 EP01 开始</a><a href={episodePath(1)}>切到 Script Mode</a></nav>
       </div>
-      <figure class="hero-visual"><ResponsiveImage src={prototypes[1].cover_visual.path} responsive={prototypes[1].cover_visual.responsive} alt={prototypes[1].cover_visual.alt} loading="eager" fetchpriority="high" sizes="(max-width: 850px) 100vw, 60vw" /></figure>
+      <figure class="hero-visual"><ResponsiveImage src={graphicEpisodes[18].cover_visual.path} alt={graphicEpisodes[18].cover_visual.alt} loading="eager" fetchpriority="high" sizes="(max-width: 850px) 100vw, 60vw" /></figure>
     </header>
 
     <aside class="continue-reading" data-continue-reading data-episode-base={withBase('episodes/')} hidden data-pagefind-ignore>
@@ -23,25 +25,30 @@ const characterMap = new Map(characters.characters.map((item) => [item.id, item]
       <nav><a data-continue-link href={graphicEpisodePath(1)}>继续阅读</a><button type="button" data-clear-resume>清除本机记录</button></nav>
     </aside>
 
-    <section class="prototype-list" aria-labelledby="prototype-title">
-      <header><p class="eyebrow">THREE READING TESTS</p><h2 id="prototype-title">三种阅读难题，三集原型</h2></header>
-      {prototypes.map((prototype, index) => (
-        <article class="prototype-row">
-          <div class="prototype-number"><span>EP</span><strong>{String(prototype.number).padStart(2, '0')}</strong></div>
-          <div class="prototype-image"><ResponsiveImage src={prototype.cover_visual.path} responsive={prototype.cover_visual.responsive} alt={prototype.cover_visual.alt} loading={index === 0 ? 'eager' : 'lazy'} sizes="(max-width: 850px) calc(100vw - 2rem), 42vw" /></div>
-          <div class="prototype-copy">
-            <p class="story-stage">{prototype.story_stage}</p><h3>{prototype.title}</h3><p>{prototype.core_conflict}</p>
-            <dl><div><dt>时长</dt><dd>{formatRuntime(prototype.runtime_seconds)}</dd></div><div><dt>场次</dt><dd>{prototype.scenes.length}</dd></div><div><dt>人物</dt><dd>{prototype.cast.slice(0, 5).map((id) => characterMap.get(id)?.name).filter(Boolean).join('、')}</dd></div></dl>
-            <nav aria-label={`EP${String(prototype.number).padStart(2,'0')}阅读入口`}><a class="primary" href={graphicEpisodePath(prototype.number)}>进入图文模式</a><a href={episodePath(prototype.number)}>阅读完整剧本</a></nav>
-          </div>
-        </article>
-      ))}
+    <section class="series-map" aria-labelledby="series-map-title">
+      <header><p class="eyebrow">VISUAL STORY MAP</p><h2 id="series-map-title">五段归途，三十个入口</h2><p>Arc 划分直接来自冻结的 30 集 architecture。地点提示帮助复位，不把它扩张成知识图谱。</p></header>
+      <ol>{graphicEpisodes.map((episode) => <li style={`--episode:${episode.palette.accent}`}><a href={graphicEpisodePath(episode.number)}><span>{pad(episode.number)}</span><strong>{episode.title}</strong><small>{episode.geography.slice(0,2).join(' / ')}</small></a></li>)}</ol>
     </section>
 
-    <section class="system-note">
-      <p class="eyebrow">ONE STORY · TWO READING LAYERS</p><h2>图像不是替故事变简单，<br />而是让复杂信息有位置。</h2>
-      <div><p><strong>人物识别</strong>稳定色彩、轮廓、道具与称谓，帮助读者在多人场面中复位。</p><p><strong>关系辅助</strong>只显示当前阅读层已知的信息，保留伪装、怀疑与识别的戏剧张力。</p><p><strong>空间锚点</strong>每场至少一个可见空间或物件，让冲突不漂浮在抽象说明里。</p><p><strong>原文回到手边</strong>每个场块都能展开对应完整 V2 剧本，Graphic Mode 不替换 Script Mode。</p></div>
-    </section>
+    <main class="episode-directory">
+      {movements.map((movement, movementIndex) => {
+        const episodes = graphicEpisodes.filter((episode) => episode.story_arc_id === movement.id);
+        return <section class="movement" aria-labelledby={`movement-${movementIndex + 1}`}>
+          <header><p>ARC {pad(movementIndex + 1)}</p><h2 id={`movement-${movementIndex + 1}`}>{movement.title}</h2><span>EP{pad(episodes[0]!.number)}–EP{pad(episodes.at(-1)!.number)}</span></header>
+          <ol>{episodes.map((episode) => <li>
+            <a class="episode-row" href={graphicEpisodePath(episode.number)}>
+              <span class="episode-number">EP <b>{pad(episode.number)}</b></span>
+              <figure><ResponsiveImage src={episode.cover_visual.path} alt={episode.cover_visual.alt} loading="lazy" sizes="(max-width: 700px) 38vw, 15vw" /></figure>
+              <div><p>{episode.story_stage}</p><h3>{episode.title}</h3><small>{episode.core_conflict}</small></div>
+              <dl><div><dt>时长</dt><dd>{formatRuntime(episode.runtime_seconds)}</dd></div><div><dt>场次</dt><dd>{episode.scenes.length}</dd></div><div><dt>人物</dt><dd>{episode.cast.slice(0,3).map((id) => characterMap.get(id)?.name).filter(Boolean).join('、')}</dd></div></dl>
+              <i aria-hidden="true">→</i>
+            </a>
+          </li>)}</ol>
+        </section>;
+      })}
+    </main>
+
+    <section class="system-note"><p class="eyebrow">ONE STORY · TWO READING LAYERS</p><h2>图像安排复杂信息，<br />原文保留判断权。</h2><div><p><strong>人物识别</strong>稳定 identity、状态、阵营与称谓；细节只在需要时展开。</p><p><strong>漫画化序列</strong>每场 3–6 个有顺序的 visual beat，不是剧本配一张图。</p><p><strong>空间与关键物</strong>门、弓、斧、伤疤、床与武器 custody 沿 source continuity 回收。</p><p><strong>完整原文</strong>每场展开层与 Script Mode 都回到同一份 V2 Markdown。</p></div></section>
   </div>
 </BaseLayout>
 <script>
@@ -49,29 +56,28 @@ const characterMap = new Map(characters.characters.map((item) => [item.id, item]
   if (resume) {
     try {
       const state = JSON.parse(localStorage.getItem('ctde-graphic-resume-v1') || 'null');
-      if ([1,19,27].includes(Number(state?.episode))) {
+      if (Number(state?.episode) >= 1 && Number(state?.episode) <= 30) {
         const episode = String(state.episode).padStart(2, '0');
         const scene = Math.max(1, Math.min(5, Number(state.scene || 1)));
         const base = resume.dataset.episodeBase || '';
         const link = resume.querySelector<HTMLAnchorElement>('[data-continue-link]');
         const summary = resume.querySelector<HTMLElement>('[data-continue-summary]');
         if (link) link.href = `${base}${episode}/graphic/?resume=1#scene-${scene}`;
-        if (summary) summary.textContent = `EP${episode} · 场 ${String(scene).padStart(2,'0')} · 图文模式`;
+        if (summary) summary.textContent = `EP${episode} · 场 ${String(scene).padStart(2,'0')} · Graphic Mode`;
         resume.hidden = false;
       }
     } catch { /* optional local state */ }
-    resume.querySelector<HTMLButtonElement>('[data-clear-resume]')?.addEventListener('click', () => {
-      localStorage.removeItem('ctde-graphic-resume-v1');
-      resume.hidden = true;
-    });
+    resume.querySelector<HTMLButtonElement>('[data-clear-resume]')?.addEventListener('click', () => { localStorage.removeItem('ctde-graphic-resume-v1'); resume.hidden = true; });
   }
 </script>
 <style>
-  .graphic-index{--g-paper:#d8cfbb;--g-paper-2:#c6bda9;--g-ink:#151513;--g-muted:#9e9687;--g-rule:rgba(216,207,187,.22);background:var(--g-ink);color:var(--g-paper)}.graphic-hero{display:grid;grid-template-columns:minmax(22rem,.8fr) minmax(0,1.2fr);min-height:calc(100vh - var(--header));border-bottom:1px solid var(--g-rule)}.hero-copy{padding:clamp(4rem,8vw,8rem) var(--pad);display:flex;flex-direction:column;justify-content:center}.hero-copy h1{font-size:clamp(4rem,9vw,8rem);margin:.6rem 0 1.6rem;line-height:.86}.hero-copy>p:not(.eyebrow){max-width:34rem;font-family:var(--serif);font-size:clamp(1.05rem,1.8vw,1.35rem);color:var(--g-paper-2)}.hero-visual{margin:0;min-width:0;min-height:100%;background:#0c0c0b;overflow:hidden}.dual-note{display:grid;grid-template-columns:auto 1fr;gap:.2rem 1rem;margin-top:2rem;border-left:2px solid var(--rust);padding-left:1rem;font-size:.65rem}.dual-note span{letter-spacing:.12em;color:var(--g-muted)}.dual-note b{font-weight:400}.dual-note i{display:none}
-  .prototype-list{max-width:92rem;margin:auto;padding:clamp(5rem,9vw,9rem) var(--pad)}.prototype-list>header{display:grid;grid-template-columns:15rem 1fr;gap:2rem;align-items:end;margin-bottom:4rem}.prototype-list h2{margin:0}.prototype-row{display:grid;grid-template-columns:5rem minmax(20rem,1fr) minmax(20rem,1fr);gap:clamp(1rem,3vw,3rem);padding:2rem 0;border-top:1px solid var(--g-rule);align-items:center}.prototype-number{align-self:start;display:flex;flex-direction:column;color:var(--g-muted)}.prototype-number span{font-size:.55rem;letter-spacing:.15em}.prototype-number strong{font-family:var(--serif);font-size:2.6rem;font-weight:400}.prototype-image{aspect-ratio:16/10;overflow:hidden;background:#0c0c0b}.prototype-copy h3{font-size:clamp(2rem,4vw,3.6rem);margin:.2rem 0 1rem}.story-stage{color:var(--rust);font-size:.65rem;letter-spacing:.1em}.prototype-copy>p:not(.story-stage){font-family:var(--serif);color:var(--g-paper-2)}.prototype-copy dl{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin:1.5rem 0}.prototype-copy dl div{border-top:1px solid var(--g-rule);padding-top:.5rem}.prototype-copy dt{font-size:.55rem;color:var(--g-muted)}.prototype-copy dd{margin:.2rem 0 0;font-size:.68rem}.prototype-copy nav{display:flex;gap:1rem;align-items:center}.prototype-copy nav a{font-size:.72rem;padding:.65rem 0}.prototype-copy nav .primary{background:var(--g-paper);color:var(--g-ink);padding:.65rem 1rem;text-decoration:none}
+  .graphic-index{--g-paper:#d8cfbb;--g-paper-2:#c6bda9;--g-ink:#151513;--g-muted:#9e9687;--g-rule:rgba(216,207,187,.22);background:var(--g-ink);color:var(--g-paper)}.graphic-hero{display:grid;grid-template-columns:minmax(22rem,.8fr) minmax(0,1.2fr);min-height:calc(100vh - var(--header));border-bottom:1px solid var(--g-rule)}.hero-copy{padding:clamp(4rem,8vw,8rem) var(--pad);display:flex;flex-direction:column;justify-content:center}.hero-copy h1{font-size:clamp(3.7rem,8vw,7.5rem);margin:.6rem 0 1.6rem;line-height:.9}.hero-copy>p:not(.eyebrow){max-width:35rem;font-family:var(--serif);font-size:clamp(1.05rem,1.8vw,1.35rem);color:var(--g-paper-2)}.hero-copy nav{display:flex;gap:.7rem;margin-top:2rem}.hero-copy nav a{padding:.75rem 1rem;border:1px solid var(--g-rule);text-decoration:none;font-size:.7rem}.hero-copy nav a:first-child{background:var(--g-paper);color:var(--g-ink)}.hero-visual{margin:0;min-width:0;min-height:100%;background:#0c0c0b;overflow:hidden}
   .continue-reading{max-width:92rem;margin:0 auto;padding:1.2rem var(--pad);border-bottom:1px solid var(--g-rule);display:flex;justify-content:space-between;gap:2rem;align-items:center}.continue-reading[hidden]{display:none}.continue-reading h2{font-size:1.25rem;margin:.25rem 0}.continue-reading p:last-child{margin:0;color:var(--g-muted);font-size:.72rem}.continue-reading nav{display:flex;align-items:center;gap:.6rem}.continue-reading a,.continue-reading button{padding:.65rem .8rem;border:1px solid var(--g-rule);background:transparent;color:var(--g-paper);font:inherit;font-size:.65rem}.continue-reading a{background:var(--g-paper);color:var(--g-ink);text-decoration:none}.continue-reading button{cursor:pointer}
+  .series-map{max-width:92rem;margin:auto;padding:clamp(4rem,7vw,7rem) var(--pad);border-bottom:1px solid var(--g-rule)}.series-map>header{display:grid;grid-template-columns:12rem 1fr minmax(18rem,.6fr);gap:2rem;align-items:end}.series-map h2{margin:0}.series-map>header>p:last-child{font-family:var(--serif);color:var(--g-muted);margin:0}.series-map ol{list-style:none;margin:3rem 0 0;padding:0;display:grid;grid-template-columns:repeat(10,1fr);border-top:1px solid var(--g-rule);border-left:1px solid var(--g-rule)}.series-map li{min-width:0}.series-map a{display:flex;min-height:7.5rem;padding:.6rem;flex-direction:column;border-right:1px solid var(--g-rule);border-bottom:1px solid var(--g-rule);text-decoration:none;background:linear-gradient(to bottom,color-mix(in srgb,var(--episode) 18%,transparent),transparent 55%)}.series-map span{color:var(--episode);font-size:.58rem}.series-map strong{font-family:var(--serif);font-size:.7rem;font-weight:500;margin:.45rem 0 auto}.series-map small{font-size:.46rem;color:var(--g-muted)}
+  .episode-directory{max-width:92rem;margin:auto;padding:clamp(4rem,7vw,7rem) var(--pad)}.movement{margin-bottom:6rem}.movement>header{display:grid;grid-template-columns:7rem minmax(0,1fr) auto;gap:1rem;align-items:baseline;border-bottom:2px solid var(--g-paper);padding-bottom:1rem}.movement>header p,.movement>header span{font-size:.58rem;color:var(--g-muted);letter-spacing:.12em}.movement h2{font-size:clamp(2rem,4vw,4rem);margin:0}.movement>ol{list-style:none;margin:0;padding:0}.movement>ol>li{border-bottom:1px solid var(--g-rule)}.episode-row{display:grid;grid-template-columns:5rem 12rem minmax(0,1fr) 19rem auto;gap:clamp(.8rem,2vw,2rem);align-items:center;padding:1.2rem 0;text-decoration:none}.episode-number{font-size:.56rem;color:var(--g-muted)}.episode-number b{display:block;font-family:var(--serif);font-size:2rem;color:var(--g-paper);font-weight:400}.episode-row figure{margin:0;aspect-ratio:16/9;overflow:hidden;background:#090908}.episode-row h3{font-size:clamp(1.3rem,2.2vw,2rem);margin:.15rem 0}.episode-row div>p{margin:0;color:var(--rust);font-size:.53rem}.episode-row div>small{font-family:var(--serif);color:var(--g-muted);font-size:.75rem}.episode-row dl{display:grid;grid-template-columns:4rem 4rem 1fr;gap:.6rem;margin:0}.episode-row dt{font-size:.48rem;color:var(--g-muted)}.episode-row dd{margin:.2rem 0 0;font-size:.58rem}.episode-row>i{font-style:normal;color:var(--rust)}
   .system-note{max-width:92rem;margin:auto;padding:clamp(4rem,8vw,8rem) var(--pad);border-top:1px solid var(--g-rule)}.system-note h2{max-width:20ch}.system-note>div{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin-top:4rem}.system-note>div p{border-top:2px solid var(--rust);padding-top:1rem;color:var(--g-muted);font-family:var(--serif)}.system-note strong{display:block;color:var(--g-paper);font-family:var(--sans);font-size:.75rem;margin-bottom:.5rem}
-  @media(max-width:850px){.graphic-hero{grid-template-columns:1fr;min-height:0}.hero-copy{min-height:32rem}.hero-visual{height:min(70vh,38rem)}.prototype-list>header{display:block}.prototype-list h2{margin-top:.5rem}.prototype-row{grid-template-columns:3rem 1fr}.prototype-image{grid-column:2}.prototype-copy{grid-column:2}.system-note>div{grid-template-columns:repeat(2,1fr)}}
-  @media(max-width:560px){.hero-copy{min-height:29rem}.hero-copy h1{font-size:4.2rem}.continue-reading{align-items:stretch;flex-direction:column;gap:.8rem}.continue-reading nav{align-items:stretch;flex-direction:column}.continue-reading a,.continue-reading button{text-align:center}.prototype-list{padding-inline:1rem}.prototype-row{grid-template-columns:1fr;gap:1rem}.prototype-number{display:block}.prototype-number span{margin-right:.3rem}.prototype-number strong{font-size:1.8rem}.prototype-image,.prototype-copy{grid-column:1}.prototype-copy dl{grid-template-columns:1fr 1fr}.prototype-copy dl div:last-child{grid-column:1/-1}.prototype-copy nav{align-items:stretch;flex-direction:column}.prototype-copy nav a{text-align:center;border:1px solid var(--g-rule);padding:.7rem}.system-note>div{grid-template-columns:1fr}}
+  @media(max-width:1000px){.series-map ol{grid-template-columns:repeat(6,1fr)}.episode-row{grid-template-columns:4rem 10rem 1fr auto}.episode-row dl{display:none}}
+  @media(max-width:850px){.graphic-hero{grid-template-columns:1fr;min-height:0}.hero-copy{min-height:32rem}.hero-visual{height:min(70vh,38rem)}.series-map>header{display:block}.series-map h2{margin:.5rem 0 1rem}.series-map ol{grid-template-columns:repeat(5,1fr)}.system-note>div{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.hero-copy{min-height:29rem}.hero-copy h1{font-size:3.7rem}.hero-copy nav,.continue-reading,.continue-reading nav{align-items:stretch;flex-direction:column}.hero-copy nav a,.continue-reading a,.continue-reading button{text-align:center}.series-map{padding-inline:1rem}.series-map ol{grid-template-columns:repeat(3,1fr)}.series-map a{min-height:6rem}.episode-directory{padding-inline:1rem}.movement{margin-bottom:4rem}.movement>header{grid-template-columns:1fr auto}.movement>header p{grid-column:1/-1}.movement h2{font-size:2.1rem}.episode-row{grid-template-columns:3rem 6.5rem 1fr;gap:.7rem}.episode-row>i{display:none}.episode-row h3{font-size:1.1rem}.episode-row div>small{display:none}.system-note>div{grid-template-columns:1fr}}
 </style>
-<style is:global>.hero-visual img,.prototype-image img{display:block;width:100%;height:100%;object-fit:cover}.hero-visual img{filter:saturate(.86) contrast(1.02)}</style>
+<style is:global>.hero-visual img,.episode-row figure img{display:block;width:100%;height:100%;object-fit:cover}</style>
