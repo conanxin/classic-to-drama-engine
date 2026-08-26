@@ -24,6 +24,7 @@ const assets = await readJson('site/content/ASSET_PUBLICATION_MANIFEST.json');
 const screenplay = await readJson('scripts/odyssey_m1_v2/SCREENPLAY_V2_MANIFEST.json');
 const sceneMaster = await readJson('preproduction/odyssey_m1_p3/SCENE_MASTER_INDEX.json');
 const actionPrevis = await readJson('preproduction/odyssey_m1_p3/EP26_EP28_ACTION_PREVIS.json');
+const p8Visuals = await readJson('comic-rendering/odyssey_m1_p8/P8_WEB_VISUAL_MANIFEST.json');
 
 if (episodeManifest.authorization !== 'USER_AUTHORIZED_WITHOUT_REAL_READER_EVIDENCE' || episodeManifest.real_reader_validation !== 'NOT_CLAIMED') fail('authorization/evidence boundary mismatch');
 if (episodeManifest.counts.episodes !== 30 || episodeManifest.episodes.length !== 30) fail('episode coverage is not 30/30');
@@ -59,13 +60,15 @@ if (panelManifest.panels.some((panel) => /TODO|PLACEHOLDER|IMAGE HERE/i.test(JSO
 const rejected = ['P4-HF-19','P4-HF-29','P4-HF-34','P4-HF-39','P4-HF-43','P4-HF-44'];
 if (panelManifest.panels.some((panel) => rejected.some((id) => JSON.stringify(panel).includes(id)))) fail('rejected P4 hero promoted');
 
+if (p8Visuals.status !== 'PASS_P8_FINAL_COMIC_VISUAL_MAPPING' || p8Visuals.panels.length !== 643) fail('P8 visual overlay is incomplete');
+const p8ByPanelId = new Map(p8Visuals.panels.map((visual) => [visual.panel_id, visual]));
 const assetByPublished = new Map(assets.assets.map((asset) => [asset.published_path, asset]));
 for (const panel of panelManifest.panels) {
-  const asset = assetByPublished.get(panel.visual.public_path);
-  if (!asset || asset.status !== 'APPROVED' || asset.source_path !== panel.visual.source_path) fail(`panel not publication-allowlisted: ${panel.panel_id}`);
-  if (panel.visual.transform && JSON.stringify(asset.transform) !== JSON.stringify(panel.visual.transform)) fail(`panel transform mismatch: ${panel.panel_id}`);
+  const visual = p8ByPanelId.get(panel.panel_id);
+  const asset = assetByPublished.get(visual?.public_path);
+  if (!visual || !asset || asset.status !== 'APPROVED' || asset.source_path !== visual.source_path) fail(`P8 panel not publication-allowlisted: ${panel.panel_id}`);
 }
-for (const episode of episodeManifest.episodes) if (!assetByPublished.has(episode.cover_visual.path)) fail(`cover not publication-allowlisted: ${episode.episode}`);
+for (const cover of p8Visuals.episodes) if (!assetByPublished.has(cover.public_path)) fail(`P8 cover not publication-allowlisted: ${cover.episode}`);
 
 const characterIds = new Set(characters.characters.map((character) => character.id));
 if (characters.source_cast_labels !== 76 || characters.resolved_source_cast_labels !== 76) fail('source cast label resolution is not 100%');
@@ -96,7 +99,7 @@ if (distMode) {
   }
   const directoryHtml = await readFile(path.join(siteRoot, 'dist', 'graphic', 'index.html'), 'utf8');
   if ((directoryHtml.match(/class="episode-row"/g) || []).length !== 30) fail('Graphic directory does not expose 30 episodes');
-  for (const panel of panelManifest.panels) if (!(await exists(path.join(siteRoot, 'dist', panel.visual.public_path)))) fail(`missing built panel asset ${panel.visual.public_path}`);
+  for (const visual of p8Visuals.panels) if (!(await exists(path.join(siteRoot, 'dist', visual.public_path)))) fail(`missing built P8 panel asset ${visual.public_path}`);
 }
 
 console.log(JSON.stringify({

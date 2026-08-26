@@ -21,7 +21,9 @@
     {"slug":"art-department-master","title":"Art Department Master Bible","type":"Art Department","source":"art-department/odyssey_m1_p5/ART_DEPARTMENT_MASTER_BIBLE.md"},
     {"slug":"full-series-animatic-result","title":"Full-Series Animatic Result","type":"Animatic","source":"animatic/odyssey_m1_p5/FULL_SERIES_ANIMATIC_RESULT.md"},
     {"slug":"pitch-package","title":"Production Pitch Package","type":"Pitch","source":"pitch/odyssey_m1_p5/PITCH_PACKAGE.md"},
-    {"slug":"p5-final-result","title":"P5 Final Preproduction Proof Result","type":"Milestone","source":"ODYSSEY_P5_FINAL_RESULT.md"}
+    {"slug":"p5-final-result","title":"P5 Final Preproduction Proof Result","type":"Milestone","source":"ODYSSEY_P5_FINAL_RESULT.md"},
+    {"slug":"p8-comic-visual-bible","title":"P8 Comic Visual Bible","type":"Graphic Novel","source":"comic-rendering/odyssey_m1_p8/P8_COMIC_VISUAL_BIBLE.md"},
+    {"slug":"p8-final-result","title":"P8 High-Fidelity Comic Edition Result","type":"Milestone","source":"comic-rendering/odyssey_m1_p8/P8_FINAL_RESULT.md"}
   ],
   "forbidden_publication_classes": [
     "runtime internals",

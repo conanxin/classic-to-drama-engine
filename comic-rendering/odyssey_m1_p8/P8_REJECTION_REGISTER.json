@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_class": "P8_REJECTION_REGISTER",
+  "status": "CLOSED_REJECTIONS_EXCLUDED_FROM_PUBLICATION",
+  "allowed_reasons": [
+    "IDENTITY_DRIFT",
+    "COSTUME_DRIFT",
+    "PROP_ERROR",
+    "SET_ERROR",
+    "SCAR_ERROR",
+    "ANATOMY_ERROR",
+    "HAND_ERROR",
+    "EXTRA_LIMB",
+    "FACE_ARTIFACT",
+    "STYLE_DRIFT",
+    "LIGHTING_ERROR",
+    "WRONG_GEOGRAPHY",
+    "SPOILER",
+    "TEXT_IN_IMAGE",
+    "BAD_CROP",
+    "NARRATIVE_AMBIGUITY",
+    "DUPLICATE_COMPOSITION"
+  ],
+  "rejection_count": 27,
+  "rerender_attempts": 27,
+  "rejections": [
+    {
+      "rejection_id": "P8-REJ-001",
+      "target_id": "EP01-S05",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP01-S05-MASTER-V01-REJECTED-IDENTITY_DRIFT.png",
+      "bytes": 2281486,
+      "sha256": "400de2e9acb3b6df244346d4bf64126fd13e05cc8137ceb35b55796fd5af8961",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-002",
+      "target_id": "EP03-S03",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP03-S03-MASTER-V01-REJECTED-IDENTITY_DRIFT.png",
+      "bytes": 2416836,
+      "sha256": "8a4887dc35a9759574915e39d21279861b0ed65a36f1a868aec06831dcd7dca6",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-003",
+      "target_id": "EP03-S05",
+      "version": "V01",
+      "reason": "NARRATIVE_AMBIGUITY",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP03-S05-MASTER-V01-REJECTED-NARRATIVE_AMBIGUITY.png",
+      "bytes": 3085712,
+      "sha256": "ee630daf74104d8934575ebfa118c906972afa4544f841ed238998cbc89295fd",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-004",
+      "target_id": "EP04-S03",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP04-S03-MASTER-V01-REJECTED-IDENTITY_DRIFT.png",
+      "bytes": 2109388,
+      "sha256": "495996139ff413e902a1bc7efde1937a52d8d15cb10463123da3eb842fdecc18",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-005",
+      "target_id": "EP04-S04",
+      "version": "V01",
+      "reason": "DUPLICATE_COMPOSITION",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP04-S04-MASTER-V01-REJECTED-DUPLICATE_COMPOSITION.png",
+      "bytes": 2674872,
+      "sha256": "0f250b1b5a2171d6b0e25eab3e04ba1905e36d507a1113d19a9c55c8e15afe57",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-006",
+      "target_id": "EP04-S05",
+      "version": "V01",
+      "reason": "TEXT_IN_IMAGE",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP04-S05-MASTER-V01-REJECTED-TEXT_IN_IMAGE.png",
+      "bytes": 2382736,
+      "sha256": "48fd45c73396d95a649675d7789a9e2a67eda5f911acc1ac99dc816f93e4df1b",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-007",
+      "target_id": "EP17-S01",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP17-S01-MASTER-V01-REJECTED-IDENTITY_DRIFT.png",
+      "bytes": 3025951,
+      "sha256": "8aa08087ca9495780e6083c3097aa5682e46ea1465fc363b35e2175b1c3b8a26",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-008",
+      "target_id": "EP17-S02",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP17-S02-MASTER-V01-REJECTED-IDENTITY_DRIFT.png",
+      "bytes": 2488955,
+      "sha256": "9514bf2054de866094e83f2d06b0c31d42cee5830731cfdf9c98c08846beaae2",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-009",
+      "target_id": "EP17-S03",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP17-S03-MASTER-V01-REJECTED-IDENTITY_DRIFT.png",
+      "bytes": 2848374,
+      "sha256": "4e59c4b2e71423e6959239a5317e9c97a4279373edff6013418406653b5294d1",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-010",
+      "target_id": "EP17-S04",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP17-S04-MASTER-V01-REJECTED-IDENTITY_DRIFT.png",
+      "bytes": 2292346,
+      "sha256": "891382790b250a26e3ab86b83828f80e7d12228b3902ee7a5ed27b214aafd3c4",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-011",
+      "target_id": "EP17-S05",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP17-S05-MASTER-V01-REJECTED-IDENTITY_DRIFT.png",
+      "bytes": 2675943,
+      "sha256": "cf8cbb3a52fe91d96aa67253e517cf76da63982320de689677d8d8f793aa2ec0",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-012",
+      "target_id": "EP20-S01",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP20-S01-MASTER-V01-IDENTITY_DRIFT.png",
+      "bytes": 2745758,
+      "sha256": "d6c9693124d9cbab772bff0c7a8404e563b106311a8c87dc66ced267a1003ef5",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-013",
+      "target_id": "EP20-S02",
+      "version": "V01",
+      "reason": "NARRATIVE_AMBIGUITY",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP20-S02-MASTER-V01-NARRATIVE_AMBIGUITY.png",
+      "bytes": 2736682,
+      "sha256": "063e1fb76172f5c1d657e1592e71c6f76877df64d996d8b87e37ac83fe4a9a97",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-014",
+      "target_id": "EP20-S05",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP20-S05-MASTER-V01-IDENTITY_DRIFT.png",
+      "bytes": 2687715,
+      "sha256": "1c8834dad7cab772c64d52b6deefc97229a5620666694c8305fa3a977b323bf6",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-015",
+      "target_id": "EP21-S01",
+      "version": "V01",
+      "reason": "DUPLICATE_COMPOSITION",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP21-S01-MASTER-V01-DUPLICATE_COMPOSITION.png",
+      "bytes": 2774014,
+      "sha256": "2dfe34f90c60a07dafef339028b487113ec7f3247a2ff7c48a4424b159763232",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-016",
+      "target_id": "EP21-S03",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP21-S03-MASTER-V01-IDENTITY_DRIFT.png",
+      "bytes": 2439721,
+      "sha256": "d348b1d26ed80db43e6299aa157bcc6eec0a86616b9ebbd2d717320b1dc67a1f",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-017",
+      "target_id": "EP21-S04",
+      "version": "V01",
+      "reason": "TEXT_IN_IMAGE",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP21-S04-MASTER-V01-TEXT_IN_IMAGE.png",
+      "bytes": 2502622,
+      "sha256": "dde6b7ba9221c527c406a990ffa12efd7a00f0d1be97668f0a964c203f8134a7",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-018",
+      "target_id": "EP21-S05",
+      "version": "V01",
+      "reason": "NARRATIVE_AMBIGUITY",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP21-S05-MASTER-V01-NARRATIVE_AMBIGUITY.png",
+      "bytes": 2744111,
+      "sha256": "3c12e6717cab36a48caffccc17bc1be08a5155f0042ae6d82d338277ab37abbd",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-019",
+      "target_id": "EP24-S02",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP24-S02-MASTER-V01-IDENTITY_DRIFT.png",
+      "bytes": 2523713,
+      "sha256": "ed89ac616a5714205fcc5bc614f373743799b527cc65f330c359bb0c4cfbd348",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-020",
+      "target_id": "EP24-S03",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP24-S03-MASTER-V01-IDENTITY_DRIFT.png",
+      "bytes": 2805342,
+      "sha256": "3d88173feaecc28d25200bd00a851518bc70179b5261fdc267c80dd59461c8cf",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-021",
+      "target_id": "EP24-S04",
+      "version": "V01",
+      "reason": "PROP_ERROR",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP24-S04-MASTER-V01-PROP_ERROR.png",
+      "bytes": 2596763,
+      "sha256": "1b68ae266448ba4dafc8895df3ebbf86992fd8ce4275f2016fe02ddb21afe490",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-022",
+      "target_id": "EP24-S05",
+      "version": "V01",
+      "reason": "PROP_ERROR",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP24-S05-MASTER-V01-PROP_ERROR.png",
+      "bytes": 2477013,
+      "sha256": "9d99916bdd42a818db9a266d556b71db0f581978b0db59937370799e93a5c1de",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-023",
+      "target_id": "EP25-S01-PNL02",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP25-S01-PNL02-V01-REJECTED-IDENTITY_DRIFT.png",
+      "bytes": 3315991,
+      "sha256": "9ff4e5ce2a79e116e17da52aca68b3621ec7b835b8d6d53b0545dc8b10605dfe",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-024",
+      "target_id": "EP25-S04",
+      "version": "V01",
+      "reason": "SCAR_ERROR",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP25-S04-MASTER-V01-SCAR_ERROR.png",
+      "bytes": 2511100,
+      "sha256": "2667af24e21b47a56f28eb7828df0c767637a4054139b0c24e4a17fe01f75c85",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-025",
+      "target_id": "EP27-S02",
+      "version": "V01",
+      "reason": "NARRATIVE_AMBIGUITY",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP27-S02-MASTER-V01-NARRATIVE_AMBIGUITY.png",
+      "bytes": 2484443,
+      "sha256": "3fd3f87e1866c73cac758d17d7277bf1a8514981973ae7e8f420dc34a3ee6eea",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-026",
+      "target_id": "EP28-S01",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP28-S01-MASTER-V01-IDENTITY_DRIFT.png",
+      "bytes": 2448098,
+      "sha256": "e2f819785b19f997fc12da1603cc79c9767f5f2cd70c5df436e40eb927d8e255",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    },
+    {
+      "rejection_id": "P8-REJ-027",
+      "target_id": "EP29-S03",
+      "version": "V01",
+      "reason": "PROP_ERROR",
+      "path": "comic-rendering/odyssey_m1_p8/rejected/P8-EP29-S03-V01-PROP_ERROR.png",
+      "bytes": 2298169,
+      "sha256": "d2dbd2b95bb4aa703a79c880517ca78036e59a1735061b5fa85fbb6343d1fd79",
+      "disposition": "Excluded from publication allowlist; accepted rerender or replacement master frozen separately."
+    }
+  ]
+}

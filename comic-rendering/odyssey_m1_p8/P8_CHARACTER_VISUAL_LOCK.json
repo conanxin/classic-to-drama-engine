@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_class": "P8_CHARACTER_VISUAL_LOCK",
+  "status": "FROZEN_FOR_RENDERING",
+  "principal_locks": [
+    {
+      "character_id": "odysseus",
+      "display_name": "奥德修斯",
+      "tier": "PRINCIPAL_HARD_LOCK",
+      "identity": "P4 selected V02",
+      "reference": "visual-development/odyssey_m1_p4/high_fidelity/characters/P4-CHAR-ODY-IDENTITY-V02.png",
+      "face_anchors": [
+        "compact weathered face",
+        "asymmetric brow",
+        "deep-set brown eyes",
+        "dark curls with salt-grey temples",
+        "irregular short beard"
+      ],
+      "silhouette": [
+        "broad back",
+        "rope forearms",
+        "compact force",
+        "sloped right shoulder"
+      ],
+      "costume_states": [
+        "normal",
+        "storm-wrecked",
+        "returned",
+        "beggar-disguise",
+        "revealed",
+        "battle",
+        "restored"
+      ],
+      "hard_continuity": [
+        "right outer thigh scar only",
+        "no early scar reveal",
+        "same face through disguise",
+        "no heroic glamour drift"
+      ]
+    },
+    {
+      "character_id": "penelope",
+      "display_name": "佩涅洛佩",
+      "tier": "PRINCIPAL_HARD_LOCK",
+      "identity": "P4 selected V01",
+      "reference": "visual-development/odyssey_m1_p4/high_fidelity/characters/P4-CHAR-PEN-IDENTITY-V01.png",
+      "face_anchors": [
+        "mature Mediterranean face",
+        "high asymmetric brow",
+        "controlled dark coils",
+        "fatigue without fragility"
+      ],
+      "silhouette": [
+        "vertical authority",
+        "key-and-cloth waist habit",
+        "deliberate stillness"
+      ],
+      "costume_states": [
+        "household-rule",
+        "mourning-pressure",
+        "contest",
+        "recognition",
+        "restoration"
+      ],
+      "hard_continuity": [
+        "active observer",
+        "calculating hands and gaze",
+        "never passive beauty treatment"
+      ]
+    },
+    {
+      "character_id": "telemachus",
+      "display_name": "忒勒马科斯",
+      "tier": "PRINCIPAL_HARD_LOCK",
+      "identity": "P4 selected V01",
+      "reference": "visual-development/odyssey_m1_p4/high_fidelity/characters/P4-CHAR-TEL-IDENTITY-V01.png",
+      "face_anchors": [
+        "young open face",
+        "dense dark curls",
+        "long neck",
+        "clean jaw"
+      ],
+      "silhouette": [
+        "left-foot lead",
+        "initially uncertain shoulders",
+        "gradual weapon confidence"
+      ],
+      "costume_states": [
+        "boy-household",
+        "traveler",
+        "returning-heir",
+        "battle",
+        "civic-authority"
+      ],
+      "hard_continuity": [
+        "growth through posture and fit",
+        "no sudden adult-warrior jump",
+        "same young face"
+      ]
+    },
+    {
+      "character_id": "athena",
+      "display_name": "雅典娜",
+      "tier": "PRINCIPAL_HARD_LOCK",
+      "identity": "P4 selected V01",
+      "reference": "visual-development/odyssey_m1_p4/high_fidelity/characters/P4-CHAR-ATH-IDENTITY-V01.png",
+      "face_anchors": [
+        "same dark-haired woman across states",
+        "steady frontal gaze",
+        "owl pin"
+      ],
+      "silhouette": [
+        "forward shoulder",
+        "half-turn",
+        "wrong-timed shadow"
+      ],
+      "costume_states": [
+        "human-disguise",
+        "divine",
+        "threshold-manifestation"
+      ],
+      "hard_continuity": [
+        "divinity through light posture gaze and environment",
+        "no cheap glow",
+        "reader knowledge never exceeds scene authority"
+      ]
+    }
+  ],
+  "supporting_locks": [
+    {
+      "character_id": "eumaeus",
+      "display_name": "欧迈俄斯",
+      "tier": "SUPPORTING_LOCK",
+      "visual_lock": "sun-browned older herdsman; practical layered wool; steady lowered center of gravity"
+    },
+    {
+      "character_id": "eurycleia",
+      "display_name": "欧律克勒娅",
+      "tier": "SUPPORTING_LOCK",
+      "visual_lock": "elder household authority; brown head cloth; working hands; attentive eyes"
+    },
+    {
+      "character_id": "antinous",
+      "display_name": "安提诺俄斯",
+      "tier": "SUPPORTING_LOCK",
+      "visual_lock": "confident suitor leader; wine-rust accent; entitlement expressed through occupied space"
+    },
+    {
+      "character_id": "eurymachus",
+      "display_name": "欧律马科斯",
+      "tier": "SUPPORTING_LOCK",
+      "visual_lock": "smooth calculating suitor; controlled dress; lateral gaze"
+    },
+    {
+      "character_id": "amphinomus",
+      "display_name": "安菲诺摩斯",
+      "tier": "SUPPORTING_LOCK",
+      "visual_lock": "labor shoulder line; hesitation at shared work objects"
+    },
+    {
+      "character_id": "poseidon",
+      "display_name": "波塞冬",
+      "tier": "SUPPORTING_LOCK",
+      "visual_lock": "durable environmental pressure; human figure only where scene authority permits"
+    },
+    {
+      "character_id": "polyphemus",
+      "display_name": "波吕斐摩斯",
+      "tier": "SUPPORTING_LOCK",
+      "visual_lock": "single-eyed practical giant sharing the same stone-and-wool world; never generic game monster"
+    },
+    {
+      "character_id": "alcinous",
+      "display_name": "阿尔喀诺俄斯",
+      "tier": "SUPPORTING_LOCK",
+      "visual_lock": "Phaeacian civic host; sea-glass and redress court language"
+    },
+    {
+      "character_id": "nausicaa",
+      "display_name": "瑙西卡",
+      "tier": "SUPPORTING_LOCK",
+      "visual_lock": "young Phaeacian authority; poised movement; practical court linen"
+    },
+    {
+      "character_id": "laertes",
+      "display_name": "拉厄耳忒斯",
+      "tier": "SUPPORTING_LOCK",
+      "visual_lock": "elder orchard body; soil-marked hands; land memory rather than royal display"
+    }
+  ],
+  "source_character_count": 71,
+  "universal_rules": [
+    "no face drift",
+    "no modern costume leakage",
+    "no baked text",
+    "state transitions must be episode-causal"
+  ]
+}

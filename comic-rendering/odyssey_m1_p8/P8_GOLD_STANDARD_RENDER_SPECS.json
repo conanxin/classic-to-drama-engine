@@ -1,0 +1,929 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_class": "P8_GOLD_STANDARD_RENDER_SPECS",
+  "count": 20,
+  "specs": [
+    {
+      "gold_order": 1,
+      "panel_id": "EP01-S01-PNL01",
+      "episode": "EP01",
+      "scene_id": "EP01-S01",
+      "tier": "TIER_B_NARRATIVE_FINAL",
+      "panel_type": "ESTABLISHING",
+      "ratio": "16:9",
+      "shot_id": "EP01-S01-SH001",
+      "subject": "伊萨卡厅堂 with 忒勒马科斯, 佩涅洛佩, 安提诺俄斯",
+      "visible_action": "一把短斧劈开酒坛封泥。酒涌过桌沿。",
+      "narrative_context": "安提诺俄斯劈开酒坛封泥，用奥德修斯的杯子分酒。忒勒马科斯伸手，杯子却沿长桌传得更远。",
+      "dialogue": {
+        "speaker": "忒勒马科斯",
+        "text": "那只杯子不出这张桌。"
+      },
+      "p7b_visual": {
+        "source_kind": "P4_HIGH_FIDELITY",
+        "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-01.png",
+        "public_path": "media/visual/hero/P4-HF-01.png",
+        "authority": "P4-HF-01 APPROVED",
+        "source_status": "APPROVED",
+        "transform": null,
+        "visual_asset_id": "P4-HF-01"
+      },
+      "render_version": "V01",
+      "render_status": "EXISTING_HIGH_FIDELITY_AUDIT",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 2,
+      "panel_id": "EP01-S02-PNL02",
+      "episode": "EP01",
+      "scene_id": "EP01-S02",
+      "tier": "TIER_B_NARRATIVE_FINAL",
+      "panel_type": "REVEAL",
+      "ratio": "16:9",
+      "shot_id": "EP01-S02-SH003",
+      "subject": "安提诺俄斯, 忒勒马科斯, 雅典娜/门忒斯",
+      "visible_action": "忒勒马科斯看向安提诺俄斯。安提诺俄斯举杯，不让。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "忒勒马科斯",
+        "text": "家里老师多。"
+      },
+      "p7b_visual": {
+        "source_kind": "ANIMATIC_DERIVED_PANEL",
+        "source_path": "animatic/odyssey_m1_p5/cards/EP01-S02-SH003.jpg",
+        "public_path": "media/graphic/panels/EP01-S02-SH003.webp",
+        "authority": "P5 ANIMATIC CARD EP01-S02-SH003",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 24,
+            "top": 42,
+            "width": 592,
+            "height": 188
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP01-S02-SH003"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 3,
+      "panel_id": "EP05-S05-PNL06",
+      "episode": "EP05",
+      "scene_id": "EP05-S05",
+      "tier": "TIER_B_NARRATIVE_FINAL",
+      "panel_type": "REACTION",
+      "ratio": "4:3",
+      "shot_id": "EP05-S05-SH007",
+      "subject": "奥德修斯",
+      "visible_action": "奥德修斯闭上眼。海水从叶下渗进来，像坟里涨潮。",
+      "narrative_context": "海水从叶下渗进来，像坟里涨潮。",
+      "dialogue": null,
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP05-S05-P03.png",
+        "public_path": "media/graphic/panels/EP05-S05-SH007-F02.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP05-S05-SH007-F02",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 655,
+            "top": 142,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP05-S05-SH007-F02"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 4,
+      "panel_id": "EP10-S02-PNL04",
+      "episode": "EP10",
+      "scene_id": "EP10-S02",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "POV",
+      "ratio": "3:2",
+      "shot_id": "EP10-S02-SH005",
+      "subject": "波吕斐摩斯, 船员, 奥德修斯",
+      "visible_action": "巨人喝第三碗，手里的奶碗砸碎。奥德修斯从粪堆抽出木桩，四名抽中黑片的人上前；第五个人想帮，被他推回羊圈——必须有人准备逃生绳。",
+      "narrative_context": null,
+      "dialogue": null,
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S02-P02.png",
+        "public_path": "media/graphic/panels/EP10-S02-SH005-F02.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP10-S02-SH005-F02",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 20,
+            "top": 142,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP10-S02-SH005-F02"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 5,
+      "panel_id": "EP10-S04-PNL04",
+      "episode": "EP10",
+      "scene_id": "EP10-S04",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "POV",
+      "ratio": "3:2",
+      "shot_id": "EP10-S04-SH005",
+      "subject": "波吕斐摩斯, 船员, 奥德修斯",
+      "visible_action": "公羊停下。奥德修斯的手开始滑。巨人把羊头拉近自己胸口，反而将他拖过门线。",
+      "narrative_context": null,
+      "dialogue": null,
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP10-S04-P02.png",
+        "public_path": "media/graphic/panels/EP10-S04-SH005-F02.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP10-S04-SH005-F02",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 20,
+            "top": 142,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP10-S04-SH005-F02"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 6,
+      "panel_id": "EP13-S03-PNL04",
+      "episode": "EP13",
+      "scene_id": "EP13-S03",
+      "tier": "TIER_B_NARRATIVE_FINAL",
+      "panel_type": "POV",
+      "ratio": "3:2",
+      "shot_id": "EP13-S03-SH005",
+      "subject": "奥德修斯, 安提克勒娅",
+      "visible_action": "奥德修斯伸手抱她，双臂穿过。第二次，他先抓住她肩上的织梭，也穿过。第三次，他跪下，不再扑。",
+      "narrative_context": null,
+      "dialogue": null,
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP13-S03-P02.png",
+        "public_path": "media/graphic/panels/EP13-S03-SH005-F02.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP13-S03-SH005-F02",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 20,
+            "top": 636,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP13-S03-SH005-F02"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 7,
+      "panel_id": "EP16-S04-PNL02",
+      "episode": "EP16",
+      "scene_id": "EP16-S04",
+      "tier": "TIER_B_NARRATIVE_FINAL",
+      "panel_type": "INSERT_PROP",
+      "ratio": "1:1",
+      "shot_id": "EP16-S04-SH004",
+      "subject": "金杯 custody/state",
+      "visible_action": "Keep custody/change legible in the same causal chain as: 奥德修斯抓起泥土亲吻，随后又迅速看向四周，确认无人目睹。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "奥德修斯",
+        "text": "那就把名字留在这里。"
+      },
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP16-S04-P01.png",
+        "public_path": "media/graphic/panels/EP16-S04-SH004-F01.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP16-S04-SH004-F01",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 1290,
+            "top": 636,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP16-S04-SH004-F01"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "upper-left 22% or lower-third 18%, preserve central prop"
+    },
+    {
+      "gold_order": 8,
+      "panel_id": "EP19-S02-PNL04",
+      "episode": "EP19",
+      "scene_id": "EP19-S02",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "INSERT_PROP",
+      "ratio": "1:1",
+      "shot_id": "EP19-S02-SH004",
+      "subject": "clean/reference element for 猪场橄榄树后 and 奥德修斯, 雅典娜",
+      "visible_action": "Isolate from principal path; support the dramatic action anchored by: 奥德修斯把厚斗篷叠好留在树根，空手回屋。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "奥德修斯",
+        "text": "凭一张神换过的脸？他应该怀疑。"
+      },
+      "p7b_visual": {
+        "source_kind": "ANIMATIC_DERIVED_PANEL",
+        "source_path": "animatic/odyssey_m1_p5/cards/EP19-S02-SH004.jpg",
+        "public_path": "media/graphic/panels/EP19-S02-SH004.webp",
+        "authority": "P5 ANIMATIC CARD EP19-S02-SH004",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 24,
+            "top": 42,
+            "width": 592,
+            "height": 188
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP19-S02-SH004"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "upper-left 22% or lower-third 18%, preserve central prop"
+    },
+    {
+      "gold_order": 9,
+      "panel_id": "EP19-S04-PNL02",
+      "episode": "EP19",
+      "scene_id": "EP19-S04",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "TWO_SHOT",
+      "ratio": "3:2",
+      "shot_id": "EP19-S04-SH003",
+      "subject": "奥德修斯, 忒勒马科斯",
+      "visible_action": "忒勒马科斯先把短刀放到桌上，再用额头碰父亲的手掌。奥德修斯立刻抱住他，力气大得让少年喘不过气。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "奥德修斯",
+        "text": "不知道。现在不能知道。"
+      },
+      "p7b_visual": {
+        "source_kind": "ANIMATIC_DERIVED_PANEL",
+        "source_path": "animatic/odyssey_m1_p5/cards/EP19-S04-SH003.jpg",
+        "public_path": "media/graphic/panels/EP19-S04-SH003.webp",
+        "authority": "P5 ANIMATIC CARD EP19-S04-SH003",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 24,
+            "top": 42,
+            "width": 592,
+            "height": 188
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP19-S04-SH003"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 10,
+      "panel_id": "EP25-S01-PNL02",
+      "episode": "EP25",
+      "scene_id": "EP25-S01",
+      "tier": "TIER_B_NARRATIVE_FINAL",
+      "panel_type": "TWO_SHOT",
+      "ratio": "3:2",
+      "shot_id": "EP25-S01-SH002",
+      "subject": "忒勒马科斯, 安提诺俄斯, 欧律马科斯",
+      "visible_action": "佩涅洛佩在礼物账板旁另开一列，记下每个人尝试次序。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "安提诺俄斯",
+        "text": "失败以后，每个人都想起自己的本行。它只会让软手出血。下一个。"
+      },
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP25-S01-P01.png",
+        "public_path": "media/graphic/panels/EP25-S01-SH002-F01.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP25-S01-SH002-F01",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 1290,
+            "top": 142,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP25-S01-SH002-F01"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 11,
+      "panel_id": "EP25-S05-PNL04",
+      "episode": "EP25",
+      "scene_id": "EP25-S05",
+      "tier": "TIER_B_NARRATIVE_FINAL",
+      "panel_type": "REACTION",
+      "ratio": "4:3",
+      "shot_id": "EP25-S05-SH004",
+      "subject": "安提诺俄斯, 欧律马科斯, 欧迈俄斯",
+      "visible_action": "院门外，菲洛提俄斯转动钥匙。咔哒。",
+      "narrative_context": "院门外，菲洛提俄斯转动钥匙。",
+      "dialogue": null,
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP25-S05-P01.png",
+        "public_path": "media/graphic/panels/EP25-S05-SH004-F01.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP25-S05-SH004-F01",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 655,
+            "top": 636,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP25-S05-SH004-F01"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 12,
+      "panel_id": "EP27-S01-PNL03",
+      "episode": "EP27",
+      "scene_id": "EP27-S01",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "ACTION",
+      "ratio": "16:9",
+      "shot_id": "EP27-S01-SH003",
+      "subject": "忒勒马科斯, 众求婚者, 奥德修斯",
+      "visible_action": "他射出第二箭，钉死一个正爬向侧门的人。可用箭十。",
+      "narrative_context": null,
+      "dialogue": null,
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP27-S01-P01.png",
+        "public_path": "media/graphic/panels/EP27-S01-SH003-F02.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP27-S01-SH003-F02",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 1290,
+            "top": 636,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP27-S01-SH003-F02"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 13,
+      "panel_id": "EP27-S03-PNL03",
+      "episode": "EP27",
+      "scene_id": "EP27-S03",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "REVEAL",
+      "ratio": "16:9",
+      "shot_id": "EP27-S03-SH003",
+      "subject": "欧迈俄斯, 菲洛提俄斯, 众求婚者",
+      "visible_action": "为了双手抱盾，他用脚顶开库门，回来时忘了回身落锁。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "奥德修斯",
+        "text": "拿四套。门锁回去。"
+      },
+      "p7b_visual": {
+        "source_kind": "P4_HIGH_FIDELITY",
+        "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-45.png",
+        "public_path": "media/visual/hero/P4-HF-45.png",
+        "authority": "P4-HF-45 APPROVED",
+        "source_status": "APPROVED",
+        "transform": null,
+        "visual_asset_id": "P4-HF-45"
+      },
+      "render_version": "V01",
+      "render_status": "EXISTING_HIGH_FIDELITY_AUDIT",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 14,
+      "panel_id": "EP28-S02-PNL04",
+      "episode": "EP28",
+      "scene_id": "EP28-S02",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "TWO_SHOT",
+      "ratio": "3:2",
+      "shot_id": "EP28-S02-SH005",
+      "subject": "奥德修斯, 忒勒马科斯, 雅典娜/门托耳",
+      "visible_action": "她用矛尾敲地，不出手。求婚者一轮六矛齐投；四人各自举盾、缩肩、移步。矛多数撞柱，一支划开忒勒马科斯上臂。",
+      "narrative_context": null,
+      "dialogue": null,
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP28-S02-P02.png",
+        "public_path": "media/graphic/panels/EP28-S02-SH005-F02.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP28-S02-SH005-F02",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 20,
+            "top": 636,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP28-S02-SH005-F02"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 15,
+      "panel_id": "EP28-S05-PNL03",
+      "episode": "EP28",
+      "scene_id": "EP28-S05",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "REVEAL",
+      "ratio": "16:9",
+      "shot_id": "EP28-S05-SH003",
+      "subject": "欧律克勒娅, 欧迈俄斯, 菲洛提俄斯",
+      "visible_action": "奥德修斯看自己满身血、老人妆与旧衣。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "奥德修斯",
+        "text": "佩涅洛佩在哪里？"
+      },
+      "p7b_visual": {
+        "source_kind": "P4_HIGH_FIDELITY",
+        "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-47.png",
+        "public_path": "media/visual/hero/P4-HF-47.png",
+        "authority": "P4-HF-47 APPROVED",
+        "source_status": "APPROVED",
+        "transform": null,
+        "visual_asset_id": "P4-HF-47"
+      },
+      "render_version": "V01",
+      "render_status": "EXISTING_HIGH_FIDELITY_AUDIT",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 16,
+      "panel_id": "EP29-S04-PNL02",
+      "episode": "EP29",
+      "scene_id": "EP29-S04",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "TWO_SHOT",
+      "ratio": "3:2",
+      "shot_id": "EP29-S04-SH003",
+      "subject": "欧律克勒娅, 佩涅洛佩, 奥德修斯",
+      "visible_action": "佩涅洛佩看着他的手准确摸到床柱背面一道只有建造者知道的斧痕。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "佩涅洛佩",
+        "text": "我知道。"
+      },
+      "p7b_visual": {
+        "source_kind": "P4_HIGH_FIDELITY",
+        "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-48.png",
+        "public_path": "media/visual/hero/P4-HF-48.png",
+        "authority": "P4-HF-48 APPROVED",
+        "source_status": "APPROVED",
+        "transform": null,
+        "visual_asset_id": "P4-HF-48"
+      },
+      "render_version": "V01",
+      "render_status": "EXISTING_HIGH_FIDELITY_AUDIT",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 17,
+      "panel_id": "EP29-S05-PNL02",
+      "episode": "EP29",
+      "scene_id": "EP29-S05",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "TWO_SHOT",
+      "ratio": "3:2",
+      "shot_id": "EP29-S05-SH002",
+      "subject": "奥德修斯, 忒勒马科斯, 佩涅洛佩",
+      "visible_action": "两人坐在床沿，不急着说完二十年。奥德修斯看到床柱上多了一圈紫线。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "忒勒马科斯",
+        "text": "城里有人发现尸体。求婚者的家属正在集会。"
+      },
+      "p7b_visual": {
+        "source_kind": "P4_HIGH_FIDELITY",
+        "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-49.png",
+        "public_path": "media/visual/hero/P4-HF-49.png",
+        "authority": "P4-HF-49 APPROVED",
+        "source_status": "APPROVED",
+        "transform": null,
+        "visual_asset_id": "P4-HF-49"
+      },
+      "render_version": "V01",
+      "render_status": "EXISTING_HIGH_FIDELITY_AUDIT",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 18,
+      "panel_id": "EP30-S02-PNL02",
+      "episode": "EP30",
+      "scene_id": "EP30-S02",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "TRANSITION",
+      "ratio": "3:2",
+      "shot_id": "EP30-S02-SH003",
+      "subject": "忒勒马科斯, 欧迈俄斯, 菲洛提俄斯",
+      "visible_action": "他露出伤疤。拉厄耳忒斯摸过，却仍不拥抱。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "奥德修斯",
+        "text": "那棵梨树你说归我，我当晚就在树皮刻名字。你打了我，因为树比人活得久，不该刻。"
+      },
+      "p7b_visual": {
+        "source_kind": "P4_HIGH_FIDELITY",
+        "source_path": "visual-development/odyssey_m1_p4/high_fidelity/hero_frames/P4-HF-50.png",
+        "public_path": "media/visual/hero/P4-HF-50.png",
+        "authority": "P4-HF-50 APPROVED",
+        "source_status": "APPROVED",
+        "transform": null,
+        "visual_asset_id": "P4-HF-50"
+      },
+      "render_version": "V01",
+      "render_status": "EXISTING_HIGH_FIDELITY_AUDIT",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 19,
+      "panel_id": "EP30-S04-PNL04",
+      "episode": "EP30",
+      "scene_id": "EP30-S04",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "TWO_SHOT",
+      "ratio": "3:2",
+      "shot_id": "EP30-S04-SH005",
+      "subject": "雅典娜/门托耳, 奥德修斯, 拉厄耳忒斯",
+      "visible_action": "双方冲突。忒勒马科斯击倒一人，抬矛要追第二个；奥德修斯也向退兵迈步。",
+      "narrative_context": null,
+      "dialogue": null,
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S04-P02.png",
+        "public_path": "media/graphic/panels/EP30-S04-SH005-F02.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP30-S04-SH005-F02",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 20,
+            "top": 636,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP30-S04-SH005-F02"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    },
+    {
+      "gold_order": 20,
+      "panel_id": "EP30-S05-PNL04",
+      "episode": "EP30",
+      "scene_id": "EP30-S05",
+      "tier": "TIER_A_HERO_FINAL",
+      "panel_type": "REACTION",
+      "ratio": "4:3",
+      "shot_id": "EP30-S05-SH005",
+      "subject": "伊萨卡亲族, 佩涅洛佩, 奥德修斯",
+      "visible_action": "镜头沿活橄榄树床柱下移，穿过地砖，抵达仍扎在伊萨卡土里的根。外面传来锯木声：忒勒马科斯正在制作自己的集会权杖。",
+      "narrative_context": null,
+      "dialogue": {
+        "speaker": "拉厄耳忒斯",
+        "text": "果园有木。自己削一根，别用你父亲那根。"
+      },
+      "p7b_visual": {
+        "source_kind": "STORYBOARD_DERIVED_PANEL",
+        "source_path": "storyboards/odyssey_m1_p4/boards/EP30-S05-P02.png",
+        "public_path": "media/graphic/panels/EP30-S05-SH005-F01.webp",
+        "authority": "P4 TECHNICAL_BOARD_PNG EP30-S05-SH005-F01",
+        "source_status": "APPROVED_TECHNICAL",
+        "transform": {
+          "kind": "extract_webp",
+          "crop": {
+            "left": 20,
+            "top": 142,
+            "width": 600,
+            "height": 205
+          },
+          "quality": 82
+        },
+        "visual_asset_id": "EP30-S05-SH005-F01"
+      },
+      "render_version": "V01",
+      "render_status": "CANDIDATE_RENDER_REQUIRED",
+      "required_checks": [
+        "identity",
+        "costume",
+        "set",
+        "prop",
+        "composition",
+        "mobile crop",
+        "spoiler",
+        "style",
+        "text contamination",
+        "panel function"
+      ],
+      "text_safe_zone": "one lateral 25% negative-space band; never cover face, hands, weapon or consequence"
+    }
+  ]
+}

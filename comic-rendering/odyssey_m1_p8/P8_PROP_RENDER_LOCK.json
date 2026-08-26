@@ -1,0 +1,1063 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_class": "P8_PROP_RENDER_LOCK",
+  "status": "FROZEN_FOR_RENDERING",
+  "props": [
+    {
+      "prop_id": "PROP-BOW",
+      "name": "奥德修斯之弓",
+      "matching_terms": [
+        "弓"
+      ],
+      "first_appearance": "EP09-S03",
+      "scenes": [
+        {
+          "scene_id": "EP09-S03",
+          "source_props": [
+            "弓"
+          ]
+        },
+        {
+          "scene_id": "EP23-S04",
+          "source_props": [
+            "弓箱钥匙",
+            "奥德修斯弓"
+          ]
+        },
+        {
+          "scene_id": "EP23-S05",
+          "source_props": [
+            "奥德修斯弓",
+            "弓箱"
+          ]
+        },
+        {
+          "scene_id": "EP24-S05",
+          "source_props": [
+            "奥德修斯弓",
+            "弓箱"
+          ]
+        },
+        {
+          "scene_id": "EP25-S01",
+          "source_props": [
+            "奥德修斯弓"
+          ]
+        },
+        {
+          "scene_id": "EP25-S02",
+          "source_props": [
+            "奥德修斯弓"
+          ]
+        },
+        {
+          "scene_id": "EP25-S03",
+          "source_props": [
+            "弓"
+          ]
+        },
+        {
+          "scene_id": "EP25-S04",
+          "source_props": [
+            "弓"
+          ]
+        },
+        {
+          "scene_id": "EP25-S05",
+          "source_props": [
+            "奥德修斯弓"
+          ]
+        },
+        {
+          "scene_id": "EP26-S01",
+          "source_props": [
+            "奥德修斯弓"
+          ]
+        },
+        {
+          "scene_id": "EP26-S02",
+          "source_props": [
+            "奥德修斯弓",
+            "弓弦"
+          ]
+        },
+        {
+          "scene_id": "EP26-S04",
+          "source_props": [
+            "弓"
+          ]
+        },
+        {
+          "scene_id": "EP26-S05",
+          "source_props": [
+            "弓"
+          ]
+        },
+        {
+          "scene_id": "EP27-S01",
+          "source_props": [
+            "弓"
+          ]
+        },
+        {
+          "scene_id": "EP27-S02",
+          "source_props": [
+            "弓"
+          ]
+        },
+        {
+          "scene_id": "EP29-S03",
+          "source_props": [
+            "弓弦"
+          ]
+        },
+        {
+          "scene_id": "EP29-S05",
+          "source_props": [
+            "旧弓弦"
+          ]
+        },
+        {
+          "scene_id": "EP30-S01",
+          "source_props": [
+            "无弦弓影"
+          ]
+        }
+      ],
+      "visual_rule": "沿用 P3/P4/P5 已冻结的形态、custody 与状态变化；HTML 提示不替代画面连续性。",
+      "p8_rule": "stable silhouette, custody and state change; render consequence legibly"
+    },
+    {
+      "prop_id": "PROP-AXES",
+      "name": "十二把斧",
+      "matching_terms": [
+        "斧"
+      ],
+      "first_appearance": "EP05-S02",
+      "scenes": [
+        {
+          "scene_id": "EP05-S02",
+          "source_props": [
+            "青铜斧"
+          ]
+        },
+        {
+          "scene_id": "EP05-S03",
+          "source_props": [
+            "青铜斧"
+          ]
+        },
+        {
+          "scene_id": "EP23-S04",
+          "source_props": [
+            "十二斧示意木片"
+          ]
+        },
+        {
+          "scene_id": "EP23-S05",
+          "source_props": [
+            "十二斧"
+          ]
+        },
+        {
+          "scene_id": "EP24-S04",
+          "source_props": [
+            "十二斧"
+          ]
+        },
+        {
+          "scene_id": "EP24-S05",
+          "source_props": [
+            "十二斧"
+          ]
+        },
+        {
+          "scene_id": "EP25-S01",
+          "source_props": [
+            "十二斧"
+          ]
+        },
+        {
+          "scene_id": "EP25-S05",
+          "source_props": [
+            "十二斧"
+          ]
+        },
+        {
+          "scene_id": "EP26-S01",
+          "source_props": [
+            "十二斧"
+          ]
+        },
+        {
+          "scene_id": "EP26-S03",
+          "source_props": [
+            "十二斧"
+          ]
+        },
+        {
+          "scene_id": "EP29-S04",
+          "source_props": [
+            "斧痕"
+          ]
+        }
+      ],
+      "visual_rule": "沿用 P3/P4/P5 已冻结的形态、custody 与状态变化；HTML 提示不替代画面连续性。",
+      "p8_rule": "stable silhouette, custody and state change; render consequence legibly"
+    },
+    {
+      "prop_id": "PROP-SCAR",
+      "name": "伤疤",
+      "matching_terms": [
+        "伤疤"
+      ],
+      "first_appearance": "EP23-S01",
+      "scenes": [
+        {
+          "scene_id": "EP23-S01",
+          "source_props": [
+            "旧伤疤"
+          ]
+        },
+        {
+          "scene_id": "EP23-S02",
+          "source_props": [
+            "伤疤"
+          ]
+        },
+        {
+          "scene_id": "EP23-S05",
+          "source_props": [
+            "伤疤湿布"
+          ]
+        },
+        {
+          "scene_id": "EP25-S04",
+          "source_props": [
+            "伤疤"
+          ]
+        },
+        {
+          "scene_id": "EP29-S01",
+          "source_props": [
+            "伤疤湿布灰"
+          ]
+        },
+        {
+          "scene_id": "EP29-S03",
+          "source_props": [
+            "伤疤"
+          ]
+        },
+        {
+          "scene_id": "EP30-S02",
+          "source_props": [
+            "伤疤"
+          ]
+        }
+      ],
+      "visual_rule": "沿用 P3/P4/P5 已冻结的形态、custody 与状态变化；HTML 提示不替代画面连续性。",
+      "p8_rule": "stable silhouette, custody and state change; render consequence legibly"
+    },
+    {
+      "prop_id": "PROP-BED",
+      "name": "橄榄树婚床",
+      "matching_terms": [
+        "婚床",
+        "床"
+      ],
+      "first_appearance": "EP12-S03",
+      "scenes": [
+        {
+          "scene_id": "EP12-S03",
+          "source_props": [
+            "床帘"
+          ]
+        },
+        {
+          "scene_id": "EP29-S04",
+          "source_props": [
+            "橄榄树床",
+            "床柱"
+          ]
+        },
+        {
+          "scene_id": "EP29-S05",
+          "source_props": [
+            "橄榄树床"
+          ]
+        },
+        {
+          "scene_id": "EP30-S01",
+          "source_props": [
+            "婚床树根影"
+          ]
+        },
+        {
+          "scene_id": "EP30-S05",
+          "source_props": [
+            "橄榄树床"
+          ]
+        }
+      ],
+      "visual_rule": "沿用 P3/P4/P5 已冻结的形态、custody 与状态变化；HTML 提示不替代画面连续性。",
+      "p8_rule": "stable silhouette, custody and state change; render consequence legibly"
+    },
+    {
+      "prop_id": "PROP-SHIP",
+      "name": "船与返乡载体",
+      "matching_terms": [
+        "船",
+        "木筏"
+      ],
+      "first_appearance": "EP03-S02",
+      "scenes": [
+        {
+          "scene_id": "EP03-S02",
+          "source_props": [
+            "焦黑船钉"
+          ]
+        },
+        {
+          "scene_id": "EP03-S03",
+          "source_props": [
+            "焦黑船钉"
+          ]
+        },
+        {
+          "scene_id": "EP03-S05",
+          "source_props": [
+            "焦黑船钉"
+          ]
+        },
+        {
+          "scene_id": "EP04-S01",
+          "source_props": [
+            "焦黑船钉"
+          ]
+        },
+        {
+          "scene_id": "EP04-S02",
+          "source_props": [
+            "焦黑船钉"
+          ]
+        },
+        {
+          "scene_id": "EP04-S05",
+          "source_props": [
+            "涂黑船桨"
+          ]
+        },
+        {
+          "scene_id": "EP05-S01",
+          "source_props": [
+            "未完成船模"
+          ]
+        },
+        {
+          "scene_id": "EP05-S02",
+          "source_props": [
+            "旧木船模"
+          ]
+        },
+        {
+          "scene_id": "EP05-S04",
+          "source_props": [
+            "局部木筏"
+          ]
+        },
+        {
+          "scene_id": "EP07-S05",
+          "source_props": [
+            "船籍木牌"
+          ]
+        },
+        {
+          "scene_id": "EP08-S01",
+          "source_props": [
+            "空白船籍牌"
+          ]
+        },
+        {
+          "scene_id": "EP08-S04",
+          "source_props": [
+            "空白船籍牌"
+          ]
+        },
+        {
+          "scene_id": "EP08-S05",
+          "source_props": [
+            "船籍牌"
+          ]
+        },
+        {
+          "scene_id": "EP10-S04",
+          "source_props": [
+            "船桨"
+          ]
+        },
+        {
+          "scene_id": "EP10-S05",
+          "source_props": [
+            "船"
+          ]
+        },
+        {
+          "scene_id": "EP11-S05",
+          "source_props": [
+            "十二船局部",
+            "系船石"
+          ]
+        },
+        {
+          "scene_id": "EP12-S05",
+          "source_props": [
+            "船"
+          ]
+        },
+        {
+          "scene_id": "EP14-S01",
+          "source_props": [
+            "模型船"
+          ]
+        },
+        {
+          "scene_id": "EP15-S01",
+          "source_props": [
+            "船锚"
+          ]
+        },
+        {
+          "scene_id": "EP15-S04",
+          "source_props": [
+            "船桅"
+          ]
+        },
+        {
+          "scene_id": "EP15-S05",
+          "source_props": [
+            "船籍牌"
+          ]
+        },
+        {
+          "scene_id": "EP16-S01",
+          "source_props": [
+            "船籍牌"
+          ]
+        },
+        {
+          "scene_id": "EP16-S02",
+          "source_props": [
+            "局部船体"
+          ]
+        },
+        {
+          "scene_id": "EP16-S03",
+          "source_props": [
+            "船籍牌"
+          ]
+        },
+        {
+          "scene_id": "EP16-S04",
+          "source_props": [
+            "船籍牌"
+          ]
+        },
+        {
+          "scene_id": "EP16-S05",
+          "source_props": [
+            "船籍牌"
+          ]
+        },
+        {
+          "scene_id": "EP18-S01",
+          "source_props": [
+            "焦黑船钉"
+          ]
+        },
+        {
+          "scene_id": "EP18-S02",
+          "source_props": [
+            "焦黑船钉",
+            "船绳"
+          ]
+        },
+        {
+          "scene_id": "EP19-S03",
+          "source_props": [
+            "焦黑船钉"
+          ]
+        },
+        {
+          "scene_id": "EP19-S04",
+          "source_props": [
+            "焦黑船钉"
+          ]
+        },
+        {
+          "scene_id": "EP20-S01",
+          "source_props": [
+            "焦黑船钉"
+          ]
+        }
+      ],
+      "visual_rule": "沿用 P3/P4/P5 已冻结的形态、custody 与状态变化；HTML 提示不替代画面连续性。",
+      "p8_rule": "stable silhouette, custody and state change; render consequence legibly"
+    },
+    {
+      "prop_id": "PROP-WEAPONS",
+      "name": "武器与武器墙",
+      "matching_terms": [
+        "武器",
+        "长矛",
+        "盾",
+        "剑"
+      ],
+      "first_appearance": "EP01-S02",
+      "scenes": [
+        {
+          "scene_id": "EP01-S02",
+          "source_props": [
+            "长矛"
+          ]
+        },
+        {
+          "scene_id": "EP01-S05",
+          "source_props": [
+            "短剑"
+          ]
+        },
+        {
+          "scene_id": "EP02-S04",
+          "source_props": [
+            "短剑"
+          ]
+        },
+        {
+          "scene_id": "EP02-S05",
+          "source_props": [
+            "短剑"
+          ]
+        },
+        {
+          "scene_id": "EP03-S04",
+          "source_props": [
+            "长矛"
+          ]
+        },
+        {
+          "scene_id": "EP04-S03",
+          "source_props": [
+            "长矛"
+          ]
+        },
+        {
+          "scene_id": "EP10-S01",
+          "source_props": [
+            "青铜剑"
+          ]
+        },
+        {
+          "scene_id": "EP11-S05",
+          "source_props": [
+            "长矛"
+          ]
+        },
+        {
+          "scene_id": "EP12-S02",
+          "source_props": [
+            "青铜剑"
+          ]
+        },
+        {
+          "scene_id": "EP12-S03",
+          "source_props": [
+            "青铜剑"
+          ]
+        },
+        {
+          "scene_id": "EP13-S02",
+          "source_props": [
+            "青铜剑"
+          ]
+        },
+        {
+          "scene_id": "EP13-S05",
+          "source_props": [
+            "无影长矛"
+          ]
+        },
+        {
+          "scene_id": "EP14-S04",
+          "source_props": [
+            "长矛"
+          ]
+        },
+        {
+          "scene_id": "EP14-S05",
+          "source_props": [
+            "长矛"
+          ]
+        },
+        {
+          "scene_id": "EP22-S01",
+          "source_props": [
+            "8盾",
+            "武器架"
+          ]
+        },
+        {
+          "scene_id": "EP22-S02",
+          "source_props": [
+            "空武器墙"
+          ]
+        },
+        {
+          "scene_id": "EP24-S03",
+          "source_props": [
+            "空武器墙"
+          ]
+        },
+        {
+          "scene_id": "EP26-S04",
+          "source_props": [
+            "短剑"
+          ]
+        },
+        {
+          "scene_id": "EP27-S01",
+          "source_props": [
+            "空武器墙"
+          ]
+        },
+        {
+          "scene_id": "EP27-S02",
+          "source_props": [
+            "短剑",
+            "长矛",
+            "桌盾"
+          ]
+        },
+        {
+          "scene_id": "EP27-S03",
+          "source_props": [
+            "4盾",
+            "短剑"
+          ]
+        },
+        {
+          "scene_id": "EP27-S04",
+          "source_props": [
+            "4盾"
+          ]
+        },
+        {
+          "scene_id": "EP27-S05",
+          "source_props": [
+            "盾"
+          ]
+        },
+        {
+          "scene_id": "EP28-S01",
+          "source_props": [
+            "盾"
+          ]
+        },
+        {
+          "scene_id": "EP28-S02",
+          "source_props": [
+            "盾",
+            "长矛",
+            "门托耳长矛"
+          ]
+        },
+        {
+          "scene_id": "EP28-S03",
+          "source_props": [
+            "长矛",
+            "盾",
+            "神盾影"
+          ]
+        },
+        {
+          "scene_id": "EP28-S04",
+          "source_props": [
+            "长矛"
+          ]
+        },
+        {
+          "scene_id": "EP29-S02",
+          "source_props": [
+            "空武器墙"
+          ]
+        },
+        {
+          "scene_id": "EP30-S03",
+          "source_props": [
+            "三代长矛",
+            "武器库门闩"
+          ]
+        },
+        {
+          "scene_id": "EP30-S04",
+          "source_props": [
+            "长矛",
+            "盾",
+            "神盾"
+          ]
+        },
+        {
+          "scene_id": "EP30-S05",
+          "source_props": [
+            "落地长矛"
+          ]
+        }
+      ],
+      "visual_rule": "沿用 P3/P4/P5 已冻结的形态、custody 与状态变化；HTML 提示不替代画面连续性。",
+      "p8_rule": "stable silhouette, custody and state change; render consequence legibly"
+    },
+    {
+      "prop_id": "PROP-LOOM",
+      "name": "织布与紫线",
+      "matching_terms": [
+        "织",
+        "紫线",
+        "寿衣"
+      ],
+      "first_appearance": "EP02-S03",
+      "scenes": [
+        {
+          "scene_id": "EP02-S03",
+          "source_props": [
+            "寿衣白线"
+          ]
+        },
+        {
+          "scene_id": "EP05-S01",
+          "source_props": [
+            "织机"
+          ]
+        },
+        {
+          "scene_id": "EP06-S05",
+          "source_props": [
+            "阿瑞忒织衣"
+          ]
+        },
+        {
+          "scene_id": "EP07-S01",
+          "source_props": [
+            "阿瑞忒织衣"
+          ]
+        },
+        {
+          "scene_id": "EP07-S04",
+          "source_props": [
+            "阿瑞忒织衣"
+          ]
+        },
+        {
+          "scene_id": "EP07-S05",
+          "source_props": [
+            "织针"
+          ]
+        },
+        {
+          "scene_id": "EP12-S01",
+          "source_props": [
+            "织机"
+          ]
+        },
+        {
+          "scene_id": "EP13-S03",
+          "source_props": [
+            "织梭影"
+          ]
+        },
+        {
+          "scene_id": "EP20-S05",
+          "source_props": [
+            "织梭"
+          ]
+        },
+        {
+          "scene_id": "EP21-S04",
+          "source_props": [
+            "织架断木"
+          ]
+        },
+        {
+          "scene_id": "EP21-S05",
+          "source_props": [
+            "织架"
+          ]
+        },
+        {
+          "scene_id": "EP22-S02",
+          "source_props": [
+            "织架断木"
+          ]
+        },
+        {
+          "scene_id": "EP22-S03",
+          "source_props": [
+            "织线"
+          ]
+        },
+        {
+          "scene_id": "EP29-S03",
+          "source_props": [
+            "紫线"
+          ]
+        },
+        {
+          "scene_id": "EP29-S05",
+          "source_props": [
+            "紫线"
+          ]
+        },
+        {
+          "scene_id": "EP30-S05",
+          "source_props": [
+            "紫线"
+          ]
+        }
+      ],
+      "visual_rule": "沿用 P3/P4/P5 已冻结的形态、custody 与状态变化；HTML 提示不替代画面连续性。",
+      "p8_rule": "stable silhouette, custody and state change; render consequence legibly"
+    },
+    {
+      "prop_id": "PROP-DOOR",
+      "name": "门、门闩与出口",
+      "matching_terms": [
+        "门",
+        "门闩",
+        "出口"
+      ],
+      "first_appearance": "EP01-S02",
+      "scenes": [
+        {
+          "scene_id": "EP01-S02",
+          "source_props": [
+            "门闩"
+          ]
+        },
+        {
+          "scene_id": "EP09-S05",
+          "source_props": [
+            "巨石洞门"
+          ]
+        },
+        {
+          "scene_id": "EP11-S04",
+          "source_props": [
+            "封门链"
+          ]
+        },
+        {
+          "scene_id": "EP16-S05",
+          "source_props": [
+            "洞石门"
+          ]
+        },
+        {
+          "scene_id": "EP17-S01",
+          "source_props": [
+            "猪栏门"
+          ]
+        },
+        {
+          "scene_id": "EP17-S03",
+          "source_props": [
+            "猪栏门"
+          ]
+        },
+        {
+          "scene_id": "EP18-S05",
+          "source_props": [
+            "猪栏门"
+          ]
+        },
+        {
+          "scene_id": "EP20-S02",
+          "source_props": [
+            "门槛石"
+          ]
+        },
+        {
+          "scene_id": "EP21-S03",
+          "source_props": [
+            "门闩影"
+          ]
+        },
+        {
+          "scene_id": "EP24-S04",
+          "source_props": [
+            "侧门闩"
+          ]
+        },
+        {
+          "scene_id": "EP25-S04",
+          "source_props": [
+            "门钥匙"
+          ]
+        },
+        {
+          "scene_id": "EP25-S05",
+          "source_props": [
+            "门闩"
+          ]
+        },
+        {
+          "scene_id": "EP26-S01",
+          "source_props": [
+            "门钥匙"
+          ]
+        },
+        {
+          "scene_id": "EP26-S04",
+          "source_props": [
+            "门闩"
+          ]
+        },
+        {
+          "scene_id": "EP27-S05",
+          "source_props": [
+            "暗道门"
+          ]
+        },
+        {
+          "scene_id": "EP28-S02",
+          "source_props": [
+            "门托耳长矛"
+          ]
+        },
+        {
+          "scene_id": "EP29-S04",
+          "source_props": [
+            "门槛"
+          ]
+        },
+        {
+          "scene_id": "EP30-S03",
+          "source_props": [
+            "武器库门闩"
+          ]
+        }
+      ],
+      "visual_rule": "沿用 P3/P4/P5 已冻结的形态、custody 与状态变化；HTML 提示不替代画面连续性。",
+      "p8_rule": "stable silhouette, custody and state change; render consequence legibly"
+    },
+    {
+      "prop_id": "PROP-ARROWS",
+      "name": "箭与箭袋",
+      "matching_terms": [
+        "箭"
+      ],
+      "first_appearance": "EP24-S04",
+      "scenes": [
+        {
+          "scene_id": "EP24-S04",
+          "source_props": [
+            "箭囊"
+          ]
+        },
+        {
+          "scene_id": "EP25-S04",
+          "source_props": [
+            "箭囊"
+          ]
+        },
+        {
+          "scene_id": "EP25-S05",
+          "source_props": [
+            "箭囊"
+          ]
+        },
+        {
+          "scene_id": "EP26-S01",
+          "source_props": [
+            "12箭箭囊"
+          ]
+        },
+        {
+          "scene_id": "EP26-S03",
+          "source_props": [
+            "测试箭",
+            "落箭靶"
+          ]
+        },
+        {
+          "scene_id": "EP26-S04",
+          "source_props": [
+            "12箭"
+          ]
+        },
+        {
+          "scene_id": "EP26-S05",
+          "source_props": [
+            "箭"
+          ]
+        },
+        {
+          "scene_id": "EP27-S01",
+          "source_props": [
+            "11箭"
+          ]
+        },
+        {
+          "scene_id": "EP27-S02",
+          "source_props": [
+            "10箭"
+          ]
+        },
+        {
+          "scene_id": "EP27-S03",
+          "source_props": [
+            "9箭"
+          ]
+        },
+        {
+          "scene_id": "EP27-S04",
+          "source_props": [
+            "5箭"
+          ]
+        },
+        {
+          "scene_id": "EP27-S05",
+          "source_props": [
+            "3箭"
+          ]
+        },
+        {
+          "scene_id": "EP28-S01",
+          "source_props": [
+            "3箭"
+          ]
+        },
+        {
+          "scene_id": "EP28-S02",
+          "source_props": [
+            "3箭"
+          ]
+        },
+        {
+          "scene_id": "EP28-S03",
+          "source_props": [
+            "3箭"
+          ]
+        }
+      ],
+      "visual_rule": "沿用 P3/P4/P5 已冻结的形态、custody 与状态变化；HTML 提示不替代画面连续性。",
+      "p8_rule": "stable silhouette, custody and state change; render consequence legibly"
+    }
+  ],
+  "hard_locks": {
+    "bow": "dark seasoned olive/horn composite curve; stable grip and string geometry",
+    "axes": "twelve matched bronze-headed axes; consistent aperture alignment",
+    "scar": "Odysseus right outer thigh only",
+    "bed": "living olive root passes through frame and floor; cannot be moved without cutting",
+    "arrows": "EP26–28 begins with 12 usable arrows and reaches zero only at A28-010",
+    "doors": "S1 thresholds and armory route follow P3 frozen geography"
+  }
+}

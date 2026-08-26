@@ -59,6 +59,10 @@ for (let i = 1; i <= 30; i += 1) {
 }
 
 const p7bPanels = await readJson('graphic-script/odyssey_m1_p7b/P7B_PANEL_MANIFEST.json');
+const p8Visuals = await readJson('comic-rendering/odyssey_m1_p8/P8_WEB_VISUAL_MANIFEST.json');
+if (p8Visuals.status !== 'PASS_P8_FINAL_COMIC_VISUAL_MAPPING' || p8Visuals.counts.panel_slots !== 643) {
+  throw new Error('P8 final comic visual mapping is incomplete');
+}
 const transformedPanelAssets = new Map();
 for (const panel of p7bPanels.panels) {
   if (!panel.visual.transform) continue;
@@ -67,9 +71,11 @@ for (const panel of p7bPanels.panels) {
   if (existing && existing !== identity) throw new Error(`Conflicting P7B panel transform: ${panel.visual.public_path}`);
   transformedPanelAssets.set(panel.visual.public_path, identity);
 }
-for (const panel of p7bPanels.panels) {
-  if (!panel.visual.transform || entries.some((entry) => entry.published_path === panel.visual.public_path)) continue;
-  await add(panel.visual.source_path, panel.visual.public_path, 'image', panel.visual.authority, 'APPROVED', panel.visual.transform);
+// P7B transformed storyboard/animatic derivatives remain preserved in their source
+// manifests but are superseded in the public reader by P8 final comic art.
+for (const panel of p8Visuals.panels) {
+  if (entries.some((entry) => entry.published_path === panel.public_path)) throw new Error(`Duplicate P8 public path: ${panel.public_path}`);
+  await add(panel.source_path, panel.public_path, 'image', panel.authority);
 }
 
 entries.sort((a, b) => a.published_path.localeCompare(b.published_path));
@@ -80,7 +86,7 @@ const payload = {
   artifact_class: 'CTDE_WEB_ASSET_PUBLICATION_MANIFEST',
   schema_version: '1.0.0',
   baseline_commit: '478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5',
-  strategy: 'Curated approved P4/P5 media plus deterministic P7B single-frame/carded derivatives. All dialogue and narration remain semantic HTML; rejected P4 targets and nonselected intermediate renders remain unpublished.',
+  strategy: 'Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8 renders remain unpublished.',
   selected_hero_frame_ids: [...selectedHero].sort(),
   rejected_hero_frame_ids: ['P4-HF-19','P4-HF-29','P4-HF-34','P4-HF-39','P4-HF-43','P4-HF-44'],
   asset_count: entries.length,

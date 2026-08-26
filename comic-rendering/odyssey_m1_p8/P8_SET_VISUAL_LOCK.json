@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_class": "P8_SET_VISUAL_LOCK",
+  "status": "FROZEN_FOR_RENDERING",
+  "standing_sets": [
+    {
+      "set_id": "S1",
+      "name": "Ithaca Hall",
+      "reference": "visual-development/odyssey_m1_p4/high_fidelity/sets/P4-SET-S1-ANCHOR-V01.png",
+      "geometry": [
+        "16×22m hall",
+        "four fixed columns",
+        "main entrance opposite dais",
+        "left stair and armory return",
+        "right hearth",
+        "courtyard relationship"
+      ],
+      "states": [
+        "S1-A CLEAN OCCUPIED",
+        "S1-B CONTEST",
+        "S1-C FIRST BLOOD",
+        "S1-D FULL BATTLE",
+        "S1-E AFTERMATH",
+        "S1-F RESTORED"
+      ]
+    },
+    {
+      "set_id": "S2",
+      "name": "Phaeacian Hall",
+      "reference": "visual-development/odyssey_m1_p4/high_fidelity/sets/P4-SET-S2-ANCHOR-V01.png",
+      "geometry": [
+        "bright civic sea-glass redress",
+        "same practical material family"
+      ]
+    },
+    {
+      "set_id": "S3",
+      "name": "Ship Deck",
+      "reference": "visual-development/odyssey_m1_p4/high_fidelity/sets/P4-SET-S3-ANCHOR-V01.png",
+      "geometry": [
+        "fixed mast",
+        "oar rails",
+        "deck hatches",
+        "working rigging"
+      ]
+    },
+    {
+      "set_id": "S4",
+      "name": "Eumaeus Farm",
+      "reference": "visual-development/odyssey_m1_p4/high_fidelity/sets/P4-SET-S4-ANCHOR-V01.png",
+      "geometry": [
+        "stone wall",
+        "pig pen",
+        "olive trees",
+        "coastal sightline",
+        "low working hut"
+      ]
+    },
+    {
+      "set_id": "S5",
+      "name": "Shore / Cave",
+      "reference": "visual-development/odyssey_m1_p4/high_fidelity/sets/P4-SET-S5-ANCHOR-V01.png",
+      "geometry": [
+        "rock mouth",
+        "shoreline",
+        "olive growth",
+        "practical baskets nets fire"
+      ]
+    }
+  ],
+  "hard_rules": [
+    "architecture persists across episodes",
+    "redress and damage change state not floor plan",
+    "mobile crops retain spatial cause and effect"
+  ]
+}

@@ -1,0 +1,5 @@
+# Accepted masters and formal rejection evidence are versioned; working candidates stay local.
+comic-rendering/odyssey_m1_p8/candidate/
+
+# Browser QA scratch output is never part of the published archive.
+output/playwright/

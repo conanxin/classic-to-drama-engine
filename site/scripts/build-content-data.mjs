@@ -30,6 +30,7 @@ const costumeStates = await readJson('design/odyssey_m1_p4/COSTUME_STATE_MATRIX.
 const p7bEpisodeManifest = await readJson('graphic-script/odyssey_m1_p7b/P7B_EPISODE_MANIFEST.json');
 const p7bPanelManifest = await readJson('graphic-script/odyssey_m1_p7b/P7B_PANEL_MANIFEST.json');
 const p7bCharacterRegistry = await readJson('graphic-script/odyssey_m1_p7b/P7B_CHARACTER_REGISTRY.json');
+const p8VisualManifest = await readJson('comic-rendering/odyssey_m1_p8/P8_WEB_VISUAL_MANIFEST.json');
 
 const assetBySource = new Map();
 for (const asset of assetManifest.assets) if (!assetBySource.has(asset.source_path) || !asset.transform) assetBySource.set(asset.source_path, asset);
@@ -169,14 +170,28 @@ await writeJson('p7c-study.json', p7cStudyConfig);
 
 if (p7bEpisodeManifest.counts.episodes !== 30 || p7bEpisodeManifest.counts.scenes !== 150) throw new Error('P7B episode manifest coverage failure');
 if (p7bPanelManifest.counts.panel_placements < 450 || p7bPanelManifest.counts.panel_placements > 650) throw new Error('P7B panel placement range failure');
-const p7bPanelsById = new Map(p7bPanelManifest.panels.map((panel) => [panel.panel_id, panel]));
+if (p8VisualManifest.status !== 'PASS_P8_FINAL_COMIC_VISUAL_MAPPING' || p8VisualManifest.counts.panel_slots !== 643) throw new Error('P8 visual mapping failure');
+const p8VisualById = new Map(p8VisualManifest.panels.map((visual) => [visual.panel_id, visual]));
+const finalPanelManifest = {
+  ...p7bPanelManifest,
+  status:'PASS_ODYSSEY_P8_HIGH_FIDELITY_VISUAL_MAPPING',
+  counts:{ ...p7bPanelManifest.counts, p8_final_visual_slots:643, raw_technical_reader_slots:0 },
+  panels:p7bPanelManifest.panels.map((panel) => {
+    const visual = p8VisualById.get(panel.panel_id);
+    if (!visual) throw new Error(`Missing P8 visual mapping: ${panel.panel_id}`);
+    return { ...panel, visual:{ source_kind:visual.source_kind, source_path:visual.source_path, public_path:visual.public_path, authority:visual.authority, source_status:visual.source_status, transform:null, visual_asset_id:visual.visual_asset_id, master_path:visual.master_path, crop:visual.crop } };
+  })
+};
+const finalPanelsById = new Map(finalPanelManifest.panels.map((panel) => [panel.panel_id, panel]));
+const p8CoverByEpisode = new Map(p8VisualManifest.episodes.map((cover) => [cover.episode, cover]));
 const graphicEpisodes = p7bEpisodeManifest.episodes.map((graphicEpisode) => ({
   ...graphicEpisode,
-  scenes: graphicEpisode.scenes.map((scene) => ({ ...scene, panels: scene.panel_ids.map((panelId) => p7bPanelsById.get(panelId)) }))
+  cover_visual:{ path:p8CoverByEpisode.get(graphicEpisode.episode).public_path, alt:p8CoverByEpisode.get(graphicEpisode.episode).alt, authority:p8CoverByEpisode.get(graphicEpisode.episode).authority },
+  scenes: graphicEpisode.scenes.map((scene) => ({ ...scene, panels: scene.panel_ids.map((panelId) => finalPanelsById.get(panelId)) }))
 }));
 if (graphicEpisodes.some((episode) => episode.scenes.some((scene) => scene.panels.some((panel) => !panel)))) throw new Error('P7B panel join failure');
 await writeJson('graphic-episodes.json', graphicEpisodes);
-await writeJson('graphic-panels.json', p7bPanelManifest);
+await writeJson('graphic-panels.json', finalPanelManifest);
 await writeJson('graphic-characters-p7b.json', p7bCharacterRegistry);
 
 function section(markdown, heading) {
@@ -295,6 +310,7 @@ const timeline = [
   ['Graphic Script P7A','A dual reading layer prototypes character recognition, relationship help and scene-led visual reading for EP01, EP19 and EP27.'],
   ['Graphic Reader P7C','The three prototypes add progressive character help, resumable reading and a privacy-first local reader-test harness.']
   ,['Graphic Novel Script P7B','All thirty episodes and 150 scenes gain a source-bound, comicized dual reading layer; real-reader validation remains unclaimed.']
+  ,['High-Fidelity Comic Edition P8','All 643 visual slots receive accepted final comic art while exact screenplay text and the dual reader remain frozen.']
 ].map(([milestone,summary],index)=>({index:index+1,milestone,summary}));
 await writeJson('project.json', { timeline, baseline_commit:'478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5', p5_manifest_sha256:'6078af3ab505aab3958d82aea2bfa3e2a5b5e07bc163293285fe411c1a469353' });
 
