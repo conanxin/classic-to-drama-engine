@@ -4,7 +4,7 @@
   "status": "PASS_P8_ARTIFACT_IDENTITIES_FROZEN",
   "source_baseline_commit": "9825a344e0e4d5984c7a996c5208b5938729bd8b",
   "artifact_count": 837,
-  "total_bytes": 492477188,
+  "total_bytes": 492479481,
   "artifacts": [
     {
       "path": "comic-rendering/odyssey_m1_p8/P8_CHARACTER_VISUAL_LOCK.json",
@@ -18,8 +18,8 @@
     },
     {
       "path": "comic-rendering/odyssey_m1_p8/P8_FINAL_RESULT.md",
-      "bytes": 933,
-      "sha256": "9a58f5a4717e7e15cc01bf499c72c0c42594521373821ee7a317ebd0ab12b302"
+      "bytes": 1875,
+      "sha256": "c318145356e79f799ca6ff4e0db9ac3b6e55575268350acb88908c0535b35408"
     },
     {
       "path": "comic-rendering/odyssey_m1_p8/P8_GOLD_STANDARD_RENDER_SPECS.json",
@@ -88,8 +88,8 @@
     },
     {
       "path": "comic-rendering/odyssey_m1_p8/P8_WEB_COMIC_QA_REPORT.md",
-      "bytes": 499,
-      "sha256": "8c9427a8d81ac367cdbb11f6eb1138b8fa6ed8401ac5a7014d46f4487fcfb764"
+      "bytes": 1850,
+      "sha256": "c43a014a910826fe6a1bc9ef4e46f7ac3f7f4c0965d16be23d4b18374206f09c"
     },
     {
       "path": "comic-rendering/odyssey_m1_p8/P8_WEB_VISUAL_MANIFEST.json",
