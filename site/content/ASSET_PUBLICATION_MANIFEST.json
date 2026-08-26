@@ -2,7 +2,7 @@
   "artifact_class": "CTDE_WEB_ASSET_PUBLICATION_MANIFEST",
   "schema_version": "1.0.0",
   "baseline_commit": "478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5",
-  "strategy": "Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8 renders remain unpublished.",
+  "strategy": "Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives and seven bounded P8R1 EP01 comic-sequence overrides. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8/P8R1 renders remain unpublished.",
   "selected_hero_frame_ids": [
     "P4-HF-01",
     "P4-HF-02",
@@ -61,8 +61,8 @@
     "P4-HF-43",
     "P4-HF-44"
   ],
-  "asset_count": 965,
-  "total_bytes": 420940913,
+  "asset_count": 972,
+  "total_bytes": 422020325,
   "assets": [
     {
       "source_path": "animatic/odyssey_m1_p5/episodes/EP01_ANIMATIC.mp4",
@@ -6119,6 +6119,69 @@
       "bytes": 301470,
       "sha256": "2f170238d4a100afa1dcccd22fdedfd389bf59c00a561bb2621c532e007b5a1a",
       "authority": "P8-EP30-S05-MASTER FINAL_COMIC_ACCEPTED",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL02-V02.webp",
+      "published_path": "media/comic/p8r1/EP01/P8R1-EP01-S01-PNL02-V02.webp",
+      "type": "image",
+      "bytes": 178346,
+      "sha256": "27f2427bd032aab0991934d8a63e1fb2eecc36ea9431c58444b35caf6ff044dc",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL03-V02.webp",
+      "published_path": "media/comic/p8r1/EP01/P8R1-EP01-S01-PNL03-V02.webp",
+      "type": "image",
+      "bytes": 133500,
+      "sha256": "e077aaf1c617bb7ad53c941d1fe95a6c4eb26331200bb89bc816471cb61abeb7",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL04-V01.webp",
+      "published_path": "media/comic/p8r1/EP01/P8R1-EP01-S01-PNL04-V01.webp",
+      "type": "image",
+      "bytes": 154502,
+      "sha256": "c753670bbc9f10267f36a77cf432552c3bd67e03ebc4d2b8f6d2f0cc5a5c729f",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S02-PNL01-V01.webp",
+      "published_path": "media/comic/p8r1/EP01/P8R1-EP01-S02-PNL01-V01.webp",
+      "type": "image",
+      "bytes": 197794,
+      "sha256": "46bf17001b247b20d9db4b6cb8c0d7708e5a287694d9e8a7ce84a5acd30cfbe9",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S03-PNL02-V01.webp",
+      "published_path": "media/comic/p8r1/EP01/P8R1-EP01-S03-PNL02-V01.webp",
+      "type": "image",
+      "bytes": 140938,
+      "sha256": "a8481f5b8483cadb4f5725da9053b39ace80e5b5d9c56a9c1042783742917215",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S04-PNL03-V02.webp",
+      "published_path": "media/comic/p8r1/EP01/P8R1-EP01-S04-PNL03-V02.webp",
+      "type": "image",
+      "bytes": 144120,
+      "sha256": "34c965283167689c37ade4428a6052353f8e9d3bf5a60c7398149b41d4943448",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S05-PNL03-V01.webp",
+      "published_path": "media/comic/p8r1/EP01/P8R1-EP01-S05-PNL03-V01.webp",
+      "type": "image",
+      "bytes": 130212,
+      "sha256": "6ed2a6ee68ff395b5b677a69da175a9d986f0cb748a8bb4713080a627a02735d",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
       "status": "APPROVED"
     },
     {

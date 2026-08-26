@@ -1,0 +1,177 @@
+{
+  "artifact_class": "ODYSSEY_P8R1_EP01_VISUAL_OVERRIDE_MANIFEST",
+  "schema_version": "1.0.0",
+  "episode": "EP01",
+  "visual_override_count": 7,
+  "panels": [
+    {
+      "panel_id": "EP01-S01-PNL02",
+      "version": "V02",
+      "source_kind": "P8R1_EP01_FINAL_COMIC_ART",
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL02-V02.webp",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S01-PNL02-V02.png",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S01-PNL02-V02.webp",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "source_status": "APPROVED_EP01_R1",
+      "alt": "安提诺俄斯把奥德修斯的酒杯递向右侧求婚者，忒勒马科斯从左侧伸手却够不到。",
+      "visible_action": "安提诺俄斯把杯递给旁边的人，忒勒马科斯伸手落空。",
+      "master": {
+        "bytes": 2567178,
+        "sha256": "67029bfb6cc76d5cbc5ee15f2e29cef589323ae29f306634f3ff944113d3e3ee",
+        "width": 1536,
+        "height": 1024
+      },
+      "web": {
+        "bytes": 178346,
+        "sha256": "27f2427bd032aab0991934d8a63e1fb2eecc36ea9431c58444b35caf6ff044dc",
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "panel_id": "EP01-S01-PNL03",
+      "version": "V02",
+      "source_kind": "P8R1_EP01_FINAL_COMIC_ART",
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL03-V02.webp",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S01-PNL03-V02.png",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S01-PNL03-V02.webp",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "source_status": "APPROVED_EP01_R1",
+      "alt": "佩涅洛佩停在楼梯半腰，先看桌上被劈碎的家库封泥和已经开启的酒坛。",
+      "visible_action": "佩涅洛佩停在楼梯半腰，先看被劈碎的封泥。",
+      "master": {
+        "bytes": 2127185,
+        "sha256": "23c5bf4d266a247c6f1e5ac77270330c57fd2422aa92578d3bbb787a63f93d0b",
+        "width": 1448,
+        "height": 1086
+      },
+      "web": {
+        "bytes": 133500,
+        "sha256": "e077aaf1c617bb7ad53c941d1fe95a6c4eb26331200bb89bc816471cb61abeb7",
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "panel_id": "EP01-S01-PNL04",
+      "version": "V01",
+      "source_kind": "P8R1_EP01_FINAL_COMIC_ART",
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL04-V01.webp",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S01-PNL04-V01.png",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S01-PNL04-V01.webp",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "source_status": "APPROVED_EP01_R1",
+      "alt": "忒勒马科斯夺回父亲的双耳杯，举到眼前看见杯底新磕出的白痕。",
+      "visible_action": "忒勒马科斯夺回父亲的杯，看见杯底新磕出的白痕。",
+      "master": {
+        "bytes": 2304496,
+        "sha256": "a04f7f699de42e91f87a711950a8400f283295972fc03516f532e42cfb43bf59",
+        "width": 1448,
+        "height": 1086
+      },
+      "web": {
+        "bytes": 154502,
+        "sha256": "c753670bbc9f10267f36a77cf432552c3bd67e03ebc4d2b8f6d2f0cc5a5c729f",
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "panel_id": "EP01-S02-PNL01",
+      "version": "V01",
+      "source_kind": "P8R1_EP01_FINAL_COMIC_ART",
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S02-PNL01-V01.webp",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S02-PNL01-V01.png",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S02-PNL01-V01.webp",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "source_status": "APPROVED_EP01_R1",
+      "alt": "门忒斯站在日光里的门槛外以矛尾敲石，忒勒马科斯在昏暗厅内亲自抽开门闩。",
+      "visible_action": "门外有人用矛尾敲石三下，忒勒马科斯亲自拔门闩。",
+      "master": {
+        "bytes": 2515865,
+        "sha256": "4e8692cd1d8a53f6c2f43b9e120e5bb965bcf968655f0210c18877be1bd9d07e",
+        "width": 1672,
+        "height": 941
+      },
+      "web": {
+        "bytes": 197794,
+        "sha256": "46bf17001b247b20d9db4b6cb8c0d7708e5a287694d9e8a7ce84a5acd30cfbe9",
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "panel_id": "EP01-S03-PNL02",
+      "version": "V01",
+      "source_kind": "P8R1_EP01_FINAL_COMIC_ART",
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S03-PNL02-V01.webp",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S03-PNL02-V01.png",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S03-PNL02-V01.webp",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "source_status": "APPROVED_EP01_R1",
+      "alt": "账板前两双手把压在第四十一天位置的羊骨折断，空酒架在后方失焦。",
+      "visible_action": "门忒斯把羊骨压在第四十一天的位置，忒勒马科斯把骨头折断。",
+      "master": {
+        "bytes": 2280488,
+        "sha256": "e5ff12cd9829edcaa7429cbeab47d06f3bf54e52f8ca9f9620b45c07263da40f",
+        "width": 1535,
+        "height": 1024
+      },
+      "web": {
+        "bytes": 140938,
+        "sha256": "a8481f5b8483cadb4f5725da9053b39ace80e5b5d9c56a9c1042783742917215",
+        "width": 1535,
+        "height": 1024
+      }
+    },
+    {
+      "panel_id": "EP01-S04-PNL03",
+      "version": "V02",
+      "source_kind": "P8R1_EP01_FINAL_COMIC_ART",
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S04-PNL03-V02.webp",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S04-PNL03-V02.png",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S04-PNL03-V02.webp",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "source_status": "APPROVED_EP01_R1",
+      "alt": "佩涅洛佩接过账板，手里仍握织梭；她看向拿着磕伤酒杯的忒勒马科斯。",
+      "visible_action": "佩涅洛佩看见账板和磕伤的杯，从儿子手里接管证据。",
+      "master": {
+        "bytes": 2221308,
+        "sha256": "ffe179499ffe6e72584d9e59ac4d68e38e5fb77fe3e5ed93a49c3b6ea56b78c9",
+        "width": 1448,
+        "height": 1086
+      },
+      "web": {
+        "bytes": 144120,
+        "sha256": "34c965283167689c37ade4428a6052353f8e9d3bf5a60c7398149b41d4943448",
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "panel_id": "EP01-S05-PNL03",
+      "version": "V01",
+      "source_kind": "P8R1_EP01_FINAL_COMIC_ART",
+      "source_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S05-PNL03-V01.webp",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S05-PNL03-V01.png",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S05-PNL03-V01.webp",
+      "authority": "P8R1 EP01 bounded comic-sequence render",
+      "source_status": "APPROVED_EP01_R1",
+      "alt": "忒勒马科斯把父亲过长的剑放回箱边，系好自己的短刀，将蜡板转向门外的夜海。",
+      "visible_action": "他解下父亲的长剑，换上自己的短刀，把出海路线转到最上面。",
+      "master": {
+        "bytes": 2133184,
+        "sha256": "f9b1968d9dabd91cccdb23398f2f66332ef11a04a1a52a09063c548ee697a3aa",
+        "width": 1448,
+        "height": 1086
+      },
+      "web": {
+        "bytes": 130212,
+        "sha256": "6ed2a6ee68ff395b5b677a69da175a9d986f0cb748a8bb4713080a627a02735d",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  ],
+  "status": "PASS_P8R1_EP01_VISUAL_OVERRIDES"
+}

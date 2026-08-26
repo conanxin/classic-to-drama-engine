@@ -3,13 +3,14 @@ import GraphicPanelSequence from './GraphicPanelSequence.astro';
 
 interface Character { id:string; name:string; color:string; aliases:string[]; faction:string; recognition_level:string; }
 interface SourceBlock { type:string; text:string; }
-interface Props { scene:any; sourceScene:{ blocks:SourceBlock[] }; characters:Character[]; }
-const { scene, sourceScene, characters } = Astro.props;
+interface Props { scene:any; sourceScene:{ blocks:SourceBlock[] }; characters:Character[]; repairVariant?:string; }
+const { scene, sourceScene, characters, repairVariant = '' } = Astro.props;
+const ep01Repair = repairVariant === 'ep01-r1';
 const cast = scene.cast.map((entry:any) => ({ ...entry, character:characters.find((item) => item.id === entry.character_id) })).filter((entry:any) => entry.character);
 const factionLabels:Record<string,string> = { household:'家宅核心', 'loyal-household':'忠诚家宅', suitors:'求婚者阵营', gods:'神明层', 'sea-pressure':'海神压力', phaeacia:'菲埃克斯', otherworld:'异境', sailors:'船员', civic:'城邦／旅途' };
 const compactCast = `${cast.slice(0, 3).map((entry:any) => entry.display_name).join('、')}${cast.length > 3 ? `等${cast.length}人/组` : ''}`;
 ---
-<section class="graphic-scene" id={`scene-${scene.number}`} data-scene-id={scene.scene_id} data-study-scene>
+<section class:list={['graphic-scene', { 'ep01-r1':ep01Repair }, scene.composition && `scene-${scene.composition}`]} id={`scene-${scene.number}`} data-scene-id={scene.scene_id} data-study-scene>
   <header class="scene-heading">
     <div><span>WHERE · {scene.scene_id}</span><h2>{scene.heading}</h2></div>
     <p class="scene-goal"><span>AT STAKE</span>{scene.conflict_goal}</p>
@@ -44,8 +45,8 @@ const compactCast = `${cast.slice(0, 3).map((entry:any) => entry.display_name).j
   </div>
 
   <div class="scene-story">
-    <div class="scene-bridge">{scene.narrative.map((paragraph:string) => <p>{paragraph}</p>)}</div>
-    <GraphicPanelSequence panels={scene.panels} characters={characters} />
+    {!ep01Repair && <div class="scene-bridge">{scene.narrative.map((paragraph:string) => <p>{paragraph}</p>)}</div>}
+    <GraphicPanelSequence panels={scene.panels} characters={characters} repairVariant={repairVariant} composition={scene.composition} />
     <p class="change"><span>本场变化</span>{scene.consequence}</p>
     <details class="source-layer" data-pagefind-ignore data-study-event="source_layer_open">
       <summary>展开原剧本 <small>Script Mode 原文 · 本场完整</small></summary>
@@ -67,7 +68,8 @@ const compactCast = `${cast.slice(0, 3).map((entry:any) => entry.display_name).j
   .reorient{border:1px solid var(--graphic-rule);background:var(--graphic-ink-2)}.reorient>summary{list-style:none;cursor:pointer;padding:.62rem .75rem;display:flex;justify-content:space-between;gap:1rem;align-items:center}.reorient>summary::-webkit-details-marker{display:none}.reorient>summary span{font-family:var(--serif);font-size:.84rem}.reorient>summary small{font-size:.56rem;color:var(--graphic-muted);text-align:right}.reorient[open]>summary{border-bottom:1px solid var(--graphic-rule)}.reorient-panel{padding:.85rem}.current-goal{margin:0 0 .8rem;font-family:var(--serif);font-size:.78rem}.current-goal span{display:block;font-family:var(--sans);font-size:.5rem;color:var(--graphic-accent);letter-spacing:.1em}.reorient ul{list-style:none;padding:0;margin:0 0 .8rem;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.35rem}.reorient li{display:grid;grid-template-columns:.45rem auto 1fr;gap:.4rem;align-items:baseline;font-size:.61rem}.reorient li i{width:.38rem;height:.38rem;background:var(--who)}.reorient li span{color:var(--graphic-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.reorient dl{margin:0}.reorient dl div{border-top:1px solid var(--graphic-rule);padding:.55rem 0}.reorient dt{font-size:.5rem;color:var(--graphic-muted);letter-spacing:.1em}.reorient dd{margin:.2rem 0 0;font-family:var(--serif);font-size:.72rem;line-height:1.55}
   .scene-bridge{max-width:48rem;margin:1.5rem 0 2rem;font-family:var(--serif);font-size:clamp(.95rem,1.5vw,1.12rem);line-height:1.85;color:var(--graphic-paper-2)}.scene-bridge p{margin:.6rem 0}.change{display:grid;grid-template-columns:7rem 1fr;gap:1rem;margin:2rem 0;padding:1rem 0;border-block:1px solid var(--graphic-rule);font-family:var(--serif)}.change span{font-family:var(--sans);font-size:.56rem;letter-spacing:.12em;color:var(--graphic-accent)}
   .source-layer{margin-top:1.6rem;border:1px solid var(--graphic-rule);background:rgba(0,0,0,.15)}.source-layer summary{cursor:pointer;padding:.9rem 1rem;font-size:.72rem;letter-spacing:.08em}.source-layer summary small{display:block;margin-top:.15rem;color:var(--graphic-muted);font-size:.58rem}.source-blocks{padding:clamp(1.1rem,4vw,2.5rem);border-top:1px solid var(--graphic-rule);font-size:.88rem}.source-action{font-family:var(--serif);line-height:1.9}.source-character{width:75%;margin:1.7rem auto .2rem;font-weight:600;letter-spacing:.1em}.source-dialogue{width:75%;margin:.2rem auto 1rem;line-height:1.8}.source-transition{text-align:right;font-size:.7rem;letter-spacing:.12em}
-  @media(max-width:850px){.scene-heading{grid-template-columns:1fr}.scene-tools{grid-template-columns:1fr}.source-character,.source-dialogue{width:88%}}
+  .ep01-r1{padding-top:clamp(2.8rem,5.5vw,5rem);background:linear-gradient(180deg,rgba(255,255,255,.012),transparent 18rem)}.ep01-r1 .scene-heading{grid-template-columns:minmax(16rem,1.2fr) minmax(18rem,.8fr);margin-bottom:.85rem}.ep01-r1 .scene-heading h2{font-size:clamp(1.05rem,1.9vw,1.35rem)}.ep01-r1 .scene-goal{padding-left:1rem;border-left:2px solid var(--graphic-accent);font-size:clamp(1rem,1.45vw,1.16rem)}.ep01-r1 .scene-tools{grid-template-columns:minmax(0,1fr) auto;align-items:start;margin-bottom:1rem}.ep01-r1 .cast-chips{gap:.28rem}.ep01-r1 .character-assist>summary{background:transparent;padding:.3rem .42rem}.ep01-r1 .reorient{min-width:15rem;background:transparent}.ep01-r1 .scene-story{padding-top:.25rem}.ep01-r1 .change{max-width:52rem;margin:1.5rem 0 1.2rem;padding:.8rem 0;font-size:.93rem}.ep01-r1 .source-layer{max-width:52rem;margin-top:1rem;background:transparent}.ep01-r1 .source-layer summary{padding:.72rem .85rem;color:var(--graphic-muted)}
+  @media(max-width:850px){.scene-heading{grid-template-columns:1fr}.scene-tools{grid-template-columns:1fr}.source-character,.source-dialogue{width:88%}.ep01-r1 .scene-heading,.ep01-r1 .scene-tools{grid-template-columns:1fr}.ep01-r1 .reorient{min-width:0}}
   @media(max-width:560px){.graphic-scene{padding-top:2.6rem;padding-bottom:3.1rem}.scene-heading{gap:.75rem}.scene-tools{gap:.65rem}.character-assist>summary{padding:.3rem .42rem}.assist-preview{display:none}.assist-context{position:fixed;inset:auto .75rem 4.25rem .75rem;width:auto;max-height:45vh;overflow:auto}.reorient>summary{padding:.58rem .65rem}.reorient-panel{padding:.7rem}.reorient ul{grid-template-columns:1fr}.scene-bridge{margin-block:1rem 1.3rem}.change{grid-template-columns:1fr;gap:.25rem}.source-blocks{font-size:.82rem}}
   @media(prefers-reduced-motion:reduce){.assist-preview{transition:none}}
 </style>

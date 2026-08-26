@@ -31,6 +31,8 @@ const p7bEpisodeManifest = await readJson('graphic-script/odyssey_m1_p7b/P7B_EPI
 const p7bPanelManifest = await readJson('graphic-script/odyssey_m1_p7b/P7B_PANEL_MANIFEST.json');
 const p7bCharacterRegistry = await readJson('graphic-script/odyssey_m1_p7b/P7B_CHARACTER_REGISTRY.json');
 const p8VisualManifest = await readJson('comic-rendering/odyssey_m1_p8/P8_WEB_VISUAL_MANIFEST.json');
+const p8r1Grammar = await readJson('comic-rendering/odyssey_m1_p8r1/P8R1_EP01_COMIC_GRAMMAR.json');
+const p8r1VisualManifest = await readJson('comic-rendering/odyssey_m1_p8r1/P8R1_EP01_VISUAL_OVERRIDE_MANIFEST.json');
 
 const assetBySource = new Map();
 for (const asset of assetManifest.assets) if (!assetBySource.has(asset.source_path) || !asset.transform) assetBySource.set(asset.source_path, asset);
@@ -172,22 +174,36 @@ if (p7bEpisodeManifest.counts.episodes !== 30 || p7bEpisodeManifest.counts.scene
 if (p7bPanelManifest.counts.panel_placements < 450 || p7bPanelManifest.counts.panel_placements > 650) throw new Error('P7B panel placement range failure');
 if (p8VisualManifest.status !== 'PASS_P8_FINAL_COMIC_VISUAL_MAPPING' || p8VisualManifest.counts.panel_slots !== 643) throw new Error('P8 visual mapping failure');
 const p8VisualById = new Map(p8VisualManifest.panels.map((visual) => [visual.panel_id, visual]));
+const p8r1VisualById = new Map(p8r1VisualManifest.panels.map((visual) => [visual.panel_id, visual]));
+const p8r1PresentationById = new Map(Object.entries(p8r1Grammar.panel_presentations));
 const finalPanelManifest = {
   ...p7bPanelManifest,
-  status:'PASS_ODYSSEY_P8_HIGH_FIDELITY_VISUAL_MAPPING',
-  counts:{ ...p7bPanelManifest.counts, p8_final_visual_slots:643, raw_technical_reader_slots:0 },
+  status:'PASS_ODYSSEY_P8_HIGH_FIDELITY_VISUAL_MAPPING_WITH_EP01_P8R1',
+  counts:{ ...p7bPanelManifest.counts, p8_final_visual_slots:643, p8r1_ep01_visual_overrides:7, raw_technical_reader_slots:0 },
   panels:p7bPanelManifest.panels.map((panel) => {
-    const visual = p8VisualById.get(panel.panel_id);
+    const visual = p8r1VisualById.get(panel.panel_id) || p8VisualById.get(panel.panel_id);
     if (!visual) throw new Error(`Missing P8 visual mapping: ${panel.panel_id}`);
-    return { ...panel, visual:{ source_kind:visual.source_kind, source_path:visual.source_path, public_path:visual.public_path, authority:visual.authority, source_status:visual.source_status, transform:null, visual_asset_id:visual.visual_asset_id, master_path:visual.master_path, crop:visual.crop } };
+    const presentation = p8r1PresentationById.get(panel.panel_id);
+    return {
+      ...panel,
+      ...(visual.visible_action ? { visible_action:visual.visible_action } : {}),
+      ...(visual.alt ? { alt:visual.alt } : {}),
+      ...(presentation ? { presentation } : {}),
+      visual:{ source_kind:visual.source_kind, source_path:visual.source_path, public_path:visual.public_path, authority:visual.authority, source_status:visual.source_status, transform:null, visual_asset_id:visual.visual_asset_id || panel.panel_id, master_path:visual.master_path, crop:visual.crop || null }
+    };
   })
 };
 const finalPanelsById = new Map(finalPanelManifest.panels.map((panel) => [panel.panel_id, panel]));
 const p8CoverByEpisode = new Map(p8VisualManifest.episodes.map((cover) => [cover.episode, cover]));
 const graphicEpisodes = p7bEpisodeManifest.episodes.map((graphicEpisode) => ({
   ...graphicEpisode,
+  ...(graphicEpisode.episode === 'EP01' ? { repair_variant:'ep01-r1', repair_status:p8r1Grammar.status } : {}),
   cover_visual:{ path:p8CoverByEpisode.get(graphicEpisode.episode).public_path, alt:p8CoverByEpisode.get(graphicEpisode.episode).alt, authority:p8CoverByEpisode.get(graphicEpisode.episode).authority },
-  scenes: graphicEpisode.scenes.map((scene) => ({ ...scene, panels: scene.panel_ids.map((panelId) => finalPanelsById.get(panelId)) }))
+  scenes: graphicEpisode.scenes.map((scene) => ({
+    ...scene,
+    ...(graphicEpisode.episode === 'EP01' ? { composition:p8r1Grammar.scene_compositions[scene.scene_id] } : {}),
+    panels: scene.panel_ids.map((panelId) => finalPanelsById.get(panelId))
+  }))
 }));
 if (graphicEpisodes.some((episode) => episode.scenes.some((scene) => scene.panels.some((panel) => !panel)))) throw new Error('P7B panel join failure');
 await writeJson('graphic-episodes.json', graphicEpisodes);

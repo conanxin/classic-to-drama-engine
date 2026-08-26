@@ -1,0 +1,123 @@
+{
+  "artifact_class": "ODYSSEY_P8R1_EP01_COMIC_READING_GRAMMAR",
+  "schema_version": "1.0.0",
+  "episode": "EP01",
+  "scope": "EP01_GRAPHIC_MODE_ONLY",
+  "status": "PASS_EP01_COMIC_READING_GRAMMAR",
+  "source_authority": "graphic-script/odyssey_m1_p7b/P7B_PANEL_MANIFEST.json",
+  "visual_authority": "comic-rendering/odyssey_m1_p8/P8_WEB_VISUAL_MANIFEST.json",
+  "visual_override_count": 7,
+  "scene_compositions": {
+    "EP01-S01": "establish-reaction-pair",
+    "EP01-S02": "threshold-dialogue-sequence",
+    "EP01-S03": "intimate-prop-triptych",
+    "EP01-S04": "crowd-action-mosaic",
+    "EP01-S05": "intimate-cliffhanger"
+  },
+  "panel_presentations": {
+    "EP01-S01-PNL01": { "text_role": "NARRATION_CAPTION", "dialogue_align": "left-overlay", "width": "wide" },
+    "EP01-S01-PNL02": { "text_role": "SILENT_ACTION", "dialogue_align": "none", "width": "medium" },
+    "EP01-S01-PNL03": { "text_role": "SPEECH", "dialogue_align": "left-under", "width": "medium" },
+    "EP01-S01-PNL04": { "text_role": "NARRATION_CAPTION", "dialogue_align": "none", "width": "wide" },
+    "EP01-S02-PNL01": { "text_role": "NARRATION_CAPTION", "dialogue_align": "none", "width": "wide" },
+    "EP01-S02-PNL02": { "text_role": "SPEECH", "dialogue_align": "left-overlay", "width": "medium" },
+    "EP01-S02-PNL03": { "text_role": "SPEECH", "dialogue_align": "right-under", "width": "medium" },
+    "EP01-S03-PNL01": { "text_role": "SPEECH", "dialogue_align": "left-under", "width": "medium" },
+    "EP01-S03-PNL02": { "text_role": "SPEECH_ACTION", "dialogue_align": "right-overlay", "width": "medium" },
+    "EP01-S03-PNL03": { "text_role": "NARRATION_CAPTION", "dialogue_align": "none", "width": "wide" },
+    "EP01-S04-PNL01": { "text_role": "SPEECH", "dialogue_align": "left-overlay", "width": "wide" },
+    "EP01-S04-PNL02": { "text_role": "SILENT_REACTION", "dialogue_align": "none", "width": "medium" },
+    "EP01-S04-PNL03": { "text_role": "SPEECH_REACTION", "dialogue_align": "left-under", "width": "medium" },
+    "EP01-S04-PNL04": { "text_role": "NARRATION_CAPTION", "dialogue_align": "none", "width": "wide" },
+    "EP01-S05-PNL01": { "text_role": "SPEECH_ACTION", "dialogue_align": "left-under", "width": "wide" },
+    "EP01-S05-PNL02": { "text_role": "SPEECH", "dialogue_align": "right-overlay", "width": "medium" },
+    "EP01-S05-PNL03": { "text_role": "CLIFFHANGER_ACTION", "dialogue_align": "none", "width": "wide" }
+  },
+  "visual_overrides": [
+    {
+      "panel_id": "EP01-S01-PNL02",
+      "version": "V02",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S01-PNL02-V02.png",
+      "web_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL02-V02.webp",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S01-PNL02-V02.webp",
+      "alt": "安提诺俄斯把奥德修斯的酒杯递向右侧求婚者，忒勒马科斯从左侧伸手却够不到。",
+      "visible_action": "安提诺俄斯把杯递给旁边的人，忒勒马科斯伸手落空。",
+      "authority": "P8R1 EP01 bounded comic-sequence render"
+    },
+    {
+      "panel_id": "EP01-S01-PNL03",
+      "version": "V02",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S01-PNL03-V02.png",
+      "web_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL03-V02.webp",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S01-PNL03-V02.webp",
+      "alt": "佩涅洛佩停在楼梯半腰，先看桌上被劈碎的家库封泥和已经开启的酒坛。",
+      "visible_action": "佩涅洛佩停在楼梯半腰，先看被劈碎的封泥。",
+      "authority": "P8R1 EP01 bounded comic-sequence render"
+    },
+    {
+      "panel_id": "EP01-S01-PNL04",
+      "version": "V01",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S01-PNL04-V01.png",
+      "web_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL04-V01.webp",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S01-PNL04-V01.webp",
+      "alt": "忒勒马科斯夺回父亲的双耳杯，举到眼前看见杯底新磕出的白痕。",
+      "visible_action": "忒勒马科斯夺回父亲的杯，看见杯底新磕出的白痕。",
+      "authority": "P8R1 EP01 bounded comic-sequence render"
+    },
+    {
+      "panel_id": "EP01-S02-PNL01",
+      "version": "V01",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S02-PNL01-V01.png",
+      "web_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S02-PNL01-V01.webp",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S02-PNL01-V01.webp",
+      "alt": "门忒斯站在日光里的门槛外以矛尾敲石，忒勒马科斯在昏暗厅内亲自抽开门闩。",
+      "visible_action": "门外有人用矛尾敲石三下，忒勒马科斯亲自拔门闩。",
+      "authority": "P8R1 EP01 bounded comic-sequence render"
+    },
+    {
+      "panel_id": "EP01-S03-PNL02",
+      "version": "V01",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S03-PNL02-V01.png",
+      "web_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S03-PNL02-V01.webp",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S03-PNL02-V01.webp",
+      "alt": "账板前两双手把压在第四十一天位置的羊骨折断，空酒架在后方失焦。",
+      "visible_action": "门忒斯把羊骨压在第四十一天的位置，忒勒马科斯把骨头折断。",
+      "authority": "P8R1 EP01 bounded comic-sequence render"
+    },
+    {
+      "panel_id": "EP01-S04-PNL03",
+      "version": "V02",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S04-PNL03-V02.png",
+      "web_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S04-PNL03-V02.webp",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S04-PNL03-V02.webp",
+      "alt": "佩涅洛佩接过账板，手里仍握织梭；她看向拿着磕伤酒杯的忒勒马科斯。",
+      "visible_action": "佩涅洛佩看见账板和磕伤的杯，从儿子手里接管证据。",
+      "authority": "P8R1 EP01 bounded comic-sequence render"
+    },
+    {
+      "panel_id": "EP01-S05-PNL03",
+      "version": "V01",
+      "master_path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S05-PNL03-V01.png",
+      "web_path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S05-PNL03-V01.webp",
+      "public_path": "media/comic/p8r1/EP01/P8R1-EP01-S05-PNL03-V01.webp",
+      "alt": "忒勒马科斯把父亲过长的剑放回箱边，系好自己的短刀，将蜡板转向门外的夜海。",
+      "visible_action": "他解下父亲的长剑，换上自己的短刀，把出海路线转到最上面。",
+      "authority": "P8R1 EP01 bounded comic-sequence render"
+    }
+  ],
+  "rejected_versions": [
+    { "panel_id": "EP01-S01-PNL02", "version": "V01", "reason": "NARRATIVE_AMBIGUITY", "path": "comic-rendering/odyssey_m1_p8r1/rejected/EP01/P8R1-EP01-S01-PNL02-V01.png" },
+    { "panel_id": "EP01-S01-PNL03", "version": "V01", "reason": "PROP_ERROR", "path": "comic-rendering/odyssey_m1_p8r1/rejected/EP01/P8R1-EP01-S01-PNL03-V01.png" },
+    { "panel_id": "EP01-S04-PNL03", "version": "V01", "reason": "IDENTITY_DRIFT", "path": "comic-rendering/odyssey_m1_p8r1/rejected/EP01/P8R1-EP01-S04-PNL03-V01.png" }
+  ],
+  "source_modifications": {
+    "V2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "Runtime": 0,
+    "P7B_narrative_authority": 0,
+    "P8_visual_authority": 0
+  },
+  "P6_status": "PAUSED_BY_USER"
+}

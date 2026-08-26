@@ -1,0 +1,36 @@
+{
+  "artifact_class": "ODYSSEY_P8R1_EP01_REJECTION_REGISTER",
+  "schema_version": "1.0.0",
+  "episode": "EP01",
+  "rejection_count": 3,
+  "rejected": [
+    {
+      "panel_id": "EP01-S01-PNL02",
+      "version": "V01",
+      "reason": "NARRATIVE_AMBIGUITY",
+      "path": "comic-rendering/odyssey_m1_p8r1/rejected/EP01/P8R1-EP01-S01-PNL02-V01.png",
+      "bytes": 2675417,
+      "sha256": "5619feebd362f7029a1158938faca2568a3a6821ca7ccada7fe7411ed3a42f01",
+      "publication_status": "REJECTED_NOT_PUBLISHED"
+    },
+    {
+      "panel_id": "EP01-S01-PNL03",
+      "version": "V01",
+      "reason": "PROP_ERROR",
+      "path": "comic-rendering/odyssey_m1_p8r1/rejected/EP01/P8R1-EP01-S01-PNL03-V01.png",
+      "bytes": 2148228,
+      "sha256": "7593e2018d812da28e62ce40322ce332f07735bd092b5b627e4bda89b3bc1b64",
+      "publication_status": "REJECTED_NOT_PUBLISHED"
+    },
+    {
+      "panel_id": "EP01-S04-PNL03",
+      "version": "V01",
+      "reason": "IDENTITY_DRIFT",
+      "path": "comic-rendering/odyssey_m1_p8r1/rejected/EP01/P8R1-EP01-S04-PNL03-V01.png",
+      "bytes": 2193161,
+      "sha256": "988b267e437dffccf2218973f6dacefad422b380d266593700a84be7bf09f5fc",
+      "publication_status": "REJECTED_NOT_PUBLISHED"
+    }
+  ],
+  "status": "REJECTED_ASSETS_EXCLUDED_FROM_PUBLICATION"
+}

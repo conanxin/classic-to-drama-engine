@@ -1,0 +1,19 @@
+{
+  "artifact_class": "ODYSSEY_P8R1_EP01_RENDER_RECEIPTS",
+  "schema_version": "1.0.0",
+  "episode": "EP01",
+  "render_method": "OpenAI image generation with approved P4/P8 reference assets",
+  "text_policy": "NO_CHINESE_TEXT_BAKED_INTO_ART",
+  "receipts": [
+    { "panel_id": "EP01-S01-PNL02", "selected_version": "V02", "purpose": "Make cup custody and Telemachus's failed reach legible.", "references": ["P4-HF-01", "P4-CHAR-TEL-IDENTITY-V01"], "review": "PASS" },
+    { "panel_id": "EP01-S01-PNL03", "selected_version": "V02", "purpose": "Show Penelope seeing the chopped household seal before looking at her son.", "references": ["P4-HF-01", "P4-CHAR-PEN-IDENTITY-V01"], "review": "PASS" },
+    { "panel_id": "EP01-S01-PNL04", "selected_version": "V01", "purpose": "Show Telemachus reclaiming the cup and discovering its new chip.", "references": ["P4-HF-01", "P4-CHAR-TEL-IDENTITY-V01"], "review": "PASS" },
+    { "panel_id": "EP01-S02-PNL01", "selected_version": "V01", "purpose": "Turn the spear knock and door-bar removal into a readable threshold action.", "references": ["P8-EP01-S02-PNL02-V01", "P4-CHAR-TEL-IDENTITY-V01", "P4-CHAR-ATH-IDENTITY-V01"], "review": "PASS" },
+    { "panel_id": "EP01-S03-PNL02", "selected_version": "V01", "purpose": "Make the forty-first-day tally and broken sheep bone the midpoint action.", "references": ["P8-EP01-S03-MASTER-V01"], "review": "PASS" },
+    { "panel_id": "EP01-S04-PNL03", "selected_version": "V02", "purpose": "Show Penelope taking the board while reading her son and the chipped cup.", "references": ["P8-EP01-S04-MASTER-V01", "P4-CHAR-PEN-IDENTITY-V01", "P4-CHAR-TEL-IDENTITY-V01"], "review": "PASS" },
+    { "panel_id": "EP01-S05-PNL03", "selected_version": "V01", "purpose": "Make the short knife, set-aside long sword, tablet, and sea form one cliffhanger action.", "references": ["P8-EP01-S05-MASTER-V02", "P4-CHAR-TEL-IDENTITY-V01"], "review": "PASS" }
+  ],
+  "accepted_count": 7,
+  "rejected_count": 3,
+  "status": "PASS_P8R1_EP01_RENDER_RECEIPTS"
+}

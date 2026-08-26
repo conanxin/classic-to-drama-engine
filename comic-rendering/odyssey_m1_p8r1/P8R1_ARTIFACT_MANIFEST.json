@@ -1,0 +1,132 @@
+{
+  "artifact_class": "ODYSSEY_P8R1_ARTIFACT_MANIFEST",
+  "schema_version": "1.0.0",
+  "repair_id": "ODYSSEY-P8R1",
+  "episode": "EP01",
+  "artifact_count": 24,
+  "artifacts": [
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/EP01_COMIC_REPAIR_REVIEW.md",
+      "bytes": 7000,
+      "sha256": "7c4f465d15d9c85724a521deae8eaa43bfcaefce46521bfcf99bc0ab5b0e4fe6"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/P8R1_EP01_COMIC_GRAMMAR.json",
+      "bytes": 7479,
+      "sha256": "0221bb8cee471092727027947ff1227f92b668e0479829b046fe2da581bf8619"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/P8R1_EP01_RESULT.md",
+      "bytes": 1087,
+      "sha256": "73ef70909d7ea1c5fac4dbcb385d7f7cb550a6d71180a2912fb4e4b628472197"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/P8R1_EP01_VISUAL_OVERRIDE_MANIFEST.json",
+      "bytes": 7736,
+      "sha256": "844d73a291d80433e21d82ca25f329865c21ef75fa3af30298a01a00354e88ae"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/P8R1_REJECTION_REGISTER.json",
+      "bytes": 1292,
+      "sha256": "d3c93f16f20d384703fad61ea402cb6524c5eebb20ec8cb79afe2bd52d9591bd"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/P8R1_RENDER_RECEIPTS.json",
+      "bytes": 2019,
+      "sha256": "334e6d11d87f977fd35d4d3219cc80f0daec032069c3fdcef625ef38fb3bc1ae"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S01-PNL02-V02.png",
+      "bytes": 2567178,
+      "sha256": "67029bfb6cc76d5cbc5ee15f2e29cef589323ae29f306634f3ff944113d3e3ee"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S01-PNL03-V02.png",
+      "bytes": 2127185,
+      "sha256": "23c5bf4d266a247c6f1e5ac77270330c57fd2422aa92578d3bbb787a63f93d0b"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S01-PNL04-V01.png",
+      "bytes": 2304496,
+      "sha256": "a04f7f699de42e91f87a711950a8400f283295972fc03516f532e42cfb43bf59"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S02-PNL01-V01.png",
+      "bytes": 2515865,
+      "sha256": "4e8692cd1d8a53f6c2f43b9e120e5bb965bcf968655f0210c18877be1bd9d07e"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S03-PNL02-V01.png",
+      "bytes": 2280488,
+      "sha256": "e5ff12cd9829edcaa7429cbeab47d06f3bf54e52f8ca9f9620b45c07263da40f"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S04-PNL03-V02.png",
+      "bytes": 2221308,
+      "sha256": "ffe179499ffe6e72584d9e59ac4d68e38e5fb77fe3e5ed93a49c3b6ea56b78c9"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/master/EP01/P8R1-EP01-S05-PNL03-V01.png",
+      "bytes": 2133184,
+      "sha256": "f9b1968d9dabd91cccdb23398f2f66332ef11a04a1a52a09063c548ee697a3aa"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/rejected/EP01/P8R1-EP01-S01-PNL02-V01.png",
+      "bytes": 2675417,
+      "sha256": "5619feebd362f7029a1158938faca2568a3a6821ca7ccada7fe7411ed3a42f01"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/rejected/EP01/P8R1-EP01-S01-PNL03-V01.png",
+      "bytes": 2148228,
+      "sha256": "7593e2018d812da28e62ce40322ce332f07735bd092b5b627e4bda89b3bc1b64"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/rejected/EP01/P8R1-EP01-S04-PNL03-V01.png",
+      "bytes": 2193161,
+      "sha256": "988b267e437dffccf2218973f6dacefad422b380d266593700a84be7bf09f5fc"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/tools/build_p8r1.mjs",
+      "bytes": 3935,
+      "sha256": "c687ed862d796ebf9f56998d1ee9be7be064e842a23012d2e6df83f885b28e9f"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL02-V02.webp",
+      "bytes": 178346,
+      "sha256": "27f2427bd032aab0991934d8a63e1fb2eecc36ea9431c58444b35caf6ff044dc"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL03-V02.webp",
+      "bytes": 133500,
+      "sha256": "e077aaf1c617bb7ad53c941d1fe95a6c4eb26331200bb89bc816471cb61abeb7"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S01-PNL04-V01.webp",
+      "bytes": 154502,
+      "sha256": "c753670bbc9f10267f36a77cf432552c3bd67e03ebc4d2b8f6d2f0cc5a5c729f"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S02-PNL01-V01.webp",
+      "bytes": 197794,
+      "sha256": "46bf17001b247b20d9db4b6cb8c0d7708e5a287694d9e8a7ce84a5acd30cfbe9"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S03-PNL02-V01.webp",
+      "bytes": 140938,
+      "sha256": "a8481f5b8483cadb4f5725da9053b39ace80e5b5d9c56a9c1042783742917215"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S04-PNL03-V02.webp",
+      "bytes": 144120,
+      "sha256": "34c965283167689c37ade4428a6052353f8e9d3bf5a60c7398149b41d4943448"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r1/web/EP01/P8R1-EP01-S05-PNL03-V01.webp",
+      "bytes": 130212,
+      "sha256": "6ed2a6ee68ff395b5b677a69da175a9d986f0cb748a8bb4713080a627a02735d"
+    }
+  ],
+  "status": "PASS_EP01_COMIC_READING_GRAMMAR",
+  "P8_final_closeout": "NOT_EXECUTED",
+  "P6_status": "PAUSED_BY_USER"
+}

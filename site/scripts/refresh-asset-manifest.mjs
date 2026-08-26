@@ -60,6 +60,7 @@ for (let i = 1; i <= 30; i += 1) {
 
 const p7bPanels = await readJson('graphic-script/odyssey_m1_p7b/P7B_PANEL_MANIFEST.json');
 const p8Visuals = await readJson('comic-rendering/odyssey_m1_p8/P8_WEB_VISUAL_MANIFEST.json');
+const p8r1Visuals = await readJson('comic-rendering/odyssey_m1_p8r1/P8R1_EP01_VISUAL_OVERRIDE_MANIFEST.json');
 if (p8Visuals.status !== 'PASS_P8_FINAL_COMIC_VISUAL_MAPPING' || p8Visuals.counts.panel_slots !== 643) {
   throw new Error('P8 final comic visual mapping is incomplete');
 }
@@ -77,6 +78,14 @@ for (const panel of p8Visuals.panels) {
   if (entries.some((entry) => entry.published_path === panel.public_path)) throw new Error(`Duplicate P8 public path: ${panel.public_path}`);
   await add(panel.source_path, panel.public_path, 'image', panel.authority);
 }
+if (p8r1Visuals.status !== 'PASS_P8R1_EP01_VISUAL_OVERRIDES' || p8r1Visuals.visual_override_count !== 7) {
+  throw new Error('P8R1 EP01 visual override mapping is incomplete');
+}
+for (const panel of p8r1Visuals.panels) {
+  if (!panel.panel_id.startsWith('EP01-')) throw new Error(`P8R1 path escaped EP01: ${panel.panel_id}`);
+  if (entries.some((entry) => entry.published_path === panel.public_path)) throw new Error(`Duplicate P8R1 public path: ${panel.public_path}`);
+  await add(panel.source_path, panel.public_path, 'image', panel.authority);
+}
 
 entries.sort((a, b) => a.published_path.localeCompare(b.published_path));
 const duplicatePublished = entries.filter((x, i) => entries.findIndex((y) => y.published_path === x.published_path) !== i);
@@ -86,7 +95,7 @@ const payload = {
   artifact_class: 'CTDE_WEB_ASSET_PUBLICATION_MANIFEST',
   schema_version: '1.0.0',
   baseline_commit: '478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5',
-  strategy: 'Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8 renders remain unpublished.',
+  strategy: 'Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives and seven bounded P8R1 EP01 comic-sequence overrides. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8/P8R1 renders remain unpublished.',
   selected_hero_frame_ids: [...selectedHero].sort(),
   rejected_hero_frame_ids: ['P4-HF-19','P4-HF-29','P4-HF-34','P4-HF-39','P4-HF-43','P4-HF-44'],
   asset_count: entries.length,
