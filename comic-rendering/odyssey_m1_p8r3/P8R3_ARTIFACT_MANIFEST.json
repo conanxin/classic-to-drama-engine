@@ -6,13 +6,13 @@
   "artifacts": [
     {
       "path": "comic-rendering/odyssey_m1_p8r3/P8R3_FINAL_RESULT.md",
-      "bytes": 1883,
-      "sha256": "b517211fd2728423f21b048b3c3368e032337d1625bd074bc0e5633f81407716"
+      "bytes": 2809,
+      "sha256": "c774bc7c9a76e2aba3d99c2adce11ecfeff289a4be032688b8c8213d89911d96"
     },
     {
       "path": "comic-rendering/odyssey_m1_p8r3/P8R3_INDEPENDENT_VERIFICATION.md",
-      "bytes": 2733,
-      "sha256": "5c567148bee2e7bb1d4282cd16a62f759e056ea2be0f9ec3be8f2f43ab18cb5d"
+      "bytes": 3428,
+      "sha256": "d212901e443f64abf837aa0428946fceea116b0888a7c7df872a5b2a6d8f029b"
     },
     {
       "path": "comic-rendering/odyssey_m1_p8r3/P8R3_PROPAGATION_REPORT.md",

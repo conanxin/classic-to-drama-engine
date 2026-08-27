@@ -1,6 +1,6 @@
 # ODYSSEY-P8R3 Final Result
 
-Status: `P8R3_LOCAL_ACCEPTANCE_PASS_DEPLOYMENT_PENDING`
+Status: `PASS_ODYSSEY_P8R3_30_EPISODE_COMIC_GRAMMAR_PROPAGATION`
 
 ## Authorization
 
@@ -56,11 +56,22 @@ Status: `P8R3_LOCAL_ACCEPTANCE_PASS_DEPLOYMENT_PENDING`
 
 ## Deployment
 
-- Deployment status: PENDING
-- Deployment commit: PENDING
-- GitHub Actions run: PENDING
+- Deployment status: PASS
+- Deployment commit: `4286463715224d297c43aed39321328a36afbfc2`
+- GitHub Actions run: `33032777402`
 - Public URL: https://conanxin.github.io/classic-to-drama-engine/
-- Live Graphic routes: PENDING 30 / 30
-- Live desktop/mobile verification: PENDING
+- Live Graphic routes: 30 / 30
+- Live desktop verification: 30 / 30
+- Live mobile verification: 30 / 30
+- Live full-scroll and interaction samples: 20
+- Live horizontal overflow failures: 0
+- Live empty black/text-panel-like blocks: 0
+- Live speech/caption ambiguity failures: 0
+- Live broken images after reproducibility check: 0
+- Live verification: PASS
 
-This report becomes final only after the deployment fields above are replaced with persisted live evidence.
+The first live crawl recorded one transient EP19 resource 503. Five targeted cache-busted reloads and a complete second 60-route matrix could not reproduce it; all requests and images passed. This transport observation is retained as evidence and is not classified as a site defect.
+
+## Final conclusion
+
+The human-approved EP01 final comic grammar is now the single presentation authority for all 30 Graphic episodes. Every scene preserves its source-bound narrative slots and accepted P8 artwork while using story-first onboarding, compact intrinsic-height text, semantic speech/caption separation, content-aware panel sequencing, progressive source disclosure, and an image-led cliffhanger. P6 remains paused.

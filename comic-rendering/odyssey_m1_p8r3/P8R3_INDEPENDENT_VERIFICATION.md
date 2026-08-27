@@ -1,6 +1,6 @@
 # ODYSSEY-P8R3 Independent Verification
 
-Status: `PASS_P8R3_LOCAL_INDEPENDENT_VERIFICATION`
+Status: `PASS_P8R3_INDEPENDENT_VERIFICATION`
 
 Verified on: 2026-08-27
 
@@ -67,4 +67,16 @@ The in-app browser could not be used because its admin-enforced security check w
 
 ## Deployment boundary
 
-Local acceptance is complete. Deployment and live-route verification are recorded in `P8R3_FINAL_RESULT.md` after the GitHub Pages run succeeds.
+GitHub Pages run `33032777402` built and deployed commit `4286463715224d297c43aed39321328a36afbfc2` successfully.
+
+The first live matrix observed one transient 503 while loading EP19 on desktop; the page still contained all 5 scenes, 18 panels, previews, and interactions. EP19 was then reloaded five times with unique cache-busting URLs. All five attempts had zero failed requests, zero HTTP responses at or above 400, zero broken images, and the P8R3 marker present. The complete 60-route matrix was rerun and passed with zero failures.
+
+- Live URL: https://conanxin.github.io/classic-to-drama-engine/
+- Live Graphic routes: 30 / 30
+- Live desktop routes: 30 / 30
+- Live mobile routes: 30 / 30
+- Final live-matrix failures: 0
+- Reproducible broken resources: 0
+- Live P8R3 markers: 30 / 30
+- Deployment workflow: PASS
+- Live verification: PASS
