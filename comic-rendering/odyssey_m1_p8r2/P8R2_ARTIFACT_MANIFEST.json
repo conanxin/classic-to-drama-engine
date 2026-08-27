@@ -1,0 +1,33 @@
+{
+  "artifact_class": "ODYSSEY_P8R2_ARTIFACT_MANIFEST",
+  "schema_version": "1.0.0",
+  "repair_id": "ODYSSEY-P8R2",
+  "episode": "EP01",
+  "artifact_count": 4,
+  "artifacts": [
+    {
+      "path": "comic-rendering/odyssey_m1_p8r2/EP01_COMIC_REPAIR_REVIEW.md",
+      "bytes": 4696,
+      "sha256": "55a9bba1814448f0c0bc7912449b500fafb6de9b9dd12823924c603da5e8b790"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r2/P8R2_EP01_FINAL_GRAMMAR.json",
+      "bytes": 2244,
+      "sha256": "0bd8c778b15cabf8a96261edbfed263cf7683d95605080662dcafe2eee2ba900"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r2/P8R2_EP01_RESULT.md",
+      "bytes": 1053,
+      "sha256": "d33ceeb27b43ad98024ec70c74804a0a23808e12726a899fdcf68188a9e9d99e"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r2/tools/build_p8r2.mjs",
+      "bytes": 1887,
+      "sha256": "354b545faf3a7a1552433afd2535a285cc1fe0a2e01aecab57c015c3b0b731ea"
+    }
+  ],
+  "status": "PASS_EP01_FINAL_COMIC_GRAMMAR_LOCK",
+  "comic_grammar_propagation": "NOT_AUTHORIZED",
+  "P8_final_closeout": "NOT_EXECUTED",
+  "P6_status": "PAUSED_BY_USER"
+}

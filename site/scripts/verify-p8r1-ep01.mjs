@@ -55,19 +55,19 @@ for (const panel of ep01Panels) {
 }
 assert(generated.panels.filter((panel) => panel.episode !== 'EP01').every((panel) => !panel.presentation), 'P8R1 presentation escaped EP01');
 const ep01 = generatedEpisodes.find((episode) => episode.episode === 'EP01');
-assert(ep01?.repair_variant === 'ep01-r1' && ep01.scenes.every((scene) => scene.composition), 'EP01 route repair join mismatch');
+assert(['ep01-r1','ep01-r2'].includes(ep01?.repair_variant) && ep01.scenes.every((scene) => scene.composition), 'EP01 route repair/successor join mismatch');
 assert(generatedEpisodes.filter((episode) => episode.episode !== 'EP01').every((episode) => !episode.repair_variant), 'P8R1 episode repair escaped EP01');
 
 if (distMode) {
   const pagePath = path.join(siteRoot, 'dist/episodes/01/graphic/index.html');
   const html = await readFile(pagePath, 'utf8');
-  assert(html.includes('data-comic-repair="P8R1"'), 'Built EP01 lacks P8R1 marker');
+  assert(html.includes('data-comic-repair="P8R1"') || html.includes('data-comic-repair="P8R2"'), 'Built EP01 lacks P8R1 or bounded successor marker');
   assert((html.match(/data-panel-id=/g) || []).length === 17, 'Built EP01 panel sequence mismatch');
   assert(html.includes('故事从一只被夺走的杯子开始'), 'Built EP01 compact onboarding missing');
   assert(html.includes('门锁好。别替我告别。'), 'Built EP01 comic cliffhanger missing');
   for (const visual of visuals.panels) await access(path.join(siteRoot, 'dist', visual.public_path));
   const ep02 = await readFile(path.join(siteRoot, 'dist/episodes/02/graphic/index.html'), 'utf8');
-  assert(!ep02.includes('data-comic-repair="P8R1"'), 'Built P8R1 marker escaped EP01');
+  assert(!ep02.includes('data-comic-repair="P8R1"') && !ep02.includes('data-comic-repair="P8R2"'), 'Built EP01 repair marker escaped to EP02');
 }
 
 console.log(JSON.stringify({

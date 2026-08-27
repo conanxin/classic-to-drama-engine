@@ -4,13 +4,13 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "content": "node ../graphic-script/odyssey_m1_p7b/tools/build_p7b.mjs && node ../comic-rendering/odyssey_m1_p8r1/tools/build_p8r1.mjs && node scripts/refresh-asset-manifest.mjs && node scripts/build-content-data.mjs",
+    "content": "node ../graphic-script/odyssey_m1_p7b/tools/build_p7b.mjs && node ../comic-rendering/odyssey_m1_p8r1/tools/build_p8r1.mjs && node ../comic-rendering/odyssey_m1_p8r2/tools/build_p8r2.mjs && node scripts/refresh-asset-manifest.mjs && node scripts/build-content-data.mjs",
     "dev": "npm run content && astro dev",
-    "check": "npm run content && node scripts/verify-graphic-prototypes.mjs && node scripts/verify-p7c-reader.mjs && node scripts/verify-p7b-rollout.mjs && node scripts/verify-p8-comic.mjs && node scripts/verify-p8r1-ep01.mjs && astro check",
-    "verify": "npm run content && node scripts/verify-graphic-prototypes.mjs && node scripts/verify-p7c-reader.mjs && node scripts/verify-p7b-rollout.mjs && node scripts/verify-p8-comic.mjs && node scripts/verify-p8r1-ep01.mjs && node scripts/analyze-reader-test-results.mjs ../graphic-script/odyssey_m1_p7c/fixtures/P7C_SYNTHETIC_RESULT_FIXTURE.json && node scripts/verify-publication.mjs",
+    "check": "npm run content && node scripts/verify-graphic-prototypes.mjs && node scripts/verify-p7c-reader.mjs && node scripts/verify-p7b-rollout.mjs && node scripts/verify-p8-comic.mjs && node scripts/verify-p8r1-ep01.mjs && node scripts/verify-p8r2-ep01.mjs && astro check",
+    "verify": "npm run content && node scripts/verify-graphic-prototypes.mjs && node scripts/verify-p7c-reader.mjs && node scripts/verify-p7b-rollout.mjs && node scripts/verify-p8-comic.mjs && node scripts/verify-p8r1-ep01.mjs && node scripts/verify-p8r2-ep01.mjs && node scripts/analyze-reader-test-results.mjs ../graphic-script/odyssey_m1_p7c/fixtures/P7C_SYNTHETIC_RESULT_FIXTURE.json && node scripts/verify-publication.mjs",
     "reader:analyze": "node scripts/analyze-reader-test-results.mjs",
     "audit:live": "node scripts/audit-live-site.mjs",
-    "build": "npm run content && node scripts/verify-graphic-prototypes.mjs && node scripts/verify-p7c-reader.mjs && node scripts/verify-p7b-rollout.mjs && node scripts/verify-p8-comic.mjs && node scripts/verify-p8r1-ep01.mjs && node scripts/verify-publication.mjs && astro build && pagefind --site dist --output-subdir _pagefind && node scripts/verify-graphic-prototypes.mjs --dist && node scripts/verify-p7c-reader.mjs --dist && node scripts/verify-p7b-rollout.mjs --dist && node scripts/verify-p8-comic.mjs --dist && node scripts/verify-p8r1-ep01.mjs --dist && node scripts/verify-publication.mjs --dist && node scripts/build-artifact-manifest.mjs",
+    "build": "npm run content && node scripts/verify-graphic-prototypes.mjs && node scripts/verify-p7c-reader.mjs && node scripts/verify-p7b-rollout.mjs && node scripts/verify-p8-comic.mjs && node scripts/verify-p8r1-ep01.mjs && node scripts/verify-p8r2-ep01.mjs && node scripts/verify-publication.mjs && astro build && pagefind --site dist --output-subdir _pagefind && node scripts/verify-graphic-prototypes.mjs --dist && node scripts/verify-p7c-reader.mjs --dist && node scripts/verify-p7b-rollout.mjs --dist && node scripts/verify-p8-comic.mjs --dist && node scripts/verify-p8r1-ep01.mjs --dist && node scripts/verify-p8r2-ep01.mjs --dist && node scripts/verify-publication.mjs --dist && node scripts/build-artifact-manifest.mjs",
     "preview": "astro preview"
   },
   "dependencies": {

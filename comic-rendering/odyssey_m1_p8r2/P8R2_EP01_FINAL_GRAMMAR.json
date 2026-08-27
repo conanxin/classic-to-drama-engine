@@ -1,0 +1,71 @@
+{
+  "artifact_class": "ODYSSEY_P8R2_EP01_FINAL_COMIC_GRAMMAR",
+  "schema_version": "1.0.0",
+  "repair_id": "ODYSSEY-P8R2",
+  "episode": "EP01",
+  "scope": "EP01_GRAPHIC_PRESENTATION_ONLY",
+  "baseline_commit": "92060988f5a60a471b8c7e4336d6a74b59574863",
+  "status": "PASS_EP01_FINAL_COMIC_GRAMMAR_LOCK",
+  "preserved": {
+    "scenes": 5,
+    "narrative_slots": 17,
+    "art_reused": 17,
+    "art_newly_generated": 0,
+    "scene_compositions": 5,
+    "exact_source_dialogue": true,
+    "script_mode": true,
+    "character_context_assists": true
+  },
+  "repairs": {
+    "real_art_preview_slots": 17,
+    "panel_sized_empty_text_rectangles_allowed": 0,
+    "text_containers_intrinsic_height": true,
+    "cover_story_first": true,
+    "cover_metadata_progressive": true,
+    "source_layer_collapsed": true,
+    "speech_caption_separated": true,
+    "scene4_sequence": [
+      { "panel_id": "EP01-S04-PNL01", "function": "ESTABLISH_AND_TELEMACHUS_SPEECH" },
+      { "panel_id": "EP01-S04-PNL02", "function": "SUITOR_LISTENER_REACTION", "crop": "reaction-right" },
+      { "panel_id": "EP01-S04-PNL03", "function": "PENELOPE_REACTION_AND_EVIDENCE_TRANSFER" },
+      { "panel_id": "EP01-S04-PNL04", "function": "PUBLIC_CONSEQUENCE" }
+    ],
+    "reaction_beats": [
+      "EP01-S01-PNL03",
+      "EP01-S01-PNL04",
+      "EP01-S02-PNL03",
+      "EP01-S04-PNL02",
+      "EP01-S04-PNL03"
+    ],
+    "insert_beats": [
+      "EP01-S01-PNL03",
+      "EP01-S03-PNL02",
+      "EP01-S04-PNL03"
+    ]
+  },
+  "panel_presentation_overrides": {
+    "EP01-S04-PNL02": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "medium",
+      "crop": "reaction-right"
+    }
+  },
+  "ep02_baseline": {
+    "graphic_episode_canonical_json_sha256": "9daa6a60b3989b5190f7c68234c607490c3f65660e7fa04ce686ac2938c4f9cc",
+    "built_graphic_html_sha256": "65a395ad308ca20575a06f0c399f85344e1452d72dbeb5ef1ff510ea79bedcef"
+  },
+  "source_modifications": {
+    "V2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "Runtime": 0,
+    "P7B_narrative_authority": 0,
+    "P8_visual_authority": 0,
+    "P8R1_visual_authority": 0
+  },
+  "comic_grammar_propagation": "NOT_AUTHORIZED",
+  "P8_final_closeout": "NOT_EXECUTED",
+  "P6_status": "PAUSED_BY_USER"
+}

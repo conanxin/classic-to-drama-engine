@@ -82,7 +82,8 @@ if (hasDist) {
   for (const prototype of graphicPrototypes) {
     const html = await readFile(path.join(siteRoot,'dist','episodes',String(prototype.number).padStart(2,'0'),'graphic','index.html'),'utf8');
     const readable = html.replaceAll('&#39;', "'").replaceAll('&quot;', '"').replaceAll('&amp;', '&').replaceAll('&lt;', '<').replaceAll('&gt;', '>');
-    const hookProbe = prototype.episode === 'EP01' && readable.includes('data-comic-repair="P8R1"') ? '门锁好。别替我告别。' : prototype.end_hook;
+    const boundedEp01Repair = prototype.episode === 'EP01' && (readable.includes('data-comic-repair="P8R1"') || readable.includes('data-comic-repair="P8R2"'));
+    const hookProbe = boundedEp01Repair ? '门锁好。别替我告别。' : prototype.end_hook;
     const probes = [prototype.title,prototype.core_conflict,prototype.scenes[0].heading,prototype.scenes.at(-1).essential_dialogue.at(-1).text,hookProbe];
     if (probes.some((probe)=>!readable.includes(probe))) fail(`graphic reader probe failed ${prototype.episode}`);
   }
