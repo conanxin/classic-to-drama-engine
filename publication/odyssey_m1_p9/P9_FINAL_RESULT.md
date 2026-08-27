@@ -25,6 +25,22 @@ status: `PASS_ODYSSEY_P9_MULTIFORMAT_PUBLICATION_EDITION_COMPLETE`
 - PRESS_READY: NOT_CLAIMED
 - P6: PAUSED_BY_USER
 
+## Publication and deployment
+
+- implementation commit: `810e699de675c180a26d3c5160eda571f7dc70c9`
+- release tag: `odyssey-p9-publication-v1.0.0`
+- release URL: `https://github.com/conanxin/classic-to-drama-engine/releases/tag/odyssey-p9-publication-v1.0.0`
+- release assets: 21 / 21
+- release bytes: 1,559,135,367
+- publication center: `https://conanxin.github.io/classic-to-drama-engine/publication/`
+- Pages implementation run: `33092566840` — SUCCESS
+- live routes: 130 / 130
+- live internal assets: 2,866 / 2,866
+- live video Range checks: 32 / 32
+- live desktop QA: PASS
+- live mobile QA: PASS
+- live privacy / canonical / broken-reference QA: PASS
+
 ## Export sizes
 
 - `odyssey-homecoming-complete-digital.pdf`: 31.90 MiB

@@ -19,6 +19,7 @@ on:
       - 'art-department/odyssey_m1_p5/**'
       - 'animatic/odyssey_m1_p5/**'
       - 'pitch/odyssey_m1_p5/**'
+      - 'publication/odyssey_m1_p9/**'
   workflow_dispatch:
 
 permissions:

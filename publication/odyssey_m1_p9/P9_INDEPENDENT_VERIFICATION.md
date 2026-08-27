@@ -20,3 +20,12 @@ status: `PASS_ODYSSEY_P9_INDEPENDENT_VERIFICATION`
 - exact-source dialogue mutation: 0
 - orphan panels/scenes/chapters: 0
 - unresolved publication blockers: 0
+- release assets: 21 / 21
+- release filename / byte-length agreement: PASS
+- sampled release Range delivery: PASS
+- Pages implementation run `33092566840`: SUCCESS
+- live sitemap routes: 130 / 130
+- live internal assets: 2,866 / 2,866
+- live video Range checks: 32 / 32
+- live privacy leaks: 0
+- live desktop / mobile publication center: PASS

@@ -7,3 +7,5 @@ The story lineage is Homer's *Odyssey* through the repository's locked adaptatio
 `PRINT_LAYOUT_MASTER: PASS` means the B5 geometry, bleed, safe area, font embedding and image placement were verified. `PRESS_READY: NOT_CLAIMED` remains mandatory until a real printer provides binding, paper, ICC and ink-limit specifications.
 
 P6 remains `PAUSED_BY_USER`; P9 performs no printing order, ISBN purchase, vendor outreach, financing, casting or physical-production action.
+
+The implementation was frozen at commit `810e699de675c180a26d3c5160eda571f7dc70c9`. Its 21 deterministic export assets are published under GitHub Release tag `odyssey-p9-publication-v1.0.0`; filenames and byte lengths independently matched `P9_EXPORT_MANIFEST.json`, and representative PDF, EPUB and CBZ assets returned HTTP 206 Range responses. GitHub Pages run `33092566840` deployed the publication center successfully, followed by a 130-route / 2,866-asset live crawl with zero persistent failures.

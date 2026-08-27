@@ -1,7 +1,7 @@
 {
   "schema_version": "P9_ARTIFACT_MANIFEST_V1",
   "status": "PASS_P9_ARTIFACT_MANIFEST",
-  "source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+  "source_commit": "810e699de675c180a26d3c5160eda571f7dc70c9",
   "tracked_artifacts": [
     {
       "path": "publication/odyssey_m1_p9/.gitignore",
@@ -35,8 +35,8 @@
     },
     {
       "path": "publication/odyssey_m1_p9/P9_FINAL_RESULT.md",
-      "bytes": 2044,
-      "sha256": "df2ca3f08e4918b95a020ac5209ae75078c5acf2875456c85dd95f75737e0a58"
+      "bytes": 2702,
+      "sha256": "7ec667a4f3fbc88af737fd979afb45bce3a4823c79410da84197af99ea2ee8e1"
     },
     {
       "path": "publication/odyssey_m1_p9/P9_GOLD_STANDARD_RESULT.md",
@@ -50,8 +50,8 @@
     },
     {
       "path": "publication/odyssey_m1_p9/P9_INDEPENDENT_VERIFICATION.md",
-      "bytes": 643,
-      "sha256": "0e5dd80d48c9843ab97fb50dd217ecbb343ba7269d54d5757ea77cf5ffe59901"
+      "bytes": 986,
+      "sha256": "a911b31e827c17f2c6c911d9bb807343c3a74b1485845a382ae11729b0bc546f"
     },
     {
       "path": "publication/odyssey_m1_p9/P9_PAGE_GRAMMAR.md",
@@ -85,8 +85,8 @@
     },
     {
       "path": "publication/odyssey_m1_p9/P9_PUBLICATION_PROVENANCE.md",
-      "bytes": 993,
-      "sha256": "45301b71ef5a7d6ddd06b5f4e5bebde69f33e2a8f8f2ba57ab8cdbdf6f7cabd2"
+      "bytes": 1497,
+      "sha256": "e5246a8f56d914c9a34fc76d73d198074bf5ad59e9805d0dd300b2c297e9ba5b"
     },
     {
       "path": "publication/odyssey_m1_p9/P9_RELEASE_NOTES.md",
@@ -110,8 +110,8 @@
     },
     {
       "path": "publication/odyssey_m1_p9/P9_WEB_PUBLICATION_QA_REPORT.md",
-      "bytes": 1555,
-      "sha256": "04e93736d1d7f4be7b9f226800130623be7cc16711fc3ef7261c13f5e8c3bd47"
+      "bytes": 2725,
+      "sha256": "87c37fe3f0ce33e58ec72bf28fd0910cdba46f7c7a98e2ee57f116ded160021b"
     },
     {
       "path": "publication/odyssey_m1_p9/README.md",
@@ -168,7 +168,7 @@
     {
       "path": "site/WEB_ARTIFACT_MANIFEST.json",
       "bytes": 71360,
-      "sha256": "630697ac93fdea9e3f3080927ec2705c695062e09528de7af9eafa1aafaa485b"
+      "sha256": "a89bf7b30d5146bfb09a456fcbb66197552d1ad7bd576b3e106a047d4406784e"
     },
     {
       "path": "site/content/ASSET_PUBLICATION_MANIFEST.json",
