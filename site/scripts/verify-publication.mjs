@@ -65,7 +65,7 @@ const immutablePaths = [
 const diff = execFileSync('git', ['diff','--name-only','478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5','--',...immutablePaths], { cwd:repoRoot, encoding:'utf8' }).trim();
 if (diff) fail(`immutable source modified:\n${diff}`);
 
-const routeFiles = ['index.html','episodes/index.html','episodes/01/index.html','episodes/30/index.html','graphic/index.html','episodes/01/graphic/index.html','episodes/19/graphic/index.html','episodes/27/graphic/index.html','characters/index.html','visual/index.html','storyboards/index.html','storyboards/27/index.html','watch/index.html','production/index.html','project/index.html','search/index.html'];
+const routeFiles = ['index.html','episodes/index.html','episodes/01/index.html','episodes/30/index.html','graphic/index.html','publication/index.html','episodes/01/graphic/index.html','episodes/19/graphic/index.html','episodes/27/graphic/index.html','characters/index.html','visual/index.html','storyboards/index.html','storyboards/27/index.html','watch/index.html','production/index.html','project/index.html','search/index.html'];
 if (hasDist) {
   for (const relative of routeFiles) if (!(await exists(path.join(siteRoot,'dist',relative)))) fail(`missing route ${relative}`);
   if (!(await exists(path.join(siteRoot,'dist','_pagefind','pagefind.js')))) fail('Pagefind index missing');

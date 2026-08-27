@@ -1,0 +1,6 @@
+weasyprint==69.0
+pypdf==6.16.2
+pdfplumber==0.11.10
+Pillow==12.3.0
+fonttools==4.63.0
+beautifulsoup4==4.15.0

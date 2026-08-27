@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import publication from '../../generated/publication.json';
+import { graphicEpisodePath, withBase } from '../../lib/urls';
+
+const formatBytes = (bytes:number) => bytes >= 1024 ** 3
+  ? `${(bytes / 1024 ** 3).toFixed(2)} GB`
+  : `${(bytes / 1024 ** 2).toFixed(bytes < 10 * 1024 ** 2 ? 1 : 0)} MB`;
+const pad = (value:number) => String(value).padStart(2, '0');
+const cover = publication.volumes[0]!.cover;
+---
+<BaseLayout
+  title="多格式出版版｜《归途：奥德修斯》"
+  description="《归途：奥德修斯》五卷出版版：可下载的数字 PDF、原生 EPUB 3、CBZ 漫画包与印刷版式母稿。"
+  image={withBase(cover)}
+>
+  <article class="publication-page">
+    <header class="publication-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">P9 · MULTIFORMAT PUBLICATION EDITION</p>
+        <h1>把三十集归途，<br />装订成五卷。</h1>
+        <p>不是把网页逐页打印，而是重新安排页序、跨页、章口与翻页悬念。五卷覆盖 30 章、150 场与 643 个冻结视觉槽位。</p>
+        <nav aria-label="出版版主要入口">
+          <a class="primary" href={publication.omnibus.url}>下载完整数字 PDF <span>{formatBytes(publication.omnibus.bytes)}</span></a>
+          <a href={graphicEpisodePath(1)}>在线阅读 Graphic Mode</a>
+        </nav>
+      </div>
+      <figure class="hero-covers" aria-label="五卷出版版封面">
+        {publication.volumes.map((volume, index) => (
+          <div style={`--cover-index:${index}`}>
+            <ResponsiveImage
+              src={volume.cover}
+              alt={`《归途：奥德修斯》第 ${volume.number} 卷《${volume.title}》封面`}
+              loading={index === 0 ? 'eager' : 'lazy'}
+              fetchpriority={index === 0 ? 'high' : 'auto'}
+              sizes="(max-width: 720px) 35vw, 18vw"
+            />
+          </div>
+        ))}
+      </figure>
+    </header>
+
+    <section class="format-guide" aria-labelledby="format-guide-title">
+      <header>
+        <p class="eyebrow">CHOOSE A READING FORMAT</p>
+        <h2 id="format-guide-title">同一故事，按设备选择容器。</h2>
+      </header>
+      <div>
+        <article><b>PDF</b><h3>固定版式阅读</h3><p>保留装帧、章口、页序与翻页节奏。适合电脑、平板与存档。</p></article>
+        <article><b>EPUB 3</b><h3>电子书阅读器</h3><p>原生固定版式 EPUB，包含语义中文、目录与无障碍元数据。</p></article>
+        <article><b>CBZ</b><h3>漫画阅读器</h3><p>按出版页顺序封装的漫画包，附带 ComicInfo 与可验证图像序列。</p></article>
+      </div>
+    </section>
+
+    <main class="volume-list" aria-label="五卷出版物">
+      {publication.volumes.map((volume) => (
+        <section class="volume" style={`--volume-accent:${volume.palette[2]}`}>
+          <header class="volume-heading">
+            <div><span>VOLUME {pad(volume.number)}</span><p>EP{pad(volume.episode_start)}–EP{pad(volume.episode_end)}</p></div>
+            <h2>{volume.title}</h2>
+            <p>{volume.subtitle}</p>
+          </header>
+          <div class="volume-body">
+            <figure><ResponsiveImage src={volume.cover} alt={`第 ${volume.number} 卷《${volume.title}》封面`} loading="lazy" sizes="(max-width: 720px) 72vw, 24vw" /></figure>
+            <div class="volume-story">
+              <p class="opening">{volume.opening_promise}</p>
+              <dl>
+                <div><dt>章节</dt><dd>{volume.chapters.length}</dd></div>
+                <div><dt>出版页</dt><dd>{volume.page_count}</dd></div>
+                <div><dt>范围</dt><dd>EP{pad(volume.episode_start)}–EP{pad(volume.episode_end)}</dd></div>
+              </dl>
+              <ol>
+                {volume.chapters.map((chapter) => (
+                  <li><span>{chapter.episode}</span><strong>{chapter.title}</strong><small>{chapter.start_page}–{chapter.end_page}</small></li>
+                ))}
+              </ol>
+            </div>
+            <aside class="downloads" aria-label={`第 ${volume.number} 卷下载`}>
+              <p class="eyebrow">DOWNLOAD</p>
+              <a href={volume.downloads.digital_pdf.url}><span>Digital PDF</span><small>{formatBytes(volume.downloads.digital_pdf.bytes)}</small></a>
+              <a href={volume.downloads.epub.url}><span>EPUB 3</span><small>{formatBytes(volume.downloads.epub.bytes)}</small></a>
+              <a href={volume.downloads.cbz.url}><span>CBZ</span><small>{formatBytes(volume.downloads.cbz.bytes)}</small></a>
+              <details>
+                <summary>印刷版式母稿</summary>
+                <p>ISO B5，含 3 mm bleed。它是已验证的版式母稿，不是经印厂 ICC、纸张、装订与打样确认的 press-ready 文件。</p>
+                <a href={volume.downloads.print_layout_pdf.url}><span>Print-layout PDF</span><small>{formatBytes(volume.downloads.print_layout_pdf.bytes)}</small></a>
+              </details>
+            </aside>
+          </div>
+        </section>
+      ))}
+    </main>
+
+    <section class="publication-note">
+      <div>
+        <p class="eyebrow">PUBLICATION MASTER · VERIFIED</p>
+        <h2>可复核的出版物，<br />不是出版社或印厂承诺。</h2>
+      </div>
+      <div class="note-copy">
+        <p><strong>PRINT_LAYOUT_MASTER: PASS</strong>　五卷印刷版式均已检查页盒、出血、安全区、字体嵌入、图片解析度与逐页渲染。</p>
+        <p><strong>PRESS_READY: NOT_CLAIMED</strong>　尚未绑定特定印厂的 ICC、墨量、纸张、装订、拼版或实体打样。</p>
+        <p>电子书由 EPUBCheck 5.3.0 验证；CBZ 与 PDF 均有确定性 manifest、SHA-256 与结构 QA。</p>
+        <nav><a href={publication.release_url}>查看完整 GitHub Release</a><a href={withBase('documents/p9-final-result/')}>阅读 P9 验证结果</a></nav>
+      </div>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .publication-page{--paper:#d8cfbb;--muted:#a89f8d;--ink:#141412;--line:rgba(216,207,187,.2);background:var(--ink);color:var(--paper)}
+  .publication-hero{min-height:calc(100vh - var(--header));display:grid;grid-template-columns:minmax(22rem,.8fr) minmax(34rem,1.2fr);border-bottom:1px solid var(--line);overflow:hidden}
+  .hero-copy{padding:clamp(4rem,8vw,8rem) var(--pad);display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2}.hero-copy h1{font-size:clamp(3.6rem,7.5vw,7.2rem);line-height:.92;margin:.6rem 0 1.6rem}.hero-copy>p:not(.eyebrow){font-family:var(--serif);font-size:clamp(1rem,1.7vw,1.3rem);color:var(--muted);max-width:34rem}.hero-copy nav{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:2rem}.hero-copy nav a{border:1px solid var(--line);padding:.8rem 1rem;text-decoration:none;font-size:.67rem}.hero-copy nav a.primary{background:var(--paper);color:var(--ink)}.hero-copy nav span{opacity:.65;margin-left:.5rem}
+  .hero-covers{margin:0;min-height:46rem;position:relative;background:radial-gradient(circle at 50% 45%,#3f392f 0,#1b1a17 45%,#0d0d0b 100%)}.hero-covers>div{position:absolute;width:clamp(11rem,18vw,19rem);aspect-ratio:176/250;left:calc(8% + var(--cover-index) * 16%);top:18%;transform:rotate(calc((var(--cover-index) - 2) * 3deg));box-shadow:0 2rem 5rem #000b;border:1px solid #ffffff24;overflow:hidden;transition:transform .2s ease}.hero-covers>div:nth-child(2),.hero-covers>div:nth-child(4){top:14%}.hero-covers>div:nth-child(3){top:10%}.hero-covers>div:hover{z-index:5;transform:translateY(-.7rem) rotate(0)}
+  .format-guide{max-width:92rem;margin:auto;padding:clamp(4rem,7vw,7rem) var(--pad);display:grid;grid-template-columns:minmax(17rem,.7fr) 1.3fr;gap:clamp(2rem,6vw,7rem);border-bottom:1px solid var(--line)}.format-guide h2{font-size:clamp(2.3rem,4.5vw,4.5rem);margin:.5rem 0}.format-guide>div{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}.format-guide article{background:var(--ink);padding:1.5rem}.format-guide b{font-size:.62rem;color:var(--rust)}.format-guide h3{font-size:1rem;margin:2.8rem 0 .7rem}.format-guide p{font-family:var(--serif);font-size:.8rem;color:var(--muted)}
+  .volume-list{max-width:92rem;margin:auto;padding:0 var(--pad)}.volume{padding:clamp(4rem,7vw,7rem) 0;border-bottom:1px solid var(--line)}.volume-heading{display:grid;grid-template-columns:11rem minmax(0,1fr) minmax(14rem,.45fr);gap:2rem;align-items:end;border-bottom:2px solid var(--volume-accent);padding-bottom:1rem}.volume-heading span,.volume-heading>div p{font-size:.55rem;letter-spacing:.13em;color:var(--muted);margin:0}.volume-heading h2{font-size:clamp(2.6rem,5vw,5.4rem);margin:0}.volume-heading>p{font-family:var(--serif);color:var(--muted);margin:0}.volume-body{display:grid;grid-template-columns:minmax(14rem,20rem) minmax(20rem,1fr) minmax(15rem,20rem);gap:clamp(1.5rem,4vw,4rem);padding-top:2rem;align-items:start}.volume-body>figure{margin:0;aspect-ratio:176/250;overflow:hidden;box-shadow:0 1.2rem 3rem #0008}.opening{font-family:var(--serif);font-size:clamp(1.15rem,2vw,1.6rem);line-height:1.7;margin:0 0 2rem}.volume-story dl{display:flex;gap:2rem;margin:0 0 2rem}.volume-story dl div{border-left:1px solid var(--volume-accent);padding-left:.7rem}.volume-story dt{font-size:.5rem;color:var(--muted)}.volume-story dd{font-family:var(--serif);font-size:1.15rem;margin:.2rem 0 0}.volume-story ol{list-style:none;padding:0;margin:0}.volume-story li{display:grid;grid-template-columns:4rem 1fr auto;gap:.8rem;padding:.7rem 0;border-top:1px solid var(--line);align-items:baseline}.volume-story li span,.volume-story li small{font-size:.52rem;color:var(--muted)}.volume-story li strong{font-family:var(--serif);font-weight:500;font-size:.85rem}.downloads{border-top:2px solid var(--volume-accent);padding-top:1rem}.downloads>a,.downloads details a{display:flex;justify-content:space-between;gap:1rem;padding:.9rem 0;border-bottom:1px solid var(--line);text-decoration:none}.downloads a span{font-family:var(--serif)}.downloads a small{color:var(--muted)}.downloads details{margin-top:1.4rem}.downloads summary{cursor:pointer;font-size:.65rem;color:var(--muted)}.downloads details p{font-family:var(--serif);font-size:.72rem;color:var(--muted);line-height:1.7}
+  .publication-note{max-width:92rem;margin:auto;padding:clamp(5rem,9vw,9rem) var(--pad);display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,7vw,8rem)}.publication-note h2{font-size:clamp(2.6rem,5vw,5.5rem)}.note-copy{padding-top:2rem}.note-copy p{font-family:var(--serif);color:var(--muted);line-height:1.8}.note-copy strong{font-family:var(--sans);font-size:.66rem;color:var(--paper)}.note-copy nav{display:flex;gap:1rem;margin-top:2rem}.note-copy a{font-size:.65rem;text-decoration:none;border-bottom:1px solid var(--rust);padding-bottom:.3rem}
+  @media(max-width:980px){.publication-hero{grid-template-columns:1fr}.hero-copy{min-height:34rem}.hero-covers{min-height:39rem}.format-guide{grid-template-columns:1fr}.volume-heading{grid-template-columns:8rem 1fr}.volume-heading>p{grid-column:2}.volume-body{grid-template-columns:13rem 1fr}.downloads{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.downloads>.eyebrow,.downloads>details{grid-column:1/-1}}
+  @media(max-width:640px){.hero-copy{min-height:31rem;padding-inline:1rem}.hero-copy h1{font-size:3.6rem}.hero-copy nav{flex-direction:column}.hero-copy nav a{text-align:center}.hero-covers{min-height:28rem}.hero-covers>div{width:8.6rem;left:calc(-2% + var(--cover-index) * 16%);top:18%}.hero-covers>div:nth-child(2),.hero-covers>div:nth-child(4){top:14%}.hero-covers>div:nth-child(3){top:10%}.format-guide,.volume-list,.publication-note{padding-inline:1rem}.format-guide>div{grid-template-columns:1fr}.format-guide article{display:grid;grid-template-columns:3rem 1fr;gap:.4rem 1rem}.format-guide h3{margin:0}.format-guide p{grid-column:2}.volume-heading{grid-template-columns:1fr}.volume-heading>p{grid-column:auto}.volume-body{grid-template-columns:1fr}.volume-body>figure{width:min(76vw,18rem);margin:auto}.volume-story li{grid-template-columns:3.4rem 1fr auto}.downloads{grid-template-columns:1fr}.publication-note{grid-template-columns:1fr}.note-copy nav{flex-direction:column}}
+</style>
+<style is:global>.hero-covers img,.volume-body>figure img{display:block;width:100%;height:100%;object-fit:cover}</style>

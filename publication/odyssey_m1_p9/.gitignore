@@ -1,0 +1,8 @@
+build/
+exports/*.pdf
+exports/*.epub
+exports/*.cbz
+proofs/
+qa-renders/
+epubcheck/
+tools/__pycache__/

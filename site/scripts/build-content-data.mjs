@@ -35,6 +35,9 @@ const p8r1Grammar = await readJson('comic-rendering/odyssey_m1_p8r1/P8R1_EP01_CO
 const p8r1VisualManifest = await readJson('comic-rendering/odyssey_m1_p8r1/P8R1_EP01_VISUAL_OVERRIDE_MANIFEST.json');
 const p8r2Grammar = await readJson('comic-rendering/odyssey_m1_p8r2/P8R2_EP01_FINAL_GRAMMAR.json');
 const p8r3Grammar = await readJson('comic-rendering/odyssey_m1_p8r3/P8R3_SERIES_COMIC_GRAMMAR.json');
+const p9Config = await readJson('publication/odyssey_m1_p9/publication-config.json');
+const p9Architecture = await readJson('publication/odyssey_m1_p9/P9_VOLUME_ARCHITECTURE.json');
+const p9Exports = await readJson('publication/odyssey_m1_p9/P9_EXPORT_MANIFEST.json');
 
 const assetBySource = new Map();
 for (const asset of assetManifest.assets) if (!assetBySource.has(asset.source_path) || !asset.transform) assetBySource.set(asset.source_path, asset);
@@ -333,8 +336,45 @@ const timeline = [
   ['Graphic Reader P7C','The three prototypes add progressive character help, resumable reading and a privacy-first local reader-test harness.']
   ,['Graphic Novel Script P7B','All thirty episodes and 150 scenes gain a source-bound, comicized dual reading layer; real-reader validation remains unclaimed.']
   ,['High-Fidelity Comic Edition P8','All 643 visual slots receive accepted final comic art while exact screenplay text and the dual reader remain frozen.']
+  ,['Multiformat Publication P9','Five editorially repaginated volumes deliver validated digital PDF, print-layout master, EPUB 3 and CBZ editions.']
 ].map(([milestone,summary],index)=>({index:index+1,milestone,summary}));
 await writeJson('project.json', { timeline, baseline_commit:'478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5', p5_manifest_sha256:'6078af3ab505aab3958d82aea2bfa3e2a5b5e07bc163293285fe411c1a469353' });
+
+const releaseBase = `https://github.com/conanxin/classic-to-drama-engine/releases/download/${p9Config.series.release_tag}/`;
+const p9ExportByFile = new Map(p9Exports.exports.map((item) => [item.filename, item]));
+const publicationVolumes = p9Architecture.volumes.map((volume) => {
+  const stem = `odyssey-homecoming-${volume.id.toLowerCase()}`;
+  const files = {
+    digital_pdf: `${stem}-digital.pdf`,
+    epub: `${stem}.epub`,
+    cbz: `${stem}.cbz`,
+    print_layout_pdf: `${stem}-print-layout.pdf`
+  };
+  return {
+    ...volume,
+    cover: `media/publication/covers/${stem}-cover.webp`,
+    downloads: Object.fromEntries(Object.entries(files).map(([kind, filename]) => {
+      const item = p9ExportByFile.get(filename);
+      if (!item) throw new Error(`Missing P9 export ${filename}`);
+      return [kind, { filename, bytes:item.bytes, sha256:item.sha256, url:`${releaseBase}${filename}` }];
+    }))
+  };
+});
+const omnibusName = p9Config.export_filenames.omnibus_pdf;
+const omnibus = p9ExportByFile.get(omnibusName);
+if (!omnibus) throw new Error(`Missing P9 omnibus ${omnibusName}`);
+await writeJson('publication.json', {
+  status: p9Exports.status,
+  series: p9Config.series,
+  trim: p9Config.trim,
+  release_tag: p9Config.series.release_tag,
+  release_url: `https://github.com/conanxin/classic-to-drama-engine/releases/tag/${p9Config.series.release_tag}`,
+  volumes: publicationVolumes,
+  omnibus: { filename:omnibusName, bytes:omnibus.bytes, sha256:omnibus.sha256, page_count:omnibus.page_count, url:`${releaseBase}${omnibusName}` },
+  counts: { volumes:5, chapters:30, scenes:150, panels:643, publication_pages:p9Architecture.volumes.reduce((sum, volume) => sum + volume.page_count, 0) },
+  print_status: 'PRINT_LAYOUT_MASTER',
+  press_ready: 'NOT_CLAIMED'
+});
 
 await writeJson('media.json', {
   pitch_teaser: published('pitch/odyssey_m1_p5/PITCH_TEASER_PREVIS.mp4'),
@@ -356,6 +396,8 @@ await writeJson('build-summary.json', {
   graphic_scenes:graphicEpisodes.reduce((count,episode)=>count+episode.scenes.length,0),
   graphic_panels:p7bPanelManifest.counts.panel_placements,
   p7c_test_conditions:Object.keys(p7cStudyConfig.conditions).length,
+  publication_volumes:publicationVolumes.length,
+  publication_exports:p9Exports.exports.length,
   generated_at:'DETERMINISTIC_FROM_BASELINE_478fd10'
 });
 

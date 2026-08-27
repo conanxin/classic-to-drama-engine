@@ -1,0 +1,2566 @@
+{
+  "schema_version": "P9_PAGE_TURN_LEDGER_V1",
+  "status": "PASS_P9_PAGE_TURN_DESIGN",
+  "count": 163,
+  "beats": [
+    {
+      "turn_id": "P9-TURN-001",
+      "volume": "V01",
+      "chapter": "EP01",
+      "page_id": "P9-V01-P013",
+      "physical_page": 13,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP01-S02-PNL01",
+        "EP01-S02-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-002",
+      "volume": "V01",
+      "chapter": "EP01",
+      "page_id": "P9-V01-P016",
+      "physical_page": 16,
+      "page_side": "verso",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP01-S03-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-003",
+      "volume": "V01",
+      "chapter": "EP01",
+      "page_id": "P9-V01-P019",
+      "physical_page": 19,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP01-S05-PNL01",
+        "EP01-S05-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-004",
+      "volume": "V01",
+      "chapter": "EP01",
+      "page_id": "P9-V01-P020",
+      "physical_page": 20,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP01-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-005",
+      "volume": "V01",
+      "chapter": "EP02",
+      "page_id": "P9-V01-P022",
+      "physical_page": 22,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP02-S01-PNL02",
+        "EP02-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-006",
+      "volume": "V01",
+      "chapter": "EP02",
+      "page_id": "P9-V01-P025",
+      "physical_page": 25,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL",
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP02-S02-PNL03",
+        "EP02-S02-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-007",
+      "volume": "V01",
+      "chapter": "EP02",
+      "page_id": "P9-V01-P029",
+      "physical_page": 29,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP02-S04-PNL03",
+        "EP02-S04-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-008",
+      "volume": "V01",
+      "chapter": "EP02",
+      "page_id": "P9-V01-P031",
+      "physical_page": 31,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP02-S05-PNL03",
+        "EP02-S05-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-009",
+      "volume": "V01",
+      "chapter": "EP02",
+      "page_id": "P9-V01-P032",
+      "physical_page": 32,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER",
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP02-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-010",
+      "volume": "V01",
+      "chapter": "EP03",
+      "page_id": "P9-V01-P035",
+      "physical_page": 35,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL",
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP03-S01-PNL04",
+        "EP03-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-011",
+      "volume": "V01",
+      "chapter": "EP03",
+      "page_id": "P9-V01-P038",
+      "physical_page": 38,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP03-S03-PNL01",
+        "EP03-S03-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-012",
+      "volume": "V01",
+      "chapter": "EP03",
+      "page_id": "P9-V01-P042",
+      "physical_page": 42,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP03-S04-PNL05",
+        "EP03-S04-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-013",
+      "volume": "V01",
+      "chapter": "EP03",
+      "page_id": "P9-V01-P044",
+      "physical_page": 44,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP03-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-014",
+      "volume": "V01",
+      "chapter": "EP04",
+      "page_id": "P9-V01-P048",
+      "physical_page": 48,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP04-S02-PNL01",
+        "EP04-S02-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-015",
+      "volume": "V01",
+      "chapter": "EP04",
+      "page_id": "P9-V01-P051",
+      "physical_page": 51,
+      "page_side": "recto",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP04-S03-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-016",
+      "volume": "V01",
+      "chapter": "EP04",
+      "page_id": "P9-V01-P055",
+      "physical_page": 55,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP04-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-017",
+      "volume": "V01",
+      "chapter": "EP04",
+      "page_id": "P9-V01-P056",
+      "physical_page": 56,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP04-S05-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-018",
+      "volume": "V02",
+      "chapter": "EP05",
+      "page_id": "P9-V02-P011",
+      "physical_page": 11,
+      "page_side": "recto",
+      "roles": [
+        "SPREAD_REVEAL"
+      ],
+      "panel_ids": [
+        "EP05-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-019",
+      "volume": "V02",
+      "chapter": "EP05",
+      "page_id": "P9-V02-P012",
+      "physical_page": 12,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP05-S01-PNL04",
+        "EP05-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-020",
+      "volume": "V02",
+      "chapter": "EP05",
+      "page_id": "P9-V02-P015",
+      "physical_page": 15,
+      "page_side": "recto",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP05-S02-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-021",
+      "volume": "V02",
+      "chapter": "EP05",
+      "page_id": "P9-V02-P016",
+      "physical_page": 16,
+      "page_side": "verso",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP05-S03-PNL01",
+        "EP05-S03-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-022",
+      "volume": "V02",
+      "chapter": "EP05",
+      "page_id": "P9-V02-P020",
+      "physical_page": 20,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP05-S04-PNL05",
+        "EP05-S04-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-023",
+      "volume": "V02",
+      "chapter": "EP05",
+      "page_id": "P9-V02-P023",
+      "physical_page": 23,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP05-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-024",
+      "volume": "V02",
+      "chapter": "EP05",
+      "page_id": "P9-V02-P024",
+      "physical_page": 24,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP05-S05-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-025",
+      "volume": "V02",
+      "chapter": "EP06",
+      "page_id": "P9-V02-P025",
+      "physical_page": 25,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP06-S01-PNL01"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-026",
+      "volume": "V02",
+      "chapter": "EP06",
+      "page_id": "P9-V02-P026",
+      "physical_page": 26,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP06-S01-PNL02",
+        "EP06-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-027",
+      "volume": "V02",
+      "chapter": "EP06",
+      "page_id": "P9-V02-P029",
+      "physical_page": 29,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP06-S03-PNL01",
+        "EP06-S03-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-028",
+      "volume": "V02",
+      "chapter": "EP06",
+      "page_id": "P9-V02-P032",
+      "physical_page": 32,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP06-S04-PNL03",
+        "EP06-S04-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-029",
+      "volume": "V02",
+      "chapter": "EP06",
+      "page_id": "P9-V02-P034",
+      "physical_page": 34,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP06-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-030",
+      "volume": "V02",
+      "chapter": "EP07",
+      "page_id": "P9-V02-P040",
+      "physical_page": 40,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP07-S02-PNL03",
+        "EP07-S02-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-031",
+      "volume": "V02",
+      "chapter": "EP07",
+      "page_id": "P9-V02-P042",
+      "physical_page": 42,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL",
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP07-S03-PNL03",
+        "EP07-S03-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-032",
+      "volume": "V02",
+      "chapter": "EP07",
+      "page_id": "P9-V02-P045",
+      "physical_page": 45,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP07-S05-PNL01",
+        "EP07-S05-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-033",
+      "volume": "V02",
+      "chapter": "EP07",
+      "page_id": "P9-V02-P046",
+      "physical_page": 46,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP07-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-034",
+      "volume": "V02",
+      "chapter": "EP08",
+      "page_id": "P9-V02-P048",
+      "physical_page": 48,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP08-S01-PNL02",
+        "EP08-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-035",
+      "volume": "V02",
+      "chapter": "EP08",
+      "page_id": "P9-V02-P052",
+      "physical_page": 52,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP08-S02-PNL05",
+        "EP08-S02-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-036",
+      "volume": "V02",
+      "chapter": "EP08",
+      "page_id": "P9-V02-P055",
+      "physical_page": 55,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP08-S03-PNL05",
+        "EP08-S03-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-037",
+      "volume": "V02",
+      "chapter": "EP08",
+      "page_id": "P9-V02-P057",
+      "physical_page": 57,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP08-S04-PNL03",
+        "EP08-S04-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-038",
+      "volume": "V02",
+      "chapter": "EP08",
+      "page_id": "P9-V02-P059",
+      "physical_page": 59,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP08-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-039",
+      "volume": "V02",
+      "chapter": "EP08",
+      "page_id": "P9-V02-P060",
+      "physical_page": 60,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER",
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP08-S05-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-040",
+      "volume": "V03",
+      "chapter": "EP09",
+      "page_id": "P9-V03-P011",
+      "physical_page": 11,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP09-S01-PNL04",
+        "EP09-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-041",
+      "volume": "V03",
+      "chapter": "EP09",
+      "page_id": "P9-V03-P016",
+      "physical_page": 16,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP09-S03-PNL03",
+        "EP09-S03-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-042",
+      "volume": "V03",
+      "chapter": "EP09",
+      "page_id": "P9-V03-P018",
+      "physical_page": 18,
+      "page_side": "verso",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP09-S04-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-043",
+      "volume": "V03",
+      "chapter": "EP09",
+      "page_id": "P9-V03-P021",
+      "physical_page": 21,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP09-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-044",
+      "volume": "V03",
+      "chapter": "EP09",
+      "page_id": "P9-V03-P022",
+      "physical_page": 22,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP09-S05-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-045",
+      "volume": "V03",
+      "chapter": "EP10",
+      "page_id": "P9-V03-P025",
+      "physical_page": 25,
+      "page_side": "recto",
+      "roles": [
+        "SPREAD_REVEAL"
+      ],
+      "panel_ids": [
+        "EP10-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-046",
+      "volume": "V03",
+      "chapter": "EP10",
+      "page_id": "P9-V03-P026",
+      "physical_page": 26,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP10-S01-PNL04",
+        "EP10-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-047",
+      "volume": "V03",
+      "chapter": "EP10",
+      "page_id": "P9-V03-P030",
+      "physical_page": 30,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP10-S02-PNL05",
+        "EP10-S02-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-048",
+      "volume": "V03",
+      "chapter": "EP10",
+      "page_id": "P9-V03-P033",
+      "physical_page": 33,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP10-S03-PNL05",
+        "EP10-S03-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-049",
+      "volume": "V03",
+      "chapter": "EP10",
+      "page_id": "P9-V03-P036",
+      "physical_page": 36,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP10-S04-PNL05",
+        "EP10-S04-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-050",
+      "volume": "V03",
+      "chapter": "EP10",
+      "page_id": "P9-V03-P039",
+      "physical_page": 39,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP10-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-051",
+      "volume": "V03",
+      "chapter": "EP10",
+      "page_id": "P9-V03-P040",
+      "physical_page": 40,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP10-S05-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-052",
+      "volume": "V03",
+      "chapter": "EP11",
+      "page_id": "P9-V03-P043",
+      "physical_page": 43,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP11-S01-PNL04",
+        "EP11-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-053",
+      "volume": "V03",
+      "chapter": "EP11",
+      "page_id": "P9-V03-P046",
+      "physical_page": 46,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP11-S02-PNL03",
+        "EP11-S02-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-054",
+      "volume": "V03",
+      "chapter": "EP11",
+      "page_id": "P9-V03-P047",
+      "physical_page": 47,
+      "page_side": "recto",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP11-S02-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-055",
+      "volume": "V03",
+      "chapter": "EP11",
+      "page_id": "P9-V03-P050",
+      "physical_page": 50,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP11-S03-PNL05",
+        "EP11-S03-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-056",
+      "volume": "V03",
+      "chapter": "EP11",
+      "page_id": "P9-V03-P051",
+      "physical_page": 51,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP11-S04-PNL01",
+        "EP11-S04-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-057",
+      "volume": "V03",
+      "chapter": "EP11",
+      "page_id": "P9-V03-P055",
+      "physical_page": 55,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP11-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-058",
+      "volume": "V03",
+      "chapter": "EP11",
+      "page_id": "P9-V03-P056",
+      "physical_page": 56,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP11-S05-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-059",
+      "volume": "V03",
+      "chapter": "EP12",
+      "page_id": "P9-V03-P059",
+      "physical_page": 59,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP12-S01-PNL04",
+        "EP12-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-060",
+      "volume": "V03",
+      "chapter": "EP12",
+      "page_id": "P9-V03-P061",
+      "physical_page": 61,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP12-S02-PNL01",
+        "EP12-S02-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-061",
+      "volume": "V03",
+      "chapter": "EP12",
+      "page_id": "P9-V03-P065",
+      "physical_page": 65,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP12-S03-PNL05",
+        "EP12-S03-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-062",
+      "volume": "V03",
+      "chapter": "EP12",
+      "page_id": "P9-V03-P067",
+      "physical_page": 67,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL",
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP12-S04-PNL03",
+        "EP12-S04-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-063",
+      "volume": "V03",
+      "chapter": "EP12",
+      "page_id": "P9-V03-P070",
+      "physical_page": 70,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP12-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-064",
+      "volume": "V03",
+      "chapter": "EP13",
+      "page_id": "P9-V03-P073",
+      "physical_page": 73,
+      "page_side": "recto",
+      "roles": [
+        "SPREAD_REVEAL"
+      ],
+      "panel_ids": [
+        "EP13-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-065",
+      "volume": "V03",
+      "chapter": "EP13",
+      "page_id": "P9-V03-P074",
+      "physical_page": 74,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP13-S01-PNL04",
+        "EP13-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-066",
+      "volume": "V03",
+      "chapter": "EP13",
+      "page_id": "P9-V03-P078",
+      "physical_page": 78,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP13-S02-PNL05",
+        "EP13-S02-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-067",
+      "volume": "V03",
+      "chapter": "EP13",
+      "page_id": "P9-V03-P081",
+      "physical_page": 81,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP13-S03-PNL05",
+        "EP13-S03-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-068",
+      "volume": "V03",
+      "chapter": "EP13",
+      "page_id": "P9-V03-P084",
+      "physical_page": 84,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP13-S04-PNL05",
+        "EP13-S04-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-069",
+      "volume": "V03",
+      "chapter": "EP13",
+      "page_id": "P9-V03-P087",
+      "physical_page": 87,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP13-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-070",
+      "volume": "V03",
+      "chapter": "EP13",
+      "page_id": "P9-V03-P088",
+      "physical_page": 88,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP13-S05-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-071",
+      "volume": "V03",
+      "chapter": "EP14",
+      "page_id": "P9-V03-P090",
+      "physical_page": 90,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP14-S01-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-072",
+      "volume": "V03",
+      "chapter": "EP14",
+      "page_id": "P9-V03-P091",
+      "physical_page": 91,
+      "page_side": "recto",
+      "roles": [
+        "SPREAD_REVEAL"
+      ],
+      "panel_ids": [
+        "EP14-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-073",
+      "volume": "V03",
+      "chapter": "EP14",
+      "page_id": "P9-V03-P094",
+      "physical_page": 94,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP14-S02-PNL03",
+        "EP14-S02-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-074",
+      "volume": "V03",
+      "chapter": "EP14",
+      "page_id": "P9-V03-P095",
+      "physical_page": 95,
+      "page_side": "recto",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP14-S02-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-075",
+      "volume": "V03",
+      "chapter": "EP14",
+      "page_id": "P9-V03-P100",
+      "physical_page": 100,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP14-S04-PNL03",
+        "EP14-S04-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-076",
+      "volume": "V03",
+      "chapter": "EP14",
+      "page_id": "P9-V03-P103",
+      "physical_page": 103,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP14-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-077",
+      "volume": "V03",
+      "chapter": "EP14",
+      "page_id": "P9-V03-P104",
+      "physical_page": 104,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP14-S05-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-078",
+      "volume": "V03",
+      "chapter": "EP15",
+      "page_id": "P9-V03-P106",
+      "physical_page": 106,
+      "page_side": "verso",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP15-S01-PNL02",
+        "EP15-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-079",
+      "volume": "V03",
+      "chapter": "EP15",
+      "page_id": "P9-V03-P113",
+      "physical_page": 113,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP15-S04-PNL05",
+        "EP15-S04-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-080",
+      "volume": "V03",
+      "chapter": "EP15",
+      "page_id": "P9-V03-P116",
+      "physical_page": 116,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP15-S05-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-081",
+      "volume": "V04",
+      "chapter": "EP16",
+      "page_id": "P9-V04-P014",
+      "physical_page": 14,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP16-S02-PNL05",
+        "EP16-S02-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-082",
+      "volume": "V04",
+      "chapter": "EP16",
+      "page_id": "P9-V04-P016",
+      "physical_page": 16,
+      "page_side": "verso",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP16-S03-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-083",
+      "volume": "V04",
+      "chapter": "EP16",
+      "page_id": "P9-V04-P021",
+      "physical_page": 21,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP16-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-084",
+      "volume": "V04",
+      "chapter": "EP16",
+      "page_id": "P9-V04-P022",
+      "physical_page": 22,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP16-S05-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-085",
+      "volume": "V04",
+      "chapter": "EP17",
+      "page_id": "P9-V04-P025",
+      "physical_page": 25,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP17-S01-PNL04",
+        "EP17-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-086",
+      "volume": "V04",
+      "chapter": "EP17",
+      "page_id": "P9-V04-P028",
+      "physical_page": 28,
+      "page_side": "verso",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP17-S02-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-087",
+      "volume": "V04",
+      "chapter": "EP17",
+      "page_id": "P9-V04-P031",
+      "physical_page": 31,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP17-S04-PNL01",
+        "EP17-S04-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-088",
+      "volume": "V04",
+      "chapter": "EP17",
+      "page_id": "P9-V04-P034",
+      "physical_page": 34,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER",
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP17-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-089",
+      "volume": "V04",
+      "chapter": "EP18",
+      "page_id": "P9-V04-P036",
+      "physical_page": 36,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP18-S01-PNL02",
+        "EP18-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-090",
+      "volume": "V04",
+      "chapter": "EP18",
+      "page_id": "P9-V04-P041",
+      "physical_page": 41,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP18-S03-PNL03",
+        "EP18-S03-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-091",
+      "volume": "V04",
+      "chapter": "EP18",
+      "page_id": "P9-V04-P043",
+      "physical_page": 43,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP18-S04-PNL03",
+        "EP18-S04-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-092",
+      "volume": "V04",
+      "chapter": "EP18",
+      "page_id": "P9-V04-P044",
+      "physical_page": 44,
+      "page_side": "verso",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP18-S04-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-093",
+      "volume": "V04",
+      "chapter": "EP18",
+      "page_id": "P9-V04-P046",
+      "physical_page": 46,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP18-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-094",
+      "volume": "V04",
+      "chapter": "EP19",
+      "page_id": "P9-V04-P058",
+      "physical_page": 58,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP19-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-095",
+      "volume": "V04",
+      "chapter": "EP20",
+      "page_id": "P9-V04-P060",
+      "physical_page": 60,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP20-S01-PNL02",
+        "EP20-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-096",
+      "volume": "V04",
+      "chapter": "EP20",
+      "page_id": "P9-V04-P063",
+      "physical_page": 63,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP20-S02-PNL05",
+        "EP20-S02-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-097",
+      "volume": "V04",
+      "chapter": "EP20",
+      "page_id": "P9-V04-P068",
+      "physical_page": 68,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP20-S04-PNL05",
+        "EP20-S04-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-098",
+      "volume": "V04",
+      "chapter": "EP20",
+      "page_id": "P9-V04-P070",
+      "physical_page": 70,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER",
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP20-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-099",
+      "volume": "V04",
+      "chapter": "EP21",
+      "page_id": "P9-V04-P074",
+      "physical_page": 74,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP21-S01-PNL04",
+        "EP21-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-100",
+      "volume": "V04",
+      "chapter": "EP21",
+      "page_id": "P9-V04-P078",
+      "physical_page": 78,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP21-S02-PNL05",
+        "EP21-S02-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-101",
+      "volume": "V04",
+      "chapter": "EP21",
+      "page_id": "P9-V04-P079",
+      "physical_page": 79,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP21-S03-PNL01",
+        "EP21-S03-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-102",
+      "volume": "V04",
+      "chapter": "EP21",
+      "page_id": "P9-V04-P082",
+      "physical_page": 82,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL",
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP21-S04-PNL03",
+        "EP21-S04-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-103",
+      "volume": "V04",
+      "chapter": "EP21",
+      "page_id": "P9-V04-P085",
+      "physical_page": 85,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP21-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-104",
+      "volume": "V04",
+      "chapter": "EP21",
+      "page_id": "P9-V04-P086",
+      "physical_page": 86,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP21-S05-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-105",
+      "volume": "V04",
+      "chapter": "EP22",
+      "page_id": "P9-V04-P089",
+      "physical_page": 89,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP22-S02-PNL01",
+        "EP22-S02-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-106",
+      "volume": "V04",
+      "chapter": "EP22",
+      "page_id": "P9-V04-P092",
+      "physical_page": 92,
+      "page_side": "verso",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP22-S03-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-107",
+      "volume": "V04",
+      "chapter": "EP22",
+      "page_id": "P9-V04-P095",
+      "physical_page": 95,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP22-S05-PNL01",
+        "EP22-S05-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-108",
+      "volume": "V04",
+      "chapter": "EP22",
+      "page_id": "P9-V04-P096",
+      "physical_page": 96,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP22-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-109",
+      "volume": "V04",
+      "chapter": "EP23",
+      "page_id": "P9-V04-P102",
+      "physical_page": 102,
+      "page_side": "verso",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP23-S02-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-110",
+      "volume": "V04",
+      "chapter": "EP23",
+      "page_id": "P9-V04-P105",
+      "physical_page": 105,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP23-S04-PNL01",
+        "EP23-S04-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-111",
+      "volume": "V04",
+      "chapter": "EP23",
+      "page_id": "P9-V04-P106",
+      "physical_page": 106,
+      "page_side": "verso",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP23-S04-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-112",
+      "volume": "V04",
+      "chapter": "EP23",
+      "page_id": "P9-V04-P107",
+      "physical_page": 107,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP23-S05-PNL01",
+        "EP23-S05-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-113",
+      "volume": "V04",
+      "chapter": "EP23",
+      "page_id": "P9-V04-P108",
+      "physical_page": 108,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP23-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-114",
+      "volume": "V04",
+      "chapter": "EP24",
+      "page_id": "P9-V04-P110",
+      "physical_page": 110,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP24-S01-PNL02",
+        "EP24-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-115",
+      "volume": "V04",
+      "chapter": "EP24",
+      "page_id": "P9-V04-P114",
+      "physical_page": 114,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP24-S03-PNL03",
+        "EP24-S03-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-116",
+      "volume": "V04",
+      "chapter": "EP24",
+      "page_id": "P9-V04-P116",
+      "physical_page": 116,
+      "page_side": "verso",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP24-S04-PNL01",
+        "EP24-S04-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-117",
+      "volume": "V04",
+      "chapter": "EP24",
+      "page_id": "P9-V04-P117",
+      "physical_page": 117,
+      "page_side": "recto",
+      "roles": [
+        "CLIMAX",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP24-S04-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-118",
+      "volume": "V04",
+      "chapter": "EP24",
+      "page_id": "P9-V04-P118",
+      "physical_page": 118,
+      "page_side": "verso",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP24-S05-PNL01",
+        "EP24-S05-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-119",
+      "volume": "V04",
+      "chapter": "EP24",
+      "page_id": "P9-V04-P120",
+      "physical_page": 120,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP24-S05-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-120",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P009",
+      "physical_page": 9,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP25-S01-PNL01"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-121",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P011",
+      "physical_page": 11,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP25-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-122",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P013",
+      "physical_page": 13,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP25-S02-PNL01",
+        "EP25-S02-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-123",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P014",
+      "physical_page": 14,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP25-S02-PNL03",
+        "EP25-S02-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-124",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P015",
+      "physical_page": 15,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP25-S03-PNL01",
+        "EP25-S03-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-125",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P016",
+      "physical_page": 16,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP25-S03-PNL03",
+        "EP25-S03-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-126",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P017",
+      "physical_page": 17,
+      "page_side": "recto",
+      "roles": [
+        "CLIMAX"
+      ],
+      "panel_ids": [
+        "EP25-S03-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-127",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P018",
+      "physical_page": 18,
+      "page_side": "verso",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP25-S04-PNL01",
+        "EP25-S04-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-128",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P020",
+      "physical_page": 20,
+      "page_side": "verso",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP25-S05-PNL01",
+        "EP25-S05-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-129",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P021",
+      "physical_page": 21,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP25-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-130",
+      "volume": "V05",
+      "chapter": "EP25",
+      "page_id": "P9-V05-P022",
+      "physical_page": 22,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP25-S05-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-131",
+      "volume": "V05",
+      "chapter": "EP26",
+      "page_id": "P9-V05-P023",
+      "physical_page": 23,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP26-S01-PNL01"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-132",
+      "volume": "V05",
+      "chapter": "EP26",
+      "page_id": "P9-V05-P024",
+      "physical_page": 24,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP26-S01-PNL02",
+        "EP26-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-133",
+      "volume": "V05",
+      "chapter": "EP26",
+      "page_id": "P9-V05-P026",
+      "physical_page": 26,
+      "page_side": "verso",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP26-S02-PNL01",
+        "EP26-S02-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-134",
+      "volume": "V05",
+      "chapter": "EP26",
+      "page_id": "P9-V05-P027",
+      "physical_page": 27,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL",
+        "CLIMAX",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP26-S02-PNL03",
+        "EP26-S02-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-135",
+      "volume": "V05",
+      "chapter": "EP26",
+      "page_id": "P9-V05-P030",
+      "physical_page": 30,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP26-S03-PNL05",
+        "EP26-S03-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-136",
+      "volume": "V05",
+      "chapter": "EP26",
+      "page_id": "P9-V05-P031",
+      "physical_page": 31,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP26-S04-PNL01",
+        "EP26-S04-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-137",
+      "volume": "V05",
+      "chapter": "EP26",
+      "page_id": "P9-V05-P032",
+      "physical_page": 32,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP26-S04-PNL03",
+        "EP26-S04-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-138",
+      "volume": "V05",
+      "chapter": "EP26",
+      "page_id": "P9-V05-P035",
+      "physical_page": 35,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP26-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-139",
+      "volume": "V05",
+      "chapter": "EP26",
+      "page_id": "P9-V05-P036",
+      "physical_page": 36,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP26-S05-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-140",
+      "volume": "V05",
+      "chapter": "EP27",
+      "page_id": "P9-V05-P039",
+      "physical_page": 39,
+      "page_side": "recto",
+      "roles": [
+        "SPREAD_REVEAL"
+      ],
+      "panel_ids": [
+        "EP27-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-141",
+      "volume": "V05",
+      "chapter": "EP27",
+      "page_id": "P9-V05-P041",
+      "physical_page": 41,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP27-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-142",
+      "volume": "V05",
+      "chapter": "EP27",
+      "page_id": "P9-V05-P043",
+      "physical_page": 43,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP27-S02-PNL01",
+        "EP27-S02-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-143",
+      "volume": "V05",
+      "chapter": "EP27",
+      "page_id": "P9-V05-P045",
+      "physical_page": 45,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP27-S02-PNL05",
+        "EP27-S02-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-144",
+      "volume": "V05",
+      "chapter": "EP27",
+      "page_id": "P9-V05-P047",
+      "physical_page": 47,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP27-S03-PNL03",
+        "EP27-S03-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-145",
+      "volume": "V05",
+      "chapter": "EP27",
+      "page_id": "P9-V05-P050",
+      "physical_page": 50,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP27-S04-PNL05",
+        "EP27-S04-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-146",
+      "volume": "V05",
+      "chapter": "EP27",
+      "page_id": "P9-V05-P053",
+      "physical_page": 53,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP27-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-147",
+      "volume": "V05",
+      "chapter": "EP27",
+      "page_id": "P9-V05-P054",
+      "physical_page": 54,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP27-S05-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-148",
+      "volume": "V05",
+      "chapter": "EP28",
+      "page_id": "P9-V05-P058",
+      "physical_page": 58,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP28-S01-PNL04",
+        "EP28-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-149",
+      "volume": "V05",
+      "chapter": "EP28",
+      "page_id": "P9-V05-P062",
+      "physical_page": 62,
+      "page_side": "verso",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP28-S02-PNL05",
+        "EP28-S02-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-150",
+      "volume": "V05",
+      "chapter": "EP28",
+      "page_id": "P9-V05-P065",
+      "physical_page": 65,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP28-S03-PNL05",
+        "EP28-S03-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-151",
+      "volume": "V05",
+      "chapter": "EP28",
+      "page_id": "P9-V05-P069",
+      "physical_page": 69,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP28-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-152",
+      "volume": "V05",
+      "chapter": "EP28",
+      "page_id": "P9-V05-P070",
+      "physical_page": 70,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP28-S05-PNL04"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-153",
+      "volume": "V05",
+      "chapter": "EP29",
+      "page_id": "P9-V05-P071",
+      "physical_page": 71,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP29-S01-PNL01"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-154",
+      "volume": "V05",
+      "chapter": "EP29",
+      "page_id": "P9-V05-P075",
+      "physical_page": 75,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP29-S03-PNL01",
+        "EP29-S03-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-155",
+      "volume": "V05",
+      "chapter": "EP29",
+      "page_id": "P9-V05-P077",
+      "physical_page": 77,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP29-S04-PNL01",
+        "EP29-S04-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-156",
+      "volume": "V05",
+      "chapter": "EP29",
+      "page_id": "P9-V05-P079",
+      "physical_page": 79,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP29-S05-PNL01",
+        "EP29-S05-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-157",
+      "volume": "V05",
+      "chapter": "EP29",
+      "page_id": "P9-V05-P080",
+      "physical_page": 80,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER",
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP29-S05-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-158",
+      "volume": "V05",
+      "chapter": "EP30",
+      "page_id": "P9-V05-P083",
+      "physical_page": 83,
+      "page_side": "recto",
+      "roles": [
+        "RECOGNITION_CHAIN",
+        "SPREAD_REVEAL"
+      ],
+      "panel_ids": [
+        "EP30-S01-PNL03"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-159",
+      "volume": "V05",
+      "chapter": "EP30",
+      "page_id": "P9-V05-P085",
+      "physical_page": 85,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP30-S01-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-160",
+      "volume": "V05",
+      "chapter": "EP30",
+      "page_id": "P9-V05-P089",
+      "physical_page": 89,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP30-S03-PNL01",
+        "EP30-S03-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-161",
+      "volume": "V05",
+      "chapter": "EP30",
+      "page_id": "P9-V05-P093",
+      "physical_page": 93,
+      "page_side": "recto",
+      "roles": [
+        "REVEAL"
+      ],
+      "panel_ids": [
+        "EP30-S04-PNL05",
+        "EP30-S04-PNL06"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-162",
+      "volume": "V05",
+      "chapter": "EP30",
+      "page_id": "P9-V05-P094",
+      "physical_page": 94,
+      "page_side": "verso",
+      "roles": [
+        "RECOGNITION_CHAIN"
+      ],
+      "panel_ids": [
+        "EP30-S05-PNL01",
+        "EP30-S05-PNL02"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    },
+    {
+      "turn_id": "P9-TURN-163",
+      "volume": "V05",
+      "chapter": "EP30",
+      "page_id": "P9-V05-P096",
+      "physical_page": 96,
+      "page_side": "verso",
+      "roles": [
+        "CHAPTER_CLIFFHANGER"
+      ],
+      "panel_ids": [
+        "EP30-S05-PNL05"
+      ],
+      "spoiler_control": "answer begins on this page; no prior-page preview"
+    }
+  ]
+}

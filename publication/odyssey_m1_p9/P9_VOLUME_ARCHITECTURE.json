@@ -1,0 +1,312 @@
+{
+  "schema_version": "P9_VOLUME_ARCHITECTURE_V1",
+  "status": "PASS_P9_VOLUME_ARCHITECTURE",
+  "derivation": "P7B frozen story movements",
+  "volumes": [
+    {
+      "id": "V01",
+      "number": 1,
+      "title": "没有父亲的家",
+      "subtitle": "伊萨卡失序与出航",
+      "episode_start": 1,
+      "episode_end": 4,
+      "story_arc_id": "ARC-01",
+      "opening_promise": "一个无法继承父亲位置的少年，第一次让被占领的家听见他的声音。",
+      "ending_hook": "离开伊萨卡之后，忒勒马科斯必须从别人的记忆里辨认父亲。",
+      "palette": [
+        "#171713",
+        "#d6c19b",
+        "#6d8e92"
+      ],
+      "page_count": 58,
+      "chapters": [
+        {
+          "episode": "EP01",
+          "title": "没有父亲的家",
+          "start_page": 9,
+          "end_page": 20,
+          "page_count": 12
+        },
+        {
+          "episode": "EP02",
+          "title": "伊萨卡第一次集会",
+          "start_page": 21,
+          "end_page": 32,
+          "page_count": 12
+        },
+        {
+          "episode": "EP03",
+          "title": "皮洛斯的火",
+          "start_page": 33,
+          "end_page": 44,
+          "page_count": 12
+        },
+        {
+          "episode": "EP04",
+          "title": "记忆的宫殿",
+          "start_page": 45,
+          "end_page": 56,
+          "page_count": 12
+        }
+      ]
+    },
+    {
+      "id": "V02",
+      "number": 2,
+      "title": "重新说出名字",
+      "subtitle": "脱离停滞与重获身份",
+      "episode_start": 5,
+      "episode_end": 8,
+      "story_arc_id": "ARC-02",
+      "opening_promise": "被女神挽留的幸存者选择有限生命，重新进入人的世界。",
+      "ending_hook": "奥德修斯终于说出名字，也必须说出这个名字带来的全部代价。",
+      "palette": [
+        "#172126",
+        "#b8d0cb",
+        "#9b8050"
+      ],
+      "page_count": 62,
+      "chapters": [
+        {
+          "episode": "EP05",
+          "title": "不死也不回家",
+          "start_page": 9,
+          "end_page": 24,
+          "page_count": 16
+        },
+        {
+          "episode": "EP06",
+          "title": "河边的陌生人",
+          "start_page": 25,
+          "end_page": 34,
+          "page_count": 10
+        },
+        {
+          "episode": "EP07",
+          "title": "王后的膝前",
+          "start_page": 35,
+          "end_page": 46,
+          "page_count": 12
+        },
+        {
+          "episode": "EP08",
+          "title": "说出你的名字",
+          "start_page": 47,
+          "end_page": 60,
+          "page_count": 14
+        }
+      ]
+    },
+    {
+      "id": "V03",
+      "number": 3,
+      "title": "海上的名字与代价",
+      "subtitle": "漂流自述",
+      "episode_start": 9,
+      "episode_end": 15,
+      "story_arc_id": "ARC-03",
+      "opening_promise": "一个英雄讲述自己如何用聪明逃生，又如何因骄傲失去所有同伴。",
+      "ending_hook": "最后一条船把故事送回伊萨卡；回家将比漂流更需要控制身份。",
+      "palette": [
+        "#102128",
+        "#d2a76f",
+        "#554c43"
+      ],
+      "page_count": 118,
+      "chapters": [
+        {
+          "episode": "EP09",
+          "title": "无人进入洞穴",
+          "start_page": 9,
+          "end_page": 22,
+          "page_count": 14
+        },
+        {
+          "episode": "EP10",
+          "title": "我的名字叫无人",
+          "start_page": 23,
+          "end_page": 40,
+          "page_count": 18
+        },
+        {
+          "episode": "EP11",
+          "title": "看得见伊萨卡",
+          "start_page": 41,
+          "end_page": 56,
+          "page_count": 16
+        },
+        {
+          "episode": "EP12",
+          "title": "喀耳刻的杯",
+          "start_page": 57,
+          "end_page": 70,
+          "page_count": 14
+        },
+        {
+          "episode": "EP13",
+          "title": "死者要血",
+          "start_page": 71,
+          "end_page": 88,
+          "page_count": 18
+        },
+        {
+          "episode": "EP14",
+          "title": "绑在桅杆上",
+          "start_page": 89,
+          "end_page": 104,
+          "page_count": 16
+        },
+        {
+          "episode": "EP15",
+          "title": "最后一条船",
+          "start_page": 105,
+          "end_page": 116,
+          "page_count": 12
+        }
+      ]
+    },
+    {
+      "id": "V04",
+      "number": 4,
+      "title": "乞丐回到门槛",
+      "subtitle": "返乡、伪装与忠诚测试",
+      "episode_start": 16,
+      "episode_end": 24,
+      "story_arc_id": "ARC-04",
+      "opening_promise": "归来者必须在自己的家里保持沉默，让狗、仆人、儿子与伤疤逐层验证他。",
+      "ending_hook": "所有人都被放到选择面前；弓将把私人判断变成公开审判。",
+      "palette": [
+        "#1d1a16",
+        "#81735f",
+        "#6f7754"
+      ],
+      "page_count": 122,
+      "chapters": [
+        {
+          "episode": "EP16",
+          "title": "睡着回到故乡",
+          "start_page": 9,
+          "end_page": 22,
+          "page_count": 14
+        },
+        {
+          "episode": "EP17",
+          "title": "忠诚住在猪圈",
+          "start_page": 23,
+          "end_page": 34,
+          "page_count": 12
+        },
+        {
+          "episode": "EP18",
+          "title": "儿子穿过伏击",
+          "start_page": 35,
+          "end_page": 46,
+          "page_count": 12
+        },
+        {
+          "episode": "EP19",
+          "title": "父亲显形",
+          "start_page": 47,
+          "end_page": 58,
+          "page_count": 12
+        },
+        {
+          "episode": "EP20",
+          "title": "狗认出了国王",
+          "start_page": 59,
+          "end_page": 70,
+          "page_count": 12
+        },
+        {
+          "episode": "EP21",
+          "title": "乞丐之王",
+          "start_page": 71,
+          "end_page": 86,
+          "page_count": 16
+        },
+        {
+          "episode": "EP22",
+          "title": "把武器藏起来",
+          "start_page": 87,
+          "end_page": 96,
+          "page_count": 10
+        },
+        {
+          "episode": "EP23",
+          "title": "伤疤没有撒谎",
+          "start_page": 97,
+          "end_page": 108,
+          "page_count": 12
+        },
+        {
+          "episode": "EP24",
+          "title": "最后一次忍耐",
+          "start_page": 109,
+          "end_page": 120,
+          "page_count": 12
+        }
+      ]
+    },
+    {
+      "id": "V05",
+      "number": 5,
+      "title": "弓、婚床与归位",
+      "subtitle": "清算、识别与共同体",
+      "episode_start": 25,
+      "episode_end": 30,
+      "story_arc_id": "ARC-05",
+      "opening_promise": "弓让身份成为公开事实，但只有婚床、父亲与共同体能让返乡真正完成。",
+      "ending_hook": "武器终于放低：家、土地与名字重新彼此承认。",
+      "palette": [
+        "#1b1715",
+        "#9a4f3f",
+        "#b7aa83"
+      ],
+      "page_count": 98,
+      "chapters": [
+        {
+          "episode": "EP25",
+          "title": "无人拉开的弓",
+          "start_page": 9,
+          "end_page": 22,
+          "page_count": 14
+        },
+        {
+          "episode": "EP26",
+          "title": "箭穿过十二把斧",
+          "start_page": 23,
+          "end_page": 36,
+          "page_count": 14
+        },
+        {
+          "episode": "EP27",
+          "title": "厅堂审判·上",
+          "start_page": 37,
+          "end_page": 54,
+          "page_count": 18
+        },
+        {
+          "episode": "EP28",
+          "title": "厅堂审判·下",
+          "start_page": 55,
+          "end_page": 70,
+          "page_count": 16
+        },
+        {
+          "episode": "EP29",
+          "title": "搬走我们的床",
+          "start_page": 71,
+          "end_page": 80,
+          "page_count": 10
+        },
+        {
+          "episode": "EP30",
+          "title": "归途之后",
+          "start_page": 81,
+          "end_page": 96,
+          "page_count": 16
+        }
+      ]
+    }
+  ]
+}

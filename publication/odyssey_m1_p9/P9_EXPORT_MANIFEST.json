@@ -1,0 +1,369 @@
+{
+  "schema_version": "P9_EXPORT_MANIFEST_V1",
+  "status": "PASS_P9_EXPORTS_VALIDATED",
+  "release_tag": "odyssey-p9-publication-v1.0.0",
+  "counts": {
+    "PDF": 11,
+    "CBZ": 5,
+    "EPUB": 5
+  },
+  "exports": [
+    {
+      "filename": "odyssey-homecoming-complete-digital.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-complete-digital.pdf",
+      "format": "PDF",
+      "edition": "complete-digital",
+      "volume": "OMNIBUS",
+      "chapter_range": [
+        1,
+        30
+      ],
+      "page_count": 466,
+      "bytes": 33448367,
+      "sha256": "067bcd66abd78fb144e12091e327874984df5eece0fc3202ef854326eb47a4db",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v01-digital.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v01-digital.pdf",
+      "format": "PDF",
+      "edition": "digital",
+      "volume": "V01",
+      "chapter_range": [
+        1,
+        4
+      ],
+      "page_count": 58,
+      "bytes": 3984859,
+      "sha256": "d6a3a68e0446de5b98b366f85716f50f44b704263e62d2f5b8bb4b6aab2165a1",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v01-print-layout.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v01-print-layout.pdf",
+      "format": "PDF",
+      "edition": "print-layout",
+      "volume": "V01",
+      "chapter_range": [
+        1,
+        4
+      ],
+      "page_count": 58,
+      "bytes": 149091855,
+      "sha256": "4c0e7d7cdc12835328ba88d8829c70f0de15432b7c18b50a0f730a3f70601f8f",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v01.cbz",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v01.cbz",
+      "format": "CBZ",
+      "edition": "cbz",
+      "volume": "V01",
+      "chapter_range": [
+        1,
+        4
+      ],
+      "page_count": 58,
+      "bytes": 8707671,
+      "sha256": "450bc7c3d19d9806efbb1fc0896766ec5796fdcd31a8793581f8ee1a2e1d9e14",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v01.epub",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v01.epub",
+      "format": "EPUB",
+      "edition": "epub",
+      "volume": "V01",
+      "chapter_range": [
+        1,
+        4
+      ],
+      "page_count": 58,
+      "bytes": 19261876,
+      "sha256": "68f0acdc0e5d9191c855897ef23f6916406cf1adfd3c725b96ba054543d8af33",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v02-digital.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v02-digital.pdf",
+      "format": "PDF",
+      "edition": "digital",
+      "volume": "V02",
+      "chapter_range": [
+        5,
+        8
+      ],
+      "page_count": 62,
+      "bytes": 4580009,
+      "sha256": "a2f47765f5fec3a3df1ef1e87d1e5a086f8ab05105d017eef782798008d84ebe",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v02-print-layout.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v02-print-layout.pdf",
+      "format": "PDF",
+      "edition": "print-layout",
+      "volume": "V02",
+      "chapter_range": [
+        5,
+        8
+      ],
+      "page_count": 62,
+      "bytes": 169460677,
+      "sha256": "10ea48315103932ae4d65af9acb0cffe48b1d81d9981ad490a0ab73b53d8ec5e",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v02.cbz",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v02.cbz",
+      "format": "CBZ",
+      "edition": "cbz",
+      "volume": "V02",
+      "chapter_range": [
+        5,
+        8
+      ],
+      "page_count": 62,
+      "bytes": 9844636,
+      "sha256": "9d057c6b81d03236e0c3a7e831e891e3bf315fc01d9767e8057181c37a47aec4",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v02.epub",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v02.epub",
+      "format": "EPUB",
+      "edition": "epub",
+      "volume": "V02",
+      "chapter_range": [
+        5,
+        8
+      ],
+      "page_count": 62,
+      "bytes": 22332185,
+      "sha256": "41f2668e2913d8d616a99461d9a3fac6b1df4779c3f5a6f5043de60aaeb9b879",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v03-digital.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v03-digital.pdf",
+      "format": "PDF",
+      "edition": "digital",
+      "volume": "V03",
+      "chapter_range": [
+        9,
+        15
+      ],
+      "page_count": 118,
+      "bytes": 8395183,
+      "sha256": "75ec07de0bcdc09cea5397f4ba518e9d06b7685e9b722742bbd11a1ce4ee3ea2",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v03-print-layout.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v03-print-layout.pdf",
+      "format": "PDF",
+      "edition": "print-layout",
+      "volume": "V03",
+      "chapter_range": [
+        9,
+        15
+      ],
+      "page_count": 118,
+      "bytes": 325136261,
+      "sha256": "959cc9f6c778c909d8aac654593634b53b3b5caf7c662ad5826d5ed76b0f2f37",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v03.cbz",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v03.cbz",
+      "format": "CBZ",
+      "edition": "cbz",
+      "volume": "V03",
+      "chapter_range": [
+        9,
+        15
+      ],
+      "page_count": 118,
+      "bytes": 18170062,
+      "sha256": "af3e1049083c4d8ccb6763a40470e720127da57ac9e06480ff9eaf6826e130ca",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v03.epub",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v03.epub",
+      "format": "EPUB",
+      "edition": "epub",
+      "volume": "V03",
+      "chapter_range": [
+        9,
+        15
+      ],
+      "page_count": 118,
+      "bytes": 42992522,
+      "sha256": "ec45690ff884b164700c9f3057ab3da206a5e431864469a3e862d440cb3a01a1",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v04-digital.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v04-digital.pdf",
+      "format": "PDF",
+      "edition": "digital",
+      "volume": "V04",
+      "chapter_range": [
+        16,
+        24
+      ],
+      "page_count": 122,
+      "bytes": 9272123,
+      "sha256": "5aad05a0198096a9c89a4287767ecdf445dedc6c7f7868642600be16f9ad2c90",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v04-print-layout.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v04-print-layout.pdf",
+      "format": "PDF",
+      "edition": "print-layout",
+      "volume": "V04",
+      "chapter_range": [
+        16,
+        24
+      ],
+      "page_count": 122,
+      "bytes": 346342618,
+      "sha256": "17d11092145b029916a51beeb19cfb2cc9cbdb3a30efa718daf1a243d18dcc9c",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v04.cbz",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v04.cbz",
+      "format": "CBZ",
+      "edition": "cbz",
+      "volume": "V04",
+      "chapter_range": [
+        16,
+        24
+      ],
+      "page_count": 122,
+      "bytes": 19722192,
+      "sha256": "84a1331b7e6260c9a4e19f1082f92006bc481934f293a4cec04a06c510f7c005",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v04.epub",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v04.epub",
+      "format": "EPUB",
+      "edition": "epub",
+      "volume": "V04",
+      "chapter_range": [
+        16,
+        24
+      ],
+      "page_count": 122,
+      "bytes": 46223350,
+      "sha256": "348721e4c8d91c7d7209f7afdcc5eac343e35b6d058b0b4e83369603ce9afda7",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v05-digital.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v05-digital.pdf",
+      "format": "PDF",
+      "edition": "digital",
+      "volume": "V05",
+      "chapter_range": [
+        25,
+        30
+      ],
+      "page_count": 98,
+      "bytes": 6632932,
+      "sha256": "5f780d8e2d3716678d754c0d9a26ddbef5461507199e09db118ababa568caec1",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v05-print-layout.pdf",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v05-print-layout.pdf",
+      "format": "PDF",
+      "edition": "print-layout",
+      "volume": "V05",
+      "chapter_range": [
+        25,
+        30
+      ],
+      "page_count": 98,
+      "bytes": 265834954,
+      "sha256": "8072554c8905290324e5c54a459ab0c72ba4fbd45370f263984270bbf329ab26",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v05.cbz",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v05.cbz",
+      "format": "CBZ",
+      "edition": "cbz",
+      "volume": "V05",
+      "chapter_range": [
+        25,
+        30
+      ],
+      "page_count": 98,
+      "bytes": 14751168,
+      "sha256": "b2e63603f03566074314db6b680fc8d5b80cf32462dba8330fbc79467d160b8f",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    },
+    {
+      "filename": "odyssey-homecoming-v05.epub",
+      "repository_path": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v05.epub",
+      "format": "EPUB",
+      "edition": "epub",
+      "volume": "V05",
+      "chapter_range": [
+        25,
+        30
+      ],
+      "page_count": 98,
+      "bytes": 34949867,
+      "sha256": "251d8845172b9d79300fca56959006143c36148a21c31f3031bae291e8e3bd02",
+      "generation_source_commit": "31f84fe48094ac4f76708730b2d6da76d69c7602",
+      "delivery_class": "GITHUB_RELEASE_ASSET",
+      "status": "PASS_VALIDATED"
+    }
+  ]
+}

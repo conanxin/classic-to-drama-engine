@@ -87,6 +87,16 @@ for (const panel of p8r1Visuals.panels) {
   await add(panel.source_path, panel.public_path, 'image', panel.authority);
 }
 
+for (let number = 1; number <= 5; number += 1) {
+  const volume = `v${String(number).padStart(2, '0')}`;
+  await add(
+    `publication/odyssey_m1_p9/web-covers/odyssey-homecoming-${volume}-cover.webp`,
+    `media/publication/covers/odyssey-homecoming-${volume}-cover.webp`,
+    'image',
+    `P9 validated publication cover ${volume.toUpperCase()}`
+  );
+}
+
 entries.sort((a, b) => a.published_path.localeCompare(b.published_path));
 const duplicatePublished = entries.filter((x, i) => entries.findIndex((y) => y.published_path === x.published_path) !== i);
 if (duplicatePublished.length) throw new Error(`Duplicate published asset paths: ${duplicatePublished.map((x) => x.published_path).join(', ')}`);
@@ -95,7 +105,7 @@ const payload = {
   artifact_class: 'CTDE_WEB_ASSET_PUBLICATION_MANIFEST',
   schema_version: '1.0.0',
   baseline_commit: '478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5',
-  strategy: 'Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives and seven bounded P8R1 EP01 comic-sequence overrides. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8/P8R1 renders remain unpublished.',
+  strategy: 'Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives, seven bounded P8R1 EP01 comic-sequence overrides and five validated P9 publication-cover derivatives. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8/P8R1 renders remain unpublished.',
   selected_hero_frame_ids: [...selectedHero].sort(),
   rejected_hero_frame_ids: ['P4-HF-19','P4-HF-29','P4-HF-34','P4-HF-39','P4-HF-43','P4-HF-44'],
   asset_count: entries.length,

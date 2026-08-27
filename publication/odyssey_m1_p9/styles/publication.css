@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "P9 Noto CJK";
+  src: url("file:///usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "P9 Noto CJK";
+  src: url("file:///usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc");
+  font-weight: 700;
+}
+
+@page {
+  size: 176mm 250mm;
+  margin: 0;
+}
+
+:root {
+  --ink: #171713;
+  --ink-soft: #25231e;
+  --paper: #eee7d8;
+  --paper-deep: #d6c8ad;
+  --muted: #a99c85;
+  --bronze: #ad8b57;
+  --rule: rgba(239, 231, 216, 0.25);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--ink); }
+body {
+  font-family: "P9 Noto CJK", "Noto Sans CJK SC", "Droid Sans Fallback", sans-serif;
+  color: var(--paper);
+  font-size: 10pt;
+  line-height: 1.45;
+}
+
+.book-page {
+  position: relative;
+  width: 176mm;
+  height: 250mm;
+  overflow: hidden;
+  break-after: page;
+  page-break-after: always;
+  background: radial-gradient(circle at 75% 12%, #2c2922 0, var(--ink) 42%, #11110f 100%);
+}
+.book-page:last-child { break-after: auto; page-break-after: auto; }
+.book-page::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 35mm rgba(0,0,0,.25);
+}
+.safe {
+  position: absolute;
+  inset: 14mm 18mm 13mm 18mm;
+  z-index: 2;
+}
+.recto .safe { left: 18mm; right: 15mm; }
+.verso .safe { left: 15mm; right: 18mm; }
+
+.folio {
+  position: absolute;
+  bottom: 6.5mm;
+  z-index: 4;
+  color: var(--muted);
+  font-size: 7.5pt;
+  letter-spacing: .08em;
+}
+.recto .folio { right: 12mm; }
+.verso .folio { left: 12mm; }
+.no-folio .folio { display: none; }
+
+.eyebrow {
+  color: var(--bronze);
+  font-size: 8pt;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+}
+.display-title {
+  margin: 3mm 0 0;
+  font-size: 29pt;
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.display-subtitle {
+  margin: 4mm 0 0;
+  max-width: 110mm;
+  color: var(--paper-deep);
+  font-size: 11pt;
+}
+
+.cover-page { background: #11110f; }
+.cover-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 66%;
+  object-fit: cover;
+  filter: saturate(.82) contrast(1.05) brightness(.63);
+}
+.cover-wash {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10,10,8,.12), rgba(10,10,8,.15) 35%, rgba(10,10,8,.9) 100%);
+}
+.cover-copy {
+  position: absolute;
+  z-index: 3;
+  left: 18mm;
+  right: 18mm;
+  bottom: 21mm;
+}
+.cover-volume { color: #dbc8a1; font-size: 8pt; letter-spacing: .2em; }
+.cover-title { margin: 3mm 0 0; font-size: 31pt; line-height: 1.05; }
+.cover-series { margin-top: 4mm; color: #d4c9b5; font-size: 10pt; letter-spacing: .08em; }
+.cover-rule { width: 24mm; height: .5mm; background: var(--bronze); margin: 5mm 0 4mm; }
+
+.matter-page .safe { display: flex; flex-direction: column; justify-content: center; }
+.matter-page h1, .matter-page h2 { margin: 0; }
+.matter-page p { max-width: 118mm; color: var(--paper-deep); }
+.matter-rule { width: 35mm; border-top: .35mm solid var(--bronze); margin: 6mm 0; }
+.contents-list { list-style: none; margin: 8mm 0 0; padding: 0; }
+.contents-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 3mm;
+  padding: 2.2mm 0;
+  border-bottom: .2mm solid var(--rule);
+}
+.contents-list .dots { flex: 1; border-bottom: .2mm dotted rgba(239,231,216,.3); }
+.contents-list .page-number { color: var(--bronze); }
+
+.guide-grid { display: flex; flex-flow: row wrap; gap: 5mm; margin-top: 6mm; }
+.guide-card { display: flex; flex: 1 1 46%; gap: 3.5mm; align-items: center; }
+.guide-card img { width: 29mm; height: 35mm; object-fit: cover; object-position: top center; border: .25mm solid rgba(239,231,216,.25); }
+.guide-card > div { flex: 1; min-width: 0; }
+.guide-card h3 { margin: 0 0 1mm; font-size: 10.2pt; }
+.guide-card p { margin: 0; font-size: 8.4pt; line-height: 1.4; color: var(--paper-deep); }
+
+.chapter-opener { background: #121210; }
+.chapter-opener .opener-art {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: var(--opener-width, 100%);
+  height: 66%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  filter: saturate(.82) brightness(.57) contrast(1.08);
+}
+.chapter-opener .opener-wash {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(12,12,10,.08), rgba(12,12,10,.35) 54%, rgba(12,12,10,.95) 100%);
+}
+.chapter-opener .opener-copy {
+  position: absolute;
+  z-index: 3;
+  left: 18mm;
+  right: 18mm;
+  bottom: 22mm;
+}
+.chapter-opener h1 { margin: 2mm 0 0; font-size: 26pt; line-height: 1.1; }
+.chapter-opener .hook { margin: 4mm 0 0; max-width: 118mm; color: #eee3ce; font-size: 10.5pt; line-height: 1.5; }
+
+.comic-page .safe { display: flex; flex-direction: column; }
+.scene-kicker {
+  display: flex;
+  justify-content: space-between;
+  gap: 5mm;
+  align-items: baseline;
+  min-height: 7mm;
+  margin-bottom: 3mm;
+  color: var(--muted);
+  font-size: 7.6pt;
+  letter-spacing: .05em;
+}
+.scene-kicker strong { color: var(--paper); font-weight: 500; }
+.panel-grid { flex: 1; min-height: 0; display: grid; gap: 4mm; }
+.panel-grid.count-1 { grid-template-columns: 1fr; grid-template-rows: 1fr; }
+.panel-grid.count-2 { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+.panel-grid.count-3,
+.panel-grid.count-4 { display: flex; flex-flow: row wrap; align-content: stretch; }
+.panel-grid.count-3 .panel:first-child { flex: 0 0 100%; height: 55%; }
+.panel-grid.count-3 .panel:nth-child(2),
+.panel-grid.count-3 .panel:nth-child(3) { flex: 1 1 46%; height: 43%; }
+.panel-grid.count-4 .panel { flex: 1 1 46%; height: 48%; }
+
+.panel {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #0d0d0c;
+  border: .26mm solid rgba(239,231,216,.22);
+}
+.panel-media { flex: 1 1 auto; min-height: 0; position: relative; overflow: hidden; background: #090909; }
+.panel-media { display: flex; align-items: center; justify-content: center; }
+.panel-media img { width: var(--image-width, 100%); max-width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; }
+.panel.square-safe .panel-media img { object-fit: contain; }
+.panel-copy { flex: 0 0 auto; display: flex; gap: 2.6mm; align-items: stretch; padding: 2.2mm 2.6mm 2.4mm; background: #1d1b17; }
+.panel-copy:empty { display: none; }
+.caption {
+  flex: 1 1 54%;
+  align-self: center;
+  color: #242018;
+  background: #dfd1b9;
+  padding: 1.7mm 2.1mm;
+  font-size: 8.6pt;
+  line-height: 1.42;
+  border-left: .8mm solid var(--bronze);
+}
+.speech {
+  flex: 1 1 46%;
+  color: #161512;
+  background: #f1eadc;
+  padding: 1.7mm 2.3mm;
+  border-radius: 2.2mm 2.2mm 2.2mm .7mm;
+  font-size: 9.2pt;
+  line-height: 1.42;
+}
+.speaker { display: block; margin-bottom: .7mm; color: #796447; font-size: 7.1pt; letter-spacing: .08em; font-weight: 700; }
+.silent-mark { position: absolute; right: 2mm; bottom: 1.5mm; color: rgba(239,231,216,.5); font-size: 6.5pt; letter-spacing: .14em; }
+.count-3 .panel-copy, .count-4 .panel-copy { padding: 1.5mm 1.8mm; gap: 1.7mm; }
+.count-3 .panel-copy,
+.count-4 .panel-copy {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  background: rgba(29, 27, 23, .96);
+}
+.count-3 .caption, .count-4 .caption { font-size: 7.7pt; padding: 1.2mm 1.5mm; }
+.count-3 .speech, .count-4 .speech { font-size: 8.1pt; padding: 1.2mm 1.6mm; }
+.count-3 .speaker, .count-4 .speaker { font-size: 6.5pt; }
+
+.layout-QUIET_PAGE .panel-copy { background: transparent; position: absolute; left: 4mm; right: 4mm; bottom: 4mm; }
+.layout-QUIET_PAGE .caption { max-width: 86mm; flex: none; }
+.layout-CLIMAX_PAGE .panel,
+.layout-CLIFFHANGER_PAGE .panel,
+.layout-FULL_BLEED_HERO .panel { border: 0; }
+.layout-CLIMAX_PAGE .panel-copy,
+.layout-CLIFFHANGER_PAGE .panel-copy,
+.layout-FULL_BLEED_HERO .panel-copy {
+  position: absolute;
+  left: 4mm;
+  right: 4mm;
+  bottom: 4mm;
+  background: transparent;
+}
+.layout-CLIMAX_PAGE .caption,
+.layout-CLIFFHANGER_PAGE .caption,
+.layout-FULL_BLEED_HERO .caption { max-width: 92mm; flex: none; }
+.layout-CLIMAX_PAGE .speech,
+.layout-CLIFFHANGER_PAGE .speech,
+.layout-FULL_BLEED_HERO .speech { max-width: 92mm; margin-left: auto; flex: none; }
+.layout-SPREAD .safe { left: 8mm; right: 8mm; }
+
+.back-matter .index-columns { columns: 2; column-gap: 8mm; margin-top: 7mm; }
+.back-matter .index-columns p { break-inside: avoid; margin: 0 0 2mm; font-size: 8.3pt; }
+
+.proof-label {
+  position: absolute;
+  top: 4mm;
+  right: 5mm;
+  z-index: 10;
+  color: rgba(255,255,255,.55);
+  font-size: 6pt;
+  letter-spacing: .08em;
+}
