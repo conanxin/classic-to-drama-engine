@@ -1,0 +1,3821 @@
+{
+  "artifact_class": "ODYSSEY_P8R3_SERIES_COMIC_READING_GRAMMAR",
+  "schema_version": "1.0.0",
+  "repair_id": "ODYSSEY-P8R3",
+  "status": "PASS_P8R3_GRAMMAR_AUTHORITY_GENERATED",
+  "human_authorization": {
+    "exact_quote": "EP01_FINAL_COMIC_GRAMMAR: APPROVED_FOR_SERIES_PROPAGATION",
+    "gold_standard": "EP01 live P8R2 final comic grammar",
+    "propagation_scope": "EP02-EP30"
+  },
+  "authorities": {
+    "episodes": {
+      "path": "graphic-script/odyssey_m1_p7b/P7B_EPISODE_MANIFEST.json",
+      "bytes": 405503,
+      "sha256": "1fae8f835a199f58e5a11d50a443ce5a0a96e6ae776d76a54c0c373331cc1bc5"
+    },
+    "panels": {
+      "path": "graphic-script/odyssey_m1_p7b/P7B_PANEL_MANIFEST.json",
+      "bytes": 1006694,
+      "sha256": "0b09b2c5ae834024b65ec7f4922ddcc60f7c1ac551d607580eaa514103442c44"
+    },
+    "visuals": {
+      "path": "comic-rendering/odyssey_m1_p8/P8_WEB_VISUAL_MANIFEST.json",
+      "bytes": 603545,
+      "sha256": "0f4890a61bfe7ddbe80a503da53494be9a00e707100fd9b7fe0f43609aa63498"
+    },
+    "ep01_r1": {
+      "path": "comic-rendering/odyssey_m1_p8r1/P8R1_EP01_COMIC_GRAMMAR.json",
+      "bytes": 7479,
+      "sha256": "0221bb8cee471092727027947ff1227f92b668e0479829b046fe2da581bf8619"
+    },
+    "ep01_r2": {
+      "path": "comic-rendering/odyssey_m1_p8r2/P8R2_EP01_FINAL_GRAMMAR.json",
+      "bytes": 2244,
+      "sha256": "0bd8c778b15cabf8a96261edbfed263cf7683d95605080662dcafe2eee2ba900"
+    }
+  },
+  "coverage": {
+    "episodes": 30,
+    "scenes": 150,
+    "panel_slots": 643,
+    "script_source_layers": 150,
+    "episode_covers": 30,
+    "cliffhangers": 30
+  },
+  "rules": {
+    "story_first": true,
+    "panel_sequence_authoritative": true,
+    "art_preview_slots": 643,
+    "panel_sized_empty_text_rectangles_allowed": 0,
+    "text_containers_intrinsic_height": true,
+    "speech_caption_separated": true,
+    "source_layer_default": "collapsed",
+    "relationship_context_default": "collapsed",
+    "cast_level_default": "GLANCE",
+    "mobile_single_stream": true,
+    "raster_text_allowed": 0,
+    "exact_source_dialogue_required": true,
+    "narrative_events_may_change": false
+  },
+  "counts": {
+    "reaction_beats": 118,
+    "insert_beats": 35,
+    "new_visual_assets": 0,
+    "reused_accepted_visual_slots": 643
+  },
+  "episode_summaries": [
+    {
+      "episode": "EP01",
+      "scenes": 5,
+      "panels": 17,
+      "reaction_beats": 2,
+      "insert_beats": 2,
+      "compositions": [
+        "establish-reaction-pair",
+        "threshold-dialogue-sequence",
+        "intimate-prop-triptych",
+        "crowd-action-mosaic",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP02",
+      "scenes": 5,
+      "panels": 21,
+      "reaction_beats": 3,
+      "insert_beats": 1,
+      "compositions": [
+        "establish-reaction-pair",
+        "intimate-prop-triptych",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP03",
+      "scenes": 5,
+      "panels": 20,
+      "reaction_beats": 4,
+      "insert_beats": 0,
+      "compositions": [
+        "crowd-action-mosaic",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP04",
+      "scenes": 5,
+      "panels": 17,
+      "reaction_beats": 4,
+      "insert_beats": 1,
+      "compositions": [
+        "intimate-prop-triptych",
+        "establish-reaction-pair",
+        "crowd-action-mosaic",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP05",
+      "scenes": 5,
+      "panels": 24,
+      "reaction_beats": 4,
+      "insert_beats": 1,
+      "compositions": [
+        "crowd-action-mosaic",
+        "establish-reaction-pair",
+        "intimate-prop-triptych",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP06",
+      "scenes": 5,
+      "panels": 17,
+      "reaction_beats": 3,
+      "insert_beats": 1,
+      "compositions": [
+        "threshold-dialogue-sequence",
+        "intimate-prop-triptych",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP07",
+      "scenes": 5,
+      "panels": 18,
+      "reaction_beats": 3,
+      "insert_beats": 1,
+      "compositions": [
+        "intimate-prop-triptych",
+        "establish-reaction-pair",
+        "crowd-action-mosaic",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP08",
+      "scenes": 5,
+      "panels": 24,
+      "reaction_beats": 4,
+      "insert_beats": 0,
+      "compositions": [
+        "establish-reaction-pair",
+        "crowd-action-mosaic",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP09",
+      "scenes": 5,
+      "panels": 23,
+      "reaction_beats": 4,
+      "insert_beats": 2,
+      "compositions": [
+        "crowd-action-mosaic",
+        "intimate-prop-triptych",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP10",
+      "scenes": 5,
+      "panels": 30,
+      "reaction_beats": 5,
+      "insert_beats": 5,
+      "compositions": [
+        "intimate-prop-triptych",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP11",
+      "scenes": 5,
+      "panels": 26,
+      "reaction_beats": 4,
+      "insert_beats": 1,
+      "compositions": [
+        "crowd-action-mosaic",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP12",
+      "scenes": 5,
+      "panels": 24,
+      "reaction_beats": 3,
+      "insert_beats": 4,
+      "compositions": [
+        "intimate-prop-triptych",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP13",
+      "scenes": 5,
+      "panels": 30,
+      "reaction_beats": 5,
+      "insert_beats": 0,
+      "compositions": [
+        "crowd-action-mosaic",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP14",
+      "scenes": 5,
+      "panels": 23,
+      "reaction_beats": 4,
+      "insert_beats": 2,
+      "compositions": [
+        "establish-reaction-pair",
+        "intimate-prop-triptych",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP15",
+      "scenes": 5,
+      "panels": 20,
+      "reaction_beats": 4,
+      "insert_beats": 2,
+      "compositions": [
+        "crowd-action-mosaic",
+        "establish-reaction-pair",
+        "intimate-prop-triptych",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP16",
+      "scenes": 5,
+      "panels": 23,
+      "reaction_beats": 3,
+      "insert_beats": 3,
+      "compositions": [
+        "intimate-prop-triptych",
+        "establish-reaction-pair",
+        "crowd-action-mosaic",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP17",
+      "scenes": 5,
+      "panels": 18,
+      "reaction_beats": 3,
+      "insert_beats": 0,
+      "compositions": [
+        "crowd-action-mosaic",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP18",
+      "scenes": 5,
+      "panels": 20,
+      "reaction_beats": 3,
+      "insert_beats": 1,
+      "compositions": [
+        "threshold-dialogue-sequence",
+        "intimate-prop-triptych",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP19",
+      "scenes": 5,
+      "panels": 18,
+      "reaction_beats": 5,
+      "insert_beats": 2,
+      "compositions": [
+        "establish-reaction-pair",
+        "intimate-prop-triptych",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP20",
+      "scenes": 5,
+      "panels": 21,
+      "reaction_beats": 4,
+      "insert_beats": 0,
+      "compositions": [
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP21",
+      "scenes": 5,
+      "panels": 25,
+      "reaction_beats": 4,
+      "insert_beats": 0,
+      "compositions": [
+        "crowd-action-mosaic",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP22",
+      "scenes": 5,
+      "panels": 15,
+      "reaction_beats": 4,
+      "insert_beats": 0,
+      "compositions": [
+        "establish-reaction-pair",
+        "crowd-action-mosaic",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP23",
+      "scenes": 5,
+      "panels": 16,
+      "reaction_beats": 5,
+      "insert_beats": 1,
+      "compositions": [
+        "intimate-prop-triptych",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP24",
+      "scenes": 5,
+      "panels": 18,
+      "reaction_beats": 3,
+      "insert_beats": 1,
+      "compositions": [
+        "threshold-dialogue-sequence",
+        "establish-reaction-pair",
+        "crowd-action-mosaic",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP25",
+      "scenes": 5,
+      "panels": 20,
+      "reaction_beats": 4,
+      "insert_beats": 1,
+      "compositions": [
+        "intimate-prop-triptych",
+        "establish-reaction-pair",
+        "crowd-action-mosaic",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP26",
+      "scenes": 5,
+      "panels": 24,
+      "reaction_beats": 4,
+      "insert_beats": 1,
+      "compositions": [
+        "establish-reaction-pair",
+        "intimate-prop-triptych",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP27",
+      "scenes": 5,
+      "panels": 28,
+      "reaction_beats": 5,
+      "insert_beats": 0,
+      "compositions": [
+        "crowd-action-mosaic",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP28",
+      "scenes": 5,
+      "panels": 25,
+      "reaction_beats": 5,
+      "insert_beats": 0,
+      "compositions": [
+        "crowd-action-mosaic",
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP29",
+      "scenes": 5,
+      "panels": 15,
+      "reaction_beats": 5,
+      "insert_beats": 0,
+      "compositions": [
+        "establish-reaction-pair",
+        "intimate-cliffhanger"
+      ]
+    },
+    {
+      "episode": "EP30",
+      "scenes": 5,
+      "panels": 23,
+      "reaction_beats": 5,
+      "insert_beats": 2,
+      "compositions": [
+        "crowd-action-mosaic",
+        "establish-reaction-pair",
+        "intimate-prop-triptych",
+        "intimate-cliffhanger"
+      ]
+    }
+  ],
+  "scene_compositions": {
+    "EP01-S01": "establish-reaction-pair",
+    "EP01-S02": "threshold-dialogue-sequence",
+    "EP01-S03": "intimate-prop-triptych",
+    "EP01-S04": "crowd-action-mosaic",
+    "EP01-S05": "intimate-cliffhanger",
+    "EP02-S01": "establish-reaction-pair",
+    "EP02-S02": "establish-reaction-pair",
+    "EP02-S03": "intimate-prop-triptych",
+    "EP02-S04": "establish-reaction-pair",
+    "EP02-S05": "intimate-cliffhanger",
+    "EP03-S01": "crowd-action-mosaic",
+    "EP03-S02": "establish-reaction-pair",
+    "EP03-S03": "establish-reaction-pair",
+    "EP03-S04": "establish-reaction-pair",
+    "EP03-S05": "intimate-cliffhanger",
+    "EP04-S01": "intimate-prop-triptych",
+    "EP04-S02": "establish-reaction-pair",
+    "EP04-S03": "crowd-action-mosaic",
+    "EP04-S04": "establish-reaction-pair",
+    "EP04-S05": "intimate-cliffhanger",
+    "EP05-S01": "crowd-action-mosaic",
+    "EP05-S02": "establish-reaction-pair",
+    "EP05-S03": "establish-reaction-pair",
+    "EP05-S04": "intimate-prop-triptych",
+    "EP05-S05": "intimate-cliffhanger",
+    "EP06-S01": "threshold-dialogue-sequence",
+    "EP06-S02": "intimate-prop-triptych",
+    "EP06-S03": "establish-reaction-pair",
+    "EP06-S04": "threshold-dialogue-sequence",
+    "EP06-S05": "intimate-cliffhanger",
+    "EP07-S01": "intimate-prop-triptych",
+    "EP07-S02": "establish-reaction-pair",
+    "EP07-S03": "crowd-action-mosaic",
+    "EP07-S04": "establish-reaction-pair",
+    "EP07-S05": "intimate-cliffhanger",
+    "EP08-S01": "establish-reaction-pair",
+    "EP08-S02": "establish-reaction-pair",
+    "EP08-S03": "crowd-action-mosaic",
+    "EP08-S04": "establish-reaction-pair",
+    "EP08-S05": "intimate-cliffhanger",
+    "EP09-S01": "crowd-action-mosaic",
+    "EP09-S02": "intimate-prop-triptych",
+    "EP09-S03": "establish-reaction-pair",
+    "EP09-S04": "establish-reaction-pair",
+    "EP09-S05": "intimate-cliffhanger",
+    "EP10-S01": "intimate-prop-triptych",
+    "EP10-S02": "intimate-prop-triptych",
+    "EP10-S03": "intimate-prop-triptych",
+    "EP10-S04": "intimate-prop-triptych",
+    "EP10-S05": "intimate-cliffhanger",
+    "EP11-S01": "crowd-action-mosaic",
+    "EP11-S02": "establish-reaction-pair",
+    "EP11-S03": "crowd-action-mosaic",
+    "EP11-S04": "establish-reaction-pair",
+    "EP11-S05": "intimate-cliffhanger",
+    "EP12-S01": "intimate-prop-triptych",
+    "EP12-S02": "intimate-prop-triptych",
+    "EP12-S03": "intimate-prop-triptych",
+    "EP12-S04": "establish-reaction-pair",
+    "EP12-S05": "intimate-cliffhanger",
+    "EP13-S01": "crowd-action-mosaic",
+    "EP13-S02": "establish-reaction-pair",
+    "EP13-S03": "crowd-action-mosaic",
+    "EP13-S04": "establish-reaction-pair",
+    "EP13-S05": "intimate-cliffhanger",
+    "EP14-S01": "establish-reaction-pair",
+    "EP14-S02": "establish-reaction-pair",
+    "EP14-S03": "intimate-prop-triptych",
+    "EP14-S04": "establish-reaction-pair",
+    "EP14-S05": "intimate-cliffhanger",
+    "EP15-S01": "crowd-action-mosaic",
+    "EP15-S02": "establish-reaction-pair",
+    "EP15-S03": "establish-reaction-pair",
+    "EP15-S04": "intimate-prop-triptych",
+    "EP15-S05": "intimate-cliffhanger",
+    "EP16-S01": "intimate-prop-triptych",
+    "EP16-S02": "establish-reaction-pair",
+    "EP16-S03": "crowd-action-mosaic",
+    "EP16-S04": "intimate-prop-triptych",
+    "EP16-S05": "intimate-cliffhanger",
+    "EP17-S01": "crowd-action-mosaic",
+    "EP17-S02": "establish-reaction-pair",
+    "EP17-S03": "establish-reaction-pair",
+    "EP17-S04": "establish-reaction-pair",
+    "EP17-S05": "intimate-cliffhanger",
+    "EP18-S01": "threshold-dialogue-sequence",
+    "EP18-S02": "intimate-prop-triptych",
+    "EP18-S03": "establish-reaction-pair",
+    "EP18-S04": "establish-reaction-pair",
+    "EP18-S05": "intimate-cliffhanger",
+    "EP19-S01": "establish-reaction-pair",
+    "EP19-S02": "intimate-prop-triptych",
+    "EP19-S03": "establish-reaction-pair",
+    "EP19-S04": "establish-reaction-pair",
+    "EP19-S05": "intimate-cliffhanger",
+    "EP20-S01": "establish-reaction-pair",
+    "EP20-S02": "establish-reaction-pair",
+    "EP20-S03": "establish-reaction-pair",
+    "EP20-S04": "establish-reaction-pair",
+    "EP20-S05": "intimate-cliffhanger",
+    "EP21-S01": "crowd-action-mosaic",
+    "EP21-S02": "establish-reaction-pair",
+    "EP21-S03": "establish-reaction-pair",
+    "EP21-S04": "establish-reaction-pair",
+    "EP21-S05": "intimate-cliffhanger",
+    "EP22-S01": "establish-reaction-pair",
+    "EP22-S02": "establish-reaction-pair",
+    "EP22-S03": "crowd-action-mosaic",
+    "EP22-S04": "establish-reaction-pair",
+    "EP22-S05": "intimate-cliffhanger",
+    "EP23-S01": "intimate-prop-triptych",
+    "EP23-S02": "establish-reaction-pair",
+    "EP23-S03": "establish-reaction-pair",
+    "EP23-S04": "establish-reaction-pair",
+    "EP23-S05": "intimate-cliffhanger",
+    "EP24-S01": "threshold-dialogue-sequence",
+    "EP24-S02": "establish-reaction-pair",
+    "EP24-S03": "crowd-action-mosaic",
+    "EP24-S04": "establish-reaction-pair",
+    "EP24-S05": "intimate-cliffhanger",
+    "EP25-S01": "intimate-prop-triptych",
+    "EP25-S02": "establish-reaction-pair",
+    "EP25-S03": "crowd-action-mosaic",
+    "EP25-S04": "establish-reaction-pair",
+    "EP25-S05": "intimate-cliffhanger",
+    "EP26-S01": "establish-reaction-pair",
+    "EP26-S02": "establish-reaction-pair",
+    "EP26-S03": "intimate-prop-triptych",
+    "EP26-S04": "establish-reaction-pair",
+    "EP26-S05": "intimate-cliffhanger",
+    "EP27-S01": "crowd-action-mosaic",
+    "EP27-S02": "establish-reaction-pair",
+    "EP27-S03": "establish-reaction-pair",
+    "EP27-S04": "establish-reaction-pair",
+    "EP27-S05": "intimate-cliffhanger",
+    "EP28-S01": "crowd-action-mosaic",
+    "EP28-S02": "establish-reaction-pair",
+    "EP28-S03": "crowd-action-mosaic",
+    "EP28-S04": "establish-reaction-pair",
+    "EP28-S05": "intimate-cliffhanger",
+    "EP29-S01": "establish-reaction-pair",
+    "EP29-S02": "establish-reaction-pair",
+    "EP29-S03": "establish-reaction-pair",
+    "EP29-S04": "establish-reaction-pair",
+    "EP29-S05": "intimate-cliffhanger",
+    "EP30-S01": "crowd-action-mosaic",
+    "EP30-S02": "establish-reaction-pair",
+    "EP30-S03": "establish-reaction-pair",
+    "EP30-S04": "intimate-prop-triptych",
+    "EP30-S05": "intimate-cliffhanger"
+  },
+  "panel_presentations": {
+    "EP01-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP01-S01-PNL02": {
+      "text_role": "SILENT_ACTION",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP01-S01-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP01-S01-PNL04": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP01-S02-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP01-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP01-S02-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP01-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP01-S03-PNL02": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP01-S03-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP01-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP01-S04-PNL02": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "medium",
+      "crop": "reaction-right"
+    },
+    "EP01-S04-PNL03": {
+      "text_role": "SPEECH_REACTION",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP01-S04-PNL04": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP01-S05-PNL01": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP01-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP01-S05-PNL03": {
+      "text_role": "CLIFFHANGER_ACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP02-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP02-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP02-S01-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP02-S01-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP02-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP02-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP02-S02-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP02-S02-PNL04": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP02-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP02-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP02-S03-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP02-S03-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP02-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP02-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP02-S04-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP02-S04-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP02-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP02-S05-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP02-S05-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP02-S05-PNL04": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP02-S05-PNL05": {
+      "text_role": "CLIFFHANGER_ACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP03-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP03-S01-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP03-S01-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP03-S01-PNL04": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP03-S01-PNL05": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP03-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP03-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP03-S02-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP03-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP03-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP03-S03-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP03-S04-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP03-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP03-S04-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP03-S04-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP03-S04-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP03-S04-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP03-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP03-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP03-S05-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP04-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP04-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP04-S01-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP04-S01-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP04-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP04-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP04-S02-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP04-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP04-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP04-S03-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP04-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP04-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP04-S04-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP04-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP04-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP04-S05-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP04-S05-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP05-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP05-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP05-S01-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP05-S01-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP05-S01-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP05-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP05-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP05-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP05-S02-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP05-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP05-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP05-S03-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP05-S04-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP05-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP05-S04-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP05-S04-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP05-S04-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP05-S04-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP05-S05-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP05-S05-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP05-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP05-S05-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP05-S05-PNL05": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP05-S05-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP06-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP06-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP06-S01-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP06-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP06-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP06-S02-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP06-S02-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP06-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP06-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP06-S03-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP06-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP06-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP06-S04-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP06-S04-PNL04": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP06-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP06-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP06-S05-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP07-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP07-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP07-S01-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP07-S01-PNL04": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP07-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP07-S02-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP07-S02-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP07-S02-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP07-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP07-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP07-S03-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP07-S03-PNL04": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP07-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP07-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP07-S04-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP07-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP07-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP07-S05-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP08-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP08-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP08-S01-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP08-S01-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP08-S02-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP08-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP08-S02-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP08-S02-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP08-S02-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP08-S02-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP08-S03-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP08-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP08-S03-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP08-S03-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP08-S03-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP08-S03-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP08-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP08-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP08-S04-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP08-S04-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP08-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP08-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP08-S05-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP08-S05-PNL04": {
+      "text_role": "CLIFFHANGER_ACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP09-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP09-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP09-S01-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP09-S01-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP09-S01-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP09-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP09-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP09-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP09-S02-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP09-S02-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP09-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP09-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP09-S03-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP09-S03-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP09-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP09-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP09-S04-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP09-S05-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP09-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP09-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP09-S05-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP09-S05-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP09-S05-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP10-S01-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP10-S01-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP10-S01-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP10-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S02-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP10-S02-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP10-S02-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S02-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP10-S02-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S03-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP10-S03-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP10-S03-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP10-S03-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP10-S03-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S04-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP10-S04-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP10-S04-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S04-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP10-S04-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S05-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP10-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP10-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP10-S05-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP10-S05-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP10-S05-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP11-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP11-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP11-S01-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP11-S01-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP11-S01-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP11-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP11-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP11-S02-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP11-S02-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP11-S02-PNL04": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP11-S02-PNL05": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP11-S03-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP11-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP11-S03-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP11-S03-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP11-S03-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP11-S03-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP11-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP11-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP11-S04-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP11-S05-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP11-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP11-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP11-S05-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP11-S05-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP11-S05-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP12-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP12-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP12-S01-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP12-S01-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP12-S01-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP12-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP12-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP12-S02-PNL02": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP12-S02-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP12-S03-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP12-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP12-S03-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP12-S03-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP12-S03-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP12-S03-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP12-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP12-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP12-S04-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP12-S04-PNL04": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP12-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP12-S05-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP12-S05-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP12-S05-PNL04": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP12-S05-PNL05": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP13-S01-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP13-S01-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S01-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP13-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S02-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP13-S02-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP13-S02-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S02-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP13-S02-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S03-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP13-S03-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP13-S03-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S03-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP13-S03-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S04-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP13-S04-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP13-S04-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S04-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP13-S04-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S05-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP13-S05-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP13-S05-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP13-S05-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP13-S05-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP14-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP14-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP14-S01-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP14-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP14-S02-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP14-S02-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP14-S02-PNL04": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP14-S02-PNL05": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP14-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP14-S03-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP14-S03-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP14-S03-PNL04": {
+      "text_role": "SPEECH_REACTION",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP14-S03-PNL05": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP14-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP14-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP14-S04-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP14-S04-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP14-S05-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP14-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP14-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP14-S05-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP14-S05-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP14-S05-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP15-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP15-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP15-S01-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP15-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP15-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP15-S02-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP15-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP15-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP15-S03-PNL03": {
+      "text_role": "SPEECH_REACTION",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP15-S03-PNL04": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP15-S04-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP15-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP15-S04-PNL03": {
+      "text_role": "SILENT_INSERT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP15-S04-PNL04": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP15-S04-PNL05": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP15-S04-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP15-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP15-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP15-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP15-S05-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP16-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP16-S01-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP16-S01-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP16-S01-PNL04": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP16-S01-PNL05": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP16-S02-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP16-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP16-S02-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP16-S02-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP16-S02-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP16-S02-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP16-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP16-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP16-S03-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP16-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP16-S04-PNL02": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP16-S04-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP16-S05-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP16-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP16-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP16-S05-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP16-S05-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP16-S05-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP17-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP17-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP17-S01-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP17-S01-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP17-S01-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP17-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP17-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP17-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP17-S02-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP17-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP17-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP17-S03-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP17-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP17-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP17-S04-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP17-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP17-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP17-S05-PNL03": {
+      "text_role": "CLIFFHANGER_ACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP18-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP18-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP18-S01-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP18-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP18-S02-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP18-S02-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP18-S02-PNL04": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP18-S02-PNL05": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP18-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP18-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP18-S03-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP18-S03-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP18-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP18-S04-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP18-S04-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP18-S04-PNL04": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP18-S04-PNL05": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP18-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP18-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP18-S05-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP19-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP19-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP19-S01-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP19-S02-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP19-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP19-S02-PNL03": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP19-S02-PNL04": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP19-S02-PNL05": {
+      "text_role": "SILENT_INSERT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP19-S02-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP19-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP19-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP19-S03-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP19-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP19-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP19-S04-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP19-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP19-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP19-S05-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP20-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP20-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP20-S01-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP20-S02-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP20-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP20-S02-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP20-S02-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP20-S02-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP20-S02-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP20-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP20-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP20-S03-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP20-S04-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP20-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP20-S04-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP20-S04-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP20-S04-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP20-S04-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP20-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP20-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP20-S05-PNL03": {
+      "text_role": "CLIFFHANGER_ACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP21-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP21-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP21-S01-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP21-S01-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP21-S01-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP21-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP21-S02-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP21-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP21-S02-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP21-S02-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP21-S02-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP21-S02-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP21-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP21-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP21-S03-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP21-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP21-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP21-S04-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP21-S04-PNL04": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP21-S05-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP21-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP21-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP21-S05-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP21-S05-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP21-S05-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP22-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP22-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP22-S01-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP22-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP22-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP22-S02-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP22-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP22-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP22-S03-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP22-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP22-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP22-S04-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP22-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP22-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP22-S05-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP23-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP23-S01-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP23-S01-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP23-S01-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP23-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP23-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP23-S02-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP23-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP23-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP23-S03-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP23-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP23-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP23-S04-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP23-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP23-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP23-S05-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP24-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP24-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP24-S01-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP24-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP24-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP24-S02-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP24-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP24-S03-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP24-S03-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP24-S03-PNL04": {
+      "text_role": "SPEECH_REACTION",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP24-S03-PNL05": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP24-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP24-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP24-S04-PNL03": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP24-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP24-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP24-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP24-S05-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP25-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP25-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP25-S01-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP25-S01-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP25-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP25-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP25-S02-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP25-S02-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP25-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP25-S03-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP25-S03-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP25-S03-PNL04": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP25-S03-PNL05": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP25-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP25-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP25-S04-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP25-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP25-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP25-S05-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP25-S05-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP26-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP26-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP26-S01-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP26-S01-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP26-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP26-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP26-S02-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP26-S02-PNL04": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP26-S03-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP26-S03-PNL02": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP26-S03-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP26-S03-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP26-S03-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP26-S03-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP26-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP26-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP26-S04-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP26-S04-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP26-S05-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP26-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP26-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP26-S05-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP26-S05-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP26-S05-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP27-S01-PNL03": {
+      "text_role": "SILENT_ACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S01-PNL04": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP27-S01-PNL05": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S02-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP27-S02-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP27-S02-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP27-S02-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP27-S02-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP27-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP27-S03-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP27-S03-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S04-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP27-S04-PNL03": {
+      "text_role": "SILENT_ACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S04-PNL04": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP27-S04-PNL05": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S04-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S05-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP27-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP27-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP27-S05-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP27-S05-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP27-S05-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP28-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP28-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP28-S01-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP28-S01-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP28-S01-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP28-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP28-S02-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP28-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP28-S02-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP28-S02-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP28-S02-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP28-S02-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP28-S03-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP28-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP28-S03-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP28-S03-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP28-S03-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP28-S03-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP28-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP28-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP28-S04-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP28-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP28-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP28-S05-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP28-S05-PNL04": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP29-S01-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP29-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP29-S01-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP29-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP29-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP29-S02-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP29-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP29-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP29-S03-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP29-S04-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP29-S04-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "medium"
+    },
+    "EP29-S04-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP29-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP29-S05-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP29-S05-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP30-S01-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP30-S01-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP30-S01-PNL03": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP30-S01-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP30-S01-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP30-S01-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP30-S02-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-under",
+      "width": "wide"
+    },
+    "EP30-S02-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP30-S02-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP30-S03-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-overlay",
+      "width": "wide"
+    },
+    "EP30-S03-PNL02": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP30-S03-PNL03": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP30-S04-PNL01": {
+      "text_role": "NARRATION_CAPTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP30-S04-PNL02": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP30-S04-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "right-under",
+      "width": "medium"
+    },
+    "EP30-S04-PNL04": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP30-S04-PNL05": {
+      "text_role": "SPEECH",
+      "dialogue_align": "right-overlay",
+      "width": "wide"
+    },
+    "EP30-S04-PNL06": {
+      "text_role": "SILENT_REACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    },
+    "EP30-S05-PNL01": {
+      "text_role": "SPEECH",
+      "dialogue_align": "left-under",
+      "width": "wide"
+    },
+    "EP30-S05-PNL02": {
+      "text_role": "SILENT_BEAT",
+      "dialogue_align": "none",
+      "width": "medium"
+    },
+    "EP30-S05-PNL03": {
+      "text_role": "SPEECH_ACTION",
+      "dialogue_align": "left-overlay",
+      "width": "medium"
+    },
+    "EP30-S05-PNL04": {
+      "text_role": "SPEECH_REACTION",
+      "dialogue_align": "right-overlay",
+      "width": "medium"
+    },
+    "EP30-S05-PNL05": {
+      "text_role": "CLIFFHANGER_ACTION",
+      "dialogue_align": "none",
+      "width": "wide"
+    }
+  },
+  "source_modifications": {
+    "V2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "Runtime": 0,
+    "P7B_narrative_authority": 0,
+    "P8_visual_authority": 0,
+    "P8R1_visual_authority": 0,
+    "P8R2_gold_standard": 0
+  },
+  "P6_status": "PAUSED_BY_USER"
+}

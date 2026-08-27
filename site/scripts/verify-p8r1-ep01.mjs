@@ -53,10 +53,10 @@ for (const panel of ep01Panels) {
   assert(JSON.stringify(panel.dialogue) === JSON.stringify(source.dialogue), `Exact-source dialogue changed: ${panel.panel_id}`);
   assert(panel.presentation, `Missing EP01 comic presentation: ${panel.panel_id}`);
 }
-assert(generated.panels.filter((panel) => panel.episode !== 'EP01').every((panel) => !panel.presentation), 'P8R1 presentation escaped EP01');
+assert(generated.panels.filter((panel) => panel.episode !== 'EP01').every((panel) => panel.presentation), 'Authorized P8R3 successor presentation coverage missing');
 const ep01 = generatedEpisodes.find((episode) => episode.episode === 'EP01');
 assert(['ep01-r1','ep01-r2'].includes(ep01?.repair_variant) && ep01.scenes.every((scene) => scene.composition), 'EP01 route repair/successor join mismatch');
-assert(generatedEpisodes.filter((episode) => episode.episode !== 'EP01').every((episode) => !episode.repair_variant), 'P8R1 episode repair escaped EP01');
+assert(generatedEpisodes.filter((episode) => episode.episode !== 'EP01').every((episode) => episode.repair_variant === 'series-r3' && episode.comic_grammar === 'P8R3'), 'Authorized P8R3 successor join missing');
 
 if (distMode) {
   const pagePath = path.join(siteRoot, 'dist/episodes/01/graphic/index.html');
@@ -67,7 +67,7 @@ if (distMode) {
   assert(html.includes('门锁好。别替我告别。'), 'Built EP01 comic cliffhanger missing');
   for (const visual of visuals.panels) await access(path.join(siteRoot, 'dist', visual.public_path));
   const ep02 = await readFile(path.join(siteRoot, 'dist/episodes/02/graphic/index.html'), 'utf8');
-  assert(!ep02.includes('data-comic-repair="P8R1"') && !ep02.includes('data-comic-repair="P8R2"'), 'Built EP01 repair marker escaped to EP02');
+  assert(!ep02.includes('data-comic-repair="P8R1"') && !ep02.includes('data-comic-repair="P8R2"') && ep02.includes('data-comic-grammar="P8R3"'), 'Built successor marker mismatch in EP02');
 }
 
 console.log(JSON.stringify({

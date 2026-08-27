@@ -48,8 +48,12 @@ for (const panel of ep01Panels) {
 }
 assert(JSON.stringify(p8r1Grammar.scene_compositions) === JSON.stringify(Object.fromEntries(generatedEpisodes[0].scenes.map((scene) => [scene.scene_id, scene.composition]))), 'P8R2 changed five scene compositions');
 assert(generatedEpisodes[0].repair_variant === 'ep01-r2' && generatedEpisodes[0].repair_status === grammar.status, 'P8R2 EP01 route join mismatch');
-assert(generatedEpisodes.slice(1).every((episode) => !episode.repair_variant), 'P8R2 repair variant escaped EP01');
-const ep02Hash = sha(Buffer.from(JSON.stringify(generatedEpisodes[1])));
+assert(generatedEpisodes.slice(1).every((episode) => episode.repair_variant === 'series-r3' && episode.comic_grammar === 'P8R3'), 'Authorized P8R3 successor join missing');
+const stripP8R3Presentation = (episode) => {
+  const { repair_variant, repair_status, comic_grammar, ...rest } = episode;
+  return { ...rest, scenes:rest.scenes.map(({ composition, panels, ...scene }) => ({ ...scene, panels:panels.map(({ presentation, ...panel }) => panel) })) };
+};
+const ep02Hash = sha(Buffer.from(JSON.stringify(stripP8R3Presentation(generatedEpisodes[1]))));
 assert(ep02Hash === grammar.ep02_baseline.graphic_episode_canonical_json_sha256, 'EP02 generated authority changed');
 
 if (distMode) {
@@ -60,7 +64,7 @@ if (distMode) {
   assert(ep01.includes('data-preview-art="real"'), 'Built EP01 lacks real-art preview coverage');
   assert(ep01.includes('crop-reaction-right'), 'Built EP01 lacks Scene 4 reaction crop');
   assert(ep01.includes('集数资料') && ep01.includes('EP01 · 最后一格'), 'Built EP01 story-first onboarding/cliffhanger missing');
-  assert(!ep02.includes('data-comic-repair="P8R2"') && !ep02.includes('ep01-r2'), 'P8R2 presentation escaped EP01');
+  assert(!ep02.includes('data-comic-repair="P8R2"') && ep02.includes('data-comic-grammar="P8R3"'), 'P8R2/P8R3 successor marker mismatch');
 }
 
 console.log(JSON.stringify({

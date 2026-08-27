@@ -1,0 +1,33 @@
+{
+  "artifact_class": "ODYSSEY_P8R3_ARTIFACT_MANIFEST",
+  "schema_version": "1.0.0",
+  "status": "P8R3_ARTIFACTS_FROZEN",
+  "artifact_count": 5,
+  "artifacts": [
+    {
+      "path": "comic-rendering/odyssey_m1_p8r3/P8R3_FINAL_RESULT.md",
+      "bytes": 1883,
+      "sha256": "b517211fd2728423f21b048b3c3368e032337d1625bd074bc0e5633f81407716"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r3/P8R3_INDEPENDENT_VERIFICATION.md",
+      "bytes": 2733,
+      "sha256": "5c567148bee2e7bb1d4282cd16a62f759e056ea2be0f9ec3be8f2f43ab18cb5d"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r3/P8R3_PROPAGATION_REPORT.md",
+      "bytes": 1347,
+      "sha256": "9a8ccfbd51f83050bf80452bbc592d41688b93958449b36f36e0f394aa91170a"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r3/P8R3_SERIES_COMIC_GRAMMAR.json",
+      "bytes": 96273,
+      "sha256": "025ebeb51b82cd5f5f1b15c8558b9bbc1e930c444351a1fa1aa9da049c61c701"
+    },
+    {
+      "path": "comic-rendering/odyssey_m1_p8r3/tools/build_p8r3.mjs",
+      "bytes": 10682,
+      "sha256": "2f7558af5d7367e671da2689b26e1a0a9e6c374eec9dc234b3374ad3f5634034"
+    }
+  ]
+}

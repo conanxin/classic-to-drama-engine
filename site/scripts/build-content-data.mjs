@@ -34,6 +34,7 @@ const p8VisualManifest = await readJson('comic-rendering/odyssey_m1_p8/P8_WEB_VI
 const p8r1Grammar = await readJson('comic-rendering/odyssey_m1_p8r1/P8R1_EP01_COMIC_GRAMMAR.json');
 const p8r1VisualManifest = await readJson('comic-rendering/odyssey_m1_p8r1/P8R1_EP01_VISUAL_OVERRIDE_MANIFEST.json');
 const p8r2Grammar = await readJson('comic-rendering/odyssey_m1_p8r2/P8R2_EP01_FINAL_GRAMMAR.json');
+const p8r3Grammar = await readJson('comic-rendering/odyssey_m1_p8r3/P8R3_SERIES_COMIC_GRAMMAR.json');
 
 const assetBySource = new Map();
 for (const asset of assetManifest.assets) if (!assetBySource.has(asset.source_path) || !asset.transform) assetBySource.set(asset.source_path, asset);
@@ -178,14 +179,15 @@ const p8VisualById = new Map(p8VisualManifest.panels.map((visual) => [visual.pan
 const p8r1VisualById = new Map(p8r1VisualManifest.panels.map((visual) => [visual.panel_id, visual]));
 const p8r1PresentationById = new Map(Object.entries(p8r1Grammar.panel_presentations));
 const p8r2PresentationById = new Map(Object.entries(p8r2Grammar.panel_presentation_overrides));
+const p8r3PresentationById = new Map(Object.entries(p8r3Grammar.panel_presentations));
 const finalPanelManifest = {
   ...p7bPanelManifest,
-  status:'PASS_ODYSSEY_P8_HIGH_FIDELITY_VISUAL_MAPPING_WITH_EP01_P8R2_PRESENTATION',
-  counts:{ ...p7bPanelManifest.counts, p8_final_visual_slots:643, p8r1_ep01_visual_overrides:7, p8r2_ep01_presentation_overrides:1, raw_technical_reader_slots:0 },
+  status:'PASS_ODYSSEY_P8_HIGH_FIDELITY_VISUAL_MAPPING_WITH_P8R3_SERIES_PRESENTATION',
+  counts:{ ...p7bPanelManifest.counts, p8_final_visual_slots:643, p8r1_ep01_visual_overrides:7, p8r2_ep01_presentation_overrides:1, p8r3_series_presentations:643, raw_technical_reader_slots:0 },
   panels:p7bPanelManifest.panels.map((panel) => {
     const visual = p8r1VisualById.get(panel.panel_id) || p8VisualById.get(panel.panel_id);
     if (!visual) throw new Error(`Missing P8 visual mapping: ${panel.panel_id}`);
-    const presentation = p8r2PresentationById.get(panel.panel_id) || p8r1PresentationById.get(panel.panel_id);
+    const presentation = p8r3PresentationById.get(panel.panel_id) || p8r2PresentationById.get(panel.panel_id) || p8r1PresentationById.get(panel.panel_id);
     return {
       ...panel,
       ...(visual.visible_action ? { visible_action:visual.visible_action } : {}),
@@ -199,11 +201,13 @@ const finalPanelsById = new Map(finalPanelManifest.panels.map((panel) => [panel.
 const p8CoverByEpisode = new Map(p8VisualManifest.episodes.map((cover) => [cover.episode, cover]));
 const graphicEpisodes = p7bEpisodeManifest.episodes.map((graphicEpisode) => ({
   ...graphicEpisode,
-  ...(graphicEpisode.episode === 'EP01' ? { repair_variant:'ep01-r2', repair_status:p8r2Grammar.status } : {}),
+  repair_variant:graphicEpisode.episode === 'EP01' ? 'ep01-r2' : 'series-r3',
+  repair_status:graphicEpisode.episode === 'EP01' ? p8r2Grammar.status : 'PASS_P8R3_SERIES_COMIC_GRAMMAR_PROPAGATION',
+  comic_grammar:'P8R3',
   cover_visual:{ path:p8CoverByEpisode.get(graphicEpisode.episode).public_path, alt:p8CoverByEpisode.get(graphicEpisode.episode).alt, authority:p8CoverByEpisode.get(graphicEpisode.episode).authority },
   scenes: graphicEpisode.scenes.map((scene) => ({
     ...scene,
-    ...(graphicEpisode.episode === 'EP01' ? { composition:p8r1Grammar.scene_compositions[scene.scene_id] } : {}),
+    composition:p8r3Grammar.scene_compositions[scene.scene_id],
     panels: scene.panel_ids.map((panelId) => finalPanelsById.get(panelId))
   }))
 }));
