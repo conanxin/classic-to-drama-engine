@@ -1,15 +1,21 @@
 {
   "schema_version": "P10B_ARTIFACT_MANIFEST_V1",
-  "status": "P10B_ARTIFACTS_GENERATED_PENDING_CLOSEOUT",
-  "generated_at": "2026-08-28T00:00:00+08:00",
+  "status": "PASS_ODYSSEY_P10B_PUBLIC_RELEASE_AND_DISTRIBUTION_PACKAGE_COMPLETE",
+  "finalized_at": "2026-08-28T00:00:00+08:00",
   "edition_id": "ODYSSEY-DGNE-1.0.0",
+  "release_tag": "odyssey-p9-publication-v1.0.0",
+  "implementation_commit": "cdc87228e2c3dbc655203878137bbf4c4890126a",
+  "workflow_run": 33129982947,
+  "scope_note": "Hashes all final P10B distribution artifacts except this manifest, P10_FINAL_RESULT.md, and reproducible tools; exclusions avoid circular identity dependencies.",
   "p9_binary_modifications": 0,
+  "p6_actions": 0,
   "counts": {
-    "tracked_distribution_artifacts": 73,
+    "manifested_artifacts": 72,
     "release_assets_referenced": 21,
     "cover_sets": 5,
     "promotional_assets": 3,
-    "reader_samples": 1
+    "reader_samples": 1,
+    "platform_packages": 5
   },
   "artifacts": [
     {
@@ -21,136 +27,6 @@
       "path": "distribution/odyssey_m1_p10b/CITATION.cff",
       "bytes": 595,
       "sha256": "4a6a1b80c7a81587030e2a062ea1f2c1f5a414dfb091259eab340a1f452721ba"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_ARCHIVAL_MANIFEST.json",
-      "bytes": 18647,
-      "sha256": "6ae4cdca316e2b0f1650b89c7d8b9425c30e8695cdb03453c7c3533dc522905e"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_DISTRIBUTION_MATRIX.json",
-      "bytes": 2579,
-      "sha256": "8396acbaa50a3db18232a449370979c4e280634a85a084375809eb55225c2fc5"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_DISTRIBUTION_MATRIX.md",
-      "bytes": 1282,
-      "sha256": "fcb81de611b0af7f1dd82b2dd7749f910c8e0867a563a7fec23f09e8bb05dba2"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_EDITION_FREEZE.json",
-      "bytes": 1222,
-      "sha256": "4966cf00087af13040a764bc8fbdc8e5815ff206e02177a8fe2a96525fc7baa6"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_EDITION_FREEZE.md",
-      "bytes": 977,
-      "sha256": "a604c1588c2dccccb38542131fec3080d67453d44db401a0457b59868cb16463"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_FINAL_RESULT.md",
-      "bytes": 184,
-      "sha256": "3fd4105619daa3cca4c03e9f454b07c916cdc13a325995591299c046ff69d661"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_INDEPENDENT_VERIFICATION.md",
-      "bytes": 277,
-      "sha256": "46ad1f91acbe270201b2f79013c5657279f2cd2769955716f2a067298b1896be"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_KINDLE_COMPATIBILITY_REPORT.md",
-      "bytes": 1376,
-      "sha256": "8c43fdd61ad939181757ebc028fcda7a853df17fe98b5ccc38b946bb23253cd0"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_MANUAL_SUBMISSION_CHECKLIST.md",
-      "bytes": 873,
-      "sha256": "a8074ebbddb697a3f82eafdfe8a336f954b0bd21f0b7ad91a97c26379ed3f833"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_METADATA_MASTER.json",
-      "bytes": 29998,
-      "sha256": "1a63e4723be045bb4e1461e0a63d4b3807c6bffc770cd142ec50f9873ad6b1b4"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_PLATFORM_PACKAGE_QA.md",
-      "bytes": 848,
-      "sha256": "0467926e5ef1ce47f7a4604acd2954c8ad40c90bd3b33ca5139b2c5526a52fdc"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_PLATFORM_REQUIREMENTS_SNAPSHOT.json",
-      "bytes": 5937,
-      "sha256": "6b4943727e876b66f515344589420d5e1af6a544e9093427648930d8fd592232"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_PLATFORM_REQUIREMENTS_SNAPSHOT.md",
-      "bytes": 4845,
-      "sha256": "0febbdab762bb8e9bc4759908657bd90c1a5d74c09fcf17112e6c6ec3867c33a"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_PRESS_KIT.json",
-      "bytes": 10165,
-      "sha256": "29949187b4022b44e3ec829518d98f258455e9f209fc5c8b0b05c4a13d7c3100"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_PRESS_KIT.md",
-      "bytes": 2101,
-      "sha256": "290adeba87e95fb987b633fbcf82760c1f927d7a0242c70fd22898d60d16b7b6"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_PRICING_SCENARIOS.md",
-      "bytes": 717,
-      "sha256": "7361fc3a6d854348de631732b8b7959aa725e1d633370d0a213c91e7b9079c6b"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_READER_RELEASE_DATA.json",
-      "bytes": 45579,
-      "sha256": "36738b12d2f269d1bb94937083f46f82b37cf335db55c0e831604fd394261057"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_RELEASE_ASSET_VERIFICATION.json",
-      "bytes": 7446,
-      "sha256": "fbd1d9021151445a12770c7fcbc07b32574b1edb1e0d76d2cb658b058f981d0c"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_RELEASE_BIBLE.md",
-      "bytes": 1145,
-      "sha256": "f055adf51636542fce5849e06ed462459272a32a9717a81805cfe94501013a4a"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_RELEASE_NOTES.md",
-      "bytes": 578,
-      "sha256": "36a1c4ae45566a470761c037c1df9f74a83573068929901487bcbaeb1d50d45b"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_RIGHTS_AND_SOURCE_NOTE.md",
-      "bytes": 1378,
-      "sha256": "278f64ccafc92c88ed2f221962d8027ba4405b3a73536b1f09e03a3ce36d594d"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_STORE_COPY_MASTER.json",
-      "bytes": 8630,
-      "sha256": "01c147dbcb0105b2a2727b6705daa15886e745f6cd162c7c8b91bf775bdea037"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_STORE_COPY_MASTER.md",
-      "bytes": 6055,
-      "sha256": "39c3012ac62fb4b6a04ce44fc8a5966cceac6d2f5aa630dbf6f498df8d2a4ab6"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/P10_WEB_RELEASE_QA_REPORT.md",
-      "bytes": 292,
-      "sha256": "9da74b09c9a5f924de7f3daacf9add82999f7905011752aeca93faae495c42b8"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/SHA256SUMS.json",
-      "bytes": 7138,
-      "sha256": "fca890fcd830d63ba6587dc7dfe8b099724424d60a130c4d8dab1cb2a17f1fd2"
-    },
-    {
-      "path": "distribution/odyssey_m1_p10b/SHA256SUMS.txt",
-      "bytes": 2076,
-      "sha256": "d96f863ac13c08f48702fdef114394df1dc110067e793fe077b907fb76e3c54c"
     },
     {
       "path": "distribution/odyssey_m1_p10b/media/media-manifest.json",
@@ -278,9 +154,119 @@
       "sha256": "3e8951589f6f3d19abe704d897495c67187fdadf318f18e7e99014f04774ab78"
     },
     {
-      "path": "distribution/odyssey_m1_p10b/packages/apple-books/SUBMISSION_CHECKLIST.md",
-      "bytes": 804,
-      "sha256": "925aa41d75e286eb680d4128400c3fe2415e54755179dd595496f6d4e17b9dcf"
+      "path": "distribution/odyssey_m1_p10b/P10_ARCHIVAL_MANIFEST.json",
+      "bytes": 18647,
+      "sha256": "6ae4cdca316e2b0f1650b89c7d8b9425c30e8695cdb03453c7c3533dc522905e"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_DISTRIBUTION_MATRIX.json",
+      "bytes": 2579,
+      "sha256": "8396acbaa50a3db18232a449370979c4e280634a85a084375809eb55225c2fc5"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_DISTRIBUTION_MATRIX.md",
+      "bytes": 1282,
+      "sha256": "fcb81de611b0af7f1dd82b2dd7749f910c8e0867a563a7fec23f09e8bb05dba2"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_EDITION_FREEZE.json",
+      "bytes": 1222,
+      "sha256": "4966cf00087af13040a764bc8fbdc8e5815ff206e02177a8fe2a96525fc7baa6"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_EDITION_FREEZE.md",
+      "bytes": 977,
+      "sha256": "a604c1588c2dccccb38542131fec3080d67453d44db401a0457b59868cb16463"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_INDEPENDENT_VERIFICATION.md",
+      "bytes": 1128,
+      "sha256": "9c456741a088bc5104558620346a610eabd3ee215ca2cf1bfb2432094bc00c75"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_KINDLE_COMPATIBILITY_REPORT.md",
+      "bytes": 1376,
+      "sha256": "8c43fdd61ad939181757ebc028fcda7a853df17fe98b5ccc38b946bb23253cd0"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_MANUAL_SUBMISSION_CHECKLIST.md",
+      "bytes": 873,
+      "sha256": "a8074ebbddb697a3f82eafdfe8a336f954b0bd21f0b7ad91a97c26379ed3f833"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_METADATA_MASTER.json",
+      "bytes": 29998,
+      "sha256": "1a63e4723be045bb4e1461e0a63d4b3807c6bffc770cd142ec50f9873ad6b1b4"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_PLATFORM_PACKAGE_QA.md",
+      "bytes": 848,
+      "sha256": "0467926e5ef1ce47f7a4604acd2954c8ad40c90bd3b33ca5139b2c5526a52fdc"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_PLATFORM_REQUIREMENTS_SNAPSHOT.json",
+      "bytes": 5937,
+      "sha256": "6b4943727e876b66f515344589420d5e1af6a544e9093427648930d8fd592232"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_PLATFORM_REQUIREMENTS_SNAPSHOT.md",
+      "bytes": 4845,
+      "sha256": "0febbdab762bb8e9bc4759908657bd90c1a5d74c09fcf17112e6c6ec3867c33a"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_PRESS_KIT.json",
+      "bytes": 10165,
+      "sha256": "29949187b4022b44e3ec829518d98f258455e9f209fc5c8b0b05c4a13d7c3100"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_PRESS_KIT.md",
+      "bytes": 2101,
+      "sha256": "290adeba87e95fb987b633fbcf82760c1f927d7a0242c70fd22898d60d16b7b6"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_PRICING_SCENARIOS.md",
+      "bytes": 717,
+      "sha256": "7361fc3a6d854348de631732b8b7959aa725e1d633370d0a213c91e7b9079c6b"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_READER_RELEASE_DATA.json",
+      "bytes": 45579,
+      "sha256": "36738b12d2f269d1bb94937083f46f82b37cf335db55c0e831604fd394261057"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_RELEASE_ASSET_VERIFICATION.json",
+      "bytes": 7446,
+      "sha256": "fbd1d9021151445a12770c7fcbc07b32574b1edb1e0d76d2cb658b058f981d0c"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_RELEASE_BIBLE.md",
+      "bytes": 1145,
+      "sha256": "f055adf51636542fce5849e06ed462459272a32a9717a81805cfe94501013a4a"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_RELEASE_NOTES.md",
+      "bytes": 578,
+      "sha256": "36a1c4ae45566a470761c037c1df9f74a83573068929901487bcbaeb1d50d45b"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_RIGHTS_AND_SOURCE_NOTE.md",
+      "bytes": 1378,
+      "sha256": "278f64ccafc92c88ed2f221962d8027ba4405b3a73536b1f09e03a3ce36d594d"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_STORE_COPY_MASTER.json",
+      "bytes": 8630,
+      "sha256": "01c147dbcb0105b2a2727b6705daa15886e745f6cd162c7c8b91bf775bdea037"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_STORE_COPY_MASTER.md",
+      "bytes": 6055,
+      "sha256": "39c3012ac62fb4b6a04ce44fc8a5966cceac6d2f5aa630dbf6f498df8d2a4ab6"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/P10_WEB_RELEASE_QA_REPORT.md",
+      "bytes": 1448,
+      "sha256": "f378777860183785757944987b7b6d1e06fc5f46dba491a064cb1a998e653ed8"
     },
     {
       "path": "distribution/odyssey_m1_p10b/packages/apple-books/metadata-readable.md",
@@ -298,9 +284,9 @@
       "sha256": "8202cf894560d2228e3a69ebfa8fc6245c2776ed623839dcba94eb5dd1eb4163"
     },
     {
-      "path": "distribution/odyssey_m1_p10b/packages/google-play-books/SUBMISSION_CHECKLIST.md",
-      "bytes": 793,
-      "sha256": "0517ddec002e84243cb7ee7c8dd7ad6bb9f84f30ce11ba41507f06ba61ffaeba"
+      "path": "distribution/odyssey_m1_p10b/packages/apple-books/SUBMISSION_CHECKLIST.md",
+      "bytes": 804,
+      "sha256": "925aa41d75e286eb680d4128400c3fe2415e54755179dd595496f6d4e17b9dcf"
     },
     {
       "path": "distribution/odyssey_m1_p10b/packages/google-play-books/metadata-readable.md",
@@ -318,9 +304,9 @@
       "sha256": "874ecd8419708bb8b1bace91eed176b1dd4867a27888ec1a110e7a54de10a12d"
     },
     {
-      "path": "distribution/odyssey_m1_p10b/packages/kindle-kdp/SUBMISSION_CHECKLIST.md",
-      "bytes": 861,
-      "sha256": "f991adfdd77e381376821d3a0e1c5c46926302931d5bb70fc7d52958164bf68a"
+      "path": "distribution/odyssey_m1_p10b/packages/google-play-books/SUBMISSION_CHECKLIST.md",
+      "bytes": 793,
+      "sha256": "0517ddec002e84243cb7ee7c8dd7ad6bb9f84f30ce11ba41507f06ba61ffaeba"
     },
     {
       "path": "distribution/odyssey_m1_p10b/packages/kindle-kdp/metadata-readable.md",
@@ -338,9 +324,9 @@
       "sha256": "10583edf391191cd859bdc71486ebe62b7d4b559d985b2e6142086799cb862fc"
     },
     {
-      "path": "distribution/odyssey_m1_p10b/packages/kobo-writing-life/SUBMISSION_CHECKLIST.md",
-      "bytes": 844,
-      "sha256": "e8a08c167016fbeaf328b8ac64d78a709baf15980ea2dc99989a0d6b8859a93d"
+      "path": "distribution/odyssey_m1_p10b/packages/kindle-kdp/SUBMISSION_CHECKLIST.md",
+      "bytes": 861,
+      "sha256": "f991adfdd77e381376821d3a0e1c5c46926302931d5bb70fc7d52958164bf68a"
     },
     {
       "path": "distribution/odyssey_m1_p10b/packages/kobo-writing-life/metadata-readable.md",
@@ -358,9 +344,9 @@
       "sha256": "ff5743e2a729f48a32e1a307a5e979488d03ead88a522efacae07cb62af05dee"
     },
     {
-      "path": "distribution/odyssey_m1_p10b/packages/self-hosted/SUBMISSION_CHECKLIST.md",
-      "bytes": 777,
-      "sha256": "f98c8343c74d061b041db0ad4c2d1571e98e08053a0b5261afbe13f12d605c65"
+      "path": "distribution/odyssey_m1_p10b/packages/kobo-writing-life/SUBMISSION_CHECKLIST.md",
+      "bytes": 844,
+      "sha256": "e8a08c167016fbeaf328b8ac64d78a709baf15980ea2dc99989a0d6b8859a93d"
     },
     {
       "path": "distribution/odyssey_m1_p10b/packages/self-hosted/metadata-readable.md",
@@ -376,6 +362,21 @@
       "path": "distribution/odyssey_m1_p10b/packages/self-hosted/package-manifest.json",
       "bytes": 20525,
       "sha256": "cffb7660e042c5d455ba07cb4ecedfca8daf16771ef71c834465f303f14a71f8"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/packages/self-hosted/SUBMISSION_CHECKLIST.md",
+      "bytes": 777,
+      "sha256": "f98c8343c74d061b041db0ad4c2d1571e98e08053a0b5261afbe13f12d605c65"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/SHA256SUMS.json",
+      "bytes": 7138,
+      "sha256": "fca890fcd830d63ba6587dc7dfe8b099724424d60a130c4d8dab1cb2a17f1fd2"
+    },
+    {
+      "path": "distribution/odyssey_m1_p10b/SHA256SUMS.txt",
+      "bytes": 2076,
+      "sha256": "d96f863ac13c08f48702fdef114394df1dc110067e793fe077b907fb76e3c54c"
     }
   ]
 }
