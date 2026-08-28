@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you cite this edition, use the metadata below."
+title: "归途：奥德修斯 — Digital Graphic Novel Edition"
+version: "1.0.0"
+date-released: "2026-08-27"
+type: generic
+authors:
+  - name: "Classic-to-Drama Engine 项目"
+repository-code: "https://github.com/conanxin/classic-to-drama-engine"
+url: "https://github.com/conanxin/classic-to-drama-engine/releases/tag/odyssey-p9-publication-v1.0.0"
+abstract: "A 30-episode Chinese graphic-novel adaptation derived from Homer's Odyssey."
+keywords:
+  - Odyssey
+  - graphic novel
+  - adaptation
+license: "NOASSERTION"

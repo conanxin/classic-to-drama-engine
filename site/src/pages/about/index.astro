@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import release from '../../generated/p10-release.json';
+import { graphicEpisodePath, withBase } from '../../lib/urls';
+---
+<BaseLayout title="关于作品｜《归途：奥德修斯》" description="关于《归途：奥德修斯》的故事、改编方向、五卷结构与阅读版本。" image={withBase(release.volumes[3].cover.public_files.social_og)}>
+  <article class="about-page">
+    <header class="about-hero"><p class="eyebrow">ABOUT THE WORK</p><h1>回家不是抵达。<br />是重新被认出。</h1><p>{release.series.descriptions.medium}</p><nav><a href={graphicEpisodePath(1)}>开始阅读</a><a href={withBase('publication/')}>下载出版版</a></nav></header>
+    <section class="about-grid">
+      <article><span>01</span><h2>作品是什么</h2><p>一部三十集中文图像小说式短剧改编。它保留专业 Script Mode，同时提供普通读者可以连续阅读的 Graphic Mode，并装订为五卷 PDF、EPUB 3 与 CBZ。</p></article>
+      <article><span>02</span><h2>为什么再讲《奥德赛》</h2><p>因为归乡最困难的部分不是海，而是身份。一个离开二十年的人，必须重新成为丈夫、父亲、国王，也必须接受家有权验证他。</p></article>
+      <article><span>03</span><h2>谁完成选择</h2><p>神明真实存在并改变条件，却不替人承担决定。奥德修斯学习控制身份；佩涅洛佩是最终验证者；忒勒马科斯从无法行动成长为能够判断并守住秘密的人。</p></article>
+      <article><span>04</span><h2>怎样阅读</h2><p>在线 Graphic Mode 是默认读者路径；Script Mode 保留完整 V2 剧本；PDF 固定版式适合平板与存档；EPUB 适合电子书阅读器；CBZ 适合漫画阅读器。</p></article>
+    </section>
+    <section class="edition-note"><div><p class="eyebrow">EDITION 1.0.0</p><h2>三十集，五卷。</h2></div><ol>{release.volumes.map((v)=><li><span>{String(v.volume_number).padStart(2,'0')}</span><strong>{v.volume_title}</strong><small>EP{String(v.chapter_range[0]).padStart(2,'0')}–EP{String(v.chapter_range[1]).padStart(2,'0')}</small></li>)}</ol></section>
+    <section class="credit"><p>创作 / 改编：<strong>{release.series.creator_credit}</strong></p><p>{release.series.source_credit}</p><p>版本：Digital Graphic Novel Edition 1.0.0</p><p><a href={withBase('project/')}>进入项目与制作档案 →</a></p></section>
+  </article>
+</BaseLayout>
+<style>
+  .about-page{max-width:88rem;margin:auto}.about-hero{padding:clamp(6rem,12vw,12rem) var(--pad);border-bottom:1px solid var(--rule)}.about-hero h1{max-width:13ch;margin:.7rem 0 2rem}.about-hero>p:not(.eyebrow){max-width:46rem;font:1.25rem/1.9 var(--serif);color:var(--paper-2)}.about-hero nav{display:flex;gap:1rem;margin-top:2rem}.about-hero nav a{padding:.7rem 1rem;border:1px solid var(--rule);text-decoration:none;font-size:.7rem}.about-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--rule)}.about-grid article{background:var(--ink);padding:clamp(2rem,5vw,5rem)}.about-grid span{font-size:.58rem;color:var(--rust)}.about-grid h2{margin:2rem 0 1rem}.about-grid p{font-family:var(--serif);color:var(--muted);max-width:34rem}.edition-note{display:grid;grid-template-columns:1fr 1fr;gap:4rem;padding:clamp(5rem,9vw,9rem) var(--pad);border-top:1px solid var(--rule)}.edition-note ol{list-style:none;padding:0;margin:0}.edition-note li{display:grid;grid-template-columns:3rem 1fr auto;gap:1rem;border-top:1px solid var(--rule);padding:1rem 0}.edition-note span,.edition-note small{font-size:.58rem;color:var(--muted)}.edition-note strong{font:1rem var(--serif)}.credit{padding:3rem var(--pad);border-top:1px solid var(--rule);display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;font-size:.72rem;color:var(--muted)}.credit p{margin:0}@media(max-width:700px){.about-grid,.edition-note{grid-template-columns:1fr}.about-hero,.edition-note{padding-inline:1rem}.about-hero nav{flex-direction:column}.about-hero nav a{text-align:center}}
+</style>

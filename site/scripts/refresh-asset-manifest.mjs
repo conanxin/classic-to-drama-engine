@@ -97,6 +97,20 @@ for (let number = 1; number <= 5; number += 1) {
   );
 }
 
+const p10Media = await readJson('distribution/odyssey_m1_p10b/media/media-manifest.json');
+if (p10Media.status !== 'PASS_P10B_DETERMINISTIC_MEDIA') throw new Error('P10B media authority incomplete');
+for (const cover of p10Media.covers) {
+  for (const file of cover.files) {
+    await add(file.path, `media/publication/p10/${path.basename(file.path)}`, 'image', `P10B deterministic ${cover.volume} ${file.purpose}`);
+  }
+}
+for (const file of p10Media.promotional) {
+  await add(file.path, `media/publication/p10/${path.basename(file.path)}`, 'image', `P10B deterministic ${file.purpose}`);
+}
+await add(p10Media.sample.path, `media/publication/p10/${path.basename(p10Media.sample.path)}`, 'document', 'P10B exact P9 Volume I reader sample');
+await add('distribution/odyssey_m1_p10b/SHA256SUMS.txt', 'media/publication/p10/SHA256SUMS.txt', 'data', 'P10B release checksum list');
+await add('distribution/odyssey_m1_p10b/SHA256SUMS.json', 'media/publication/p10/SHA256SUMS.json', 'data', 'P10B machine-readable release checksum list');
+
 entries.sort((a, b) => a.published_path.localeCompare(b.published_path));
 const duplicatePublished = entries.filter((x, i) => entries.findIndex((y) => y.published_path === x.published_path) !== i);
 if (duplicatePublished.length) throw new Error(`Duplicate published asset paths: ${duplicatePublished.map((x) => x.published_path).join(', ')}`);
@@ -105,7 +119,7 @@ const payload = {
   artifact_class: 'CTDE_WEB_ASSET_PUBLICATION_MANIFEST',
   schema_version: '1.0.0',
   baseline_commit: '478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5',
-  strategy: 'Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives, seven bounded P8R1 EP01 comic-sequence overrides and five validated P9 publication-cover derivatives. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8/P8R1 renders remain unpublished.',
+  strategy: 'Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives, seven bounded P8R1 EP01 comic-sequence overrides, five validated P9 publication covers, and deterministic P10B reader-sample, cover, promotional and checksum assets. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8/P8R1 renders remain unpublished.',
   selected_hero_frame_ids: [...selectedHero].sort(),
   rejected_hero_frame_ids: ['P4-HF-19','P4-HF-29','P4-HF-34','P4-HF-39','P4-HF-43','P4-HF-44'],
   asset_count: entries.length,

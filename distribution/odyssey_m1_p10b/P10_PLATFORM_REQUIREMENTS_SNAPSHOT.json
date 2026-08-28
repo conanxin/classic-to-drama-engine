@@ -1,0 +1,80 @@
+{
+  "schema_version": "P10B_PLATFORM_REQUIREMENTS_SNAPSHOT_V1",
+  "status": "PASS_P10B_OFFICIAL_REQUIREMENTS_SNAPSHOT",
+  "retrieved_at": "2026-08-28T00:00:00+08:00",
+  "authority_policy": "OFFICIAL_PLATFORM_DOCUMENTATION_ONLY",
+  "platforms": {
+    "apple_books": {
+      "platform": "Apple Books",
+      "retrieved_at": "2026-08-28T00:00:00+08:00",
+      "official_urls": [
+        "https://help.apple.com/itc/booksassetguide/en.lproj/static.html",
+        "https://itunespartner.apple.com/books/support/9-prepare-book",
+        "https://itunespartner.apple.com/books/support/12-metadata",
+        "https://itunespartner.apple.com/books/support/18-submit-your-book"
+      ],
+      "accepted_format": "EPUB; EPUB 3.3 supported; fixed layout supported",
+      "cover_requirement": "RGB high-quality JPEG/PNG; at least 1400 px on shorter axis",
+      "metadata_requirement": "title, author, language, Vendor ID and accurate customer-facing metadata; book file, cover and metadata must agree",
+      "identifier_requirement": "Vendor ID required; ISBN optional and should match Vendor ID when supplied",
+      "validation_requirement": "latest EPUBCheck plus Apple Books preview/submission validation",
+      "fixed_layout_support": "EPUB 3 pre-paginated; consistent viewport; landmarks required when Apple-generated sample is used",
+      "file_size_boundary": "ideally below 1 GB; Apple allows up to 2 GB",
+      "account_submission_boundary": "active Free or Paid Books Agreement and iTunes Connect/Publishing Portal action required"
+    },
+    "google_play_books": {
+      "platform": "Google Play Books",
+      "retrieved_at": "2026-08-28T00:00:00+08:00",
+      "official_urls": [
+        "https://support.google.com/books/partner/answer/3316879?hl=en",
+        "https://support.google.com/books/partner/answer/9261664?hl=en",
+        "https://support.google.com/books/partner/answer/3431108?hl=en",
+        "https://support.google.com/books/partner/answer/107073?hl=en"
+      ],
+      "accepted_format": "EPUB and PDF; EPUB 3.3 preferred; fixed-layout EPUB supported",
+      "cover_requirement": "JPEG, PNG, TIFF or PDF accepted in the single-book workflow; content/cover naming follows book identifier",
+      "metadata_requirement": "book settings, genre, contributors, description, territories and price are supplied in Partner Center",
+      "identifier_requirement": "ISBN is not required; Partner Center can issue a GGKEY",
+      "validation_requirement": "EPUBCheck and review as a Content Reviewer in Web Reader and, where possible, Android tablet app",
+      "fixed_layout_support": "supported in EPUB 2/3; original-page PDF can be paired with EPUB",
+      "file_size_boundary": "no universal ebook maximum stated in the cited official snapshot; processing status is authoritative after upload",
+      "account_submission_boundary": "Partner Center account, sales territories, payment profile, tax/bank and publish action remain manual"
+    },
+    "kobo_writing_life": {
+      "platform": "Kobo Writing Life",
+      "retrieved_at": "2026-08-28T00:00:00+08:00",
+      "official_urls": [
+        "https://kobowritinglife.zendesk.com/hc/en-us/articles/360058975732-Setting-up-a-New-eBook",
+        "https://kobowritinglife.zendesk.com/hc/en-us/articles/360059386271-File-Types-Sizes",
+        "https://kobowritinglife.zendesk.com/hc/en-us/articles/360058976112-Validating-and-Testing-Your-eBooks",
+        "https://kobowritinglife.zendesk.com/hc/en-us/articles/360059386031-ISBNs-and-Kobo-Writing-Life"
+      ],
+      "accepted_format": "EPUB accepted; fixed-layout EPUB is supported",
+      "cover_requirement": "portrait JPG/JPEG preferred or PNG; no larger than 5 MB; 300 DPI recommended; 3:4 suggested",
+      "metadata_requirement": "title, subtitle, series, series number, language, synopsis, categories and rights/distribution fields",
+      "identifier_requirement": "ISBN optional for Kobo direct; Kobo issues its own identifier, though partner distribution may require ISBN",
+      "validation_requirement": "error-free EPUB; test at least one eReader/desktop app and one phone/tablet; fixed-layout side-load suffix .fxl.kepub.epub",
+      "fixed_layout_support": "supported, but fixed-layout titles do not receive Kobo Instant Preview",
+      "file_size_boundary": "ebook content file maximum 100 MB",
+      "account_submission_boundary": "KWL account, rights, DRM, territories, pricing and publish action remain manual"
+    },
+    "amazon_kdp": {
+      "platform": "Amazon Kindle Direct Publishing",
+      "retrieved_at": "2026-08-28T00:00:00+08:00",
+      "official_urls": [
+        "https://kdp.amazon.com/en_US/help/topic/G9GSTY4LTRT39D4Z",
+        "https://kdp.amazon.com/en_US/help/topic/G200634390/",
+        "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",
+        "https://kdp.amazon.com/en_US/help/topic/G7DMSKCM9DVS65TC"
+      ],
+      "accepted_format": "EPUB or KPF for fixed-layout ebooks; MOBI is no longer accepted for fixed-layout ebooks",
+      "cover_requirement": "separate marketing cover; 2560 × 1600 px recommended, at least 300 PPI, JPEG preferred, 5 MB or less",
+      "metadata_requirement": "title/series/author on cover must match KDP metadata; categories, territories, pricing and rights are manual fields",
+      "identifier_requirement": "ISBN is not required for Kindle ebooks; Amazon assigns an ASIN",
+      "validation_requirement": "Kindle Previewer/Kindle Create preview; comic fixed-layout metadata and panel behavior must be checked",
+      "fixed_layout_support": "graphic novels use fixed layout with image pop-ups/Panel View or Virtual Panels; book-type comic and original-resolution metadata required",
+      "file_size_boundary": "no single maximum asserted by this snapshot; cover limit above is explicit",
+      "account_submission_boundary": "KDP account, rights declaration, marketplace, price/royalty, preview and publish action remain manual"
+    }
+  }
+}

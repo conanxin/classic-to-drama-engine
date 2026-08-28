@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import release from '../../generated/p10-release.json';
+import { graphicEpisodePath, withBase } from '../../lib/urls';
+const pad = (value:number) => String(value).padStart(2, '0');
+const hero = release.volumes[0].cover.public_files.store_portrait_master;
+---
+<BaseLayout
+  title="开始阅读｜《归途：奥德修斯》"
+  description="从第一集开始在线阅读《归途：奥德修斯》，或按五卷浏览这部三十集中文图像小说。"
+  image={withBase(release.volumes[0].cover.public_files.social_og)}
+>
+  <article class="read-page">
+    <header class="read-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">DIGITAL GRAPHIC NOVEL · 1.0.0</p>
+        <h1>归途：<br />奥德修斯</h1>
+        <p class="promise">一个关于归乡、身份与被重新认出的故事。</p>
+        <p class="scale">30 集 · 5 卷 · 完整在线图文版</p>
+        <nav aria-label="开始阅读">
+          <a class="primary" href={graphicEpisodePath(1)}>从 EP01 开始</a>
+          <a href={withBase('publication/')}>下载出版版</a>
+          <a href={withBase('about/')}>了解作品</a>
+        </nav>
+      </div>
+      <figure class="hero-cover">
+        <img src={withBase(hero)} alt="《归途：奥德修斯》第一卷《没有父亲的家》封面" width="1800" height="2557" fetchpriority="high" />
+        <figcaption>VOLUME I · 没有父亲的家</figcaption>
+      </figure>
+    </header>
+
+    <section class="reader-choices" aria-labelledby="choose-title">
+      <header><p class="eyebrow">CHOOSE YOUR PATH</p><h2 id="choose-title">在线读，或带走一卷。</h2></header>
+      <div class="choice-grid">
+        <a href={graphicEpisodePath(1)}><b>WEB</b><h3>在线图文阅读</h3><p>不需要下载。从第一集起，连续读完三十集。</p><span>立即开始 →</span></a>
+        <a href={withBase(release.sample.public_path)}><b>SAMPLE PDF</b><h3>先读完整 EP01</h3><p>20 页试读本，来自第一卷正式出版页，不含后期剧透。</p><span>下载试读 →</span></a>
+        <a href={withBase('publication/')}><b>PDF · EPUB · CBZ</b><h3>选择你的阅读器</h3><p>平板、电子书阅读器与漫画阅读器，各有合适格式。</p><span>进入下载中心 →</span></a>
+      </div>
+    </section>
+
+    <main class="volume-shelf" aria-label="五卷阅读目录">
+      <header><p class="eyebrow">FIVE VOLUMES</p><h2>一场归来，分成五次逼近。</h2></header>
+      {release.volumes.map((volume) => (
+        <section class="reader-volume" style={`--accent:${volume.cover ? '#a05f55' : '#a05f55'}`}>
+          <figure><img src={withBase(volume.cover.public_files.web)} alt={`第 ${volume.volume_number} 卷《${volume.volume_title}》封面`} loading="lazy" width="900" height="1278" /></figure>
+          <div class="volume-copy">
+            <p class="volume-no">VOLUME {pad(volume.volume_number)} · EP{pad(volume.chapter_range[0])}–EP{pad(volume.chapter_range[1])}</p>
+            <h2>{volume.volume_title}</h2>
+            <p class="subtitle">{volume.volume_subtitle}</p>
+            <p>{volume.description_medium}</p>
+            <ol>
+              {volume.chapters.map((chapter) => <li><a href={graphicEpisodePath(Number(chapter.episode.slice(2)))}><span>{chapter.episode}</span>{chapter.title}</a></li>)}
+            </ol>
+            <a class="volume-start" href={graphicEpisodePath(volume.chapter_range[0])}>开始这一卷 →</a>
+          </div>
+        </section>
+      ))}
+    </main>
+  </article>
+</BaseLayout>
+
+<style>
+  .read-page{--line:rgba(216,207,187,.22)}.read-hero{min-height:calc(100svh - var(--header));display:grid;grid-template-columns:minmax(22rem,1fr) minmax(24rem,.72fr);border-bottom:1px solid var(--line);background:radial-gradient(circle at 76% 48%,#3d352b 0,#171714 42%,#0e0e0c 100%)}
+  .hero-copy{padding:clamp(4rem,8vw,8rem) var(--pad);align-self:center}.hero-copy h1{font-size:clamp(4rem,8vw,8rem);line-height:.9;margin:.7rem 0 1.8rem}.promise{font-family:var(--serif);font-size:clamp(1.25rem,2vw,1.7rem);max-width:28rem}.scale{font-size:.72rem;color:var(--muted);letter-spacing:.1em}.hero-copy nav{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2.2rem}.hero-copy nav a{padding:.75rem 1rem;border:1px solid var(--line);text-decoration:none;font-size:.72rem}.hero-copy nav a.primary{background:var(--paper);color:var(--ink)}
+  .hero-cover{align-self:center;justify-self:center;margin:3rem;width:min(26rem,72%);transform:rotate(1.4deg);filter:drop-shadow(0 2rem 3.5rem #000b)}.hero-cover img{display:block;width:100%}.hero-cover figcaption{text-align:center;font-size:.55rem;letter-spacing:.16em;color:var(--muted);padding-top:.9rem}
+  .reader-choices{max-width:88rem;margin:auto;padding:clamp(5rem,9vw,9rem) var(--pad);border-bottom:1px solid var(--line)}.reader-choices>header{display:grid;grid-template-columns:14rem 1fr;gap:2rem;align-items:end}.reader-choices h2{font-size:clamp(2.5rem,5vw,5rem);margin:0}.choice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:3rem}.choice-grid a{background:var(--ink);padding:1.7rem;text-decoration:none;min-height:18rem;display:flex;flex-direction:column}.choice-grid b{font-size:.58rem;letter-spacing:.14em;color:var(--rust)}.choice-grid h3{margin:3rem 0 .8rem}.choice-grid p{font-family:var(--serif);color:var(--muted);font-size:.88rem}.choice-grid span{margin-top:auto;font-size:.68rem}
+  .volume-shelf{max-width:88rem;margin:auto;padding:clamp(5rem,9vw,9rem) var(--pad)}.volume-shelf>header{max-width:45rem;margin-bottom:4rem}.reader-volume{display:grid;grid-template-columns:minmax(12rem,19rem) 1fr;gap:clamp(2rem,6vw,6rem);padding:4rem 0;border-top:1px solid var(--line);align-items:start}.reader-volume figure{margin:0;box-shadow:0 1.5rem 3rem #0009}.reader-volume figure img{display:block;width:100%}.volume-no{font-size:.58rem;letter-spacing:.14em;color:var(--muted)}.volume-copy h2{font-size:clamp(2.4rem,5vw,4.8rem);margin:.4rem 0}.subtitle{font-family:var(--serif);font-size:1.2rem;color:var(--paper-2)}.volume-copy>p:not(.volume-no,.subtitle){max-width:42rem;color:var(--muted);font-family:var(--serif)}.volume-copy ol{list-style:none;padding:0;margin:2rem 0}.volume-copy li{border-top:1px solid var(--line)}.volume-copy li a{display:flex;gap:1rem;padding:.75rem 0;text-decoration:none;font-family:var(--serif)}.volume-copy li span{font-family:var(--sans);font-size:.58rem;color:var(--muted);width:3.2rem}.volume-start{display:inline-block;text-decoration:none;border-bottom:1px solid var(--rust);font-size:.7rem;padding-bottom:.3rem}
+  @media(max-width:820px){.read-hero{grid-template-columns:1fr}.hero-copy{padding-inline:1rem;padding-bottom:1rem}.hero-cover{width:min(17rem,68vw);margin:2rem auto 4rem}.reader-choices>header{grid-template-columns:1fr}.choice-grid{grid-template-columns:1fr}.choice-grid a{min-height:13rem}.reader-volume{grid-template-columns:1fr}.reader-volume figure{width:min(16rem,70vw);margin:auto}.reader-choices,.volume-shelf{padding-inline:1rem}.hero-copy nav{flex-direction:column}.hero-copy nav a{text-align:center}}
+</style>

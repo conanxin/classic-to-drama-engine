@@ -1,0 +1,70 @@
+{
+  "schema_version": "P10B_DISTRIBUTION_MATRIX_V1",
+  "status": "PASS_P10B_DISTRIBUTION_PACKAGE_MATRIX",
+  "channels": [
+    {
+      "channel": "Official Web Edition",
+      "format": "HTML graphic + script modes",
+      "package_status": "PASS",
+      "validation_status": "LIVE_VERIFIED_PREDECESSOR_PLUS_P10B_QA",
+      "manual_action": "none",
+      "external_account": false,
+      "price_tax": false,
+      "submission_status": "PUBLIC"
+    },
+    {
+      "channel": "GitHub Release",
+      "format": "PDF, EPUB 3, CBZ, print-layout PDF",
+      "package_status": "PASS",
+      "validation_status": "21/21 SHA-256 mapped",
+      "manual_action": "none",
+      "external_account": false,
+      "price_tax": false,
+      "submission_status": "PUBLIC"
+    },
+    {
+      "channel": "Apple Books",
+      "format": "one P9 EPUB per volume",
+      "package_status": "READY_WITH_NOTES",
+      "validation_status": "OFFICIAL_REQUIREMENTS_MAPPED",
+      "manual_action": "Apple Books preview and submission validation required",
+      "external_account": true,
+      "price_tax": true,
+      "submission_status": "NOT_EXECUTED",
+      "package_path": "packages/apple-books/"
+    },
+    {
+      "channel": "Google Play Books",
+      "format": "one P9 EPUB plus digital PDF per volume",
+      "package_status": "READY",
+      "validation_status": "OFFICIAL_REQUIREMENTS_MAPPED",
+      "manual_action": "Partner Center Content Reviewer preview required",
+      "external_account": true,
+      "price_tax": true,
+      "submission_status": "NOT_EXECUTED",
+      "package_path": "packages/google-play-books/"
+    },
+    {
+      "channel": "Kobo Writing Life",
+      "format": "one P9 EPUB per volume",
+      "package_status": "READY_WITH_NOTES",
+      "validation_status": "OFFICIAL_REQUIREMENTS_MAPPED",
+      "manual_action": "fixed-layout test on Kobo desktop/eReader plus phone/tablet; no Instant Preview expected",
+      "external_account": true,
+      "price_tax": true,
+      "submission_status": "NOT_EXECUTED",
+      "package_path": "packages/kobo-writing-life/"
+    },
+    {
+      "channel": "Amazon Kindle / KDP",
+      "format": "P9 EPUB is source input, not a submission-ready claim",
+      "package_status": "READY_WITH_PLATFORM_SPECIFIC_ACTION",
+      "validation_status": "OFFICIAL_REQUIREMENTS_MAPPED",
+      "manual_action": "Kindle Previewer/Kindle Create fixed-layout conversion and Panel View check required",
+      "external_account": true,
+      "price_tax": true,
+      "submission_status": "NOT_EXECUTED",
+      "package_path": "packages/kindle-kdp/"
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ResponsiveImage from '../../components/ResponsiveImage.astro';
 import publication from '../../generated/publication.json';
+import release from '../../generated/p10-release.json';
 import { graphicEpisodePath, withBase } from '../../lib/urls';
 
 const formatBytes = (bytes:number) => bytes >= 1024 ** 3
@@ -18,12 +19,14 @@ const cover = publication.volumes[0]!.cover;
   <article class="publication-page">
     <header class="publication-hero">
       <div class="hero-copy">
-        <p class="eyebrow">P9 · MULTIFORMAT PUBLICATION EDITION</p>
+        <p class="eyebrow">DIGITAL GRAPHIC NOVEL EDITION · 1.0.0</p>
         <h1>把三十集归途，<br />装订成五卷。</h1>
-        <p>不是把网页逐页打印，而是重新安排页序、跨页、章口与翻页悬念。五卷覆盖 30 章、150 场与 643 个冻结视觉槽位。</p>
+        <p>在线阅读，或按设备带走五卷正式出版版。所有下载都来自冻结的 GitHub Release，并可用 SHA-256 独立验证。</p>
         <nav aria-label="出版版主要入口">
-          <a class="primary" href={publication.omnibus.url}>下载完整数字 PDF <span>{formatBytes(publication.omnibus.bytes)}</span></a>
-          <a href={graphicEpisodePath(1)}>在线阅读 Graphic Mode</a>
+          <a class="primary" href={graphicEpisodePath(1)}>在线开始阅读</a>
+          <a href={publication.omnibus.url}>完整数字 PDF <span>{formatBytes(publication.omnibus.bytes)}</span></a>
+          <a href={withBase(release.sample.public_path)}>EP01 试读 <span>{formatBytes(release.sample.bytes)}</span></a>
+          <a href={withBase('publication/verify/')}>验证下载</a>
         </nav>
       </div>
       <figure class="hero-covers" aria-label="五卷出版版封面">
@@ -47,6 +50,7 @@ const cover = publication.volumes[0]!.cover;
         <h2 id="format-guide-title">同一故事，按设备选择容器。</h2>
       </header>
       <div>
+        <article><b>WEB</b><h3>直接在线读</h3><p>不需要下载。从 EP01 连续读到 EP30。</p></article>
         <article><b>PDF</b><h3>固定版式阅读</h3><p>保留装帧、章口、页序与翻页节奏。适合电脑、平板与存档。</p></article>
         <article><b>EPUB 3</b><h3>电子书阅读器</h3><p>原生固定版式 EPUB，包含语义中文、目录与无障碍元数据。</p></article>
         <article><b>CBZ</b><h3>漫画阅读器</h3><p>按出版页顺序封装的漫画包，附带 ComicInfo 与可验证图像序列。</p></article>
@@ -119,3 +123,4 @@ const cover = publication.volumes[0]!.cover;
   @media(max-width:640px){.hero-copy{min-height:31rem;padding-inline:1rem}.hero-copy h1{font-size:3.6rem}.hero-copy nav{flex-direction:column}.hero-copy nav a{text-align:center}.hero-covers{min-height:28rem}.hero-covers>div{width:8.6rem;left:calc(-2% + var(--cover-index) * 16%);top:18%}.hero-covers>div:nth-child(2),.hero-covers>div:nth-child(4){top:14%}.hero-covers>div:nth-child(3){top:10%}.format-guide,.volume-list,.publication-note{padding-inline:1rem}.format-guide>div{grid-template-columns:1fr}.format-guide article{display:grid;grid-template-columns:3rem 1fr;gap:.4rem 1rem}.format-guide h3{margin:0}.format-guide p{grid-column:2}.volume-heading{grid-template-columns:1fr}.volume-heading>p{grid-column:auto}.volume-body{grid-template-columns:1fr}.volume-body>figure{width:min(76vw,18rem);margin:auto}.volume-story li{grid-template-columns:3.4rem 1fr auto}.downloads{grid-template-columns:1fr}.publication-note{grid-template-columns:1fr}.note-copy nav{flex-direction:column}}
 </style>
 <style is:global>.hero-covers img,.volume-body>figure img{display:block;width:100%;height:100%;object-fit:cover}</style>
+<style>.format-guide>div{grid-template-columns:repeat(2,1fr)}@media(max-width:640px){.format-guide>div{grid-template-columns:1fr}}</style>

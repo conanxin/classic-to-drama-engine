@@ -1,0 +1,196 @@
+{
+  "schema_version": "P10B_MEDIA_MANIFEST_V1",
+  "status": "PASS_P10B_DETERMINISTIC_MEDIA",
+  "generated_at": "2026-08-28T00:00:00+08:00",
+  "sample": {
+    "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-reader-sample-v1.0.0.pdf",
+    "source": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v01-digital.pdf",
+    "source_sha256": "d6a3a68e0446de5b98b366f85716f50f44b704263e62d2f5b8bb4b6aab2165a1",
+    "pages": 20,
+    "bytes": 1012474,
+    "sha256": "1f6270d7bb1420df3833bccf38a3f17a8310a605b7c13742fe3f02a8ce7bd725",
+    "derivation": "exact P9 Volume I digital PDF pages 1-20 (front matter plus complete EP01)"
+  },
+  "covers": [
+    {
+      "volume": "V01",
+      "source": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v01-digital.pdf",
+      "source_sha256": "d6a3a68e0446de5b98b366f85716f50f44b704263e62d2f5b8bb4b6aab2165a1",
+      "method": "300-dpi rasterization of the frozen P9 digital-PDF cover page; deterministic resize/composition",
+      "files": [
+        {
+          "purpose": "store_portrait_master",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v01-store-master.jpg",
+          "bytes": 745465,
+          "sha256": "8b4c8cfc2ebd1d0c740bdb7872774842de81e0d212375316f5337af576a98a52"
+        },
+        {
+          "purpose": "thumbnail",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v01-thumbnail.jpg",
+          "bytes": 20852,
+          "sha256": "3d1564a3dcd63d30680bd2e4ca4e93420f732415a16233ccaca4a8ce7739e77a"
+        },
+        {
+          "purpose": "web",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v01-web.webp",
+          "bytes": 115560,
+          "sha256": "61b5f13e98c2cab77cd249b2d6c55ca4c1188d9113e4053e24ff4b81043ad884"
+        },
+        {
+          "purpose": "social_og",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v01-social-1200x630.jpg",
+          "bytes": 86522,
+          "sha256": "26ef0ef0d4fd646aad72d0c1225b75fa5a12200e1ad59615cd75c6c85e49a712"
+        }
+      ]
+    },
+    {
+      "volume": "V02",
+      "source": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v02-digital.pdf",
+      "source_sha256": "a2f47765f5fec3a3df1ef1e87d1e5a086f8ab05105d017eef782798008d84ebe",
+      "method": "300-dpi rasterization of the frozen P9 digital-PDF cover page; deterministic resize/composition",
+      "files": [
+        {
+          "purpose": "store_portrait_master",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v02-store-master.jpg",
+          "bytes": 863421,
+          "sha256": "a2861cdcba73f767c41f57bd1f118f490dbdafb3791c8188302f86ac9235bd85"
+        },
+        {
+          "purpose": "thumbnail",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v02-thumbnail.jpg",
+          "bytes": 22849,
+          "sha256": "8569f4328b67d85ee923a59608d86c3f8650e9428c7f1ef77765f9a8642cbef1"
+        },
+        {
+          "purpose": "web",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v02-web.webp",
+          "bytes": 153196,
+          "sha256": "6d05c71cd7b86e8a51f0b80c7851b06603d0cc0a816bbf83c973799e8d98ef6f"
+        },
+        {
+          "purpose": "social_og",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v02-social-1200x630.jpg",
+          "bytes": 93223,
+          "sha256": "c25a1a670ac87848282d0b029c69ca0a6ff426803f5d441ce6b348374978194a"
+        }
+      ]
+    },
+    {
+      "volume": "V03",
+      "source": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v03-digital.pdf",
+      "source_sha256": "75ec07de0bcdc09cea5397f4ba518e9d06b7685e9b722742bbd11a1ce4ee3ea2",
+      "method": "300-dpi rasterization of the frozen P9 digital-PDF cover page; deterministic resize/composition",
+      "files": [
+        {
+          "purpose": "store_portrait_master",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v03-store-master.jpg",
+          "bytes": 839409,
+          "sha256": "94dad59ec6e4161580690020d75f8118bcab3e6a3e1a9c56737add515aeb1814"
+        },
+        {
+          "purpose": "thumbnail",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v03-thumbnail.jpg",
+          "bytes": 24129,
+          "sha256": "fe9220fb502fb17171e2c64c3ceb86bc949d118f38a852b010c6ffed363bf2bc"
+        },
+        {
+          "purpose": "web",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v03-web.webp",
+          "bytes": 145128,
+          "sha256": "3b1bca139bb0fce947a83487d3db8f37409ef37deb2bb61d2bc2e2395e8eb4ca"
+        },
+        {
+          "purpose": "social_og",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v03-social-1200x630.jpg",
+          "bytes": 96786,
+          "sha256": "1da18e0e6236c091fd92b0691688f87ea04531e0bf8deb241d6942b874e5fcab"
+        }
+      ]
+    },
+    {
+      "volume": "V04",
+      "source": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v04-digital.pdf",
+      "source_sha256": "5aad05a0198096a9c89a4287767ecdf445dedc6c7f7868642600be16f9ad2c90",
+      "method": "300-dpi rasterization of the frozen P9 digital-PDF cover page; deterministic resize/composition",
+      "files": [
+        {
+          "purpose": "store_portrait_master",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v04-store-master.jpg",
+          "bytes": 755746,
+          "sha256": "64565c0771efa919a1355417f811a8d98943478b0aaf71c88e8c9d0a4ac12493"
+        },
+        {
+          "purpose": "thumbnail",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v04-thumbnail.jpg",
+          "bytes": 21643,
+          "sha256": "db0197cee4c74c0359454fa27b9c5e1a465f223a5b922fde8eacff7b0d2436cf"
+        },
+        {
+          "purpose": "web",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v04-web.webp",
+          "bytes": 121968,
+          "sha256": "800144800acc49a3ee11571c01121145c6b72158d5c7a34ff0d310e5d1b1495b"
+        },
+        {
+          "purpose": "social_og",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v04-social-1200x630.jpg",
+          "bytes": 87382,
+          "sha256": "f5343b5fa0fd3c14ea19a5b2a190e7ca3bcca461eb41b4bf11d1afde69ba458d"
+        }
+      ]
+    },
+    {
+      "volume": "V05",
+      "source": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v05-digital.pdf",
+      "source_sha256": "5f780d8e2d3716678d754c0d9a26ddbef5461507199e09db118ababa568caec1",
+      "method": "300-dpi rasterization of the frozen P9 digital-PDF cover page; deterministic resize/composition",
+      "files": [
+        {
+          "purpose": "store_portrait_master",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v05-store-master.jpg",
+          "bytes": 823449,
+          "sha256": "9c67382f6778b7c740f5722ae230be5e85bea3154c37c25c0473a6e7a5d27040"
+        },
+        {
+          "purpose": "thumbnail",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v05-thumbnail.jpg",
+          "bytes": 22307,
+          "sha256": "5fc2c4de461d795a27fb3fe1bd5d604a864f36f37479b0fe9a8412969d08810b"
+        },
+        {
+          "purpose": "web",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v05-web.webp",
+          "bytes": 135122,
+          "sha256": "3e8951589f6f3d19abe704d897495c67187fdadf318f18e7e99014f04774ab78"
+        },
+        {
+          "purpose": "social_og",
+          "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v05-social-1200x630.jpg",
+          "bytes": 91311,
+          "sha256": "907bfc6e408df7bdfc7381b88a5970007ee680cfd15e05d9690b8f0509d1ef3a"
+        }
+      ]
+    }
+  ],
+  "promotional": [
+    {
+      "purpose": "social-square",
+      "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-social-square.jpg",
+      "bytes": 157006,
+      "sha256": "5003e5eb18e678edb8093aaf6c477ef5f1a8c42517d74ec5d2e16bc3b1aff380"
+    },
+    {
+      "purpose": "social-portrait",
+      "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-social-portrait.jpg",
+      "bytes": 165409,
+      "sha256": "6bad7e89b73483019e80191ecac0f86edf9075caa90f765222df3924419b8e3d"
+    },
+    {
+      "purpose": "social-story",
+      "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-social-story.jpg",
+      "bytes": 184988,
+      "sha256": "3b061104620e885eb62eb22462e30bb32dd632c30423e0599ed1f96d713662bc"
+    }
+  ]
+}

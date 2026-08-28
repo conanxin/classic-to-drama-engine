@@ -38,6 +38,8 @@ const p8r3Grammar = await readJson('comic-rendering/odyssey_m1_p8r3/P8R3_SERIES_
 const p9Config = await readJson('publication/odyssey_m1_p9/publication-config.json');
 const p9Architecture = await readJson('publication/odyssey_m1_p9/P9_VOLUME_ARCHITECTURE.json');
 const p9Exports = await readJson('publication/odyssey_m1_p9/P9_EXPORT_MANIFEST.json');
+const p10Reader = await readJson('distribution/odyssey_m1_p10b/P10_READER_RELEASE_DATA.json');
+await writeJson('p10-release.json', p10Reader);
 
 const assetBySource = new Map();
 for (const asset of assetManifest.assets) if (!assetBySource.has(asset.source_path) || !asset.transform) assetBySource.set(asset.source_path, asset);

@@ -1,0 +1,142 @@
+{
+  "schema_version": "P10B_PLATFORM_PACKAGE_V1",
+  "platform": "Apple Books",
+  "package_status": "READY_WITH_NOTES",
+  "store_submission": "NOT_EXECUTED",
+  "store_acceptance": "NOT_CLAIMED",
+  "price": "NOT_SET_BY_P10",
+  "tax": "NOT_CONFIGURED",
+  "bank": "NOT_CONFIGURED",
+  "isbn": "NOT_ASSIGNED",
+  "content_strategy": "one P9 EPUB per volume",
+  "preview_strategy": "Apple Books preview and submission validation required",
+  "identifier_strategy": "Vendor ID decision; ISBN remains unassigned",
+  "requirements_snapshot": "../../P10_PLATFORM_REQUIREMENTS_SNAPSHOT.json",
+  "rights_and_source_note": "../../P10_RIGHTS_AND_SOURCE_NOTE.md",
+  "reader_sample": {
+    "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-reader-sample-v1.0.0.pdf",
+    "source": "publication/odyssey_m1_p9/exports/odyssey-homecoming-v01-digital.pdf",
+    "source_sha256": "d6a3a68e0446de5b98b366f85716f50f44b704263e62d2f5b8bb4b6aab2165a1",
+    "pages": 20,
+    "bytes": 1012474,
+    "sha256": "1f6270d7bb1420df3833bccf38a3f17a8310a605b7c13742fe3f02a8ce7bd725",
+    "derivation": "exact P9 Volume I digital PDF pages 1-20 (front matter plus complete EP01)"
+  },
+  "volumes": [
+    {
+      "volume_id": "V01",
+      "title": "没有父亲的家",
+      "series_number": 1,
+      "content_assets": [
+        {
+          "filename": "odyssey-homecoming-v01.epub",
+          "bytes": 19261876,
+          "sha256": "68f0acdc0e5d9191c855897ef23f6916406cf1adfd3c725b96ba054543d8af33",
+          "format": "EPUB",
+          "edition": "epub",
+          "volume": "V01",
+          "url": "https://github.com/conanxin/classic-to-drama-engine/releases/download/odyssey-p9-publication-v1.0.0/odyssey-homecoming-v01.epub"
+        }
+      ],
+      "cover": {
+        "purpose": "store_portrait_master",
+        "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v01-store-master.jpg",
+        "bytes": 745465,
+        "sha256": "8b4c8cfc2ebd1d0c740bdb7872774842de81e0d212375316f5337af576a98a52"
+      },
+      "metadata_reference": "P10_METADATA_MASTER.json"
+    },
+    {
+      "volume_id": "V02",
+      "title": "重新说出名字",
+      "series_number": 2,
+      "content_assets": [
+        {
+          "filename": "odyssey-homecoming-v02.epub",
+          "bytes": 22332185,
+          "sha256": "41f2668e2913d8d616a99461d9a3fac6b1df4779c3f5a6f5043de60aaeb9b879",
+          "format": "EPUB",
+          "edition": "epub",
+          "volume": "V02",
+          "url": "https://github.com/conanxin/classic-to-drama-engine/releases/download/odyssey-p9-publication-v1.0.0/odyssey-homecoming-v02.epub"
+        }
+      ],
+      "cover": {
+        "purpose": "store_portrait_master",
+        "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v02-store-master.jpg",
+        "bytes": 863421,
+        "sha256": "a2861cdcba73f767c41f57bd1f118f490dbdafb3791c8188302f86ac9235bd85"
+      },
+      "metadata_reference": "P10_METADATA_MASTER.json"
+    },
+    {
+      "volume_id": "V03",
+      "title": "海上的名字与代价",
+      "series_number": 3,
+      "content_assets": [
+        {
+          "filename": "odyssey-homecoming-v03.epub",
+          "bytes": 42992522,
+          "sha256": "ec45690ff884b164700c9f3057ab3da206a5e431864469a3e862d440cb3a01a1",
+          "format": "EPUB",
+          "edition": "epub",
+          "volume": "V03",
+          "url": "https://github.com/conanxin/classic-to-drama-engine/releases/download/odyssey-p9-publication-v1.0.0/odyssey-homecoming-v03.epub"
+        }
+      ],
+      "cover": {
+        "purpose": "store_portrait_master",
+        "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v03-store-master.jpg",
+        "bytes": 839409,
+        "sha256": "94dad59ec6e4161580690020d75f8118bcab3e6a3e1a9c56737add515aeb1814"
+      },
+      "metadata_reference": "P10_METADATA_MASTER.json"
+    },
+    {
+      "volume_id": "V04",
+      "title": "乞丐回到门槛",
+      "series_number": 4,
+      "content_assets": [
+        {
+          "filename": "odyssey-homecoming-v04.epub",
+          "bytes": 46223350,
+          "sha256": "348721e4c8d91c7d7209f7afdcc5eac343e35b6d058b0b4e83369603ce9afda7",
+          "format": "EPUB",
+          "edition": "epub",
+          "volume": "V04",
+          "url": "https://github.com/conanxin/classic-to-drama-engine/releases/download/odyssey-p9-publication-v1.0.0/odyssey-homecoming-v04.epub"
+        }
+      ],
+      "cover": {
+        "purpose": "store_portrait_master",
+        "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v04-store-master.jpg",
+        "bytes": 755746,
+        "sha256": "64565c0771efa919a1355417f811a8d98943478b0aaf71c88e8c9d0a4ac12493"
+      },
+      "metadata_reference": "P10_METADATA_MASTER.json"
+    },
+    {
+      "volume_id": "V05",
+      "title": "弓、婚床与归位",
+      "series_number": 5,
+      "content_assets": [
+        {
+          "filename": "odyssey-homecoming-v05.epub",
+          "bytes": 34949867,
+          "sha256": "251d8845172b9d79300fca56959006143c36148a21c31f3031bae291e8e3bd02",
+          "format": "EPUB",
+          "edition": "epub",
+          "volume": "V05",
+          "url": "https://github.com/conanxin/classic-to-drama-engine/releases/download/odyssey-p9-publication-v1.0.0/odyssey-homecoming-v05.epub"
+        }
+      ],
+      "cover": {
+        "purpose": "store_portrait_master",
+        "path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v05-store-master.jpg",
+        "bytes": 823449,
+        "sha256": "9c67382f6778b7c740f5722ae230be5e85bea3154c37c25c0473a6e7a5d27040"
+      },
+      "metadata_reference": "P10_METADATA_MASTER.json"
+    }
+  ]
+}

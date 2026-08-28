@@ -2,7 +2,7 @@
   "artifact_class": "CTDE_WEB_ASSET_PUBLICATION_MANIFEST",
   "schema_version": "1.0.0",
   "baseline_commit": "478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5",
-  "strategy": "Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives, seven bounded P8R1 EP01 comic-sequence overrides and five validated P9 publication-cover derivatives. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8/P8R1 renders remain unpublished.",
+  "strategy": "Curated approved P4/P5 archive media plus 643 accepted P8 final-comic web derivatives, seven bounded P8R1 EP01 comic-sequence overrides, five validated P9 publication covers, and deterministic P10B reader-sample, cover, promotional and checksum assets. P7B technical/animatic panel derivatives remain historical source evidence and are not promoted as final reader art. All dialogue and narration remain semantic HTML; rejected and candidate P8/P8R1 renders remain unpublished.",
   "selected_hero_frame_ids": [
     "P4-HF-01",
     "P4-HF-02",
@@ -61,8 +61,8 @@
     "P4-HF-43",
     "P4-HF-44"
   ],
-  "asset_count": 977,
-  "total_bytes": 422563005,
+  "asset_count": 1003,
+  "total_bytes": 429357564,
   "assets": [
     {
       "source_path": "animatic/odyssey_m1_p5/episodes/EP01_ANIMATIC.mp4",
@@ -6227,6 +6227,240 @@
       "bytes": 109882,
       "sha256": "671a626d7456e158758f317d8a9114b78729d8a47335989148f75f8261b8eded",
       "authority": "P9 validated publication cover V05",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-reader-sample-v1.0.0.pdf",
+      "published_path": "media/publication/p10/odyssey-homecoming-reader-sample-v1.0.0.pdf",
+      "type": "document",
+      "bytes": 1012474,
+      "sha256": "1f6270d7bb1420df3833bccf38a3f17a8310a605b7c13742fe3f02a8ce7bd725",
+      "authority": "P10B exact P9 Volume I reader sample",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-social-portrait.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-social-portrait.jpg",
+      "type": "image",
+      "bytes": 165409,
+      "sha256": "6bad7e89b73483019e80191ecac0f86edf9075caa90f765222df3924419b8e3d",
+      "authority": "P10B deterministic social-portrait",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-social-square.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-social-square.jpg",
+      "type": "image",
+      "bytes": 157006,
+      "sha256": "5003e5eb18e678edb8093aaf6c477ef5f1a8c42517d74ec5d2e16bc3b1aff380",
+      "authority": "P10B deterministic social-square",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-social-story.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-social-story.jpg",
+      "type": "image",
+      "bytes": 184988,
+      "sha256": "3b061104620e885eb62eb22462e30bb32dd632c30423e0599ed1f96d713662bc",
+      "authority": "P10B deterministic social-story",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v01-social-1200x630.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v01-social-1200x630.jpg",
+      "type": "image",
+      "bytes": 86522,
+      "sha256": "26ef0ef0d4fd646aad72d0c1225b75fa5a12200e1ad59615cd75c6c85e49a712",
+      "authority": "P10B deterministic V01 social_og",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v01-store-master.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v01-store-master.jpg",
+      "type": "image",
+      "bytes": 745465,
+      "sha256": "8b4c8cfc2ebd1d0c740bdb7872774842de81e0d212375316f5337af576a98a52",
+      "authority": "P10B deterministic V01 store_portrait_master",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v01-thumbnail.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v01-thumbnail.jpg",
+      "type": "image",
+      "bytes": 20852,
+      "sha256": "3d1564a3dcd63d30680bd2e4ca4e93420f732415a16233ccaca4a8ce7739e77a",
+      "authority": "P10B deterministic V01 thumbnail",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v01-web.webp",
+      "published_path": "media/publication/p10/odyssey-homecoming-v01-web.webp",
+      "type": "image",
+      "bytes": 115560,
+      "sha256": "61b5f13e98c2cab77cd249b2d6c55ca4c1188d9113e4053e24ff4b81043ad884",
+      "authority": "P10B deterministic V01 web",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v02-social-1200x630.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v02-social-1200x630.jpg",
+      "type": "image",
+      "bytes": 93223,
+      "sha256": "c25a1a670ac87848282d0b029c69ca0a6ff426803f5d441ce6b348374978194a",
+      "authority": "P10B deterministic V02 social_og",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v02-store-master.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v02-store-master.jpg",
+      "type": "image",
+      "bytes": 863421,
+      "sha256": "a2861cdcba73f767c41f57bd1f118f490dbdafb3791c8188302f86ac9235bd85",
+      "authority": "P10B deterministic V02 store_portrait_master",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v02-thumbnail.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v02-thumbnail.jpg",
+      "type": "image",
+      "bytes": 22849,
+      "sha256": "8569f4328b67d85ee923a59608d86c3f8650e9428c7f1ef77765f9a8642cbef1",
+      "authority": "P10B deterministic V02 thumbnail",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v02-web.webp",
+      "published_path": "media/publication/p10/odyssey-homecoming-v02-web.webp",
+      "type": "image",
+      "bytes": 153196,
+      "sha256": "6d05c71cd7b86e8a51f0b80c7851b06603d0cc0a816bbf83c973799e8d98ef6f",
+      "authority": "P10B deterministic V02 web",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v03-social-1200x630.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v03-social-1200x630.jpg",
+      "type": "image",
+      "bytes": 96786,
+      "sha256": "1da18e0e6236c091fd92b0691688f87ea04531e0bf8deb241d6942b874e5fcab",
+      "authority": "P10B deterministic V03 social_og",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v03-store-master.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v03-store-master.jpg",
+      "type": "image",
+      "bytes": 839409,
+      "sha256": "94dad59ec6e4161580690020d75f8118bcab3e6a3e1a9c56737add515aeb1814",
+      "authority": "P10B deterministic V03 store_portrait_master",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v03-thumbnail.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v03-thumbnail.jpg",
+      "type": "image",
+      "bytes": 24129,
+      "sha256": "fe9220fb502fb17171e2c64c3ceb86bc949d118f38a852b010c6ffed363bf2bc",
+      "authority": "P10B deterministic V03 thumbnail",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v03-web.webp",
+      "published_path": "media/publication/p10/odyssey-homecoming-v03-web.webp",
+      "type": "image",
+      "bytes": 145128,
+      "sha256": "3b1bca139bb0fce947a83487d3db8f37409ef37deb2bb61d2bc2e2395e8eb4ca",
+      "authority": "P10B deterministic V03 web",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v04-social-1200x630.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v04-social-1200x630.jpg",
+      "type": "image",
+      "bytes": 87382,
+      "sha256": "f5343b5fa0fd3c14ea19a5b2a190e7ca3bcca461eb41b4bf11d1afde69ba458d",
+      "authority": "P10B deterministic V04 social_og",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v04-store-master.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v04-store-master.jpg",
+      "type": "image",
+      "bytes": 755746,
+      "sha256": "64565c0771efa919a1355417f811a8d98943478b0aaf71c88e8c9d0a4ac12493",
+      "authority": "P10B deterministic V04 store_portrait_master",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v04-thumbnail.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v04-thumbnail.jpg",
+      "type": "image",
+      "bytes": 21643,
+      "sha256": "db0197cee4c74c0359454fa27b9c5e1a465f223a5b922fde8eacff7b0d2436cf",
+      "authority": "P10B deterministic V04 thumbnail",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v04-web.webp",
+      "published_path": "media/publication/p10/odyssey-homecoming-v04-web.webp",
+      "type": "image",
+      "bytes": 121968,
+      "sha256": "800144800acc49a3ee11571c01121145c6b72158d5c7a34ff0d310e5d1b1495b",
+      "authority": "P10B deterministic V04 web",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v05-social-1200x630.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v05-social-1200x630.jpg",
+      "type": "image",
+      "bytes": 91311,
+      "sha256": "907bfc6e408df7bdfc7381b88a5970007ee680cfd15e05d9690b8f0509d1ef3a",
+      "authority": "P10B deterministic V05 social_og",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v05-store-master.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v05-store-master.jpg",
+      "type": "image",
+      "bytes": 823449,
+      "sha256": "9c67382f6778b7c740f5722ae230be5e85bea3154c37c25c0473a6e7a5d27040",
+      "authority": "P10B deterministic V05 store_portrait_master",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v05-thumbnail.jpg",
+      "published_path": "media/publication/p10/odyssey-homecoming-v05-thumbnail.jpg",
+      "type": "image",
+      "bytes": 22307,
+      "sha256": "5fc2c4de461d795a27fb3fe1bd5d604a864f36f37479b0fe9a8412969d08810b",
+      "authority": "P10B deterministic V05 thumbnail",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/media/odyssey-homecoming-v05-web.webp",
+      "published_path": "media/publication/p10/odyssey-homecoming-v05-web.webp",
+      "type": "image",
+      "bytes": 135122,
+      "sha256": "3e8951589f6f3d19abe704d897495c67187fdadf318f18e7e99014f04774ab78",
+      "authority": "P10B deterministic V05 web",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/SHA256SUMS.json",
+      "published_path": "media/publication/p10/SHA256SUMS.json",
+      "type": "data",
+      "bytes": 7138,
+      "sha256": "fca890fcd830d63ba6587dc7dfe8b099724424d60a130c4d8dab1cb2a17f1fd2",
+      "authority": "P10B machine-readable release checksum list",
+      "status": "APPROVED"
+    },
+    {
+      "source_path": "distribution/odyssey_m1_p10b/SHA256SUMS.txt",
+      "published_path": "media/publication/p10/SHA256SUMS.txt",
+      "type": "data",
+      "bytes": 2076,
+      "sha256": "d96f863ac13c08f48702fdef114394df1dc110067e793fe077b907fb76e3c54c",
+      "authority": "P10B release checksum list",
       "status": "APPROVED"
     },
     {

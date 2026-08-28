@@ -1,0 +1,38 @@
+{
+  "schema_version": "P10B_EDITION_FREEZE_V1",
+  "status": "PASS_P10B_EDITION_FREEZE",
+  "edition_id": "ODYSSEY-DGNE-1.0.0",
+  "title": "《归途：奥德修斯》",
+  "edition_name": "Digital Graphic Novel Edition",
+  "version": "1.0.0",
+  "publication_date": "2026-08-27",
+  "policy": "IMMUTABLE_BY_POLICY",
+  "source_implementation_commit": "810e699de675c180a26d3c5160eda571f7dc70c9",
+  "p9_closeout_commit": "2c39dcfbf24b97e9de802628c15fbff32b7dba17",
+  "release_tag": "odyssey-p9-publication-v1.0.0",
+  "release_url": "https://github.com/conanxin/classic-to-drama-engine/releases/tag/odyssey-p9-publication-v1.0.0",
+  "volumes": 5,
+  "chapters": 30,
+  "scenes": 150,
+  "publication_pages": 458,
+  "source_panels": 643,
+  "release_assets": 21,
+  "release_bytes": 1559135367,
+  "formats": {
+    "digital_pdf": 6,
+    "print_layout_pdf": 5,
+    "epub3": 5,
+    "cbz": 5
+  },
+  "successor_policy": {
+    "patch": "1.0.1 metadata/typographic correction",
+    "minor": "1.1.0 new edition feature",
+    "major": "2.0.0 material story or art revision"
+  },
+  "forbidden_mutations": [
+    "replace release assets",
+    "move or rewrite release tag",
+    "silently regenerate v1.0.0",
+    "change P9 binary identities"
+  ]
+}
