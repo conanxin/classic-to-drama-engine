@@ -1,8 +1,8 @@
 import { createHash } from 'node:crypto';
 import { access, readFile } from 'node:fs/promises';
-import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { diffHistoricalPaths, historicalVerificationReport } from './lib/historical-verification.mjs';
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const repoRoot = path.resolve(siteRoot, '..');
@@ -82,10 +82,10 @@ if (boundBeats.size !== 44 || actionPrevis.beats.some((beat) => !boundBeats.has(
 if (queue.graphic_completion_blocked !== false || queue.status !== 'NON_BLOCKING_FUTURE_RENDER_QUEUE') fail('P8 queue incorrectly blocks P7B completion');
 
 const immutablePaths = ['scripts/odyssey_m1_v2','editorial/odyssey_m1_v2','production/odyssey_m1_v2','preproduction/odyssey_m1_p3','visual-development/odyssey_m1_p4','storyboards/odyssey_m1_p4','design/odyssey_m1_p4','previs/odyssey_m1_p4','art-department/odyssey_m1_p5','animatic/odyssey_m1_p5','vfx-previs/odyssey_m1_p5','production-tests/odyssey_m1_p5','pitch/odyssey_m1_p5','runtime_capability_prototype'];
-const immutableDiff = execFileSync('git', ['diff','--name-only',baseline,'--',...immutablePaths], { cwd:repoRoot, encoding:'utf8' }).trim();
-if (immutableDiff) fail(`frozen predecessor modified:\n${immutableDiff}`);
-const priorGraphicDiff = execFileSync('git', ['diff','--name-only',baseline,'--','graphic-script/odyssey_m1_p7a','graphic-script/odyssey_m1_p7c'], { cwd:repoRoot, encoding:'utf8' }).trim();
-if (priorGraphicDiff) fail(`P7A/P7C authority modified:\n${priorGraphicDiff}`);
+const immutableHistory = await diffHistoricalPaths({ repoRoot, baselineCommit:baseline, paths:immutablePaths });
+if (immutableHistory.changedPaths) fail(`frozen predecessor modified:\n${immutableHistory.changedPaths}`);
+const priorGraphicHistory = await diffHistoricalPaths({ repoRoot, baselineCommit:baseline, paths:['graphic-script/odyssey_m1_p7a','graphic-script/odyssey_m1_p7c'] });
+if (priorGraphicHistory.changedPaths) fail(`P7A/P7C authority modified:\n${priorGraphicHistory.changedPaths}`);
 
 if (distMode) {
   for (let number = 1; number <= 30; number += 1) {
@@ -107,5 +107,11 @@ console.log(JSON.stringify({
   exact_source_dialogue:panelManifest.counts.exact_source_dialogue, character_source_labels_resolved:'76/76', action_beats:'44/44',
   script_routes:'30/30', graphic_routes:'30/30', rejected_visual_promotions:0, placeholders:0,
   V2_modified:0, P3_modified:0, P4_modified:0, P5_modified:0, Runtime_modified:0, P7A_P7C_authority_modified:0,
+  ...historicalVerificationReport({
+    baselineCommit:baseline,
+    checked:[immutableHistory, priorGraphicHistory].filter((item) => !item.skipped).length,
+    skipped:[immutableHistory, priorGraphicHistory].filter((item) => item.skipped).length,
+    kind:'FROZEN_PREDECESSOR_GIT_DIFF'
+  }),
   real_reader_validation:'NOT_CLAIMED', P6_status:'PAUSED_BY_USER'
 }));

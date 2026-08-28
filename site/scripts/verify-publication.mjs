@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import { access, readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { execFileSync } from 'node:child_process';
+import { diffHistoricalPaths, historicalVerificationReport } from './lib/historical-verification.mjs';
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const repoRoot = path.resolve(siteRoot, '..');
@@ -62,8 +62,9 @@ const immutablePaths = [
   'art-department/odyssey_m1_p5','animatic/odyssey_m1_p5','vfx-previs/odyssey_m1_p5','production-tests/odyssey_m1_p5',
   'pitch/odyssey_m1_p5','runtime_capability_prototype'
 ];
-const diff = execFileSync('git', ['diff','--name-only','478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5','--',...immutablePaths], { cwd:repoRoot, encoding:'utf8' }).trim();
-if (diff) fail(`immutable source modified:\n${diff}`);
+const publicationBaseline = '478fd10f5b115c70f7b4b8ce5146ae2b6c6d37e5';
+const immutableHistory = await diffHistoricalPaths({ repoRoot, baselineCommit:publicationBaseline, paths:immutablePaths });
+if (immutableHistory.changedPaths) fail(`immutable source modified:\n${immutableHistory.changedPaths}`);
 
 const routeFiles = ['index.html','episodes/index.html','episodes/01/index.html','episodes/30/index.html','graphic/index.html','publication/index.html','episodes/01/graphic/index.html','episodes/19/graphic/index.html','episodes/27/graphic/index.html','characters/index.html','visual/index.html','storyboards/index.html','storyboards/27/index.html','watch/index.html','production/index.html','project/index.html','search/index.html'];
 if (hasDist) {
@@ -124,5 +125,11 @@ console.log(JSON.stringify({
   documents:documents.length, images:assets.assets.filter((asset)=>asset.type==='image').length,
   videos:assets.assets.filter((asset)=>asset.type==='video').length, storyboard_pages:storyboards.reduce((n,x)=>n+x.pages.length,0),
   graphic_episodes:graphicEpisodes.length, graphic_scenes:graphicEpisodes.reduce((n,x)=>n+x.scenes.length,0), graphic_panels:graphicPanels.panels.length,
-  forbidden_internal_publication:0, immutable_modifications:0
+  forbidden_internal_publication:0, immutable_modifications:0,
+  ...historicalVerificationReport({
+    baselineCommit:publicationBaseline,
+    checked:immutableHistory.skipped ? 0 : 1,
+    skipped:immutableHistory.skipped ? 1 : 0,
+    kind:'FROZEN_PUBLICATION_SOURCE_GIT_DIFF'
+  })
 }));

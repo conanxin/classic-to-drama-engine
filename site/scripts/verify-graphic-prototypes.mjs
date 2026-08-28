@@ -1,9 +1,8 @@
 import { createHash } from 'node:crypto';
-import { execFile } from 'node:child_process';
 import { access, readFile } from 'node:fs/promises';
 import path from 'node:path';
-import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
+import { historicalVerificationIsSkipped, historicalVerificationReport, readHistoricalBytes } from './lib/historical-verification.mjs';
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const repoRoot = path.resolve(siteRoot, '..');
@@ -20,12 +19,6 @@ const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex');
 const readRepoJson = async (relative) => JSON.parse(await readFile(path.join(repoRoot, relative), 'utf8'));
 const exists = async (target) => access(target).then(() => true).catch(() => false);
 const sourceText = (value) => String(value).replace(/\r/g, '').replace(/[\t ]+/g, ' ').trim();
-const run = promisify(execFile);
-const historicalBytes = async (relative) => {
-  const { stdout } = await run('git', ['show', `${p7aBaselineCommit}:${relative}`], { cwd:repoRoot, encoding:null, maxBuffer:64 * 1024 * 1024 });
-  return stdout;
-};
-
 const recognition = await readRepoJson('graphic-script/odyssey_m1_p7a/CHARACTER_RECOGNITION_SYSTEM.json');
 const assetManifest = await readRepoJson('site/content/ASSET_PUBLICATION_MANIFEST.json');
 const p7aManifest = await readRepoJson('graphic-script/odyssey_m1_p7a/P7A_ARTIFACT_MANIFEST.json');
@@ -34,8 +27,21 @@ const characters = new Map(recognition.characters.map((character) => [character.
 
 if (recognition.status !== 'FROZEN_P7A_PROTOTYPE_SYSTEM') fail('character recognition system is not frozen');
 if (p7aManifest.artifact_class !== 'ODYSSEY_P7A_ARTIFACT_MANIFEST' || p7aManifest.counts.graphic_prototypes !== 3) fail('P7A artifact manifest identity is invalid');
+let historicalChecksExecuted = 0;
+let historicalChecksSkipped = 0;
 for (const artifact of p7aManifest.artifacts) {
-  const bytes = artifact.path.startsWith('site/') ? await historicalBytes(artifact.path) : await readFile(path.join(repoRoot, artifact.path));
+  let bytes;
+  if (artifact.path.startsWith('site/')) {
+    const historical = await readHistoricalBytes({ repoRoot, baselineCommit:p7aBaselineCommit, relativePath:artifact.path });
+    if (historical.skipped) {
+      historicalChecksSkipped += 1;
+      continue;
+    }
+    historicalChecksExecuted += 1;
+    bytes = historical.bytes;
+  } else {
+    bytes = await readFile(path.join(repoRoot, artifact.path));
+  }
   if (bytes.length !== artifact.bytes || sha256(bytes) !== artifact.sha256) fail(`P7A artifact identity mismatch: ${artifact.path}`);
 }
 if (recognition.characters.length < 16) fail(`character recognition coverage is ${recognition.characters.length}, expected at least 16`);
@@ -127,6 +133,12 @@ console.log(JSON.stringify({
   approved_visual_references: visualCount,
   character_recognition_entries: recognition.characters.length,
   rejected_visual_promotions: 0,
-  historical_site_artifacts_verified_at: p7aBaselineCommit,
+  ...historicalVerificationReport({
+    baselineCommit:p7aBaselineCommit,
+    checked:historicalChecksExecuted,
+    skipped:historicalChecksSkipped,
+    kind:'FROZEN_P7A_SITE_ARTIFACT_BYTES'
+  }),
+  historical_site_artifacts_verified_at:historicalVerificationIsSkipped ? null : p7aBaselineCommit,
   current_p7a_narrative_artifacts_unchanged: true
 }));

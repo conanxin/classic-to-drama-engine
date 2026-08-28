@@ -2,8 +2,7 @@ import { access, readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { execFile } from 'node:child_process';
-import { promisify } from 'node:util';
+import { historicalVerificationIsSkipped, historicalVerificationReport, readHistoricalBytes } from './lib/historical-verification.mjs';
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const repoRoot = path.resolve(siteRoot, '..');
@@ -13,11 +12,6 @@ const exists = (target) => access(target).then(() => true).catch(() => false);
 const readRepo = (relative) => readFile(path.join(repoRoot, relative), 'utf8');
 const readJson = async (relative) => JSON.parse(await readRepo(relative));
 const p7cBaselineCommit = '912cdd6715fe5ae4fe82418b30035440938a9c17';
-const run = promisify(execFile);
-const historicalBytes = async (relative) => {
-  const { stdout } = await run('git', ['show', `${p7cBaselineCommit}:${relative}`], { cwd:repoRoot, encoding:null, maxBuffer:64 * 1024 * 1024 });
-  return stdout;
-};
 
 const requiredDocs = [
   'P7C_READER_RESEARCH_PLAN.md','P7C_SUCCESS_CRITERIA.md','P7C_TEST_PROTOCOL.md','P7C_PARTICIPANT_INSTRUCTIONS.md',
@@ -31,8 +25,16 @@ if (artifactManifest.status !== 'PASS_ODYSSEY_P7C_GRAPHIC_READER_POLISHED_AND_RE
 if (artifactManifest.counts?.real_participants !== 0 || artifactManifest.counts?.synthetic_fixtures_excluded !== 1) fail('artifact manifest evidence boundary mismatch');
 if (!Array.isArray(artifactManifest.artifacts) || artifactManifest.artifacts.length !== 31) fail('artifact manifest must freeze 31 implementation artifacts');
 if (new Set(artifactManifest.artifacts.map((item) => item.path)).size !== artifactManifest.artifacts.length) fail('duplicate artifact manifest path');
+let historicalChecksExecuted = 0;
+let historicalChecksSkipped = 0;
 for (const item of artifactManifest.artifacts) {
-  const bytes = await historicalBytes(item.path);
+  const historical = await readHistoricalBytes({ repoRoot, baselineCommit:p7cBaselineCommit, relativePath:item.path });
+  if (historical.skipped) {
+    historicalChecksSkipped += 1;
+    continue;
+  }
+  historicalChecksExecuted += 1;
+  const bytes = historical.bytes;
   const digest = createHash('sha256').update(bytes).digest('hex');
   if (bytes.length !== item.bytes || digest !== item.sha256) fail('artifact identity mismatch: ' + item.path);
 }
@@ -75,4 +77,14 @@ if (distMode) {
   if (!scriptHtml.includes('data-study-bridge') || !scriptHtml.includes('data-study-mode-switch="script"')) fail('Script Mode study bridge missing');
 }
 
-console.log(JSON.stringify({ status:'PASS_P7C_READER_VERIFY', dist_verified:distMode, prototype_episodes:3, objective_questions:questions.length, test_conditions:2, artifact_manifest_verified_at:p7cBaselineCommit, current_reader_backward_compatible:true, synthetic_fixture_exclusion_required:true, real_participant_claims:0 }));
+console.log(JSON.stringify({
+  status:'PASS_P7C_READER_VERIFY', dist_verified:distMode, prototype_episodes:3, objective_questions:questions.length, test_conditions:2,
+  ...historicalVerificationReport({
+    baselineCommit:p7cBaselineCommit,
+    checked:historicalChecksExecuted,
+    skipped:historicalChecksSkipped,
+    kind:'FROZEN_P7C_ARTIFACT_BYTES'
+  }),
+  artifact_manifest_verified_at:historicalVerificationIsSkipped ? null : p7cBaselineCommit,
+  current_reader_backward_compatible:true, synthetic_fixture_exclusion_required:true, real_participant_claims:0
+}));

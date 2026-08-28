@@ -1,8 +1,8 @@
 import { createHash } from 'node:crypto';
 import { access, readFile } from 'node:fs/promises';
-import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { diffHistoricalPaths, historicalVerificationReport } from './lib/historical-verification.mjs';
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const repoRoot = path.resolve(siteRoot, '..');
@@ -40,8 +40,8 @@ for (const visual of p8.panels) {
 for (const rejection of rejections.rejections) if (assetByPublic.has(rejection.path) || p8.panels.some((panel) => panel.source_path === rejection.path)) fail(`rejected render promoted: ${rejection.rejection_id}`);
 
 const frozen = ['scripts/odyssey_m1_v2','editorial/odyssey_m1_v2','production/odyssey_m1_v2','preproduction/odyssey_m1_p3','visual-development/odyssey_m1_p4','storyboards/odyssey_m1_p4','design/odyssey_m1_p4','previs/odyssey_m1_p4','art-department/odyssey_m1_p5','animatic/odyssey_m1_p5','vfx-previs/odyssey_m1_p5','production-tests/odyssey_m1_p5','pitch/odyssey_m1_p5','runtime_capability_prototype','graphic-script/odyssey_m1_p7a','graphic-script/odyssey_m1_p7c','graphic-script/odyssey_m1_p7b'];
-const immutableDiff = execFileSync('git', ['diff','--name-only',baseline,'--',...frozen], { cwd:repoRoot, encoding:'utf8' }).trim();
-if (immutableDiff) fail(`frozen predecessor modified:\n${immutableDiff}`);
+const immutableHistory = await diffHistoricalPaths({ repoRoot, baselineCommit:baseline, paths:frozen });
+if (immutableHistory.changedPaths) fail(`frozen predecessor modified:\n${immutableHistory.changedPaths}`);
 
 if (distMode) {
   for (let number = 1; number <= 30; number += 1) {
@@ -57,5 +57,12 @@ if (distMode) {
 console.log(JSON.stringify({
   status:'PASS_P8_COMIC_VERIFY', dist_verified:distMode, episodes:'30/30', scenes:'150/150', panels:'643/643',
   scene_masters:150, final_art_paths:643, raw_technical_reader_slots:0, rejected_promotions:0,
-  action_beats:'44/44', predecessor_modifications:0, P6_status:'PAUSED_BY_USER'
+  action_beats:'44/44', predecessor_modifications:0,
+  ...historicalVerificationReport({
+    baselineCommit:baseline,
+    checked:immutableHistory.skipped ? 0 : 1,
+    skipped:immutableHistory.skipped ? 1 : 0,
+    kind:'FROZEN_PREDECESSOR_GIT_DIFF'
+  }),
+  P6_status:'PAUSED_BY_USER'
 }));

@@ -101,8 +101,8 @@
     },
     {
       "path": "package.json",
-      "bytes": 2959,
-      "sha256": "4ff3a60a2e246979e8e6836b1554b05a7342ccee9cff9052ef4356136409b08b"
+      "bytes": 3307,
+      "sha256": "a36f368b033499aac29e5a1c8187224db895acafff08d70d3bfad25b714a2e8a"
     },
     {
       "path": "public/favicon.svg",
@@ -140,14 +140,24 @@
       "sha256": "c0c65700fbc4e946c9ffa0b5e28279d411a8323c203fe1fdd086cac82a468bce"
     },
     {
+      "path": "scripts/lib/historical-verification.mjs",
+      "bytes": 2533,
+      "sha256": "f0d435480a8913cc66b64e4926af96176626f0926dc62ab6fbae8adc2f831c2a"
+    },
+    {
       "path": "scripts/refresh-asset-manifest.mjs",
       "bytes": 7998,
       "sha256": "397cd597f31bf3a75ff1903fc4e0b48c9df15acdb29f5cd680ee7121ba72ea00"
     },
     {
+      "path": "scripts/run-with-historical-verification-mode.mjs",
+      "bytes": 1044,
+      "sha256": "74a3ecdc0d0dfd840eb95942c374a4f2338727922ab0023540e6b2fa278f88e0"
+    },
+    {
       "path": "scripts/verify-graphic-prototypes.mjs",
-      "bytes": 8564,
-      "sha256": "0ef83ccb6ded988a43069e9688d747d5fba618fae746ff1d12051be6ea962b0b"
+      "bytes": 8943,
+      "sha256": "2e31be50f809c7d3c3d82e8555f15cf52ae8d418be25665abf39f3f3adf23cd6"
     },
     {
       "path": "scripts/verify-p10b-release.mjs",
@@ -156,18 +166,18 @@
     },
     {
       "path": "scripts/verify-p7b-rollout.mjs",
-      "bytes": 10579,
-      "sha256": "787f5b90a35c9a89de8edbfc41bb0b8196f3922cfc9c3f6e4fb880c29c3ecf7c"
+      "bytes": 10937,
+      "sha256": "406d6e1e6a259494c80a0f3785333f748f000dd83af6415163781d5f6164720d"
     },
     {
       "path": "scripts/verify-p7c-reader.mjs",
-      "bytes": 7346,
-      "sha256": "17c777af46fa53fb69deb608bf59a8ee2d1823e43c2254cc04032c9dbd5fb849"
+      "bytes": 7674,
+      "sha256": "6faed085a5ffb46e834f9be512bbe719cb2abff55e17284c7b55d95b969721f8"
     },
     {
       "path": "scripts/verify-p8-comic.mjs",
-      "bytes": 5365,
-      "sha256": "edc202339a58a3195db4b1f629ecc54d9ff73ec5f98f3528bf72211d3c1c2e8a"
+      "bytes": 5625,
+      "sha256": "4359306f8b5281a3d706d37356ad70bc91b2eef70cf40f95cca91b81d09c3e2e"
     },
     {
       "path": "scripts/verify-p8r1-ep01.mjs",
@@ -191,8 +201,8 @@
     },
     {
       "path": "scripts/verify-publication.mjs",
-      "bytes": 10787,
-      "sha256": "bde15b6a4bf41b28f2e8b122d04a81becc5a7c23d77a1f9cd9433b57eacfdc86"
+      "bytes": 11139,
+      "sha256": "c1461b2dfceb22dde8e4ca4de171418445fb841ed72cac18f18b5970a5a4322f"
     },
     {
       "path": "src/components/DocumentReader.astro",
